@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T16:52:41+00:00",
+ "generated": "2026-11-09T16:54:43+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -738,13 +738,13 @@
    "start": "16:25",
    "end": "17:25",
    "people": "Moderator: Ms. Natalie Corthésy | Speakers: Mr. Anderson Rocha; Ms. Kalpana Tyagi; Mr. Jakob Plesner Mathiasen; Mr. Marco Bassini; Ms. Imogen Heap",
-   "n_lines": 154,
+   "n_lines": 158,
    "method": "marker",
    "file": "d1-15_protecting-what-makes-us-human-is-ip-the-answer.txt",
    "actual_start": "2026-11-09T16:54:25+01:00",
-   "actual_end": "2026-11-09T17:52:35+01:00",
+   "actual_end": "2026-11-09T17:54:31+01:00",
    "line_from": 1879,
-   "line_to": 2032,
+   "line_to": 2036,
    "speakers": [
     {
      "key": "d1-15__ms-natalie-corthesy",
@@ -773,8 +773,8 @@
      "name": "Ms. Kalpana Tyagi",
      "affiliation": "Assistant Professor of Intellectual Property and Competition Law, Maastricht University, India",
      "role": "panelist",
-     "n_lines": 35,
-     "n_words": 1863,
+     "n_lines": 39,
+     "n_words": 2172,
      "n_turns": 4,
      "file": "d1-15__ms-kalpana-tyagi.txt",
      "method": "marker"
