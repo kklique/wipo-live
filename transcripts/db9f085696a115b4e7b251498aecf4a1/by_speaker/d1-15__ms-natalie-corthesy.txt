@@ -1,6 +1,6 @@
 # [d1-15] Protecting What Makes us Human - Is IP the Answer?
 # 발표자: Ms. Natalie Corthésy — Associate Dean of Teaching and Learning, Senior Lecturer in Law, The University of the West Indies, Mona Campus, Jamaica  (moderator)
-# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 12회 · 29문장 · 1,738단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 13회 · 31문장 · 1,796단어 · 구분 방식: marker
 
 So we reconvene at 4.45. See you in 15. Thank you very much. Welcome back from the coffee break. So let's get started.
 I hope you had a chance of another caffeine to recharge your battery? and the next session is going to personal. Imagine someone using AI to recreate your face. your voice, your your memories, perhaps even to make you appear to say or do something you never said or did. AI is getting better, at it every day.
@@ -42,3 +42,6 @@ the flexibility to muscle flex and stretch in that room. Thank you so much for t
 
 It carries all of her history. and it is full of the defects. but those are human defects. And those defects make the piece unique. Thank you. I absolutely love that. I hope I will have an opportunity to see her work. Well, I want to come back to Marco, if I may. I want to shift the discussion a little bit to the positive sides around this technology that is deepfake.
 surely there is a silver lining somewhere we are optimistic. that the technology can, in fact, if properly mobilized regulated can inure to the benefit of everyone, which is indeed hope that we offer incentives with a view to bringing that innovation the benefit of the wider public.
+
+And I really appreciate what was said before about finding a technical way to enforce. for example, the rights, I will say, to be forgotten in a way from AI model, for example.
+It gets difficult from a technical perspective because you do not know actually how the weights were learned and how that particular piece of information.

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T16:48:37+00:00",
+ "generated": "2026-11-09T16:50:39+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -738,22 +738,22 @@
    "start": "16:25",
    "end": "17:25",
    "people": "Moderator: Ms. Natalie Corthésy | Speakers: Mr. Anderson Rocha; Ms. Kalpana Tyagi; Mr. Jakob Plesner Mathiasen; Mr. Marco Bassini; Ms. Imogen Heap",
-   "n_lines": 142,
+   "n_lines": 146,
    "method": "marker",
    "file": "d1-15_protecting-what-makes-us-human-is-ip-the-answer.txt",
    "actual_start": "2026-11-09T16:54:25+01:00",
-   "actual_end": "2026-11-09T17:48:21+01:00",
+   "actual_end": "2026-11-09T17:49:58+01:00",
    "line_from": 1879,
-   "line_to": 2020,
+   "line_to": 2024,
    "speakers": [
     {
      "key": "d1-15__ms-natalie-corthesy",
      "name": "Ms. Natalie Corthésy",
      "affiliation": "Associate Dean of Teaching and Learning, Senior Lecturer in Law, The University of the West Indies, Mona Campus, Jamaica",
      "role": "moderator",
-     "n_lines": 29,
-     "n_words": 1738,
-     "n_turns": 12,
+     "n_lines": 31,
+     "n_words": 1796,
+     "n_turns": 13,
      "file": "d1-15__ms-natalie-corthesy.txt",
      "method": "marker"
     },
@@ -784,8 +784,8 @@
      "name": "Mr. Jakob Plesner Mathiasen",
      "affiliation": "Partner, Gorrissen Federspiel, Denmark",
      "role": "panelist",
-     "n_lines": 10,
-     "n_words": 590,
+     "n_lines": 14,
+     "n_words": 760,
      "n_turns": 3,
      "file": "d1-15__mr-jakob-plesner-mathiasen.txt",
      "method": "marker"
@@ -806,8 +806,8 @@
      "name": "Mr. Marco Bassini",
      "affiliation": "Assistant Professor of Fundamental Rights and Artificial Intelligence, Tilburg Institute for Law, Technology, and Society, Tilburg University, Italy",
      "role": "panelist",
-     "n_lines": 24,
-     "n_words": 1239,
+     "n_lines": 22,
+     "n_words": 1181,
      "n_turns": 3,
      "file": "d1-15__mr-marco-bassini.txt",
      "method": "marker"

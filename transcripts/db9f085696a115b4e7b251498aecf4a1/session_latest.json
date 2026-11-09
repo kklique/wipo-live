@@ -485,9 +485,9 @@
     {
       "description": "Ms. Natalie Corthésy",
       "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
-      "timestamp": "03:27:48",
-      "timestampCVC5": "2026-11-09T16:47:48",
-      "timestampSeconds": 12468
+      "timestamp": "03:27:32",
+      "timestampCVC5": "2026-11-09T16:47:32",
+      "timestampSeconds": 12452
     },
     {
       "description": "Mr. Jakob Plesner Mathiasen",
@@ -495,6 +495,20 @@
       "timestamp": "03:27:53",
       "timestampCVC5": "2026-11-09T16:47:53",
       "timestampSeconds": 12473
+    },
+    {
+      "description": "Ms. Natalie Corthésy",
+      "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+      "timestamp": "03:29:48",
+      "timestampCVC5": "2026-11-09T16:49:48",
+      "timestampSeconds": 12588
+    },
+    {
+      "description": "Ms. Kalpana Tyagi",
+      "personId": "81ee3a85-ea4e-45d2-ae74-08df3b2598d3",
+      "timestamp": "03:30:17",
+      "timestampCVC5": "2026-11-09T16:50:17",
+      "timestampSeconds": 12617
     }
   ],
   "markers_grouped": {
@@ -900,9 +914,9 @@
                   {
                     "description": "Ms. Natalie Corthésy",
                     "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
-                    "timestamp": "03:27:48",
-                    "timestampCVC5": "2026-11-09T16:47:48",
-                    "timestampSeconds": 12468
+                    "timestamp": "03:27:32",
+                    "timestampCVC5": "2026-11-09T16:47:32",
+                    "timestampSeconds": 12452
                   },
                   {
                     "description": "Mr. Jakob Plesner Mathiasen",
@@ -910,6 +924,20 @@
                     "timestamp": "03:27:53",
                     "timestampCVC5": "2026-11-09T16:47:53",
                     "timestampSeconds": 12473
+                  },
+                  {
+                    "description": "Ms. Natalie Corthésy",
+                    "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+                    "timestamp": "03:29:48",
+                    "timestampCVC5": "2026-11-09T16:49:48",
+                    "timestampSeconds": 12588
+                  },
+                  {
+                    "description": "Ms. Kalpana Tyagi",
+                    "personId": "81ee3a85-ea4e-45d2-ae74-08df3b2598d3",
+                    "timestamp": "03:30:17",
+                    "timestampCVC5": "2026-11-09T16:50:17",
+                    "timestampSeconds": 12617
                   }
                 ],
                 "subjectId": "5c4b21a8-f209-492f-9b8f-4996178c9dab",
