@@ -32,6 +32,20 @@ WIPO Live Speech-to-Text(`webcast.wipo.int/live-speech-to-text`)의 영문 실�
 - **저장소가 public 이면 수집 결과(`data` 브랜치)와 Actions 로그가 모두 공개된다.** 공개를 원치 않으면 private 로 둘 것.
   (private 저장소는 무료 플랜 기준 월 Actions 사용 시간 한도가 있다.)
 
+## 웹에서 보기 (GitHub Pages)
+
+`docs/index.html` 은 `data` 브랜치의 `transcript.txt` / `markers.jsonl` 을 브라우저가 30초마다 읽어 화면에 이어 붙이는 정적 뷰어다.
+검색, 맨 아래 따라가기, `.txt` 저장/복사, 발언자 마커 패널을 제공한다. (저장 자체는 2분마다 커밋되므로 화면은 최대 수 분 늦다.)
+
+켜는 방법 (저장소 설정, 1회):
+1. 저장소를 **public** 으로 (무료 플랜의 Pages 조건)
+2. 이 PR 을 `main` 에 머지
+3. Settings → Pages → *Build and deployment* → Source: **Deploy from a branch** → Branch: `main`, Folder: `/docs` → Save
+4. 잠시 후 `https://kklique.github.io/wipo-live/` 에서 열린다.
+
+URL 파라미터: `?id=<meeting_id>` (회의 선택), `?repo=owner/name`, `?branch=data`.
+데이터는 GitHub API(`contents`, ETag 재검증)로 읽고, 한도 초과 등으로 실패하면 `raw.githubusercontent.com` 으로 폴백한다.
+
 ## 로컬 실행
 
 ```bash

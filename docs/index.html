@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WIPO Live Transcript</title>
+<style>
+  :root {
+    --bg: #fafaf9; --fg: #1c1917; --muted: #78716c; --line: #e7e5e4;
+    --card: #ffffff; --accent: #2563eb; --mark: #fde68a; --ok: #16a34a; --err: #dc2626;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161412; --fg: #e7e5e4; --muted: #a8a29e; --line: #2b2724;
+      --card: #1e1b19; --accent: #60a5fa; --mark: #713f12; --ok: #4ade80; --err: #f87171;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-padding-top: 120px; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans KR", sans-serif; }
+  header { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line);
+           padding: 10px 16px; }
+  h1 { font-size: 16px; margin: 0 0 8px; font-weight: 600; }
+  .bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  select, input[type=search], button {
+    font: inherit; font-size: 14px; color: var(--fg); background: var(--card);
+    border: 1px solid var(--line); border-radius: 6px; padding: 5px 9px; }
+  select { max-width: 100%; }
+  input[type=search] { min-width: 160px; flex: 1 1 160px; }
+  button { cursor: pointer; }
+  button:hover { border-color: var(--accent); }
+  label.chk { font-size: 14px; color: var(--muted); display: inline-flex; gap: 5px; align-items: center; }
+  #status { font-size: 13px; color: var(--muted); margin-top: 6px; }
+  #status .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--muted); margin-right: 6px; }
+  #status.ok .dot { background: var(--ok); }
+  #status.err .dot { background: var(--err); }
+  main { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 20px;
+         max-width: 1200px; margin: 0 auto; padding: 16px; }
+  #transcript p { margin: 0 0 10px; padding-left: 52px; position: relative; }
+  #transcript p .n { position: absolute; left: 0; width: 44px; text-align: right; color: var(--muted);
+                     font-size: 12px; line-height: 2.1; font-variant-numeric: tabular-nums; user-select: none; }
+  mark { background: var(--mark); color: inherit; border-radius: 2px; }
+  #empty { color: var(--muted); padding: 40px 0; text-align: center; }
+  aside { align-self: start; position: sticky; top: 130px; max-height: calc(100vh - 150px); overflow: auto;
+          background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+  aside h2 { font-size: 14px; margin: 0 0 8px; position: sticky; top: -12px; background: var(--card); padding: 2px 0; }
+  aside ul { list-style: none; margin: 0; padding: 0; font-size: 13px; }
+  aside li { padding: 4px 0; border-bottom: 1px dashed var(--line); }
+  aside li time { color: var(--muted); font-variant-numeric: tabular-nums; margin-right: 6px; }
+  .hint { color: var(--muted); font-size: 12px; margin-top: 8px; }
+  @media (max-width: 860px) {
+    main { grid-template-columns: 1fr; }
+    aside { position: static; max-height: none; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>WIPO Live Speech-to-Text <span id="title-sub" style="color:var(--muted);font-weight:400"></span></h1>
+  <div class="bar">
+    <select id="meeting" aria-label="회의 선택"></select>
+    <input id="q" type="search" placeholder="검색 (일치하는 문장만 표시)" aria-label="검색">
+    <label class="chk"><input id="follow" type="checkbox" checked>맨 아래 따라가기</label>
+    <button id="dl" type="button">.txt 저장</button>
+    <button id="copy" type="button">복사</button>
+  </div>
+  <div id="status"><span class="dot"></span><span id="status-text">불러오는 중…</span></div>
+</header>
+
+<main>
+  <section id="transcript" aria-live="polite">
+    <div id="empty">아직 표시할 스크립트가 없습니다. 회의가 시작 전이거나 수집이 아직 시작되지 않았을 수 있습니다.</div>
+  </section>
+  <aside>
+    <h2>발언자 마커 <span id="mcount" style="color:var(--muted);font-weight:400"></span></h2>
+    <ul id="markers"></ul>
+    <div class="hint">WIPO 회의 시스템이 찍는 발언자/안건 표시입니다. 시각은 Geneva 현지 시간 기준이며,
+      수집 중 값이 채워지지 않으면 비어 있을 수 있습니다.</div>
+  </aside>
+</main>
+
+<script>
+"use strict";
+const q = new URLSearchParams(location.search);
+const [OWNER, REPO] = (q.get("repo") || "kklique/wipo-live").split("/");
+const BRANCH = q.get("branch") || "data";
+const DEFAULT_ID = "db9f085696a115b4e7b251498aecf4a1_no_delay";
+const POLL_MS = 30000;
+
+let meeting = q.get("id") || DEFAULT_ID;
+let lines = [];          // 현재 화면의 전체 문장
+let rendered = 0;        // 검색 없이 렌더링된 문장 수
+let query = "";
+let follow = true;
+let timer = null;
+
+const $ = (id) => document.getElementById(id);
+const el = { meeting: $("meeting"), q: $("q"), follow: $("follow"), tr: $("transcript"), empty: $("empty"),
+             markers: $("markers"), mcount: $("mcount"), status: $("status"), stext: $("status-text") };
+
+// GitHub API(raw)로 먼저 읽고(캐시 없이 ETag 재검증), 실패하면 raw.githubusercontent.com 으로 폴백.
+async function getText(path) {
+  const api = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}?ref=${BRANCH}`;
+  try {
+    const r = await fetch(api, { headers: { Accept: "application/vnd.github.raw" }, cache: "no-cache" });
+    if (r.status === 404) return null;
+    if (r.ok) return await r.text();
+  } catch (e) { /* 폴백 */ }
+  const raw = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/${path}?t=${Math.floor(Date.now() / 60000)}`;
+  const r2 = await fetch(raw, { cache: "no-cache" });
+  if (r2.status === 404) return null;
+  if (!r2.ok) throw new Error("HTTP " + r2.status);
+  return await r2.text();
+}
+
+async function loadMeetings() {
+  let ids = [];
+  try {
+    const r = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/transcripts?ref=${BRANCH}`, { cache: "no-cache" });
+    if (r.ok) ids = (await r.json()).filter((e) => e.type === "dir").map((e) => e.name);
+  } catch (e) { /* 기본값만 사용 */ }
+  if (!ids.includes(meeting)) ids.unshift(meeting);
+  el.meeting.innerHTML = "";
+  for (const id of ids) {
+    const o = document.createElement("option");
+    o.value = o.textContent = id;
+    if (id === meeting) o.selected = true;
+    el.meeting.appendChild(o);
+  }
+}
+
+function addLine(text, n) {
+  const p = document.createElement("p");
+  const num = document.createElement("span");
+  num.className = "n"; num.textContent = n;
+  p.appendChild(num);
+  if (query) {
+    const low = text.toLowerCase(); let i = 0, j;
+    while ((j = low.indexOf(query, i)) !== -1) {
+      p.appendChild(document.createTextNode(text.slice(i, j)));
+      const m = document.createElement("mark"); m.textContent = text.slice(j, j + query.length);
+      p.appendChild(m); i = j + query.length;
+    }
+    p.appendChild(document.createTextNode(text.slice(i)));
+  } else {
+    p.appendChild(document.createTextNode(text));
+  }
+  el.tr.appendChild(p);
+}
+
+function renderAll() {
+  el.tr.innerHTML = "";
+  let shown = 0;
+  lines.forEach((t, i) => {
+    if (!query || t.toLowerCase().includes(query)) { addLine(t, i + 1); shown++; }
+  });
+  rendered = lines.length;
+  if (!shown) { el.tr.appendChild(el.empty); el.empty.textContent = query ? "검색 결과가 없습니다." :
+    "아직 표시할 스크립트가 없습니다. 회의가 시작 전이거나 수집이 아직 시작되지 않았을 수 있습니다."; }
+}
+
+function applyTranscript(text) {
+  const next = (text || "").split("\n").map((s) => s.trim()).filter(Boolean);
+  const grew = next.length >= lines.length && lines.every((t, i) => t === next[i]);
+  const old = lines.length;
+  lines = next;
+  if (!query && grew && old > 0) {            // 이어 붙이기만 하면 되는 경우
+    for (let i = old; i < lines.length; i++) addLine(lines[i], i + 1);
+    rendered = lines.length;
+  } else {
+    renderAll();
+  }
+  if (follow && lines.length !== old) window.scrollTo({ top: document.body.scrollHeight });
+}
+
+function fmtTime(iso) { return (iso || "").slice(11, 19); }
+
+function applyMarkers(text) {
+  const seen = new Set(), list = [];
+  for (const row of (text || "").split("\n")) {
+    if (!row.trim()) continue;
+    let o; try { o = JSON.parse(row); } catch (e) { continue; }
+    for (const m of o.new_markers || []) {
+      const k = JSON.stringify(m);
+      if (!seen.has(k)) { seen.add(k); list.push(m); }
+    }
+  }
+  list.sort((a, b) => String(a.timestampCVC5).localeCompare(String(b.timestampCVC5)));
+  el.markers.innerHTML = "";
+  for (const m of list) {
+    const li = document.createElement("li");
+    const t = document.createElement("time"); t.textContent = fmtTime(m.timestampCVC5);
+    li.appendChild(t); li.appendChild(document.createTextNode(m.description || ""));
+    el.markers.appendChild(li);
+  }
+  el.mcount.textContent = list.length ? `(${list.length})` : "";
+  if (follow) el.markers.parentElement.scrollTop = el.markers.parentElement.scrollHeight;
+}
+
+function setStatus(kind, msg) { el.status.className = kind; el.stext.textContent = msg; }
+
+async function refresh() {
+  const base = `transcripts/${meeting}`;
+  try {
+    const [t, m] = await Promise.all([getText(`${base}/transcript.txt`), getText(`${base}/markers.jsonl`).catch(() => null)]);
+    if (t === null) {
+      lines = []; renderAll(); applyMarkers(m);
+      setStatus("", "이 회의의 저장 데이터가 아직 없습니다. 수집이 시작되면 자동으로 표시됩니다.");
+    } else {
+      applyTranscript(t); applyMarkers(m);
+      setStatus("ok", `${lines.length.toLocaleString()}문장 · 마지막 확인 ${new Date().toLocaleTimeString()} · ${POLL_MS / 1000}초마다 자동 갱신`);
+    }
+  } catch (e) {
+    setStatus("err", `불러오기 실패 (${e.message}). 잠시 후 다시 시도합니다.`);
+  }
+}
+
+function start() {
+  clearInterval(timer);
+  lines = []; rendered = 0; el.tr.innerHTML = ""; el.tr.appendChild(el.empty);
+  $("title-sub").textContent = "· " + meeting;
+  refresh();
+  timer = setInterval(() => { if (!document.hidden) refresh(); }, POLL_MS);
+}
+
+el.meeting.addEventListener("change", () => {
+  meeting = el.meeting.value;
+  const u = new URL(location.href); u.searchParams.set("id", meeting); history.replaceState(null, "", u);
+  start();
+});
+el.q.addEventListener("input", () => { query = el.q.value.trim().toLowerCase(); renderAll(); });
+el.follow.addEventListener("change", () => { follow = el.follow.checked; });
+window.addEventListener("scroll", () => {
+  const nearBottom = window.innerHeight + window.scrollY >= document.body.scrollHeight - 120;
+  if (!nearBottom && follow) { follow = false; el.follow.checked = false; }
+});
+$("dl").addEventListener("click", () => {
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([lines.join("\n") + "\n"], { type: "text/plain;charset=utf-8" }));
+  a.download = `${meeting}.txt`; a.click(); URL.revokeObjectURL(a.href);
+});
+$("copy").addEventListener("click", async (e) => {
+  try { await navigator.clipboard.writeText(lines.join("\n")); e.target.textContent = "복사됨"; }
+  catch (err) { e.target.textContent = "복사 실패"; }
+  setTimeout(() => { e.target.textContent = "복사"; }, 1500);
+});
+document.addEventListener("visibilitychange", () => { if (!document.hidden) refresh(); });
+
+loadMeetings().then(start);
+</script>
+</body>
+</html>
