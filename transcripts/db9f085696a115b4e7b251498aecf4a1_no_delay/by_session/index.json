@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T14:44:27+00:00",
+ "generated": "2026-11-09T14:46:29+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -570,13 +570,13 @@
    "start": "15:10",
    "end": "16:10",
    "people": "Speakers: Mr. Andres Guadamuz; Mr. Wang Qian; Mr. Edward Lee",
-   "n_lines": 71,
+   "n_lines": 78,
    "method": "marker",
    "file": "d1-13_one-stop-shop-keeping-up-with-ip-and-ai.txt",
    "actual_start": "2026-11-09T15:00:31+01:00",
-   "actual_end": "2026-11-09T15:44:10+01:00",
+   "actual_end": "2026-11-09T15:46:25+01:00",
    "line_from": 661,
-   "line_to": 895,
+   "line_to": 902,
    "speakers": [
     {
      "key": "d1-13__unknown",
@@ -638,8 +638,8 @@
      "name": "Mr. Andres Guadamuz",
      "affiliation": "Reader in Intellectual Property Law, University of Sussex, Costa Rica",
      "role": "panelist",
-     "n_lines": 6,
-     "n_words": 256,
+     "n_lines": 13,
+     "n_words": 599,
      "n_turns": 1,
      "file": "d1-13__mr-andres-guadamuz.txt",
      "method": "marker"
