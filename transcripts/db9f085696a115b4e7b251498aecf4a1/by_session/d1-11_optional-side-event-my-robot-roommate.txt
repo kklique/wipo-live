@@ -1,9 +1,21 @@
 # [d1-11] Optional Side Event - My Robot "Roommate"
 # Day 1 · 2026-11-09 · 예정 14:30-15:00 (Geneva)
 # Speaker: Ms. Emily Kate Genatowski
-# 실제 구간 14:35:49-14:36:59 · 4문장 · 경계 방식: marker
+# 실제 구간 14:35:49-14:38:53 · 16문장 · 경계 방식: marker
 
 Yeah. She is got to visit us. I hope so. No, no, I want to picture it up there. 嗯 Yeah, he is like, I know it on, especially since we kind of promised one of those who all the people who stopped by our booth during the General Assemblies back in July. Exactly. So when I first met Emily Kate a few months ago, it immediately felt obvious we just had to invite her to the global forum. Emily Kate Janowski is an AI Domestic Robotics Researcher and PhD candidate in Digital Humanities at the University of Vienna.
 For the past two years she has been living with TOVA, a Uni3 robot in Austria turning her own apartment into a real -world robotics lab. Due to unforeseen circumstances involving custom fees and train travel, Tova unfortunately could not join us today. So Emily is here today with another Unitry robot.
 She will share her perspective on the transparency we need to ensure that cutting -edge innovation can move beyond the lab. and meaningfully improve the world we live in. She is joining us today to talk about what actually happens when embodied AI moves out of the lab and into everyday life. The practical, social and governance questions that start to appear. introduction.
 I really appreciate it. Yes, this is my new friend.
+This is not the robot that I live with full time. However, we do have represented, here we go, on the slides, that is my robot. My robot's name is Tova. So Tova has lived in my Viennese residence for the last two years straight. And I am here today to talk to you a little bit about some of the pitfalls or as I put it, some of the comedies of error that can really have a lot of really wonderful lessons for us as we get to the point of deployment and we kind of look at the issues with interoperability.
+So I conduct this research in Vienna, and as can see the robot helps me every morning.
+It helps me walk my dog in the local square.
+I love the laster. Yes, the robot got a job in a local cafe.
+Vienna is famous for its beautiful cafes.
+It actually works at a very modern and chic one that serves matcha, which is very rare in Vienna. It drops a lot of plates and spills a lot of matcha, but it is there. and it definitely helps us to talk about taxation reform. And then it also goes on errands with me.
+So not only does it do social things with me, here you see it actually going with me to my local flower shop.
+It is a mom and pop shop, and we picked up an orchid as a hostess ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, why?
+Why did I do this?
+Is the very obvious and understandable question.
+So I am looking at three areas of intersection that intersect with life with a robot.
+So I look at legal regulation, institutional policy, and tangible and intangible infrastructure.
