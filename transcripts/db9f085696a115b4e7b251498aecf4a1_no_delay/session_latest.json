@@ -234,9 +234,9 @@
     {
       "description": "Ms. Ulrike Till",
       "personId": "e43c4a9d-684b-499d-a3de-fdcac48abfa9",
-      "timestamp": "01:46:52",
-      "timestampCVC5": "2026-11-09T15:06:52",
-      "timestampSeconds": 6412
+      "timestamp": "01:46:44",
+      "timestampCVC5": "2026-11-09T15:06:44",
+      "timestampSeconds": 6404
     },
     {
       "description": "Mr. Wang Qian",
@@ -406,9 +406,9 @@
                   {
                     "description": "Ms. Ulrike Till",
                     "personId": "e43c4a9d-684b-499d-a3de-fdcac48abfa9",
-                    "timestamp": "01:46:52",
-                    "timestampCVC5": "2026-11-09T15:06:52",
-                    "timestampSeconds": 6412
+                    "timestamp": "01:46:44",
+                    "timestampCVC5": "2026-11-09T15:06:44",
+                    "timestampSeconds": 6404
                   },
                   {
                     "description": "Mr. Wang Qian",

@@ -1,7 +1,7 @@
 # [d1-15] Protecting What Makes us Human - Is IP the Answer?
 # Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva)
 # Moderator: Ms. Natalie Corthésy | Speakers: Mr. Anderson Rocha; Ms. Kalpana Tyagi; Mr. Jakob Plesner Mathiasen; Mr. Marco Bassini; Ms. Imogen Heap
-# 실제 구간 16:17:07-16:21:04 · 12문장 · 경계 방식: cue
+# 실제 구간 16:17:07-16:23:04 · 18문장 · 경계 방식: cue
 
 So the final product reflects human intellectual creativity. Similarly, Vietnam's new copyright decree makes it clear that content only gets copyright protection when humans have made a significant and decisive contribution to ensure that the final result accurately reflects their creative intent rather than the random or automatic arrangement of their algorithm.
 The draft registration guidelines released by the Philippines emphasize that works are eligible for registration only when they contain original expressions. resulting from human authors. creative contribution and meet the originality requirements merely providing text prompts or instructions to AI. should not by itself establish sufficient human creative contribution. Obviously, there is growing consensus in Asia that protecting content autonomously produced by AI will put the fundamental values in the principles of copyright law in crosshairs.
@@ -15,3 +15,9 @@ The other one wants to obtain it. Yet they face a related difficulty. Because co
 And third, once permission is granted, can anyone actually reliably establish what it covers? So first, take the publisher. and think of two switches.
 First, she wants to have search indexing on, and second, a particular AI use of.
 If the switches were wired together, refusing the AIUs may mean losing the readers that she depends on.
+And on June 3rd, the UK competition and Market Authority imposed an interesting conduct requirement on Google concerning publishers and AI features in search, following its designation with strategic market status in the general search services market. And it provides for more effective publisher controls over specified AI users together with attribution and other safeguards. But what makes the intervention by the CMA interesting is the institutional choice.
+a competition authority, acted to protect the practical ability of publishers and IP owner to make decisions about the uses of their content. recognizing that a right to refuse is one thing. but making it possible to actually refuse without sacrificing unrelated commercial opportunity. is quite another. Second, now let's talk about competitive entry and return to the developer who wants permission Alina talked about this in 2024, the News Corp and OpenAI announced an agreement covering current and archived journalism.
+Such arrangements can offer important benefits, publishers obtain compensation, developers obtain consent on agreed terms.
+But the relevant cost has got two components.
+One is the payment for using Copyrighted Works, and the other is the expense of actually finding the rights holders establishing who can grant which rights and negotiating the agreements. So consider the wall of developer.
+You have a major tech company. on one hand, who may have a team of a lot of... people. a great team capable of managing hundreds of agreements. The world of developer, a small, maybe medium-sized company, probably does not.
