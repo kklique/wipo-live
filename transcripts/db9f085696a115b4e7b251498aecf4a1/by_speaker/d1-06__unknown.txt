@@ -1,0 +1,13 @@
+# [d1-06] Insight: IP at the Table - Making IP Part of the Wider AI Policy Landscape
+# 발표자: (진행/도입)  (unknown)
+# Day 1 · 2026-11-09 · 예정 11:05-11:25 (Geneva) · 발언 1회 · 9문장 · 362단어 · 구분 방식: marker
+
+and intellectual property. In doing so, this forum provides a vital opportunity. to move beyond theory, allowing us to exchange concrete best practices, harmonize regulatory insights, and collaboratively architect a jurisprudence that is balanced equitable, and globally aligned. Earlier this year, Zimbabwe proudly launched its National Artificial Intelligence Strategy for 2026 to 2030.
+We do not view AI merely as a novel technology. but as a catalyst for inclusive growth. enhanced public service delivery and economic diversification, while the state will fulfill its duty to provide robust regulatory direction and enabling legal environment, the true vanguard of this revolution will be the unyielding creativity of our people, nurtured within our universities and propelled by our private sector.
+Zimbabwe's vision is rooted in fostering local agency and authorship within this digital economy, a principle that serves as the bedrock of our national artificial intelligence strategy.
+This strategy does not merely seek to adopt technology. It intentionally builds domestic capacity across critical pillars from sustainable digital infrastructure. to targeted human capital development. Our young innovators are already translating this policy into practice. pioneering localized solutions to uniquely domestic challenges. A prime example is CropFix, an AI-enabled pest and disease diagnostic tool.
+developed by a youth -led starter.
+To sustain this momentum, we aggressively investing, we are aggressively investing in human capital through our new software developer skills development hub. and specialized trainings for agricultural extension officers. However, for this ecosystem to thrive, our legal frameworks must keep pace. Our current copyright and patent laws were not designed for the complexities of the digital age, making IP reform our most immediate priority.
+Mr. DG, the primary legislation governing intellectual property rights for creators, performers and broadcast organizations in Zimbabwe is the Copyright and Neighboring Rights Act, Chapter 26. .
+05. The Act defines an author strictly as an individual. Consequently, works generated entirely by AI face a legal vacuum. Therefore, the law must be clarified ownership rights and defined threshold of human input required for legal protection. Furthermore, Mr. DG, AI training models rely on the consumption of vast data sets.
+Our regulatory framework remains silent on whether fair dealing exemptions cover commercial AI training.
