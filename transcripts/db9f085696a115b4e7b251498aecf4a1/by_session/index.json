@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T13:51:31+00:00",
+ "generated": "2026-11-09T13:53:33+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -505,13 +505,13 @@
    "start": "14:30",
    "end": "15:00",
    "people": "Speaker: Ms. Emily Kate Genatowski",
-   "n_lines": 64,
+   "n_lines": 71,
    "method": "marker",
    "file": "d1-11_optional-side-event-my-robot-roommate.txt",
    "actual_start": "2026-11-09T14:35:49+01:00",
-   "actual_end": "2026-11-09T14:51:10+01:00",
+   "actual_end": "2026-11-09T14:53:10+01:00",
    "line_from": 1531,
-   "line_to": 1594,
+   "line_to": 1601,
    "speakers": [
     {
      "key": "d1-11__unknown",
@@ -529,8 +529,8 @@
      "name": "Ms. Emily Kate Genatowski",
      "affiliation": "AI Domestic Robotics Researcher, PhD candidate in Digital Humanities, University of Vienna, United States of America",
      "role": "speaker",
-     "n_lines": 62,
-     "n_words": 2489,
+     "n_lines": 69,
+     "n_words": 2840,
      "n_turns": 1,
      "file": "d1-11__ms-emily-kate-genatowski.txt",
      "method": "marker"

@@ -525,3 +525,10 @@ I said, we are inside.
 Where are you?
 What are you doing?
 It was on a shopping street in Vienna.
+Someone had bought the same robot. And then it was this consensus that my robot was out and about without me. So we have these very funny of course, very funny situations and very funny stories that point to something very real, which is that there's not really any legal tether between myself and my robot, and there's nothing that really proves or identifies on the robot that it is its own unique individual.
+That could be considered any form of, as we put it, accountability. you will see a little bit later, any form of accountability under the law.
+So we have this concept, and this concept I will say is a little bit tricky because I was advocating for a while to try to get the humanoid robots under the EUDI wallet.
+This was very, very tricky because there were a lot of people that I met with in government positions who said, yes, but that is a slippery slope to personhood.
+So we absolutely will not do it, which I understand the argument.
+I completely see where they are going with this. And yet, however, we still need to develop some form of certification or identification measures. Then we have the concept of energy management as we spoke about. This could be battery swaps and interoperable batteries that we could try to use. or this could be some form of a charger that works for all different battery types, even if the battery has to be different based on the construction of the actual robot.
+If we could have the slides back a little bit, I would love to see them. I will go like this. Amazing. Cybersecurity and privacy. I cannot tell you how many times I have been invited to a talk and then last minute, disinvited because they were not sure how to prove the cybersecurity and the safety of the actual robot with their team in this particular location. So there are a lot of issues when it comes to trying to standardize the cyber security of the software that is inside the robot.
