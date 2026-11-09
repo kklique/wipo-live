@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T09:20:25+00:00",
+ "generated": "2026-11-09T09:22:27+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -83,21 +83,21 @@
    "start": "10:15",
    "end": "10:45",
    "people": "",
-   "n_lines": 13,
+   "n_lines": 16,
    "method": "schedule",
    "file": "d1-03_ministerial-level-remarks.txt",
    "actual_start": "2026-11-09T10:15:10+01:00",
-   "actual_end": "2026-11-09T10:20:23+01:00",
+   "actual_end": "2026-11-09T10:21:53+01:00",
    "line_from": 34,
-   "line_to": 46,
+   "line_to": 49,
    "speakers": [
     {
      "key": "d1-03__unknown",
      "name": "(발표자 구분 불가)",
      "affiliation": "",
      "role": "unknown",
-     "n_lines": 13,
-     "n_words": 700,
+     "n_lines": 16,
+     "n_words": 932,
      "n_turns": 1,
      "file": "d1-03__unknown.txt",
      "method": "none"
