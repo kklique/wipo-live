@@ -532,18 +532,18 @@
       "timestampSeconds": 12501
     },
     {
-      "description": "CHAIR",
-      "personId": "ec07df79-cc36-48c1-acea-301e6dddfad4",
-      "timestamp": "03:29:14",
-      "timestampCVC5": "2026-11-09T12:19:14",
-      "timestampSeconds": 12554
-    },
-    {
       "description": "Insight: Painting by Numbers - The Power of IP Data  ",
       "subjectId": "049ee03f-283f-44c9-b4cf-60fb41a2b6b1",
-      "timestamp": "03:30:20",
-      "timestampCVC5": "2026-11-09T12:20:20",
-      "timestampSeconds": 12620
+      "timestamp": "03:28:40",
+      "timestampCVC5": "2026-11-09T12:18:40",
+      "timestampSeconds": 12520
+    },
+    {
+      "description": "Mr. Garrett Levin",
+      "personId": "45b026fc-05cf-4844-a3a6-5f79301df7e9",
+      "timestamp": "03:28:41",
+      "timestampCVC5": "2026-11-09T12:18:41",
+      "timestampSeconds": 12521
     },
     {
       "description": "Mr. Andrew Toole",
@@ -1007,13 +1007,6 @@
                     "timestamp": "03:28:21",
                     "timestampCVC5": "2026-11-09T12:18:21",
                     "timestampSeconds": 12501
-                  },
-                  {
-                    "description": "CHAIR",
-                    "personId": "ec07df79-cc36-48c1-acea-301e6dddfad4",
-                    "timestamp": "03:29:14",
-                    "timestampCVC5": "2026-11-09T12:19:14",
-                    "timestampSeconds": 12554
                   }
                 ],
                 "subjectId": "59023b79-b078-455c-a939-254b6858c034",
@@ -1029,6 +1022,13 @@
                 "description": "Insight: Painting by Numbers - The Power of IP Data  ",
                 "list_markers": [
                   {
+                    "description": "Mr. Garrett Levin",
+                    "personId": "45b026fc-05cf-4844-a3a6-5f79301df7e9",
+                    "timestamp": "03:28:41",
+                    "timestampCVC5": "2026-11-09T12:18:41",
+                    "timestampSeconds": 12521
+                  },
+                  {
                     "description": "Mr. Andrew Toole",
                     "personId": "54794eb5-3f8a-4da2-ae6f-08df3b2598d3",
                     "timestamp": "03:30:37",
@@ -1037,9 +1037,9 @@
                   }
                 ],
                 "subjectId": "049ee03f-283f-44c9-b4cf-60fb41a2b6b1",
-                "timestamp": "03:30:20",
-                "timestampCVC5": "2026-11-09T12:20:20",
-                "timestampSeconds": 12620
+                "timestamp": "03:28:40",
+                "timestampCVC5": "2026-11-09T12:18:40",
+                "timestampSeconds": 12520
               }
             ]
           }
@@ -1173,6 +1173,13 @@
       "email": "",
       "id": "b48abf68-5102-455c-8faa-3abb4846c844",
       "name": "Mr. Hesham Azmi",
+      "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "Senior IP Law and Policy Officer on IP and Frontier Technologies, WIPO",
+      "email": "",
+      "id": "45b026fc-05cf-4844-a3a6-5f79301df7e9",
+      "name": "Mr. Garrett Levin",
       "photoUrl": "./assets/images/noPicSpeaker.png "
     },
     {
