@@ -268,23 +268,23 @@
     },
     {
       "description": "Session Break",
-      "timestamp": "02:15:00",
-      "timestampCVC5": "2026-11-09T15:35:00",
-      "timestampSeconds": 8100
+      "timestamp": "02:12:05",
+      "timestampCVC5": "2026-11-09T15:32:05",
+      "timestampSeconds": 7925
     },
     {
       "description": "Protecting What Makes us Human - Is IP the Answer? ",
       "subjectId": "5c4b21a8-f209-492f-9b8f-4996178c9dab",
-      "timestamp": "02:36:17",
-      "timestampCVC5": "2026-11-09T15:56:17",
-      "timestampSeconds": 9377
+      "timestamp": "02:33:40",
+      "timestampCVC5": "2026-11-09T15:53:40",
+      "timestampSeconds": 9220
     },
     {
       "description": "CHAIR",
       "personId": "ec07df79-cc36-48c1-acea-301e6dddfad4",
-      "timestamp": "02:36:21",
-      "timestampCVC5": "2026-11-09T15:56:21",
-      "timestampSeconds": 9381
+      "timestamp": "02:33:41",
+      "timestampCVC5": "2026-11-09T15:53:41",
+      "timestampSeconds": 9221
     },
     {
       "description": "Ms. Natalie Corthésy",
@@ -299,6 +299,13 @@
       "timestamp": "02:38:11",
       "timestampCVC5": "2026-11-09T15:58:11",
       "timestampSeconds": 9491
+    },
+    {
+      "description": "Ms. Natalie Corthésy",
+      "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+      "timestamp": "02:41:15",
+      "timestampCVC5": "2026-11-09T16:01:15",
+      "timestampSeconds": 9675
     }
   ],
   "markers_grouped": {
@@ -481,9 +488,9 @@
                   },
                   {
                     "description": "Session Break",
-                    "timestamp": "02:15:00",
-                    "timestampCVC5": "2026-11-09T15:35:00",
-                    "timestampSeconds": 8100
+                    "timestamp": "02:12:05",
+                    "timestampCVC5": "2026-11-09T15:32:05",
+                    "timestampSeconds": 7925
                   }
                 ],
                 "subjectId": "1fda6de4-644a-4a61-af86-3dccad676ba9",
@@ -501,9 +508,9 @@
                   {
                     "description": "CHAIR",
                     "personId": "ec07df79-cc36-48c1-acea-301e6dddfad4",
-                    "timestamp": "02:36:21",
-                    "timestampCVC5": "2026-11-09T15:56:21",
-                    "timestampSeconds": 9381
+                    "timestamp": "02:33:41",
+                    "timestampCVC5": "2026-11-09T15:53:41",
+                    "timestampSeconds": 9221
                   },
                   {
                     "description": "Ms. Natalie Corthésy",
@@ -518,12 +525,19 @@
                     "timestamp": "02:38:11",
                     "timestampCVC5": "2026-11-09T15:58:11",
                     "timestampSeconds": 9491
+                  },
+                  {
+                    "description": "Ms. Natalie Corthésy",
+                    "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+                    "timestamp": "02:41:15",
+                    "timestampCVC5": "2026-11-09T16:01:15",
+                    "timestampSeconds": 9675
                   }
                 ],
                 "subjectId": "5c4b21a8-f209-492f-9b8f-4996178c9dab",
-                "timestamp": "02:36:17",
-                "timestampCVC5": "2026-11-09T15:56:17",
-                "timestampSeconds": 9377
+                "timestamp": "02:33:40",
+                "timestampCVC5": "2026-11-09T15:53:40",
+                "timestampSeconds": 9220
               }
             ]
           }
