@@ -223,6 +223,13 @@
       "timestamp": "01:22:16",
       "timestampCVC5": "2026-11-09T14:42:16",
       "timestampSeconds": 4936
+    },
+    {
+      "description": "Ms. Rachel Free",
+      "personId": "a9b43a9c-1030-48c7-ac0d-fa5731698931",
+      "timestamp": "01:35:40",
+      "timestampCVC5": "2026-11-09T14:55:40",
+      "timestampSeconds": 5740
     }
   ],
   "markers_grouped": {
@@ -360,6 +367,13 @@
                     "timestamp": "01:22:16",
                     "timestampCVC5": "2026-11-09T14:42:16",
                     "timestampSeconds": 4936
+                  },
+                  {
+                    "description": "Ms. Rachel Free",
+                    "personId": "a9b43a9c-1030-48c7-ac0d-fa5731698931",
+                    "timestamp": "01:35:40",
+                    "timestampCVC5": "2026-11-09T14:55:40",
+                    "timestampSeconds": 5740
                   }
                 ],
                 "subjectId": "1fda6de4-644a-4a61-af86-3dccad676ba9",
@@ -430,6 +444,13 @@
       "id": "477c32df-9098-49dc-8adb-c9f6b13a15ed",
       "name": "Mr. Andres Guadamuz",
       "photoUrl": "https://amcpwewipoassets.blob.core.windows.net/assets/c1bee701-78e4-4ab4-96d1-7169972e30bb.png"
+    },
+    {
+      "bio": "Dr. Rachel Free is a partner in the patent team at International Law Firm CMS where she helps clients to protect their technology through patents. She has an MSc in Artificial Intelligence and a DPhil in Vision Science. She qualified as a European and UK patent attorney in the last century and has worked on AI patent drafting and prosecution through her career. Rachel is a member of the All Party Parliamentary Group on AI (APPG AI) which advises parliamentarians regarding AI. She is vice Chair of the Chartered Institute of Patent Attorneys (CIPA) computer technology committee.",
+      "email": "",
+      "id": "a9b43a9c-1030-48c7-ac0d-fa5731698931",
+      "name": "Ms. Rachel Free",
+      "photoUrl": "https://amcpwewipoassets.blob.core.windows.net/assets/66a1a83b-c0d4-4d62-ada7-1c038a28d6a8.jpg"
     },
     {
       "bio": "Director, IP and Frontier\nTechnologies Division, Infrastructure and Platforms Sector,\nWIPO, Geneva\n\nDr. Ulrike Till is the Director of the IP and Frontier Technologies Division at WIPO.\n\nShe is anexperienced IP and patent lawyer with significant commercial background and exposure to complex\ninternational patent litigation, data exclusivity issues, commercial negotiations, competition law, settlements and agreements. In her current role, Ulrike focus on the wide reaching IP policy implications arising from digitalization, industry 4.0 and frontier technologies.\n\nUlrike is qualified both as an English solicitor and German Rechtsanwalt and has practiced in both jurisdictions. She has a technical background with a PhD in Chemistry, management training",

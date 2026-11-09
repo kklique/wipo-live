@@ -1,7 +1,7 @@
 # [d1-13] One-Stop Shop: Keeping up with IP and AI
 # Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva)
 # Speakers: Mr. Andres Guadamuz; Mr. Wang Qian; Mr. Edward Lee
-# 실제 구간 15:00:31-15:54:21 · 93문장 · 경계 방식: marker
+# 실제 구간 15:00:31-15:56:27 · 98문장 · 경계 방식: marker
 
 Thank you. Good afternoon.
 What a fascinating topics we discussed today. So welcome back.
@@ -96,3 +96,8 @@ alarm.
 I'll go very quickly. There was an injunction that favored mostly OpenAI, analyzed for use and -- sorry. and actually analyze for use under the U.S. because the training had taken place in the U.S. It's very, very fascinating decision. I highly recommend it. So, again, very quickly, China with had three all the three legal situations have happened. I am missing a lot of cases. on the authorship question.
 China has been at the forefront of the authorship question. There has been cases starting in 2023 about image protecting images that have been generated images and videos and dramas that have been generated under AI, starting with Li and Liu. and most recently there was a video that was protected in Shenzhen, if I remember correctly. and two cases. one against platforms and one against outputs, both related to Ultraman and if you are fans of Japanese of life, Japanese action from the '70s, you will realize that this is actually not Ultraman.
 This is a mid -journeys version of Ultraman. I am respecting copyright. Just briefly, and the rest of the world, we have had a case in Brazil, FOLA and OpenAI. and this did not produce a result. and missing is a case that is going, it was in Argentina in sorry I'm running out of time. time.
+It was filed in Argentina in August. and it's publishers against OpenAI and Microsoft. The rest of the world, we haven't had cases. If you know of any cases, please let us know. And with that I think I was going to conclude, but I think I ran out of time. Thank thank you very much. Thank you so much, Andres. I recognize we have set our speakers an impossible task, ten minutes of all of the developments.
+while slowing down for the AI. So we're running a little bit behind. but there's lots of good things there. Of course, not every important development comes from the courtroom, although it might seem like it from two presentations we've had so far. IP offices are also having to address new questions as AI changes both innovation and the way IP rights and patents are For the developments in IP office practice, the policymakers should have on their radar, we have invited Ms. Rachel Free, partner at CMS.
+Rachel, the floor is yours. Hello, everybody. Thank you very much for inviting me.
+My name is Free.
+I'm a partner in an international law firm called CMS. where we have a team of patent attorneys. I'm going to tell you about three things. The UK Supreme Court case, the AI tools in patent application work. and trends in prosecution of AI patent applications. at the European Patent Office. Next slide, please. So in the UK, we have had a Supreme Court case where emotional perception is a company.
