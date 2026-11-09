@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T10:13:05+00:00",
+ "generated": "2026-11-09T10:15:07+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -261,13 +261,13 @@
    "start": "11:05",
    "end": "11:25",
    "people": "",
-   "n_lines": 14,
+   "n_lines": 17,
    "method": "schedule",
    "file": "d1-06_insight-ip-at-the-table-making-ip-part-of-the-wi.txt",
    "actual_start": "2026-11-09T11:05:12+01:00",
-   "actual_end": "2026-11-09T11:12:01+01:00",
+   "actual_end": "2026-11-09T11:14:46+01:00",
    "line_from": 226,
-   "line_to": 239,
+   "line_to": 242,
    "speakers": [
     {
      "key": "d1-06__unknown",
@@ -289,6 +289,17 @@
      "n_words": 487,
      "n_turns": 1,
      "file": "d1-06__h-e-mr-kamal-shehadi.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-06__h-e-mr-ziyambi-ziyambi",
+     "name": "H.E. Mr. Ziyambi Ziyambi",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 3,
+     "n_words": 197,
+     "n_turns": 1,
+     "file": "d1-06__h-e-mr-ziyambi-ziyambi.txt",
      "method": "marker"
     }
    ]
