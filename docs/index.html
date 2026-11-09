@@ -96,6 +96,9 @@
             border-radius: 8px; }
   .script .meta { font-size: 12px; color: var(--muted); margin-bottom: 8px; white-space: pre-line; }
   .script .acts { display: flex; gap: 8px; margin-bottom: 10px; }
+  .script .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+  .chip { font-size: 12px; padding: 2px 10px; border-radius: 12px; }
+  .chip[aria-pressed=true] { background: var(--accent); color: #fff; border-color: var(--accent); }
   .script p { margin: 0 0 8px; }
   .script .note { font-size: 12px; color: var(--muted); margin-top: 8px; }
   @media (max-width: 640px) {
@@ -299,13 +302,21 @@ function applyMarkers(text) {
 async function refreshSaved() {
   const base = `transcripts/${meeting}`;
   try {
-    const [t, m] = await Promise.all([getText(`${base}/transcript.txt`), getText(`${base}/markers.jsonl`).catch(() => null)]);
+    const [t, m, st] = await Promise.all([getText(`${base}/transcript.txt`), getText(`${base}/markers.jsonl`).catch(() => null),
+                                          getText(`${base}/state.json`).catch(() => null)]);
     if (t === null) {
       lines = []; renderAll(); applyMarkers(m);
       setStatus("full", "", "저장본", "이 회의의 저장 데이터가 아직 없습니다. 수집이 시작되면 자동으로 표시됩니다.");
     } else {
       applyTranscript(t); applyMarkers(m);
-      setStatus("full", "ok", "저장본", `${lines.length.toLocaleString()}문장 · 마지막 확인 ${new Date().toLocaleTimeString()} · ` +
+      // 수집기 상태: state.json 의 updated(수집기가 매 폴링마다 기록) 가 6분 넘게 갱신 안 되면 경고
+      let kind = "ok", beat = "";
+      try {
+        const mins = Math.max(0, Math.round((Date.now() - new Date(JSON.parse(st).updated)) / 60000));
+        beat = ` · 수집기 마지막 저장 ${mins}분 전` + (mins > 6 ? " ⚠ 수집이 멈췄거나 회의가 끝났을 수 있습니다" : "");
+        if (mins > 6) kind = "warn";
+      } catch (e) { /* state.json 없음 */ }
+      setStatus("full", kind, "저장본", `${lines.length.toLocaleString()}문장 · 마지막 확인 ${new Date().toLocaleTimeString()}${beat} · ` +
         `${SAVED_POLL_MS / 1000}초마다 갱신 (저장은 약 2분 간격이므로 최신 내용은 '실시간' 탭에서)`);
     }
     if (liveSource === "saved") renderLiveFromSaved();
@@ -414,6 +425,7 @@ let progIdx = {};                  // 세션 id -> {file, n_lines, dir, ...} (da
 let progBuilt = false;
 let progTimer = null;
 const progOpen = new Set();
+const progView = {};               // 세션 id -> "all" | 발표자 key (발표자별 보기)
 const SPEAKER_SHORT = (p) => p.name;
 
 async function listDirs() {
@@ -510,11 +522,23 @@ function updatePills() {
     `마지막 확인 ${new Date().toLocaleTimeString()}`);
 }
 
-function renderScriptText(panel, id, text) {
-  const key = String(text.length) + ":" + text.slice(-40);
+function renderScriptText(panel, id, text, e, view) {
+  const key = view + ":" + String(text.length) + ":" + text.slice(-40);
   if (panel.dataset.key === key) return;
   panel.dataset.key = key;
   panel.innerHTML = "";
+  if (e && e.speakers && e.speakers.length > 1) {          // 발표자별 보기 선택
+    const chips = document.createElement("div"); chips.className = "chips";
+    const mk = (label, val) => {
+      const b = document.createElement("button"); b.type = "button"; b.className = "chip"; b.textContent = label;
+      b.setAttribute("aria-pressed", String(view === val));
+      b.addEventListener("click", () => { progView[id] = val; panel.dataset.key = ""; loadScript(id); });
+      chips.appendChild(b);
+    };
+    mk("전체 세션", "all");
+    for (const sp of e.speakers) mk(`${sp.name} · ${sp.n_lines}문장`, sp.key);
+    panel.appendChild(chips);
+  }
   const all = text.split("\n");
   const meta = all.filter((l) => l.startsWith("# ")).map((l) => l.slice(2));
   const body = all.filter((l) => l.trim() && !l.startsWith("# "));
@@ -524,7 +548,7 @@ function renderScriptText(panel, id, text) {
   dl.addEventListener("click", () => {
     const a = document.createElement("a");
     a.href = URL.createObjectURL(new Blob([text], { type: "text/plain;charset=utf-8" }));
-    a.download = `${id}.txt`; a.click(); URL.revokeObjectURL(a.href);
+    a.download = `${view !== "all" ? view : id}.txt`; a.click(); URL.revokeObjectURL(a.href);
   });
   const cp = document.createElement("button"); cp.type = "button"; cp.textContent = "복사";
   cp.addEventListener("click", async () => {
@@ -535,7 +559,8 @@ function renderScriptText(panel, id, text) {
   panel.appendChild(m); panel.appendChild(acts);
   for (const l of body) { const p = document.createElement("p"); p.textContent = l; panel.appendChild(p); }
   const n = document.createElement("div"); n.className = "note";
-  n.textContent = "아젠더 시간표와 발표자 이름 언급으로 자동 분할한 결과라, 앞뒤 경계의 몇 문장은 어긋날 수 있습니다.";
+  n.textContent = "아젠더 시간표와 발표자 이름 언급으로 자동 분할한 결과라, 앞뒤 경계의 몇 문장은 어긋날 수 있습니다." +
+    (view !== "all" ? " 발표자별 구분은 웹캐스트 발언자 마커(있을 때) 또는 사회자의 호명 문장을 기준으로 합니다." : "");
   panel.appendChild(n);
 }
 
@@ -554,9 +579,13 @@ async function loadScript(id) {
     panel.appendChild(msg); return;
   }
   try {
-    const t = await getText(`transcripts/${e.dir}/by_session/${e.file}`);
+    let view = progView[id] || "all";
+    let path = `transcripts/${e.dir}/by_session/${e.file}`;
+    const sp = view !== "all" ? (e.speakers || []).find((x) => x.key === view) : null;
+    if (sp) path = `transcripts/${e.dir}/by_speaker/${sp.file}`; else view = "all";
+    const t = await getText(path);
     if (t === null) throw new Error("파일 없음");
-    renderScriptText(panel, id, t);
+    renderScriptText(panel, id, t, e, view);
   } catch (err) {
     panel.innerHTML = ""; const msg = document.createElement("div"); msg.className = "meta";
     msg.textContent = `스크립트를 불러오지 못했습니다 (${err.message}).`; panel.appendChild(msg);
