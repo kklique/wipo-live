@@ -1,7 +1,13 @@
 # [d1-15] Protecting What Makes us Human - Is IP the Answer?
 # 발표자: Mr. Marco Bassini — Assistant Professor of Fundamental Rights and Artificial Intelligence, Tilburg Institute for Law, Technology, and Society, Tilburg University, Italy  (panelist)
-# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 1회 · 3문장 · 170단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 1회 · 9문장 · 413단어 · 구분 방식: marker
 
 which is maybe a kind of weird question. that may sound a bit weird. but from certain perspectives we may have an interest in preventing any kind of interference, for example, from our governments, into what GenAI can say and cannot say. So in the end, if we look at the general and traditional framing of the foundations of freedom of expression, we understand that the essence of that right is the protecting specialist citizens from not suffering any interference.
 And so the question comes, can we protect our speech? what we have when it comes to AI? so a GenAI output?
 Can this amount to protect the speech? Of course, what reaction could be we cannot treat the AI as speaker, of course, and this is definitely a point. But on the other hand, we have another perspective, which is not a perspective of the speaker and the perspective of the recipients of certain particular output. And in that particular perspective, in my view, we may see also protection.
+We may see the right of individuals to receive information, to receive content, perhaps.
+But, of course, this doesn't mean in any case that coverage or speech is equal to protection. And this is also something that allows me to give an answer, a very short and very provisional one maybe, but I'm thinking about the difference between what is coverage and what is protection.
+Coverage means that something in terms of output is eligible for protection, but it doesn't mean that it's protected. So, for example, when individuals use GenAI to produce certain there is another layer, which is the layer of protection.
+So the protection implies whether there are other interests affected by that particular output. And here we have values such as dignity, privacy, and personal data that come into play. So for example, when it comes to misappropriation of one's likeness, of one's voice.
+We are also talking about personal data. And so we already have some particular remedies that working on in my research. we also have a dignitary dimension of privacy which is very relevant. The problem, of course, is to make sure that we can properly enforce some parameters. and make sure that this is not becoming you know, a permanent violation of our image, of our representation.
+in the public. sphere. So I guess that also other branches of law can protect in a way one's image. and, as you said, what makes us humans.
