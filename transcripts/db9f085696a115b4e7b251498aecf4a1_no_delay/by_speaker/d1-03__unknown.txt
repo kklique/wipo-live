@@ -1,6 +1,6 @@
 # [d1-03] Ministerial-level Remarks
-# 발표자: (발표자 구분 불가)  (unknown)
-# Day 1 · 2026-11-09 · 예정 10:15-10:45 (Geneva) · 발언 1회 · 19문장 · 1,140단어 · 구분 방식: none
+# 발표자: (진행/도입)  (unknown)
+# Day 1 · 2026-11-09 · 예정 10:15-10:45 (Geneva) · 발언 1회 · 21문장 · 1,218단어 · 구분 방식: marker
 
 Who is an inventor when AI makes a material contribution to an invention? Who is the author when human creativity and machine generation become increasingly intertwined? On what basis and under what conditions should corporate protected material be used for AI training? What are the remuneration and compensation models?
 How can we say we respect copyright and yet pay nothing for it? How should we think about software, algorithms and data as sources of economic value? And we are now confronting something even more fundamental. What are the attributes of human identity itself? Our voices, our images, our likenesses, our biometric characteristics, even our thoughts. AI can replicate these in ways that earlier generations could barely have imagined.
@@ -21,3 +21,5 @@ beyond any single IP, right? exchange experiences and approaches and identify wh
 That human creativity should continue to matter, that human inventors and innovators should continue to be rewarded. that knowledge should continue to circulate. that creators and innovators should be able to participate fairly in the economic value they generate, that new technologies should expand human possibility rather than diminish human agency, and that countries should retain room to respond to their own circumstances while avoiding unnecessary fragmentation of a global ecosystem for supporting innovation and creativity.
 All these may sound like modest points of agreement. but in a fragmented world they may become a very important place to start. 500 years ago, societies began constructing institutions that connected human ingenuity to economic value on the a systematic scale. Those institutions help support extraordinary ways of innovation and creativity. We are now approaching another critical juncture in human history, another once in 500 years moment.
 AI is beginning to change how ideas are created. how discoveries are made, how culture is produced and perhaps eventually how we understand invention, innovation and creativity. But we should not fear that change. But neither should we simply surrender to it. Our responsibility is to shape it proactively. And that requires something much more difficult than defending the past or predicting the future.
+It requires us to decide what we want the future to be. It will require national experimentation and international cooperation. It will require us to be bold enough to ask whether the institutions built for an earlier age ready for the one now arriving.
+And to build a new one with today's human innovator and creator, the modern narratives of that ancient human instinct of innovation and creativity with that human creator and innovator remaining at our center.

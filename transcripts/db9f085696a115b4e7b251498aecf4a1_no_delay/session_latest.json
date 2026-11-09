@@ -125,6 +125,20 @@
       "timestamp": "00:14:38",
       "timestampCVC5": "2026-11-09T09:04:38",
       "timestampSeconds": 878
+    },
+    {
+      "description": "Ministerial-level Remarks",
+      "subjectId": "c20b4223-8dad-43c5-a179-1fbc704f6989",
+      "timestamp": "00:34:29",
+      "timestampCVC5": "2026-11-09T09:24:29",
+      "timestampSeconds": 2069
+    },
+    {
+      "description": "H.E. Mr. Kairat Torebayev",
+      "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+      "timestamp": "00:34:31",
+      "timestampCVC5": "2026-11-09T09:24:31",
+      "timestampSeconds": 2071
     }
   ],
   "markers_grouped": {
@@ -160,6 +174,26 @@
                 "timestampSeconds": 865
               }
             ]
+          },
+          {
+            "subject": [
+              {
+                "description": "Ministerial-level Remarks",
+                "list_markers": [
+                  {
+                    "description": "H.E. Mr. Kairat Torebayev",
+                    "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+                    "timestamp": "00:34:31",
+                    "timestampCVC5": "2026-11-09T09:24:31",
+                    "timestampSeconds": 2071
+                  }
+                ],
+                "subjectId": "c20b4223-8dad-43c5-a179-1fbc704f6989",
+                "timestamp": "00:34:29",
+                "timestampCVC5": "2026-11-09T09:24:29",
+                "timestampSeconds": 2069
+              }
+            ]
           }
         ]
       }
@@ -172,6 +206,13 @@
       "email": "",
       "id": "ec07df79-cc36-48c1-acea-301e6dddfad4",
       "name": "CHAIR",
+      "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "Permanent Representative of the Republic of Kazakhstan to the World Trade Organization and international economic organizations, Kazakhstan",
+      "email": "",
+      "id": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+      "name": "H.E. Mr. Kairat Torebayev",
       "photoUrl": "./assets/images/noPicSpeaker.png "
     },
     {
@@ -191,6 +232,14 @@
       "id": "b8c24cf4-528e-481a-bdcd-cdb79e1ee816",
       "orderNumber": 1,
       "orderNumberDescription": "1",
+      "refId": null
+    },
+    {
+      "assets": [],
+      "description": "Ministerial-level Remarks",
+      "id": "c20b4223-8dad-43c5-a179-1fbc704f6989",
+      "orderNumber": 3,
+      "orderNumberDescription": "3",
       "refId": null
     }
   ],
