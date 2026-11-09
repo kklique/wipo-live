@@ -220,9 +220,9 @@
     {
       "description": "CHAIR",
       "personId": "ec07df79-cc36-48c1-acea-301e6dddfad4",
-      "timestamp": "01:33:22",
-      "timestampCVC5": "2026-11-09T10:23:22",
-      "timestampSeconds": 5602
+      "timestamp": "01:33:09",
+      "timestampCVC5": "2026-11-09T10:23:09",
+      "timestampSeconds": 5589
     },
     {
       "description": "Mr. Anant Madabhushi",
@@ -358,9 +358,9 @@
                   {
                     "description": "CHAIR",
                     "personId": "ec07df79-cc36-48c1-acea-301e6dddfad4",
-                    "timestamp": "01:33:22",
-                    "timestampCVC5": "2026-11-09T10:23:22",
-                    "timestampSeconds": 5602
+                    "timestamp": "01:33:09",
+                    "timestampCVC5": "2026-11-09T10:23:09",
+                    "timestampSeconds": 5589
                   },
                   {
                     "description": "Mr. Anant Madabhushi",
