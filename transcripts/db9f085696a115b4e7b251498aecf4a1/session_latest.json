@@ -104,22 +104,75 @@
   "live": true,
   "liveTranscriptLink": "https://webcast.wipo.int/live_s2t/transcript.html?meeting_id=db9f085696a115b4e7b251498aecf4a1",
   "live_status": "STARTED",
-  "markers": [],
+  "markers": [
+    {
+      "description": " Side Event – My Robot “Roommate”",
+      "subjectId": "38f6620c-af0c-439f-801c-711b63f18c82",
+      "timestamp": "00:14:31",
+      "timestampCVC5": "2026-11-09T13:34:31",
+      "timestampSeconds": 871
+    },
+    {
+      "description": "SECRETARIAT",
+      "personId": "a0e748e4-7441-4115-ab9c-2b2b36f5a086",
+      "timestamp": "00:14:44",
+      "timestampCVC5": "2026-11-09T13:34:44",
+      "timestampSeconds": 884
+    }
+  ],
   "markers_grouped": {
     "markers": [
       {
         "speakers": []
       },
       {
-        "subjects": []
+        "subjects": [
+          {
+            "subject": [
+              {
+                "description": " Side Event – My Robot “Roommate”",
+                "list_markers": [
+                  {
+                    "description": "SECRETARIAT",
+                    "personId": "a0e748e4-7441-4115-ab9c-2b2b36f5a086",
+                    "timestamp": "00:14:44",
+                    "timestampCVC5": "2026-11-09T13:34:44",
+                    "timestampSeconds": 884
+                  }
+                ],
+                "subjectId": "38f6620c-af0c-439f-801c-711b63f18c82",
+                "timestamp": "00:14:31",
+                "timestampCVC5": "2026-11-09T13:34:31",
+                "timestampSeconds": 871
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   "name": "First Global Forum on Intellectual Property and Artificial Intelligence - WIPO IP-AI GEN 26 - Day 1 Afternoon",
-  "people": [],
+  "people": [
+    {
+      "bio": "<a href=\"https://www.wipo.int/about-wipo/en/index.html\" target=\"_blank\">About WIPO</a> <a href=\"https://www.wipo.int/about-wipo/fr/index.html\" target=\"_blank\">L'OMPI</a> <a href=\"https://www.wipo.int/about-wipo/es/index.html\" target=\"_blank\">La OMPI</a> <a href=\"https://www.wipo.int/about-wipo/ar/index.html\" target=\"_blank\">عن الويبو</a> <a href=\"https://www.wipo.int/about-wipo/ru/index.html\" target=\"_blank\">О ВОИС</a> <a href=\"https://www.wipo.int/about-wipo/zh/index.html\" target=\"_blank\">关于产权组织</a>",
+      "email": "",
+      "id": "a0e748e4-7441-4115-ab9c-2b2b36f5a086",
+      "name": "SECRETARIAT",
+      "photoUrl": "https://amcpweservicesassets.blob.core.windows.net/assets/80d8cc56-b763-401f-9522-b2cf02bb79d6.png"
+    }
+  ],
   "place": "WCH",
   "startDate": "2026-11-09T13:20:00",
-  "subjects": [],
+  "subjects": [
+    {
+      "assets": [],
+      "description": " Side Event – My Robot “Roommate”",
+      "id": "38f6620c-af0c-439f-801c-711b63f18c82",
+      "orderNumber": 7,
+      "orderNumberDescription": "s",
+      "refId": null
+    }
+  ],
   "thumbnail": null,
   "videoUrls": {
     "hls": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",

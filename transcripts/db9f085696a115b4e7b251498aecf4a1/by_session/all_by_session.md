@@ -491,9 +491,9 @@ We are able to more readily the ecosystems that these technologies are coming in
 I am not here to announce another super session.
 I am here to announce that it is lunch break and we resume at 3 o'clock. But for those of you who would like to have a glimpse of another emerging frontier in AI, have something rather special during the lunch break. At the 2.30 our option side event my robot roommate will explore what happens when the artificial intelligence moves beyond the scenes and becomes a part of your daily life. We will join the robotic research, Ms.
 
-## [d1-11] Optional Side Event - My Robot "Roommate"
+## [d1-10] Lunch break
 
-_Day 1 14:30-15:00 · Speaker: Ms. Emily Kate Genatowski_
+_Day 1 13:00-14:30_
 
 Emily Kate Janowski. and rather unusual companion, TOVA. the robot at the site she leads with.
 I encourage those interested to join us for this opportunity to explore with the mean to share our homes. and perhaps one day our daily routines with the intelligent machines. Enjoy your lunch and we look forward to welcoming you back at 3 o'clock. And for those of you who will have food over here, your dishes over here, the cafeteria closes sharp at 2 o'clock. as Swiss program.

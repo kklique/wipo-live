@@ -1,6 +1,6 @@
-# [d1-11] Optional Side Event - My Robot "Roommate"
-# 발표자: Ms. Emily Kate Genatowski — AI Domestic Robotics Researcher, PhD candidate in Digital Humanities, University of Vienna, United States of America  (speaker)
-# Day 1 · 2026-11-09 · 예정 14:30-15:00 (Geneva) · 발언 1회 · 5문장 · 126단어 · 구분 방식: agenda
+# [d1-10] Lunch break
+# Day 1 · 2026-11-09 · 예정 13:00-14:30 (Geneva)
+# 실제 구간 13:34:40-14:32:31 · 5문장 · 경계 방식: cue
 
 Emily Kate Janowski. and rather unusual companion, TOVA. the robot at the site she leads with.
 I encourage those interested to join us for this opportunity to explore with the mean to share our homes. and perhaps one day our daily routines with the intelligent machines. Enjoy your lunch and we look forward to welcoming you back at 3 o'clock. And for those of you who will have food over here, your dishes over here, the cafeteria closes sharp at 2 o'clock. as Swiss program.
