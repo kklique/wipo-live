@@ -24,6 +24,7 @@ webcast.wipo.int 페이지가 내부적으로 폴링하는 공개 엔드포인�
 import argparse
 import json
 import os
+import re
 import random
 import sys
 import time
@@ -39,6 +40,60 @@ SESSION_URLS = [
 ]
 # 변화 감지 대상 필드. markers 는 새로 생긴 것만, 나머지는 값이 바뀔 때만 기록한다.
 META_FIELDS = ("name", "event", "startDate", "endDate", "live", "live_status", "cvc5status", "people", "subjects")
+
+
+def is_noise(text):
+    """글자·숫자가 하나도 없는 줄 ('.', '. .', '...' 등). 휴식·무음 구간에서 음성인식이 계속 내보내는 비정상 문장."""
+    return not re.search(r"\w", text or "")
+
+
+FILLER = {"thank", "you", "thanks", "yeah", "yes", "okay", "ok", "bye", "uh", "um", "hmm", "mm", "mhm", "music", "applause"}
+
+
+def is_filler(text):
+    """필러(감사/맞장구/음)만으로 된 줄. 한두 글자짜리 비영어 토큰('嗯' 등)도 필러로 본다."""
+    toks = re.findall(r"\w+", (text or "").lower())
+    return bool(toks) and all(t in FILLER or (not t.isascii() and len(t) <= 2) for t in toks)
+
+
+def filler_repeat(text):
+    """한 줄 안에서 필러 구가 3번 이상 반복 ('Yeah. Yeah. Yeah.')"""
+    return is_filler(text) and len([p for p in re.split(r"[.!?。！？]+", text) if p.strip()]) >= 3
+
+
+def drop_filler_runs(items, key=lambda x: x):
+    """비정상 스크립트 제거: 필러만 있는 줄이 3줄 이상 연속이면 그 구간 전체, 한 줄 안 3회 이상 반복이면 그 줄을 삭제한다.
+    1~2줄짜리 단독 'Thank you.' 는 실제 발언일 수 있어 유지한다. key 로 항목에서 텍스트를 꺼낸다 (항목 순서/정체성 유지)."""
+    out, run = [], []
+    for x in items:
+        t = key(x)
+        if is_filler(t):
+            if not filler_repeat(t):
+                run.append(x)
+            continue
+        if len(run) < 3:
+            out.extend(run)
+        run = []
+        out.append(x)
+    if len(run) < 3:
+        out.extend(run)
+    return out
+
+
+def clean_file(path):
+    """저장된 transcript.txt 에서 잡음 줄을 제거한다 (수집기 시작 시 1회, 수집기만 쓰는 시점이라 경합 없음). 제거한 줄 수를 반환."""
+    try:
+        old = open(path, encoding="utf-8").read().split("\n")
+    except OSError:
+        return 0
+    keep = drop_filler_runs([l for l in old if l.strip() and not is_noise(l)])
+    removed = len([l for l in old if l.strip()]) - len(keep)
+    if removed:
+        tmp = path + ".tmp"
+        with open(tmp, "w", encoding="utf-8") as f:
+            f.write("\n".join(keep) + ("\n" if keep else ""))
+        os.replace(tmp, path)
+    return removed
 
 
 def append(path, text):
@@ -97,6 +152,9 @@ def main():
         except Exception:
             line_no = 1
 
+    removed = clean_file(p_txt)
+    if removed:
+        print(f"[{now()}] 기존 저장본에서 비정상 줄(점만 있는 줄, 필러 반복 구간) {removed}개 제거", flush=True)
     try:                # state.json 에 기록할 '저장된 문장 수' (웹이 파일 줄 수와 대조해 누락을 알아챔)
         saved_lines = sum(1 for _ in open(p_txt, encoding="utf-8"))
     except OSError:
@@ -154,6 +212,7 @@ def main():
             print(f"[{now()}] 마커 갱신 (신규 {len(new_markers)}건, 누적 {len(seen_markers)}건, "
                   f"status={sess.get('live_status')})", flush=True)
 
+    pend, in_run, run_from = [], False, None   # 필러 줄 보류 버퍼: 3줄 이상 연속이면 버리고, 그 전에 끊기면 저장
     last_partial = None
     waiting_notice = False
     last_change = None  # 마지막으로 새 내용이 들어온 시각 (monotonic); 첫 데이터 수신 전에는 None
@@ -194,10 +253,30 @@ def main():
                 text = (ln.get("text") or "").strip()
                 emit({"ts": now(), "type": "final", "line_number": line_no + i,
                       "end_time_iso": ln.get("end_time_iso"), "text": text,
-                      "batch": len(lines), "catchup": len(lines) > 3})   # 한 번에 많이 받았다 = 지난 문장 따라잡기
-                if text:
-                    append(p_txt, text + "\n")
-                    saved_lines += 1
+                      "batch": len(lines), "catchup": len(lines) > 3,   # 한 번에 많이 받았다 = 지난 문장 따라잡기
+                      **({"noise": True} if is_noise(text) else {})})   # 점만 있는 줄 등: 원본 기록에는 남기되 저장본에서는 제외
+                if text and not is_noise(text):
+                    if is_filler(text):
+                        if filler_repeat(text):
+                            pass                                       # 한 줄 안 반복: 바로 제외
+                        elif in_run:
+                            pass                                       # 이미 비정상 구간으로 판정된 중
+                        else:
+                            pend.append(text)
+                            if len(pend) >= 3:                         # 3줄 연속 -> 비정상 구간, 보류분 포함 전부 버림
+                                in_run, run_from = True, line_no + i - 2
+                                emit({"ts": now(), "type": "filler_run_start", "line_from": run_from})
+                                pend = []
+                    else:
+                        if in_run:
+                            emit({"ts": now(), "type": "filler_run_end", "line_to": line_no + i - 1})
+                        in_run = False
+                        for t in pend:                                 # 1~2줄짜리 필러는 실제 발언으로 보고 저장
+                            append(p_txt, t + "\n")
+                            saved_lines += 1
+                        pend = []
+                        append(p_txt, text + "\n")
+                        saved_lines += 1
                 print(f"[F {line_no + i}] {text}", flush=True)
             if lines:
                 last_change = time.monotonic()
@@ -219,6 +298,8 @@ def main():
 
             # 2) 진행 중(미확정) 문장 -- 바뀔 때마다 기록
             partial = ((d.get("last_line") or {}).get("text") or "").strip()
+            if partial and is_noise(partial):
+                partial = ""
             if partial and partial != last_partial:
                 last_change = time.monotonic()
                 last_data = now()
@@ -230,6 +311,8 @@ def main():
             time.sleep(a.interval)
     except KeyboardInterrupt:
         print(f"\n[{now()}] 중단. 다음 시작 line_number={line_no}", flush=True)
+    for t in pend:                       # 종료 시 보류 중인 1~2줄 필러는 저장 (3줄 미만이면 실제 발언일 수 있음)
+        append(p_txt, t + "\n")
 
 
 if __name__ == "__main__":
