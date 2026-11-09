@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T14:36:16+00:00",
+ "generated": "2026-11-09T14:38:17+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -603,13 +603,13 @@
    "start": "15:10",
    "end": "16:10",
    "people": "Speakers: Mr. Andres Guadamuz; Mr. Wang Qian; Mr. Edward Lee",
-   "n_lines": 56,
+   "n_lines": 64,
    "method": "marker",
    "file": "d1-13_one-stop-shop-keeping-up-with-ip-and-ai.txt",
    "actual_start": "2026-11-09T15:00:32+01:00",
-   "actual_end": "2026-11-09T15:35:58+01:00",
+   "actual_end": "2026-11-09T15:38:10+01:00",
    "line_from": 1624,
-   "line_to": 1738,
+   "line_to": 1746,
    "speakers": [
     {
      "key": "d1-13__unknown",
@@ -660,8 +660,8 @@
      "name": "Ms. Elena Perrotti",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 25,
-     "n_words": 1087,
+     "n_lines": 33,
+     "n_words": 1353,
      "n_turns": 1,
      "file": "d1-13__ms-elena-perrotti.txt",
      "method": "marker"

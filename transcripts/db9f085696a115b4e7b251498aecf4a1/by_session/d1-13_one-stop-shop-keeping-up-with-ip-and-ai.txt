@@ -1,7 +1,7 @@
 # [d1-13] One-Stop Shop: Keeping up with IP and AI
 # Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva)
 # Speakers: Mr. Andres Guadamuz; Mr. Wang Qian; Mr. Edward Lee
-# 실제 구간 15:00:32-15:35:58 · 56문장 · 경계 방식: marker
+# 실제 구간 15:00:32-15:38:10 · 64문장 · 경계 방식: marker
 
 Another great question which I will answer very quickly and I will also direct you, given that question, to speak to my colleague over there. But I use my actual, I use a unitree G1 EDU and I use it out of box. So I am not a developer and most of the consumer market are not going to be developers. So I use it as anybody would if they took it out of the box, turned it on, charged it up, turned it on and let it come into their home.
 But there are a number of incredible organizations, robotics clubs, individuals and companies who are very , Thank you. Good afternoon.
@@ -59,3 +59,11 @@ It is very complex. It applies to a content. It is the only one which is support
 The RSL standard, the real simple licensing, adds license in terms to robot TXT.
 While robot TXT right now only says yes or no, with RSL standards it is possible for the publisher to indicate instead other things like course, yes, no, or also you can for or you can if you pay this amount or you pay for inference or for use.
 It is easy. It is free and open and it applies to all content. Marketplaces. There are three models, three main ways to get paid.
+One is Torbit, where AI bots are routed to a Torbit gateway. The publishers set a price per page for two licenses. summary or full text. No training. The AI company signs up once and pays per page it reads. So in this case, of course, it is the AI company who speaks, who pays. Microsoft Publishers content marketplace, here the publisher lists their content and set the license terms and prices.
+The AI product license it to grant their answers and the payment is based on use. Again, AI products are the ones who pay. Provata is a little bit different.
+Provata has its own AI bot, GIST.
+So the publisher licensing its content to Provata which uses it within its AI search engine. The readers ask questions either on gist AI or on a gist box that appears on publisher sites. There are ads that run along these GIST answers. And % of the revenue from those advertising ads go to the publishers. and 50 % go to Parata. Collective licensing, there are some new collectives and existing collective societies who negotiate for publishers.
+Real Simple Licensing Collective, for example, is non-profit.
+It is modeled on the music collecting societies.
+In this case, publishers join for free. non-exclusively, and they declare the terms of their licensing through the real simple licensing standard that I presented to you earlier. The collective is RSL collective negotiates one license covering all members.
+It collects royalties for everybody and pays members by use. There are other cases of existing collecting societies in associations who sign for their members.
