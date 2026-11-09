@@ -659,3 +659,11 @@ The news industry has been in steady decline for two decades. expecting some kin
 From a further perspective on the decision -shaping AI and IP, we turn to Mr. Andres Guenamos. Reader in Intellectual Property Law at the University of of Sussex. Andres, over to you. Okay. Thank you. Yes, we are live. Firstly, thanks very much WIPO and to the organizers for the kind invitation. I always start my presentations with an apology. The apology is that I have only ten minutes to continue.
 to take you through a lot of developments that are taking place all over the world. and speak slowly for the AI. I am always very kind to the AI.
 I will say please and thank you. You can never be too careful. Just in case of the robot over rising. Okay. So So we are going to analyze three different types of legal questions. that are in presented to the courts at the moment, which are, first, the authorship question is can AI -generated works be protected under copyright and who owns if the question is yes? The second one is we have heard some of this already, the training question, is training a machine with works protected under copyright an infringement of copyright And if so, are there any exceptions?
+Is the model itself which can, it is a very important question as well. Is the model itself a copy? Is there memorization and there are all sorts of interesting legal questions here.
+The third one is who is liable for the outputs, the outputs and platform, which is who is liable if someone infringes copyright by presenting an output?
+Is the platform liable or is the person that is making image model to say, please give me a picture of Mickey Mouse?
+Is that infringing? So those are the three main legal questions in courts at the moment.
+The first cases that we are going to analyze are in Europe.
+The courts have active already. The first case that we had was Getty and disability AI. Interesting has now declared bankruptcy.
+We do not know what is going to happen with that.
+But the training here is Getty images suit stability AI, which was one of the very early image models. actually predates the public launch of Chai GPT. I was actually using this back in May 2022. There are image models that were sometimes capable of the logos from Getty images. I am the proud owner of four images.
