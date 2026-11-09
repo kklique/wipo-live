@@ -362,6 +362,13 @@
       "timestamp": "02:51:31",
       "timestampCVC5": "2026-11-09T11:41:31",
       "timestampSeconds": 10291
+    },
+    {
+      "description": "Ms. Jennifer Tauli (Jing) Corpuz",
+      "personId": "2dfda2b4-04d5-4261-9655-39e014e49f51",
+      "timestamp": "02:52:59",
+      "timestampCVC5": "2026-11-09T11:42:59",
+      "timestampSeconds": 10379
     }
   ],
   "markers_grouped": {
@@ -650,6 +657,13 @@
                     "timestamp": "02:51:31",
                     "timestampCVC5": "2026-11-09T11:41:31",
                     "timestampSeconds": 10291
+                  },
+                  {
+                    "description": "Ms. Jennifer Tauli (Jing) Corpuz",
+                    "personId": "2dfda2b4-04d5-4261-9655-39e014e49f51",
+                    "timestamp": "02:52:59",
+                    "timestampCVC5": "2026-11-09T11:42:59",
+                    "timestampSeconds": 10379
                   }
                 ],
                 "subjectId": "59023b79-b078-455c-a939-254b6858c034",
@@ -768,6 +782,13 @@
       "email": "",
       "id": "ec07df79-cc36-48c1-acea-301e6dddfad4",
       "name": "CHAIR",
+      "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "<p>Ms. Jennifer Tauli Corpuz is a Kankana-ey Igorot from the <br>Mountain Province in the Cordillera region of the Philippines, and <br>works at the Tebtebba Foundation (Indigenous Peoples’ <br>International Center for Policy Research and Education).<br></p>",
+      "email": "",
+      "id": "2dfda2b4-04d5-4261-9655-39e014e49f51",
+      "name": "Ms. Jennifer Tauli (Jing) Corpuz",
       "photoUrl": "./assets/images/noPicSpeaker.png "
     },
     {
