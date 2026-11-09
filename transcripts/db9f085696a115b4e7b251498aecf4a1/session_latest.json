@@ -345,16 +345,16 @@
     {
       "description": "Mr. Edward Lee",
       "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
-      "timestamp": "02:44:44",
-      "timestampCVC5": "2026-11-09T11:34:44",
-      "timestampSeconds": 9884
+      "timestamp": "02:44:42",
+      "timestampCVC5": "2026-11-09T11:34:42",
+      "timestampSeconds": 9882
     },
     {
       "description": "Ms. Chijioke Okorie",
       "personId": "5696e288-9c75-4194-836f-0268cf746678",
-      "timestamp": "02:45:22",
-      "timestampCVC5": "2026-11-09T11:35:22",
-      "timestampSeconds": 9922
+      "timestamp": "02:45:20",
+      "timestampCVC5": "2026-11-09T11:35:20",
+      "timestampSeconds": 9920
     }
   ],
   "markers_grouped": {
@@ -626,16 +626,16 @@
                   {
                     "description": "Mr. Edward Lee",
                     "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
-                    "timestamp": "02:44:44",
-                    "timestampCVC5": "2026-11-09T11:34:44",
-                    "timestampSeconds": 9884
+                    "timestamp": "02:44:42",
+                    "timestampCVC5": "2026-11-09T11:34:42",
+                    "timestampSeconds": 9882
                   },
                   {
                     "description": "Ms. Chijioke Okorie",
                     "personId": "5696e288-9c75-4194-836f-0268cf746678",
-                    "timestamp": "02:45:22",
-                    "timestampCVC5": "2026-11-09T11:35:22",
-                    "timestampSeconds": 9922
+                    "timestamp": "02:45:20",
+                    "timestampCVC5": "2026-11-09T11:35:20",
+                    "timestampSeconds": 9920
                   }
                 ],
                 "subjectId": "59023b79-b078-455c-a939-254b6858c034",
