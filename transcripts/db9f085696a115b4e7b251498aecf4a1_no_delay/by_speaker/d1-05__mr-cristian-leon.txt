@@ -1,6 +1,6 @@
 # [d1-05] Showcase 1: AI in Action - From Ideas to Real-World Impact
 # 발표자: Mr. Cristian Léon  (floor)
-# Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva) · 발언 1회 · 17문장 · 845단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva) · 발언 1회 · 20문장 · 1,004단어 · 구분 방식: marker
 
 It is not a theoretical question. In February of 2024, a forest fire to the houses. and 134 people died. I asked this question much earlier. In 2014, we walked through the Paine Towers in the Patagonia of Chile, between more than 17,000 hectares burned. That fire occurred in por un descuido. Later, during the pandemic, I had the opportunity to investigate and see the way to stop a fire.
 before it starts. Y fue en el droid a finales del 2020. Every fire in Frestal begins with a person, around 9 out of 10.
@@ -19,3 +19,6 @@ From then on, the company signed a purchase commitment subject to the validation
 As we are in the OMPI, a little bit of intellectual property. Our first developments, our technology, a part of our technology was born from a laboratory, from a colaboración con ENREA. the French Institute for Research. which transferred 100% of its ownership to Droid. of the rights of the what was developed. We protect what we build in different ways. We use patents, patent applications, currently in 42 countries.
 thanks to the PCT system. system with industrial secrets. secrets for our training data. data and our know -how, together with copyrights, copyrights and brands. for a small company.
 This... is not a bureaucracy. It is something key to be able to to with large companies. and not lose what was built. and be able to carry out a local solution to other countries. The fire that begins with a person, not only in Chile, it occurs in the entire Mediterranean basin, it occurs in California, in India, in Brazil. Asella vamos. go back to the question from the beginning.
+and if we could have a fire before it starts.
+We already know that our technology works. What The next step is to be able to detect the next stage. We are advancing on this path, and for this we need and seek territories where we can prove it, institutions that support it and people who create it, that preventing a fire is worth more than than reacting. This is our invitation. That is what we are looking for today on Android. Let's continue. and move forward.
+。 that fire that never existed. Thank you very much. Thank you so much, Christian, for showing us AI innovation and what AI innovation can make real difference on the ground. Now, there is one thing that I can personally testify to, working at the intersection of IP and AI. and it's this. Keeping up with it is a full-time job. New court decisions, new legislations and regulations, evolving IP office practices.

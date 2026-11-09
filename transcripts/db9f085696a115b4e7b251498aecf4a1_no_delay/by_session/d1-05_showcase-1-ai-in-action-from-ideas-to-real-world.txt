@@ -1,7 +1,7 @@
 # [d1-05] Showcase 1: AI in Action - From Ideas to Real-World Impact
 # Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva)
 # Speaker: Mr. Anant Madabhushi
-# 실제 구간 11:41:19-15:11:45 · 25문장 · 경계 방식: marker
+# 실제 구간 11:41:19-15:13:26 · 28문장 · 경계 방식: marker
 
 Our creators require absolute assurance of credit and compensation. just as our developers need clear, predictable rules to innovate with confidence. our legislation also defines an inventor as the natural person who devised the invention. One, hopefully I have conveyed that AI on routine images can transform precision medicine. Secondly, when we talk about IP, let's focus on patenting the pattern, not necessarily the algorithm. IP is the bridge from paper to patient, but only if it generalizes, and that's where the validation is so absolutely critical. And finally, we have to build democratization into the IP strategy so that these licensing models can be kept low cost and accessible, particularly in low and middle income countries.
 Thank you very much.
@@ -28,3 +28,6 @@ From then on, the company signed a purchase commitment subject to the validation
 As we are in the OMPI, a little bit of intellectual property. Our first developments, our technology, a part of our technology was born from a laboratory, from a colaboración con ENREA. the French Institute for Research. which transferred 100% of its ownership to Droid. of the rights of the what was developed. We protect what we build in different ways. We use patents, patent applications, currently in 42 countries.
 thanks to the PCT system. system with industrial secrets. secrets for our training data. data and our know -how, together with copyrights, copyrights and brands. for a small company.
 This... is not a bureaucracy. It is something key to be able to to with large companies. and not lose what was built. and be able to carry out a local solution to other countries. The fire that begins with a person, not only in Chile, it occurs in the entire Mediterranean basin, it occurs in California, in India, in Brazil. Asella vamos. go back to the question from the beginning.
+and if we could have a fire before it starts.
+We already know that our technology works. What The next step is to be able to detect the next stage. We are advancing on this path, and for this we need and seek territories where we can prove it, institutions that support it and people who create it, that preventing a fire is worth more than than reacting. This is our invitation. That is what we are looking for today on Android. Let's continue. and move forward.
+。 that fire that never existed. Thank you very much. Thank you so much, Christian, for showing us AI innovation and what AI innovation can make real difference on the ground. Now, there is one thing that I can personally testify to, working at the intersection of IP and AI. and it's this. Keeping up with it is a full-time job. New court decisions, new legislations and regulations, evolving IP office practices.
