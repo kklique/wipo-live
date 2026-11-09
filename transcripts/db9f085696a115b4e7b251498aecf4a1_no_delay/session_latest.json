@@ -282,16 +282,16 @@
     {
       "description": "Mr. Anthony Taubman",
       "personId": "eb7acc7b-7394-488b-b897-e15a6918ae07",
-      "timestamp": "02:24:15",
-      "timestampCVC5": "2026-11-09T11:14:15",
-      "timestampSeconds": 8655
+      "timestamp": "02:24:16",
+      "timestampCVC5": "2026-11-09T11:14:16",
+      "timestampSeconds": 8656
     },
     {
       "description": "Mr. Edward Lee",
       "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
-      "timestamp": "02:29:02",
-      "timestampCVC5": "2026-11-09T11:19:02",
-      "timestampSeconds": 8942
+      "timestamp": "02:28:51",
+      "timestampCVC5": "2026-11-09T11:18:51",
+      "timestampSeconds": 8931
     },
     {
       "description": "Mr. Gaétan de Rassenfosse",
@@ -299,6 +299,13 @@
       "timestamp": "02:29:41",
       "timestampCVC5": "2026-11-09T11:19:41",
       "timestampSeconds": 8981
+    },
+    {
+      "description": "Mr. Edward Lee",
+      "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+      "timestamp": "02:33:13",
+      "timestampCVC5": "2026-11-09T11:23:13",
+      "timestampSeconds": 9193
     }
   ],
   "markers_grouped": {
@@ -507,16 +514,16 @@
                   {
                     "description": "Mr. Anthony Taubman",
                     "personId": "eb7acc7b-7394-488b-b897-e15a6918ae07",
-                    "timestamp": "02:24:15",
-                    "timestampCVC5": "2026-11-09T11:14:15",
-                    "timestampSeconds": 8655
+                    "timestamp": "02:24:16",
+                    "timestampCVC5": "2026-11-09T11:14:16",
+                    "timestampSeconds": 8656
                   },
                   {
                     "description": "Mr. Edward Lee",
                     "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
-                    "timestamp": "02:29:02",
-                    "timestampCVC5": "2026-11-09T11:19:02",
-                    "timestampSeconds": 8942
+                    "timestamp": "02:28:51",
+                    "timestampCVC5": "2026-11-09T11:18:51",
+                    "timestampSeconds": 8931
                   },
                   {
                     "description": "Mr. Gaétan de Rassenfosse",
@@ -524,6 +531,13 @@
                     "timestamp": "02:29:41",
                     "timestampCVC5": "2026-11-09T11:19:41",
                     "timestampSeconds": 8981
+                  },
+                  {
+                    "description": "Mr. Edward Lee",
+                    "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+                    "timestamp": "02:33:13",
+                    "timestampCVC5": "2026-11-09T11:23:13",
+                    "timestampSeconds": 9193
                   }
                 ],
                 "subjectId": "59023b79-b078-455c-a939-254b6858c034",
