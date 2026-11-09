@@ -102,6 +102,21 @@ python3 split_by_agenda.py --in wipo_out --out wipo_out/by_session --override d1
 - AI 요약 단계(미구현): `speakers.jsonl` 을 읽어 발표자별로 요약을 생성하면 된다. 각 레코드에 세션 제목·발표자 소속/역할이 같이 있어 프롬프트에 그대로 넣을 수 있고,
   `n_words` 로 긴 발언(청크 분할)을 판단할 수 있다. `role` 이 `moderator`/`chair` 인 레코드는 요약 대상에서 빼는 것을 권한다.
 
+## WIPO 공식 스크립트 가져오기 (행사 후 배포본)
+
+WIPO 가 행사 후 배포하는 `…verbatim.docx` 는 안건(`<< 제목 >>`)과 발언자(`이름 [hh:mm:ss]`) 표지가 들어 있어 실시간 수집분(STT)보다 경계가 정확합니다. 공식본을 가져오면 프로그램 탭이 해당 안건을 공식본으로 보여줍니다.
+
+```bash
+python3 official_import.py 문서.docx --name day1-am --label "Day 1 오전 (11월 9일)" --out docs/official \
+  --markers <data 브랜치>/transcripts/<meeting_id>/markers.jsonl --transcript <같은 폴더>/transcript.txt
+```
+
+- 결과는 `docs/official/<이름>/` (전체 `transcript.txt`, `by_session/`, `by_speaker/`, `info.json`, 원본 docx) 와 목록 `docs/official/index.json` 입니다. main 에 머지하면 Pages 에 반영됩니다. 실시간 수집분(data 브랜치)은 건드리지 않고 그대로 보관합니다.
+- 프로그램 탭: 공식본이 있는 안건은 "공식 스크립트 N단락" 으로 표시되고 발표자별 보기도 공식본 기준입니다. 공식본에 없는 안건(예: 아직 배포되지 않은 오후 세션)은 실시간 수집분을 그대로 씁니다.
+- 전체 저장본 탭: 상단 선택으로 실시간 수집분과 공식본을 오갑니다 (공식본은 ■ 안건 / ▌ 발언자 표지 줄 포함).
+- 문서의 시각은 녹화 시작 기준 오프셋이라, 웹캐스트 발언자 마커와 이름으로 맞춰 절대 시각(UTC)을 구합니다 (`info.json` 의 `base_utc`, `clock_note`). `info.json` 의 `compare` 는 실시간 수집분과 4단어 연속 구간 일치율입니다.
+- 표지 없는 안건(예: Chair Remarks)은 그 앞 안건 구간 안에서 아젠더 발표자 이름과 같은 발언을 그 안건으로 가져옵니다. 문서에 없는 안건은 비어 있습니다.
+
 ## 웹에서 보기 (GitHub Pages)
 
 `docs/index.html` 은 탭 세 개로 구성된 정적 뷰어다.
