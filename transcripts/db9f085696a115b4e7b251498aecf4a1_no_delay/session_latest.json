@@ -289,9 +289,9 @@
     {
       "description": "Ms. Natalie Corthésy",
       "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
-      "timestamp": "02:36:33",
-      "timestampCVC5": "2026-11-09T15:56:33",
-      "timestampSeconds": 9393
+      "timestamp": "02:36:01",
+      "timestampCVC5": "2026-11-09T15:56:01",
+      "timestampSeconds": 9361
     },
     {
       "description": "Mr Anderson Rocha",
@@ -306,6 +306,13 @@
       "timestamp": "02:41:15",
       "timestampCVC5": "2026-11-09T16:01:15",
       "timestampSeconds": 9675
+    },
+    {
+      "description": "Ms. Kalpana Tyagi",
+      "personId": "81ee3a85-ea4e-45d2-ae74-08df3b2598d3",
+      "timestamp": "02:41:32",
+      "timestampCVC5": "2026-11-09T16:01:32",
+      "timestampSeconds": 9692
     }
   ],
   "markers_grouped": {
@@ -515,9 +522,9 @@
                   {
                     "description": "Ms. Natalie Corthésy",
                     "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
-                    "timestamp": "02:36:33",
-                    "timestampCVC5": "2026-11-09T15:56:33",
-                    "timestampSeconds": 9393
+                    "timestamp": "02:36:01",
+                    "timestampCVC5": "2026-11-09T15:56:01",
+                    "timestampSeconds": 9361
                   },
                   {
                     "description": "Mr Anderson Rocha",
@@ -532,6 +539,13 @@
                     "timestamp": "02:41:15",
                     "timestampCVC5": "2026-11-09T16:01:15",
                     "timestampSeconds": 9675
+                  },
+                  {
+                    "description": "Ms. Kalpana Tyagi",
+                    "personId": "81ee3a85-ea4e-45d2-ae74-08df3b2598d3",
+                    "timestamp": "02:41:32",
+                    "timestampCVC5": "2026-11-09T16:01:32",
+                    "timestampSeconds": 9692
                   }
                 ],
                 "subjectId": "5c4b21a8-f209-492f-9b8f-4996178c9dab",
@@ -573,6 +587,13 @@
       "email": "",
       "id": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
       "name": "Ms. Natalie Corthésy",
+      "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "Assistant Professor of Intellectual Property and Competition Law, Maastricht University, India ",
+      "email": "",
+      "id": "81ee3a85-ea4e-45d2-ae74-08df3b2598d3",
+      "name": "Ms. Kalpana Tyagi",
       "photoUrl": "./assets/images/noPicSpeaker.png "
     },
     {
