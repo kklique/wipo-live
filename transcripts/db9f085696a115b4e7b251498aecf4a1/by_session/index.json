@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T13:59:40+00:00",
+ "generated": "2026-11-09T14:01:43+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -236,13 +236,13 @@
    "start": "10:55",
    "end": "11:05",
    "people": "Speaker: Mr. Anant Madabhushi",
-   "n_lines": 47,
+   "n_lines": 51,
    "method": "marker",
    "file": "d1-05_showcase-1-ai-in-action-from-ideas-to-real-world.txt",
    "actual_start": "2026-11-09T11:23:24+01:00",
-   "actual_end": "2026-11-09T11:42:05+01:00",
+   "actual_end": "2026-11-09T15:01:40+01:00",
    "line_from": 250,
-   "line_to": 296,
+   "line_to": 1629,
    "speakers": [
     {
      "key": "d1-05__unknown",
@@ -264,6 +264,17 @@
      "n_words": 2409,
      "n_turns": 1,
      "file": "d1-05__mr-anant-madabhushi.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-05__speaker",
+     "name": "SPEAKER",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 4,
+     "n_words": 52,
+     "n_turns": 1,
+     "file": "d1-05__speaker.txt",
      "method": "marker"
     }
    ]
@@ -505,13 +516,13 @@
    "start": "14:30",
    "end": "15:00",
    "people": "Speaker: Ms. Emily Kate Genatowski",
-   "n_lines": 81,
+   "n_lines": 95,
    "method": "marker",
    "file": "d1-11_optional-side-event-my-robot-roommate.txt",
    "actual_start": "2026-11-09T14:35:49+01:00",
-   "actual_end": "2026-11-09T14:55:50+01:00",
+   "actual_end": "2026-11-09T15:01:07+01:00",
    "line_from": 1531,
-   "line_to": 1611,
+   "line_to": 1625,
    "speakers": [
     {
      "key": "d1-11__unknown",
@@ -529,9 +540,9 @@
      "name": "Ms. Emily Kate Genatowski",
      "affiliation": "AI Domestic Robotics Researcher, PhD candidate in Digital Humanities, University of Vienna, United States of America",
      "role": "speaker",
-     "n_lines": 77,
-     "n_words": 3188,
-     "n_turns": 1,
+     "n_lines": 85,
+     "n_words": 3521,
+     "n_turns": 2,
      "file": "d1-11__ms-emily-kate-genatowski.txt",
      "method": "marker"
     },
@@ -540,10 +551,21 @@
      "name": "SECRETARIAT",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 2,
-     "n_words": 67,
+     "n_lines": 3,
+     "n_words": 146,
      "n_turns": 1,
      "file": "d1-11__secretariat.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-11__speaker",
+     "name": "SPEAKER",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 5,
+     "n_words": 256,
+     "n_turns": 1,
+     "file": "d1-11__speaker.txt",
      "method": "marker"
     }
    ]
@@ -583,13 +605,9 @@
    "start": "16:10",
    "end": "16:25",
    "people": "",
-   "n_lines": 9,
-   "method": "cue",
-   "file": "d1-14_coffee-break.txt",
-   "actual_start": "2026-11-09T14:57:20+01:00",
-   "actual_end": "2026-11-09T14:59:12+01:00",
-   "line_from": 1612,
-   "line_to": 1620
+   "n_lines": 0,
+   "method": "not-reached",
+   "file": null
   },
   {
    "id": "d1-15",

@@ -1,6 +1,6 @@
 # [d1-11] Optional Side Event - My Robot "Roommate"
 # 발표자: Ms. Emily Kate Genatowski — AI Domestic Robotics Researcher, PhD candidate in Digital Humanities, University of Vienna, United States of America  (speaker)
-# Day 1 · 2026-11-09 · 예정 14:30-15:00 (Geneva) · 발언 1회 · 77문장 · 3,188단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 14:30-15:00 (Geneva) · 발언 2회 · 85문장 · 3,521단어 · 구분 방식: marker
 
 She will share her perspective on the transparency we need to ensure that cutting -edge innovation can move beyond the lab. and meaningfully improve the world we live in. She is joining us today to talk about what actually happens when embodied AI moves out of the lab and into everyday life. The practical, social and governance questions that start to appear. introduction.
 I really appreciate it. Yes, this is my new friend.
@@ -79,3 +79,12 @@ Then we spoke a little bit about the hardware maintenance and just the acknowled
 So measures that we can take so that we can actually ensure these robots and ensure that the way in which they are handled, the way in which they are deployed is safe and responsible for everyone.
 And the best way to do that, in my opinion, is to ensure that we know at all times who is accountable for its actions, what is a legal entity, whether that is a company, whether that is an organization, whether that is an individual that is going to take accountability for the way in which the robot is acting and operating. So all of that is to say that facilitating the deployment coordination efforts during this development stage, if we can also protect the core IP, will make this mass adoption event a lot safer, a lot less expensive, and a lot smoother.
 So if IP is a key barrier to this sort of coordination before we actually reach the market, these transparency pillars, which hopefully have inspired you here today, as you have heard these stories, could provide a potential solution to interoperability. So thank you so much.
+
+and what that is like? here in Europe? I am sure there's some. brave soul. Okay. I had some questions earlier. So since everyone is feeling shy, I will reference one of those. One of the questions that I had earlier was I do not get it, what does it do for you?
+And this is a fantastic question that I get all of the time. And I give the same answer.
+I always say great question, horrible answer.
+It does nothing for me.
+It does not really do anything for me. The goal of this type of robot, not this one in particular that is here, but my robot, Tova, is that at some point with its domestic application, it is going to be able to take care of the things that we want taken care of in the house, right, the domestic labor.
+It is going to be able to take care of cooking, cleaning, doing laundry, all of the things that we do not want to do.
+And the problem is that if we waited, if we waited and waited for it to actually be ready to do those things, then we would be very far behind when it comes to trying to inspire the public to have these debates about regulation and then actually work the regulation through the proper channels and systems so that we could actually safely deploy this technology. So I did sign on to have a robot that hopefully one day will cook and clean and does not cook or clean, live in my house.
+And as you saw, I bring it with me everywhere. I include it in everything. And from that experience, so much has come out about how people interact with it, how it interacts with infrastructure, and essentially we find out things like this particular robot cannot safely make it across the V&E's crosswalk in time before the light changes. Little funny things that you would never think to figure out.

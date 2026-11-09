@@ -1,7 +1,7 @@
 # [d1-05] Showcase 1: AI in Action - From Ideas to Real-World Impact
 # Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva)
 # Speaker: Mr. Anant Madabhushi
-# 실제 구간 11:23:24-11:42:05 · 47문장 · 경계 방식: marker
+# 실제 구간 11:23:24-15:01:40 · 51문장 · 경계 방식: marker
 
 at the end of each day. And time will be short, and I am asking to interventions to keep up to not more than three minutes. While we have many attendees in the room. we also have a large online audience. for participants joining us remotely. Should you encounter any difficulties following the meeting in the Zoom proceedings, you can also follow through the WIPO webcast.
 I look forward to what the next two days have to offer for us. Now I pass the floor to Ken. the floor is yours. Thank you, Chair. We have just heard NISTERO interventions and we also had a keynote from Mr. Ito which gave us a fascinating glimpse into what artificial intelligence may be capable of tomorrow, but what can it already make possible today? That is what our AI in action showcase are all about.
@@ -50,3 +50,7 @@ It is really critical with these technologies to bring it to patients through th
 We do not know the outcome of the trial yet, but when the trial reads out, we will be able to associate the QVT biomarker with patient survival, with patient trajectories.
 But this is the kind of prospective validation that is really critical to take the technology from conception, patent to ultimately translation to patients. So with that, I would like to just end with some takeaways. One, hopefully I have conveyed that AI on routine images can transform precision medicine. Secondly, when we talk about IP, let's focus on patenting the pattern, not necessarily the algorithm.
 IP is the bridge from paper to patient, but only if it generalizes, and that is where the validation is so absolutely critical. And finally, we have to build democratization into the IP strategies so that these licensing models be kept low cost and accessible, particularly in low and middle income countries. Thank you very much. And I just want to do a quick shout out to the amazing students and faculty and postdocs that have the pleasure and honor of working with.
+What a fascinating topics we discussed today. So welcome back. I hope you enjoyed your short lunch.
+And every year wildfires devastate forests, destroy livelihoods and threatens communities throughout the world.
+But what if we could identify the danger before the first flames appear?
+That is the ambition of our next innovator.

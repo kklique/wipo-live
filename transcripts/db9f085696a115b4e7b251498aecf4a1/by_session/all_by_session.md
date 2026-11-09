@@ -246,6 +246,10 @@ It is really critical with these technologies to bring it to patients through th
 We do not know the outcome of the trial yet, but when the trial reads out, we will be able to associate the QVT biomarker with patient survival, with patient trajectories.
 But this is the kind of prospective validation that is really critical to take the technology from conception, patent to ultimately translation to patients. So with that, I would like to just end with some takeaways. One, hopefully I have conveyed that AI on routine images can transform precision medicine. Secondly, when we talk about IP, let's focus on patenting the pattern, not necessarily the algorithm.
 IP is the bridge from paper to patient, but only if it generalizes, and that is where the validation is so absolutely critical. And finally, we have to build democratization into the IP strategies so that these licensing models be kept low cost and accessible, particularly in low and middle income countries. Thank you very much. And I just want to do a quick shout out to the amazing students and faculty and postdocs that have the pleasure and honor of working with.
+What a fascinating topics we discussed today. So welcome back. I hope you enjoyed your short lunch.
+And every year wildfires devastate forests, destroy livelihoods and threatens communities throughout the world.
+But what if we could identify the danger before the first flames appear?
+That is the ambition of our next innovator.
 
 ## [d1-07] Coffee Break
 
@@ -586,11 +590,6 @@ And the best way to do that, in my opinion, is to ensure that we know at all tim
 So if IP is a key barrier to this sort of coordination before we actually reach the market, these transparency pillars, which hopefully have inspired you here today, as you have heard these stories, could provide a potential solution to interoperability. So thank you so much.
 I hope you enjoyed it and we will be out and about throughout the day.
 And you are more than welcome to come up, take selfies, meet the robot, and of course, ask me any questions outside during the coffee breaks about living life with a robot. Thank you so much. Thank you. Thank you so very much for this amazing presentation. Yes, you are so amazing.
-
-## [d1-14] Coffee Break
-
-_Day 1 16:10-16:25_
-
 The main programme will begin shortly, so please bear with us. and have a look at the robot. Thank you. Okay. I know we are all loving seeing it walking around and that is so We do have just a couple of minutes before our next scheduled speaker, so I am very happy to take any type of question. that anybody has and answer it for the group. Does anybody have any question about living life with a robot?
 and what that is like? here in Europe? I am sure there's some. brave soul. Okay. I had some questions earlier. So since everyone is feeling shy, I will reference one of those. One of the questions that I had earlier was I do not get it, what does it do for you?
 And this is a fantastic question that I get all of the time. And I give the same answer.
@@ -600,3 +599,8 @@ It does not really do anything for me. The goal of this type of robot, not this 
 It is going to be able to take care of cooking, cleaning, doing laundry, all of the things that we do not want to do.
 And the problem is that if we waited, if we waited and waited for it to actually be ready to do those things, then we would be very far behind when it comes to trying to inspire the public to have these debates about regulation and then actually work the regulation through the proper channels and systems so that we could actually safely deploy this technology. So I did sign on to have a robot that hopefully one day will cook and clean and does not cook or clean, live in my house.
 And as you saw, I bring it with me everywhere. I include it in everything. And from that experience, so much has come out about how people interact with it, how it interacts with infrastructure, and essentially we find out things like this particular robot cannot safely make it across the V&E's crosswalk in time before the light changes. Little funny things that you would never think to figure out.
+or the fact that they are not very good at stairs. So if you live in a place that has stairs or downstairs neighbors, they are quite loud and stomping. So there's all different types of things that we can learn and we can push these conversations. and these public debates forward so that by the time the actual innovation ready for deployment and is market ready for adoption, we then have figured out much more and we are in a much better place when it comes to regulation, policy and infrastructure updates needed.
+We have one minute. if any other, yes, sir. I hope you can hear me. I arrived late, so maybe you mentioned this. What software do you use? Is it from the factory, from the developer, or do you have your own? version of software? > > Amazing.
+Okay.
+Another great question which I will answer very quickly and I will also direct you, given that question, to speak to my colleague over there. But I use my actual, I use a unitree G1 EDU and I use it out of box. So I am not a developer and most of the consumer market are not going to be developers. So I use it as anybody would if they took it out of the box, turned it on, charged it up, turned it on and let it come into their home.
+But there are a number of incredible organizations, robotics clubs, individuals and companies who are very , Thank you. Good afternoon.
