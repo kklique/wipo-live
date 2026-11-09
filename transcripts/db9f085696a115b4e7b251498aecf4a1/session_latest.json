@@ -537,6 +537,13 @@
       "timestamp": "03:29:14",
       "timestampCVC5": "2026-11-09T12:19:14",
       "timestampSeconds": 12554
+    },
+    {
+      "description": "Mr. Andrew Toole",
+      "personId": "54794eb5-3f8a-4da2-ae6f-08df3b2598d3",
+      "timestamp": "03:30:37",
+      "timestampCVC5": "2026-11-09T12:20:37",
+      "timestampSeconds": 12637
     }
   ],
   "markers_grouped": {
@@ -1000,6 +1007,13 @@
                     "timestamp": "03:29:14",
                     "timestampCVC5": "2026-11-09T12:19:14",
                     "timestampSeconds": 12554
+                  },
+                  {
+                    "description": "Mr. Andrew Toole",
+                    "personId": "54794eb5-3f8a-4da2-ae6f-08df3b2598d3",
+                    "timestamp": "03:30:37",
+                    "timestampCVC5": "2026-11-09T12:20:37",
+                    "timestampSeconds": 12637
                   }
                 ],
                 "subjectId": "59023b79-b078-455c-a939-254b6858c034",
@@ -1048,6 +1062,13 @@
       "email": "",
       "id": "0caf1bb1-6f82-46f6-ae6e-08df3b2598d3",
       "name": "Ms. Caroline Gueye",
+      "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "Associate Professor of Public Policy, Georgia Institute of Technology, United States of America\nDr. Andrew A. Toole is an economist specializing in innovation policy, science and technology policy, and intellectual property. His work explores how institutions, incentives, and policy design shape participation in invention and innovation, how firms invest in research and commercialization, and how new technologies reach the market. Dr. Toole is particularly interested in how innovation systems function to support public needs and how policy can broaden opportunities for scientists, inventors, and entrepreneurs. He also serves as an Associate Editor of the Journal of Technology Transfer, and holds a Ph.D. in economics from Michigan State University and a B.A. in economics from Kalamazoo College.",
+      "email": "",
+      "id": "54794eb5-3f8a-4da2-ae6f-08df3b2598d3",
+      "name": "Mr. Andrew Toole",
       "photoUrl": "./assets/images/noPicSpeaker.png "
     },
     {
