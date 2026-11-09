@@ -21,7 +21,7 @@
   ],
   "cvc5id": "dd006ca1-db12-4479-04e3-08df3b1fc4ff",
   "cvc5securityLevel": "Public",
-  "cvc5status": "Prepared",
+  "cvc5status": "Started",
   "description": "",
   "event": "Global Forum",
   "id": "dd006ca1-db12-4479-04e3-08df3b1fc4ff",
@@ -103,7 +103,7 @@
   "link": "",
   "live": true,
   "liveTranscriptLink": "https://webcast.wipo.int/live_s2t/transcript.html?meeting_id=db9f085696a115b4e7b251498aecf4a1",
-  "live_status": "NOT_STARTED",
+  "live_status": "STARTED",
   "markers": [],
   "markers_grouped": {
     "markers": [
