@@ -590,16 +590,16 @@
     {
       "description": "KAZAKHSTAN",
       "personId": "8c4253d1-98d7-4701-ab7e-4f4e95f85d5e",
-      "timestamp": "03:49:55",
-      "timestampCVC5": "2026-11-09T17:09:55",
-      "timestampSeconds": 13795
+      "timestamp": "03:49:54",
+      "timestampCVC5": "2026-11-09T17:09:54",
+      "timestampSeconds": 13794
     },
     {
       "description": "H.E. Mr. Kairat Torebayev",
       "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
-      "timestamp": "03:53:21",
-      "timestampCVC5": "2026-11-09T17:13:21",
-      "timestampSeconds": 14001
+      "timestamp": "03:53:19",
+      "timestampCVC5": "2026-11-09T17:13:19",
+      "timestampSeconds": 13999
     },
     {
       "description": "CHINA",
@@ -607,6 +607,20 @@
       "timestamp": "03:53:46",
       "timestampCVC5": "2026-11-09T17:13:46",
       "timestampSeconds": 14026
+    },
+    {
+      "description": "H.E. Mr. Kairat Torebayev",
+      "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+      "timestamp": "03:58:03",
+      "timestampCVC5": "2026-11-09T17:18:03",
+      "timestampSeconds": 14283
+    },
+    {
+      "description": "BURKINA FASO",
+      "personId": "5a00e87e-464b-4d09-b29c-164761da1b94",
+      "timestamp": "03:58:25",
+      "timestampCVC5": "2026-11-09T17:18:25",
+      "timestampSeconds": 14305
     }
   ],
   "markers_grouped": {
@@ -1123,16 +1137,16 @@
                   {
                     "description": "KAZAKHSTAN",
                     "personId": "8c4253d1-98d7-4701-ab7e-4f4e95f85d5e",
-                    "timestamp": "03:49:55",
-                    "timestampCVC5": "2026-11-09T17:09:55",
-                    "timestampSeconds": 13795
+                    "timestamp": "03:49:54",
+                    "timestampCVC5": "2026-11-09T17:09:54",
+                    "timestampSeconds": 13794
                   },
                   {
                     "description": "H.E. Mr. Kairat Torebayev",
                     "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
-                    "timestamp": "03:53:21",
-                    "timestampCVC5": "2026-11-09T17:13:21",
-                    "timestampSeconds": 14001
+                    "timestamp": "03:53:19",
+                    "timestampCVC5": "2026-11-09T17:13:19",
+                    "timestampSeconds": 13999
                   },
                   {
                     "description": "CHINA",
@@ -1140,6 +1154,20 @@
                     "timestamp": "03:53:46",
                     "timestampCVC5": "2026-11-09T17:13:46",
                     "timestampSeconds": 14026
+                  },
+                  {
+                    "description": "H.E. Mr. Kairat Torebayev",
+                    "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+                    "timestamp": "03:58:03",
+                    "timestampCVC5": "2026-11-09T17:18:03",
+                    "timestampSeconds": 14283
+                  },
+                  {
+                    "description": "BURKINA FASO",
+                    "personId": "5a00e87e-464b-4d09-b29c-164761da1b94",
+                    "timestamp": "03:58:25",
+                    "timestampCVC5": "2026-11-09T17:18:25",
+                    "timestampSeconds": 14305
                   }
                 ],
                 "subjectId": "2d4252da-0e34-410e-84b5-d5708b851831",
@@ -1203,6 +1231,13 @@
       "id": "3dffddda-75c6-4963-8e95-08df3bfd2d66",
       "name": "Ms. Elena Perrotti",
       "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "<p><a href=\"https://www.wipo.int/directory/en/details.jsp?country_code=BF\" target=\"_blank\">Country profile</a></p><p><a href=\"https://www.wipo.int/directory/fr/details.jsp?country_code=BF\" target=\"_blank\">Profil national</a><br></p><p><a href=\"https://www.wipo.int/directory/es/details.jsp?country_code=BF\" target=\"_blank\">Perfil national</a></p>",
+      "email": "",
+      "id": "5a00e87e-464b-4d09-b29c-164761da1b94",
+      "name": "BURKINA FASO",
+      "photoUrl": "https://www.wipo.int/shared/images/flags/bf.png"
     },
     {
       "bio": "<a href=\"https://www.wipo.int/about-wipo/en/index.html\" target=\"_blank\">About WIPO</a> <a href=\"https://www.wipo.int/about-wipo/fr/index.html\" target=\"_blank\">L'OMPI</a> <a href=\"https://www.wipo.int/about-wipo/es/index.html\" target=\"_blank\">La OMPI</a> <a href=\"https://www.wipo.int/about-wipo/ar/index.html\" target=\"_blank\">عن الويبو</a> <a href=\"https://www.wipo.int/about-wipo/ru/index.html\" target=\"_blank\">О ВОИС</a> <a href=\"https://www.wipo.int/about-wipo/zh/index.html\" target=\"_blank\">关于产权组织</a>",
