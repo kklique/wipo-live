@@ -1,6 +1,6 @@
 # [d1-15] Protecting What Makes us Human - Is IP the Answer?
 # 발표자: Ms. Imogen Heap — Recording Artist and Technologist, United Kingdom  (panelist)
-# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 3회 · 25문장 · 962단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 3회 · 24문장 · 935단어 · 구분 방식: marker
 
 Thank you so much. I am hoping we could hear from Imogen Heap. as an artist, her perspective on the interests of creators and performers, the importance of ensuring that the interests and preferences of individual artists to be taken into account when considering the impact of AI on copyright and the creative industries. is.
 Hello there.
@@ -28,4 +28,3 @@ So this is the idea, and this is the rationale to which I will stick, even when 
 I know that there are a lot of discussions and debates among copyright lawyers on whether there might be certain efforts put into that.
 And I know that there is also discussion about whether we can attribute certain output to copyright holders, if any.
 But at the same time, if we still consider the protracted expression rational, we should also use that rational to differentiate this from what we can not, in my view, protect as such. so the fact that nowadays there are certain systems that can learn and in a way find certain information. and sum up what is happening in the world, for example. may also accommodate, as we mentioned earlier, freedom of information.
-So the main form, this is per se not a reason to protect maybe the output per se because we are still not protecting any particular expression.
