@@ -483,7 +483,8 @@ def build_turns(seg, item, markers, lead):
             cur = _label(mod, "moderator") if mod else ("(진행/도입)", "", "unknown")
             bi = 0
             for l in seg:
-                while bi < len(bounds) and l.get("raw") and l["raw"] >= bounds[bi][0]:
+                # 문장은 끝나는 시각으로 기록되고 한 문장이 30~60초에 걸치므로, 발언자 교대는 문장의 '시작'(앞 문장이 끝난 시각)으로 판단한다
+                while bi < len(bounds) and l.get("raw") and (l.get("rstart") or l["raw"]) >= bounds[bi][0]:
                     cur = bounds[bi][1]; bi += 1
                 _add(turns, cur, l)
             return turns, "marker"
@@ -571,6 +572,7 @@ def main():
     ap.add_argument("--override", action="append", default=[], help="ID=HH:MM[:SS] (Geneva 시각) 시작 시각 수동 지정")
     ap.add_argument("--overrides-file", default=None, help='{"d1-04": "10:46:30"} 형태 JSON')
     ap.add_argument("--speakers-out", default=None, help="기본: <out>의 형제 폴더 by_speaker")
+    ap.add_argument("--turn-lead", type=float, default=0.0, help="발언자 교대: 마커 시각보다 이만큼(초) 앞에서 시작한 문장부터 새 발언자로 본다")
     ap.add_argument("--marker-lead", type=float, default=5.0, help="마커 시각보다 이만큼(초) 앞 문장부터 새 발언자로 본다")
     ap.add_argument("--quiet", action="store_true")
     a = ap.parse_args()
@@ -597,8 +599,9 @@ def main():
         if prev is not None and t < prev:
             t = prev                      # 시간 역행 방지
         prev = t
+        rstart = last_raw                  # 문장 시작 시각 = 앞 문장이 끝난 시각 (첫 문장은 자기 끝 시각)
         last_raw = r["end"] or last_raw    # 마커와 비교할 '원래 시계' 시각 (없으면 앞 문장 값)
-        lines.append({**r, "t": t, "raw": last_raw, "ltoks": toks(r["text"])})
+        lines.append({**r, "t": t, "raw": last_raw, "rstart": rstart or last_raw, "ltoks": toks(r["text"])})
     lines.sort(key=lambda l: l["t"])
     log(f"문장 {len(lines)}개 | 시계: {clock}" + (f" (수신-문장 중앙값 {med:.0f}s)" if med is not None else "") +
         (f" | {note}" if note else ""))
@@ -642,7 +645,7 @@ def main():
                 with open(os.path.join(out, fn), "w", encoding="utf-8") as f:
                     f.write("\n".join(head) + "\n\n" + "\n".join(l["text"] for l in seg) + "\n")
                 if it["type"] not in ("break", "social"):
-                    turns, smeth = build_turns(seg, it, markers, a.marker_lead)
+                    turns, smeth = build_turns(seg, it, markers, a.turn_lead)
                     write_speakers(sp_dir, it, day, ent, turns, smeth, sp_records)
                 md.append(f'## [{it["id"]}] {it["title"]}\n\n_Day {day["day"]} {it["start"]}-{it["end"]}'
                           + (f' · {ent["people"]}' if ent["people"] else "") + "_\n\n"
