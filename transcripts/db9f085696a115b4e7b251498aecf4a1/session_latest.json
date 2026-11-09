@@ -327,6 +327,20 @@
       "timestamp": "02:45:16",
       "timestampCVC5": "2026-11-09T16:05:16",
       "timestampSeconds": 9916
+    },
+    {
+      "description": "Ms. Natalie Corthésy",
+      "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+      "timestamp": "02:47:40",
+      "timestampCVC5": "2026-11-09T16:07:40",
+      "timestampSeconds": 10060
+    },
+    {
+      "description": "Ms. Imogen Heap",
+      "personId": "87c3553d-f577-44f4-bda2-a39a350d74d5",
+      "timestamp": "02:48:14",
+      "timestampCVC5": "2026-11-09T16:08:14",
+      "timestampSeconds": 10094
     }
   ],
   "markers_grouped": {
@@ -574,6 +588,20 @@
                     "timestamp": "02:45:16",
                     "timestampCVC5": "2026-11-09T16:05:16",
                     "timestampSeconds": 9916
+                  },
+                  {
+                    "description": "Ms. Natalie Corthésy",
+                    "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+                    "timestamp": "02:47:40",
+                    "timestampCVC5": "2026-11-09T16:07:40",
+                    "timestampSeconds": 10060
+                  },
+                  {
+                    "description": "Ms. Imogen Heap",
+                    "personId": "87c3553d-f577-44f4-bda2-a39a350d74d5",
+                    "timestamp": "02:48:14",
+                    "timestampCVC5": "2026-11-09T16:08:14",
+                    "timestampSeconds": 10094
                   }
                 ],
                 "subjectId": "5c4b21a8-f209-492f-9b8f-4996178c9dab",
@@ -672,6 +700,13 @@
       "id": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
       "name": "H.E. Mr. Kairat Torebayev",
       "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "<p>Recording Artist and Technologist, <br>United Kingdom</p><p>Self-produced British composer and recording artist for 25 years, Imogen Heap has released five solo albums, another as one half of Frou Frou and collaborated with countless and varied artists including Taylor Swift, Nitin Sawhney, Deadmau5, Eric Whitacre, Jeff Beck and Jon Hopkins.</p><p>Her compositions and songs pop up in blockbuster and indie films as well as countless TV shows, are featured in underground rap and dance music and covered by the likes of Ariana Grande. As composer and arranger for one of the biggest hits in theatrical history, Harry Potter and The Cursed Child, Imogen won the Drama Desk Outstanding Music in a Play award. As a sought-after speaker and performer, Heap hosted 2020’s Grammys Premiere Ceremony.</p><p>Heap’s collaborative and multi-dimensional workflow attracts companies for commissioned works, leading to songs such as Tiny Human, the first song to distribute payments via a Smart Contract, and The Happy Song, a highly successful song for children in their early-years. Heap, recognised as an artist's artist, has won two Grammys and an Ivor Novello award. In recognition of her pioneering work at the intersection of music and tech, Heap has a hat trick of three honorary doctorates for the gestural music-ware 'MI.MU gloves' system and recently for ’The Creative Passport’ (now Auracles.io) an integrated digital ID and IP solution, empowering music makers to be the change toward a fair and flourishing music ecosystem. Between projects a constant for the past year is every Thursday afternoon, Imogen Q&amp;A chats with her fans via The Listening Chair with those who subscribe to Imogenheap.app to collaborate together on Augmented Imogen, Imogen's in dev AI.<br></p>",
+      "email": "",
+      "id": "87c3553d-f577-44f4-bda2-a39a350d74d5",
+      "name": "Ms. Imogen Heap",
+      "photoUrl": "https://amcpwewipoassets.blob.core.windows.net/assets/09cedfa6-1945-404c-89a9-e6c232a0bc3f.PNG"
     },
     {
       "bio": "Anderson Rocha is Full-Professor of Artificial Intelligence and Digital Forensics at the Institute of Computing, University of Campinas (Unicamp), Brazil. He is an IEEE Fellow and an IEEE Biometrics Council Distinguished Lecturer. He is the Head of the Artificial Intelligence Lab., Recod.ai, at Unicamp. He is an elected affiliate of the Brazilian Academy of Sciences\n\n(ABC) and the Brazilian Academy of Forensic Sciences (ABC). He is a threeterm elected member of the IEEE Information Forensics and Security Technical Committee (IFSTC) and a two-term chair of such committee. He has actively been an editor of important international journals and the chair of key conferences in Al and digital forensics. He is a Microsoft Research and a Google Research Faculty Fellow, important academic recognitions given to researchers by Microsoft Research and Google. In addition, in 2016, he was awarded the Tan Chin Tuan (TCT) Fellowship, a recognition promoted by the Tan Chin Tuan Foundation in Singapore. Since 2023, he is also an Asia Pacific Artificial Intelligence Association Fellow. He has been the principal investigator of several research projects in partnership with public funding agencies in Brazil and abroad and national and multi-national companies, having already filed and licensed several patents. He is ranked among the Top 2% of research scientists worldwide according to PlosOne/Stanford and Research.com studies. Finally, he is now a LinkedIn Top Voice in Artificial Intelligence for continuously raising awareness of Al and its potential impacts on society at large scale.",

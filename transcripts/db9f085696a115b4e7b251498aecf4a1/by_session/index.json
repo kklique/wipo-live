@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T16:07:51+00:00",
+ "generated": "2026-11-09T16:09:52+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -738,22 +738,22 @@
    "start": "16:25",
    "end": "17:25",
    "people": "Moderator: Ms. Natalie Corthésy | Speakers: Mr. Anderson Rocha; Ms. Kalpana Tyagi; Mr. Jakob Plesner Mathiasen; Mr. Marco Bassini; Ms. Imogen Heap",
-   "n_lines": 32,
+   "n_lines": 37,
    "method": "marker",
    "file": "d1-15_protecting-what-makes-us-human-is-ip-the-answer.txt",
    "actual_start": "2026-11-09T16:54:25+01:00",
-   "actual_end": "2026-11-09T17:07:33+01:00",
+   "actual_end": "2026-11-09T17:09:46+01:00",
    "line_from": 1879,
-   "line_to": 1910,
+   "line_to": 1915,
    "speakers": [
     {
      "key": "d1-15__ms-natalie-corthesy",
      "name": "Ms. Natalie Corthésy",
      "affiliation": "Associate Dean of Teaching and Learning, Senior Lecturer in Law, The University of the West Indies, Mona Campus, Jamaica",
      "role": "moderator",
-     "n_lines": 11,
-     "n_words": 640,
-     "n_turns": 3,
+     "n_lines": 13,
+     "n_words": 697,
+     "n_turns": 4,
      "file": "d1-15__ms-natalie-corthesy.txt",
      "method": "marker"
     },
@@ -784,10 +784,21 @@
      "name": "Mr. Jakob Plesner Mathiasen",
      "affiliation": "Partner, Gorrissen Federspiel, Denmark",
      "role": "panelist",
-     "n_lines": 4,
-     "n_words": 232,
+     "n_lines": 5,
+     "n_words": 307,
      "n_turns": 1,
      "file": "d1-15__mr-jakob-plesner-mathiasen.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-15__ms-imogen-heap",
+     "name": "Ms. Imogen Heap",
+     "affiliation": "Recording Artist and Technologist, United Kingdom",
+     "role": "panelist",
+     "n_lines": 2,
+     "n_words": 151,
+     "n_turns": 1,
+     "file": "d1-15__ms-imogen-heap.txt",
      "method": "marker"
     }
    ]
