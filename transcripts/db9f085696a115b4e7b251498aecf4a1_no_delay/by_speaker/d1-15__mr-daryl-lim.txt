@@ -1,6 +1,6 @@
 # [d1-15] Protecting What Makes us Human - Is IP the Answer?
 # 발표자: Mr. Daryl Lim  (floor)
-# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 1회 · 22문장 · 1,020단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 1회 · 29문장 · 1,244단어 · 구분 방식: marker
 
 Good morning, good evening. Please imagine with me. a small newspaper. whose readers usually find its reporting through Google search. The publisher wants those links to remain visible on Google. But may object to her reporting being used in AI -generated answers that give readers less reason to visit the newspaper itself. What if she cannot refuse the second use without jeopardizing the first?
 Now consider an independent AI developer building a service for, let's say, Wolof, a language spoken widely in Senegal. Research has documented how poorly leading language models perform on Wolof and other underrepresented African languages. The developer wants to obtain the permissions she needs. but she cannot afford to negotiate with hundreds of publishers and other rights holders.
@@ -24,3 +24,10 @@ Interestingly, the White House itself recommended in March that Congress conside
 After last week's elections, the Democrats will control both houses of Congress by January, and We senior Democratic lawmakers have challenged the Justice Department's reasoning in the litigation. particularly its appeal to national security. when courts decide fair use. You heard about fair use when Ed spoke about it earlier. Now, they also emphasize that the Justice Department overstepped its authority pointing out that the filing reportedly surprised the Government's own copyright and patent experts, the USPTO and the Copyright Office.
 Now, what can we expect?
 Oversight may increase. A presidential veto remains possible, and courts will continue to determine values, but I would not expect a settled U.S. position soon. And here there's one caution for IP policy makers, which is we should not assume that copyright is the only or even decisive barrier confronting small or medium-sized AI developers. if access to computing and distribution remains concentrated.
+making training material cheaper may produce substantial savings for incumbent firms without much to help to broaden participation. So before changing the copyright rules in the name of competition, it's important for us to ask the benefits will actually reach the people that we hope they'll reach or mainly benefit the companies already best placed to take advantage of them.
+I have spoken about meaningful choice. I've spoken about competitive entry.
+Let me end by talking about practical rights.
+Now, WIPO's Copyright Committee is due to meet later this month with a new scoping study on AI training and copyright.
+Member states can and probably will disagree. about exceptions, permissions, remuneration. But there are practical questions. we can investigate without agreeing on one worldwide copyright rule. Suppose the developer acquires a data set marked as license. for commercial use. That sounds reassuring. but what if the data set provider was authorized to collect the underlying works but not to redistribute them?
+for AI training? The developer may have a license from the data set provider. provider without having the permissions needed for the underlying material. And that's why here we need to examine the entire dataset life cycle, how works are sourced, redistributed, retained and incorporated into subsequent data sets.
+Because a later license does not by itself establish that earlier copying was authorized.

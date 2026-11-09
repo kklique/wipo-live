@@ -1,7 +1,7 @@
 # [d1-15] Protecting What Makes us Human - Is IP the Answer?
 # Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva)
 # Moderator: Ms. Natalie Corthésy | Speakers: Mr. Anderson Rocha; Ms. Kalpana Tyagi; Mr. Jakob Plesner Mathiasen; Mr. Marco Bassini; Ms. Imogen Heap
-# 실제 구간 16:17:07-16:27:09 · 27문장 · 경계 방식: cue
+# 실제 구간 16:17:07-16:28:53 · 34문장 · 경계 방식: cue
 
 So the final product reflects human intellectual creativity. Similarly, Vietnam's new copyright decree makes it clear that content only gets copyright protection when humans have made a significant and decisive contribution to ensure that the final result accurately reflects their creative intent rather than the random or automatic arrangement of their algorithm.
 The draft registration guidelines released by the Philippines emphasize that works are eligible for registration only when they contain original expressions. resulting from human authors. creative contribution and meet the originality requirements merely providing text prompts or instructions to AI. should not by itself establish sufficient human creative contribution. Obviously, there is growing consensus in Asia that protecting content autonomously produced by AI will put the fundamental values in the principles of copyright law in crosshairs.
@@ -30,3 +30,10 @@ Interestingly, the White House itself recommended in March that Congress conside
 After last week's elections, the Democrats will control both houses of Congress by January, and We senior Democratic lawmakers have challenged the Justice Department's reasoning in the litigation. particularly its appeal to national security. when courts decide fair use. You heard about fair use when Ed spoke about it earlier. Now, they also emphasize that the Justice Department overstepped its authority pointing out that the filing reportedly surprised the Government's own copyright and patent experts, the USPTO and the Copyright Office.
 Now, what can we expect?
 Oversight may increase. A presidential veto remains possible, and courts will continue to determine values, but I would not expect a settled U.S. position soon. And here there's one caution for IP policy makers, which is we should not assume that copyright is the only or even decisive barrier confronting small or medium-sized AI developers. if access to computing and distribution remains concentrated.
+making training material cheaper may produce substantial savings for incumbent firms without much to help to broaden participation. So before changing the copyright rules in the name of competition, it's important for us to ask the benefits will actually reach the people that we hope they'll reach or mainly benefit the companies already best placed to take advantage of them.
+I have spoken about meaningful choice. I've spoken about competitive entry.
+Let me end by talking about practical rights.
+Now, WIPO's Copyright Committee is due to meet later this month with a new scoping study on AI training and copyright.
+Member states can and probably will disagree. about exceptions, permissions, remuneration. But there are practical questions. we can investigate without agreeing on one worldwide copyright rule. Suppose the developer acquires a data set marked as license. for commercial use. That sounds reassuring. but what if the data set provider was authorized to collect the underlying works but not to redistribute them?
+for AI training? The developer may have a license from the data set provider. provider without having the permissions needed for the underlying material. And that's why here we need to examine the entire dataset life cycle, how works are sourced, redistributed, retained and incorporated into subsequent data sets.
+Because a later license does not by itself establish that earlier copying was authorized.
