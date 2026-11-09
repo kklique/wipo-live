@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T16:20:11+00:00",
+ "generated": "2026-11-09T16:22:13+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -701,13 +701,13 @@
    "start": "16:25",
    "end": "17:25",
    "people": "Moderator: Ms. Natalie Corthésy | Speakers: Mr. Anderson Rocha; Ms. Kalpana Tyagi; Mr. Jakob Plesner Mathiasen; Mr. Marco Bassini; Ms. Imogen Heap",
-   "n_lines": 58,
+   "n_lines": 62,
    "method": "marker",
    "file": "d1-15_protecting-what-makes-us-human-is-ip-the-answer.txt",
    "actual_start": "2026-11-09T16:54:02+01:00",
-   "actual_end": "2026-11-09T17:19:50+01:00",
+   "actual_end": "2026-11-09T17:21:50+01:00",
    "line_from": 1000,
-   "line_to": 1057,
+   "line_to": 1061,
    "speakers": [
     {
      "key": "d1-15__ms-natalie-corthesy",
@@ -725,8 +725,8 @@
      "name": "Mr. Anderson Rocha",
      "affiliation": "Full Professor of Artificial Intelligence and Digital Forensics, University of Campinas, Head, Recod.ai Artificial Intelligence Lab, Brazil",
      "role": "panelist",
-     "n_lines": 7,
-     "n_words": 456,
+     "n_lines": 11,
+     "n_words": 716,
      "n_turns": 2,
      "file": "d1-15__mr-anderson-rocha.txt",
      "method": "marker"
