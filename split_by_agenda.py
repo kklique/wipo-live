@@ -191,7 +191,29 @@ def at(day_date, hms):
 
 
 # ---------------------------------------------------------------- 날짜별 분할
-def split_day(day, lines, overrides):
+def title_match(desc, title):
+    """웹캐스트 안건 마커 설명이 아젠더 세션 제목과 같은 것인가 (번호/구두점 차이, 콜론 앞 접두어만 쓴 경우 허용)"""
+    d = norm(re.sub(r"^\s*\d+[.)]\s*", "", desc))
+    t = norm(title)
+    pre = norm(title.split(":")[0]) if ":" in title else t
+    return max(difflib.SequenceMatcher(None, d, t).ratio(), difflib.SequenceMatcher(None, d, pre).ratio()) >= 0.85
+
+
+def subject_marker_pos(item, lines, markers, prev, lead):
+    """안건 마커로 세션 시작 위치를 찾는다. 앞 세션 시작 이후의 가장 이른 일치 마커. 없으면 None"""
+    floor = lines[prev].get("raw") if prev < len(lines) else None
+    for m in markers:
+        if not m.get("subject") or not title_match(m["desc"], item["title"]):
+            continue
+        if floor is not None and m["t"] < floor - timedelta(seconds=lead):
+            continue
+        for k in range(prev, len(lines)):
+            if lines[k].get("raw") and lines[k]["raw"] >= m["t"] - timedelta(seconds=lead):
+                return k
+    return None
+
+
+def split_day(day, lines, overrides, markers=(), lead=5.0):
     """lines: [{'t': aware Geneva dt, 'ltoks': [...], ...}] 시간순. 반환: 세션별 (시작 위치, 방식) 목록."""
     date = datetime.strptime(day["date"], "%Y-%m-%d").date()
     items = day["items"]
@@ -206,6 +228,12 @@ def split_day(day, lines, overrides):
             anchor = lines[pos]["t"] if pos is not None else None
         elif i == 0:
             pos, method = (0, "first-line") if lines else (None, "not-reached")
+            sp = subject_marker_pos(it, lines, markers, 0, lead) if lines else None
+            if sp is not None:
+                pos, method, anchor = sp, "marker", lines[sp]["t"]
+        elif subject_marker_pos(it, lines, markers, prev, lead) is not None:
+            pos = subject_marker_pos(it, lines, markers, prev, lead)
+            method, anchor = "marker", lines[pos]["t"]
         else:
             E = S + drift
             c = build_cues(it)
@@ -261,7 +289,8 @@ def read_markers(dirs):
                     t = datetime.fromisoformat(m["timestampCVC5"]).replace(tzinfo=None)
                 except (KeyError, ValueError):
                     continue
-                out.append({"t": t, "desc": (m.get("description") or "").strip(), "person": "personId" in m})
+                out.append({"t": t, "desc": (m.get("description") or "").strip(), "person": "personId" in m,
+                            "subject": "subjectId" in m})
     out.sort(key=lambda m: m["t"])
     return out
 
@@ -477,7 +506,7 @@ def main():
         if not dl:
             continue
         used_dates.add(day["date"])
-        res = split_day(day, dl, overrides)
+        res = split_day(day, dl, overrides, markers, a.marker_lead)
         starts = [p for p, _ in res]
         for i, it in enumerate(day["items"]):
             pos, method = res[i]
