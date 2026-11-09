@@ -544,6 +544,13 @@
       "timestamp": "03:36:51",
       "timestampCVC5": "2026-11-09T16:56:51",
       "timestampSeconds": 13011
+    },
+    {
+      "description": "UNITED ARAB EMIRATES",
+      "personId": "ed027126-7cb8-4188-8688-ac407025e46b",
+      "timestamp": "03:40:17",
+      "timestampCVC5": "2026-11-09T17:00:17",
+      "timestampSeconds": 13217
     }
   ],
   "markers_grouped": {
@@ -1014,6 +1021,13 @@
                     "timestamp": "03:36:51",
                     "timestampCVC5": "2026-11-09T16:56:51",
                     "timestampSeconds": 13011
+                  },
+                  {
+                    "description": "UNITED ARAB EMIRATES",
+                    "personId": "ed027126-7cb8-4188-8688-ac407025e46b",
+                    "timestamp": "03:40:17",
+                    "timestampCVC5": "2026-11-09T17:00:17",
+                    "timestampSeconds": 13217
                   }
                 ],
                 "subjectId": "2d4252da-0e34-410e-84b5-d5708b851831",
@@ -1126,6 +1140,13 @@
       "id": "87c3553d-f577-44f4-bda2-a39a350d74d5",
       "name": "Ms. Imogen Heap",
       "photoUrl": "https://amcpwewipoassets.blob.core.windows.net/assets/09cedfa6-1945-404c-89a9-e6c232a0bc3f.PNG"
+    },
+    {
+      "bio": "<p><a href=\"https://www.wipo.int/directory/en/details.jsp?country_code=AE\" target=\"_blank\">Country profile</a></p><p><a href=\"https://www.wipo.int/directory/fr/details.jsp?country_code=AE\" target=\"_blank\">Profil national</a><br></p><p><a href=\"https://www.wipo.int/directory/es/details.jsp?country_code=AE\" target=\"_blank\">Perfil national</a></p>",
+      "email": "",
+      "id": "ed027126-7cb8-4188-8688-ac407025e46b",
+      "name": "UNITED ARAB EMIRATES",
+      "photoUrl": "https://www.wipo.int/shared/images/flags/ae.png"
     },
     {
       "bio": "Anderson Rocha is Full-Professor of Artificial Intelligence and Digital Forensics at the Institute of Computing, University of Campinas (Unicamp), Brazil. He is an IEEE Fellow and an IEEE Biometrics Council Distinguished Lecturer. He is the Head of the Artificial Intelligence Lab., Recod.ai, at Unicamp. He is an elected affiliate of the Brazilian Academy of Sciences\n\n(ABC) and the Brazilian Academy of Forensic Sciences (ABC). He is a threeterm elected member of the IEEE Information Forensics and Security Technical Committee (IFSTC) and a two-term chair of such committee. He has actively been an editor of important international journals and the chair of key conferences in Al and digital forensics. He is a Microsoft Research and a Google Research Faculty Fellow, important academic recognitions given to researchers by Microsoft Research and Google. In addition, in 2016, he was awarded the Tan Chin Tuan (TCT) Fellowship, a recognition promoted by the Tan Chin Tuan Foundation in Singapore. Since 2023, he is also an Asia Pacific Artificial Intelligence Association Fellow. He has been the principal investigator of several research projects in partnership with public funding agencies in Brazil and abroad and national and multi-national companies, having already filed and licensed several patents. He is ranked among the Top 2% of research scientists worldwide according to PlosOne/Stanford and Research.com studies. Finally, he is now a LinkedIn Top Voice in Artificial Intelligence for continuously raising awareness of Al and its potential impacts on society at large scale.",
