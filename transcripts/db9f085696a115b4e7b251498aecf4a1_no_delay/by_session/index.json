@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T14:22:04+00:00",
+ "generated": "2026-11-09T14:24:07+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -236,13 +236,13 @@
    "start": "10:55",
    "end": "11:05",
    "people": "Speaker: Mr. Anant Madabhushi",
-   "n_lines": 40,
+   "n_lines": 44,
    "method": "marker",
    "file": "d1-05_showcase-1-ai-in-action-from-ideas-to-real-world.txt",
    "actual_start": "2026-11-09T11:41:19+01:00",
-   "actual_end": "2026-11-09T15:22:00+01:00",
+   "actual_end": "2026-11-09T15:23:49+01:00",
    "line_from": 248,
-   "line_to": 843,
+   "line_to": 847,
    "speakers": [
     {
      "key": "d1-05__unknown",
@@ -271,10 +271,21 @@
      "name": "Mr. Cristian Léon",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 30,
-     "n_words": 1704,
+     "n_lines": 20,
+     "n_words": 1004,
      "n_turns": 1,
      "file": "d1-05__mr-cristian-leon.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-05__ms-ulrike-till",
+     "name": "Ms. Ulrike Till",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 10,
+     "n_words": 700,
+     "n_turns": 1,
+     "file": "d1-05__ms-ulrike-till.txt",
      "method": "marker"
     },
     {
@@ -282,8 +293,8 @@
      "name": "Mr. Edward Lee",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 5,
-     "n_words": 278,
+     "n_lines": 9,
+     "n_words": 490,
      "n_turns": 1,
      "file": "d1-05__mr-edward-lee.txt",
      "method": "marker"

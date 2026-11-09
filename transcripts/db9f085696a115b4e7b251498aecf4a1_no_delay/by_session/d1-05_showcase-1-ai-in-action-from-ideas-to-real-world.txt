@@ -1,7 +1,7 @@
 # [d1-05] Showcase 1: AI in Action - From Ideas to Real-World Impact
 # Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva)
 # Speaker: Mr. Anant Madabhushi
-# 실제 구간 11:41:19-15:22:00 · 40문장 · 경계 방식: marker
+# 실제 구간 11:41:19-15:23:49 · 44문장 · 경계 방식: marker
 
 Our creators require absolute assurance of credit and compensation. just as our developers need clear, predictable rules to innovate with confidence. our legislation also defines an inventor as the natural person who devised the invention. One, hopefully I have conveyed that AI on routine images can transform precision medicine. Secondly, when we talk about IP, let's focus on patenting the pattern, not necessarily the algorithm. IP is the bridge from paper to patient, but only if it generalizes, and that's where the validation is so absolutely critical. And finally, we have to build democratization into the IP strategy so that these licensing models can be kept low cost and accessible, particularly in low and middle income countries.
 Thank you very much.
@@ -43,3 +43,7 @@ And we're not going to study all of the nuances of fair use. but if the person c
 At a very high fair use is a general exception, which is somewhat unique to the United States.
 There are countries like the United Kingdom that have fair dealing. but fair use is somewhat different from even fair dealing. it's a general all purpose exception applied by courts on a case by case basis. which then makes it very difficult to predict for novel questions of law like AI training, how will the courts rule? on this new issue of presented in this particular context?
 The words in green tend to favor fair use and the words in red tend to favor fair use. to cut against fair use. and those were established in various precedents. The Supreme Court has also cautioned that fair use is a flexible doctrine applied on a case -by-case basis. Okay, so advance to the next slide. Now, here are the three decisions so far in all of the 166 lawsuits that have been filed.
+So you may be surprised that there are only three, but litigation takes a long time in the United States. The two judges depicted on the left side of the screen Judge Alsop and Judge Chabria with the analysis of yes, fair use. In On summary judgment, which means you don't need a trial because there are no disputed facts that are relevant to that decision on summary judgment.
+Both judges ruled that training AI models on copyrighted works is a fair use because it has a highly transformative purpose in developing the large language model. Based on facts where the plaintiffs did not assert record before both judges, and both judges ultimately concluded it was a fair use.
+Now, there's a big caveat to both decisions, and that's depicted by the no, with the stop signs in the middle of the slide, where both judges had huge concerns about one other issue, Judge Alsop in the entropic case, decided that the initial acquisition of copies of works from so -called shadow libraries that third parties have prepared. that was a different use outside of training because Anthropic stored the copies permanently in a general library. And Judge also said we need to go to trial on that.
+It may be infringing.
