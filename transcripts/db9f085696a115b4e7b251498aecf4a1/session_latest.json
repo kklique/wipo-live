@@ -677,13 +677,6 @@
       "timestamp": "04:14:38",
       "timestampCVC5": "2026-11-09T17:34:38",
       "timestampSeconds": 15278
-    },
-    {
-      "description": "RUSSIAN FEDERATION",
-      "personId": "99d8964a-2615-43fe-9135-56dfa6fdb1c2",
-      "timestamp": "04:16:37",
-      "timestampCVC5": "2026-11-09T17:36:37",
-      "timestampSeconds": 15397
     }
   ],
   "markers_grouped": {
@@ -1287,13 +1280,6 @@
                     "timestamp": "04:14:38",
                     "timestampCVC5": "2026-11-09T17:34:38",
                     "timestampSeconds": 15278
-                  },
-                  {
-                    "description": "RUSSIAN FEDERATION",
-                    "personId": "99d8964a-2615-43fe-9135-56dfa6fdb1c2",
-                    "timestamp": "04:16:37",
-                    "timestampCVC5": "2026-11-09T17:36:37",
-                    "timestampSeconds": 15397
                   }
                 ],
                 "subjectId": "2d4252da-0e34-410e-84b5-d5708b851831",
@@ -1399,13 +1385,6 @@
       "id": "52555e3a-ff8e-468c-8c68-56c7e6d21ded",
       "name": "IPO (Intellectual Property Owners Association)",
       "photoUrl": "./assets/images/noPicSpeaker.png "
-    },
-    {
-      "bio": "<p><a href=\"https://www.wipo.int/directory/en/details.jsp?country_code=RU\" target=\"_blank\">Country profile</a></p><p><a href=\"https://www.wipo.int/directory/fr/details.jsp?country_code=RU\" target=\"_blank\">Profil national</a><br></p><p><a href=\"https://www.wipo.int/directory/es/details.jsp?country_code=RU\" target=\"_blank\">Perfil national</a></p>",
-      "email": "",
-      "id": "99d8964a-2615-43fe-9135-56dfa6fdb1c2",
-      "name": "RUSSIAN FEDERATION",
-      "photoUrl": "https://www.wipo.int/shared/images/flags/ru.png"
     },
     {
       "bio": "Marco Bassini is an Assistant Professor of Fundamental Rights and<br>Artificial Intelligence at the Tilburg Institute for Law, Technology, and<br>Society (TILT), Tilburg University. He teaches, among other courses,<br>Regulation and Governance of AI in the Law and Technology master’s<br>program and Law, Technology, and Society in the Global Law bachelor<br>program. He is also the Principal Investigator of the Dutch-government<br>funded research grant “RetrAIn – Enforcing Constitutional Rights in the<br>Age of Generative Artificial Intelligence” and one of the experts selected<br>by the European AI Office for the drawing-up of the General Purpose AI Code of Practice. He<br>previously served as Adjunct Professor of Constitutional Law and Internet Law at Bocconi<br>University, where he was also the Coordinator of the LLM in Law of Internet Technology from<br>2020 to 2023. He obtained his PhD in Constitutional Law and European Law from the University<br>of Verona in 2016. A qualified lawyer with the Bar of Milan (Italy) since 2013, Dr. Bassini has<br>over a decade of experience combining academic research with legal practice. He has worked<br>as data protection counsel at international law firms in Milan and Rome, and served as Data<br>Protection Officer for a leading Italian company. In addition, he has advised the Italian<br>Communications Authority and the Italian Ministry for Technological Innovation. His expertise<br>spans data protection law, AI regulation, and media law.;;",
