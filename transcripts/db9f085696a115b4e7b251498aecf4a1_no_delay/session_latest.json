@@ -338,9 +338,16 @@
     {
       "description": "Ms. Imogen Heap",
       "personId": "87c3553d-f577-44f4-bda2-a39a350d74d5",
-      "timestamp": "02:48:14",
-      "timestampCVC5": "2026-11-09T16:08:14",
-      "timestampSeconds": 10094
+      "timestamp": "02:48:13",
+      "timestampCVC5": "2026-11-09T16:08:13",
+      "timestampSeconds": 10093
+    },
+    {
+      "description": "Ms. Natalie Corthésy",
+      "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+      "timestamp": "02:51:24",
+      "timestampCVC5": "2026-11-09T16:11:24",
+      "timestampSeconds": 10284
     }
   ],
   "markers_grouped": {
@@ -599,9 +606,16 @@
                   {
                     "description": "Ms. Imogen Heap",
                     "personId": "87c3553d-f577-44f4-bda2-a39a350d74d5",
-                    "timestamp": "02:48:14",
-                    "timestampCVC5": "2026-11-09T16:08:14",
-                    "timestampSeconds": 10094
+                    "timestamp": "02:48:13",
+                    "timestampCVC5": "2026-11-09T16:08:13",
+                    "timestampSeconds": 10093
+                  },
+                  {
+                    "description": "Ms. Natalie Corthésy",
+                    "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+                    "timestamp": "02:51:24",
+                    "timestampCVC5": "2026-11-09T16:11:24",
+                    "timestampSeconds": 10284
                   }
                 ],
                 "subjectId": "5c4b21a8-f209-492f-9b8f-4996178c9dab",

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T16:09:57+00:00",
+ "generated": "2026-11-09T16:11:58+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -701,13 +701,13 @@
    "start": "16:25",
    "end": "17:25",
    "people": "Moderator: Ms. Natalie Corthésy | Speakers: Mr. Anderson Rocha; Ms. Kalpana Tyagi; Mr. Jakob Plesner Mathiasen; Mr. Marco Bassini; Ms. Imogen Heap",
-   "n_lines": 30,
+   "n_lines": 35,
    "method": "marker",
    "file": "d1-15_protecting-what-makes-us-human-is-ip-the-answer.txt",
    "actual_start": "2026-11-09T16:54:02+01:00",
-   "actual_end": "2026-11-09T17:09:52+01:00",
+   "actual_end": "2026-11-09T17:11:43+01:00",
    "line_from": 1000,
-   "line_to": 1029,
+   "line_to": 1034,
    "speakers": [
     {
      "key": "d1-15__ms-natalie-corthesy",
@@ -758,8 +758,8 @@
      "name": "Ms. Imogen Heap",
      "affiliation": "Recording Artist and Technologist, United Kingdom",
      "role": "panelist",
-     "n_lines": 3,
-     "n_words": 241,
+     "n_lines": 8,
+     "n_words": 529,
      "n_turns": 1,
      "file": "d1-15__ms-imogen-heap.txt",
      "method": "marker"
