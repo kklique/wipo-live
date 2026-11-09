@@ -712,6 +712,20 @@
       "timestamp": "04:31:02",
       "timestampCVC5": "2026-11-09T17:51:02",
       "timestampSeconds": 16262
+    },
+    {
+      "description": "H.E. Mr. Kairat Torebayev",
+      "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+      "timestamp": "04:32:07",
+      "timestampCVC5": "2026-11-09T17:52:07",
+      "timestampSeconds": 16327
+    },
+    {
+      "description": "IAWG (International Affiliation of Writers' Guilds)",
+      "personId": "442970c9-e138-4e3f-327c-08deb5ba147b",
+      "timestamp": "04:33:06",
+      "timestampCVC5": "2026-11-09T17:53:06",
+      "timestampSeconds": 16386
     }
   ],
   "markers_grouped": {
@@ -1350,6 +1364,20 @@
                     "timestamp": "04:31:02",
                     "timestampCVC5": "2026-11-09T17:51:02",
                     "timestampSeconds": 16262
+                  },
+                  {
+                    "description": "H.E. Mr. Kairat Torebayev",
+                    "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+                    "timestamp": "04:32:07",
+                    "timestampCVC5": "2026-11-09T17:52:07",
+                    "timestampSeconds": 16327
+                  },
+                  {
+                    "description": "IAWG (International Affiliation of Writers' Guilds)",
+                    "personId": "442970c9-e138-4e3f-327c-08deb5ba147b",
+                    "timestamp": "04:33:06",
+                    "timestampCVC5": "2026-11-09T17:53:06",
+                    "timestampSeconds": 16386
                   }
                 ],
                 "subjectId": "2d4252da-0e34-410e-84b5-d5708b851831",
@@ -1365,6 +1393,13 @@
   },
   "name": "First Global Forum on Intellectual Property and Artificial Intelligence - WIPO IP-AI GEN 26 - Day 1 Afternoon",
   "people": [
+    {
+      "bio": null,
+      "email": "",
+      "id": "442970c9-e138-4e3f-327c-08deb5ba147b",
+      "name": "IAWG (International Affiliation of Writers' Guilds)",
+      "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
     {
       "bio": "AI Domestic Robotics Researcher, PhD candidate in Digital Humanities, University of Vienna, United States of America\nEmily Kate Genatowski is an American immersive robotics researcher, historian, and entrepreneur based in Vienna, Austria, who has gained global recognition for her pioneering work in human-AI integration. Her unique research methodology explores the practical, legal, and social friction points that occur when developing technology moves out of laboratory environments and into everyday settings.\nGenatowski achieved international prominence through a first-of-its-kind experiment, living full-time in her Vienna residence with \"Tova,\" a Unitree bipedal humanoid robot. By treating her personal home as a robotics lab, she has documented the humanistic realities of sharing physical spaces with humanoid robotics; insights she shares on global stages, including her viral TED talk at TEDAI Vienna. This ongoing immersive ethnographic experiment has transformed her everyday life into inspiration for public discourse on the deployment of domestic humanoids. Emily speaks candidly on the psychological, behavioral, and practical realities of cohabitating with machines.\nBefore transitioning into immersive robotics research, Genatowski established a diverse career bridging digital humanities and corporate innovation. She holds an undergraduate degree in History from Columbia University and a Master’s degree from Harvard University. She formerly served as the North American coordinator for Google Arts & Culture, where she managed major digital collaborations with world-class institutions, including NASA, the Smithsonian, and the U.S. National Archives.\nCurrently a PhD candidate in Digital Humanities at the University of Vienna, she designed and taught the university's first academic master's course on AI and Large Language Models in Humanities Research and regularly consults with numerous other Viennese institutions on AI adoption policies. Emily speaks on stages and lecture halls across Europe about the many pain points of human robotic cohabitation and with a mind towards solution oriented thinking, has embarked upon both advocacy and entrepreneurial ventures. In addition to advocating for identity standards for autonomous robotics within the EU, Genatowski is also the founder of PSL, an Austria-based insurtech startup. PSL standardizes hundreds of risk variables across humanoid robotic deployments in five sectors. The confidence-weighted, multivariable risk scores enable specialist underwriters to develop insurance policies for autonomous robotics, helping modern society safely navigate the complex, evolving landscape of physical AI adoption.",
       "email": "",
