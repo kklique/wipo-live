@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T14:28:10+00:00",
+ "generated": "2026-11-09T14:30:12+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -236,13 +236,13 @@
    "start": "10:55",
    "end": "11:05",
    "people": "Speaker: Mr. Anant Madabhushi",
-   "n_lines": 100,
+   "n_lines": 71,
    "method": "marker",
    "file": "d1-05_showcase-1-ai-in-action-from-ideas-to-real-world.txt",
    "actual_start": "2026-11-09T11:23:24+01:00",
-   "actual_end": "2026-11-09T15:27:53+01:00",
+   "actual_end": "2026-11-09T15:12:33+01:00",
    "line_from": 250,
-   "line_to": 1713,
+   "line_to": 1684,
    "speakers": [
     {
      "key": "d1-05__unknown",
@@ -282,32 +282,10 @@
      "name": "Mr. Cristian Léon",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 20,
-     "n_words": 1022,
+     "n_lines": 19,
+     "n_words": 951,
      "n_turns": 1,
      "file": "d1-05__mr-cristian-leon.txt",
-     "method": "marker"
-    },
-    {
-     "key": "d1-05__ms-ulrike-till",
-     "name": "Ms. Ulrike Till",
-     "affiliation": "",
-     "role": "floor",
-     "n_lines": 12,
-     "n_words": 820,
-     "n_turns": 2,
-     "file": "d1-05__ms-ulrike-till.txt",
-     "method": "marker"
-    },
-    {
-     "key": "d1-05__mr-edward-lee",
-     "name": "Mr. Edward Lee",
-     "affiliation": "",
-     "role": "floor",
-     "n_lines": 16,
-     "n_words": 888,
-     "n_turns": 1,
-     "file": "d1-05__mr-edward-lee.txt",
      "method": "marker"
     }
    ]
@@ -625,24 +603,68 @@
    "start": "15:10",
    "end": "16:10",
    "people": "Speakers: Mr. Andres Guadamuz; Mr. Wang Qian; Mr. Edward Lee",
-   "n_lines": 2,
+   "n_lines": 36,
    "method": "marker",
    "file": "d1-13_one-stop-shop-keeping-up-with-ip-and-ai.txt",
    "actual_start": "2026-11-09T15:00:32+01:00",
-   "actual_end": "2026-11-09T15:01:07+01:00",
+   "actual_end": "2026-11-09T15:30:03+01:00",
    "line_from": 1624,
-   "line_to": 1625,
+   "line_to": 1718,
    "speakers": [
     {
      "key": "d1-13__unknown",
-     "name": "(발표자 구분 불가)",
+     "name": "(진행/도입)",
      "affiliation": "",
      "role": "unknown",
      "n_lines": 2,
      "n_words": 113,
      "n_turns": 1,
      "file": "d1-13__unknown.txt",
-     "method": "none"
+     "method": "marker"
+    },
+    {
+     "key": "d1-13__mr-cristian-leon",
+     "name": "Mr. Cristian Léon",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 1,
+     "n_words": 71,
+     "n_turns": 1,
+     "file": "d1-13__mr-cristian-leon.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-13__ms-ulrike-till",
+     "name": "Ms. Ulrike Till",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 12,
+     "n_words": 820,
+     "n_turns": 2,
+     "file": "d1-13__ms-ulrike-till.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-13__mr-edward-lee",
+     "name": "Mr. Edward Lee",
+     "affiliation": "Professor of Law, Santa Clara University School of Law, United States of America",
+     "role": "panelist",
+     "n_lines": 16,
+     "n_words": 888,
+     "n_turns": 1,
+     "file": "d1-13__mr-edward-lee.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-13__ms-elena-perrotti",
+     "name": "Ms. Elena Perrotti",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 5,
+     "n_words": 268,
+     "n_turns": 1,
+     "file": "d1-13__ms-elena-perrotti.txt",
+     "method": "marker"
     }
    ]
   },

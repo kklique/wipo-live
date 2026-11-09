@@ -1,6 +1,6 @@
 # [d1-13] One-Stop Shop: Keeping up with IP and AI
-# 발표자: (발표자 구분 불가)  (unknown)
-# Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva) · 발언 1회 · 2문장 · 113단어 · 구분 방식: none
+# 발표자: (진행/도입)  (unknown)
+# Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva) · 발언 1회 · 2문장 · 113단어 · 구분 방식: marker
 
 Another great question which I will answer very quickly and I will also direct you, given that question, to speak to my colleague over there. But I use my actual, I use a unitree G1 EDU and I use it out of box. So I am not a developer and most of the consumer market are not going to be developers. So I use it as anybody would if they took it out of the box, turned it on, charged it up, turned it on and let it come into their home.
 But there are a number of incredible organizations, robotics clubs, individuals and companies who are very , Thank you. Good afternoon.

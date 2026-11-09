@@ -1,6 +1,6 @@
-# [d1-05] Showcase 1: AI in Action - From Ideas to Real-World Impact
-# 발표자: Mr. Edward Lee  (floor)
-# Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva) · 발언 1회 · 16문장 · 888단어 · 구분 방식: marker
+# [d1-13] One-Stop Shop: Keeping up with IP and AI
+# 발표자: Mr. Edward Lee — Professor of Law, Santa Clara University School of Law, United States of America  (panelist)
+# Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva) · 발언 1회 · 16문장 · 888단어 · 구분 방식: marker
 
 Okay, go to the next slide. Now, unfortunately, the state of the law is unsettled. Go to the next slide. One of the reasons why that the law is unsettled is we have very few decisions. thus far, even after four years. of litigation in the generative AI lawsuits. Okay, advance to the next slide. And one of the reasons why this is not surprising is that the main issue for the infringement claim related to the training of AI models involves the defense of fair use raised by the AI companies.
 And we are not going to study all of the nuances of Fair Use. but if the person could press yes, keep on pressing until all of the text is on this slide. Okay.

@@ -169,18 +169,18 @@
       "timestampSeconds": 2431
     },
     {
-      "description": "One-Stop Shop: Keeping up with IP and AI ",
-      "subjectId": "1fda6de4-644a-4a61-af86-3dccad676ba9",
-      "timestamp": "00:40:34",
-      "timestampCVC5": "2026-11-09T14:00:34",
-      "timestampSeconds": 2434
-    },
-    {
       "description": "Mr. Cristian Léon",
       "personId": "a5b20d32-57e1-4ec1-ae71-08df3b2598d3",
       "timestamp": "00:42:09",
       "timestampCVC5": "2026-11-09T14:02:09",
       "timestampSeconds": 2529
+    },
+    {
+      "description": "One-Stop Shop: Keeping up with IP and AI ",
+      "subjectId": "1fda6de4-644a-4a61-af86-3dccad676ba9",
+      "timestamp": "00:52:56",
+      "timestampCVC5": "2026-11-09T14:12:56",
+      "timestampSeconds": 3176
     },
     {
       "description": "Ms. Ulrike Till",
@@ -284,6 +284,13 @@
                     "timestamp": "00:40:31",
                     "timestampCVC5": "2026-11-09T14:00:31",
                     "timestampSeconds": 2431
+                  },
+                  {
+                    "description": "Mr. Cristian Léon",
+                    "personId": "a5b20d32-57e1-4ec1-ae71-08df3b2598d3",
+                    "timestamp": "00:42:09",
+                    "timestampCVC5": "2026-11-09T14:02:09",
+                    "timestampSeconds": 2529
                   }
                 ],
                 "subjectId": "18f903eb-6267-427c-8c24-6c5c993ac56a",
@@ -298,13 +305,6 @@
               {
                 "description": "One-Stop Shop: Keeping up with IP and AI ",
                 "list_markers": [
-                  {
-                    "description": "Mr. Cristian Léon",
-                    "personId": "a5b20d32-57e1-4ec1-ae71-08df3b2598d3",
-                    "timestamp": "00:42:09",
-                    "timestampCVC5": "2026-11-09T14:02:09",
-                    "timestampSeconds": 2529
-                  },
                   {
                     "description": "Ms. Ulrike Till",
                     "personId": "e43c4a9d-684b-499d-a3de-fdcac48abfa9",
@@ -335,9 +335,9 @@
                   }
                 ],
                 "subjectId": "1fda6de4-644a-4a61-af86-3dccad676ba9",
-                "timestamp": "00:40:34",
-                "timestampCVC5": "2026-11-09T14:00:34",
-                "timestampSeconds": 2434
+                "timestamp": "00:52:56",
+                "timestampCVC5": "2026-11-09T14:12:56",
+                "timestampSeconds": 3176
               }
             ]
           }
