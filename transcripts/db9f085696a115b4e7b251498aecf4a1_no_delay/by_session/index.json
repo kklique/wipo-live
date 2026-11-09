@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T11:08:12+00:00",
+ "generated": "2026-11-09T11:10:14+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -272,24 +272,35 @@
    "start": "11:05",
    "end": "11:25",
    "people": "",
-   "n_lines": 4,
+   "n_lines": 7,
    "method": "schedule",
    "file": "d1-06_insight-ip-at-the-table-making-ip-part-of-the-wi.txt",
    "actual_start": "2026-11-09T12:06:48+01:00",
-   "actual_end": "2026-11-09T12:08:07+01:00",
+   "actual_end": "2026-11-09T12:09:57+01:00",
    "line_from": 326,
-   "line_to": 329,
+   "line_to": 332,
    "speakers": [
     {
      "key": "d1-06__unknown",
-     "name": "(발표자 구분 불가)",
+     "name": "(진행/도입)",
      "affiliation": "",
      "role": "unknown",
      "n_lines": 4,
      "n_words": 205,
      "n_turns": 1,
      "file": "d1-06__unknown.txt",
-     "method": "none"
+     "method": "marker"
+    },
+    {
+     "key": "d1-06__mr-stanley-lai",
+     "name": "Mr. Stanley Lai",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 3,
+     "n_words": 242,
+     "n_turns": 1,
+     "file": "d1-06__mr-stanley-lai.txt",
+     "method": "marker"
     }
    ]
   },

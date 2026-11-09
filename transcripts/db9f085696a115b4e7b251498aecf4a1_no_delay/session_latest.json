@@ -259,11 +259,25 @@
       "timestampSeconds": 6740
     },
     {
+      "description": "Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?",
+      "subjectId": "59023b79-b078-455c-a939-254b6858c034",
+      "timestamp": "02:16:09",
+      "timestampCVC5": "2026-11-09T11:06:09",
+      "timestampSeconds": 8169
+    },
+    {
       "description": "H.E. Mr. Kairat Torebayev",
       "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
-      "timestamp": "02:16:18",
-      "timestampCVC5": "2026-11-09T11:06:18",
-      "timestampSeconds": 8178
+      "timestamp": "02:16:10",
+      "timestampCVC5": "2026-11-09T11:06:10",
+      "timestampSeconds": 8170
+    },
+    {
+      "description": "Mr. Stanley Lai",
+      "personId": "7383d287-f319-43bb-ae6b-08df3b2598d3",
+      "timestamp": "02:18:48",
+      "timestampCVC5": "2026-11-09T11:08:48",
+      "timestampSeconds": 8328
     }
   ],
   "markers_grouped": {
@@ -441,19 +455,39 @@
                     "timestamp": "01:52:20",
                     "timestampCVC5": "2026-11-09T10:42:20",
                     "timestampSeconds": 6740
-                  },
-                  {
-                    "description": "H.E. Mr. Kairat Torebayev",
-                    "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
-                    "timestamp": "02:16:18",
-                    "timestampCVC5": "2026-11-09T11:06:18",
-                    "timestampSeconds": 8178
                   }
                 ],
                 "subjectId": "425a4f0c-c93b-4830-aa88-85eee4ca80db",
                 "timestamp": "01:33:08",
                 "timestampCVC5": "2026-11-09T10:23:08",
                 "timestampSeconds": 5588
+              }
+            ]
+          },
+          {
+            "subject": [
+              {
+                "description": "Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?",
+                "list_markers": [
+                  {
+                    "description": "H.E. Mr. Kairat Torebayev",
+                    "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+                    "timestamp": "02:16:10",
+                    "timestampCVC5": "2026-11-09T11:06:10",
+                    "timestampSeconds": 8170
+                  },
+                  {
+                    "description": "Mr. Stanley Lai",
+                    "personId": "7383d287-f319-43bb-ae6b-08df3b2598d3",
+                    "timestamp": "02:18:48",
+                    "timestampCVC5": "2026-11-09T11:08:48",
+                    "timestampSeconds": 8328
+                  }
+                ],
+                "subjectId": "59023b79-b078-455c-a939-254b6858c034",
+                "timestamp": "02:16:09",
+                "timestampCVC5": "2026-11-09T11:06:09",
+                "timestampSeconds": 8169
               }
             ]
           }
@@ -468,6 +502,13 @@
       "email": "",
       "id": "8a6cb0a6-0449-4af2-ae6a-08df3b2598d3",
       "name": "Mr. Anant Madabhushi",
+      "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "Head of the IP Practice, Allen & Gledhill LLP, Singapore\nDr Stanley Lai is a Senior Counsel who specialises in all forms of IP litigation/arbitration and information technology disputes and is also a commercial litigator and SIAC Arbitrator. Over 27 years of legal practice he has argued many significant cases before the Singapore Courts as well as the Singapore International Commercial Court, spanning a range of different subject areas. He also maintains a strong practice for IP/data management and cybersecurity, serving a broad spectrum of clients. In the sphere of artificial intelligence, Stanley continues to advise clients on issues relating to intellectual property, data protection, content regulation as well as legal tech. Stanley currently serves as the Deputy President of the Copyright Tribunal and sits on the panel of Arbitrators in the Singapore International Arbitration Centre, specializing in the intellectual property disputes. From 1 July 2026, Stanley has been appointed Chairperson of the Data Protection Appeal (DPAP), an independent body that hears appeals against directions or decisions of the Personal Data Protection Commission (PDPC) in relation to data protection provisions in the Personal Data Protection Act (PDPA). From 2026, Stanley has also been appointed to serve as a neutral in the newly formed Patent Mediation and Arbitration Centre under the Unified Patent Court (Europe). Stanley also serves as a Senior Mediator of the Singapore Mediation Centre and as a Specialist Mediator of the Singapore International Mediation Centre. He is an author of many published journal articles and was the first Singapore born lawyer to be conferred a PhD by the University of Cambridge (UK). Stanley was formerly the Chairman of the Intellectual Property Office of Singapore (IPOS). He was awarded the Public Service Medal (Pingat Bakit Masyarakat) in 2020, and the Public Service Star (Bintang Bakti Masyarakat) in 2024. On 31 August 2022, Stanley was awarded the Singapore Academy of Law Merit Award, which is an award given to individuals who have served in promoting and advancing the objectives of the Singapore Academy of Law. Stanley was appointed Senior Counsel in 2010.",
+      "email": "",
+      "id": "7383d287-f319-43bb-ae6b-08df3b2598d3",
+      "name": "Mr. Stanley Lai",
       "photoUrl": "./assets/images/noPicSpeaker.png "
     },
     {
@@ -588,6 +629,14 @@
       "id": "425a4f0c-c93b-4830-aa88-85eee4ca80db",
       "orderNumber": 5,
       "orderNumberDescription": "5",
+      "refId": null
+    },
+    {
+      "assets": [],
+      "description": "Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?",
+      "id": "59023b79-b078-455c-a939-254b6858c034",
+      "orderNumber": 7,
+      "orderNumberDescription": "7",
       "refId": null
     }
   ],
