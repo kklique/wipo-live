@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T14:07:51+00:00",
+ "generated": "2026-11-09T14:09:52+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -236,13 +236,13 @@
    "start": "10:55",
    "end": "11:05",
    "people": "Speaker: Mr. Anant Madabhushi",
-   "n_lines": 14,
+   "n_lines": 21,
    "method": "marker",
    "file": "d1-05_showcase-1-ai-in-action-from-ideas-to-real-world.txt",
    "actual_start": "2026-11-09T11:41:19+01:00",
-   "actual_end": "2026-11-09T15:07:33+01:00",
+   "actual_end": "2026-11-09T15:09:49+01:00",
    "line_from": 248,
-   "line_to": 676,
+   "line_to": 789,
    "speakers": [
     {
      "key": "d1-05__unknown",
@@ -261,7 +261,7 @@
      "affiliation": "",
      "role": "floor",
      "n_lines": 1,
-     "n_words": 84,
+     "n_words": 4,
      "n_turns": 1,
      "file": "d1-05__ms-emily-kate-genatowski.txt",
      "method": "marker"
@@ -271,8 +271,8 @@
      "name": "H.E. Mr. Kairat Torebayev",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 1,
-     "n_words": 18,
+     "n_lines": 4,
+     "n_words": 173,
      "n_turns": 1,
      "file": "d1-05__h-e-mr-kairat-torebayev.txt",
      "method": "marker"
@@ -282,8 +282,8 @@
      "name": "Mr. Cristian Léon",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 9,
-     "n_words": 429,
+     "n_lines": 13,
+     "n_words": 642,
      "n_turns": 1,
      "file": "d1-05__mr-cristian-leon.txt",
      "method": "marker"
@@ -516,13 +516,13 @@
    "start": "14:30",
    "end": "15:00",
    "people": "Speaker: Ms. Emily Kate Genatowski",
-   "n_lines": 68,
+   "n_lines": 65,
    "method": "marker",
    "file": "d1-11_optional-side-event-my-robot-roommate.txt",
    "actual_start": "2026-11-09T14:37:48+01:00",
-   "actual_end": "2026-11-09T15:01:15+01:00",
+   "actual_end": "2026-11-09T15:00:17+01:00",
    "line_from": 596,
-   "line_to": 663,
+   "line_to": 660,
    "speakers": [
     {
      "key": "d1-11__unknown",
@@ -551,8 +551,8 @@
      "name": "Ms. Emily Kate Genatowski",
      "affiliation": "AI Domestic Robotics Researcher, PhD candidate in Digital Humanities, University of Vienna, United States of America",
      "role": "speaker",
-     "n_lines": 17,
-     "n_words": 686,
+     "n_lines": 14,
+     "n_words": 611,
      "n_turns": 1,
      "file": "d1-11__ms-emily-kate-genatowski.txt",
      "method": "marker"

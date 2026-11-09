@@ -1,5 +1,8 @@
 # [d1-05] Showcase 1: AI in Action - From Ideas to Real-World Impact
 # 발표자: H.E. Mr. Kairat Torebayev  (floor)
-# Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva) · 발언 1회 · 1문장 · 18단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva) · 발언 1회 · 4문장 · 173단어 · 구분 방식: marker
 
+What a fascinating topics we discussed today. So welcome back.
+I hope you enjoyed your short lunch. And every year wildfires devastate forests, destroy livelihood and threatens community throughout the world. But what if we could identify the danger before the first flames appear? That is the ambition of our next innovator. From Chile, drovid technologies is combining artificial intelligence with anonymous drones, autonomous drones, sorry. sorry, to monitor a forest.
+It's a powerful example of how AI is embedding entrepreneurs to track the pressing challenges of its own communities and develop solutions with the potential to make difference beyond the And there is an important Intellectual Property story. to support that. DROVIT is a 2026 WIPO Global Award winner. and recognized in innovation support by the comprehensive IP strategy. For our second AI in action showcase, please welcome the Christian Lyon, founder of and chief executive of the officer of the the Draud Technologies.
 I would like to start with a question, and if we could have a fire before it starts.

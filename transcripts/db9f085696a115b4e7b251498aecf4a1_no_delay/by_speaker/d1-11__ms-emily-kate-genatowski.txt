@@ -1,6 +1,6 @@
 # [d1-11] Optional Side Event - My Robot "Roommate"
 # 발표자: Ms. Emily Kate Genatowski — AI Domestic Robotics Researcher, PhD candidate in Digital Humanities, University of Vienna, United States of America  (speaker)
-# Day 1 · 2026-11-09 · 예정 14:30-15:00 (Geneva) · 발언 1회 · 17문장 · 686단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 14:30-15:00 (Geneva) · 발언 1회 · 14문장 · 611단어 · 구분 방식: marker
 
 Okay. I had some questions earlier. So since everyone is feeling shy, I'll reference one of those. One of the questions that I had earlier was, I don't get it, what does it do for you? This is a fantastic question that I get all of the time. And I give the same answer. I always say great question. horrible answer. It does nothing for me.
 It doesn't really do anything for me.
@@ -16,6 +16,3 @@ Another great question which I will answer very quickly and I will also direct y
 But I use my actual, I use a unitree G1 EDU and I use it out of box.
 So I am not a developer. and most of the consumer market are not going to be developers. So I use it as anybody would if they took it out of the box, turned it on, charged it up, turned it on and let it come into their home. But there are a number of incredible organizations, robotics clubs, individuals and companies who are very clever and who do quite a lot of secondary development.
 And we have one of them here today, so I encourage you in the coffee break to come and say hello. And with that, we are perfectly out of time. So thank you so much for your wonderful questions. and your attention today.
-Thank you. Good afternoon.
-What a fascinating topics we discussed today. So welcome back.
-I hope you enjoyed your short lunch. And every year wildfires devastate forests, destroy livelihood and threatens community throughout the world. But what if we could identify the danger before the first flames appear? That is the ambition of our next innovator. From Chile, drovid technologies is combining artificial intelligence with anonymous drones, autonomous drones, sorry. sorry, to monitor a forest.
