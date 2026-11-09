@@ -338,9 +338,9 @@
     {
       "description": "Ms. Caroline Gueye",
       "personId": "0caf1bb1-6f82-46f6-ae6e-08df3b2598d3",
-      "timestamp": "02:41:32",
-      "timestampCVC5": "2026-11-09T11:31:32",
-      "timestampSeconds": 9692
+      "timestamp": "02:41:30",
+      "timestampCVC5": "2026-11-09T11:31:30",
+      "timestampSeconds": 9690
     },
     {
       "description": "Mr. Edward Lee",
@@ -619,9 +619,9 @@
                   {
                     "description": "Ms. Caroline Gueye",
                     "personId": "0caf1bb1-6f82-46f6-ae6e-08df3b2598d3",
-                    "timestamp": "02:41:32",
-                    "timestampCVC5": "2026-11-09T11:31:32",
-                    "timestampSeconds": 9692
+                    "timestamp": "02:41:30",
+                    "timestampCVC5": "2026-11-09T11:31:30",
+                    "timestampSeconds": 9690
                   },
                   {
                     "description": "Mr. Edward Lee",
