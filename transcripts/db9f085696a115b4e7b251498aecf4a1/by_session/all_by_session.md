@@ -1035,3 +1035,4 @@ And third, clean data. AI helps link each recording to the right holders using i
 Royalties are based on real use, not on estimates.
 If a song was played a thousand times, its author and performers are paid for a thousand plays. A young artist from a small town is counted in the same way as a major star.
 For creators, it means trust, for users, clear and predictable rules for the states and more transparent market.
+We see this as AI in action, not replacing people, but making sure that the people behind creative works receive what they have earned. We are open to sharing our experience with other Member States and with WIPO. Thank you. Thank you. Now I give the floor to Mr. Wang Zhicheng, Director General of the Copyright Department of the National Copyright Administration of China. 中 智 能 技 术 传 播 格 局 和 知 识 生 态 .
