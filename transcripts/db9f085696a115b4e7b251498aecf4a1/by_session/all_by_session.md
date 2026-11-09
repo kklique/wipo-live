@@ -337,3 +337,12 @@ It goes back to the idea of mechanism and interplay, and this is nothing new for
 So I will pause here. Thank you very much. Cedric, maybe I can turn it over to you now. The Statute of Anne, 1710, talks about copyright beginning for the encouragement of learning. AI developers often argue that a model learning from works is closer to reading than it is to copying. And I think coming from where you are, I really want to hear your answer to this. Where does that analogy hold as a matter of first principles and where does it break down?
 So, consider, for example, the Munich Regional Courts, November 25 finding in the Gamma case, GEMA versus OpenAI, that the lyrics are memorised in the model also in fringe.
 What is your perspective on that in terms of the copyright calibration? Thank you and thank you to the IP and Frontier team for inviting me.
+And congratulations to WIPO, by the way, for placing AI at the front of the work long ago. maybe Google started a bit before, though. Google's journey is to understand language. and we started working on machine learning, I think, a decade ago. and you were reminding to me that we actually released the first paper on GPT, but that is not the story. What I want to say is that so we released last month Gemini 4 which is our most advanced model with state of the art cybersecurity.
+We release open models such as Gemma.
+You can download it on the USB key.
+We work on a variety of models.
+I think that the one I want to talk about is Alphafold, which managed to crack the structure of a protein. and through this really helped advance science and save you know, a lot of time and money to researchers.
+And this resonates with Professor Madhubashi. speech right before. So this is really the first I would like to say is that AI makes us faster. except now because we have to speak slowly. But otherwise, AI makes us faster, really.
+And so we at Google, we profoundly believe this is a transformational technology that has the capacity to advance science save lives. transform the way creators work, and also bring more translation to this room.
+For example, we are currently being translated by an AI, and that is also a premier, I think.
+So I think really, you know, the very, the message in this room, by the way.
