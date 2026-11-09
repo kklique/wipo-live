@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T15:59:44+00:00",
+ "generated": "2026-11-09T16:01:46+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -721,13 +721,13 @@
    "start": "16:10",
    "end": "16:25",
    "people": "",
-   "n_lines": 5,
+   "n_lines": 1,
    "method": "marker",
    "file": "d1-14_coffee-break.txt",
    "actual_start": "2026-11-09T16:32:34+01:00",
-   "actual_end": "2026-11-09T16:56:10+01:00",
+   "actual_end": "2026-11-09T16:32:34+01:00",
    "line_from": 1878,
-   "line_to": 1882
+   "line_to": 1878
   },
   {
    "id": "d1-15",
@@ -738,21 +738,21 @@
    "start": "16:25",
    "end": "17:25",
    "people": "Moderator: Ms. Natalie Corthésy | Speakers: Mr. Anderson Rocha; Ms. Kalpana Tyagi; Mr. Jakob Plesner Mathiasen; Mr. Marco Bassini; Ms. Imogen Heap",
-   "n_lines": 7,
+   "n_lines": 16,
    "method": "marker",
    "file": "d1-15_protecting-what-makes-us-human-is-ip-the-answer.txt",
-   "actual_start": "2026-11-09T16:56:46+01:00",
-   "actual_end": "2026-11-09T16:59:17+01:00",
-   "line_from": 1883,
-   "line_to": 1889,
+   "actual_start": "2026-11-09T16:54:25+01:00",
+   "actual_end": "2026-11-09T17:01:18+01:00",
+   "line_from": 1879,
+   "line_to": 1894,
    "speakers": [
     {
      "key": "d1-15__ms-natalie-corthesy",
      "name": "Ms. Natalie Corthésy",
      "affiliation": "Associate Dean of Teaching and Learning, Senior Lecturer in Law, The University of the West Indies, Mona Campus, Jamaica",
      "role": "moderator",
-     "n_lines": 4,
-     "n_words": 270,
+     "n_lines": 8,
+     "n_words": 455,
      "n_turns": 1,
      "file": "d1-15__ms-natalie-corthesy.txt",
      "method": "marker"
@@ -762,8 +762,8 @@
      "name": "Mr. Anderson Rocha",
      "affiliation": "Full Professor of Artificial Intelligence and Digital Forensics, University of Campinas, Head, Recod.ai Artificial Intelligence Lab, Brazil",
      "role": "panelist",
-     "n_lines": 3,
-     "n_words": 84,
+     "n_lines": 8,
+     "n_words": 371,
      "n_turns": 1,
      "file": "d1-15__mr-anderson-rocha.txt",
      "method": "marker"

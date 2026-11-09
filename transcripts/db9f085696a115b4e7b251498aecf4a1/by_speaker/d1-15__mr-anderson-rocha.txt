@@ -1,7 +1,12 @@
 # [d1-15] Protecting What Makes us Human - Is IP the Answer?
 # 발표자: Mr. Anderson Rocha — Full Professor of Artificial Intelligence and Digital Forensics, University of Campinas, Head, Recod.ai Artificial Intelligence Lab, Brazil  (panelist)
-# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 1회 · 3문장 · 84단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 1회 · 8문장 · 371단어 · 구분 방식: marker
 
 How do artists, can they be given greater autonomy and meaningful choices about their identity, including their face and voice and their creative output used by AI systems? Thank you, everyone, for being here.
 Thank you for the great question. I think that we are living in a very interesting time of our history. As it was said before, the whole IP system was developed to protect what we make, right? So I make this music, I create this image.
 I am a photographer.
+I am a sculptor. So everything that we created we could leverage the IP. system to protect. But now we have a very different situation. How can we protect the ones behind the creations, right? So I think that as I used to tell my students, we have a series of things that we need to think about. The first, as I am a computer scientist, is in the technical side. What can we do in technical terms to protect the artist and everyone in this room and everywhere?
+I think that these generative models, they should be more careful about creating faces and voices. We already have, for instance, JPEG trust, which is a format that allows you to embed your copyright in there, if you authorize the use of the image or not.
+Why not creating legislations to make sure that these generative solutions before using or creating a voice or an image require the authorization.
+So right now there is no authorization required, but we should have. Then there is the question of standardization. We should develop standards in terms of the file formats to protect the artists and to protect the people. And the third point is the detectors, the scientific research behind it.
+How can we quickly develop solutions to detect that? But the fourth is the most important of all, is education. So think about the global south. where people are struggling with normal education. Now we have this another layer of complication. how to make sure that they understand what is going on, how do they understand that they need to be protected if they are an artist, like an indigenous artist in the Amazonia or an artist in Kenya.

@@ -1,9 +1,5 @@
 # [d1-14] Coffee Break
 # Day 1 · 2026-11-09 · 예정 16:10-16:25 (Geneva)
-# 실제 구간 16:32:34-16:56:10 · 5문장 · 경계 방식: marker
+# 실제 구간 16:32:34-16:32:34 · 1문장 · 경계 방식: marker
 
 Thank you very much. Thank you, Daryl. and thank you all for our six speakers. six perspectives. six minutes, sorry, 60 minutes. Yes, so we are moving forward and now I announce the coffee break, 15 minutes.
-So we reconvene at 4.45. See you in 15. Thank you very much. Welcome back from the coffee break. So let's get started.
-I hope you had a chance of another caffeine to recharge your battery? and the next session is going to personal. Imagine someone using AI to recreate your face. your voice, your your memories, perhaps even to make you appear to say or do something you never said or did. AI is getting better, at it every day.
-So here's a question. If AI can replicate almost everything that makes you recognisable, you, who gets to decide how that digital version of you is used or not? And this brings us to the fundamental challenge for Intellectual Property. IP was built to protect what humans make, not what makes us human. But in the age of AI, is that distinction still sustainable? Could IP offer a coherent way to protect our identity, our likeness and our voice?
-Would we need to adopt existing rights or create entirely new ones? Our next session here, protecting what makes us human is the IP answer.
