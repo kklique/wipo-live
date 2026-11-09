@@ -460,6 +460,13 @@
       "timestamp": "03:17:25",
       "timestampCVC5": "2026-11-09T16:37:25",
       "timestampSeconds": 11845
+    },
+    {
+      "description": "Mr Anderson Rocha",
+      "personId": "9fdbaca0-1d09-4fdd-a838-b33eb0557286",
+      "timestamp": "03:18:25",
+      "timestampCVC5": "2026-11-09T16:38:25",
+      "timestampSeconds": 11905
     }
   ],
   "markers_grouped": {
@@ -840,6 +847,13 @@
                     "timestamp": "03:17:25",
                     "timestampCVC5": "2026-11-09T16:37:25",
                     "timestampSeconds": 11845
+                  },
+                  {
+                    "description": "Mr Anderson Rocha",
+                    "personId": "9fdbaca0-1d09-4fdd-a838-b33eb0557286",
+                    "timestamp": "03:18:25",
+                    "timestampCVC5": "2026-11-09T16:38:25",
+                    "timestampSeconds": 11905
                   }
                 ],
                 "subjectId": "5c4b21a8-f209-492f-9b8f-4996178c9dab",

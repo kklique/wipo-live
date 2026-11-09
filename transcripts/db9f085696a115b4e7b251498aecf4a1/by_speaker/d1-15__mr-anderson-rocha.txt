@@ -1,6 +1,6 @@
 # [d1-15] Protecting What Makes us Human - Is IP the Answer?
 # 발표자: Mr. Anderson Rocha — Full Professor of Artificial Intelligence and Digital Forensics, University of Campinas, Head, Recod.ai Artificial Intelligence Lab, Brazil  (panelist)
-# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 2회 · 12문장 · 594단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 3회 · 16문장 · 811단어 · 구분 방식: marker
 
 How do artists, can they be given greater autonomy and meaningful choices about their identity, including their face and voice and their creative output used by AI systems? Thank you, everyone, for being here.
 Thank you for the great question. I think that we are living in a very interesting time of our history. As it was said before, the whole IP system was developed to protect what we make, right? So I make this music, I create this image.
@@ -15,3 +15,8 @@ That is a very important question. For many years, working in forensics, we have
 Or the hair, which has been like a terrible challenge for everyone in computer -generated images for many, many years. you could look at those things and tell, okay, this is fake. Then more recently we developed the algorithms to look statistically at the images and the videos and the audio files to show that they were fake. But now the game is different. Instead of saying that something is fake, I need to look at something and tell that it is real, it is genuine, pristine.
 and it is much more difficult. It is like Tolstoy in Anna Karenina, our families that are happy, they are kind of happy for reason, similar reason. If they are unhappy, they are all unhappy in different ways. And when we look at something that is all.
 It is like many different situations. How can we learn statistically physically what is real? This is the challenge of forensics and AI now. And as a researcher, I work with that. But there is one thing that we could do, actually in two fronts. One is the artists, the people, should give their authorization. This is the first. On the side of the developers, they should first check if there is authorization.
+
+I am thinking of, for example, a somewhat dated legislation now, but out of Guernsey, where in that image Act, you would have to show that you actually had a valuable personality to begin with.
+So it is not a legislation for nobodies.
+It is a legislation for persons who could establish that their persona was of value to begin with. Would you care to comment on that? Yes. This is exactly the thing that we need to change. Because three in four people that are affected by deepfakes are the ones that cannot defend themselves. They are the nobody as it was mentioned here, just like professors. But most of the people that are affected by deepfakes nowadays, there are women and children and they are not famous.
+So when we need about, when we think about legislation, we need to think about the less powerful parties. And that is very important to discuss because this is the right to exist. This is the right to express. If you are a singer, this is your way of living. But if someone uses your voice, this might be a lost contract. But if you are an average person and someone uses your voice and makes a video of you like in pornography, this is a moral thing.
