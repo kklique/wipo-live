@@ -1,6 +1,6 @@
 # [d1-15] Protecting What Makes us Human - Is IP the Answer?
 # 발표자: Mr. Anderson Rocha — Full Professor of Artificial Intelligence and Digital Forensics, University of Campinas, Head, Recod.ai Artificial Intelligence Lab, Brazil  (panelist)
-# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 2회 · 11문장 · 716단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 3회 · 14문장 · 898단어 · 구분 방식: marker
 
 I think that we are living in a very interesting time of our history. As it was said before, the whole IP system was developed to protect what we make, right? So I make this music, I create this image. I'm a photographer.
 I'm a sculptor. So everything that we created, we could leverage the IP. system to protect. But now we have a very different situation. How can we protect the ones behind the creations? right? So I think that as I used to tell my students, we have a series of things that we need to think about. The first, as I'm a computer scientist, is in the technical side.
@@ -14,3 +14,7 @@ You could look at those things and tell, okay, this is fake. Then more recently,
 If they are unhappy, they are all unhappy in different ways. And when we look at something that's real, It's like many different situations. How can we learn statistically, physically what's real? This is the challenge of forensics and AI now. And as a researcher, I work with that. But there is one thing that we could do. actually in two fronts. One is the artists, the people, should give their authorization.
 This is the first. On the side of the developers, they should first check if there is authorization. And if there is not, they should not go forward.
 And we also should have legislation for the real thing behind all economics. If we cut the money, if we cut like the lifeblood of these fakes, things will be different. Thank you. Tiagi, I wanted to ask you to weigh in on that. From artifacts to behavior. As AI agents begin to speak and act with people's voices and personas, and as biometric data that cannot be changed.
+
+But most of the people that are affected by deepfakes nowadays, there are women and children. and they are not famous. So when we need about think about legislation, we need to think about the less powerful parties. And that's very important to discuss. because this is the right to exist. This is the right to express If you are a singer, this is your way of living.
+But if someone uses your voice, this is your way this might be a lost contract. But if you're an average person and someone uses your voice and makes a video of you like in pornography. this is a moral thing. This This destroys your public image. And I think that the next step here is to think about something global that's how WIPO can join because it's an international organization.
+And just like United Nations, I think that we need to discuss how to empower the people. And how to make sure that authorization is required, how to make sure that these big companies when they use your data to create something new.
