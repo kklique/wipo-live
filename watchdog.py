@@ -5,6 +5,9 @@
   1) webcast liveSessions.json 에서 진행 중인 세션의 meeting_id 를 찾고, 설정된 기본 id 와 합쳐 후보를 만든다.
   2) 후보마다 WIPO 전사 API 를 저장된 위치(state.json)부터 조회해 '아직 저장 안 된 새 문장'이 있는지 본다.
   3) 새 문장이 있는데 수집 작업이 없으면 -> 수집 워크플로를 자동으로 시작한다.
+     또한 회의 시간대(시작 20분 전 ~ 종료 30분 후) 동안에는 수집 작업이 항상 하나 떠 있도록 한다:
+     전사가 아직 없거나(점심 휴회, 세션 시작 전) 다음 세션을 기다리는 중이어도 대기용 수집 작업을 미리 시작해 두므로,
+     오후 세션의 첫 문장부터 저장된다. (수집기는 전사가 나올 때까지 기다리며, 시간대가 끝나면 자동 종료)
      수집 작업이 떠 있는데 12분 넘게 저장 위치가 갱신되지 않으면 -> 취소하고 다시 시작한다.
   4) 이상 징후(러너에서 WIPO 접속 불가, 수집 작업이 반복 실패)는 GitHub 이슈로 알린다 (중복 방지).
 수집기는 저장된 줄 번호부터 이어받고 WIPO 가 지난 문장을 보관하므로, 재시작해도 빠지는 문장이 없다.
@@ -26,6 +29,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 API = "https://www.wipo.int/s2t/live_s2t/getLiveTranscript"
 SESSIONS = "https://webcast.wipo.int/liveSessions.json"
 DEFAULT_IDS = ["db9f085696a115b4e7b251498aecf4a1"]      # 첫 행사(11/9-10). 필요하면 --ids 로 추가
+ID_EVENT = {"db9f085696a115b4e7b251498aecf4a1": "WIPO/IP-AI/GEN/26"}   # 이 id 는 해당 행사 날짜에만 대기용 수집을 유지
 WORKFLOW = "collect.yml"
 STALE_MIN = 12          # 수집 작업이 떠 있어도 저장 위치가 이 시간 넘게 안 바뀌면 멈춘 것으로 본다
 YOUNG_RUN_MIN = 10      # 막 시작한 작업은 기다려 준다
@@ -98,7 +102,7 @@ def list_runs(dry):
         return []
 
 
-def decide(mid, probe_res, saved_next, saved_updated, runs, listed, now):
+def decide(mid, probe_res, saved_next, saved_updated, runs, listed, now, keep_alive=False):
     """반환: (action, reason). action: none | dispatch | restart | alert"""
     mine = [r for r in runs if mid in (r.get("displayTitle") or "")]
     active = [r for r in mine if r.get("status") in ("queued", "in_progress", "waiting", "pending", "requested")]
@@ -108,9 +112,13 @@ def decide(mid, probe_res, saved_next, saved_updated, runs, listed, now):
     if kind == "error":
         return ("alert", f"WIPO 전사 API 접속 이상: {data}") if listed else ("none", f"접속 이상({data}) - 세션 미진행")
     if kind == "none":
+        if keep_alive and not active:
+            return "dispatch", "회의 시간대 - 전사 시작을 기다리는 수집 작업이 없어 대기용으로 시작"
         return "none", "아직 전사 데이터 없음"
     new_lines = len((data or {}).get("full_lines") or [])
     if new_lines == 0:
+        if keep_alive and not active:
+            return "dispatch", "회의 시간대 - 다음 발언을 기다리는 수집 작업이 없어 대기용으로 시작"
         return "none", "저장 위치까지 모두 저장됨"
     if len(fails) >= FAIL_LIMIT:
         return "alert", f"수집 작업이 최근 40분 동안 {len(fails)}회 실패 (새 문장 {new_lines}개 미저장)"
@@ -125,7 +133,8 @@ def decide(mid, probe_res, saved_next, saved_updated, runs, listed, now):
     return "none", "수집 작업 정상 진행 중"
 
 
-def in_window(agenda, now_g, margin_before=20, margin_after=30):
+def window_bounds(agenda, now_g, margin_before=20, margin_after=30):
+    """오늘 회의 시간대 (시작 20분 전, 종료 30분 후) 또는 None"""
     for day in agenda["days"]:
         if day["date"] != now_g.strftime("%Y-%m-%d"):
             continue
@@ -133,8 +142,27 @@ def in_window(agenda, now_g, margin_before=20, margin_after=30):
         start = now_g.replace(hour=h, minute=m, second=0, microsecond=0) - timedelta(minutes=margin_before)
         h, m = map(int, day["items"][-1]["end"].split(":")[:2])
         end = now_g.replace(hour=h, minute=m, second=0, microsecond=0) + timedelta(minutes=margin_after)
-        return start <= now_g <= end
-    return False
+        return start, end
+    return None
+
+
+def in_window(agenda, now_g, margin_before=20, margin_after=30):
+    b = window_bounds(agenda, now_g, margin_before, margin_after)
+    return bool(b) and b[0] <= now_g <= b[1]
+
+
+def today_event_code(agenda, now_g):
+    for day in agenda["days"]:
+        if day["date"] == now_g.strftime("%Y-%m-%d"):
+            return (day.get("event") or {}).get("code")
+    return None
+
+
+def run_minutes(agenda, now_g):
+    """대기용 수집 작업의 최대 실행 시간(분): 시간대 종료까지 + 15분, 20~300분"""
+    b = window_bounds(agenda, now_g)
+    left = int((b[1] - now_g).total_seconds() // 60) + 15 if b else 60
+    return max(20, min(300, left))
 
 
 def open_issue(title, body, dry):
@@ -174,6 +202,7 @@ def main():
         for d in os.listdir(td):
             ids.setdefault(d.replace("_no_delay", ""), "")
     runs = list_runs(a.dry_run)
+    keep = in_window(agenda, now_g)          # 회의 시간대 안이면 수집 작업을 항상 하나 유지
     rc = 0
     for h, name in ids.items():
         # WIPO 는 같은 세션에 '<해시>_no_delay'(저지연)와 '<해시>'(일반) 스트림이 따로 있을 수 있어 둘 다 확인하고,
@@ -187,15 +216,17 @@ def main():
             if res[0] == "ok" or nxt is not None:
                 break
         mid, nxt, upd, res = chosen
-        action, reason = decide(mid, res, nxt, upd, runs, h in live, now)
+        keep_h = keep and (h in live or ID_EVENT.get(h, today_event_code(agenda, now_g)) == today_event_code(agenda, now_g))
+        action, reason = decide(mid, res, nxt, upd, runs, h in live, now, keep_alive=keep_h)
         print(f"- {mid[:12]}… {('(' + name + ') ') if name else ''}저장위치={nxt} -> {action}: {reason}")
         if action in ("dispatch", "restart"):
             if action == "restart":
                 for r in runs:
                     if mid in (r.get("displayTitle") or "") and r.get("status") in ("queued", "in_progress", "waiting", "pending", "requested"):
                         gh(["run", "cancel", str(r["databaseId"])], a.dry_run)
-            gh(["workflow", "run", WORKFLOW, "-f", f"meeting_id={mid}", "-f", "max_minutes=300", "-f", "idle_exit_minutes=45"], a.dry_run)
-            if nxt is None:
+            gh(["workflow", "run", WORKFLOW, "-f", f"meeting_id={mid}", "-f", f"max_minutes={run_minutes(agenda, now_g)}",
+                "-f", "idle_exit_minutes=45"], a.dry_run)
+            if nxt is None and res[0] == "ok":      # 실제 전사가 처음 확인된 경우에만 시작 알림
                 open_issue(f"[watchdog] 수집 시작: {h[:8]} {now_g:%Y-%m-%d}",
                            f"회의 전사가 시작된 것을 감지해 수집을 자동 시작했습니다.\n\n- meeting_id: `{mid}`\n- {name or '세션 이름 미확인'}\n- {now_g:%Y-%m-%d %H:%M} (Geneva)", a.dry_run)
         elif action == "alert":
