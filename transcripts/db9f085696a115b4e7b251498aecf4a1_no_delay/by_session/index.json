@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T09:36:37+00:00",
+ "generated": "2026-11-09T09:38:39+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -83,13 +83,13 @@
    "start": "10:15",
    "end": "10:45",
    "people": "",
-   "n_lines": 46,
+   "n_lines": 49,
    "method": "schedule",
    "file": "d1-03_ministerial-level-remarks.txt",
    "actual_start": "2026-11-09T10:15:10+01:00",
-   "actual_end": "2026-11-09T10:36:22+01:00",
+   "actual_end": "2026-11-09T10:38:29+01:00",
    "line_from": 34,
-   "line_to": 79,
+   "line_to": 82,
    "speakers": [
     {
      "key": "d1-03__unknown",
@@ -107,9 +107,9 @@
      "name": "H.E. Mr. Kairat Torebayev",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 4,
-     "n_words": 220,
-     "n_turns": 1,
+     "n_lines": 6,
+     "n_words": 342,
+     "n_turns": 2,
      "file": "d1-03__h-e-mr-kairat-torebayev.txt",
      "method": "marker"
     },
@@ -118,8 +118,8 @@
      "name": "Mr. Ren Ito",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 21,
-     "n_words": 1258,
+     "n_lines": 22,
+     "n_words": 1337,
      "n_turns": 1,
      "file": "d1-03__mr-ren-ito.txt",
      "method": "marker"

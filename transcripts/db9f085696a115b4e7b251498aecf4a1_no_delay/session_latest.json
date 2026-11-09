@@ -146,6 +146,13 @@
       "timestamp": "00:36:32",
       "timestampCVC5": "2026-11-09T09:26:32",
       "timestampSeconds": 2192
+    },
+    {
+      "description": "H.E. Mr. Kairat Torebayev",
+      "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+      "timestamp": "00:47:32",
+      "timestampCVC5": "2026-11-09T09:37:32",
+      "timestampSeconds": 2852
     }
   ],
   "markers_grouped": {
@@ -200,6 +207,13 @@
                     "timestamp": "00:36:32",
                     "timestampCVC5": "2026-11-09T09:26:32",
                     "timestampSeconds": 2192
+                  },
+                  {
+                    "description": "H.E. Mr. Kairat Torebayev",
+                    "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+                    "timestamp": "00:47:32",
+                    "timestampCVC5": "2026-11-09T09:37:32",
+                    "timestampSeconds": 2852
                   }
                 ],
                 "subjectId": "c20b4223-8dad-43c5-a179-1fbc704f6989",
