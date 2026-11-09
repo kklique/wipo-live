@@ -253,7 +253,7 @@ def subject_marker_pos(item, lines, markers, prev, lead):
     return None
 
 
-def split_day(day, lines, overrides, markers=(), lead=5.0):
+def split_day(day, lines, overrides, markers=(), lead=5.0, cue_only=False):
     """lines: [{'t': aware Geneva dt, 'ltoks': [...], ...}] 시간순. 반환: 세션별 (시작 위치, 방식) 목록."""
     date = datetime.strptime(day["date"], "%Y-%m-%d").date()
     items = day["items"]
@@ -279,13 +279,13 @@ def split_day(day, lines, overrides, markers=(), lead=5.0):
             c = build_cues(it)
             for k in range(prev, len(lines)):
                 t = lines[k]["t"]
-                if t > E + WIN_AFTER:
+                if not cue_only and t > E + WIN_AFTER:
                     break
-                if t >= E - WIN_BEFORE and score(c, lines[k]["ltoks"]) >= THRESHOLD:
+                if (cue_only or t >= E - WIN_BEFORE) and score(c, lines[k]["ltoks"]) >= THRESHOLD:
                     pos = k + 1 if it["type"] == "break" else k
                     method, anchor = "cue", t
                     break
-            if pos is None:
+            if pos is None and not cue_only:
                 pos = next((k for k in range(prev, len(lines)) if lines[k]["t"] >= E), None)
                 method = "schedule" if pos is not None else "not-reached"
         if pos is not None:
@@ -295,6 +295,82 @@ def split_day(day, lines, overrides, markers=(), lead=5.0):
             prev = pos
         out.append((pos, method))
     return out
+
+
+def _slices(lines, res):
+    starts = [p for p, _ in res]
+    out = []
+    for i, (pos, method) in enumerate(res):
+        nxt = next((q for q in starts[i + 1:] if q is not None), len(lines))
+        out.append((lines[pos:max(pos, nxt)] if pos is not None else [], method))
+    return out
+
+
+def subject_events(day, markers):
+    """웹캐스트 마커 타임라인 -> [(시각, 아젠더 항목 index)]. 안건 마커는 제목 매칭, 'Session Break' 같은 발언자 마커는 다음 휴식 항목으로.
+    같은 안건이 연속으로 찍히면 처음 것만 쓴다. 같은 안건이 나중에 다시 나와도(장관 발언 재개 등) 그대로 둔다."""
+    items = day["items"]
+    ev, top = [], -1
+    for m in markers:
+        i = None
+        if m.get("subject"):
+            i = next((k for k, it in enumerate(items) if title_match(m["desc"], it["title"])), None)
+        elif re.search(r"\b(break|lunch)\b", norm(m["desc"])):          # 'Session Break' 는 발언자/안건 마커가 아닌 별도 종류
+            i = next((k for k in range(top + 1, len(items)) if items[k]["type"] == "break"), None)
+        if i is None:
+            continue
+        if ev and ev[-1][1] == i:
+            continue
+        ev.append((m["t"], i)); top = max(top, i)
+    return ev
+
+
+def assign_day(day, lines, overrides, markers, lead):
+    """하루치 문장을 아젠더 항목별로 나눈다. 반환: [(문장 목록, 경계 방식)] (항목 순서).
+    안건 마커가 있으면 마커 타임라인을 따른다(진행이 예정과 달라도, 같은 안건이 여러 구간에 나뉘어도 맞게).
+    마커 구간 안에서 마커 없는 항목(예정상 그 뒤에 오는 것)은 단서(발표자 이름/제목 언급)가 있을 때만 가져간다.
+    안건 마커가 없거나 수동 지정이 있으면 기존 방식(단서+예정 시각)을 쓴다."""
+    items = day["items"]
+    ev = subject_events(day, markers) if not overrides else []
+    if not ev or not lines:
+        return _slices(lines, split_day(day, lines, overrides, markers, lead))
+
+    def pos_at(t):
+        for k, l in enumerate(lines):
+            if l.get("raw") and l["raw"] >= t - timedelta(seconds=lead):
+                return k
+        return len(lines)
+
+    bounds = [pos_at(t) for t, _ in ev]
+    segs = []
+    if bounds[0] > 0:
+        segs.append((ev[0][1] if ev[0][1] == 0 else 0, 0, bounds[0]))      # 첫 마커 이전 문장은 그날 첫 항목에
+    for k, (_, i) in enumerate(ev):
+        segs.append((i, bounds[k], bounds[k + 1] if k + 1 < len(ev) else len(lines)))
+    marked = {i for _, i in ev}
+    out = [([], "not-reached") for _ in items]
+
+    def put(i, ls, method):
+        if ls:
+            out[i] = (out[i][0] + ls, method if not out[i][0] else out[i][1])
+
+    for k, (i, a, b) in enumerate(segs):
+        sub = lines[a:b]
+        if not sub:
+            continue
+        nxt_item = segs[k + 1][0] if k + 1 < len(segs) else n_items(items)
+        followers = [f for f in range(i + 1, nxt_item) if f not in marked] if nxt_item > i else []
+        if not followers:
+            put(i, sub, "marker")
+            continue
+        pseudo = {"date": day["date"], "items": [items[i]] + [items[f] for f in followers]}
+        for (ls, method), idx in zip(_slices(sub, split_day(pseudo, sub, {}, (), lead, cue_only=True)), [i] + followers):
+            put(idx, ls, "marker" if idx == i else method)
+    return out
+
+
+def n_items(items):
+    return len(items)
 
 
 def slug(title, default="session"):
@@ -546,12 +622,9 @@ def main():
         if not dl:
             continue
         used_dates.add(day["date"])
-        res = split_day(day, dl, overrides, markers, a.marker_lead)
-        starts = [p for p, _ in res]
+        assigned = assign_day(day, dl, overrides, markers, a.marker_lead)
         for i, it in enumerate(day["items"]):
-            pos, method = res[i]
-            nxt = next((p for p in starts[i + 1:] if p is not None), len(dl))
-            seg = dl[pos:max(pos, nxt)] if pos is not None else []
+            seg, method = assigned[i]
             ent = {"id": it["id"], "day": day["day"], "date": day["date"], "title": it["title"], "type": it["type"],
                    "start": it["start"], "end": it["end"], "people": people_str(it), "n_lines": len(seg),
                    "method": method, "file": None}
