@@ -106,6 +106,13 @@
   "live_status": "STARTED",
   "markers": [
     {
+      "description": "Opening Remarks  ",
+      "subjectId": "b8c24cf4-528e-481a-bdcd-cdb79e1ee816",
+      "timestamp": "00:14:25",
+      "timestampCVC5": "2026-11-09T09:04:25",
+      "timestampSeconds": 865
+    },
+    {
       "description": "CHAIR",
       "personId": "ec07df79-cc36-48c1-acea-301e6dddfad4",
       "timestamp": "00:14:33",
@@ -123,25 +130,38 @@
   "markers_grouped": {
     "markers": [
       {
-        "speakers": [
-          {
-            "description": "CHAIR",
-            "personId": "ec07df79-cc36-48c1-acea-301e6dddfad4",
-            "timestamp": "00:14:33",
-            "timestampCVC5": "2026-11-09T09:04:33",
-            "timestampSeconds": 873
-          },
-          {
-            "description": "DIRECTOR GENERAL",
-            "personId": "06db8e4e-da86-4b69-bfd7-e689f8e9f55c",
-            "timestamp": "00:14:38",
-            "timestampCVC5": "2026-11-09T09:04:38",
-            "timestampSeconds": 878
-          }
-        ]
+        "speakers": []
       },
       {
-        "subjects": []
+        "subjects": [
+          {
+            "subject": [
+              {
+                "description": "Opening Remarks  ",
+                "list_markers": [
+                  {
+                    "description": "CHAIR",
+                    "personId": "ec07df79-cc36-48c1-acea-301e6dddfad4",
+                    "timestamp": "00:14:33",
+                    "timestampCVC5": "2026-11-09T09:04:33",
+                    "timestampSeconds": 873
+                  },
+                  {
+                    "description": "DIRECTOR GENERAL",
+                    "personId": "06db8e4e-da86-4b69-bfd7-e689f8e9f55c",
+                    "timestamp": "00:14:38",
+                    "timestampCVC5": "2026-11-09T09:04:38",
+                    "timestampSeconds": 878
+                  }
+                ],
+                "subjectId": "b8c24cf4-528e-481a-bdcd-cdb79e1ee816",
+                "timestamp": "00:14:25",
+                "timestampCVC5": "2026-11-09T09:04:25",
+                "timestampSeconds": 865
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -164,7 +184,16 @@
   ],
   "place": "WCH",
   "startDate": "2026-11-09T08:50:00",
-  "subjects": [],
+  "subjects": [
+    {
+      "assets": [],
+      "description": "Opening Remarks  ",
+      "id": "b8c24cf4-528e-481a-bdcd-cdb79e1ee816",
+      "orderNumber": 1,
+      "orderNumberDescription": "1",
+      "refId": null
+    }
+  ],
   "thumbnail": null,
   "videoUrls": {
     "hls": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
