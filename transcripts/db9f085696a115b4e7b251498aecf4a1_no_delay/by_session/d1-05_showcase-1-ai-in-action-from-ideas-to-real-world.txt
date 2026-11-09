@@ -1,0 +1,8 @@
+# [d1-05] Showcase 1: AI in Action - From Ideas to Real-World Impact
+# Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva)
+# Speaker: Mr. Anant Madabhushi
+# 실제 구간 10:55:26-10:56:39 · 3문장 · 경계 방식: schedule
+
+To address this problem, our ministry has introduced an early screening system that detects such applications. and sends out alerts. We also plan to review our fee system for individual applicants to discourage excessive filings resulting from low application costs. In addition, we will pursue legal and institutional reforms to address the misuse of AI during the application process, such as the manipulation of experimental data.
+These measures will include invalidating patterns and imposing financial penalties for such misconduct. And lastly we are preparing our IP system for the future of AI. Our ministry will look ahead to the changes AI will bring to the way we work. assess how it will affect our organizational structure and administrative operations, and develop strategies accordingly. We also intend to establish the basic principles for AI in intellectual property.
+for AI users and businesses in the IP field to promote responsible AI use and ensure that clear accountability remains with people. We believe these efforts should go beyond individual countries and become a shared international initiative. Through close cooperation, IP offices can work together to harmonize their systems and develop new international norms in the age of AI.
