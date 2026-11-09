@@ -1,0 +1,53 @@
+# [d1-08] Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?
+# 발표자: Mr. Edward Lee  (floor)
+# Day 1 · 2026-11-09 · 예정 11:40-12:50 (Geneva) · 발언 18회 · 32단락 · 1,797단어 · 구분 방식: official
+
+Thanks very much for that. And maybe I can turn over to Professor Gatton, because Professor Gatton in 1958, Fritz Meschlup, told the U.S. Senate that on evidence it would be irresponsible to recommend creating a patent system if none existed, but equally irresponsible to abolish the one that did exist. If we were designing the IP system from scratch for an AI economy, would the evidence still justify building it as it stands or do we need to think about something different?
+
+Thank you. And I think as a reminder to speakers, I’ve just been reminded by the Secretariat, I know it’s a super session, but can we speak slowly? Because the agentic AI is tracking us. And so I’ll ask us to speak slowly. I don’t know what it does to my preparation for this panel, but I think we’ll find out towards the end.
+Cedric, oh, sorry, before Cedric, Mertha, maybe I can ask you, because you’re currently counsel in one of the global brands. And from your perspective, what is IP really about? Is it for the incentive to invest? Is it a signal of brand origination or a guarantee of consumer quality? Which of these rationales, and I appreciate that I have not been exhaustive, which of these rationales would AI strengthen and which would it potentially corrode?
+I mean, just answer any way you think best.
+
+Thank you very much. Cedric, maybe I can turn it over to you now. The statute of Anne 17/10 talks about copyright beginning for the encouragement of learning. AI developers often argue that a model learning from works is closer to reading than it is to copying. And I think coming from where you are, I really want to hear your answer to this.
+Where does that analogy hold as a matter of first principles and where does it break down? So consider, for example, the Munich regional courts November 25 finding in the gamma case, GMA versus open AI that the lyrics memorized in the model also infringe. What’s your perspective on that in terms of the copyright calibration?
+
+Thank you. Now, Carolyn, directly to my left, you have heard the perspective from a company that both builds AI and also distributes creators’ works on mass and also for public convenience. Now, from your perspective, if I was just to refer you to Article 27.2 of the Universal Declaration of Human Rights, it mandates that we protect an author’s moral and material interests. So you are a working artist. What does copyright actually do for you?
+I can imagine that it provides income, recognition, your paternity rights, protection of your identity as an artist. Which of these do you see AI threatening front and center?
+
+Thank you for that. Professor Okorin, maybe I can turn it over to you now. And I think the gist of what we have been discussing so far is that the IP system is said to serve innovation, dissemination and potentially it provides a function in economic development. But from an African vantage point, do these rationales in your view sufficiently justify the IP system? And does AI widen or narrow that gap in your view?
+
+That’s very interesting. Jennifer, can I just turn over to you now and ask you this question, IP rests on individual authorship and then you also look at a limited duration of protection for works and then you also have to look at the public domain which is also a great source of works. Indigenous knowledge is collective, intergenerational, really transmitted in very informal and familial channels very often and it is also very often sacred and religious. We both come from Southeast Asia so I can tell you that certainly from where I am and from where you are we see a lot of examples of this. But going back to first principles, is the IP system capable of protecting traditional knowledge and traditional cultural expressions or is there a mismatch currently and where do you see the AI piece coming in?
+Will it add more clarity or further erode the attention that we place at the centre of TK and TCE, for example, free, prior and also informed consent, that kind of regime at a high level?
+
+Thank you for that. So we have finished the first round. The first round really was to get your basic positions, which we are now seized off. And then in the next round, I just want to probe this a bit more and try and get us to the point where we talk about how the principles actually collide. So for this round of questions, feel free to shorten your answers and slow the pace down.
+But we all are looking at this clock which is ticking. And that’s why as the moderator, I have to frame it in very diplomatic terms. Hope you appreciate that. So, Carolyn, you know, I think I just want to turn over to the whole issue where we left off with Jennifer, which is really, you know, creation, consent. And I want to talk about AI training.
+And the question for you really is more hypothetical. Look, let’s say suppose one of your great visual artistic works was used to train an AI model without your knowledge. What would you want to be asked first? Do you want to be paid first? Do you want to be credited?
+Or do you want to be able to refuse? Which of these would matter most to you and why?
+
+Okay. So, Cedric, I’m going to reach out to you. You’ve heard Caroline’s answer. So copyright’s default position really is permission before use. I mean, that’s generally our starting point.
+But there are also opt-out tools, opt-out tools such as robots.txt, what that controls, and AI crawler tokens that flip that sequence to use unless refused.
+
+Okay. But hearing Carolyn’s response, you would still want to make the choice that she wants workable for individual artists, right?
+
+So Jennifer, if I can just ask you again, I mean, the point is, I mean, AI models learn a great deal and at very quick speed, songs, designs and stories. I mean, just Internet search will show us how much there is out there. There’s also sacred material that is, you know, that can be usurped without consent. Is AI going to usher in your view a new wave of misappropriation? And does it make the IGC, you know, we talked about it just now, the IGC’s unfinished work on TCEs even more urgent, giving, you know, especially when the text need to be reviewed next year?
+So what’s your quick response to that?
+
+Thanks. So can I just turn it over to you, Professor Okori, and ask you the question, I mean, you’ve heard, you know, we talked about licensing markets, we talked about opt-outs and also potentially collective licensing. How do these paradigms fit in the African creative economy context? How can we bring this to them and also realize the expectations of consent and rights management?
+
+Now, maybe I can turn it to another section now which is dealing with the incentive rationale for IP protection and also economic evidence and what are we seeing. So, Professor, the incentive rationale assumes that creation is costly and copying is cheap and therefore you need to incentivize authors to create. But the ease of generating text images and such like by AI would force us to actually question whether these economic justifications are lost or whether they can continue. So which parts actually become more important now? Is it the protection of curated data, verification or genuine human effort?
+Can you just share the perspective?
+
+Thanks. Martha, can I just call on your previous experience in the pharma industry? And I say it with some trepidation because I have been opposite Novartis and Sandoz at various points of my career, but don’t hold that against me. The pharma years, I mean, would probably have shown you that, you know, you basically need a long running period for patent protection because of the long R&D period. AI now actually compresses that research and also discovery timelines and costs.
+If AI actually shortens that path, should the strength or the length of the protection change? Or does the clinical and regulatory risks keep this bargain intact in your view? I mean, just again going on to incentivization for pharmaceutical creation.
+
+Yeah. I mean, there is one other question which I would probably have asked, but I can’t because of the interest of time, is what is the speed of AI working on generics? Because if that timeline is also shortened, then the whole patent linkage regimes and jurisdictions that have them may also need to be revisited, I think.
+
+Okay. Let’s move things along. Since you are talking about data, let me ask you about the whole issue of the tradeoff between patent exclusivity and disclosure. AI models and data pipelines become increasingly they become core business assets. Are companies choosing using trade secret protection over patents?
+And if so, what does society lose under the disclosure rationale?
+
+Thank you. Professor Katan, maybe I can ask you AI capability is ultimately concentrated in a few firms that control compute data and the models and we can see how the rise of data centers can itself be such a controversial political topic in recent times. Does Intellectual Property reinforce that incumbency or temper it and are there lessons from the standard essential patents and friend licensing paradigms to access training data on models? What is your view?
+
+And not just free riding but also relying on exceptions, I think. So, Tony, I hope you are still there. Can I turn it back to you if you can hear usr Thank you. Since you are in WTO now, let me ask you a TRIPS question. Article 7 and 8 of the TRIPS Agreement would frame IP as a balance of rights and obligations serving social and economic welfare.
+Is this framework flexible enough to let countries make divergent AI choices such as broad data mining exceptions, opt-outs or statutory licenses, not always remembering the three-step test which I’m a great believer of and it exists in Article 13 of TRIPS but also more importantly Article 9.2 of BIRN, which is WIPO’s. Or does it actually contain the constrained experimentation that we now need? What’s your view?
+
+Thank you, Anthony, I appreciate that answer. And I’m afraid, ladies and gentlemen, we have run out of time. So can you just join me to thank the most eclectic and didactic panel. Thank you to the speakers. Thank you very much, Stanley and the panelists are free to depart.

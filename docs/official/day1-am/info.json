@@ -1,0 +1,44 @@
+{
+ "source": "WIPO_IP-AI_GEN_26_2026-11-09_en.verbatim.docx",
+ "title": "WIPO S2T: WIPO IP-AI GEN 26 2026-11-09 3169d8fe-c816-466a-04e2-08df3b1fc4ff en",
+ "date": "2026-11-09",
+ "generated": "2026-11-09T23:35:13+00:00",
+ "turns": 59,
+ "paragraphs": 285,
+ "words": 23488,
+ "base_utc": "2026-11-09T08:50:00+00:00",
+ "clock_note": "웹캐스트 마커 98/1054개가 일치 (편차 ±16s)",
+ "sessions": {
+  "d1-01": 31,
+  "d1-02": 3,
+  "d1-03": 58,
+  "d1-04": 19,
+  "d1-05": 27,
+  "d1-07": 2,
+  "d1-08": 118,
+  "d1-09": 27
+ },
+ "compare": {
+  "stt_lines": 459,
+  "stt_words": 23088,
+  "stt_lines_found_in_official_pct": 93.9,
+  "official_paras_found_in_stt_pct": 93.6,
+  "stt_lines_not_in_official_sample": [
+   "bone, stone and ivory, there were objects of beauty, instruments of music and markers of ritual.",
+   "I would have liked to be with you in Geneva today, but that was in the light of the preparation of E",
+   "where this conference is an important opportunity to strengthen regional and international dialogue ",
+   "And while this change gives an exceptional opportunity to raise complex questions regarding the prot",
+   "and we have been provided with this guarantee to respect the advancement of the technology and the r",
+   "and we work in accordance with it. it to strengthen the fundamental rule and the renewal of the legi",
+   "And now, to make this issue a complete and comprehensive argument and to a clear understanding of th",
+   "On the international level, we all agree that it country can face these challenges on its own. And f",
+   "We must ensure that the international artificial intelligence allows for the development of its inno",
+   "I look forward to working with my colleagues from different parts of the world to encourage the exch",
+   "But the question does one patent?",
+   ". 嗯 Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. ",
+   "I am so sorry. to do, I do not know what to do. Thank you. 感 謝 very much. Thank you all for being he",
+   "Thank you 會 議 員 會 Yeah, yeah. Do not press the nail in the glass.",
+   "Yes. One. I will get through it. I will ."
+  ]
+ }
+}

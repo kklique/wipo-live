@@ -78,6 +78,8 @@
   aside li.clk { cursor: pointer; }
   aside li.clk:hover, aside li.clk:focus { background: var(--line); outline: none; }
   #transcript p.hit { animation: hit 4s ease-out; }
+  #transcript p.hd { font-weight: 600; margin-top: 16px; }
+  #transcript p.hd.sec { color: var(--accent); font-size: 1.05em; }
   @keyframes hit { from { background: var(--mark); } to { background: transparent; } }
   .hint { color: var(--muted); font-size: 12px; margin-top: 8px; }
   /* 저장 상태 탭 */
@@ -143,6 +145,7 @@
     <span id="full-ctl" class="bar" style="margin:0;flex:1 1 360px" hidden>
       <input id="q" type="search" placeholder="검색 (일치하는 문장만 표시)" aria-label="검색">
       <label class="chk"><input id="follow" type="checkbox" checked>맨 아래 따라가기</label>
+      <select id="official" hidden aria-label="전체 저장본 종류" title="WIPO 가 행사 후 배포한 공식 verbatim 스크립트 (실시간 수집분과 별도 보관)"></select>
       <button id="dl" type="button">.txt 저장</button>
       <button id="copy" type="button">복사</button>
     </span>
@@ -207,7 +210,7 @@ let pendingOpen = hashParts[0] === "program" ? hashParts[1] || null : null;
 const $ = (id) => document.getElementById(id);
 const el = { meeting: $("meeting"), q: $("q"), follow: $("follow"), tr: $("transcript"), empty: $("empty"),
              markers: $("markers"), mcount: $("mcount"), status: $("status"), stext: $("status-text"), badge: $("badge"),
-             liveBox: $("live-box"), toBottom: $("to-bottom") };
+             liveBox: $("live-box"), toBottom: $("to-bottom"), official: $("official") };
 const hhmmss = (iso) => (iso || "").slice(11, 19);
 const isNoise = (t) => !/[\p{L}\p{N}_]/u.test(t || "");   // 점만 있는 줄 등 (비정상 문장) 은 화면에서도 제외
 const FILLER = new Set("thank you thanks yeah yes okay ok bye uh um hmm mm mhm music applause".split(" "));
@@ -288,6 +291,7 @@ let savedTimer = null;
 
 function addLine(text, n) {
   const p = document.createElement("p");
+  if (/^[■▌] /.test(text)) p.className = "hd" + (text[0] === "■" ? " sec" : "");     // 공식본의 안건/발언자 표지 줄
   const num = document.createElement("span");
   num.className = "n"; num.textContent = n;
   p.appendChild(num);
@@ -407,9 +411,36 @@ function applyMarkers(text) {
   if (tab === "full" && follow) el.markers.parentElement.scrollTop = el.markers.parentElement.scrollHeight;
 }
 
+let officialKey = "";                  // "": 실시간 수집분(STT) / 그 밖: 공식 스크립트 폴더 이름 (docs/official/<이름>/)
+let officialList = null;               // docs/official/index.json 의 items (없으면 [])
+async function getLocal(path) {        // 이 페이지와 같은 곳(GitHub Pages)에 올린 파일
+  try {
+    const r = await fetch(path, { cache: "no-cache" });
+    return r.ok ? await r.text() : null;
+  } catch (e) { return null; }
+}
+async function loadOfficialList() {
+  if (officialList) return officialList;
+  try { officialList = JSON.parse((await getLocal("official/index.json")) || "{}").items || []; } catch (e) { officialList = []; }
+  if (officialList.length) {
+    el.official.innerHTML = "";
+    const o0 = document.createElement("option"); o0.value = ""; o0.textContent = "실시간 수집분 (STT)"; el.official.appendChild(o0);
+    for (const m of officialList) { const o = document.createElement("option"); o.value = m.key; o.textContent = "공식 스크립트 · " + m.label; el.official.appendChild(o); }
+    el.official.hidden = false;
+  }
+  return officialList;
+}
 async function refreshSaved() {
   const base = `transcripts/${meeting}`;
   try {
+    await loadOfficialList();
+    if (officialKey) {
+      const t = await getLocal(`official/${officialKey}/transcript.txt`);
+      applyTranscript(t || ""); applyMarkers(null);
+      setStatus("full", "ok", "공식본", `WIPO 공식 verbatim 스크립트(행사 후 배포본) · ${lines.length.toLocaleString()}줄 (■ 안건 · ▌ 발언자 표지 포함) · ` +
+        `실시간 수집분(STT)은 따로 보관되어 있으며 위 선택에서 '실시간 수집분'을 고르면 돌아갑니다`);
+      return;
+    }
     const [t, m, st] = await Promise.all([getText(`${base}/transcript.txt`), getText(`${base}/markers.jsonl`).catch(() => null),
                                           getText(`${base}/state.json`).catch(() => null)]);
     if (t === null) {
@@ -603,6 +634,17 @@ async function loadProgramIndex() {
       }
     } catch (e) { /* 이 회의는 분할 결과가 아직 없음 */ }
   }));
+  // WIPO 공식 스크립트가 있는 안건은 공식본을 우선 (실시간 수집분은 data 브랜치에 그대로 보관)
+  for (const m of await loadOfficialList()) {
+    try {
+      const t = await getLocal(`official/${m.key}/by_session/index.json`);
+      if (!t) continue;
+      ok++;
+      for (const e of JSON.parse(t).items || []) {
+        if (e.n_lines) merged[e.id] = { ...e, official: true, okey: m.key };
+      }
+    } catch (e) { /* 공식본 없음 */ }
+  }
   if (ok) progIdx = merged;          // 전부 실패했으면 직전 성공본을 유지 (빈 목록으로 덮어쓰지 않음)
 }
 
@@ -670,7 +712,8 @@ function updatePills() {
     }
     if (e && e.n_lines) {
       withText++;
-      const s = document.createElement("span"); s.className = "pill has"; s.textContent = `스크립트 ${e.n_lines.toLocaleString()}문장`; pw.appendChild(s);
+      const s = document.createElement("span"); s.className = "pill has";
+      s.textContent = e.official ? `공식 스크립트 ${e.n_lines.toLocaleString()}단락` : `스크립트 ${e.n_lines.toLocaleString()}문장`; pw.appendChild(s);
     }
   });
   setStatus("program", "ok", "프로그램", `${total}개 발표/세션 중 스크립트 저장 ${withText}개 · 제목을 누르면 저장된 스크립트가 열립니다 · ` +
@@ -691,7 +734,7 @@ function renderScriptText(panel, id, text, e, view) {
       chips.appendChild(b);
     };
     mk("전체 세션", "all");
-    for (const sp of e.speakers) mk(`${sp.name} · ${sp.n_lines}문장`, sp.key);
+    for (const sp of e.speakers) mk(`${sp.name} · ${sp.n_lines}${e.official ? "단락" : "문장"}`, sp.key);
     panel.appendChild(chips);
   }
   const all = text.split("\n");
@@ -714,8 +757,10 @@ function renderScriptText(panel, id, text, e, view) {
   panel.appendChild(m); panel.appendChild(acts);
   for (const l of body) { const p = document.createElement("p"); p.textContent = l; panel.appendChild(p); }
   const n = document.createElement("div"); n.className = "note";
-  n.textContent = "아젠더 시간표와 발표자 이름 언급으로 자동 분할한 결과라, 앞뒤 경계의 몇 문장은 어긋날 수 있습니다." +
-    (view !== "all" ? " 발표자별 구분은 웹캐스트 발언자 마커(있을 때) 또는 사회자의 호명 문장을 기준으로 합니다." : "");
+  n.textContent = e && e.official
+    ? "WIPO 가 행사 후 배포한 공식 verbatim 스크립트를 문서의 안건·발언자 표지 그대로 나눈 것입니다. (기계 생성 전사본이라 정확성이 보장되지는 않습니다.)"
+    : "아젠더 시간표와 발표자 이름 언급으로 자동 분할한 결과라, 앞뒤 경계의 몇 문장은 어긋날 수 있습니다." +
+      (view !== "all" ? " 발표자별 구분은 웹캐스트 발언자 마커(있을 때) 또는 사회자의 호명 문장을 기준으로 합니다." : "");
   panel.appendChild(n);
 }
 
@@ -735,10 +780,11 @@ async function loadScript(id) {
   }
   try {
     let view = progView[id] || "all";
-    let path = `transcripts/${e.dir}/by_session/${e.file}`;
+    const loc = (kind, f) => e.official ? `official/${e.okey}/${kind}/${f}` : `transcripts/${e.dir}/${kind}/${f}`;
+    let path = loc("by_session", e.file);
     const sp = view !== "all" ? (e.speakers || []).find((x) => x.key === view) : null;
-    if (sp) path = `transcripts/${e.dir}/by_speaker/${sp.file}`; else view = "all";
-    const t = await getText(path);
+    if (sp) path = loc("by_speaker", sp.file); else view = "all";
+    const t = e.official ? await getLocal(path) : await getText(path);
     if (t === null) throw new Error("파일 없음");
     renderScriptText(panel, id, t, e, view);
   } catch (err) {
@@ -979,6 +1025,11 @@ el.liveBox.addEventListener("scroll", () => {
 el.toBottom.addEventListener("click", () => { atBottom = true; el.liveBox.scrollTop = el.liveBox.scrollHeight; el.toBottom.hidden = true; });
 
 // 글자 크기 (실시간 탭)
+el.official.addEventListener("change", () => {
+  officialKey = el.official.value;
+  lines = []; refreshSaved();
+});
+
 let fs = 22;
 try { fs = Number(localStorage.getItem("wipo-fs")) || 22; } catch (e) { /* 저장소 사용 불가 */ }
 function applyFs() {
