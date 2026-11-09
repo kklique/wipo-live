@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T09:44:43+00:00",
+ "generated": "2026-11-09T09:46:44+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -83,13 +83,13 @@
    "start": "10:15",
    "end": "10:45",
    "people": "",
-   "n_lines": 158,
+   "n_lines": 159,
    "method": "schedule",
    "file": "d1-03_ministerial-level-remarks.txt",
    "actual_start": "2026-11-09T10:15:10+01:00",
-   "actual_end": "2026-11-09T10:44:34+01:00",
+   "actual_end": "2026-11-09T10:44:53+01:00",
    "line_from": 34,
-   "line_to": 191,
+   "line_to": 192,
    "speakers": [
     {
      "key": "d1-03__unknown",
@@ -129,8 +129,8 @@
      "name": "Mr. Hesham Azmi",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 109,
-     "n_words": 640,
+     "n_lines": 110,
+     "n_words": 757,
      "n_turns": 1,
      "file": "d1-03__mr-hesham-azmi.txt",
      "method": "marker"
@@ -146,9 +146,37 @@
    "start": "10:45",
    "end": "10:55",
    "people": "Speaker: Mr. Ren Ito",
-   "n_lines": 0,
-   "method": "not-reached",
-   "file": null
+   "n_lines": 3,
+   "method": "schedule",
+   "file": "d1-04_tech-radar-ready-or-not-ai-s-next-frontier.txt",
+   "actual_start": "2026-11-09T10:45:22+01:00",
+   "actual_end": "2026-11-09T10:46:34+01:00",
+   "line_from": 193,
+   "line_to": 195,
+   "speakers": [
+    {
+     "key": "d1-04__mr-ren-ito",
+     "name": "Mr. Ren Ito",
+     "affiliation": "Co-founder and Chairman, Sakana AI, Japan",
+     "role": "speaker",
+     "n_lines": 1,
+     "n_words": 81,
+     "n_turns": 1,
+     "file": "d1-04__mr-ren-ito.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-04__h-e-ms-liisa-ly-pakosta",
+     "name": "H.E. Ms. Liisa-Ly Pakosta",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 2,
+     "n_words": 110,
+     "n_turns": 1,
+     "file": "d1-04__h-e-ms-liisa-ly-pakosta.txt",
+     "method": "marker"
+    }
+   ]
   },
   {
    "id": "d1-05",
