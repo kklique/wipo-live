@@ -52,6 +52,9 @@ jobs:
             (cd ../data && git checkout --orphan "$DATA_BRANCH" && git rm -rf . >/dev/null 2>&1 || true)
           fi
 
+      - name: Resolve data dir (absolute path)
+        run: echo "DATA_DIR=$(cd .. && pwd)/data" >> "$GITHUB_ENV"
+
       - name: Collect (commits results every 2 min)
         env:
           MEETING_ID: ${{ inputs.meeting_id }}
@@ -93,7 +96,7 @@ jobs:
           PID=$!
 
           while kill -0 "$PID" 2>/dev/null; do
-            sleep 120 || true
+            for _ in $(seq 1 24); do kill -0 "$PID" 2>/dev/null || break; sleep 5; done
             save || echo "save failed (will retry)"
           done
           wait "$PID" || true
@@ -105,5 +108,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: transcript-${{ inputs.meeting_id }}
-          path: ../data/transcripts/${{ inputs.meeting_id }}
+          path: ${{ env.DATA_DIR }}/transcripts/${{ inputs.meeting_id }}
           if-no-files-found: ignore
