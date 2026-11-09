@@ -1,7 +1,7 @@
 # [d1-15] Protecting What Makes us Human - Is IP the Answer?
 # Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva)
 # Moderator: Ms. Natalie Corthésy | Speakers: Mr. Anderson Rocha; Ms. Kalpana Tyagi; Mr. Jakob Plesner Mathiasen; Mr. Marco Bassini; Ms. Imogen Heap
-# 실제 구간 16:54:25-17:49:58 · 146문장 · 경계 방식: marker
+# 실제 구간 16:54:25-17:52:35 · 154문장 · 경계 방식: marker
 
 So we reconvene at 4.45. See you in 15. Thank you very much. Welcome back from the coffee break. So let's get started.
 I hope you had a chance of another caffeine to recharge your battery? and the next session is going to personal. Imagine someone using AI to recreate your face. your voice, your your memories, perhaps even to make you appear to say or do something you never said or did. AI is getting better, at it every day.
@@ -149,3 +149,11 @@ And any views you might have about extending criminal sanctions on this question
 in many perspectives, criminal law, personal data, already. but I think the main part of the Danish proposal is actually regarding better enforcement making it easier.
 The Danish provision that protects everybody, all civilians, whether you are famous or not, as Anderson said, a lot of the problems does not concern famous people, concerns everyday people.
 We will see that a lot. The Danish provision might as well be tabled in another act. than the Copyright Act. It could be tabled in personal data, marketing practice act and the like. But the intention behind that new provision is to make enforcement easier by having a clear provision.
+So answer your questions, I think that the criminal enforcement is in place already in many jurisdictions. and it is a question of making enforcement easier no matter where the provision is. put. So I much agree with what Marco said that it is not about making enforcement easier than perhaps developing completely new systems. Tiagi, I want to ask you to jump in here and tell us from your perspective, how we can imagine the cross -border challenges that would arise.
+coming out of absence at the moment of any harmonized approach to deepfakes and perhaps if we could apply some imagination to what a best case scenario might be. I think that is the most difficult question for the day. but I will try to answer. Yeah, so deep fakes.
+Now, generative AI is a whole spectrum. Deepfake is an important part. Let's start backwards, because some scholars have actually gone on to propose, why did we not prohibit deepfakes outright? Yeah. Even in the AI Act in the EU, that we have deepfakes are not a prohibited practice.
+So there's a reason behind it. And the rationale behind it is that in the EU, even though we want to see fundamental rights center stage, but this has to be that does not mean that innovation is put at the back stage.
+So that balance needs to come into picture. Now, the race for AI is the race for innovation. and at its very fundamental core is the question, how do I run?
+It is a race, right?
+So I just run, I achieve my goal, or do I run and achieve my goal within a set of principles and values, I might call it dignity, integrity, freedom of expression, right to property, right? Sometimes, well, it is a choice we all have to make for ourselves. but because you are asking how do we all come together, yeah, because this is a question about the future of humanity. and that is not an exaggeration.
+because people like Hinton who won the Nobel Prize for AI two years ago. he also said that AI puts humanity at imperial.
