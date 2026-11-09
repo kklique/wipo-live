@@ -121,24 +121,46 @@ def read_rows(dirs):
                 except ValueError:
                     pass
             rows[(d, r.get("line_number"))] = {"src": d, "n": r.get("line_number"), "ts": ts, "end": end,
-                                               "text": r["text"].strip()}
+                                               "catchup": bool(r.get("catchup")), "text": r["text"].strip()}
     return list(rows.values())
 
 
-def calibrate(rows, clock):
-    diffs = [(r["ts"] - r["end"].replace(tzinfo=UTC)).total_seconds() for r in rows if r["end"]]
-    med = statistics.median(diffs) if diffs else None
-    note = ""
-    if clock == "auto":
-        if med is None:
-            clock, note = "receipt", "문장 시각 없음 -> 수신 시각 사용"
-        elif -300 <= med <= 900:
-            clock = "utc"
-        elif -3900 <= med <= -2700:
-            clock = "geneva"
-        else:
-            clock, note = "geneva", f"시계 불확실(수신-문장 중앙값 {med:.0f}s) -> Geneva 현지시간으로 가정, 필요하면 --clock 지정"
-    return clock, med, note
+def _gva_times(rows, clock_fn):
+    return [clock_fn(r) for r in rows if r["end"]]
+
+
+def calibrate(rows, clock, agenda):
+    """문장 시각(end_time_iso)이 어느 시계인지 판별. 반환: (clock, 중앙값(초) | None, 메모)
+    clock: 'utc' | 'geneva' | 'receipt' | 'offset:<초>' (문장 시각 + <초> = UTC)"""
+    if clock != "auto":
+        return clock, None, ""
+    live = [r for r in rows if r["end"] and not r["catchup"]]     # 라이브로 받은 줄만 (따라잡기 배치 제외)
+    if len(live) >= 5:
+        diffs = [(r["ts"] - r["end"].replace(tzinfo=UTC)).total_seconds() for r in live]
+        med = statistics.median(diffs)
+        off = int(round(med / 900.0)) * 900                         # 수신 지연(수 분)은 15분 단위 반올림으로 흡수
+        if off == 0:
+            return "utc", med, ""
+        if abs(off + 3600) <= 900 and abs(med + 3600) < 900:
+            return "geneva", med, ""
+        return f"offset:{off}", med, f"문장 시각 시차 {off / 3600:+.2f}h 로 판별(라이브 수신 줄 기준)"
+    pool = [r for r in rows if r["end"]]
+    if not pool:
+        return "receipt", None, "문장 시각 없음 -> 수신 시각 사용"
+    # 라이브로 받은 줄이 거의 없음(전부 지난 문장 따라잡기): 아젠더 첫 시각과 가장 잘 맞는 시계를 고른다
+    best = None
+    for hyp in ("utc", "geneva"):
+        err = 0.0
+        for day in agenda["days"]:
+            ts_ = [to_geneva(r, hyp, None) for r in pool]
+            ts_ = [t for t in ts_ if t.strftime("%Y-%m-%d") == day["date"]]
+            if ts_:
+                err += abs((min(ts_) - at(datetime.strptime(day["date"], "%Y-%m-%d"), day["items"][0]["start"])).total_seconds())
+        if best is None or err < best[1]:
+            best = (hyp, err)
+    if best and best[1] < 3600:
+        return best[0], None, f"라이브 수신 줄이 없어 아젠더 첫 시각과 비교해 '{best[0]}' 로 판별"
+    return "geneva", None, "시계 판별 불가(전부 지난 문장 따라잡기) -> Geneva 현지시간으로 가정, 경계가 이상하면 --clock 지정"
 
 
 def to_geneva(r, clock, prev):
@@ -146,6 +168,8 @@ def to_geneva(r, clock, prev):
         return r["ts"].astimezone(GVA)
     if r["end"] is None:
         return prev
+    if clock.startswith("offset:"):
+        return (r["end"].replace(tzinfo=UTC) + timedelta(seconds=int(clock[7:]))).astimezone(GVA)
     if clock == "utc":
         return r["end"].replace(tzinfo=UTC).astimezone(GVA)
     return r["end"].replace(tzinfo=GVA)
@@ -220,7 +244,7 @@ def main():
     ap.add_argument("--in", dest="inputs", action="append", required=True, help="collect.py 출력 폴더 (여러 번 지정 가능)")
     ap.add_argument("--agenda", default=os.path.join(HERE, "docs", "agenda.json"))
     ap.add_argument("--out", default=None, help="기본: 첫 --in 폴더/by_session")
-    ap.add_argument("--clock", choices=["auto", "utc", "geneva", "receipt"], default="auto")
+    ap.add_argument("--clock", default="auto", help="auto | utc | geneva | receipt | offset:<초> (문장 시각+초=UTC)")
     ap.add_argument("--override", action="append", default=[], help="ID=HH:MM[:SS] (Geneva 시각) 시작 시각 수동 지정")
     ap.add_argument("--overrides-file", default=None, help='{"d1-04": "10:46:30"} 형태 JSON')
     ap.add_argument("--quiet", action="store_true")
@@ -240,7 +264,7 @@ def main():
     if not rows:
         log("확정 문장(updates.jsonl)이 아직 없어 건너뜀")
         return 0
-    clock, med, note = calibrate(rows, a.clock)
+    clock, med, note = calibrate(rows, a.clock, agenda)
     prev, lines = None, []
     rows.sort(key=lambda r: (r["src"], r["n"] or 0))
     for r in rows:

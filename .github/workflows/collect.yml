@@ -1,4 +1,5 @@
 name: Collect WIPO live transcript
+run-name: collect ${{ inputs.meeting_id }}
 
 # Actions 탭 > "Collect WIPO live transcript" > Run workflow 로 수동 실행.
 # 회의 시작 전이면 대기하다가 시작되면 저장을 시작하고, 회의가 끝나면(idle) 자동 종료한다.
@@ -17,6 +18,10 @@ on:
         description: "데이터 수신 후 이 시간(분) 동안 변화가 없으면 종료 (점심시간 등 감안)"
         default: "180"
         required: true
+      start_line:
+        description: "(선택) 이 줄 번호부터 다시 받기. 비워 두면 저장된 위치부터 이어받고, 처음이면 1번부터"
+        default: ""
+        required: false
 
 # 같은 meeting_id 를 동시에 두 번 수집하지 않도록 한다.
 concurrency:
@@ -52,6 +57,7 @@ jobs:
           MEETING_ID: ${{ inputs.meeting_id }}
           MAX_MIN: ${{ inputs.max_minutes }}
           IDLE_MIN: ${{ inputs.idle_exit_minutes }}
+          START_LINE: ${{ inputs.start_line }}
         run: |
           OUT="../data/transcripts/${MEETING_ID}"
           mkdir -p "$OUT"
@@ -68,8 +74,22 @@ jobs:
               fi )
           }
 
-          python3 -u collect.py --meeting-id "$MEETING_ID" --out "$OUT" \
-            --max-seconds "$(( MAX_MIN * 60 ))" --idle-exit-minutes "$IDLE_MIN" &
+          # 수집기가 비정상 종료(rc!=0)하면 저장된 위치부터 자동 재시작한다. 정상 종료(rc=0: 시간 초과/회의 종료)면 멈춘다.
+          run_collector() {
+            DEADLINE=$(( $(date +%s) + MAX_MIN * 60 ))
+            EXTRA=""; [ -n "$START_LINE" ] && EXTRA="--start-line $START_LINE"
+            while [ "$(date +%s)" -lt "$DEADLINE" ]; do
+              python3 -u collect.py --meeting-id "$MEETING_ID" --out "$OUT" $EXTRA \
+                --max-seconds "$(( DEADLINE - $(date +%s) ))" --idle-exit-minutes "$IDLE_MIN"
+              rc=$?
+              [ "$rc" -eq 0 ] && break
+              RESTARTS=$(( ${RESTARTS:-0} + 1 ))
+              if [ "$RESTARTS" -ge 20 ]; then echo "collector keeps crashing; giving up"; touch /tmp/collector_failed; break; fi
+              echo "collector exited with rc=$rc; restart #$RESTARTS in 10s (resumes from saved position)"
+              EXTRA=""; sleep 10
+            done
+          }
+          run_collector &
           PID=$!
 
           while kill -0 "$PID" 2>/dev/null; do
@@ -78,6 +98,7 @@ jobs:
           done
           wait "$PID" || true
           save
+          if [ -f /tmp/collector_failed ]; then echo "::error::collector crashed repeatedly"; exit 1; fi
 
       - name: Upload artifact (backup)
         if: always()
