@@ -1,0 +1,129 @@
+{
+  "WIPOs2tId": "WIPO_IP-AI_GEN_26_2026-11-09_3169d8fe-c816-466a-04e2-08df3b1fc4ff",
+  "WIPOs2tLiveTranscriptHash": "db9f085696a115b4e7b251498aecf4a1",
+  "approved": true,
+  "audioSupportedLanguages": [
+    "en",
+    "es",
+    "ru",
+    "qa",
+    "pt",
+    "zh",
+    "fr",
+    "ar"
+  ],
+  "categories": [
+    {
+      "id": "c5aa51e9-dcd1-45bf-84eb-9f519d50f5b2",
+      "label": "OTHER",
+      "name": "Other"
+    }
+  ],
+  "cvc5id": "3169d8fe-c816-466a-04e2-08df3b1fc4ff",
+  "cvc5securityLevel": "Public",
+  "cvc5status": "Started",
+  "description": "",
+  "event": "Global Forum",
+  "id": "3169d8fe-c816-466a-04e2-08df3b1fc4ff",
+  "languageVersions": [
+    {
+      "language": "en",
+      "trackIdentifier": "qab",
+      "videoUrls": {
+        "hls": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+        "live": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+        "progressive": ""
+      }
+    },
+    {
+      "language": "es",
+      "trackIdentifier": "qad",
+      "videoUrls": {
+        "hls": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+        "live": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+        "progressive": ""
+      }
+    },
+    {
+      "language": "ru",
+      "trackIdentifier": "qaf",
+      "videoUrls": {
+        "hls": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+        "live": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+        "progressive": ""
+      }
+    },
+    {
+      "language": "xx",
+      "trackIdentifier": "qaa",
+      "videoUrls": {
+        "hls": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+        "live": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+        "progressive": ""
+      }
+    },
+    {
+      "language": "pt",
+      "trackIdentifier": "qah",
+      "videoUrls": {
+        "hls": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+        "live": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+        "progressive": ""
+      }
+    },
+    {
+      "language": "zh",
+      "trackIdentifier": "qag",
+      "videoUrls": {
+        "hls": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+        "live": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+        "progressive": ""
+      }
+    },
+    {
+      "language": "fr",
+      "trackIdentifier": "qac",
+      "videoUrls": {
+        "hls": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+        "live": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+        "progressive": ""
+      }
+    },
+    {
+      "language": "ar",
+      "trackIdentifier": "qae",
+      "videoUrls": {
+        "hls": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+        "live": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+        "progressive": ""
+      }
+    }
+  ],
+  "length": "03:10:00",
+  "link": "",
+  "live": true,
+  "liveTranscriptLink": "https://webcast.wipo.int/live_s2t/transcript.html?meeting_id=db9f085696a115b4e7b251498aecf4a1",
+  "live_status": "STARTED",
+  "markers": [],
+  "markers_grouped": {
+    "markers": [
+      {
+        "speakers": []
+      },
+      {
+        "subjects": []
+      }
+    ]
+  },
+  "name": "First Global Forum on Intellectual Property and Artificial Intelligence - WIPO IP-AI GEN 26 - Day 1 Morning",
+  "people": [],
+  "place": "WCH",
+  "startDate": "2026-11-09T08:50:00",
+  "subjects": [],
+  "thumbnail": null,
+  "videoUrls": {
+    "hls": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+    "live": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+    "progressive": ""
+  }
+}
