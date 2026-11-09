@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T12:34:36+00:00",
+ "generated": "2026-11-09T12:36:36+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -522,13 +522,13 @@
    "start": "13:00",
    "end": "14:30",
    "people": "",
-   "n_lines": 1,
+   "n_lines": 2,
    "method": "cue",
    "file": "d1-10_lunch-break.txt",
    "actual_start": "2026-11-09T13:34:11+01:00",
-   "actual_end": "2026-11-09T13:34:11+01:00",
+   "actual_end": "2026-11-09T13:34:39+01:00",
    "line_from": 507,
-   "line_to": 507
+   "line_to": 508
   },
   {
    "id": "d1-11",
