@@ -1079,3 +1079,18 @@ Because the intellectual property itself, as well as the artificial intelligence
 in the help of the stated position and proposal of Mr. Tango. 20 years we are marked with high awards, including thanks to the highest officials of the head of state.
 For what?
 For the merits in the development of science. What kind of science?
+In the field of intellectual property, We believe that Property is an indicator of the economic value of any Intellectual Property. 首 先 the economy, not the protection of publications and patents and applications, but the economy, the creation of the added value.
+And we are grateful.
+I spoke with this tribune in this hall seven years ago.
+I spoke for 30 minutes.
+Today I was offered to speak many times less, but given that artificial intelligence says that it is necessary to speak not only shorter, but also slower, I ask you to pay attention to the slides that help to reveal the content. The proposals were supported due to the fact that property is primarily not a material asset. In the latest reports of the leadership of the World Organization of Intellectual Property, this is being discussed.
+But this is not enough.
+Why?
+If we analyze the goals of sustainable development of their implementation, we see a significant slowdown of these goals by 2030. More than half of the goals will not be achieved.
+Why?
+If we open these goals and the tasks that flow out of them, you will not find the word "intellectual property"
+in any item.
+It is not there. But if we connect to AIS, we the innovation development with the intellectual property and its economy, then why is there no sustainable development in the goals?
+This means that when developing these goals, as the goals of the up to 1936, unfortunately, our organization, the specialized organization of the UN, does not participate well. 必 须 建 议 更 丰 富 的 互 动, within the UN and other international organizations, to develop and improve these goals.
+First of all, what are we talking about here? That we need to change the system of evaluation of innovative development.
+Not publications and patents, but non-material assets that have been declared by the board of BIS, but, unfortunately, has not yet been implemented in practice. Today, about half of the world's countries have a strategy for the development of intellectual property. But on the basis of their are based on security and protection. There is no economy. There is nothing you should strive for. Of course, it is necessary in this reform.

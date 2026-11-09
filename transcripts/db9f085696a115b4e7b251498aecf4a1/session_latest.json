@@ -646,9 +646,9 @@
     {
       "description": "CAMBODIA",
       "personId": "57984fce-d44d-44c3-b4c5-dc09fe083d41",
-      "timestamp": "04:06:33",
-      "timestampCVC5": "2026-11-09T17:26:33",
-      "timestampSeconds": 14793
+      "timestamp": "04:06:22",
+      "timestampCVC5": "2026-11-09T17:26:22",
+      "timestampSeconds": 14782
     },
     {
       "description": "H.E. Mr. Kairat Torebayev",
@@ -1256,9 +1256,9 @@
                   {
                     "description": "CAMBODIA",
                     "personId": "57984fce-d44d-44c3-b4c5-dc09fe083d41",
-                    "timestamp": "04:06:33",
-                    "timestampCVC5": "2026-11-09T17:26:33",
-                    "timestampSeconds": 14793
+                    "timestamp": "04:06:22",
+                    "timestampCVC5": "2026-11-09T17:26:22",
+                    "timestampSeconds": 14782
                   },
                   {
                     "description": "H.E. Mr. Kairat Torebayev",
