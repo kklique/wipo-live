@@ -548,9 +548,9 @@
     {
       "description": "Mr. Andrew Toole",
       "personId": "54794eb5-3f8a-4da2-ae6f-08df3b2598d3",
-      "timestamp": "03:30:37",
-      "timestampCVC5": "2026-11-09T12:20:37",
-      "timestampSeconds": 12637
+      "timestamp": "03:30:27",
+      "timestampCVC5": "2026-11-09T12:20:27",
+      "timestampSeconds": 12627
     }
   ],
   "markers_grouped": {
@@ -1031,9 +1031,9 @@
                   {
                     "description": "Mr. Andrew Toole",
                     "personId": "54794eb5-3f8a-4da2-ae6f-08df3b2598d3",
-                    "timestamp": "03:30:37",
-                    "timestampCVC5": "2026-11-09T12:20:37",
-                    "timestampSeconds": 12637
+                    "timestamp": "03:30:27",
+                    "timestampCVC5": "2026-11-09T12:20:27",
+                    "timestampSeconds": 12627
                   }
                 ],
                 "subjectId": "049ee03f-283f-44c9-b4cf-60fb41a2b6b1",

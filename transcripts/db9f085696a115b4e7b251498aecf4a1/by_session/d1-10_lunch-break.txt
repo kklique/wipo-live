@@ -1,0 +1,5 @@
+# [d1-10] Lunch break
+# Day 1 · 2026-11-09 · 예정 13:00-14:30 (Geneva)
+# 실제 구간 13:29:11-13:29:11 · 1문장 · 경계 방식: schedule
+
+The width of each band is a count of patent applications. So almost four in five of these applications used coined in research in 2013 and 2014. Auto encoders, word embeddings, sequence to sequence models, and above all generative adversarial networks, which alone accounted for 860 of the 1,726 applications. Now look at the bottom of this graphic.
