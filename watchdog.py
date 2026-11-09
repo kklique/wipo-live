@@ -10,6 +10,7 @@
      오후 세션의 첫 문장부터 저장된다. (수집기는 전사가 나올 때까지 기다리며, 시간대가 끝나면 자동 종료)
      수집 작업이 떠 있는데 12분 넘게 저장 위치가 갱신되지 않으면 -> 취소하고 다시 시작한다.
   4) 이상 징후(러너에서 WIPO 접속 불가, 수집 작업이 반복 실패)는 GitHub 이슈로 알린다 (중복 방지).
+두 스트림(<해시>_no_delay, <해시>)은 각각 독립적으로 수집한다: 한쪽이 멈춰도 다른 쪽에 저장된다.
 수집기는 저장된 줄 번호부터 이어받고 WIPO 가 지난 문장을 보관하므로, 재시작해도 빠지는 문장이 없다.
 """
 import argparse
@@ -102,9 +103,15 @@ def list_runs(dry):
         return []
 
 
+def run_id(r):
+    """수집 작업 제목 'collect <meeting_id>' 의 id (정확히 일치 비교용: '<해시>' 가 '<해시>_no_delay' 에 포함되는 문제 방지)"""
+    t = (r.get("displayTitle") or "").split()
+    return t[-1] if t else ""
+
+
 def decide(mid, probe_res, saved_next, saved_updated, runs, listed, now, keep_alive=False):
     """반환: (action, reason). action: none | dispatch | restart | alert"""
-    mine = [r for r in runs if mid in (r.get("displayTitle") or "")]
+    mine = [r for r in runs if run_id(r) == mid]
     active = [r for r in mine if r.get("status") in ("queued", "in_progress", "waiting", "pending", "requested")]
     fails = [r for r in mine if r.get("conclusion") == "failure" and
              now - datetime.fromisoformat(r["createdAt"].replace("Z", "+00:00")) < timedelta(minutes=40)]
@@ -205,36 +212,30 @@ def main():
     keep = in_window(agenda, now_g)          # 회의 시간대 안이면 수집 작업을 항상 하나 유지
     rc = 0
     for h, name in ids.items():
-        # WIPO 는 같은 세션에 '<해시>_no_delay'(저지연)와 '<해시>'(일반) 스트림이 따로 있을 수 있어 둘 다 확인하고,
-        # 데이터가 있는(또는 이미 저장 중인) 쪽을 쓴다. 저지연(_no_delay)을 우선한다.
-        chosen = None
+        # WIPO 는 같은 세션에 '<해시>_no_delay'(저지연)와 '<해시>'(일반) 스트림을 따로 제공하고, 한쪽만 멈추는 일이 있었다
+        # (10:17 UTC 에 _no_delay 가 멈추고 일반 스트림은 계속 진행). 그래서 두 스트림을 각각 독립적으로 수집한다 (이중화).
+        keep_h = keep and (h in live or ID_EVENT.get(h, today_event_code(agenda, now_g)) == today_event_code(agenda, now_g))
         for mid in (f"{h}_no_delay", h):
             nxt, upd = saved_state(a.data_dir, mid)
             res = probe(mid, nxt or 1)
-            cand = (mid, nxt, upd, res)
-            chosen = chosen or cand if res[0] == "none" and nxt is None else cand
-            if res[0] == "ok" or nxt is not None:
-                break
-        mid, nxt, upd, res = chosen
-        keep_h = keep and (h in live or ID_EVENT.get(h, today_event_code(agenda, now_g)) == today_event_code(agenda, now_g))
-        action, reason = decide(mid, res, nxt, upd, runs, h in live, now, keep_alive=keep_h)
-        print(f"- {mid[:12]}… {('(' + name + ') ') if name else ''}저장위치={nxt} -> {action}: {reason}")
-        if action in ("dispatch", "restart"):
-            if action == "restart":
-                for r in runs:
-                    if mid in (r.get("displayTitle") or "") and r.get("status") in ("queued", "in_progress", "waiting", "pending", "requested"):
-                        gh(["run", "cancel", str(r["databaseId"])], a.dry_run)
-            gh(["workflow", "run", WORKFLOW, "-f", f"meeting_id={mid}", "-f", f"max_minutes={run_minutes(agenda, now_g)}",
-                "-f", "idle_exit_minutes=45"], a.dry_run)
-            if nxt is None and res[0] == "ok":      # 실제 전사가 처음 확인된 경우에만 시작 알림
-                open_issue(f"[watchdog] 수집 시작: {h[:8]} {now_g:%Y-%m-%d}",
-                           f"회의 전사가 시작된 것을 감지해 수집을 자동 시작했습니다.\n\n- meeting_id: `{mid}`\n- {name or '세션 이름 미확인'}\n- {now_g:%Y-%m-%d %H:%M} (Geneva)", a.dry_run)
-        elif action == "alert":
-            rc = 1
-            open_issue(f"[watchdog] 수집 이상: {h[:8]} {now_g:%Y-%m-%d}",
-                       f"- meeting_id: `{mid}`\n- 내용: {reason}\n- 시각: {now_g:%Y-%m-%d %H:%M} (Geneva)\n\n"
-                       "Actions 탭에서 `Collect WIPO live transcript` 실행 로그를 확인하세요. "
-                       "러너에서 WIPO 접속이 막힌 경우 다른 환경(PC 등)에서 `python3 collect.py` 를 실행해야 합니다.", a.dry_run)
+            action, reason = decide(mid, res, nxt, upd, runs, h in live, now, keep_alive=keep_h)
+            print(f"- {mid[:12]}…{'_nd' if mid.endswith('_no_delay') else '   '} {('(' + name + ') ') if name else ''}저장위치={nxt} -> {action}: {reason}")
+            if action in ("dispatch", "restart"):
+                if action == "restart":
+                    for r in runs:
+                        if run_id(r) == mid and r.get("status") in ("queued", "in_progress", "waiting", "pending", "requested"):
+                            gh(["run", "cancel", str(r["databaseId"])], a.dry_run)
+                gh(["workflow", "run", WORKFLOW, "-f", f"meeting_id={mid}", "-f", f"max_minutes={run_minutes(agenda, now_g)}",
+                    "-f", "idle_exit_minutes=45"], a.dry_run)
+                if nxt is None and res[0] == "ok":      # 실제 전사가 처음 확인된 경우에만 시작 알림
+                    open_issue(f"[watchdog] 수집 시작: {mid[:8]}{'_nd' if mid.endswith('_no_delay') else ''} {now_g:%Y-%m-%d}",
+                               f"회의 전사가 시작된 것을 감지해 수집을 자동 시작했습니다.\n\n- meeting_id: `{mid}`\n- {name or '세션 이름 미확인'}\n- {now_g:%Y-%m-%d %H:%M} (Geneva)", a.dry_run)
+            elif action == "alert":
+                rc = 1
+                open_issue(f"[watchdog] 수집 이상: {mid[:8]}{'_nd' if mid.endswith('_no_delay') else ''} {now_g:%Y-%m-%d}",
+                           f"- meeting_id: `{mid}`\n- 내용: {reason}\n- 시각: {now_g:%Y-%m-%d %H:%M} (Geneva)\n\n"
+                           "Actions 탭에서 `Collect WIPO live transcript` 실행 로그를 확인하세요. "
+                           "러너에서 WIPO 접속이 막힌 경우 다른 환경(PC 등)에서 `python3 collect.py` 를 실행해야 합니다.", a.dry_run)
     return 0   # 이상 징후는 이슈로 알리며, 워크플로 자체는 실패시키지 않는다 (다음 점검이 계속 돌도록)
 
 
