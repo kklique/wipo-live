@@ -478,16 +478,16 @@
     {
       "description": "Ms. Myrtha Hurtado Rivas",
       "personId": "42f6d057-4e34-48f9-ae6d-08df3b2598d3",
-      "timestamp": "03:16:57",
-      "timestampCVC5": "2026-11-09T12:06:57",
-      "timestampSeconds": 11817
+      "timestamp": "03:16:53",
+      "timestampCVC5": "2026-11-09T12:06:53",
+      "timestampSeconds": 11813
     },
     {
       "description": "Mr. Edward Lee",
       "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
-      "timestamp": "03:17:50",
-      "timestampCVC5": "2026-11-09T12:07:50",
-      "timestampSeconds": 11870
+      "timestamp": "03:17:47",
+      "timestampCVC5": "2026-11-09T12:07:47",
+      "timestampSeconds": 11867
     },
     {
       "description": "Ms. Myrtha Hurtado Rivas",
@@ -523,6 +523,20 @@
       "timestamp": "03:23:10",
       "timestampCVC5": "2026-11-09T12:13:10",
       "timestampSeconds": 12190
+    },
+    {
+      "description": "Mr. Edward Lee",
+      "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+      "timestamp": "03:28:21",
+      "timestampCVC5": "2026-11-09T12:18:21",
+      "timestampSeconds": 12501
+    },
+    {
+      "description": "CHAIR",
+      "personId": "ec07df79-cc36-48c1-acea-301e6dddfad4",
+      "timestamp": "03:29:14",
+      "timestampCVC5": "2026-11-09T12:19:14",
+      "timestampSeconds": 12554
     }
   ],
   "markers_grouped": {
@@ -927,16 +941,16 @@
                   {
                     "description": "Ms. Myrtha Hurtado Rivas",
                     "personId": "42f6d057-4e34-48f9-ae6d-08df3b2598d3",
-                    "timestamp": "03:16:57",
-                    "timestampCVC5": "2026-11-09T12:06:57",
-                    "timestampSeconds": 11817
+                    "timestamp": "03:16:53",
+                    "timestampCVC5": "2026-11-09T12:06:53",
+                    "timestampSeconds": 11813
                   },
                   {
                     "description": "Mr. Edward Lee",
                     "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
-                    "timestamp": "03:17:50",
-                    "timestampCVC5": "2026-11-09T12:07:50",
-                    "timestampSeconds": 11870
+                    "timestamp": "03:17:47",
+                    "timestampCVC5": "2026-11-09T12:07:47",
+                    "timestampSeconds": 11867
                   },
                   {
                     "description": "Ms. Myrtha Hurtado Rivas",
@@ -972,6 +986,20 @@
                     "timestamp": "03:23:10",
                     "timestampCVC5": "2026-11-09T12:13:10",
                     "timestampSeconds": 12190
+                  },
+                  {
+                    "description": "Mr. Edward Lee",
+                    "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+                    "timestamp": "03:28:21",
+                    "timestampCVC5": "2026-11-09T12:18:21",
+                    "timestampSeconds": 12501
+                  },
+                  {
+                    "description": "CHAIR",
+                    "personId": "ec07df79-cc36-48c1-acea-301e6dddfad4",
+                    "timestamp": "03:29:14",
+                    "timestampCVC5": "2026-11-09T12:19:14",
+                    "timestampSeconds": 12554
                   }
                 ],
                 "subjectId": "59023b79-b078-455c-a939-254b6858c034",
