@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T12:30:32+00:00",
+ "generated": "2026-11-09T12:32:34+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -376,8 +376,8 @@
      "name": "Mr. Edward Lee",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 28,
-     "n_words": 1513,
+     "n_lines": 29,
+     "n_words": 1578,
      "n_turns": 16,
      "file": "d1-08__mr-edward-lee.txt",
      "method": "marker"
@@ -442,8 +442,8 @@
      "name": "Mr. Gaétan de Rassenfosse",
      "affiliation": "Associate Professor of Science Technology and Innovation Policy, Ecole Polytechnique Fédérale de Lausanne, Belgium",
      "role": "panelist",
-     "n_lines": 12,
-     "n_words": 764,
+     "n_lines": 11,
+     "n_words": 699,
      "n_turns": 2,
      "file": "d1-08__mr-gaetan-de-rassenfosse.txt",
      "method": "marker"
@@ -511,13 +511,13 @@
    "start": "13:00",
    "end": "14:30",
    "people": "",
-   "n_lines": 3,
+   "n_lines": 7,
    "method": "schedule",
    "file": "d1-10_lunch-break.txt",
    "actual_start": "2026-11-09T13:29:17+01:00",
-   "actual_end": "2026-11-09T13:30:17+01:00",
+   "actual_end": "2026-11-09T13:32:06+01:00",
    "line_from": 498,
-   "line_to": 500
+   "line_to": 504
   },
   {
    "id": "d1-11",
