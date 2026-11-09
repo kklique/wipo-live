@@ -1,6 +1,6 @@
 # [d1-15] Protecting What Makes us Human - Is IP the Answer?
 # 발표자: Ms. Kalpana Tyagi — Assistant Professor of Intellectual Property and Competition Law, Maastricht University, India  (panelist)
-# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 2회 · 14문장 · 987단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 3회 · 18문장 · 1,148단어 · 구분 방식: marker
 
 You kind of take me to the entire span and the foundation of Intellectual Property rights. So we call deepfakes today, it's formed from two words, deep and fake. It's a kind of a misnomer, but that's what it is. is claimed to be known as. and names stay longer than we expect. So let's take it as deepfakes. Now what deepfakes are creating today? now this technology has been in the market for a long time, used to call it with a different name, CGI, computer -generated imagery.
 What DeFaix did was they democratized access to content, which means it's much more cheaper, accessible, and there's a lot more user -generated content. As copyright scholars, we are happy, more creativity, more output. However, there are two challenges. to it. One challenge is from the copyright perspective, because content is becoming more and more AI generated.
@@ -17,3 +17,8 @@ It is our integrity, as you say, biometrics, data. Now, we have the language of 
 So I would say protection, yes. but what we need to answer is where and how.
 And for this once again, I think morning opening speech resonates. going to the foundations because that's where also from the Charter of Fundamental Rights perspective, the Universal Declaration of Human Rights, wherein we have the right to privacy, data protection in some of the legislations, and the right to integrity, that is a different framework vis-a-vis the performer's interest, which should definitely be in the realm of copyright.
 because room Convention does offer a scope for protection of that. I really appreciate that perspective that you've just shared with us because it leans into a follow-up question that I wanted to ask Marco about freedom of expression. And just before I do that, I want to acknowledge that Imogen unfortunately has to leave our panel a little bit early, so I didn't want you to.
+
+this time technology has knocked the doors of trademarks and unfair competition law as well.
+So I think technology is giving us a gift, a blessing. to reflect how agile, how flexible our Intellectual Property rights framework is. Patents, we did have a rich discussion in the morning, so I don't go there. But particularly trademarks, copyright and closely related unfair competition. With this background, now the Danish proposal has two sections. One section is dedicated to performers, what we call.
+So the impersonation interests of performers, as I suggested that Article 12 of the Rome Convention gives us the possibility as contracting parties to the treaties, to the international conventions that we can legislate within the framework within our national framework. how we can protect the performer's interest. So in that respect, what the Danish proposal is offering is think it's Section 72, if I remember correctly, Section 65 and Section 72.
+and Section 72 talks about the performer's interest.
