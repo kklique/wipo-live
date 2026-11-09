@@ -1,7 +1,7 @@
 # [d1-13] One-Stop Shop: Keeping up with IP and AI
 # Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva)
 # Speakers: Mr. Andres Guadamuz; Mr. Wang Qian; Mr. Edward Lee
-# 실제 구간 15:00:32-15:52:13 · 101문장 · 경계 방식: marker
+# 실제 구간 15:00:32-15:53:54 · 108문장 · 경계 방식: marker
 
 Another great question which I will answer very quickly and I will also direct you, given that question, to speak to my colleague over there. But I use my actual, I use a unitree G1 EDU and I use it out of box. So I am not a developer and most of the consumer market are not going to be developers. So I use it as anybody would if they took it out of the box, turned it on, charged it up, turned it on and let it come into their home.
 But there are a number of incredible organizations, robotics clubs, individuals and companies who are very , Thank you. Good afternoon.
@@ -104,3 +104,10 @@ You wonder about the dolphin. the article was about a musician releasing dolphin
 I will not go into a lot of detail in the interest of time. As it has been mentioned already, just last week, Advocate General Spooner published an opinion. It is fantastic. It is very, very long.
 It is very, very detailed. Some takeaways training is covered by the text and data mining exception which have been advocating for as long as there has been a debate. Opt -outs, however, should be respected and memorization is guarded against, you could say. Realtorized answers may infringe Press Publishers' rights, and you shall not circumvent any paywalls, which could be interesting for the future.
 This is the AG Spooner's opinion. The court can decide against it, but I think this is a really, really good opinion, if I may say so myself. Then, just briefly, the the same in Europe, we have regulation, the AI Act, it is mostly not about copyright, but it has a couple of provisions that are related to copyright, particularly Article 53 on refers to general purpose artificial intelligence models.
+There is a technical definition of what that means. that I have never memorized. It involves teraflops and all sorts of things. that I do not remember. I am going to completely run out of time. there is now a summary for training.
+If you are training, there is a template in the Commission and you have to fulfill it. and you also have to respect existing copyrights. So I was going slower than I thought I was. Just quickly, in other parts of the world, there has been a temporary injunction on any media and open AI in India in a Delhi court, district court, which has been very interesting because this was case where the court actually analyzed the jurisdiction, recognized that the training had taken place in the United States, but it has oops, see, I ran out of time.
+alarm. I will go very quickly.
+There was an injunction that favored mostly OpenAI, analyzed for use and sorry, actually analyzed for use in the US because the training had taken place in the US It is a very, very fascinating decision.
+I highly recommend it. So, again, very quickly, China China, we have had three, all the three legal situations have happened.
+I am missing a lot of cases.
+On the authorship question, China has been at the forefront of the authorship question.

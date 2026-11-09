@@ -1,6 +1,6 @@
 # [d1-13] One-Stop Shop: Keeping up with IP and AI
 # 발표자: Mr. Andres Guadamuz — Reader in Intellectual Property Law, University of Sussex, Costa Rica  (panelist)
-# Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva) · 발언 1회 · 23문장 · 1,157단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva) · 발언 1회 · 30문장 · 1,384단어 · 구분 방식: marker
 
 From a further perspective on the decision -shaping AI and IP, we turn to Mr. Andres Guenamos. Reader in Intellectual Property Law at the University of of Sussex. Andres, over to you. Okay. Thank you. Yes, we are live. Firstly, thanks very much WIPO and to the organizers for the kind invitation. I always start my presentations with an apology. The apology is that I have only ten minutes to continue.
 to take you through a lot of developments that are taking place all over the world. and speak slowly for the AI. I am always very kind to the AI.
@@ -25,3 +25,10 @@ You wonder about the dolphin. the article was about a musician releasing dolphin
 I will not go into a lot of detail in the interest of time. As it has been mentioned already, just last week, Advocate General Spooner published an opinion. It is fantastic. It is very, very long.
 It is very, very detailed. Some takeaways training is covered by the text and data mining exception which have been advocating for as long as there has been a debate. Opt -outs, however, should be respected and memorization is guarded against, you could say. Realtorized answers may infringe Press Publishers' rights, and you shall not circumvent any paywalls, which could be interesting for the future.
 This is the AG Spooner's opinion. The court can decide against it, but I think this is a really, really good opinion, if I may say so myself. Then, just briefly, the the same in Europe, we have regulation, the AI Act, it is mostly not about copyright, but it has a couple of provisions that are related to copyright, particularly Article 53 on refers to general purpose artificial intelligence models.
+There is a technical definition of what that means. that I have never memorized. It involves teraflops and all sorts of things. that I do not remember. I am going to completely run out of time. there is now a summary for training.
+If you are training, there is a template in the Commission and you have to fulfill it. and you also have to respect existing copyrights. So I was going slower than I thought I was. Just quickly, in other parts of the world, there has been a temporary injunction on any media and open AI in India in a Delhi court, district court, which has been very interesting because this was case where the court actually analyzed the jurisdiction, recognized that the training had taken place in the United States, but it has oops, see, I ran out of time.
+alarm. I will go very quickly.
+There was an injunction that favored mostly OpenAI, analyzed for use and sorry, actually analyzed for use in the US because the training had taken place in the US It is a very, very fascinating decision.
+I highly recommend it. So, again, very quickly, China China, we have had three, all the three legal situations have happened.
+I am missing a lot of cases.
+On the authorship question, China has been at the forefront of the authorship question.
