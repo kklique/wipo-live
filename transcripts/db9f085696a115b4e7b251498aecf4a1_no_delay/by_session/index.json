@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-09T11:15:54+00:00",
+ "generated": "2026-11-09T11:19:33+00:00",
  "clock": "utc",
- "clock_note": "",
+ "clock_note": "라이브 수신 줄이 없어 아젠더 첫 시각과 비교해 'utc' 로 판별",
  "items": [
   {
    "id": "d1-01",
@@ -242,24 +242,35 @@
    "start": "10:55",
    "end": "11:05",
    "people": "Speaker: Mr. Anant Madabhushi",
-   "n_lines": 2,
+   "n_lines": 5,
    "method": "marker",
    "file": "d1-05_showcase-1-ai-in-action-from-ideas-to-real-world.txt",
    "actual_start": "2026-11-09T11:41:19+01:00",
-   "actual_end": "2026-11-09T11:41:22+01:00",
+   "actual_end": "2026-11-09T11:45:10+01:00",
    "line_from": 248,
-   "line_to": 249,
+   "line_to": 252,
    "speakers": [
     {
-     "key": "d1-05__mr-anant-madabhushi",
-     "name": "Mr. Anant Madabhushi",
-     "affiliation": "Executive Director of the Emory Empathetic AI for Health Institute and Robert W. Woodruff Professor of Biomedical Engineering, Emory University, United States of America",
-     "role": "speaker",
-     "n_lines": 2,
-     "n_words": 121,
+     "key": "d1-05__unknown",
+     "name": "(진행/도입)",
+     "affiliation": "",
+     "role": "unknown",
+     "n_lines": 3,
+     "n_words": 148,
      "n_turns": 1,
-     "file": "d1-05__mr-anant-madabhushi.txt",
-     "method": "agenda"
+     "file": "d1-05__unknown.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-05__h-e-mr-kairat-torebayev",
+     "name": "H.E. Mr. Kairat Torebayev",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 2,
+     "n_words": 80,
+     "n_turns": 1,
+     "file": "d1-05__h-e-mr-kairat-torebayev.txt",
+     "method": "marker"
     }
    ]
   },
@@ -272,12 +283,12 @@
    "start": "11:05",
    "end": "11:25",
    "people": "",
-   "n_lines": 9,
+   "n_lines": 13,
    "method": "schedule",
    "file": "d1-06_insight-ip-at-the-table-making-ip-part-of-the-wi.txt",
-   "actual_start": "2026-11-09T12:06:48+01:00",
+   "actual_start": "2026-11-09T11:55:19+01:00",
    "actual_end": "2026-11-09T12:09:57+01:00",
-   "line_from": 326,
+   "line_from": 322,
    "line_to": 334,
    "speakers": [
     {
@@ -285,10 +296,21 @@
      "name": "(진행/도입)",
      "affiliation": "",
      "role": "unknown",
+     "n_lines": 4,
+     "n_words": 1138,
+     "n_turns": 1,
+     "file": "d1-06__unknown.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-06__h-e-mr-kairat-torebayev",
+     "name": "H.E. Mr. Kairat Torebayev",
+     "affiliation": "",
+     "role": "floor",
      "n_lines": 2,
      "n_words": 120,
      "n_turns": 1,
-     "file": "d1-06__unknown.txt",
+     "file": "d1-06__h-e-mr-kairat-torebayev.txt",
      "method": "marker"
     },
     {
@@ -313,13 +335,13 @@
    "start": "11:25",
    "end": "11:40",
    "people": "",
-   "n_lines": 11,
+   "n_lines": 20,
    "method": "schedule",
    "file": "d1-07_coffee-break.txt",
    "actual_start": "2026-11-09T12:10:39+01:00",
-   "actual_end": "2026-11-09T12:15:40+01:00",
+   "actual_end": "2026-11-09T12:19:18+01:00",
    "line_from": 335,
-   "line_to": 345
+   "line_to": 354
   },
   {
    "id": "d1-08",
