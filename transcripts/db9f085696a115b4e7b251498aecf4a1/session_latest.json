@@ -691,6 +691,27 @@
       "timestamp": "04:29:03",
       "timestampCVC5": "2026-11-09T17:49:03",
       "timestampSeconds": 16143
+    },
+    {
+      "description": "FRANCE",
+      "personId": "da07ffdb-cee7-4358-8c67-c04144cacfed",
+      "timestamp": "04:29:22",
+      "timestampCVC5": "2026-11-09T17:49:22",
+      "timestampSeconds": 16162
+    },
+    {
+      "description": "H.E. Mr. Kairat Torebayev",
+      "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+      "timestamp": "04:30:52",
+      "timestampCVC5": "2026-11-09T17:50:52",
+      "timestampSeconds": 16252
+    },
+    {
+      "description": "SPEAKER",
+      "personId": "33304eb7-6e83-44b3-bdfa-88d0a22264d0",
+      "timestamp": "04:31:02",
+      "timestampCVC5": "2026-11-09T17:51:02",
+      "timestampSeconds": 16262
     }
   ],
   "markers_grouped": {
@@ -1308,6 +1329,27 @@
                     "timestamp": "04:29:03",
                     "timestampCVC5": "2026-11-09T17:49:03",
                     "timestampSeconds": 16143
+                  },
+                  {
+                    "description": "FRANCE",
+                    "personId": "da07ffdb-cee7-4358-8c67-c04144cacfed",
+                    "timestamp": "04:29:22",
+                    "timestampCVC5": "2026-11-09T17:49:22",
+                    "timestampSeconds": 16162
+                  },
+                  {
+                    "description": "H.E. Mr. Kairat Torebayev",
+                    "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+                    "timestamp": "04:30:52",
+                    "timestampCVC5": "2026-11-09T17:50:52",
+                    "timestampSeconds": 16252
+                  },
+                  {
+                    "description": "SPEAKER",
+                    "personId": "33304eb7-6e83-44b3-bdfa-88d0a22264d0",
+                    "timestamp": "04:31:02",
+                    "timestampCVC5": "2026-11-09T17:51:02",
+                    "timestampSeconds": 16262
                   }
                 ],
                 "subjectId": "2d4252da-0e34-410e-84b5-d5708b851831",
@@ -1476,6 +1518,13 @@
       "id": "9fdbaca0-1d09-4fdd-a838-b33eb0557286",
       "name": "Mr Anderson Rocha",
       "photoUrl": "https://amcpwewipoassets.blob.core.windows.net/assets/dbad3e27-95f8-4310-bec1-fbd5f1a66fd2.PNG"
+    },
+    {
+      "bio": "<p><a href=\"https://www.wipo.int/directory/en/details.jsp?country_code=FR\" target=\"_blank\">Country profile</a></p><p><a href=\"https://www.wipo.int/directory/fr/details.jsp?country_code=FR\" target=\"_blank\">Profil national</a><br></p><p><a href=\"https://www.wipo.int/directory/es/details.jsp?country_code=FR\" target=\"_blank\">Perfil national</a></p>",
+      "email": "",
+      "id": "da07ffdb-cee7-4358-8c67-c04144cacfed",
+      "name": "FRANCE",
+      "photoUrl": "https://www.wipo.int/export/sites/www/shared/images/flags/fr.png"
     },
     {
       "bio": "<p><a href=\"https://www.wipo.int/directory/en/details.jsp?country_code=CN\" target=\"_blank\">Country profile</a></p><p><a href=\"https://www.wipo.int/directory/fr/details.jsp?country_code=CN\" target=\"_blank\">Profil national</a><br></p><p><a href=\"https://www.wipo.int/directory/es/details.jsp?country_code=CN\" target=\"_blank\">Perfil national</a></p>",
