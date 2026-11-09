@@ -1,9 +1,13 @@
 # [d1-05] Showcase 1: AI in Action - From Ideas to Real-World Impact
 # 발표자: Mr. Cristian Léon  (floor)
-# Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva) · 발언 1회 · 5문장 · 268단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva) · 발언 1회 · 9문장 · 429단어 · 구분 방식: marker
 
 It is not a theoretical question. In February of 2024, a forest fire to the houses. and 134 people died. I asked this question much earlier. In 2014, we walked through the Paine Towers in the Patagonia of Chile, between more than 17,000 hectares burned. That fire occurred in por un descuido. Later, during the pandemic, I had the opportunity to investigate and see the way to stop a fire.
 before it starts. Y fue en el droid a finales del 2020. Every fire in Frestal begins with a person, around 9 out of 10.
 In Chile, almost all. This is a stage that is often not explored enough. However, we act from a window, window of time that is not being explored enough. explorado.
 Esta ventana se producen gran parte de los ensendios, y en this moment, what we are doing is to be able to see the shape of to mitigate that risk from that stage. Most forest fires start with a one person. However, the current system... the technologies we have built act since the fire began. not since this stage. Before the fire began, there is a person doing something dangerous in a place of risk.
 y esa es la etapa que nosotros estamos approaching now. A drone with extended autonomy, with specialized optics, patrolling in the forest day and night. Artificial intelligence inside the drone. not in the cloud. Each image is analyzed from the sky. in the same instant. The first image is analyzed from the sky, at the same moment. the first model that we developed. developed detects fire and smoke.
+since the fire is very small. a small fire, a small fire. fire seen from el aire por la inteligencia artificial a bordo. And at night, a small fire is where it happens unnoticed.
+The second model that we developed was designed to detect people and vehicles in areas of risk. [ Foreign Language Spoken ] do is detect the presence. not the entity. All automatic detection presents a great challenge, the false alarms. An alert, an alarm, is usually a fire, a smoke, seen at several kilometers. 。
+In practice, 。
+。 there is something that many times when there resources, or who have them, they decide to execute an immediate action. Many times, sin entender bien lo que by sending an aircraft immediately. who does not have them, who does not have the resources, waits until they see what happens. Both decisions are important. are reasonable. However, one of them is expensive. and the other can be very late.

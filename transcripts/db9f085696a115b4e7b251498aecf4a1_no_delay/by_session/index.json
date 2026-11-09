@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T14:05:49+00:00",
+ "generated": "2026-11-09T14:07:51+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -236,13 +236,13 @@
    "start": "10:55",
    "end": "11:05",
    "people": "Speaker: Mr. Anant Madabhushi",
-   "n_lines": 10,
+   "n_lines": 14,
    "method": "marker",
    "file": "d1-05_showcase-1-ai-in-action-from-ideas-to-real-world.txt",
    "actual_start": "2026-11-09T11:41:19+01:00",
-   "actual_end": "2026-11-09T15:05:36+01:00",
+   "actual_end": "2026-11-09T15:07:33+01:00",
    "line_from": 248,
-   "line_to": 670,
+   "line_to": 676,
    "speakers": [
     {
      "key": "d1-05__unknown",
@@ -256,14 +256,25 @@
      "method": "marker"
     },
     {
-     "key": "d1-05__speaker",
-     "name": "SPEAKER",
+     "key": "d1-05__ms-emily-kate-genatowski",
+     "name": "Ms. Emily Kate Genatowski",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 2,
-     "n_words": 102,
+     "n_lines": 1,
+     "n_words": 84,
      "n_turns": 1,
-     "file": "d1-05__speaker.txt",
+     "file": "d1-05__ms-emily-kate-genatowski.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-05__h-e-mr-kairat-torebayev",
+     "name": "H.E. Mr. Kairat Torebayev",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 1,
+     "n_words": 18,
+     "n_turns": 1,
+     "file": "d1-05__h-e-mr-kairat-torebayev.txt",
      "method": "marker"
     },
     {
@@ -271,8 +282,8 @@
      "name": "Mr. Cristian Léon",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 5,
-     "n_words": 268,
+     "n_lines": 9,
+     "n_words": 429,
      "n_turns": 1,
      "file": "d1-05__mr-cristian-leon.txt",
      "method": "marker"
@@ -540,21 +551,10 @@
      "name": "Ms. Emily Kate Genatowski",
      "affiliation": "AI Domestic Robotics Researcher, PhD candidate in Digital Humanities, University of Vienna, United States of America",
      "role": "speaker",
-     "n_lines": 10,
-     "n_words": 450,
+     "n_lines": 17,
+     "n_words": 686,
      "n_turns": 1,
      "file": "d1-11__ms-emily-kate-genatowski.txt",
-     "method": "marker"
-    },
-    {
-     "key": "d1-11__speaker",
-     "name": "SPEAKER",
-     "affiliation": "",
-     "role": "floor",
-     "n_lines": 7,
-     "n_words": 236,
-     "n_turns": 1,
-     "file": "d1-11__speaker.txt",
      "method": "marker"
     }
    ]
