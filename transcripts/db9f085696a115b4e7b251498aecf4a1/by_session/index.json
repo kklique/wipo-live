@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T17:13:02+00:00",
+ "generated": "2026-11-09T17:15:04+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -823,13 +823,13 @@
    "start": "17:25",
    "end": "17:55",
    "people": "",
-   "n_lines": 28,
+   "n_lines": 32,
    "method": "marker",
    "file": "d1-16_floor-interventions-from-member-states-and-obser.txt",
    "actual_start": "2026-11-09T17:56:34+01:00",
-   "actual_end": "2026-11-09T18:12:44+01:00",
+   "actual_end": "2026-11-09T18:13:30+01:00",
    "line_from": 2044,
-   "line_to": 2073,
+   "line_to": 2077,
    "speakers": [
     {
      "key": "d1-16__unknown",
@@ -847,9 +847,9 @@
      "name": "H.E. Mr. Kairat Torebayev",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 8,
-     "n_words": 506,
-     "n_turns": 4,
+     "n_lines": 9,
+     "n_words": 524,
+     "n_turns": 5,
      "file": "d1-16__h-e-mr-kairat-torebayev.txt",
      "method": "marker"
     },
@@ -891,8 +891,8 @@
      "name": "KAZAKHSTAN",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 4,
-     "n_words": 270,
+     "n_lines": 7,
+     "n_words": 345,
      "n_turns": 1,
      "file": "d1-16__kazakhstan.txt",
      "method": "marker"

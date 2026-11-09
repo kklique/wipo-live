@@ -583,9 +583,9 @@
     {
       "description": "H.E. Mr. Kairat Torebayev",
       "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
-      "timestamp": "03:49:17",
-      "timestampCVC5": "2026-11-09T17:09:17",
-      "timestampSeconds": 13757
+      "timestamp": "03:49:30",
+      "timestampCVC5": "2026-11-09T17:09:30",
+      "timestampSeconds": 13770
     },
     {
       "description": "KAZAKHSTAN",
@@ -593,6 +593,20 @@
       "timestamp": "03:49:55",
       "timestampCVC5": "2026-11-09T17:09:55",
       "timestampSeconds": 13795
+    },
+    {
+      "description": "H.E. Mr. Kairat Torebayev",
+      "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+      "timestamp": "03:53:21",
+      "timestampCVC5": "2026-11-09T17:13:21",
+      "timestampSeconds": 14001
+    },
+    {
+      "description": "CHINA",
+      "personId": "955e89e9-358e-4634-aaa0-c05dfc04af1b",
+      "timestamp": "03:53:46",
+      "timestampCVC5": "2026-11-09T17:13:46",
+      "timestampSeconds": 14026
     }
   ],
   "markers_grouped": {
@@ -1102,9 +1116,9 @@
                   {
                     "description": "H.E. Mr. Kairat Torebayev",
                     "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
-                    "timestamp": "03:49:17",
-                    "timestampCVC5": "2026-11-09T17:09:17",
-                    "timestampSeconds": 13757
+                    "timestamp": "03:49:30",
+                    "timestampCVC5": "2026-11-09T17:09:30",
+                    "timestampSeconds": 13770
                   },
                   {
                     "description": "KAZAKHSTAN",
@@ -1112,6 +1126,20 @@
                     "timestamp": "03:49:55",
                     "timestampCVC5": "2026-11-09T17:09:55",
                     "timestampSeconds": 13795
+                  },
+                  {
+                    "description": "H.E. Mr. Kairat Torebayev",
+                    "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+                    "timestamp": "03:53:21",
+                    "timestampCVC5": "2026-11-09T17:13:21",
+                    "timestampSeconds": 14001
+                  },
+                  {
+                    "description": "CHINA",
+                    "personId": "955e89e9-358e-4634-aaa0-c05dfc04af1b",
+                    "timestamp": "03:53:46",
+                    "timestampCVC5": "2026-11-09T17:13:46",
+                    "timestampSeconds": 14026
                   }
                 ],
                 "subjectId": "2d4252da-0e34-410e-84b5-d5708b851831",
@@ -1252,6 +1280,13 @@
       "id": "9fdbaca0-1d09-4fdd-a838-b33eb0557286",
       "name": "Mr Anderson Rocha",
       "photoUrl": "https://amcpwewipoassets.blob.core.windows.net/assets/dbad3e27-95f8-4310-bec1-fbd5f1a66fd2.PNG"
+    },
+    {
+      "bio": "<p><a href=\"https://www.wipo.int/directory/en/details.jsp?country_code=CN\" target=\"_blank\">Country profile</a></p><p><a href=\"https://www.wipo.int/directory/fr/details.jsp?country_code=CN\" target=\"_blank\">Profil national</a><br></p><p><a href=\"https://www.wipo.int/directory/es/details.jsp?country_code=CN\" target=\"_blank\">Perfil national</a></p>",
+      "email": "",
+      "id": "955e89e9-358e-4634-aaa0-c05dfc04af1b",
+      "name": "CHINA",
+      "photoUrl": "https://www.wipo.int/shared/images/flags/cn.png"
     },
     {
       "bio": "<p><a href=\"https://www.wipo.int/directory/en/details.jsp?country_code=CH\" target=\"_blank\">Country profile</a></p><p><a href=\"https://www.wipo.int/directory/fr/details.jsp?country_code=CH\" target=\"_blank\">Profil national</a><br></p><p><a href=\"https://www.wipo.int/directory/es/details.jsp?country_code=CH\" target=\"_blank\">Perfil national</a></p>",
