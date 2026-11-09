@@ -76,6 +76,33 @@
   aside li { padding: 4px 0; border-bottom: 1px dashed var(--line); }
   aside li time { color: var(--muted); font-variant-numeric: tabular-nums; margin-right: 6px; }
   .hint { color: var(--muted); font-size: 12px; margin-top: 8px; }
+  /* 프로그램 탭 */
+  #program-wrap { max-width: 900px; margin: 0 auto; padding: 8px 16px 48px; }
+  .day h2 { font-size: 17px; margin: 22px 0 2px; }
+  .day .ev { color: var(--muted); font-size: 13px; margin-bottom: 6px; }
+  .item { border-bottom: 1px solid var(--line); }
+  .item-row { display: grid; grid-template-columns: 96px 1fr auto; gap: 10px; padding: 9px 2px; align-items: start; }
+  .item-time { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 13px; padding-top: 2px; }
+  .item-title { background: none; border: 0; padding: 0; text-align: left; color: var(--fg); cursor: pointer;
+                font: inherit; font-weight: 600; }
+  .item-title:hover { color: var(--accent); }
+  .item.dim .item-title { font-weight: 400; color: var(--muted); }
+  .item-people { font-size: 13px; color: var(--muted); }
+  .pill { display: inline-block; font-size: 11px; border-radius: 10px; padding: 1px 8px; border: 1px solid var(--line);
+          color: var(--muted); white-space: nowrap; margin-left: 4px; }
+  .pill.has { color: var(--ok); border-color: var(--ok); }
+  .pill.now { color: #fff; background: var(--accent); border-color: var(--accent); }
+  .script { margin: 0 0 12px 106px; padding: 10px 14px; background: var(--card); border: 1px solid var(--line);
+            border-radius: 8px; }
+  .script .meta { font-size: 12px; color: var(--muted); margin-bottom: 8px; white-space: pre-line; }
+  .script .acts { display: flex; gap: 8px; margin-bottom: 10px; }
+  .script p { margin: 0 0 8px; }
+  .script .note { font-size: 12px; color: var(--muted); margin-top: 8px; }
+  @media (max-width: 640px) {
+    .item-row { grid-template-columns: 74px 1fr; }
+    .pill-wrap { grid-column: 2; }
+    .script { margin-left: 0; }
+  }
   @media (max-width: 860px) {
     main { grid-template-columns: 1fr; }
     aside { position: static; max-height: none; }
@@ -101,6 +128,7 @@
   </div>
   <div class="tabs" role="tablist">
     <button class="tab" role="tab" id="tab-live" aria-selected="true" aria-controls="live-wrap">실시간</button>
+    <button class="tab" role="tab" id="tab-program" aria-selected="false" aria-controls="program-wrap">프로그램</button>
     <button class="tab" role="tab" id="tab-full" aria-selected="false" aria-controls="full-wrap">전체 저장본</button>
   </div>
 </header>
@@ -110,6 +138,11 @@
 <div id="live-wrap" role="tabpanel">
   <div id="live-box" aria-live="polite"><div class="live-empty">연결 중…</div></div>
   <button id="to-bottom" type="button" hidden>↓ 최신으로</button>
+</div>
+
+<!-- 프로그램: 3일 일정 + 제목을 누르면 해당 발표의 저장된 스크립트 -->
+<div id="program-wrap" role="tabpanel" hidden>
+  <div id="program"><div class="live-empty">불러오는 중…</div></div>
 </div>
 
 <!-- 전체 저장본: data 브랜치에 저장된 전체 문장 -->
@@ -138,7 +171,9 @@ const LIVE_RETRY_MS = 10000;   // 실시간 연결 실패 시 재시도 주기
 const LIVE_KEEP = 200;         // 실시간 탭에 유지하는 최대 문장 수
 
 let meeting = q.get("id") || DEFAULT_ID;
-let tab = location.hash === "#full" ? "full" : "live";
+const hashParts = location.hash.slice(1).split(":");      // #live | #program[:세션id] | #full
+let tab = ["full", "program"].includes(hashParts[0]) ? hashParts[0] : "live";
+let pendingOpen = hashParts[0] === "program" ? hashParts[1] || null : null;
 
 const $ = (id) => document.getElementById(id);
 const el = { meeting: $("meeting"), q: $("q"), follow: $("follow"), tr: $("transcript"), empty: $("empty"),
@@ -147,7 +182,7 @@ const el = { meeting: $("meeting"), q: $("q"), follow: $("follow"), tr: $("trans
 const hhmmss = (iso) => (iso || "").slice(11, 19);
 
 /* ---------- 상태 표시 (탭별로 기억) ---------- */
-const statuses = { live: ["", "LIVE", "연결 중…"], full: ["", "저장본", "불러오는 중…"] };
+const statuses = { live: ["", "LIVE", "연결 중…"], program: ["", "프로그램", "불러오는 중…"], full: ["", "저장본", "불러오는 중…"] };
 function setStatus(which, kind, badge, msg) {
   statuses[which] = [kind, badge, msg];
   if (which === tab) showStatus();
@@ -373,19 +408,205 @@ function resetLive() {
   setStatus("live", "", "LIVE", "연결 중…");
 }
 
+/* ---------- 프로그램 (아젠더 + 발표별 저장 스크립트) ---------- */
+let agenda = null;
+let progIdx = {};                  // 세션 id -> {file, n_lines, dir, ...} (data 브랜치의 by_session/index.json 병합)
+let progBuilt = false;
+let progTimer = null;
+const progOpen = new Set();
+const SPEAKER_SHORT = (p) => p.name;
+
+async function listDirs() {
+  try {
+    const r = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/transcripts?ref=${BRANCH}`, { cache: "no-cache" });
+    if (r.ok) return (await r.json()).filter((e) => e.type === "dir").map((e) => e.name);
+  } catch (e) { /* 무시 */ }
+  return [];
+}
+
+async function loadProgramIndex() {
+  const dirs = await listDirs();
+  const merged = {};
+  await Promise.all(dirs.map(async (d) => {
+    try {
+      const t = await getText(`transcripts/${d}/by_session/index.json`);
+      if (!t) return;
+      for (const e of JSON.parse(t).items || []) {
+        if (!merged[e.id] || (e.n_lines || 0) > (merged[e.id].n_lines || 0)) merged[e.id] = { ...e, dir: d };
+      }
+    } catch (e) { /* 이 회의는 분할 결과가 아직 없음 */ }
+  }));
+  progIdx = merged;
+}
+
+function genevaNow() {                       // "2026-11-09 10:05:03"
+  return new Date().toLocaleString("sv-SE", { timeZone: "Europe/Zurich" });
+}
+
+function peopleLine(it) {
+  const parts = [];
+  if (it.moderator && it.moderator.name !== "TBC") parts.push("사회: " + SPEAKER_SHORT(it.moderator));
+  const sp = (it.speakers || []).filter((p) => p.name !== "TBC");
+  if (sp.length) parts.push(sp.map(SPEAKER_SHORT).join(", "));
+  const tbc = (it.speakers || []).length - sp.length;
+  if (tbc) parts.push(`TBC ${tbc}명`);
+  return parts.join(" · ");
+}
+
+function buildProgram() {
+  const root = $("program");
+  root.innerHTML = "";
+  if (!agenda) { root.innerHTML = '<div class="live-empty">프로그램(agenda.json)을 불러오지 못했습니다.</div>'; return; }
+  const wd = ["일", "월", "화", "수", "목", "금", "토"];
+  for (const day of agenda.days) {
+    const sec = document.createElement("section"); sec.className = "day";
+    const d = new Date(day.date + "T12:00:00Z");
+    const h = document.createElement("h2");
+    h.textContent = `Day ${day.day} · ${d.getUTCMonth() + 1}월 ${d.getUTCDate()}일(${wd[d.getUTCDay()]})`;
+    const ev = document.createElement("div"); ev.className = "ev";
+    ev.textContent = (day.event && day.event.name || "") + " · Geneva 현지 시간";
+    sec.appendChild(h); sec.appendChild(ev);
+    for (const it of day.items) {
+      const box = document.createElement("div");
+      box.className = "item" + (["break", "social"].includes(it.type) ? " dim" : "");
+      box.dataset.id = it.id; box.dataset.date = day.date;
+      const row = document.createElement("div"); row.className = "item-row";
+      const tm = document.createElement("div"); tm.className = "item-time"; tm.textContent = `${it.start}–${it.end}`;
+      const mid = document.createElement("div");
+      const btn = document.createElement("button"); btn.type = "button"; btn.className = "item-title"; btn.textContent = it.title;
+      btn.addEventListener("click", () => toggleScript(it.id));
+      mid.appendChild(btn);
+      const pl = peopleLine(it);
+      if (pl) { const pe = document.createElement("div"); pe.className = "item-people"; pe.textContent = pl;
+        pe.title = [it.moderator, ...(it.speakers || [])].filter((p) => p && p.name !== "TBC")
+          .map((p) => p.name + (p.affiliation ? " — " + p.affiliation : "")).join("\n"); mid.appendChild(pe); }
+      const pw = document.createElement("div"); pw.className = "pill-wrap";
+      row.appendChild(tm); row.appendChild(mid); row.appendChild(pw);
+      const sc = document.createElement("div"); sc.className = "script"; sc.hidden = true;
+      box.appendChild(row); box.appendChild(sc); sec.appendChild(box);
+    }
+    root.appendChild(sec);
+  }
+  progBuilt = true;
+}
+
+function updatePills() {
+  const g = genevaNow(), gDate = g.slice(0, 10), gHm = g.slice(11, 16);
+  let withText = 0, total = 0;
+  document.querySelectorAll("#program .item").forEach((box) => {
+    const id = box.dataset.id, e = progIdx[id];
+    const it = agenda.days.flatMap((d) => d.items).find((x) => x.id === id);
+    const pw = box.querySelector(".pill-wrap"); pw.innerHTML = "";
+    if (!["break", "social"].includes(it.type)) total++;
+    if (box.dataset.date === gDate && it.start <= gHm && gHm < it.end) {
+      const n = document.createElement("span"); n.className = "pill now"; n.textContent = "진행 시간대"; pw.appendChild(n);
+    }
+    if (e && e.n_lines) {
+      withText++;
+      const s = document.createElement("span"); s.className = "pill has"; s.textContent = `스크립트 ${e.n_lines.toLocaleString()}문장`; pw.appendChild(s);
+    }
+  });
+  setStatus("program", "ok", "프로그램", `${total}개 발표/세션 중 스크립트 저장 ${withText}개 · 제목을 누르면 저장된 스크립트가 열립니다 · ` +
+    `마지막 확인 ${new Date().toLocaleTimeString()}`);
+}
+
+function renderScriptText(panel, id, text) {
+  const key = String(text.length) + ":" + text.slice(-40);
+  if (panel.dataset.key === key) return;
+  panel.dataset.key = key;
+  panel.innerHTML = "";
+  const all = text.split("\n");
+  const meta = all.filter((l) => l.startsWith("# ")).map((l) => l.slice(2));
+  const body = all.filter((l) => l.trim() && !l.startsWith("# "));
+  const m = document.createElement("div"); m.className = "meta"; m.textContent = meta.slice(1).join("\n");
+  const acts = document.createElement("div"); acts.className = "acts";
+  const dl = document.createElement("button"); dl.type = "button"; dl.textContent = ".txt 저장";
+  dl.addEventListener("click", () => {
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([text], { type: "text/plain;charset=utf-8" }));
+    a.download = `${id}.txt`; a.click(); URL.revokeObjectURL(a.href);
+  });
+  const cp = document.createElement("button"); cp.type = "button"; cp.textContent = "복사";
+  cp.addEventListener("click", async () => {
+    try { await navigator.clipboard.writeText(body.join("\n")); cp.textContent = "복사됨"; } catch (e) { cp.textContent = "복사 실패"; }
+    setTimeout(() => { cp.textContent = "복사"; }, 1500);
+  });
+  acts.appendChild(dl); acts.appendChild(cp);
+  panel.appendChild(m); panel.appendChild(acts);
+  for (const l of body) { const p = document.createElement("p"); p.textContent = l; panel.appendChild(p); }
+  const n = document.createElement("div"); n.className = "note";
+  n.textContent = "아젠더 시간표와 발표자 이름 언급으로 자동 분할한 결과라, 앞뒤 경계의 몇 문장은 어긋날 수 있습니다.";
+  panel.appendChild(n);
+}
+
+async function loadScript(id) {
+  const box = document.querySelector(`#program .item[data-id="${id}"]`);
+  if (!box) return;
+  const panel = box.querySelector(".script");
+  const e = progIdx[id];
+  if (!e || !e.file) {
+    panel.dataset.key = "";
+    panel.innerHTML = "";
+    const it = agenda.days.flatMap((d) => d.items).find((x) => x.id === id);
+    const msg = document.createElement("div"); msg.className = "meta";
+    msg.textContent = ["break", "social"].includes(it.type) ? "이 구간에는 저장된 발언이 없습니다." :
+      "아직 저장된 스크립트가 없습니다. 해당 발표가 진행되고 수집·분할이 끝나면 여기에 나타납니다.";
+    panel.appendChild(msg); return;
+  }
+  try {
+    const t = await getText(`transcripts/${e.dir}/by_session/${e.file}`);
+    if (t === null) throw new Error("파일 없음");
+    renderScriptText(panel, id, t);
+  } catch (err) {
+    panel.innerHTML = ""; const msg = document.createElement("div"); msg.className = "meta";
+    msg.textContent = `스크립트를 불러오지 못했습니다 (${err.message}).`; panel.appendChild(msg);
+  }
+}
+
+function toggleScript(id) {
+  const box = document.querySelector(`#program .item[data-id="${id}"]`);
+  if (!box) return;
+  const panel = box.querySelector(".script");
+  if (progOpen.has(id)) { progOpen.delete(id); panel.hidden = true; return; }
+  progOpen.add(id); panel.hidden = false;
+  history.replaceState(null, "", `#program:${id}`);
+  loadScript(id);
+}
+
+async function refreshProgram() {
+  try {
+    if (!agenda) {
+      const r = await fetch("agenda.json", { cache: "no-cache" });
+      if (r.ok) agenda = await r.json();
+    }
+    if (!progBuilt || !document.querySelector("#program .item")) buildProgram();
+    if (!agenda) return;
+    await loadProgramIndex();
+    updatePills();
+    for (const id of progOpen) loadScript(id);          // 열려 있는 발표는 진행 중일 수 있어 같이 갱신
+    if (pendingOpen) { const id = pendingOpen; pendingOpen = null;
+      const box = document.querySelector(`#program .item[data-id="${id}"]`);
+      if (box) { toggleScript(id); box.scrollIntoView({ block: "center" }); } }
+  } catch (e) {
+    setStatus("program", "err", "프로그램", `불러오기 실패 (${e.message}). 잠시 후 다시 시도합니다.`);
+  }
+}
+
 /* ---------- 탭 / 이벤트 ---------- */
 function selectTab(name) {
   tab = name;
-  $("tab-live").setAttribute("aria-selected", name === "live");
-  $("tab-full").setAttribute("aria-selected", name === "full");
+  for (const n of ["live", "program", "full"]) $("tab-" + n).setAttribute("aria-selected", n === name);
   $("live-wrap").hidden = name !== "live"; $("live-ctl").hidden = name !== "live";
+  $("program-wrap").hidden = name !== "program";
   $("full-wrap").hidden = name !== "full"; $("full-ctl").hidden = name !== "full";
-  history.replaceState(null, "", name === "full" ? "#full" : location.pathname + location.search);
+  history.replaceState(null, "", name === "live" ? location.pathname + location.search : "#" + name);
   showStatus();
   if (name === "live") { el.liveBox.scrollTop = el.liveBox.scrollHeight; }
+  else if (name === "program") { refreshProgram(); }
   else if (follow) window.scrollTo({ top: document.body.scrollHeight });
 }
 $("tab-live").addEventListener("click", () => selectTab("live"));
+$("tab-program").addEventListener("click", () => selectTab("program"));
 $("tab-full").addEventListener("click", () => selectTab("full"));
 
 function startAll() {
@@ -395,6 +616,9 @@ function startAll() {
   clearInterval(savedTimer);
   refreshSaved().finally(livePoll);          // 저장본 문장 수를 먼저 알아야 실시간 시작 위치를 잡을 수 있다
   savedTimer = setInterval(() => { if (!document.hidden) refreshSaved(); }, SAVED_POLL_MS);
+  clearInterval(progTimer);
+  progTimer = setInterval(() => { if (!document.hidden && tab === "program") refreshProgram(); }, 60000);
+  if (tab === "program") refreshProgram();
 }
 
 el.meeting.addEventListener("change", () => {
@@ -438,7 +662,7 @@ $("copy").addEventListener("click", async (e) => {
   setTimeout(() => { e.target.textContent = "복사"; }, 1500);
 });
 document.addEventListener("visibilitychange", () => {
-  if (!document.hidden) { refreshSaved(); livePoll(); }
+  if (!document.hidden) { refreshSaved(); livePoll(); if (tab === "program") refreshProgram(); }
 });
 
 selectTab(tab);
