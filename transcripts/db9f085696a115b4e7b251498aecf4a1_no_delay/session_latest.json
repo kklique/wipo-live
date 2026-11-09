@@ -303,16 +303,30 @@
     {
       "description": "Ms. Natalie Corthésy",
       "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
-      "timestamp": "02:41:15",
-      "timestampCVC5": "2026-11-09T16:01:15",
-      "timestampSeconds": 9675
+      "timestamp": "02:40:49",
+      "timestampCVC5": "2026-11-09T16:00:49",
+      "timestampSeconds": 9649
     },
     {
       "description": "Ms. Kalpana Tyagi",
       "personId": "81ee3a85-ea4e-45d2-ae74-08df3b2598d3",
-      "timestamp": "02:41:32",
-      "timestampCVC5": "2026-11-09T16:01:32",
-      "timestampSeconds": 9692
+      "timestamp": "02:41:31",
+      "timestampCVC5": "2026-11-09T16:01:31",
+      "timestampSeconds": 9691
+    },
+    {
+      "description": "Ms. Natalie Corthésy",
+      "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+      "timestamp": "02:44:42",
+      "timestampCVC5": "2026-11-09T16:04:42",
+      "timestampSeconds": 9882
+    },
+    {
+      "description": "Mr. Jakob Plesner Mathiasen",
+      "personId": "2f8becf0-558a-4050-ae75-08df3b2598d3",
+      "timestamp": "02:45:16",
+      "timestampCVC5": "2026-11-09T16:05:16",
+      "timestampSeconds": 9916
     }
   ],
   "markers_grouped": {
@@ -536,16 +550,30 @@
                   {
                     "description": "Ms. Natalie Corthésy",
                     "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
-                    "timestamp": "02:41:15",
-                    "timestampCVC5": "2026-11-09T16:01:15",
-                    "timestampSeconds": 9675
+                    "timestamp": "02:40:49",
+                    "timestampCVC5": "2026-11-09T16:00:49",
+                    "timestampSeconds": 9649
                   },
                   {
                     "description": "Ms. Kalpana Tyagi",
                     "personId": "81ee3a85-ea4e-45d2-ae74-08df3b2598d3",
-                    "timestamp": "02:41:32",
-                    "timestampCVC5": "2026-11-09T16:01:32",
-                    "timestampSeconds": 9692
+                    "timestamp": "02:41:31",
+                    "timestampCVC5": "2026-11-09T16:01:31",
+                    "timestampSeconds": 9691
+                  },
+                  {
+                    "description": "Ms. Natalie Corthésy",
+                    "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+                    "timestamp": "02:44:42",
+                    "timestampCVC5": "2026-11-09T16:04:42",
+                    "timestampSeconds": 9882
+                  },
+                  {
+                    "description": "Mr. Jakob Plesner Mathiasen",
+                    "personId": "2f8becf0-558a-4050-ae75-08df3b2598d3",
+                    "timestamp": "02:45:16",
+                    "timestampCVC5": "2026-11-09T16:05:16",
+                    "timestampSeconds": 9916
                   }
                 ],
                 "subjectId": "5c4b21a8-f209-492f-9b8f-4996178c9dab",
@@ -594,6 +622,13 @@
       "email": "",
       "id": "81ee3a85-ea4e-45d2-ae74-08df3b2598d3",
       "name": "Ms. Kalpana Tyagi",
+      "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "Partner, Gorrissen Federspiel, Denmark ",
+      "email": "",
+      "id": "2f8becf0-558a-4050-ae75-08df3b2598d3",
+      "name": "Mr. Jakob Plesner Mathiasen",
       "photoUrl": "./assets/images/noPicSpeaker.png "
     },
     {
