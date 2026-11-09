@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T15:02:45+00:00",
+ "generated": "2026-11-09T15:04:49+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -570,13 +570,13 @@
    "start": "15:10",
    "end": "16:10",
    "people": "Speakers: Mr. Andres Guadamuz; Mr. Wang Qian; Mr. Edward Lee",
-   "n_lines": 108,
+   "n_lines": 111,
    "method": "marker",
    "file": "d1-13_one-stop-shop-keeping-up-with-ip-and-ai.txt",
    "actual_start": "2026-11-09T15:00:31+01:00",
-   "actual_end": "2026-11-09T16:02:26+01:00",
+   "actual_end": "2026-11-09T16:04:20+01:00",
    "line_from": 661,
-   "line_to": 932,
+   "line_to": 935,
    "speakers": [
     {
      "key": "d1-13__unknown",
@@ -649,8 +649,8 @@
      "name": "Ms. Rachel Free",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 12,
-     "n_words": 740,
+     "n_lines": 15,
+     "n_words": 945,
      "n_turns": 1,
      "file": "d1-13__ms-rachel-free.txt",
      "method": "marker"
