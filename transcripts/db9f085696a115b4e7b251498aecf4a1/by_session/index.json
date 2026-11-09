@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T17:19:08+00:00",
+ "generated": "2026-11-09T17:21:10+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -823,13 +823,13 @@
    "start": "17:25",
    "end": "17:55",
    "people": "",
-   "n_lines": 33,
+   "n_lines": 37,
    "method": "marker",
    "file": "d1-16_floor-interventions-from-member-states-and-obser.txt",
    "actual_start": "2026-11-09T17:56:34+01:00",
-   "actual_end": "2026-11-09T18:13:30+01:00",
+   "actual_end": "2026-11-09T18:21:08+01:00",
    "line_from": 2044,
-   "line_to": 2078,
+   "line_to": 2092,
    "speakers": [
     {
      "key": "d1-16__unknown",
@@ -847,8 +847,8 @@
      "name": "H.E. Mr. Kairat Torebayev",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 10,
-     "n_words": 603,
+     "n_lines": 11,
+     "n_words": 659,
      "n_turns": 5,
      "file": "d1-16__h-e-mr-kairat-torebayev.txt",
      "method": "marker"
@@ -895,6 +895,17 @@
      "n_words": 345,
      "n_turns": 1,
      "file": "d1-16__kazakhstan.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-16__burkina-faso",
+     "name": "BURKINA FASO",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 3,
+     "n_words": 125,
+     "n_turns": 1,
+     "file": "d1-16__burkina-faso.txt",
      "method": "marker"
     }
    ]
