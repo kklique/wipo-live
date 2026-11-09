@@ -1,6 +1,6 @@
 # [d1-08] Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?
 # 발표자: Mr. Edward Lee  (floor)
-# Day 1 · 2026-11-09 · 예정 11:40-12:50 (Geneva) · 발언 5회 · 8문장 · 543단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 11:40-12:50 (Geneva) · 발언 6회 · 12문장 · 750단어 · 구분 방식: marker
 
 the U.S. in development and China in adoption. And that's not even mentioning Latin America. Africa, Southeast Asia. So if there is one feature that today's IP system should actually encourage, it's the development of indigenous innovation or the adoption of innovation. in terms of AI. in countries. Let's stop here. Thank you. And I think as a reminder to speakers, I've just been reminded by the Secretariat, I know it is a super session, but can we speak slowly?
 Because the agentic AI is tracking us, and so I'll ask us to speak slowly. I don't know what it does to my preparation for this panel, but I think we will find out towards the end. Cedric, oh sorry, before Cedric, Mertha, maybe I can ask you. because you come, you're currently counsel in one of the global brands. and and from your perspective, what is IP really about?
@@ -14,3 +14,8 @@ dissemination and potentially provides function in economic development.
 
 as opposed to insisting on exclusivity as the very thing that will give us payment or remuneration. That's very interesting. Jennifer, can I just turn over to you now and ask you this question? IP rests on individual authorship and then you also look at a limited duration of protection for works. and then you also have to look at the public domain, which is also a great source.
 of works. Now, indigenous knowledge, is collective. intergenerational, really transmitted in very informal and familial channels very often. and it's also very often sacred and religious. is, you know, we both come from Southeast Asia, so I can tell you that certainly from where I am and from where you are, we see a lot of examples of this. But going back to first principles, is the is the system capable of protecting traditional knowledge and traditional cultural expressions or is there a mismatch?
+
+It's used for burials, for burial blankets. And so, you know, there is value in looking at what the customary rules are for uses of these different elements of knowledge and expressions. Thank you for that. So we've finished. the first round. The first round really was to get your basic positions. which are now seized off. And then in the next round, I just want to probe this a bit more and try and get us to the point where we talk about how the principles actually collide.
+So for this round of questions, feel free to shorten your answers and slow the pace down, but we all are looking at this clock which is ticking and that's why as the moderator I have to frame it in very diplomatic terms.
+I hope you appreciate that. So Carolyn, I think I just want to turn over to the whole issue. where we left off with Jennifer, which is really creation, consent. and I want to talk about AI training. And the question for you really is more hypothetical. Let's say, suppose one of your great visual artistic works was used to train an AI model without your knowledge. what would you want to be?
+asked first.

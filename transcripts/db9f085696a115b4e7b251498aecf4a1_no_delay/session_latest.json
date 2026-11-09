@@ -369,6 +369,20 @@
       "timestamp": "02:52:59",
       "timestampCVC5": "2026-11-09T11:42:59",
       "timestampSeconds": 10379
+    },
+    {
+      "description": "Mr. Edward Lee",
+      "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+      "timestamp": "02:57:39",
+      "timestampCVC5": "2026-11-09T11:47:39",
+      "timestampSeconds": 10659
+    },
+    {
+      "description": "Ms. Caroline Gueye",
+      "personId": "0caf1bb1-6f82-46f6-ae6e-08df3b2598d3",
+      "timestamp": "02:58:56",
+      "timestampCVC5": "2026-11-09T11:48:56",
+      "timestampSeconds": 10736
     }
   ],
   "markers_grouped": {
@@ -664,6 +678,20 @@
                     "timestamp": "02:52:59",
                     "timestampCVC5": "2026-11-09T11:42:59",
                     "timestampSeconds": 10379
+                  },
+                  {
+                    "description": "Mr. Edward Lee",
+                    "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+                    "timestamp": "02:57:39",
+                    "timestampCVC5": "2026-11-09T11:47:39",
+                    "timestampSeconds": 10659
+                  },
+                  {
+                    "description": "Ms. Caroline Gueye",
+                    "personId": "0caf1bb1-6f82-46f6-ae6e-08df3b2598d3",
+                    "timestamp": "02:58:56",
+                    "timestampCVC5": "2026-11-09T11:48:56",
+                    "timestampSeconds": 10736
                   }
                 ],
                 "subjectId": "59023b79-b078-455c-a939-254b6858c034",
