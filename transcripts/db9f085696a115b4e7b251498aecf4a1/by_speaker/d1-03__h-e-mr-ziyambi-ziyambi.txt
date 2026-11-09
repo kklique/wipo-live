@@ -1,9 +1,7 @@
 # [d1-03] Ministerial-level Remarks
 # 발표자: H.E. Mr. Ziyambi Ziyambi  (floor)
-# Day 1 · 2026-11-09 · 예정 10:15-10:45 (Geneva) · 발언 1회 · 14문장 · 537단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 10:15-10:45 (Geneva) · 발언 1회 · 13문장 · 575단어 · 구분 방식: marker
 
-First, that we protect creators and innovators. so that people keep being rewarded and incentivized to create original work. Second, that we keep the door open to progress so that AI can serve health care, education, public services, and economic growth. Third, that we make sure every Member State, whatever its size or resources, takes part in this conversation on equal terms.
-Lebanon is ready to listen, to learn and to contribute.
 We value our partnership with WIPO and we look forward to working with you. I wish you a productive and inspiring forum.
 Thank you. 2, 3.
 Mr. Director General, Excellencies, Distinguished Delegates, Ladies and Gentlemen, At the outset, I wish to extend my highest commendations to the World Intellectual Property Organization. and to you, Mr. Director General, for your visionary leadership. in convening this inaugural global forum on Intellectual Property. and Artificial Intelligence. Thank you. from exploratory dialogues to the structured, inclusive and platform WIPO has fostered a collaborative space where all nations actively participate in shaping the global governance of artificial intelligence.
@@ -16,3 +14,4 @@ To sustain this momentum, we aggressively investing, we are aggressively investi
 Mr. DG, the primary legislation governing intellectual property rights for creators, performers and broadcast organizations in Zimbabwe is the Copyright and Neighboring Rights Act, Chapter 26. .
 05. The Act defines an author strictly as an individual. Consequently, works generated entirely by AI face a legal vacuum. Therefore, the law must be clarified ownership rights and defined threshold of human input required for legal protection. Furthermore, Mr. DG, AI training models rely on the consumption of vast data sets.
 Our regulatory framework remains silent on whether fair dealing exemptions cover commercial AI training.
+Our creators require absolute assurance of credit and compensation, just as our developers need clear, predictable rules to innovate. with confidence. Our legislation also defines an inventor as the natural person who devised balanced, technologically responsive, yet profoundly humane. -centric and protective of rights while supportive of public access. We must ensure that AI saves to bridge rather than widen the digital divide, empowering developing nations to create value-added and participate fully in the global knowledge economy. Zimbabwe looks forward to collaborating closely with WIPO, fellow Member States and all global stakeholders to ensure our international intellectual property system remains resilient, equitable and fit for the age of artificial intelligence.

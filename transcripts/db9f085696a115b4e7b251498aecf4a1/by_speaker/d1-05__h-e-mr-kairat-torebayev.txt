@@ -1,5 +1,0 @@
-# [d1-05] Showcase 1: AI in Action - From Ideas to Real-World Impact
-# 발표자: H.E. Mr. Kairat Torebayev  (floor)
-# Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva) · 발언 1회 · 1문장 · 83단어 · 구분 방식: marker
-
-IP is the bridge from paper to patient, but only if it generalizes, and that is where the validation is so absolutely critical. And finally, we have to build democratization into the IP strategies so that these licensing models be kept low cost and accessible, particularly in low and middle income countries. Thank you very much. And I just want to do a quick shout out to the amazing students and faculty and postdocs that have the pleasure and honor of working with.

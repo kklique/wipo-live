@@ -80,3 +80,4 @@
 {"ts": "2026-11-09T13:01:36+00:00", "name": "First Global Forum on Intellectual Property and Artificial Intelligence - WIPO IP-AI GEN 26 - Day 1 Afternoon", "event": "Global Forum", "startDate": "2026-11-09T13:20:00", "endDate": null, "live": true, "live_status": "NOT_STARTED", "cvc5status": "Scheduled", "people": [], "subjects": [], "new_markers": []}
 {"ts": "2026-11-09T13:10:32+00:00", "cvc5status": "Prepared", "new_markers": []}
 {"ts": "2026-11-09T13:19:20+00:00", "live_status": "STARTED", "cvc5status": "Started", "new_markers": []}
+{"ts": "2026-11-09T13:21:18+00:00", "name": "First Global Forum on Intellectual Property and Artificial Intelligence - WIPO IP-AI GEN 26 - Day 1 Afternoon", "event": "Global Forum", "startDate": "2026-11-09T13:20:00", "endDate": null, "live": true, "live_status": "STARTED", "cvc5status": "Started", "people": [], "subjects": [], "new_markers": []}

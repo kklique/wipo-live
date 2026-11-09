@@ -3390,3 +3390,4 @@
 {"ts": "2026-11-09T12:35:18+00:00", "type": "final", "line_number": 1528, "end_time_iso": "2026-11-09T12:35:16.129611", "text": "Okay.", "batch": 2, "catchup": false}
 {"ts": "2026-11-09T12:35:18+00:00", "type": "partial", "line_number": 1529, "text": "Thank you."}
 {"ts": "2026-11-09T13:01:36+00:00", "type": "partial", "line_number": 1529, "text": "Thank you."}
+{"ts": "2026-11-09T13:21:07+00:00", "type": "partial", "line_number": 1529, "text": "Thank you."}

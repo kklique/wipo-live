@@ -1,9 +1,7 @@
 # [d1-04] Tech Radar: Ready or Not - AI's Next Frontier
 # 발표자: Mr. Ren Ito — Co-founder and Chairman, Sakana AI, Japan  (speaker)
-# Day 1 · 2026-11-09 · 예정 10:45-10:55 (Geneva) · 발언 1회 · 31문장 · 1,383단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 10:45-10:55 (Geneva) · 발언 1회 · 29문장 · 1,229단어 · 구분 방식: marker
 
-due to the unforeseen last minute changes in timing, I will postpone the pre-recorded messages from ministers and other officials and my housekeeping remarks until and after the first key presentation. And perhaps that is a fitting way to begin the forum on Artificial Intelligence by reminding ourselves how quickly things can change. One of the key questions we have to all face is how to prepare ourselves for the future that is arriving faster than we anticipated.
-One answer, of course, is to remain flexible, and another is better understand what lies ahead. And that is precisely what the first presentation will help us to do. It is my pleasure to welcome Mr. Ren Ito, Co-Founder and chairman of Sakana AI to share his perspective on what lies ahead. Mr. Ito, the floor is yours. Thank you so much for the very kind introduction and it is a great honor to be here.
 Director General Tan, excellencies, colleagues, friends, good morning. Thank you once again for inviting me at this inaugural global forum on IP and AI. When WIPO invited me to give this 10 minutes talk on the next frontier of AI, I did what you expect, someone who runs an AI company will do.
 I asked my own AI a few ideas. Some had already occurred to me, others ideas would never have crossed my mind. But within seconds, I had almost enough material to cover both days of this forum, as you can imagine. So what exactly will be my job this morning? First, let me speak about how far has AI come so far. Take the overall performance of foundation models across a range of mass, coding, reasoning and those benchmarks.
 to give you a rough sense of the scale, if we take the 2019 level as one. the figure is to about 15 in 2023 and about 1,000 in 2026.
