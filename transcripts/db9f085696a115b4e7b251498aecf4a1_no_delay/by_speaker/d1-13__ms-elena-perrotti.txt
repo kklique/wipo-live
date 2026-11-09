@@ -1,6 +1,6 @@
 # [d1-13] One-Stop Shop: Keeping up with IP and AI
 # 발표자: Ms. Elena Perrotti  (floor)
-# Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva) · 발언 1회 · 11문장 · 610단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva) · 발언 1회 · 17문장 · 867단어 · 구분 방식: marker
 
 So just very briefly about us. WANIFRA is the word Association of News Publishers.
 Our purpose is to unite media globally. and strengthen the business of trusted journalism in order to defend press freedom. I am an Executive Director of Media Policy and Public Affairs. and we represent the global voice of independent media representing more than 20,000 media brands in 120 countries across 60 national trade associations. And this is a previous point of view from which I can bring you some insights today.
@@ -13,3 +13,9 @@ At the same time, this is a technology that can append the whole industry. And i
 Many others are instead suing the AI labs, almost all of them are included in a lawsuit We saw the presentation before this one which was much more in detail, but what I want to transfer right now is that, of course, lawsuits are very long, very expensive.
 There aren't very many publishers who can afford it. And But we got a very important signal from the European Court of Justice last week on the 3rd of November. There is right now the first AI generative lawsuit being discussed before the European Court of Justice.
 It is like a company against Google.
+And for the first time we have a signal again coming from the Advocate General who said that while access to realtime news needs the permission, very likely the access to copyrighted content for training is covered, is included in the TDM, in the text and data mining exception, unless the publisher has opted out. So, of course, the main question remains how do publishers, can publishers signal their right reservations, their opt -outs, their licensing preferences?
+in a machine-readable way. to bots? So from go from a no-crawl to an actual deal, the toolkit that I have decided to present to you has five building blocks. There are opt out signals, so just know you cannot ‑‑ you cannot crawl. There are licensee protocols that ask for a deal in order to crawl. There are marketplaces where publishers actually get paid. Collective licenses which pull licensing, pulling rights.
+and publisher coalitions. The opt-out signals just tell those to stop. The EU-born standard is TDN rep. which adds opt out licensing to server or HTML.
+It is free, it is open, it applies to our content. IPTC instead is photo metadata, it embeds opt out inside the image files. It is free and open. but it applies only to images and photos and of course metadata can be stripped. C2PA is instead a digital passport for content.
+It's focus is to say how our content was created and then edited and the opt out is just one of many many signals that it carries.
+It's very complex.
