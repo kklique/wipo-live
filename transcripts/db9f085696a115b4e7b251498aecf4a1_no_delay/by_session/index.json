@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-09T11:19:33+00:00",
+ "generated": "2026-11-09T11:21:33+00:00",
  "clock": "utc",
- "clock_note": "라이브 수신 줄이 없어 아젠더 첫 시각과 비교해 'utc' 로 판별",
+ "clock_note": "",
  "items": [
   {
    "id": "d1-01",
@@ -335,13 +335,13 @@
    "start": "11:25",
    "end": "11:40",
    "people": "",
-   "n_lines": 20,
+   "n_lines": 26,
    "method": "schedule",
    "file": "d1-07_coffee-break.txt",
    "actual_start": "2026-11-09T12:10:39+01:00",
-   "actual_end": "2026-11-09T12:19:18+01:00",
+   "actual_end": "2026-11-09T12:21:13+01:00",
    "line_from": 335,
-   "line_to": 354
+   "line_to": 360
   },
   {
    "id": "d1-08",
