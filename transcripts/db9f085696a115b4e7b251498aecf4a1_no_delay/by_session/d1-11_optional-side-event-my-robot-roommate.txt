@@ -1,7 +1,7 @@
 # [d1-11] Optional Side Event - My Robot "Roommate"
 # Day 1 · 2026-11-09 · 예정 14:30-15:00 (Geneva)
 # Speaker: Ms. Emily Kate Genatowski
-# 실제 구간 14:37:48-14:47:06 · 29문장 · 경계 방식: marker
+# 실제 구간 14:37:48-14:49:26 · 34문장 · 경계 방식: marker
 
 I know it. me everywhere. Why?
 Why did I do this?
@@ -32,3 +32,8 @@ All of these different things, if we think about them beforehand, we can make ma
 It looks very, very different from the robot that we have here today. Once again, we're talking about the same lab. and it's a very frustrating situation because also, if you look back here, I work with quite a few different robots, and every time that I go somewhere to speak or go somewhere to host something and they give me a different robot, I always take a look at the joints.
 And you can see if we can get a wave or something, you can see that each of these different points is a different joint, is a different actuator.
 And if we are able to sort of make these a lot more standard, these hardware parts a lot more standard, that means that the maintenance would be cheaper, it would be faster, and it would have your robots up and running a little bit better. In the early days, let's say around two years ago, I was incredibly shocked to find out that the maintenance that needed to be done on my robot meant that my robot got a round trip ticket back to China and back.
+and that was how it was then serviced. Then I had another one in this past year where it had to be serviced again, and luckily it was able to be serviced here in the EU. But if we can actually have more interoperable parts, it means we can mass produce them, and then that means that we can bring them to different hubs and that they can service different robotics.
+So then next up, we have I'll give you, this was not the plan, but I'll give you the story of today and how we wound up with this one. So my plan, luckily, I had met the lovely Rachel and she had met my robot within the European Union, and we are here for those who are joining abroad. We are here in Switzerland. and we thought because my robot does a lot of travel, I go and I speak in a lot of places, it does a lot of travel, but it's always with me in a car or a van, and we've never had any issues going in and out of different countries within the EU.
+And I was on a conference call and speaking with somebody who has worked in the field for a very, very long time, and we started discussing essentially the permissions needed in order to get the robots from one place to another. And it turns out that, of course, they cannot fly due to the lithium battery. They cannot necessarily fly very easily, so they can't enter a port of entry in an airport.
+Then I was booked a beautiful evening rail car, a sleeper car, and I was on the sleeper car, supposed to be on the sleeper car with my robot. This also did not happen. So we had I was alone in my sleeper car sounds robot. But idea was that we would be able to bring the robot because it didn't have to fly from its lithium battery, we would be able to bring it and use it here.
+But due to the taxation regulations, due to the security regulations, this was also not possible. and so luckily we got one that actually lives here in Switzerland. So, my thought process here is that, yes, it is fantastic that the field has so much potential. It is fantastic that there are so many laboratories that are working really hard protect all of the incredible work that the engineers their lab are doing.
