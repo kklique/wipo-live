@@ -1,0 +1,85 @@
+name: Collect WIPO live transcript
+
+# Actions 탭 > "Collect WIPO live transcript" > Run workflow 로 수동 실행.
+# 회의 시작 전이면 대기하다가 시작되면 저장을 시작하고, 회의가 끝나면(idle) 자동 종료한다.
+on:
+  workflow_dispatch:
+    inputs:
+      meeting_id:
+        description: "WIPO meeting_id (URL의 meeting_id 값)"
+        default: "db9f085696a115b4e7b251498aecf4a1_no_delay"
+        required: true
+      max_minutes:
+        description: "최대 실행 시간(분, 대기 시간 포함). GitHub 한도 360분"
+        default: "345"
+        required: true
+      idle_exit_minutes:
+        description: "데이터 수신 후 이 시간(분) 동안 변화가 없으면 종료 (점심시간 등 감안)"
+        default: "180"
+        required: true
+
+# 같은 meeting_id 를 동시에 두 번 수집하지 않도록 한다.
+concurrency:
+  group: collect-${{ inputs.meeting_id }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # data 브랜치에 결과 커밋
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    env:
+      DATA_BRANCH: data
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Prepare data branch worktree
+        run: |
+          git config user.name  "wipo-s2t-bot"
+          git config user.email "wipo-s2t-bot@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin "$DATA_BRANCH" >/dev/null 2>&1; then
+            git fetch origin "$DATA_BRANCH"
+            git worktree add ../data "origin/$DATA_BRANCH" -B "$DATA_BRANCH"
+          else
+            git worktree add --detach ../data
+            (cd ../data && git checkout --orphan "$DATA_BRANCH" && git rm -rf . >/dev/null 2>&1 || true)
+          fi
+
+      - name: Collect (commits results every 2 min)
+        env:
+          MEETING_ID: ${{ inputs.meeting_id }}
+          MAX_MIN: ${{ inputs.max_minutes }}
+          IDLE_MIN: ${{ inputs.idle_exit_minutes }}
+        run: |
+          OUT="../data/transcripts/${MEETING_ID}"
+          mkdir -p "$OUT"
+
+          save() {
+            ( cd ../data
+              git add -A
+              if ! git diff --cached --quiet; then
+                git commit -q -m "transcript update $(date -u +%FT%TZ)"
+                git push -q origin "HEAD:${DATA_BRANCH}" || { git pull -q --rebase origin "${DATA_BRANCH}" && git push -q origin "HEAD:${DATA_BRANCH}"; }
+              fi )
+          }
+
+          python3 -u collect.py --meeting-id "$MEETING_ID" --out "$OUT" \
+            --max-seconds "$(( MAX_MIN * 60 ))" --idle-exit-minutes "$IDLE_MIN" &
+          PID=$!
+
+          while kill -0 "$PID" 2>/dev/null; do
+            sleep 120 || true
+            save || echo "save failed (will retry)"
+          done
+          wait "$PID" || true
+          save
+
+      - name: Upload artifact (backup)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: transcript-${{ inputs.meeting_id }}
+          path: ../data/transcripts/${{ inputs.meeting_id }}
+          if-no-files-found: ignore
