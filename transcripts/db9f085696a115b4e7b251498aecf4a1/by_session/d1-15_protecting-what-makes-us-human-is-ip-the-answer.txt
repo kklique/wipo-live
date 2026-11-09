@@ -1,7 +1,7 @@
 # [d1-15] Protecting What Makes us Human - Is IP the Answer?
 # Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva)
 # Moderator: Ms. Natalie Corthésy | Speakers: Mr. Anderson Rocha; Ms. Kalpana Tyagi; Mr. Jakob Plesner Mathiasen; Mr. Marco Bassini; Ms. Imogen Heap
-# 실제 구간 16:54:25-17:17:55 · 65문장 · 경계 방식: marker
+# 실제 구간 16:54:25-17:19:43 · 71문장 · 경계 방식: marker
 
 So we reconvene at 4.45. See you in 15. Thank you very much. Welcome back from the coffee break. So let's get started.
 I hope you had a chance of another caffeine to recharge your battery? and the next session is going to personal. Imagine someone using AI to recreate your face. your voice, your your memories, perhaps even to make you appear to say or do something you never said or did. AI is getting better, at it every day.
@@ -68,3 +68,9 @@ Is that something that is important to you?
 Do you think the law should be thinking about? not just your rights right now, but what these rights should potentially and for how long. Imogen? Hello.
 Yeah.
 I mean, I already worry about my kid, Scout, you know, seeing her mom in various ways, not just as a musician but as a mother. So yes, I think that would be absolutely awful if I died. you know, before she dies. she will see and hear some things that I had no intention of her seeing or hearing.
+There were nothing to do with me. I think any human would want that protection that goes, you know, beyond the age of their child and beyond the age of their grandchild. Unless the person alive feels differently, maybe they can override that.
+They can put that at a core level of permissions. Maybe that is something you put in your will. your digital will, who knows. But yes, I think I would like to have a longer period of time to protect because really for family and also because it is going to be harder and harder over time unless we sort out the basics around who made what now, like at the moment it is not clear who made what, even just for humans to discover.
+and know about the credits of people right now before even AI starts generating stuff. So we are going to have trouble in the future. At the very least, yeah, I would like to know, as somebody in 30 years from now will go, well, did Imogen Heat really write that?
+Or was that an AI?
+You know, it would be nice to prove that it was human -made versus even if was not protection to be able to prove that it was generative. I think that is a fantastic perspective. It reminds me of Anderson Paak who famously tattooed himself saying he did not want his work to be released in another space if he leaves this world. I would like to come back to you, Anderson. proving what is real, when anyone can dismiss authentic evidence as just a deep fake, can detection technology reliably tell us what is real and what should that mean?
+Should there be a new right over likeness, voice enforced?

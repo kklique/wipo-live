@@ -359,9 +359,9 @@
     {
       "description": "Ms. Natalie Corthésy",
       "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
-      "timestamp": "02:56:23",
-      "timestampCVC5": "2026-11-09T16:16:23",
-      "timestampSeconds": 10583
+      "timestamp": "02:56:19",
+      "timestampCVC5": "2026-11-09T16:16:19",
+      "timestampSeconds": 10579
     },
     {
       "description": "Ms. Imogen Heap",
@@ -369,6 +369,20 @@
       "timestamp": "02:56:57",
       "timestampCVC5": "2026-11-09T16:16:57",
       "timestampSeconds": 10617
+    },
+    {
+      "description": "Ms. Natalie Corthésy",
+      "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+      "timestamp": "02:58:29",
+      "timestampCVC5": "2026-11-09T16:18:29",
+      "timestampSeconds": 10709
+    },
+    {
+      "description": "Mr Anderson Rocha",
+      "personId": "9fdbaca0-1d09-4fdd-a838-b33eb0557286",
+      "timestamp": "02:59:07",
+      "timestampCVC5": "2026-11-09T16:19:07",
+      "timestampSeconds": 10747
     }
   ],
   "markers_grouped": {
@@ -648,9 +662,9 @@
                   {
                     "description": "Ms. Natalie Corthésy",
                     "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
-                    "timestamp": "02:56:23",
-                    "timestampCVC5": "2026-11-09T16:16:23",
-                    "timestampSeconds": 10583
+                    "timestamp": "02:56:19",
+                    "timestampCVC5": "2026-11-09T16:16:19",
+                    "timestampSeconds": 10579
                   },
                   {
                     "description": "Ms. Imogen Heap",
@@ -658,6 +672,20 @@
                     "timestamp": "02:56:57",
                     "timestampCVC5": "2026-11-09T16:16:57",
                     "timestampSeconds": 10617
+                  },
+                  {
+                    "description": "Ms. Natalie Corthésy",
+                    "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+                    "timestamp": "02:58:29",
+                    "timestampCVC5": "2026-11-09T16:18:29",
+                    "timestampSeconds": 10709
+                  },
+                  {
+                    "description": "Mr Anderson Rocha",
+                    "personId": "9fdbaca0-1d09-4fdd-a838-b33eb0557286",
+                    "timestamp": "02:59:07",
+                    "timestampCVC5": "2026-11-09T16:19:07",
+                    "timestampSeconds": 10747
                   }
                 ],
                 "subjectId": "5c4b21a8-f209-492f-9b8f-4996178c9dab",
