@@ -387,9 +387,9 @@
     {
       "description": "Ms. Natalie Corthésy",
       "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
-      "timestamp": "03:01:32",
-      "timestampCVC5": "2026-11-09T16:21:32",
-      "timestampSeconds": 10892
+      "timestamp": "03:01:31",
+      "timestampCVC5": "2026-11-09T16:21:31",
+      "timestampSeconds": 10891
     },
     {
       "description": "Ms. Kalpana Tyagi",
@@ -432,6 +432,20 @@
       "timestamp": "03:09:24",
       "timestampCVC5": "2026-11-09T16:29:24",
       "timestampSeconds": 11364
+    },
+    {
+      "description": "Mr. Jakob Plesner Mathiasen",
+      "personId": "2f8becf0-558a-4050-ae75-08df3b2598d3",
+      "timestamp": "03:09:41",
+      "timestampCVC5": "2026-11-09T16:29:41",
+      "timestampSeconds": 11381
+    },
+    {
+      "description": "Ms. Natalie Corthésy",
+      "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+      "timestamp": "03:11:43",
+      "timestampCVC5": "2026-11-09T16:31:43",
+      "timestampSeconds": 11503
     }
   ],
   "markers_grouped": {
@@ -739,9 +753,9 @@
                   {
                     "description": "Ms. Natalie Corthésy",
                     "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
-                    "timestamp": "03:01:32",
-                    "timestampCVC5": "2026-11-09T16:21:32",
-                    "timestampSeconds": 10892
+                    "timestamp": "03:01:31",
+                    "timestampCVC5": "2026-11-09T16:21:31",
+                    "timestampSeconds": 10891
                   },
                   {
                     "description": "Ms. Kalpana Tyagi",
@@ -784,6 +798,20 @@
                     "timestamp": "03:09:24",
                     "timestampCVC5": "2026-11-09T16:29:24",
                     "timestampSeconds": 11364
+                  },
+                  {
+                    "description": "Mr. Jakob Plesner Mathiasen",
+                    "personId": "2f8becf0-558a-4050-ae75-08df3b2598d3",
+                    "timestamp": "03:09:41",
+                    "timestampCVC5": "2026-11-09T16:29:41",
+                    "timestampSeconds": 11381
+                  },
+                  {
+                    "description": "Ms. Natalie Corthésy",
+                    "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+                    "timestamp": "03:11:43",
+                    "timestampCVC5": "2026-11-09T16:31:43",
+                    "timestampSeconds": 11503
                   }
                 ],
                 "subjectId": "5c4b21a8-f209-492f-9b8f-4996178c9dab",
