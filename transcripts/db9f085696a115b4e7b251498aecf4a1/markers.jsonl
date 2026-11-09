@@ -105,3 +105,5 @@
 {"ts": "2026-11-09T14:38:26+00:00", "new_markers": [{"description": "Mr. Edward Lee", "personId": "d562c637-4924-46a9-ae72-08df3b2598d3", "timestamp": "00:54:23", "timestampCVC5": "2026-11-09T14:14:23", "timestampSeconds": 3263}]}
 {"ts": "2026-11-09T14:38:56+00:00", "new_markers": [{"description": "Mr. Edward Lee", "personId": "d562c637-4924-46a9-ae72-08df3b2598d3", "timestamp": "00:54:34", "timestampCVC5": "2026-11-09T14:14:34", "timestampSeconds": 3274}]}
 {"ts": "2026-11-09T14:39:28+00:00", "new_markers": [{"description": "Ms. Ulrike Till", "personId": "e43c4a9d-684b-499d-a3de-fdcac48abfa9", "timestamp": "01:06:45", "timestampCVC5": "2026-11-09T14:26:45", "timestampSeconds": 4005}]}
+{"ts": "2026-11-09T14:40:32+00:00", "new_markers": [{"description": "Ms. Elena Perrotti", "personId": "3dffddda-75c6-4963-8e95-08df3bfd2d66", "timestamp": "01:07:35", "timestampCVC5": "2026-11-09T14:27:35", "timestampSeconds": 4055}]}
+{"ts": "2026-11-09T14:42:06+00:00", "new_markers": [{"description": "Ms. Ulrike Till", "personId": "e43c4a9d-684b-499d-a3de-fdcac48abfa9", "timestamp": "01:21:51", "timestampCVC5": "2026-11-09T14:41:51", "timestampSeconds": 4911}]}
