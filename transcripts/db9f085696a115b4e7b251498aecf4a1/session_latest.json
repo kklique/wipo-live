@@ -148,11 +148,25 @@
       "timestampSeconds": 2351
     },
     {
+      "description": "Ms. Emily Kate Genatowski",
+      "personId": "e7bd5820-0cb1-45d3-ae70-08df3b2598d3",
+      "timestamp": "00:39:28",
+      "timestampCVC5": "2026-11-09T13:59:28",
+      "timestampSeconds": 2368
+    },
+    {
       "description": "Showcase 2: AI in Action - From Ideas to Real-World Impact ",
       "subjectId": "18f903eb-6267-427c-8c24-6c5c993ac56a",
       "timestamp": "00:41:24",
       "timestampCVC5": "2026-11-09T14:01:24",
       "timestampSeconds": 2484
+    },
+    {
+      "description": "H.E. Mr. Kairat Torebayev",
+      "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+      "timestamp": "00:41:25",
+      "timestampCVC5": "2026-11-09T14:01:25",
+      "timestampSeconds": 2485
     },
     {
       "description": "Mr. Cristian Léon",
@@ -208,6 +222,13 @@
                     "timestamp": "00:39:11",
                     "timestampCVC5": "2026-11-09T13:59:11",
                     "timestampSeconds": 2351
+                  },
+                  {
+                    "description": "Ms. Emily Kate Genatowski",
+                    "personId": "e7bd5820-0cb1-45d3-ae70-08df3b2598d3",
+                    "timestamp": "00:39:28",
+                    "timestampCVC5": "2026-11-09T13:59:28",
+                    "timestampSeconds": 2368
                   }
                 ],
                 "subjectId": "38f6620c-af0c-439f-801c-711b63f18c82",
@@ -222,6 +243,13 @@
               {
                 "description": "Showcase 2: AI in Action - From Ideas to Real-World Impact ",
                 "list_markers": [
+                  {
+                    "description": "H.E. Mr. Kairat Torebayev",
+                    "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+                    "timestamp": "00:41:25",
+                    "timestampCVC5": "2026-11-09T14:01:25",
+                    "timestampSeconds": 2485
+                  },
                   {
                     "description": "Mr. Cristian Léon",
                     "personId": "a5b20d32-57e1-4ec1-ae71-08df3b2598d3",
@@ -269,6 +297,13 @@
       "email": "",
       "id": "33304eb7-6e83-44b3-bdfa-88d0a22264d0",
       "name": "SPEAKER",
+      "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "Permanent Representative of the Republic of Kazakhstan to the World Trade Organization and international economic organizations, Kazakhstan",
+      "email": "",
+      "id": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+      "name": "H.E. Mr. Kairat Torebayev",
       "photoUrl": "./assets/images/noPicSpeaker.png "
     }
   ],

@@ -1,6 +1,6 @@
 # [d1-11] Optional Side Event - My Robot "Roommate"
 # 발표자: Ms. Emily Kate Genatowski — AI Domestic Robotics Researcher, PhD candidate in Digital Humanities, University of Vienna, United States of America  (speaker)
-# Day 1 · 2026-11-09 · 예정 14:30-15:00 (Geneva) · 발언 2회 · 85문장 · 3,521단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 14:30-15:00 (Geneva) · 발언 3회 · 89문장 · 3,683단어 · 구분 방식: marker
 
 She will share her perspective on the transparency we need to ensure that cutting -edge innovation can move beyond the lab. and meaningfully improve the world we live in. She is joining us today to talk about what actually happens when embodied AI moves out of the lab and into everyday life. The practical, social and governance questions that start to appear. introduction.
 I really appreciate it. Yes, this is my new friend.
@@ -88,3 +88,8 @@ It does not really do anything for me. The goal of this type of robot, not this 
 It is going to be able to take care of cooking, cleaning, doing laundry, all of the things that we do not want to do.
 And the problem is that if we waited, if we waited and waited for it to actually be ready to do those things, then we would be very far behind when it comes to trying to inspire the public to have these debates about regulation and then actually work the regulation through the proper channels and systems so that we could actually safely deploy this technology. So I did sign on to have a robot that hopefully one day will cook and clean and does not cook or clean, live in my house.
 And as you saw, I bring it with me everywhere. I include it in everything. And from that experience, so much has come out about how people interact with it, how it interacts with infrastructure, and essentially we find out things like this particular robot cannot safely make it across the V&E's crosswalk in time before the light changes. Little funny things that you would never think to figure out.
+
+We have one minute. if any other, yes, sir. I hope you can hear me. I arrived late, so maybe you mentioned this. What software do you use? Is it from the factory, from the developer, or do you have your own? version of software? > > Amazing.
+Okay.
+Another great question which I will answer very quickly and I will also direct you, given that question, to speak to my colleague over there. But I use my actual, I use a unitree G1 EDU and I use it out of box. So I am not a developer and most of the consumer market are not going to be developers. So I use it as anybody would if they took it out of the box, turned it on, charged it up, turned it on and let it come into their home.
+But there are a number of incredible organizations, robotics clubs, individuals and companies who are very , Thank you. Good afternoon.
