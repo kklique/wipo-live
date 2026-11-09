@@ -230,6 +230,20 @@
       "timestamp": "01:35:40",
       "timestampCVC5": "2026-11-09T14:55:40",
       "timestampSeconds": 5740
+    },
+    {
+      "description": "Ms. Ulrike Till",
+      "personId": "e43c4a9d-684b-499d-a3de-fdcac48abfa9",
+      "timestamp": "01:46:52",
+      "timestampCVC5": "2026-11-09T15:06:52",
+      "timestampSeconds": 6412
+    },
+    {
+      "description": "Mr. Wang Qian",
+      "personId": "d4e97323-981e-4e98-a14b-cf9b2d565dc0",
+      "timestamp": "01:47:28",
+      "timestampCVC5": "2026-11-09T15:07:28",
+      "timestampSeconds": 6448
     }
   ],
   "markers_grouped": {
@@ -374,6 +388,20 @@
                     "timestamp": "01:35:40",
                     "timestampCVC5": "2026-11-09T14:55:40",
                     "timestampSeconds": 5740
+                  },
+                  {
+                    "description": "Ms. Ulrike Till",
+                    "personId": "e43c4a9d-684b-499d-a3de-fdcac48abfa9",
+                    "timestamp": "01:46:52",
+                    "timestampCVC5": "2026-11-09T15:06:52",
+                    "timestampSeconds": 6412
+                  },
+                  {
+                    "description": "Mr. Wang Qian",
+                    "personId": "d4e97323-981e-4e98-a14b-cf9b2d565dc0",
+                    "timestamp": "01:47:28",
+                    "timestampCVC5": "2026-11-09T15:07:28",
+                    "timestampSeconds": 6448
                   }
                 ],
                 "subjectId": "1fda6de4-644a-4a61-af86-3dccad676ba9",
@@ -444,6 +472,13 @@
       "id": "477c32df-9098-49dc-8adb-c9f6b13a15ed",
       "name": "Mr. Andres Guadamuz",
       "photoUrl": "https://amcpwewipoassets.blob.core.windows.net/assets/c1bee701-78e4-4ab4-96d1-7169972e30bb.png"
+    },
+    {
+      "bio": "Professor of Law, East China University of Political \nScience and Law, Shanghai, China\nWang Qian is a professor of law and the Vice Chairman of the \nAcademic Committee in East China University of Political \nScience and Law.  He also serves as the Vice Chairman of the \nChina Copyright Association.  He received his LL.M from the \nUniversity of Toronto in Canada and his Ph.D. from Peking \nUniversity.  He published the book Study on Exclusive Rights of \nCopyright in the Network Environment, Protection and \nRegulation of Technological Measures in the Copyright Law, \nand Copyright Protection on the Internet.  His textbook \nIntellectual Property Law Course (1-8 editions) is one of the  \nmost popular IP textbooks in China.  Mr. Wang acts as a consulting expert for many courts and procuratorates, including the Beijing Higher People’s Court, Shanghai People’s Procuratorate and Shanghai Intellectual Property Court. \nHe participated in the drafting of the Regulations on the Protection of Information Network Transmission Rights and is a member of the Expert Committee for the third revision of the Copyright Law.  He was honored as one of the Top Ten Outstanding Young Jurists in the Ninth National Awards. ",
+      "email": "",
+      "id": "d4e97323-981e-4e98-a14b-cf9b2d565dc0",
+      "name": "Mr. Wang Qian",
+      "photoUrl": "https://amcpwewipoassets.blob.core.windows.net/assets/65c645c1-59fa-4981-b4f5-3fa6ee09a368.jpg"
     },
     {
       "bio": "Dr. Rachel Free is a partner in the patent team at International Law Firm CMS where she helps clients to protect their technology through patents. She has an MSc in Artificial Intelligence and a DPhil in Vision Science. She qualified as a European and UK patent attorney in the last century and has worked on AI patent drafting and prosecution through her career. Rachel is a member of the All Party Parliamentary Group on AI (APPG AI) which advises parliamentarians regarding AI. She is vice Chair of the Chartered Institute of Patent Attorneys (CIPA) computer technology committee.",

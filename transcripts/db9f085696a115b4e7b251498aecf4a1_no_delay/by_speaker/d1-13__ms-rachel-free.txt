@@ -1,6 +1,6 @@
 # [d1-13] One-Stop Shop: Keeping up with IP and AI
 # 발표자: Ms. Rachel Free  (floor)
-# Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva) · 발언 1회 · 18문장 · 1,160단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva) · 발언 1회 · 19문장 · 1,227단어 · 구분 방식: marker
 
 My name is Free.
 I'm a partner in an international law firm called CMS. where we have a team of patent attorneys. I'm going to tell you about three things. The UK Supreme Court case, the AI tools in patent application work. and trends in prosecution of AI patent applications. at the European Patent Office. Next slide, please. So in the UK, we have had a Supreme Court case where emotional perception is a company.
@@ -20,3 +20,4 @@ An example is a recent board of Appeal case where the grounds of appeal were ove
 Next slide, please. So my last point is about trends in prosecution of AI patent applications. at the European Patent Office. Next slide. I would say it's generally settled. It's rare to have a case now the Technical Board of Appeal where the main question is about determining whether the subject matter is excluded from patentability or not. and that's interesting because at the moment, in AI technology, some of the key questions are about AI safety and AI alignment.
 how to have AI technology that does what humans would like. That's important because if you see the right -hand side of the slide, human society is a bit like a baby. We're a less intelligent thing and we have got to control a more intelligent thing. AI technology. a human baby is able to control the mother. Is that the only example we know of a less intelligent thing? thing controlling a more intelligent thing?
 It seems to me that we need commercial incentives. to publish AI safety and AI alignment solutions. and those are important. to protect society. And those commercial incentives could include patents. So it seems that AI safety and AI alignment solutions are generally accepted. as avoiding those exclusions to patentability except where those solutions or problems concern linguistic aspects.
+in contrast to other jurisdictions such as China. where that doesn't apply and patents could be obtained. Thank you. Next slide. Thank you very much. That's the end of my presentation. Thank you so much, Rachel. I've also been told that AI interpretation took an early coffee break, but it is back online. So we're all good. From IP office practice, we turn to the rules themselves.
