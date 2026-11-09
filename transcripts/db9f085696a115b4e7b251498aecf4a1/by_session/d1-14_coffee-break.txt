@@ -1,8 +1,12 @@
 # [d1-14] Coffee Break
 # Day 1 · 2026-11-09 · 예정 16:10-16:25 (Geneva)
-# 실제 구간 16:07:30-16:08:44 · 4문장 · 경계 방식: cue
+# 실제 구간 16:07:30-16:10:33 · 8문장 · 경계 방식: cue
 
 we are all good.
 From IP office practice, we turn to the rules themselves. Around the world, governments are considering how existing legislation applies to AI, where new rules may be needed and how different regulatory approaches are taking shape. To guide us through the developments in legislation and regulation that deserves particular attention, please welcome Professor Wong, Professor of Law and at East China University of Political Science and Law.
 Professor Wang, over to you. Good afternoon, everybody.
 It is my good pleasure to present the key developments in 2026 concerning AI and IP policies, legislation and cases in China and other Asia countries. As AI technology is blowing up so fast, it is always necessary to strike a proper balance between two competing interests. The first challenge is to promote AI technology while protecting the interests of IP holders. China is a major player in AI and Chinese tech companies are pushing hard to classify using works to train AI as fair use, but others strongly oppose to sacrificing copyright as the cost of AI development.
+Those two intense and demands have led to some uncertainty and ambiguity in relevant policies in China. In March of this year, the State Council, which is the central government of the outline of the Five-Year Plan, which set goals for the country's development over the next five years. The outline calls for accelerating the building of AI capital and establishing a system for the fair use of trading data.
+Does this mean that using large number of copyrighted works to train AI qualifies as fair use. Some government agencies seem to think so. But the data explicitly mentioned here is energy, transportation, manufacturing, education, health, and financial data, no mention of literary or artistic works. So you could also read it as the government not taking a position on using works to treat AI.
+It seems that the government is keeping policies flexible and open to interpretation. On September 7 this year, the Supreme People's Court issued the judicial opinions on AI-related cases. This judicial document gives courts specific guidance on how to apply the law in cases involving AI, and the lower courts must follow it.
+The draft version of this document had a provision about training AI and fair use, but it was removed from the final version. At the press : J Chong 翻 译: J Chong "
