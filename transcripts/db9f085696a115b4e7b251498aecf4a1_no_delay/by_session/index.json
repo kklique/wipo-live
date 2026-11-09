@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T16:11:58+00:00",
+ "generated": "2026-11-09T16:14:02+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -701,22 +701,22 @@
    "start": "16:25",
    "end": "17:25",
    "people": "Moderator: Ms. Natalie Corthésy | Speakers: Mr. Anderson Rocha; Ms. Kalpana Tyagi; Mr. Jakob Plesner Mathiasen; Mr. Marco Bassini; Ms. Imogen Heap",
-   "n_lines": 35,
+   "n_lines": 40,
    "method": "marker",
    "file": "d1-15_protecting-what-makes-us-human-is-ip-the-answer.txt",
    "actual_start": "2026-11-09T16:54:02+01:00",
-   "actual_end": "2026-11-09T17:11:43+01:00",
+   "actual_end": "2026-11-09T17:13:56+01:00",
    "line_from": 1000,
-   "line_to": 1034,
+   "line_to": 1039,
    "speakers": [
     {
      "key": "d1-15__ms-natalie-corthesy",
      "name": "Ms. Natalie Corthésy",
      "affiliation": "Associate Dean of Teaching and Learning, Senior Lecturer in Law, The University of the West Indies, Mona Campus, Jamaica",
      "role": "moderator",
-     "n_lines": 11,
-     "n_words": 675,
-     "n_turns": 4,
+     "n_lines": 13,
+     "n_words": 809,
+     "n_turns": 5,
      "file": "d1-15__ms-natalie-corthesy.txt",
      "method": "marker"
     },
@@ -762,6 +762,17 @@
      "n_words": 529,
      "n_turns": 1,
      "file": "d1-15__ms-imogen-heap.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-15__mr-marco-bassini",
+     "name": "Mr. Marco Bassini",
+     "affiliation": "Assistant Professor of Fundamental Rights and Artificial Intelligence, Tilburg Institute for Law, Technology, and Society, Tilburg University, Italy",
+     "role": "panelist",
+     "n_lines": 3,
+     "n_words": 170,
+     "n_turns": 1,
+     "file": "d1-15__mr-marco-bassini.txt",
      "method": "marker"
     }
    ]

@@ -1,0 +1,7 @@
+# [d1-15] Protecting What Makes us Human - Is IP the Answer?
+# 발표자: Mr. Marco Bassini — Assistant Professor of Fundamental Rights and Artificial Intelligence, Tilburg Institute for Law, Technology, and Society, Tilburg University, Italy  (panelist)
+# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 1회 · 3문장 · 170단어 · 구분 방식: marker
+
+which is maybe a kind of weird question. that may sound a bit weird. but from certain perspectives we may have an interest in preventing any kind of interference, for example, from our governments, into what GenAI can say and cannot say. So in the end, if we look at the general and traditional framing of the foundations of freedom of expression, we understand that the essence of that right is the protecting specialist citizens from not suffering any interference.
+And so the question comes, can we protect our speech? what we have when it comes to AI? so a GenAI output?
+Can this amount to protect the speech? Of course, what reaction could be we cannot treat the AI as speaker, of course, and this is definitely a point. But on the other hand, we have another perspective, which is not a perspective of the speaker and the perspective of the recipients of certain particular output. And in that particular perspective, in my view, we may see also protection.
