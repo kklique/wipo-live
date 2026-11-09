@@ -539,3 +539,8 @@ It means that SPUR does not replace the standards we already saw, the TDN reps, 
 What it does is it aims to assess them on the publisher's behalf. It contributes the telemetry.
 They are working on it right now. And that is the standard that AI can use in order to report usage data back to publishers. The goal is to make sure that the standards that the industry adopts are shaped on the publisher's needs. So what is our advice to publishers right now? We believe that the window to shape the standards and the deals is open now, but it will not see open very long.
 They should make their terms machine readable in a way or another. For example, using TDN rep to opt out or air all to set license terms for free. They should see and control the AI bots through their content delivery network or toll bit.
+Joint forces will always say that is the best way to stay relevant through SPUR on standards or as a collective or consultation on the measures for generative AI clauses in a couple of days. The light company versus Google case before the European Court of Justice, I just mentioned, we expect is going on right now.
+And then very soon the UNESCO will release on the 20th of November UNESCO will release the guidance on fair compensation for news. We always say to publishers to think strategically. The news industry has been in steady decline for two decades.
+Expecting some kind of free market -based turnaround is lunacy, and if journalism is essential for preserving democracy, perhaps only democracy can preserve journalism. Regulation is needed.
+Thank you very much. Thank you so much, Eleanor.
+Shifting back to the courtroom, there is more than one legal development worth watching.
