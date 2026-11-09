@@ -127,13 +127,6 @@
       "timestampSeconds": 869
     },
     {
-      "description": "Ministerial-level Remarks",
-      "subjectId": "c20b4223-8dad-43c5-a179-1fbc704f6989",
-      "timestamp": "00:34:29",
-      "timestampCVC5": "2026-11-09T09:24:29",
-      "timestampSeconds": 2069
-    },
-    {
       "description": "H.E. Mr. Kairat Torebayev",
       "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
       "timestamp": "00:34:30",
@@ -153,6 +146,13 @@
       "timestamp": "00:36:32",
       "timestampCVC5": "2026-11-09T09:26:32",
       "timestampSeconds": 2192
+    },
+    {
+      "description": "Ministerial-level Remarks",
+      "subjectId": "c20b4223-8dad-43c5-a179-1fbc704f6989",
+      "timestamp": "00:47:14",
+      "timestampCVC5": "2026-11-09T09:37:14",
+      "timestampSeconds": 2834
     },
     {
       "description": "H.E. Mr. Kairat Torebayev",
@@ -251,6 +251,12 @@
       "timestamp": "01:51:44",
       "timestampCVC5": "2026-11-09T10:41:44",
       "timestampSeconds": 6704
+    },
+    {
+      "description": "Session Break",
+      "timestamp": "01:54:07",
+      "timestampCVC5": "2026-11-09T10:44:07",
+      "timestampSeconds": 6847
     }
   ],
   "markers_grouped": {
@@ -278,20 +284,7 @@
                     "timestamp": "00:14:29",
                     "timestampCVC5": "2026-11-09T09:04:29",
                     "timestampSeconds": 869
-                  }
-                ],
-                "subjectId": "b8c24cf4-528e-481a-bdcd-cdb79e1ee816",
-                "timestamp": "00:13:25",
-                "timestampCVC5": "2026-11-09T09:03:25",
-                "timestampSeconds": 805
-              }
-            ]
-          },
-          {
-            "subject": [
-              {
-                "description": "Ministerial-level Remarks",
-                "list_markers": [
+                  },
                   {
                     "description": "H.E. Mr. Kairat Torebayev",
                     "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
@@ -300,10 +293,10 @@
                     "timestampSeconds": 2070
                   }
                 ],
-                "subjectId": "c20b4223-8dad-43c5-a179-1fbc704f6989",
-                "timestamp": "00:34:29",
-                "timestampCVC5": "2026-11-09T09:24:29",
-                "timestampSeconds": 2069
+                "subjectId": "b8c24cf4-528e-481a-bdcd-cdb79e1ee816",
+                "timestamp": "00:13:25",
+                "timestampCVC5": "2026-11-09T09:03:25",
+                "timestampSeconds": 805
               }
             ]
           },
@@ -318,7 +311,20 @@
                     "timestamp": "00:36:32",
                     "timestampCVC5": "2026-11-09T09:26:32",
                     "timestampSeconds": 2192
-                  },
+                  }
+                ],
+                "subjectId": "5d82990e-fb90-4d97-8abb-ef818f3c88c5",
+                "timestamp": "00:36:30",
+                "timestampCVC5": "2026-11-09T09:26:30",
+                "timestampSeconds": 2190
+              }
+            ]
+          },
+          {
+            "subject": [
+              {
+                "description": "Ministerial-level Remarks",
+                "list_markers": [
                   {
                     "description": "H.E. Mr. Kairat Torebayev",
                     "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
@@ -390,10 +396,10 @@
                     "timestampSeconds": 5429
                   }
                 ],
-                "subjectId": "5d82990e-fb90-4d97-8abb-ef818f3c88c5",
-                "timestamp": "00:36:30",
-                "timestampCVC5": "2026-11-09T09:26:30",
-                "timestampSeconds": 2190
+                "subjectId": "c20b4223-8dad-43c5-a179-1fbc704f6989",
+                "timestamp": "00:47:14",
+                "timestampCVC5": "2026-11-09T09:37:14",
+                "timestampSeconds": 2834
               }
             ]
           },
@@ -422,6 +428,12 @@
                     "timestamp": "01:51:44",
                     "timestampCVC5": "2026-11-09T10:41:44",
                     "timestampSeconds": 6704
+                  },
+                  {
+                    "description": "Session Break",
+                    "timestamp": "01:54:07",
+                    "timestampCVC5": "2026-11-09T10:44:07",
+                    "timestampSeconds": 6847
                   }
                 ],
                 "subjectId": "425a4f0c-c93b-4830-aa88-85eee4ca80db",
