@@ -241,9 +241,9 @@
     {
       "description": "Mr. Wang Qian",
       "personId": "d4e97323-981e-4e98-a14b-cf9b2d565dc0",
-      "timestamp": "01:47:28",
-      "timestampCVC5": "2026-11-09T15:07:28",
-      "timestampSeconds": 6448
+      "timestamp": "01:47:26",
+      "timestampCVC5": "2026-11-09T15:07:26",
+      "timestampSeconds": 6446
     },
     {
       "description": "Ms. Ulrike Till",
@@ -255,9 +255,9 @@
     {
       "description": "Mr. Daryl Lim",
       "personId": "2c49b210-9701-42c8-9d89-7b575a0eb971",
-      "timestamp": "01:58:55",
-      "timestampCVC5": "2026-11-09T15:18:55",
-      "timestampSeconds": 7135
+      "timestamp": "01:58:47",
+      "timestampCVC5": "2026-11-09T15:18:47",
+      "timestampSeconds": 7127
     }
   ],
   "markers_grouped": {
@@ -413,9 +413,9 @@
                   {
                     "description": "Mr. Wang Qian",
                     "personId": "d4e97323-981e-4e98-a14b-cf9b2d565dc0",
-                    "timestamp": "01:47:28",
-                    "timestampCVC5": "2026-11-09T15:07:28",
-                    "timestampSeconds": 6448
+                    "timestamp": "01:47:26",
+                    "timestampCVC5": "2026-11-09T15:07:26",
+                    "timestampSeconds": 6446
                   },
                   {
                     "description": "Ms. Ulrike Till",
@@ -427,9 +427,9 @@
                   {
                     "description": "Mr. Daryl Lim",
                     "personId": "2c49b210-9701-42c8-9d89-7b575a0eb971",
-                    "timestamp": "01:58:55",
-                    "timestampCVC5": "2026-11-09T15:18:55",
-                    "timestampSeconds": 7135
+                    "timestamp": "01:58:47",
+                    "timestampCVC5": "2026-11-09T15:18:47",
+                    "timestampSeconds": 7127
                   }
                 ],
                 "subjectId": "1fda6de4-644a-4a61-af86-3dccad676ba9",
