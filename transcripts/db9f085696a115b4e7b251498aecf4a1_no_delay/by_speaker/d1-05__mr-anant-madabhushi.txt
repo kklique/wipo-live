@@ -1,6 +1,6 @@
 # [d1-05] Showcase 1: AI in Action - From Ideas to Real-World Impact
-# 발표자: (진행/도입)  (unknown)
-# Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva) · 발언 1회 · 3문장 · 148단어 · 구분 방식: marker
+# 발표자: Mr. Anant Madabhushi — Executive Director of the Emory Empathetic AI for Health Institute and Robert W. Woodruff Professor of Biomedical Engineering, Emory University, United States of America  (speaker)
+# Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva) · 발언 1회 · 3문장 · 148단어 · 구분 방식: agenda
 
 Our creators require absolute assurance of credit and compensation. just as our developers need clear, predictable rules to innovate with confidence. our legislation also defines an inventor as the natural person who devised the invention. One, hopefully I have conveyed that AI on routine images can transform precision medicine. Secondly, when we talk about IP, let's focus on patenting the pattern, not necessarily the algorithm. IP is the bridge from paper to patient, but only if it generalizes, and that's where the validation is so absolutely critical. And finally, we have to build democratization into the IP strategy so that these licensing models can be kept low cost and accessible, particularly in low and middle income countries.
 Thank you very much.
