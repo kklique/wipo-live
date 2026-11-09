@@ -102,6 +102,40 @@ def score(c, ltoks):
 
 
 # ---------------------------------------------------------------- 입력 / 시계
+FILLER = {"thank", "you", "thanks", "yeah", "yes", "okay", "ok", "bye", "uh", "um", "hmm", "mm", "mhm", "music", "applause"}
+
+
+def is_filler(text):
+    """필러(감사/맞장구/음)만으로 된 줄. 한두 글자짜리 비영어 토큰('嗯' 등)도 필러로 본다."""
+    toks = re.findall(r"\w+", (text or "").lower())
+    return bool(toks) and all(t in FILLER or (not t.isascii() and len(t) <= 2) for t in toks)
+
+
+def filler_repeat(text):
+    """한 줄 안에서 필러 구가 3번 이상 반복 ('Yeah. Yeah. Yeah.')"""
+    return is_filler(text) and (len([p for p in re.split(r"[.!?。！？]+", text) if p.strip()]) >= 3
+                                or len(re.findall(r"\w+", text)) >= 6)       # 'Yeah. Yeah. Yeah.' / 'Thank you 嗯 嗯 嗯 嗯 ...'
+
+
+def drop_filler_runs(items, key=lambda x: x):
+    """비정상 스크립트 제거: 필러만 있는 줄이 3줄 이상 연속이면 그 구간 전체, 한 줄 안 3회 이상 반복이면 그 줄을 삭제한다.
+    1~2줄짜리 단독 'Thank you.' 는 실제 발언일 수 있어 유지한다. key 로 항목에서 텍스트를 꺼낸다 (항목 순서/정체성 유지)."""
+    out, run = [], []
+    for x in items:
+        t = key(x)
+        if is_filler(t):
+            if not filler_repeat(t):
+                run.append(x)
+            continue
+        if len(run) < 3:
+            out.extend(run)
+        run = []
+        out.append(x)
+    if len(run) < 3:
+        out.extend(run)
+    return out
+
+
 def read_rows(dirs):
     rows = {}
     for d in dirs:
@@ -115,6 +149,8 @@ def read_rows(dirs):
                 continue
             if r.get("type") != "final" or not (r.get("text") or "").strip():
                 continue
+            if r.get("noise") or not re.search(r"\w", r["text"]):      # 점만 있는 줄 등 잡음은 분할/저장에서 제외
+                continue
             try:
                 ts = datetime.fromisoformat(r["ts"]).astimezone(UTC)
             except (KeyError, ValueError):
@@ -127,7 +163,11 @@ def read_rows(dirs):
                     pass
             rows[(d, r.get("line_number"))] = {"src": d, "n": r.get("line_number"), "ts": ts, "end": end,
                                                "catchup": bool(r.get("catchup")), "text": r["text"].strip()}
-    return list(rows.values())
+    out = sorted(rows.values(), key=lambda r: (r["src"], r["n"] or 0))
+    kept = []
+    for src in sorted({r["src"] for r in out}):         # 스트림(폴더)별로 필러 반복 구간 제거
+        kept += drop_filler_runs([r for r in out if r["src"] == src], key=lambda r: r["text"])
+    return kept
 
 
 def _gva_times(rows, clock_fn):

@@ -18,6 +18,10 @@ on:
         description: "데이터 수신 후 이 시간(분) 동안 변화가 없으면 종료 (점심시간 등 감안)"
         default: "180"
         required: true
+      rebuild:
+        description: "(복구용) true 면 저장본(transcript.txt)을 비우고 1번 줄부터 WIPO 원본으로 다시 만든다"
+        default: "false"
+        required: false
       start_line:
         description: "(선택) 이 줄 번호부터 다시 받기. 비워 두면 저장된 위치부터 이어받고, 처음이면 1번부터"
         default: ""
@@ -61,6 +65,7 @@ jobs:
           MAX_MIN: ${{ inputs.max_minutes }}
           IDLE_MIN: ${{ inputs.idle_exit_minutes }}
           START_LINE: ${{ inputs.start_line }}
+          REBUILD: ${{ inputs.rebuild }}
         run: |
           OUT="../data/transcripts/${MEETING_ID}"
           mkdir -p "$OUT"
@@ -81,6 +86,7 @@ jobs:
           run_collector() {
             DEADLINE=$(( $(date +%s) + MAX_MIN * 60 ))
             EXTRA=""; [ -n "$START_LINE" ] && EXTRA="--start-line $START_LINE"
+            [ "$REBUILD" = "true" ] && EXTRA="--rebuild"
             while [ "$(date +%s)" -lt "$DEADLINE" ]; do
               python3 -u collect.py --meeting-id "$MEETING_ID" --out "$OUT" $EXTRA \
                 --max-seconds "$(( DEADLINE - $(date +%s) ))" --idle-exit-minutes "$IDLE_MIN"

@@ -205,6 +205,22 @@ const el = { meeting: $("meeting"), q: $("q"), follow: $("follow"), tr: $("trans
              markers: $("markers"), mcount: $("mcount"), status: $("status"), stext: $("status-text"), badge: $("badge"),
              liveBox: $("live-box"), toBottom: $("to-bottom") };
 const hhmmss = (iso) => (iso || "").slice(11, 19);
+const isNoise = (t) => !/[\p{L}\p{N}_]/u.test(t || "");   // 점만 있는 줄 등 (비정상 문장) 은 화면에서도 제외
+const FILLER = new Set("thank you thanks yeah yes okay ok bye uh um hmm mm mhm music applause".split(" "));
+const isFiller = (t) => { const w = (t || "").toLowerCase().match(/[\p{L}\p{N}_]+/gu) || [];
+  return w.length > 0 && w.every((x) => FILLER.has(x) || (/[^\x00-\x7f]/.test(x) && x.length <= 2)); };
+const fillerRepeat = (t) => isFiller(t) && ((t || "").split(/[.!?。！？]+/).filter((p) => p.trim()).length >= 3
+  || ((t || "").match(/[\p{L}\p{N}_]+/gu) || []).length >= 6);
+function dropFiller(arr, key = (x) => x) {      // 필러만 있는 줄 3줄 이상 연속 / 한 줄 안 3회 이상 반복은 삭제 (서버 규칙과 동일)
+  const out = []; let run = [];
+  for (const x of arr) {
+    if (isFiller(key(x))) { if (!fillerRepeat(key(x))) run.push(x); continue; }
+    if (run.length < 3) out.push(...run);
+    run = []; out.push(x);
+  }
+  if (run.length < 3) out.push(...run);
+  return out;
+}
 // WIPO 의 문장/마커 시각(end_time_iso, timestampCVC5)은 시간대 표시가 없는 값이다. 실제 데이터로 보면 UTC 이므로(개회 10:04 Geneva = 09:04 UTC)
 // 화면에는 Geneva 현지 시간으로 변환해서 보여준다. 분할 결과(index.json)의 clock 값이 다르면(geneva, offset:<초>) 그에 맞춘다.
 let NAIVE_CLOCK = "utc";
@@ -299,7 +315,7 @@ function renderAll() {
 }
 
 function applyTranscript(text) {
-  const next = (text || "").split("\n").map((s) => s.trim()).filter(Boolean);
+  const next = dropFiller((text || "").split("\n").map((s) => s.trim()).filter((s) => s && !isNoise(s)));
   const grew = next.length >= lines.length && lines.every((t, i) => t === next[i]);
   const old = lines.length;
   lines = next;
@@ -420,10 +436,11 @@ async function livePoll() {
       }
       if (gen !== liveGen) return;
       const added = (d.full_lines || []).map((l) => ({ t: gvaTime(l.end_time_iso), text: (l.text || "").trim() }))
-                                        .filter((l) => l.text);
+                                        .filter((l) => l.text && !isNoise(l.text));
       if (first || liveSource !== "direct") liveLines = [];
-      liveLines = liveLines.concat(added).slice(-LIVE_KEEP);
+      liveLines = dropFiller(liveLines.concat(added), (l) => l.text).slice(-LIVE_KEEP);
       livePartial = ((d.last_line || {}).text || "").trim();
+      if (isNoise(livePartial)) livePartial = "";
       if (Number.isInteger(d.next_line_number) && d.next_line_number >= liveCursor) liveCursor = d.next_line_number;
       else liveCursor += (d.full_lines || []).length;
       liveFails = 0; liveSource = "direct";
