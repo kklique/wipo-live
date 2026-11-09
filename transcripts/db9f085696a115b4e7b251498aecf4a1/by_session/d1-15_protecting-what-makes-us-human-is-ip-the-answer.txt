@@ -1,7 +1,7 @@
 # [d1-15] Protecting What Makes us Human - Is IP the Answer?
 # Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva)
 # Moderator: Ms. Natalie Corthésy | Speakers: Mr. Anderson Rocha; Ms. Kalpana Tyagi; Mr. Jakob Plesner Mathiasen; Mr. Marco Bassini; Ms. Imogen Heap
-# 실제 구간 16:54:25-17:28:11 · 88문장 · 경계 방식: marker
+# 실제 구간 16:54:25-17:30:07 · 94문장 · 경계 방식: marker
 
 So we reconvene at 4.45. See you in 15. Thank you very much. Welcome back from the coffee break. So let's get started.
 I hope you had a chance of another caffeine to recharge your battery? and the next session is going to personal. Imagine someone using AI to recreate your face. your voice, your your memories, perhaps even to make you appear to say or do something you never said or did. AI is getting better, at it every day.
@@ -91,3 +91,9 @@ And as a mom, I know how important it is about how our children look up to us. A
 not humans themselves. Can IP laws traditional boundaries help us to distinguish between legitimate AI generated expression and on lawful appropriation of human identity. Marco. Yeah, here we have a lot of difficult problems to consider in the view of the way AI works. We know very well that AI in GenAI in particular, we expect to see more or less outputs reflecting the ability of models to learn, which does not mean to memorize, which does not mean to store, which is a very hot topic and a really hot debate that even recently was fueled by a very important opinion of the Advocate General.
 Spooner in a very important debate. important case. So the problem of understanding how particular way of walking of AI systems and general AI in particular may have consequences. I think we should stick to the rationale that is behind copyrights.
 And if I understand correctly, as I said, I am more often a fundamental rights perspective, but the idea is that we have a protected expression when it comes to copyright protection.
+So this is the idea, and this is the rationale to which I will stick, even when considering GenAI output.
+I know that there are a lot of discussions and debates among copyright lawyers on whether there might be certain efforts put into that.
+And I know that there is also discussion about whether we can attribute certain output to copyright holders, if any.
+But at the same time, if we still consider the protracted expression rational, we should also use that rational to differentiate this from what we can not, in my view, protect as such. so the fact that nowadays there are certain systems that can learn and in a way find certain information. and sum up what is happening in the world, for example. may also accommodate, as we mentioned earlier, freedom of information.
+So the main form, this is per se not a reason to protect maybe the output per se because we are still not protecting any particular expression.
+We are just living GenAI free as any other means, I would say, as a engines to find information about what individuals might be interested into. And I think this is an important point to bear in mind every time we are considering discussions on whether the traditional way we frame copyright protection should relate to this particular output. Thank you. Jacob, I wondered if maybe you wanted to comment on whether or not there were any underlying policy considerations for the Danish statute in relation to freedom of expression.
