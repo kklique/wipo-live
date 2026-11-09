@@ -254,9 +254,9 @@
     },
     {
       "description": "Session Break",
-      "timestamp": "01:54:07",
-      "timestampCVC5": "2026-11-09T10:44:07",
-      "timestampSeconds": 6847
+      "timestamp": "01:52:20",
+      "timestampCVC5": "2026-11-09T10:42:20",
+      "timestampSeconds": 6740
     }
   ],
   "markers_grouped": {
@@ -431,9 +431,9 @@
                   },
                   {
                     "description": "Session Break",
-                    "timestamp": "01:54:07",
-                    "timestampCVC5": "2026-11-09T10:44:07",
-                    "timestampSeconds": 6847
+                    "timestamp": "01:52:20",
+                    "timestampCVC5": "2026-11-09T10:42:20",
+                    "timestampSeconds": 6740
                   }
                 ],
                 "subjectId": "425a4f0c-c93b-4830-aa88-85eee4ca80db",
