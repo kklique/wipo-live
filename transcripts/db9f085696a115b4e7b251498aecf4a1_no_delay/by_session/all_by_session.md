@@ -378,3 +378,8 @@ _Day 1 14:30-15:00 · Speaker: Ms. Emily Kate Genatowski_
 At the 2.30 our option side event, my robot roommate will explore happens when the artificial intelligence moves beyond the scenes and becomes a part of your daily life. We will join the robotic research, Ms. Emily Cate. Janowski. and rather unusual companion, TOVA, the robot at the site she lives with. I encourage those interested to join us for this. opportunity to explore with the might mean to share our homes.
 And perhaps one day our daily routines with the intelligence machines. Enjoy your lunch. and we look forward to welcoming you back. at 3 o'clock. And for those of you who will have food over here, your dishes over here, the cafeteria close is at 2 o'clock. as Swiss program. Okay.
 Thank you. I'm Marco. Hello. Hello, Marco.
+Can you hear me? Should we already ask people to 。
+。 Yeah, exactly. Stand next to me.
+I just want to hide my stress. Genitowski.
+Yeah. She's going to miss it out, so. This is so cool.
+No, no, I want to picture it up there. Yeah, he's my creature.

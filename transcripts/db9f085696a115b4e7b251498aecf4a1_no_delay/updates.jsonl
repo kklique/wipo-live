@@ -4128,3 +4128,95 @@
 {"ts": "2026-11-09T13:25:43+00:00", "type": "partial", "line_number": 509, "text": "Thank you. I'm Marco."}
 {"ts": "2026-11-09T13:25:45+00:00", "type": "final", "line_number": 509, "end_time_iso": "2026-11-09T13:25:44.353472", "text": "Thank you. I'm Marco. Hello. Hello, Marco.", "batch": 1, "catchup": false}
 {"ts": "2026-11-09T13:25:45+00:00", "type": "partial", "line_number": 510, "text": "Can you hear me?"}
+{"ts": "2026-11-09T13:31:35+00:00", "type": "partial", "line_number": 510, "text": "Can you hear me? Should we already ask people to"}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 510, "end_time_iso": null, "text": "Can you hear me? Should we already ask people to 。", "batch": 82, "catchup": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 511, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 512, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 513, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 514, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 515, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 516, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 517, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 518, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 519, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 520, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 521, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 522, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 523, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 524, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 525, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 526, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 527, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 528, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 529, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 530, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 531, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 532, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 533, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 534, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 535, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 536, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 537, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 538, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 539, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 540, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 541, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 542, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 543, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 544, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 545, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 546, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 547, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 548, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 549, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 550, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 551, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 552, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 553, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 554, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 555, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 556, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 557, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 558, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 559, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 560, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 561, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 562, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 563, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 564, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 565, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 566, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 567, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 568, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 569, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 570, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 571, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 572, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 573, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 574, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 575, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 576, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 577, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 578, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 579, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 580, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 581, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 582, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 583, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 584, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 585, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 586, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 587, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 588, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 589, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 590, "end_time_iso": null, "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:51+00:00", "type": "final", "line_number": 591, "end_time_iso": "2026-11-09T13:31:50.383037", "text": "。", "batch": 82, "catchup": true, "noise": true}
+{"ts": "2026-11-09T13:31:53+00:00", "type": "final", "line_number": 592, "end_time_iso": "2026-11-09T13:31:52.528692", "text": "。 Yeah, exactly. Stand next to me.", "batch": 1, "catchup": false}
+{"ts": "2026-11-09T13:31:53+00:00", "type": "partial", "line_number": 593, "text": "I just want to hide my stress."}
+{"ts": "2026-11-09T13:31:58+00:00", "type": "final", "line_number": 593, "end_time_iso": "2026-11-09T13:31:56.861917", "text": "I just want to hide my stress. Genitowski.", "batch": 1, "catchup": false}
+{"ts": "2026-11-09T13:31:58+00:00", "type": "partial", "line_number": 594, "text": "Yeah."}
+{"ts": "2026-11-09T13:32:08+00:00", "type": "partial", "line_number": 594, "text": "Yeah. She's going to miss it out, so."}
+{"ts": "2026-11-09T13:32:10+00:00", "type": "final", "line_number": 594, "end_time_iso": "2026-11-09T13:32:10.267637", "text": "Yeah. She's going to miss it out, so. This is so cool.", "batch": 1, "catchup": false}
+{"ts": "2026-11-09T13:32:10+00:00", "type": "partial", "line_number": 595, "text": "No, no, I want to picture it up there."}
+{"ts": "2026-11-09T13:32:13+00:00", "type": "final", "line_number": 595, "end_time_iso": "2026-11-09T13:32:11.874863", "text": "No, no, I want to picture it up there. Yeah, he's my creature.", "batch": 1, "catchup": false}
+{"ts": "2026-11-09T13:32:13+00:00", "type": "partial", "line_number": 596, "text": "I know it."}
