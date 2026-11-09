@@ -141,6 +141,13 @@
       "timestampSeconds": 2070
     },
     {
+      "description": "Tech Radar: Ready or Not - AI’s Next Frontier  ",
+      "subjectId": "5d82990e-fb90-4d97-8abb-ef818f3c88c5",
+      "timestamp": "00:36:30",
+      "timestampCVC5": "2026-11-09T09:26:30",
+      "timestampSeconds": 2190
+    },
+    {
       "description": "Mr. Ren Ito",
       "personId": "6c098a38-b69d-48f1-b417-74270a736fa4",
       "timestamp": "00:36:32",
@@ -284,7 +291,20 @@
                     "timestamp": "00:34:30",
                     "timestampCVC5": "2026-11-09T09:24:30",
                     "timestampSeconds": 2070
-                  },
+                  }
+                ],
+                "subjectId": "c20b4223-8dad-43c5-a179-1fbc704f6989",
+                "timestamp": "00:34:29",
+                "timestampCVC5": "2026-11-09T09:24:29",
+                "timestampSeconds": 2069
+              }
+            ]
+          },
+          {
+            "subject": [
+              {
+                "description": "Tech Radar: Ready or Not - AI’s Next Frontier  ",
+                "list_markers": [
                   {
                     "description": "Mr. Ren Ito",
                     "personId": "6c098a38-b69d-48f1-b417-74270a736fa4",
@@ -363,10 +383,10 @@
                     "timestampSeconds": 5429
                   }
                 ],
-                "subjectId": "c20b4223-8dad-43c5-a179-1fbc704f6989",
-                "timestamp": "00:34:29",
-                "timestampCVC5": "2026-11-09T09:24:29",
-                "timestampSeconds": 2069
+                "subjectId": "5d82990e-fb90-4d97-8abb-ef818f3c88c5",
+                "timestamp": "00:36:30",
+                "timestampCVC5": "2026-11-09T09:26:30",
+                "timestampSeconds": 2190
               }
             ]
           },
@@ -512,6 +532,14 @@
       "id": "c20b4223-8dad-43c5-a179-1fbc704f6989",
       "orderNumber": 3,
       "orderNumberDescription": "3",
+      "refId": null
+    },
+    {
+      "assets": [],
+      "description": "Tech Radar: Ready or Not - AI’s Next Frontier  ",
+      "id": "5d82990e-fb90-4d97-8abb-ef818f3c88c5",
+      "orderNumber": 4,
+      "orderNumberDescription": "4",
       "refId": null
     },
     {
