@@ -223,6 +223,13 @@
       "timestamp": "01:33:22",
       "timestampCVC5": "2026-11-09T10:23:22",
       "timestampSeconds": 5602
+    },
+    {
+      "description": "Mr. Anant Madabhushi",
+      "personId": "8a6cb0a6-0449-4af2-ae6a-08df3b2598d3",
+      "timestamp": "01:35:30",
+      "timestampCVC5": "2026-11-09T10:25:30",
+      "timestampSeconds": 5730
     }
   ],
   "markers_grouped": {
@@ -354,6 +361,13 @@
                     "timestamp": "01:33:22",
                     "timestampCVC5": "2026-11-09T10:23:22",
                     "timestampSeconds": 5602
+                  },
+                  {
+                    "description": "Mr. Anant Madabhushi",
+                    "personId": "8a6cb0a6-0449-4af2-ae6a-08df3b2598d3",
+                    "timestamp": "01:35:30",
+                    "timestampCVC5": "2026-11-09T10:25:30",
+                    "timestampSeconds": 5730
                   }
                 ],
                 "subjectId": "c20b4223-8dad-43c5-a179-1fbc704f6989",
@@ -369,6 +383,13 @@
   },
   "name": "First Global Forum on Intellectual Property and Artificial Intelligence - WIPO IP-AI GEN 26 - Day 1 Morning",
   "people": [
+    {
+      "bio": "Executive Director of the Emory Empathetic AI for Health Institute and Robert W. Woodruff Professor of Biomedical Engineering, Emory University, United States of America\nDr. Anant Madabhushi is the Robert W Woodruff Professor of Biomedical Engineering; and on the faculty in the Departments of Pathology, Biomedical Informatics, Urology and Radiology and Imaging Sciences at Emory University. He is a researcher within the Cancer Immunology program at the Winship Cancer Center and also a Research Career Scientist at the Atlanta Veterans Administration Medical Center. Dr. Madabhushi has authored over 500 peer-reviewed publications and more than 200 patents issued or pending.\nHe is a Fellow of the American Institute of Medical and Biological Engineering (AIMBE), Fellow of the Institute for Electrical and Electronic Engineers (IEEE), Fellow of the American Association for Advancement of Science (AAAS) and a Fellow of the National Academy of Inventors (NAI). His work on \"Smart Imaging Computers for Identifying lung cancer patients who need chemotherapy\" was called out by Prevention Magazine as one of the top 10 medical breakthroughs of 2018. In 2019, Nature Magazine hailed him as one of 5 scientists developing \"offbeat and innovative approaches for cancer research\". Dr. Madabhushi was named to The Pathologist’s Power List in 2019, 2020, 2021 and 2022.",
+      "email": "",
+      "id": "8a6cb0a6-0449-4af2-ae6a-08df3b2598d3",
+      "name": "Mr. Anant Madabhushi",
+      "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
     {
       "bio": "Minister of Intellectual Property, Republic of Korea\nH.E. Dr. KIM Yong Sun is Minister of Intellectual Property of the Republic of Korea. He has extensive experience in intellectual property policy, administration and international cooperation, having held a range of senior leadership positions within the Korean intellectual property system.\nPrior to his appointment as Minister in November 2025, he served as President of the Korea Intellectual Property Protection Agency (KOIPA) and Vice Commissioner of the Korean Intellectual Property Office (KIPO). His previous roles at KIPO include Director-General of the Industrial Property Policy Bureau, Chief Presiding Administrative Judge of the IP Trial and Appeal Board (IPTAB), and Director of the Intellectual Property Policy Division. He also served as IP Attaché at the Permanent Mission of the Republic of Korea to the United Nations in Geneva.\nDr. Kim holds a J.S.D. and LL.M. in Intellectual Property Law from Washington University in St. Louis School of Law and a B.A. of Urban Administration from the University of Seoul.",
       "email": "",
