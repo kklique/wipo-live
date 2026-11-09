@@ -1,7 +1,7 @@
 # [d1-11] Optional Side Event - My Robot "Roommate"
 # Day 1 · 2026-11-09 · 예정 14:30-15:00 (Geneva)
 # Speaker: Ms. Emily Kate Genatowski
-# 실제 구간 14:35:49-14:53:10 · 71문장 · 경계 방식: marker
+# 실제 구간 14:35:49-14:55:14 · 80문장 · 경계 방식: marker
 
 Yeah. She is got to visit us. I hope so. No, no, I want to picture it up there. 嗯 Yeah, he is like, I know it on, especially since we kind of promised one of those who all the people who stopped by our booth during the General Assemblies back in July. Exactly. So when I first met Emily Kate a few months ago, it immediately felt obvious we just had to invite her to the global forum. Emily Kate Janowski is an AI Domestic Robotics Researcher and PhD candidate in Digital Humanities at the University of Vienna.
 For the past two years she has been living with TOVA, a Uni3 robot in Austria turning her own apartment into a real -world robotics lab. Due to unforeseen circumstances involving custom fees and train travel, Tova unfortunately could not join us today. So Emily is here today with another Unitry robot.
@@ -74,3 +74,12 @@ This was very, very tricky because there were a lot of people that I met with in
 So we absolutely will not do it, which I understand the argument.
 I completely see where they are going with this. And yet, however, we still need to develop some form of certification or identification measures. Then we have the concept of energy management as we spoke about. This could be battery swaps and interoperable batteries that we could try to use. or this could be some form of a charger that works for all different battery types, even if the battery has to be different based on the construction of the actual robot.
 If we could have the slides back a little bit, I would love to see them. I will go like this. Amazing. Cybersecurity and privacy. I cannot tell you how many times I have been invited to a talk and then last minute, disinvited because they were not sure how to prove the cybersecurity and the safety of the actual robot with their team in this particular location. So there are a lot of issues when it comes to trying to standardize the cyber security of the software that is inside the robot.
+Then we have the concept very clearly displayed here today about mobility and public infrastructure and making sure that we have modes and methods. If anyone here is from Austria, you may know that I have a very widely publicized, very funny tongue-in-cheek thing going in the media of does my robot need a ticket on the local tram in Vienna?
+And I have been going back and forth and back and forth with the local transit authority and we are no closer to an actual conclusion on that one, but it is great to have the public discourse going.
+So my robot is exclusively Uber.
+Until we figure out something better.
+Then we spoke a little bit about the hardware maintenance and just the acknowledgement of the fact that if we do have more standardized hardware, then the maintenance will be less expensive and it will run smoother. And then near and dear to my heart is insurance and accountability.
+So measures that we can take so that we can actually ensure these robots and ensure that the way in which they are handled, the way in which they are deployed is safe and responsible for everyone.
+And the best way to do that, in my opinion, is to ensure that we know at all times who is accountable for its actions, what is a legal entity, whether that is a company, whether that is an organization, whether that is an individual that is going to take accountability for the way in which the robot is acting and operating. So all of that is to say that facilitating the deployment coordination efforts during this development stage, if we can also protect the core IP, will make this mass adoption event a lot safer, a lot less expensive, and a lot smoother.
+So if IP is a key barrier to this sort of coordination before we actually reach the market, these transparency pillars, which hopefully have inspired you here today, as you have heard these stories, could provide a potential solution to interoperability. So thank you so much.
+I hope you enjoyed it and we will be out and about throughout the day.
