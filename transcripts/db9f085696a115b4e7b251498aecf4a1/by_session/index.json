@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T16:56:45+00:00",
+ "generated": "2026-11-09T16:58:47+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -738,21 +738,21 @@
    "start": "16:25",
    "end": "17:25",
    "people": "Moderator: Ms. Natalie Corthésy | Speakers: Mr. Anderson Rocha; Ms. Kalpana Tyagi; Mr. Jakob Plesner Mathiasen; Mr. Marco Bassini; Ms. Imogen Heap",
-   "n_lines": 166,
+   "n_lines": 165,
    "method": "marker",
    "file": "d1-15_protecting-what-makes-us-human-is-ip-the-answer.txt",
    "actual_start": "2026-11-09T16:54:25+01:00",
-   "actual_end": "2026-11-09T17:56:34+01:00",
+   "actual_end": "2026-11-09T17:56:17+01:00",
    "line_from": 1879,
-   "line_to": 2044,
+   "line_to": 2043,
    "speakers": [
     {
      "key": "d1-15__ms-natalie-corthesy",
      "name": "Ms. Natalie Corthésy",
      "affiliation": "Associate Dean of Teaching and Learning, Senior Lecturer in Law, The University of the West Indies, Mona Campus, Jamaica",
      "role": "moderator",
-     "n_lines": 36,
-     "n_words": 2017,
+     "n_lines": 35,
+     "n_words": 1973,
      "n_turns": 15,
      "file": "d1-15__ms-natalie-corthesy.txt",
      "method": "marker"
@@ -823,9 +823,37 @@
    "start": "17:25",
    "end": "17:55",
    "people": "",
-   "n_lines": 0,
-   "method": "not-reached",
-   "file": null
+   "n_lines": 3,
+   "method": "marker",
+   "file": "d1-16_floor-interventions-from-member-states-and-obser.txt",
+   "actual_start": "2026-11-09T17:56:34+01:00",
+   "actual_end": "2026-11-09T17:58:11+01:00",
+   "line_from": 2044,
+   "line_to": 2046,
+   "speakers": [
+    {
+     "key": "d1-16__unknown",
+     "name": "(진행/도입)",
+     "affiliation": "",
+     "role": "unknown",
+     "n_lines": 2,
+     "n_words": 62,
+     "n_turns": 1,
+     "file": "d1-16__unknown.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-16__h-e-mr-kairat-torebayev",
+     "name": "H.E. Mr. Kairat Torebayev",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 1,
+     "n_words": 84,
+     "n_turns": 1,
+     "file": "d1-16__h-e-mr-kairat-torebayev.txt",
+     "method": "marker"
+    }
+   ]
   },
   {
    "id": "d1-17",

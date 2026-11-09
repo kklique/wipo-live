@@ -1,7 +1,7 @@
 # [d1-15] Protecting What Makes us Human - Is IP the Answer?
 # Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva)
 # Moderator: Ms. Natalie Corthésy | Speakers: Mr. Anderson Rocha; Ms. Kalpana Tyagi; Mr. Jakob Plesner Mathiasen; Mr. Marco Bassini; Ms. Imogen Heap
-# 실제 구간 16:54:25-17:56:34 · 166문장 · 경계 방식: marker
+# 실제 구간 16:54:25-17:56:17 · 165문장 · 경계 방식: marker
 
 So we reconvene at 4.45. See you in 15. Thank you very much. Welcome back from the coffee break. So let's get started.
 I hope you had a chance of another caffeine to recharge your battery? and the next session is going to personal. Imagine someone using AI to recreate your face. your voice, your your memories, perhaps even to make you appear to say or do something you never said or did. AI is getting better, at it every day.
@@ -168,4 +168,3 @@ Anderson, final two words. Okay, I still have one hour to speak. I would say tha
 all of these come after education. And I think that we can work on all fronts together and in parallel.
 Thank you. Thank you very much.
 Thank you to all my panelists. I think this has been a wonderful and very engaging informative discussion. And I am particularly spurred up from the discussion because certainly I am from a jurisdiction where we actually do protect computer generated works in our Copyright Act and that gives me a very different perspective on the discussion we have had about deepfakes and how we might treat with that.
-And I am also from the land of great regular performers and people that we love to replicate, you know, permission sometimes, which is not so nice. But I am hoping everyone you have enjoyed this discussion and thank you to all the panelists.
