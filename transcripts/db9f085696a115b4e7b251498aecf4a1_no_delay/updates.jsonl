@@ -4125,3 +4125,6 @@
 {"ts": "2026-11-09T12:34:40+00:00", "type": "partial", "line_number": 509, "text": "Thank you."}
 {"ts": "2026-11-09T13:02:51+00:00", "type": "partial", "line_number": 509, "text": "Thank you."}
 {"ts": "2026-11-09T13:21:09+00:00", "type": "partial", "line_number": 509, "text": "Thank you."}
+{"ts": "2026-11-09T13:25:43+00:00", "type": "partial", "line_number": 509, "text": "Thank you. I'm Marco."}
+{"ts": "2026-11-09T13:25:45+00:00", "type": "final", "line_number": 509, "end_time_iso": "2026-11-09T13:25:44.353472", "text": "Thank you. I'm Marco. Hello. Hello, Marco.", "batch": 1, "catchup": false}
+{"ts": "2026-11-09T13:25:45+00:00", "type": "partial", "line_number": 510, "text": "Can you hear me?"}
