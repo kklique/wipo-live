@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T09:40:40+00:00",
+ "generated": "2026-11-09T09:42:41+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -83,13 +83,13 @@
    "start": "10:15",
    "end": "10:45",
    "people": "",
-   "n_lines": 51,
+   "n_lines": 55,
    "method": "schedule",
    "file": "d1-03_ministerial-level-remarks.txt",
    "actual_start": "2026-11-09T10:15:10+01:00",
-   "actual_end": "2026-11-09T10:40:29+01:00",
+   "actual_end": "2026-11-09T10:42:27+01:00",
    "line_from": 34,
-   "line_to": 84,
+   "line_to": 88,
    "speakers": [
     {
      "key": "d1-03__unknown",
@@ -129,8 +129,8 @@
      "name": "Mr. Hesham Azmi",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 2,
-     "n_words": 140,
+     "n_lines": 6,
+     "n_words": 357,
      "n_turns": 1,
      "file": "d1-03__mr-hesham-azmi.txt",
      "method": "marker"
