@@ -490,3 +490,12 @@ The language of a new technology appears in research before it appears in invent
 _Day 1 13:00-14:30_
 
 The width of each band is a count of patent applications. So almost four in five of these applications used coined in research in 2013 and 2014. Auto encoders, word embeddings, sequence to sequence models, and above all generative adversarial networks, which alone accounted for 860 of the 1,726 applications. Now look at the bottom of this graphic.
+The language the next wave of generative AI. pre-trained language models, diffusion models, those were coined in research in 2018 and through 2020. And it is already there in a very thin line. only 37 applications at that time. So the words of the ChatGPT era were in the patent record even before ChatGPT. They were just really small.
+So in principle we could see them if we knew what we were looking for. So the trip from science to invention actually goes quickly. It is surprising actually how fast it happens.
+Patents cite the research they build on.
+Each gray dot in this graphic is a landmark research paper. The gold dots are the US patents that cite it, placed at the year the application was filed.
+The bigger the dot, the more patents.
+The first GAN paper was published in 2014 and inventors cited it in applications filed in 2015. 57 applications were filed in 2017.
+The transformer paper published in June of 2017 was cited in applications that very same year. The GPT -3 and the diffusion model, both from 2020, were cited in filings from 2020.
+In other words, inventors were building on these breakthroughs within a year or two. And the path from science to patents is fast and it is measurable. So this is a short presentation because we are going to lunch and I do not want to delay anything, but that is the briefcase study of generative AI. Now let's put it all back together. And if you do this, if you step back from generative AI and put these signals in order, we get a ladder.
+Each rung comes earlier than the one above it.
