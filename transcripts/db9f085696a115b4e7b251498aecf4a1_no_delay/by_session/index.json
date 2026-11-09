@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T09:48:46+00:00",
+ "generated": "2026-11-09T09:50:47+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -146,13 +146,13 @@
    "start": "10:45",
    "end": "10:55",
    "people": "Speaker: Mr. Ren Ito",
-   "n_lines": 7,
+   "n_lines": 10,
    "method": "schedule",
    "file": "d1-04_tech-radar-ready-or-not-ai-s-next-frontier.txt",
    "actual_start": "2026-11-09T10:45:22+01:00",
-   "actual_end": "2026-11-09T10:48:35+01:00",
+   "actual_end": "2026-11-09T10:50:34+01:00",
    "line_from": 193,
-   "line_to": 199,
+   "line_to": 202,
    "speakers": [
     {
      "key": "d1-04__mr-ren-ito",
@@ -170,10 +170,21 @@
      "name": "H.E. Ms. Liisa-Ly Pakosta",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 6,
-     "n_words": 361,
+     "n_lines": 8,
+     "n_words": 484,
      "n_turns": 1,
      "file": "d1-04__h-e-ms-liisa-ly-pakosta.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-04__h-e-ms-mari-leena-talvitie",
+     "name": "H. E. Ms. Mari-Leena Talvitie",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 1,
+     "n_words": 62,
+     "n_turns": 1,
+     "file": "d1-04__h-e-ms-mari-leena-talvitie.txt",
      "method": "marker"
     }
    ]

@@ -167,6 +167,13 @@
       "timestamp": "00:55:33",
       "timestampCVC5": "2026-11-09T09:45:33",
       "timestampSeconds": 3333
+    },
+    {
+      "description": "H. E. Ms. Mari-Leena Talvitie",
+      "personId": "2a546b99-fe4a-456b-8e91-08df3bfd2d66",
+      "timestamp": "00:59:58",
+      "timestampCVC5": "2026-11-09T09:49:58",
+      "timestampSeconds": 3598
     }
   ],
   "markers_grouped": {
@@ -242,6 +249,13 @@
                     "timestamp": "00:55:33",
                     "timestampCVC5": "2026-11-09T09:45:33",
                     "timestampSeconds": 3333
+                  },
+                  {
+                    "description": "H. E. Ms. Mari-Leena Talvitie",
+                    "personId": "2a546b99-fe4a-456b-8e91-08df3bfd2d66",
+                    "timestamp": "00:59:58",
+                    "timestampCVC5": "2026-11-09T09:49:58",
+                    "timestampSeconds": 3598
                   }
                 ],
                 "subjectId": "c20b4223-8dad-43c5-a179-1fbc704f6989",
@@ -257,6 +271,13 @@
   },
   "name": "First Global Forum on Intellectual Property and Artificial Intelligence - WIPO IP-AI GEN 26 - Day 1 Morning",
   "people": [
+    {
+      "bio": "Minister of Science and Culture, Finland\nBorn on 11 June 1980 in Vaasa, Mari-Leena Talvitie (nee Kairivaara) grew up in a family of entrepreneurs in South Ostrobothnia. Having completed her matriculation examination at the general upper secondary school of Ilmajoki in 1999, she then studied at the University of Oulu and graduated as a Master of Science in environmental technology in 2010.\nTalvitie first became a Member of Parliament from the electoral district of Oulu in 2015. Since then, she has served as Vice-Chair of the Administration Committee and been a member of various parliamentary committees, such as the Education and Culture Committee, the Environment Committee and the Legal Affairs Committee. Talvitie has been a Member of the Finnish Delegation to the Arctic Parliamentary Conference throughout her years as a Member of Parliament. She has also served as vice-chair of the National Coalition Party's parliamentary group.\nOver the course of her political career, she has held the position of vice-chair of the National Coalition Party and chair of the party council of the National Coalition Party. Talvitie has been a member of the Oulu City Council since 2005. She has also chaired the Oulu City Executive, Oulu City Council, Oulu Regional Environmental Committee, Educational Consortium OSAO, and North Ostrobothnia Regional Assembly. Talvitie was also chair of the executive board of the Academic Engineers and Architects in Finland TEK.\nBefore being elected to Parliament, Talvitie worked in the food industry and as an assistant to several Members of Parliament.\nShe has a husband and two daughters. Talvitie, who was a girl scout in her youth, enjoys physical exercise, outdoor activities and various cultural pursuits.",
+      "email": "",
+      "id": "2a546b99-fe4a-456b-8e91-08df3bfd2d66",
+      "name": "H. E. Ms. Mari-Leena Talvitie",
+      "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
     {
       "bio": "Minister of Justice and Digital Affairs, Republic of Estonia\nMinister of Justice and Digital Affairs of the Republic of Estonia from 23. July 2024. She is a member of the Eesti 200 Party.\nCareer:\n- 2023–2024 Member of the 15th Riigikogu, Chair of the European Union Affairs Committee\n- 2022 Director General of the National Heritage Board\n- 2015–2022 Gender Equality and Equal Treatment Commissioner\n- 2009–2014 Member of the 11th and 12th Riigikogu, Deputy Chair of the Anti-Corruption Select Committee (2013–2014)\n- 2008–2009 Head of the Planning Department of the Ministry of the Interior\n- 2004–2008 Member of the Board of AS Suur Eesti Raamatuklubi, Editor-in-Chief of AS Ühinenud Ajakirjad\n- 2005–2009 and 2015–2017 Member of the Tallinn City Council\n- 2002–2005 Project Manager at the Estonian Academy of Arts, 2015–2016 Head of Research and Development Department and lecturer\n- 1999–2001 Deputy Mayor of Tallinn\n- 1998–1999 Head of the Tallinn Cultural Heritage Department\n- 1997–1998 Head of the Department of Information and Development at Tallinn City Government\n- 1995–1997 Director of ME Tallinn Tourist Information\n- 1994–1995 Information clerk at the Ministry of Foreign Affairs Education\nLiisa-Ly Pakosta graduated from the University of Tartu in 1993 with a degree in history and from Tallinn University in 2021 with a master’s degree in law. She has started her doctoral studies in law at the University of Tartu in 2022.\nIn 2023 L.-L. Pakosta was awarded the Commander Cross of the Swedish Royal Order of the Polar Star.\nMember of the Supervisory Board of the Estonian Open Air Museum in 2013–2015, Member of the Supervisory Board of the Estonian Anti-Doping and Sports Ethics Foundation since 2019. Her hobbies are crafting, culture, working out, and pets.",
       "email": "",
