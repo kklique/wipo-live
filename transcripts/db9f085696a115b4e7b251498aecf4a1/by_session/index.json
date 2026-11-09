@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T14:24:05+00:00",
+ "generated": "2026-11-09T14:26:08+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -236,13 +236,13 @@
    "start": "10:55",
    "end": "11:05",
    "people": "Speaker: Mr. Anant Madabhushi",
-   "n_lines": 89,
+   "n_lines": 93,
    "method": "marker",
    "file": "d1-05_showcase-1-ai-in-action-from-ideas-to-real-world.txt",
    "actual_start": "2026-11-09T11:23:24+01:00",
-   "actual_end": "2026-11-09T15:23:40+01:00",
+   "actual_end": "2026-11-09T15:25:30+01:00",
    "line_from": 250,
-   "line_to": 1702,
+   "line_to": 1706,
    "speakers": [
     {
      "key": "d1-05__unknown",
@@ -304,8 +304,8 @@
      "name": "Mr. Edward Lee",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 6,
-     "n_words": 418,
+     "n_lines": 10,
+     "n_words": 666,
      "n_turns": 1,
      "file": "d1-05__mr-edward-lee.txt",
      "method": "marker"
