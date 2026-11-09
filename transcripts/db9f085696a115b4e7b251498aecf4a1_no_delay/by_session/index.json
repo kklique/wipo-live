@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T15:12:58+00:00",
+ "generated": "2026-11-09T15:14:59+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -666,13 +666,13 @@
    "start": "16:10",
    "end": "16:25",
    "people": "",
-   "n_lines": 11,
+   "n_lines": 16,
    "method": "cue",
    "file": "d1-14_coffee-break.txt",
    "actual_start": "2026-11-09T16:07:25+01:00",
-   "actual_end": "2026-11-09T16:12:35+01:00",
+   "actual_end": "2026-11-09T16:14:46+01:00",
    "line_from": 940,
-   "line_to": 950
+   "line_to": 955
   },
   {
    "id": "d1-15",
