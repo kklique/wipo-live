@@ -195,6 +195,20 @@
       "timestamp": "00:59:34",
       "timestampCVC5": "2026-11-09T14:19:34",
       "timestampSeconds": 3574
+    },
+    {
+      "description": "Ms. Ulrike Till",
+      "personId": "e43c4a9d-684b-499d-a3de-fdcac48abfa9",
+      "timestamp": "01:06:50",
+      "timestampCVC5": "2026-11-09T14:26:50",
+      "timestampSeconds": 4010
+    },
+    {
+      "description": "Ms. Elena Perrotti",
+      "personId": "3dffddda-75c6-4963-8e95-08df3bfd2d66",
+      "timestamp": "01:07:36",
+      "timestampCVC5": "2026-11-09T14:27:36",
+      "timestampSeconds": 4056
     }
   ],
   "markers_grouped": {
@@ -304,6 +318,20 @@
                     "timestamp": "00:59:34",
                     "timestampCVC5": "2026-11-09T14:19:34",
                     "timestampSeconds": 3574
+                  },
+                  {
+                    "description": "Ms. Ulrike Till",
+                    "personId": "e43c4a9d-684b-499d-a3de-fdcac48abfa9",
+                    "timestamp": "01:06:50",
+                    "timestampCVC5": "2026-11-09T14:26:50",
+                    "timestampSeconds": 4010
+                  },
+                  {
+                    "description": "Ms. Elena Perrotti",
+                    "personId": "3dffddda-75c6-4963-8e95-08df3bfd2d66",
+                    "timestamp": "01:07:36",
+                    "timestampCVC5": "2026-11-09T14:27:36",
+                    "timestampSeconds": 4056
                   }
                 ],
                 "subjectId": "1fda6de4-644a-4a61-af86-3dccad676ba9",
@@ -338,6 +366,13 @@
       "email": "",
       "id": "d562c637-4924-46a9-ae72-08df3b2598d3",
       "name": "Mr. Edward Lee",
+      "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "Executive Director, Public Affairs and Media Policy, WAN-IFRA, World Association of News Publishers, France.\nElena Perotti is Executive Director of Media Policy and Public Affairs at WAN-IFRA, the World Association of News Publishers, representing more than 20,000 media brands and 60 national publishers' associations in 120 countries.. For 20 years at WAN-IFRA she has been the person in charge of the relationship with the global community of WAN-IFRA member associations of news media publishers, and main liaison with the organisation's governing bodies. For over a decade she has studied and advocated on the relationship between big tech and publishers on behalf of WAN-IFRA's members, developing an early specialisation in how AI is reshaping the news publishing business. She leads WAN-IFRA's regular policy briefings, keeping members promptly informed of the most relevant global media policy developments and giving them exclusive access to experts, and holds executive briefings for publisher CEOs on the role of policy in shaping the (emerging AI) content marketplace. She represents the industry before international bodies including the UN, WIPO, UNESCO, IGF, and the Council of Europe, and serves on the Advisory Group of the M20, a global initiative driving information integrity, AI governance, and press freedom within the G20 framework https://media20.org/about/#m20advisorygroup. A frequent speaker at conferences worldwide, she also oversees WAN-IFRA's News Literacy initiatives. She holds a Master's degree in International Trade Law.",
+      "email": "",
+      "id": "3dffddda-75c6-4963-8e95-08df3bfd2d66",
+      "name": "Ms. Elena Perrotti",
       "photoUrl": "./assets/images/noPicSpeaker.png "
     },
     {

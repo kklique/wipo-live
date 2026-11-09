@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T14:26:09+00:00",
+ "generated": "2026-11-09T14:28:12+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -236,13 +236,13 @@
    "start": "10:55",
    "end": "11:05",
    "people": "Speaker: Mr. Anant Madabhushi",
-   "n_lines": 47,
+   "n_lines": 51,
    "method": "marker",
    "file": "d1-05_showcase-1-ai-in-action-from-ideas-to-real-world.txt",
    "actual_start": "2026-11-09T11:41:19+01:00",
-   "actual_end": "2026-11-09T15:26:03+01:00",
+   "actual_end": "2026-11-09T15:27:50+01:00",
    "line_from": 248,
-   "line_to": 850,
+   "line_to": 854,
    "speakers": [
     {
      "key": "d1-05__unknown",
@@ -282,9 +282,9 @@
      "name": "Ms. Ulrike Till",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 10,
-     "n_words": 700,
-     "n_turns": 1,
+     "n_lines": 11,
+     "n_words": 744,
+     "n_turns": 2,
      "file": "d1-05__ms-ulrike-till.txt",
      "method": "marker"
     },
@@ -293,10 +293,21 @@
      "name": "Mr. Edward Lee",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 12,
-     "n_words": 741,
+     "n_lines": 14,
+     "n_words": 891,
      "n_turns": 1,
      "file": "d1-05__mr-edward-lee.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-05__ms-elena-perrotti",
+     "name": "Ms. Elena Perrotti",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 1,
+     "n_words": 14,
+     "n_turns": 1,
+     "file": "d1-05__ms-elena-perrotti.txt",
      "method": "marker"
     }
    ]
