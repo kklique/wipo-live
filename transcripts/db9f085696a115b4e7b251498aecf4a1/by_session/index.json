@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T11:14:23+00:00",
+ "generated": "2026-11-09T11:16:25+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -341,13 +341,13 @@
    "start": "11:40",
    "end": "12:50",
    "people": "Moderator: Mr. Stanley Lai | Speakers: Ms. Chijioke Okorie; Ms. Myrtha Hurtado Rivas; Mr. Gaétan de Rassenfosse; Mr. Antony Taubman; Ms. Caroline Gueye",
-   "n_lines": 21,
+   "n_lines": 27,
    "method": "cue",
    "file": "d1-08_super-session-back-to-first-principles-is-the-ip.txt",
    "actual_start": "2026-11-09T12:07:23+01:00",
-   "actual_end": "2026-11-09T12:14:04+01:00",
+   "actual_end": "2026-11-09T12:16:01+01:00",
    "line_from": 1308,
-   "line_to": 1328,
+   "line_to": 1334,
    "speakers": [
     {
      "key": "d1-08__mr-stanley-lai",
@@ -358,6 +358,17 @@
      "n_words": 908,
      "n_turns": 1,
      "file": "d1-08__mr-stanley-lai.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-08__mr-antony-taubman",
+     "name": "Mr. Antony Taubman",
+     "affiliation": "Honorary Professor, Queen Mary University of London, Senior Fellow, University of Melbourne, Australia",
+     "role": "panelist",
+     "n_lines": 6,
+     "n_words": 247,
+     "n_turns": 1,
+     "file": "d1-08__mr-antony-taubman.txt",
      "method": "marker"
     }
    ]

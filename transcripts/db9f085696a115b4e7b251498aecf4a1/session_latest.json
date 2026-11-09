@@ -278,6 +278,13 @@
       "timestamp": "02:18:00",
       "timestampCVC5": "2026-11-09T11:08:00",
       "timestampSeconds": 8280
+    },
+    {
+      "description": "Mr. Anthony Taubman",
+      "personId": "eb7acc7b-7394-488b-b897-e15a6918ae07",
+      "timestamp": "02:24:15",
+      "timestampCVC5": "2026-11-09T11:14:15",
+      "timestampSeconds": 8655
     }
   ],
   "markers_grouped": {
@@ -482,6 +489,13 @@
                     "timestamp": "02:18:00",
                     "timestampCVC5": "2026-11-09T11:08:00",
                     "timestampSeconds": 8280
+                  },
+                  {
+                    "description": "Mr. Anthony Taubman",
+                    "personId": "eb7acc7b-7394-488b-b897-e15a6918ae07",
+                    "timestamp": "02:24:15",
+                    "timestampCVC5": "2026-11-09T11:14:15",
+                    "timestampSeconds": 8655
                   }
                 ],
                 "subjectId": "59023b79-b078-455c-a939-254b6858c034",
@@ -587,6 +601,13 @@
       "id": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
       "name": "H.E. Mr. Kairat Torebayev",
       "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "Honorary Professor, Queen Mary University of London, Senior Fellow, University of Melbourne, Australia  ",
+      "email": "",
+      "id": "eb7acc7b-7394-488b-b897-e15a6918ae07",
+      "name": "Mr. Anthony Taubman",
+      "photoUrl": "https://amcpwewipoassets.blob.core.windows.net/assets/3d1e155e-8dd6-43ae-8629-4ea37729860a.PNG"
     },
     {
       "bio": "<a href=\"https://www.wipo.int/about-wipo/en/dg_tang/cv/tang_cv.html\" target=\"_blank\">Biography of Mr Daren TANG</a>\n\n<a href=\"https://www.wipo.int/about-wipo/fr/dg_tang/cv/tang_cv.html\" target=\"_blank\">Le Directeur général Daren Tang - Biographie</a>\n\n<a href=\"https://www.wipo.int/about-wipo/es/dg_tang/cv/tang_cv.html\" target=\"_blank\">Daren Tang: Biografía</a>\n\n<a href=\"https://www.wipo.int/about-wipo/ru/dg_tang/cv/tang_cv.html\" target=\"_blank\">Генеральный директор Дарен Танг</a>\n\n<a href=\"https://www.wipo.int/about-wipo/ar/dg_tang/cv/tang_cv.html\" target=\"_blank\">المدير العام دارين تانغ</a>\n\n<a href=\"https://www.wipo.int/lisbon/zh/index.html\" target=\"_blank\">总干事邓鸿森</a>",
