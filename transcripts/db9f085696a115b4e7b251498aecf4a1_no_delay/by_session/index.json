@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T12:10:14+00:00",
+ "generated": "2026-11-09T12:12:17+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -352,13 +352,13 @@
    "start": "11:40",
    "end": "12:50",
    "people": "Moderator: Mr. Stanley Lai | Speakers: Ms. Chijioke Okorie; Ms. Myrtha Hurtado Rivas; Mr. Gaétan de Rassenfosse; Mr. Antony Taubman; Ms. Caroline Gueye",
-   "n_lines": 99,
+   "n_lines": 106,
    "method": "cue",
    "file": "d1-08_super-session-back-to-first-principles-is-the-ip.txt",
    "actual_start": "2026-11-09T12:21:37+01:00",
-   "actual_end": "2026-11-09T13:10:04+01:00",
+   "actual_end": "2026-11-09T13:12:13+01:00",
    "line_from": 361,
-   "line_to": 460,
+   "line_to": 467,
    "speakers": [
     {
      "key": "d1-08__mr-stanley-lai",
@@ -442,9 +442,9 @@
      "name": "Mr. Gaétan de Rassenfosse",
      "affiliation": "Associate Professor of Science Technology and Innovation Policy, Ecole Polytechnique Fédérale de Lausanne, Belgium",
      "role": "panelist",
-     "n_lines": 6,
-     "n_words": 449,
-     "n_turns": 1,
+     "n_lines": 13,
+     "n_words": 783,
+     "n_turns": 2,
      "file": "d1-08__mr-gaetan-de-rassenfosse.txt",
      "method": "marker"
     }
