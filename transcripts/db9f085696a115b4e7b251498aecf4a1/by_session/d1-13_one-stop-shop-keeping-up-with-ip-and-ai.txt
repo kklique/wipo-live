@@ -1,7 +1,7 @@
 # [d1-13] One-Stop Shop: Keeping up with IP and AI
 # Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva)
 # Speakers: Mr. Andres Guadamuz; Mr. Wang Qian; Mr. Edward Lee
-# 실제 구간 15:00:32-15:32:08 · 43문장 · 경계 방식: marker
+# 실제 구간 15:00:32-15:34:01 · 50문장 · 경계 방식: marker
 
 Another great question which I will answer very quickly and I will also direct you, given that question, to speak to my colleague over there. But I use my actual, I use a unitree G1 EDU and I use it out of box. So I am not a developer and most of the consumer market are not going to be developers. So I use it as anybody would if they took it out of the box, turned it on, charged it up, turned it on and let it come into their home.
 But there are a number of incredible organizations, robotics clubs, individuals and companies who are very , Thank you. Good afternoon.
@@ -46,3 +46,10 @@ In August 2024, they signed a very similar one with Meta only earlier this year 
 After Newscore signed this agreement, then the rest of the industry obviously understood that there was real money to be made in this kind of agreement. At the same time, it would be good to take a pause for a second because, yes, 50 million a year sounds like a lot.
 At the same time, this is a technology that can append the whole industry. And if you think about it, Fox Corp annual revenue in the fiscal year closing June 2026 was 17.12 billion, which means that the 50 million of OpenAI or META represent only an additional 0 .
 29% of their revenues. Also AI company spent 413 billion building centers in 2025 and only 500 million licences in the content, that is a relationship of 826 to 1. Many others are instead suing the AI labs, almost all of them are included in a lawsuit.
+We saw the presentation before this one which was much more in detail, but what I want to transfer right now is that of course lawsuits are very long, are very expensive.
+There are not very many publishers who can afford it. And But there got a very important signal from the European Court of Justice just last week on the 3 rd of November.
+There is right now the first AI generative lawsuit being discussed before the European Court of Justice.
+It is like a company against Google. And for the first time we have a signal again coming from the Advocate General who said that while access to Realtime News needs a permission, very likely the access to copyrighted content for training is covered, is included in the TDM, in the text and data mining exception, unless the publisher has opted out. So, of course, the main question remains how do publishers, can publishers signal their right reservations, their opt -outs, their licensing preferences in a machine -readable way?
+to bots. So from go from a no-crawl to an actual deal, the toolkit that I have decided to present to you has five building blocks. There are opt out signals, so just know you cannot crawl.
+There are licensee protocols that ask for a deal in order to crawl.
+There are marketplaces where publishers actually get paid. Collective licenses which pull licensing, pulling rights, and publisher coalitions. The opt-out signals just tell those to stop. The EU born standard is TDN rep. which adds opt out licensing to server or HTML.
