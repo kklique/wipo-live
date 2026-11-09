@@ -1,7 +1,7 @@
 # [d1-13] One-Stop Shop: Keeping up with IP and AI
 # Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva)
 # Speakers: Mr. Andres Guadamuz; Mr. Wang Qian; Mr. Edward Lee
-# 실제 구간 15:00:32-15:34:01 · 50문장 · 경계 방식: marker
+# 실제 구간 15:00:32-15:35:58 · 56문장 · 경계 방식: marker
 
 Another great question which I will answer very quickly and I will also direct you, given that question, to speak to my colleague over there. But I use my actual, I use a unitree G1 EDU and I use it out of box. So I am not a developer and most of the consumer market are not going to be developers. So I use it as anybody would if they took it out of the box, turned it on, charged it up, turned it on and let it come into their home.
 But there are a number of incredible organizations, robotics clubs, individuals and companies who are very , Thank you. Good afternoon.
@@ -53,3 +53,9 @@ It is like a company against Google. And for the first time we have a signal aga
 to bots. So from go from a no-crawl to an actual deal, the toolkit that I have decided to present to you has five building blocks. There are opt out signals, so just know you cannot crawl.
 There are licensee protocols that ask for a deal in order to crawl.
 There are marketplaces where publishers actually get paid. Collective licenses which pull licensing, pulling rights, and publisher coalitions. The opt-out signals just tell those to stop. The EU born standard is TDN rep. which adds opt out licensing to server or HTML.
+It is free, it is open, it applies to our content. IPTC instead is photo metadata, it embeds opt out inside the image files.
+It is free and open, but it applies only to images and photos and of course metadata can be stripped. C2PA is instead a digital passport for content, its main focus is to say how our content was created and then edited and the opt out is just one of the many signals that it carries.
+It is very complex. It applies to a content. It is the only one which is supported by Big Tech. Then there are licensing protocols. where the publisher asks for a deal. Comp, for example, works this way, the bot arrives, COMP asks for identification and whether it has permission to be there. If the bot does not have a license, it directs the bot to where it can get a license and then it is still there at the door to control whether they got the license and they can access or not.
+The RSL standard, the real simple licensing, adds license in terms to robot TXT.
+While robot TXT right now only says yes or no, with RSL standards it is possible for the publisher to indicate instead other things like course, yes, no, or also you can for or you can if you pay this amount or you pay for inference or for use.
+It is easy. It is free and open and it applies to all content. Marketplaces. There are three models, three main ways to get paid.
