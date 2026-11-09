@@ -1,6 +1,6 @@
 # [d1-08] Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?
 # 발표자: Ms. Chijioke Okorie — Associate Professor of Law, University of Pretoria, Nigeria  (panelist)
-# Day 1 · 2026-11-09 · 예정 11:40-12:50 (Geneva) · 발언 2회 · 17문장 · 1,075단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 11:40-12:50 (Geneva) · 발언 2회 · 18문장 · 1,139단어 · 구분 방식: marker
 
 But from an African vantage point, do these rationales in your view sufficiently justify the IP system? and does AI widen or narrow that gap? in your view? Thank you, Stanley. I think that the principles the first principles on their own, do not sufficiently justify IP system for Africa. at least not yet. and AI widens that gap, but it also hands us an opportunity.
 The first principles rest mainly on the idea that individual 法 they would create more and all that. And the public interest would just only show up at the edges as exceptions.
@@ -20,3 +20,4 @@ The second thing also is that collective societies have also not given themselve
 You are also talking about AI solutions and AI tools. that are also themselves possibly IP protected. And we see a lot of that happening. in the African continent where there's not just use of AI tools that are imported from outside the continent. but there are AI developers that are building AI solutions. on the and that's also possibly subject of licensing. Collective licensing would also be able to play a role in that space.
 Finally, collective licensing is not just a copyright issue.
 It is solution.
+We also see collective licensing in the patent space with standard setting organizations and standard essential patents where now you have patent pools and people being able to license as a collective in that space. this, it's the same solution, lower transaction costs, higher bargaining power because now you have mass of inventors or creators. Where we need to solve is in the governance.
