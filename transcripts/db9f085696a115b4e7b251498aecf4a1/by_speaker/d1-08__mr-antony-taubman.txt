@@ -1,6 +1,6 @@
 # [d1-08] Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?
 # 발표자: Mr. Antony Taubman — Honorary Professor, Queen Mary University of London, Senior Fellow, University of Melbourne, Australia  (panelist)
-# Day 1 · 2026-11-09 · 예정 11:40-12:50 (Geneva) · 발언 1회 · 15문장 · 553단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 11:40-12:50 (Geneva) · 발언 1회 · 14문장 · 481단어 · 구분 방식: marker
 
 That is how I have known you. can absorb AI. And IP's justifications draw on well, Locke's labour, Hegel's personality and also Bentham's utility. Those of us who know this will know this.
 The Greeks distinguish poesis or the making from mimesis, which is the imitation. AI is arguably the most powerful memetic engine ever built, and does it expose a weakness in how IP is always conceived originality or does it simply sharpen the line we already draw between human creation and mechanical reproduction. Over to you. Thank you, Stanley.
@@ -16,4 +16,3 @@ Hegelian personality theory, the third of your trail for it, may support a privi
 But will our species maintain a monopoly over personhood? Imagine Claude's super daughter, Claudette, fully unambiguously creative and inventive, brimming with personality. Might she be deemed to be a legal person under a domestic law?
 Then what?
 Paris, Bern and Trix obliged protection of foreign nationals.
-Will Claudette be denied authorship, inventorship, performer's rights, writer personality, ownership of her IP? and how to tackle the other minds problem? In principle, we judge originality and inventive step against a model of human cognition. generally shared if somewhat culturally biased, a neural network operating beyond our reach in a black box simply does not fit that model. But AI will unavoidably increasingly be part of the creative and inventive process.

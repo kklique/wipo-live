@@ -289,16 +289,23 @@
     {
       "description": "Mr. Edward Lee",
       "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
-      "timestamp": "02:29:02",
-      "timestampCVC5": "2026-11-09T11:19:02",
-      "timestampSeconds": 8942
+      "timestamp": "02:28:51",
+      "timestampCVC5": "2026-11-09T11:18:51",
+      "timestampSeconds": 8931
     },
     {
       "description": "Mr. Gaétan de Rassenfosse",
       "personId": "21e44779-db8b-4434-8212-902ac31e54ff",
-      "timestamp": "02:29:41",
-      "timestampCVC5": "2026-11-09T11:19:41",
-      "timestampSeconds": 8981
+      "timestamp": "02:29:34",
+      "timestampCVC5": "2026-11-09T11:19:34",
+      "timestampSeconds": 8974
+    },
+    {
+      "description": "Mr. Edward Lee",
+      "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+      "timestamp": "02:33:13",
+      "timestampCVC5": "2026-11-09T11:23:13",
+      "timestampSeconds": 9193
     }
   ],
   "markers_grouped": {
@@ -514,16 +521,23 @@
                   {
                     "description": "Mr. Edward Lee",
                     "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
-                    "timestamp": "02:29:02",
-                    "timestampCVC5": "2026-11-09T11:19:02",
-                    "timestampSeconds": 8942
+                    "timestamp": "02:28:51",
+                    "timestampCVC5": "2026-11-09T11:18:51",
+                    "timestampSeconds": 8931
                   },
                   {
                     "description": "Mr. Gaétan de Rassenfosse",
                     "personId": "21e44779-db8b-4434-8212-902ac31e54ff",
-                    "timestamp": "02:29:41",
-                    "timestampCVC5": "2026-11-09T11:19:41",
-                    "timestampSeconds": 8981
+                    "timestamp": "02:29:34",
+                    "timestampCVC5": "2026-11-09T11:19:34",
+                    "timestampSeconds": 8974
+                  },
+                  {
+                    "description": "Mr. Edward Lee",
+                    "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+                    "timestamp": "02:33:13",
+                    "timestampCVC5": "2026-11-09T11:23:13",
+                    "timestampSeconds": 9193
                   }
                 ],
                 "subjectId": "59023b79-b078-455c-a939-254b6858c034",
