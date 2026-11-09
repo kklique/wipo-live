@@ -176,9 +176,17 @@ def main():
     runs = list_runs(a.dry_run)
     rc = 0
     for h, name in ids.items():
-        mid = f"{h}_no_delay"
-        nxt, upd = saved_state(a.data_dir, mid)
-        res = probe(mid, nxt or 1)
+        # WIPO 는 같은 세션에 '<해시>_no_delay'(저지연)와 '<해시>'(일반) 스트림이 따로 있을 수 있어 둘 다 확인하고,
+        # 데이터가 있는(또는 이미 저장 중인) 쪽을 쓴다. 저지연(_no_delay)을 우선한다.
+        chosen = None
+        for mid in (f"{h}_no_delay", h):
+            nxt, upd = saved_state(a.data_dir, mid)
+            res = probe(mid, nxt or 1)
+            cand = (mid, nxt, upd, res)
+            chosen = chosen or cand if res[0] == "none" and nxt is None else cand
+            if res[0] == "ok" or nxt is not None:
+                break
+        mid, nxt, upd, res = chosen
         action, reason = decide(mid, res, nxt, upd, runs, h in live, now)
         print(f"- {mid[:12]}… {('(' + name + ') ') if name else ''}저장위치={nxt} -> {action}: {reason}")
         if action in ("dispatch", "restart"):
