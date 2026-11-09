@@ -244,6 +244,13 @@
       "timestamp": "01:47:28",
       "timestampCVC5": "2026-11-09T15:07:28",
       "timestampSeconds": 6448
+    },
+    {
+      "description": "Ms. Ulrike Till",
+      "personId": "e43c4a9d-684b-499d-a3de-fdcac48abfa9",
+      "timestamp": "01:58:07",
+      "timestampCVC5": "2026-11-09T15:18:07",
+      "timestampSeconds": 7087
     }
   ],
   "markers_grouped": {
@@ -402,6 +409,13 @@
                     "timestamp": "01:47:28",
                     "timestampCVC5": "2026-11-09T15:07:28",
                     "timestampSeconds": 6448
+                  },
+                  {
+                    "description": "Ms. Ulrike Till",
+                    "personId": "e43c4a9d-684b-499d-a3de-fdcac48abfa9",
+                    "timestamp": "01:58:07",
+                    "timestampCVC5": "2026-11-09T15:18:07",
+                    "timestampSeconds": 7087
                   }
                 ],
                 "subjectId": "1fda6de4-644a-4a61-af86-3dccad676ba9",

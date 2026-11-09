@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T15:16:59+00:00",
+ "generated": "2026-11-09T15:19:02+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -699,13 +699,13 @@
    "start": "16:10",
    "end": "16:25",
    "people": "",
-   "n_lines": 23,
+   "n_lines": 24,
    "method": "cue",
    "file": "d1-14_coffee-break.txt",
    "actual_start": "2026-11-09T16:07:30+01:00",
-   "actual_end": "2026-11-09T16:16:45+01:00",
+   "actual_end": "2026-11-09T16:17:17+01:00",
    "line_from": 1816,
-   "line_to": 1838
+   "line_to": 1839
   },
   {
    "id": "d1-15",
@@ -716,9 +716,37 @@
    "start": "16:25",
    "end": "17:25",
    "people": "Moderator: Ms. Natalie Corthésy | Speakers: Mr. Anderson Rocha; Ms. Kalpana Tyagi; Mr. Jakob Plesner Mathiasen; Mr. Marco Bassini; Ms. Imogen Heap",
-   "n_lines": 0,
-   "method": "not-reached",
-   "file": null
+   "n_lines": 3,
+   "method": "cue",
+   "file": "d1-15_protecting-what-makes-us-human-is-ip-the-answer.txt",
+   "actual_start": "2026-11-09T16:17:57+01:00",
+   "actual_end": "2026-11-09T16:18:38+01:00",
+   "line_from": 1840,
+   "line_to": 1842,
+   "speakers": [
+    {
+     "key": "d1-15__ms-natalie-corthesy",
+     "name": "Ms. Natalie Corthésy",
+     "affiliation": "Associate Dean of Teaching and Learning, Senior Lecturer in Law, The University of the West Indies, Mona Campus, Jamaica",
+     "role": "moderator",
+     "n_lines": 2,
+     "n_words": 145,
+     "n_turns": 1,
+     "file": "d1-15__ms-natalie-corthesy.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-15__ms-ulrike-till",
+     "name": "Ms. Ulrike Till",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 1,
+     "n_words": 4,
+     "n_turns": 1,
+     "file": "d1-15__ms-ulrike-till.txt",
+     "method": "marker"
+    }
+   ]
   },
   {
    "id": "d1-16",
