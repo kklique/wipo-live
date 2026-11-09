@@ -192,16 +192,23 @@
     {
       "description": "Mr. Kasai Yasuyuki",
       "personId": "af7193f6-05eb-46bf-8e93-08df3bfd2d66",
-      "timestamp": "01:14:22",
-      "timestampCVC5": "2026-11-09T10:04:22",
-      "timestampSeconds": 4462
+      "timestamp": "01:14:24",
+      "timestampCVC5": "2026-11-09T10:04:24",
+      "timestampSeconds": 4464
     },
     {
       "description": "H.E. Mr. Kamal Shehadi",
       "personId": "6ca0705f-4bec-4f6c-8e94-08df3bfd2d66",
-      "timestamp": "01:18:42",
-      "timestampCVC5": "2026-11-09T10:08:42",
-      "timestampSeconds": 4722
+      "timestamp": "01:18:51",
+      "timestampCVC5": "2026-11-09T10:08:51",
+      "timestampSeconds": 4731
+    },
+    {
+      "description": "H.E. Mr. Ziyambi Ziyambi",
+      "personId": "56b0e973-cea1-434f-0a78-08df3e38844a",
+      "timestamp": "01:22:07",
+      "timestampCVC5": "2026-11-09T10:12:07",
+      "timestampSeconds": 4927
     }
   ],
   "markers_grouped": {
@@ -302,16 +309,23 @@
                   {
                     "description": "Mr. Kasai Yasuyuki",
                     "personId": "af7193f6-05eb-46bf-8e93-08df3bfd2d66",
-                    "timestamp": "01:14:22",
-                    "timestampCVC5": "2026-11-09T10:04:22",
-                    "timestampSeconds": 4462
+                    "timestamp": "01:14:24",
+                    "timestampCVC5": "2026-11-09T10:04:24",
+                    "timestampSeconds": 4464
                   },
                   {
                     "description": "H.E. Mr. Kamal Shehadi",
                     "personId": "6ca0705f-4bec-4f6c-8e94-08df3bfd2d66",
-                    "timestamp": "01:18:42",
-                    "timestampCVC5": "2026-11-09T10:08:42",
-                    "timestampSeconds": 4722
+                    "timestamp": "01:18:51",
+                    "timestampCVC5": "2026-11-09T10:08:51",
+                    "timestampSeconds": 4731
+                  },
+                  {
+                    "description": "H.E. Mr. Ziyambi Ziyambi",
+                    "personId": "56b0e973-cea1-434f-0a78-08df3e38844a",
+                    "timestamp": "01:22:07",
+                    "timestampCVC5": "2026-11-09T10:12:07",
+                    "timestampSeconds": 4927
                   }
                 ],
                 "subjectId": "c20b4223-8dad-43c5-a179-1fbc704f6989",
@@ -367,6 +381,13 @@
       "email": "",
       "id": "6ca0705f-4bec-4f6c-8e94-08df3bfd2d66",
       "name": "H.E. Mr. Kamal Shehadi",
+      "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "Minister of Justice, Legal and Parliamentary Affairs, Zimbabwe\n\nHonourable Ziyambi Ziyambi, Minister of Justice, Legal and \nParliamentary Affairs of the Republic of Zimbabwe, oversees the Ministry responsible for the administration of justice, legal policy and legislative development, as well as the protection and administration of intellectual property rights through Zimbabwe’s intellectual property office. He has been \nactively engaged in matters relating to intellectual property, innovation, geographical indications and the development of legal and policy frameworks that support Zimbabwe’s \nsocio-economic development. He has represented Zimbabwe at various regional and international forums and has participated in high-level WIPO programmes, including the \nWorldwide Symposium on Geographical Indications. He brings to his portfolio extensive experience in public policy, legislation, governance, and international cooperation, with a \nparticular interest in strengthening legal and institutional frameworks that promote innovation, creativity, investment and sustainable development.",
+      "email": "",
+      "id": "56b0e973-cea1-434f-0a78-08df3e38844a",
+      "name": "H.E. Mr. Ziyambi Ziyambi",
       "photoUrl": "./assets/images/noPicSpeaker.png "
     },
     {
