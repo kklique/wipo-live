@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T17:25:14+00:00",
+ "generated": "2026-11-09T17:27:16+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -823,13 +823,13 @@
    "start": "17:25",
    "end": "17:55",
    "people": "",
-   "n_lines": 45,
+   "n_lines": 48,
    "method": "marker",
    "file": "d1-16_floor-interventions-from-member-states-and-obser.txt",
    "actual_start": "2026-11-09T17:56:34+01:00",
-   "actual_end": "2026-11-09T18:25:05+01:00",
+   "actual_end": "2026-11-09T18:27:03+01:00",
    "line_from": 2044,
-   "line_to": 2100,
+   "line_to": 2103,
    "speakers": [
     {
      "key": "d1-16__unknown",
@@ -847,9 +847,9 @@
      "name": "H.E. Mr. Kairat Torebayev",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 11,
-     "n_words": 659,
-     "n_turns": 5,
+     "n_lines": 12,
+     "n_words": 724,
+     "n_turns": 6,
      "file": "d1-16__h-e-mr-kairat-torebayev.txt",
      "method": "marker"
     },
@@ -913,8 +913,8 @@
      "name": "BRAZIL",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 4,
-     "n_words": 259,
+     "n_lines": 6,
+     "n_words": 397,
      "n_turns": 1,
      "file": "d1-16__brazil.txt",
      "method": "marker"

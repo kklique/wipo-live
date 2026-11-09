@@ -635,6 +635,20 @@
       "timestamp": "04:01:54",
       "timestampCVC5": "2026-11-09T17:21:54",
       "timestampSeconds": 14514
+    },
+    {
+      "description": "H.E. Mr. Kairat Torebayev",
+      "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+      "timestamp": "04:06:04",
+      "timestampCVC5": "2026-11-09T17:26:04",
+      "timestampSeconds": 14764
+    },
+    {
+      "description": "CAMBODIA",
+      "personId": "57984fce-d44d-44c3-b4c5-dc09fe083d41",
+      "timestamp": "04:06:33",
+      "timestampCVC5": "2026-11-09T17:26:33",
+      "timestampSeconds": 14793
     }
   ],
   "markers_grouped": {
@@ -1196,6 +1210,20 @@
                     "timestamp": "04:01:54",
                     "timestampCVC5": "2026-11-09T17:21:54",
                     "timestampSeconds": 14514
+                  },
+                  {
+                    "description": "H.E. Mr. Kairat Torebayev",
+                    "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+                    "timestamp": "04:06:04",
+                    "timestampCVC5": "2026-11-09T17:26:04",
+                    "timestampSeconds": 14764
+                  },
+                  {
+                    "description": "CAMBODIA",
+                    "personId": "57984fce-d44d-44c3-b4c5-dc09fe083d41",
+                    "timestamp": "04:06:33",
+                    "timestampCVC5": "2026-11-09T17:26:33",
+                    "timestampSeconds": 14793
                   }
                 ],
                 "subjectId": "2d4252da-0e34-410e-84b5-d5708b851831",
@@ -1378,6 +1406,13 @@
       "id": "d4e97323-981e-4e98-a14b-cf9b2d565dc0",
       "name": "Mr. Wang Qian",
       "photoUrl": "https://amcpwewipoassets.blob.core.windows.net/assets/65c645c1-59fa-4981-b4f5-3fa6ee09a368.jpg"
+    },
+    {
+      "bio": "<p><a href=\"https://www.wipo.int/directory/en/details.jsp?country_code=KH\" target=\"_blank\">Country profile</a></p><p><a href=\"https://www.wipo.int/directory/fr/details.jsp?country_code=KH\" target=\"_blank\">Profil national</a><br></p><p><a href=\"https://www.wipo.int/directory/es/details.jsp?country_code=KH\" target=\"_blank\">Perfil national</a></p>",
+      "email": "",
+      "id": "57984fce-d44d-44c3-b4c5-dc09fe083d41",
+      "name": "CAMBODIA",
+      "photoUrl": "https://www.wipo.int/shared/images/flags/kh.png"
     },
     {
       "bio": "Dr. Rachel Free is a partner in the patent team at International Law Firm CMS where she helps clients to protect their technology through patents. She has an MSc in Artificial Intelligence and a DPhil in Vision Science. She qualified as a European and UK patent attorney in the last century and has worked on AI patent drafting and prosecution through her career. Rachel is a member of the All Party Parliamentary Group on AI (APPG AI) which advises parliamentarians regarding AI. She is vice Chair of the Chartered Institute of Patent Attorneys (CIPA) computer technology committee.",
