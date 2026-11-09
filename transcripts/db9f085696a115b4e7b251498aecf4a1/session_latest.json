@@ -216,6 +216,13 @@
       "timestamp": "01:21:51",
       "timestampCVC5": "2026-11-09T14:41:51",
       "timestampSeconds": 4911
+    },
+    {
+      "description": "Mr. Andres Guadamuz",
+      "personId": "477c32df-9098-49dc-8adb-c9f6b13a15ed",
+      "timestamp": "01:22:16",
+      "timestampCVC5": "2026-11-09T14:42:16",
+      "timestampSeconds": 4936
     }
   ],
   "markers_grouped": {
@@ -346,6 +353,13 @@
                     "timestamp": "01:21:51",
                     "timestampCVC5": "2026-11-09T14:41:51",
                     "timestampSeconds": 4911
+                  },
+                  {
+                    "description": "Mr. Andres Guadamuz",
+                    "personId": "477c32df-9098-49dc-8adb-c9f6b13a15ed",
+                    "timestamp": "01:22:16",
+                    "timestampCVC5": "2026-11-09T14:42:16",
+                    "timestampSeconds": 4936
                   }
                 ],
                 "subjectId": "1fda6de4-644a-4a61-af86-3dccad676ba9",
@@ -409,6 +423,13 @@
       "id": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
       "name": "H.E. Mr. Kairat Torebayev",
       "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "<p>Andres GUADAMUZ GONZALEZ</p><p><br>Reader in Intellectual Property Law at the University of Sussex and Editor in Chief of the Journal of World Intellectual Property, Costa Rica</p><p><br>Andres is a Reader in Intellectual Property Law at the University of Sussex and the Editor in Chief of the Journal of World Intellectual Property. His main research areas are on artificial intelligence and copyright, open licensing, and smart contracts. He has written two books and over 40 articles and book chapters, and also blogs regularly about different technology regulation topics.<br></p>",
+      "email": "",
+      "id": "477c32df-9098-49dc-8adb-c9f6b13a15ed",
+      "name": "Mr. Andres Guadamuz",
+      "photoUrl": "https://amcpwewipoassets.blob.core.windows.net/assets/c1bee701-78e4-4ab4-96d1-7169972e30bb.png"
     },
     {
       "bio": "Director, IP and Frontier\nTechnologies Division, Infrastructure and Platforms Sector,\nWIPO, Geneva\n\nDr. Ulrike Till is the Director of the IP and Frontier Technologies Division at WIPO.\n\nShe is anexperienced IP and patent lawyer with significant commercial background and exposure to complex\ninternational patent litigation, data exclusivity issues, commercial negotiations, competition law, settlements and agreements. In her current role, Ulrike focus on the wide reaching IP policy implications arising from digitalization, industry 4.0 and frontier technologies.\n\nUlrike is qualified both as an English solicitor and German Rechtsanwalt and has practiced in both jurisdictions. She has a technical background with a PhD in Chemistry, management training",
