@@ -253,6 +253,9 @@ def subject_marker_pos(item, lines, markers, prev, lead):
     return None
 
 
+EARLY_CUE = timedelta(minutes=15)      # 마커 없는 항목은 예정 시작 15분 전부터의 단서만 인정 (진행은 예정보다 늦어지는 일이 대부분)
+
+
 def split_day(day, lines, overrides, markers=(), lead=5.0, cue_only=False):
     """lines: [{'t': aware Geneva dt, 'ltoks': [...], ...}] 시간순. 반환: 세션별 (시작 위치, 방식) 목록."""
     date = datetime.strptime(day["date"], "%Y-%m-%d").date()
@@ -281,6 +284,8 @@ def split_day(day, lines, overrides, markers=(), lead=5.0, cue_only=False):
                 t = lines[k]["t"]
                 if not cue_only and t > E + WIN_AFTER:
                     break
+                if cue_only and t < S - EARLY_CUE:      # 예정보다 한참 이른 시각의 언급은 '다음 발표 안내' 이지 그 발표가 아님
+                    continue
                 if (cue_only or t >= E - WIN_BEFORE) and score(c, lines[k]["ltoks"]) >= THRESHOLD:
                     pos = k + 1 if it["type"] == "break" else k
                     method, anchor = "cue", t
