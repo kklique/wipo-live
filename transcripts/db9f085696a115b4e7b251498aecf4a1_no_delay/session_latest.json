@@ -216,6 +216,13 @@
       "timestamp": "01:30:29",
       "timestampCVC5": "2026-11-09T10:20:29",
       "timestampSeconds": 5429
+    },
+    {
+      "description": "CHAIR",
+      "personId": "ec07df79-cc36-48c1-acea-301e6dddfad4",
+      "timestamp": "01:33:22",
+      "timestampCVC5": "2026-11-09T10:23:22",
+      "timestampSeconds": 5602
     }
   ],
   "markers_grouped": {
@@ -340,6 +347,13 @@
                     "timestamp": "01:30:29",
                     "timestampCVC5": "2026-11-09T10:20:29",
                     "timestampSeconds": 5429
+                  },
+                  {
+                    "description": "CHAIR",
+                    "personId": "ec07df79-cc36-48c1-acea-301e6dddfad4",
+                    "timestamp": "01:33:22",
+                    "timestampCVC5": "2026-11-09T10:23:22",
+                    "timestampSeconds": 5602
                   }
                 ],
                 "subjectId": "c20b4223-8dad-43c5-a179-1fbc704f6989",
