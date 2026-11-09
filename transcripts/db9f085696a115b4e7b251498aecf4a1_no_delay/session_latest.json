@@ -380,16 +380,16 @@
     {
       "description": "Ms. Caroline Gueye",
       "personId": "0caf1bb1-6f82-46f6-ae6e-08df3b2598d3",
-      "timestamp": "02:58:56",
-      "timestampCVC5": "2026-11-09T11:48:56",
-      "timestampSeconds": 10736
+      "timestamp": "02:58:55",
+      "timestampCVC5": "2026-11-09T11:48:55",
+      "timestampSeconds": 10735
     },
     {
       "description": "Mr. Edward Lee",
       "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
-      "timestamp": "02:59:42",
-      "timestampCVC5": "2026-11-09T11:49:42",
-      "timestampSeconds": 10782
+      "timestamp": "02:59:36",
+      "timestampCVC5": "2026-11-09T11:49:36",
+      "timestampSeconds": 10776
     },
     {
       "description": "Mr. Cédric Manara",
@@ -745,16 +745,16 @@
                   {
                     "description": "Ms. Caroline Gueye",
                     "personId": "0caf1bb1-6f82-46f6-ae6e-08df3b2598d3",
-                    "timestamp": "02:58:56",
-                    "timestampCVC5": "2026-11-09T11:48:56",
-                    "timestampSeconds": 10736
+                    "timestamp": "02:58:55",
+                    "timestampCVC5": "2026-11-09T11:48:55",
+                    "timestampSeconds": 10735
                   },
                   {
                     "description": "Mr. Edward Lee",
                     "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
-                    "timestamp": "02:59:42",
-                    "timestampCVC5": "2026-11-09T11:49:42",
-                    "timestampSeconds": 10782
+                    "timestamp": "02:59:36",
+                    "timestampCVC5": "2026-11-09T11:49:36",
+                    "timestampSeconds": 10776
                   },
                   {
                     "description": "Mr. Cédric Manara",
