@@ -269,6 +269,10 @@ In this area, we have carried out multiple tests, and in them our model detected
 From then on, the company signed a .
 . support of a suspension of the State of Chile. As we are in the OMPI, a little bit of intellectual property. Our first developments, our tecnología una parte de nuestra tecnología nació born from a laboratorio de una colaboración con ENREA. the French Institute for which transferred 100% of its ownership to DROID, the rights of what was developed.
 We protected what we build in different ways. We use patents, patent applications, applications currently processed in 42 countries. thanks to the PCT system, with industrial secrets for our training data and our know-how. along with copyrights, and brands. For a small company.
+This, is not a bureaucracy. It is something key to be able to collaborate with large companies. and not lose was built. and be able to bring a local solution to other countries. The fire that begins with a person, not only in Chile, occurs throughout the basin, it occurs in California, in India, in Brazil.
+Let's go there. [Foreign Language Spoken] Let's go back to the question from the beginning. and if we could have a fire before it starts?
+We already know that our technology works.
+What follows is to be able to detect the next stage. We are moving forward on ese camino y para esto necesitamos seek territories where we can test it, institutions that support it, and people who believe that preventing a fire is worth more than reacting. That is our invitation. That is what we are looking for today on Android. Let's continue and move forward towards that fire that never existed.
 
 ## [d1-07] Coffee Break
 
