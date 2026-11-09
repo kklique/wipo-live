@@ -34,8 +34,15 @@ WIPO Live Speech-to-Text(`webcast.wipo.int/live-speech-to-text`)의 영문 실�
 
 ## 웹에서 보기 (GitHub Pages)
 
-`docs/index.html` 은 `data` 브랜치의 `transcript.txt` / `markers.jsonl` 을 브라우저가 30초마다 읽어 화면에 이어 붙이는 정적 뷰어다.
-검색, 맨 아래 따라가기, `.txt` 저장/복사, 발언자 마커 패널을 제공한다. (저장 자체는 2분마다 커밋되므로 화면은 최대 수 분 늦다.)
+`docs/index.html` 은 탭 두 개로 구성된 정적 뷰어다.
+
+| 탭 | 데이터 출처 | 내용 |
+|---|---|---|
+| **실시간** | 브라우저가 WIPO `getLiveTranscript` 를 **직접** 3초마다 호출 | 확정 문장(시각 포함) + **지금 말하는 중인 문장**(커서 표시), 글자 크기 조절, 자동 스크롤/`↓ 최신으로`. 저장·커밋 지연 없음. WIPO 연결이 안 되면(회의 시작 전 등) 저장본 마지막 30문장으로 대체 표시하고 계속 재시도 |
+| **전체 저장본** | `data` 브랜치의 `transcript.txt` / `markers.jsonl` (30초마다 확인) | 처음부터 전체 문장(번호), 검색, `.txt` 저장/복사, 발언자 마커 패널. 저장은 약 2분 간격이라 최신 몇 분은 실시간 탭에서 확인 |
+
+※ 실시간 탭은 보는 사람의 브라우저가 WIPO 서버를 직접 호출한다(webcast 페이지 자신이 하는 것과 같은 요청).
+실시간 탭의 시작 위치는 저장본 문장 수 근처로 잡아 응답을 작게 유지하고, 범위를 벗어나면 1번부터 다시 받는다.
 
 켜는 방법 (저장소 설정, 1회):
 1. 저장소를 **public** 으로 (무료 플랜의 Pages 조건)
@@ -43,7 +50,7 @@ WIPO Live Speech-to-Text(`webcast.wipo.int/live-speech-to-text`)의 영문 실�
 3. Settings → Pages → *Build and deployment* → Source: **Deploy from a branch** → Branch: `main`, Folder: `/docs` → Save
 4. 잠시 후 `https://kklique.github.io/wipo-live/` 에서 열린다.
 
-URL 파라미터: `?id=<meeting_id>` (회의 선택), `?repo=owner/name`, `?branch=data`.
+URL 파라미터: `?id=<meeting_id>` (회의 선택), `?repo=owner/name`, `?branch=data`. `#full` 을 붙이면 전체 저장본 탭으로 열린다.
 데이터는 GitHub API(`contents`, ETag 재검증)로 읽고, 한도 초과 등으로 실패하면 `raw.githubusercontent.com` 으로 폴백한다.
 
 ## 로컬 실행

@@ -7,22 +7,23 @@
 <style>
   :root {
     --bg: #fafaf9; --fg: #1c1917; --muted: #78716c; --line: #e7e5e4;
-    --card: #ffffff; --accent: #2563eb; --mark: #fde68a; --ok: #16a34a; --err: #dc2626;
+    --card: #ffffff; --accent: #2563eb; --mark: #fde68a; --ok: #16a34a; --err: #dc2626; --warn: #d97706;
+    --partial: #1d4ed8;
   }
   @media (prefers-color-scheme: dark) {
     :root {
       --bg: #161412; --fg: #e7e5e4; --muted: #a8a29e; --line: #2b2724;
-      --card: #1e1b19; --accent: #60a5fa; --mark: #713f12; --ok: #4ade80; --err: #f87171;
+      --card: #1e1b19; --accent: #60a5fa; --mark: #713f12; --ok: #4ade80; --err: #f87171; --warn: #fbbf24;
+      --partial: #93c5fd;
     }
   }
   * { box-sizing: border-box; }
-  html { scroll-padding-top: 120px; }
   body { margin: 0; background: var(--bg); color: var(--fg);
          font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans KR", sans-serif; }
   header { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line);
-           padding: 10px 16px; }
+           padding: 10px 16px 0; }
   h1 { font-size: 16px; margin: 0 0 8px; font-weight: 600; }
-  .bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 8px; }
   select, input[type=search], button {
     font: inherit; font-size: 14px; color: var(--fg); background: var(--card);
     border: 1px solid var(--line); border-radius: 6px; padding: 5px 9px; }
@@ -31,10 +32,36 @@
   button { cursor: pointer; }
   button:hover { border-color: var(--accent); }
   label.chk { font-size: 14px; color: var(--muted); display: inline-flex; gap: 5px; align-items: center; }
-  #status { font-size: 13px; color: var(--muted); margin-top: 6px; }
+  .tabs { display: flex; gap: 4px; }
+  .tab { border: 0; border-bottom: 3px solid transparent; border-radius: 0; background: none; padding: 8px 14px;
+         font-weight: 600; color: var(--muted); }
+  .tab[aria-selected=true] { color: var(--fg); border-bottom-color: var(--accent); }
+  #status { font-size: 13px; color: var(--muted); padding: 6px 0 8px; }
   #status .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--muted); margin-right: 6px; }
   #status.ok .dot { background: var(--ok); }
   #status.err .dot { background: var(--err); }
+  #status.warn .dot { background: var(--warn); }
+  .badge { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .04em; padding: 1px 7px;
+           border-radius: 10px; margin-right: 6px; background: var(--muted); color: #fff; vertical-align: 1px; }
+  #status.ok .badge { background: var(--ok); animation: pulse 1.6s ease-in-out infinite; }
+  #status.warn .badge { background: var(--warn); }
+  @keyframes pulse { 50% { opacity: .55; } }
+  [hidden] { display: none !important; }
+
+  /* 실시간 탭 */
+  #live-wrap { max-width: 900px; margin: 0 auto; padding: 8px 16px 16px; position: relative; }
+  #live-box { height: calc(100vh - 215px); min-height: 260px; overflow-y: auto; padding: 4px 4px 24px;
+              font-size: var(--live-size, 22px); line-height: 1.55; }
+  #live-box p { margin: 0 0 .6em; }
+  #live-box time { display: block; font-size: 11px; line-height: 1.2; color: var(--muted); margin-bottom: 1px;
+                   font-variant-numeric: tabular-nums; }
+  #live-box .partial { color: var(--partial); }
+  #live-box .partial::after { content: "▍"; margin-left: 2px; animation: blink 1s steps(2) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  #to-bottom { position: absolute; right: 24px; bottom: 28px; box-shadow: 0 2px 8px rgba(0,0,0,.2); }
+  .live-empty { color: var(--muted); font-size: 16px; padding: 40px 0; text-align: center; }
+
+  /* 전체 저장본 탭 */
   main { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 20px;
          max-width: 1200px; margin: 0 auto; padding: 16px; }
   #transcript p { margin: 0 0 10px; padding-left: 52px; position: relative; }
@@ -42,7 +69,7 @@
                      font-size: 12px; line-height: 2.1; font-variant-numeric: tabular-nums; user-select: none; }
   mark { background: var(--mark); color: inherit; border-radius: 2px; }
   #empty { color: var(--muted); padding: 40px 0; text-align: center; }
-  aside { align-self: start; position: sticky; top: 130px; max-height: calc(100vh - 150px); overflow: auto;
+  aside { align-self: start; position: sticky; top: 150px; max-height: calc(100vh - 170px); overflow: auto;
           background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
   aside h2 { font-size: 14px; margin: 0 0 8px; position: sticky; top: -12px; background: var(--card); padding: 2px 0; }
   aside ul { list-style: none; margin: 0; padding: 0; font-size: 13px; }
@@ -52,6 +79,7 @@
   @media (max-width: 860px) {
     main { grid-template-columns: 1fr; }
     aside { position: static; max-height: none; }
+    #live-box { height: calc(100vh - 260px); }
   }
 </style>
 </head>
@@ -60,16 +88,33 @@
   <h1>WIPO Live Speech-to-Text <span id="title-sub" style="color:var(--muted);font-weight:400"></span></h1>
   <div class="bar">
     <select id="meeting" aria-label="회의 선택"></select>
-    <input id="q" type="search" placeholder="검색 (일치하는 문장만 표시)" aria-label="검색">
-    <label class="chk"><input id="follow" type="checkbox" checked>맨 아래 따라가기</label>
-    <button id="dl" type="button">.txt 저장</button>
-    <button id="copy" type="button">복사</button>
+    <span id="live-ctl" class="bar" style="margin:0">
+      <button id="fs-dec" type="button" aria-label="글자 작게">A−</button>
+      <button id="fs-inc" type="button" aria-label="글자 크게">A+</button>
+    </span>
+    <span id="full-ctl" class="bar" style="margin:0;flex:1 1 360px" hidden>
+      <input id="q" type="search" placeholder="검색 (일치하는 문장만 표시)" aria-label="검색">
+      <label class="chk"><input id="follow" type="checkbox" checked>맨 아래 따라가기</label>
+      <button id="dl" type="button">.txt 저장</button>
+      <button id="copy" type="button">복사</button>
+    </span>
   </div>
-  <div id="status"><span class="dot"></span><span id="status-text">불러오는 중…</span></div>
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" id="tab-live" aria-selected="true" aria-controls="live-wrap">실시간</button>
+    <button class="tab" role="tab" id="tab-full" aria-selected="false" aria-controls="full-wrap">전체 저장본</button>
+  </div>
 </header>
+<div id="status" style="padding-left:16px"><span class="dot"></span><span class="badge" id="badge">LIVE</span><span id="status-text">불러오는 중…</span></div>
 
-<main>
-  <section id="transcript" aria-live="polite">
+<!-- 실시간: 브라우저가 WIPO 전사 API 를 직접 폴링 (진행 중인 문장 포함) -->
+<div id="live-wrap" role="tabpanel">
+  <div id="live-box" aria-live="polite"><div class="live-empty">연결 중…</div></div>
+  <button id="to-bottom" type="button" hidden>↓ 최신으로</button>
+</div>
+
+<!-- 전체 저장본: data 브랜치에 저장된 전체 문장 -->
+<main id="full-wrap" role="tabpanel" hidden>
+  <section id="transcript" aria-live="off">
     <div id="empty">아직 표시할 스크립트가 없습니다. 회의가 시작 전이거나 수집이 아직 시작되지 않았을 수 있습니다.</div>
   </section>
   <aside>
@@ -86,21 +131,35 @@ const q = new URLSearchParams(location.search);
 const [OWNER, REPO] = (q.get("repo") || "kklique/wipo-live").split("/");
 const BRANCH = q.get("branch") || "data";
 const DEFAULT_ID = "db9f085696a115b4e7b251498aecf4a1_no_delay";
-const POLL_MS = 30000;
+const WIPO_API = "https://www.wipo.int/s2t/live_s2t/getLiveTranscript";
+const SAVED_POLL_MS = 30000;   // 저장본(GitHub) 갱신 주기
+const LIVE_POLL_MS = 3000;     // 실시간(WIPO 직접) 폴링 주기
+const LIVE_RETRY_MS = 10000;   // 실시간 연결 실패 시 재시도 주기
+const LIVE_KEEP = 200;         // 실시간 탭에 유지하는 최대 문장 수
 
 let meeting = q.get("id") || DEFAULT_ID;
-let lines = [];          // 현재 화면의 전체 문장
-let rendered = 0;        // 검색 없이 렌더링된 문장 수
-let query = "";
-let follow = true;
-let timer = null;
+let tab = location.hash === "#full" ? "full" : "live";
 
 const $ = (id) => document.getElementById(id);
 const el = { meeting: $("meeting"), q: $("q"), follow: $("follow"), tr: $("transcript"), empty: $("empty"),
-             markers: $("markers"), mcount: $("mcount"), status: $("status"), stext: $("status-text") };
+             markers: $("markers"), mcount: $("mcount"), status: $("status"), stext: $("status-text"), badge: $("badge"),
+             liveBox: $("live-box"), toBottom: $("to-bottom") };
+const hhmmss = (iso) => (iso || "").slice(11, 19);
 
-// GitHub API(raw)로 먼저 읽고(캐시 없이 ETag 재검증), 실패하면 raw.githubusercontent.com 으로 폴백.
+/* ---------- 상태 표시 (탭별로 기억) ---------- */
+const statuses = { live: ["", "LIVE", "연결 중…"], full: ["", "저장본", "불러오는 중…"] };
+function setStatus(which, kind, badge, msg) {
+  statuses[which] = [kind, badge, msg];
+  if (which === tab) showStatus();
+}
+function showStatus() {
+  const [kind, badge, msg] = statuses[tab];
+  el.status.className = kind; el.badge.textContent = badge; el.stext.textContent = msg;
+}
+
+/* ---------- 저장본(GitHub data 브랜치) ---------- */
 async function getText(path) {
+  // GitHub API(raw, ETag 재검증)로 먼저 읽고, 실패하면 raw.githubusercontent.com 으로 폴백.
   const api = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}?ref=${BRANCH}`;
   try {
     const r = await fetch(api, { headers: { Accept: "application/vnd.github.raw" }, cache: "no-cache" });
@@ -130,6 +189,11 @@ async function loadMeetings() {
   }
 }
 
+let lines = [];          // 저장본 전체 문장
+let query = "";
+let follow = true;
+let savedTimer = null;
+
 function addLine(text, n) {
   const p = document.createElement("p");
   const num = document.createElement("span");
@@ -155,9 +219,11 @@ function renderAll() {
   lines.forEach((t, i) => {
     if (!query || t.toLowerCase().includes(query)) { addLine(t, i + 1); shown++; }
   });
-  rendered = lines.length;
-  if (!shown) { el.tr.appendChild(el.empty); el.empty.textContent = query ? "검색 결과가 없습니다." :
-    "아직 표시할 스크립트가 없습니다. 회의가 시작 전이거나 수집이 아직 시작되지 않았을 수 있습니다."; }
+  if (!shown) {
+    el.tr.appendChild(el.empty);
+    el.empty.textContent = query ? "검색 결과가 없습니다." :
+      "아직 표시할 스크립트가 없습니다. 회의가 시작 전이거나 수집이 아직 시작되지 않았을 수 있습니다.";
+  }
 }
 
 function applyTranscript(text) {
@@ -167,14 +233,11 @@ function applyTranscript(text) {
   lines = next;
   if (!query && grew && old > 0) {            // 이어 붙이기만 하면 되는 경우
     for (let i = old; i < lines.length; i++) addLine(lines[i], i + 1);
-    rendered = lines.length;
   } else {
     renderAll();
   }
-  if (follow && lines.length !== old) window.scrollTo({ top: document.body.scrollHeight });
+  if (tab === "full" && follow && lines.length !== old) window.scrollTo({ top: document.body.scrollHeight });
 }
-
-function fmtTime(iso) { return (iso || "").slice(11, 19); }
 
 function applyMarkers(text) {
   const seen = new Set(), list = [];
@@ -190,51 +253,180 @@ function applyMarkers(text) {
   el.markers.innerHTML = "";
   for (const m of list) {
     const li = document.createElement("li");
-    const t = document.createElement("time"); t.textContent = fmtTime(m.timestampCVC5);
+    const t = document.createElement("time"); t.textContent = hhmmss(m.timestampCVC5);
     li.appendChild(t); li.appendChild(document.createTextNode(m.description || ""));
     el.markers.appendChild(li);
   }
   el.mcount.textContent = list.length ? `(${list.length})` : "";
-  if (follow) el.markers.parentElement.scrollTop = el.markers.parentElement.scrollHeight;
+  if (tab === "full" && follow) el.markers.parentElement.scrollTop = el.markers.parentElement.scrollHeight;
 }
 
-function setStatus(kind, msg) { el.status.className = kind; el.stext.textContent = msg; }
-
-async function refresh() {
+async function refreshSaved() {
   const base = `transcripts/${meeting}`;
   try {
     const [t, m] = await Promise.all([getText(`${base}/transcript.txt`), getText(`${base}/markers.jsonl`).catch(() => null)]);
     if (t === null) {
       lines = []; renderAll(); applyMarkers(m);
-      setStatus("", "이 회의의 저장 데이터가 아직 없습니다. 수집이 시작되면 자동으로 표시됩니다.");
+      setStatus("full", "", "저장본", "이 회의의 저장 데이터가 아직 없습니다. 수집이 시작되면 자동으로 표시됩니다.");
     } else {
       applyTranscript(t); applyMarkers(m);
-      setStatus("ok", `${lines.length.toLocaleString()}문장 · 마지막 확인 ${new Date().toLocaleTimeString()} · ${POLL_MS / 1000}초마다 자동 갱신`);
+      setStatus("full", "ok", "저장본", `${lines.length.toLocaleString()}문장 · 마지막 확인 ${new Date().toLocaleTimeString()} · ` +
+        `${SAVED_POLL_MS / 1000}초마다 갱신 (저장은 약 2분 간격이므로 최신 내용은 '실시간' 탭에서)`);
     }
+    if (liveSource === "saved") renderLiveFromSaved();
   } catch (e) {
-    setStatus("err", `불러오기 실패 (${e.message}). 잠시 후 다시 시도합니다.`);
+    setStatus("full", "err", "저장본", `불러오기 실패 (${e.message}). 잠시 후 다시 시도합니다.`);
   }
 }
 
-function start() {
-  clearInterval(timer);
-  lines = []; rendered = 0; el.tr.innerHTML = ""; el.tr.appendChild(el.empty);
+/* ---------- 실시간 (브라우저 → WIPO 직접) ---------- */
+let liveLines = [];      // [{t: "HH:MM:SS", text}]
+let livePartial = "";    // 진행 중(미확정) 문장
+let liveCursor = null;   // 다음에 요청할 line_number
+let liveFails = 0;
+let liveSource = "direct";   // "direct": WIPO 직접, "saved": 저장본 폴백
+let liveTimer = null;
+let liveGen = 0;             // 회의 전환 시 이전 응답을 버리기 위한 세대 번호
+let atBottom = true;
+
+function renderLive() {
+  const box = el.liveBox;
+  const stick = atBottom;
+  box.innerHTML = "";
+  if (!liveLines.length && !livePartial) {
+    const d = document.createElement("div"); d.className = "live-empty";
+    d.textContent = "표시할 실시간 텍스트가 없습니다. 회의가 시작되면 자동으로 나타납니다.";
+    box.appendChild(d); return;
+  }
+  for (const l of liveLines.slice(-LIVE_KEEP)) {
+    const p = document.createElement("p");
+    if (l.t) { const t = document.createElement("time"); t.textContent = l.t; p.appendChild(t); }
+    p.appendChild(document.createTextNode(l.text));
+    box.appendChild(p);
+  }
+  if (livePartial) {
+    const p = document.createElement("p"); p.className = "partial"; p.textContent = livePartial; box.appendChild(p);
+  }
+  if (stick) box.scrollTop = box.scrollHeight;
+}
+
+function renderLiveFromSaved() {
+  liveLines = lines.slice(-30).map((text) => ({ t: "", text }));
+  livePartial = "";
+  renderLive();
+}
+
+async function fetchWipo(cursor) {
+  const url = `${WIPO_API}?meeting_id=${encodeURIComponent(meeting)}&line_number=${cursor}&cache=${Math.random()}`;
+  const r = await fetch(url, { cache: "no-store" });
+  if (!r.ok) throw new Error("HTTP " + r.status);
+  return await r.json();      // 회의 시작 전 503(HTML)이면 위에서 throw
+}
+
+async function livePoll() {
+  clearTimeout(liveTimer);
+  const gen = liveGen;
+  let delay = LIVE_POLL_MS;
+  if (!document.hidden) {
+    try {
+      // 처음에는 저장본 문장 수 근처부터 읽어 응답을 작게 유지한다. 실패하면 1번부터 전체를 읽는다.
+      const first = liveCursor === null;
+      if (first) liveCursor = Math.max(1, lines.length - 14);
+      let d;
+      try { d = await fetchWipo(liveCursor); }
+      catch (e) {
+        if (first && liveCursor !== 1) { liveCursor = 1; d = await fetchWipo(1); } else throw e;
+      }
+      if (gen !== liveGen) return;
+      const added = (d.full_lines || []).map((l) => ({ t: hhmmss(l.end_time_iso), text: (l.text || "").trim() }))
+                                        .filter((l) => l.text);
+      if (first || liveSource !== "direct") liveLines = [];
+      liveLines = liveLines.concat(added).slice(-LIVE_KEEP);
+      livePartial = ((d.last_line || {}).text || "").trim();
+      if (Number.isInteger(d.next_line_number) && d.next_line_number >= liveCursor) liveCursor = d.next_line_number;
+      else liveCursor += (d.full_lines || []).length;
+      liveFails = 0; liveSource = "direct";
+      renderLive();
+      setStatus("live", "ok", "LIVE", `WIPO에서 직접 수신 중 · 마지막 수신 ${new Date().toLocaleTimeString()} · ${LIVE_POLL_MS / 1000}초마다`);
+    } catch (e) {
+      if (gen !== liveGen) return;
+      liveFails++; delay = LIVE_RETRY_MS;
+      if (liveFails >= 3) {
+        liveCursor = null;                     // 다음 시도 때 시작 위치를 다시 잡는다
+        if (liveSource !== "saved") { liveSource = "saved"; }
+        renderLiveFromSaved();
+        setStatus("live", "warn", "대기", lines.length
+          ? "WIPO 실시간 연결 불가 — 저장본(최대 수 분 지연)을 표시합니다. 회의 시작 전이면 정상입니다."
+          : "회의 시작 전이거나 WIPO에서 응답이 없습니다. 자동으로 다시 시도합니다.");
+      } else {
+        setStatus("live", "warn", "대기", `연결 재시도 중… (${liveFails}/3)`);
+      }
+    }
+  }
+  liveTimer = setTimeout(livePoll, delay);
+}
+
+function resetLive() {
+  liveGen++; clearTimeout(liveTimer);
+  liveLines = []; livePartial = ""; liveCursor = null; liveFails = 0; liveSource = "direct"; atBottom = true;
+  el.liveBox.innerHTML = '<div class="live-empty">연결 중…</div>';
+  setStatus("live", "", "LIVE", "연결 중…");
+}
+
+/* ---------- 탭 / 이벤트 ---------- */
+function selectTab(name) {
+  tab = name;
+  $("tab-live").setAttribute("aria-selected", name === "live");
+  $("tab-full").setAttribute("aria-selected", name === "full");
+  $("live-wrap").hidden = name !== "live"; $("live-ctl").hidden = name !== "live";
+  $("full-wrap").hidden = name !== "full"; $("full-ctl").hidden = name !== "full";
+  history.replaceState(null, "", name === "full" ? "#full" : location.pathname + location.search);
+  showStatus();
+  if (name === "live") { el.liveBox.scrollTop = el.liveBox.scrollHeight; }
+  else if (follow) window.scrollTo({ top: document.body.scrollHeight });
+}
+$("tab-live").addEventListener("click", () => selectTab("live"));
+$("tab-full").addEventListener("click", () => selectTab("full"));
+
+function startAll() {
   $("title-sub").textContent = "· " + meeting;
-  refresh();
-  timer = setInterval(() => { if (!document.hidden) refresh(); }, POLL_MS);
+  lines = []; el.tr.innerHTML = ""; el.tr.appendChild(el.empty);
+  resetLive();
+  clearInterval(savedTimer);
+  refreshSaved().finally(livePoll);          // 저장본 문장 수를 먼저 알아야 실시간 시작 위치를 잡을 수 있다
+  savedTimer = setInterval(() => { if (!document.hidden) refreshSaved(); }, SAVED_POLL_MS);
 }
 
 el.meeting.addEventListener("change", () => {
   meeting = el.meeting.value;
   const u = new URL(location.href); u.searchParams.set("id", meeting); history.replaceState(null, "", u);
-  start();
+  startAll();
 });
 el.q.addEventListener("input", () => { query = el.q.value.trim().toLowerCase(); renderAll(); });
 el.follow.addEventListener("change", () => { follow = el.follow.checked; });
 window.addEventListener("scroll", () => {
+  if (tab !== "full") return;
   const nearBottom = window.innerHeight + window.scrollY >= document.body.scrollHeight - 120;
   if (!nearBottom && follow) { follow = false; el.follow.checked = false; }
 });
+el.liveBox.addEventListener("scroll", () => {
+  atBottom = el.liveBox.scrollTop + el.liveBox.clientHeight >= el.liveBox.scrollHeight - 40;
+  el.toBottom.hidden = atBottom;
+});
+el.toBottom.addEventListener("click", () => { atBottom = true; el.liveBox.scrollTop = el.liveBox.scrollHeight; el.toBottom.hidden = true; });
+
+// 글자 크기 (실시간 탭)
+let fs = 22;
+try { fs = Number(localStorage.getItem("wipo-fs")) || 22; } catch (e) { /* 저장소 사용 불가 */ }
+function applyFs() {
+  fs = Math.min(48, Math.max(14, fs));
+  document.documentElement.style.setProperty("--live-size", fs + "px");
+  try { localStorage.setItem("wipo-fs", String(fs)); } catch (e) { /* 무시 */ }
+}
+$("fs-dec").addEventListener("click", () => { fs -= 2; applyFs(); });
+$("fs-inc").addEventListener("click", () => { fs += 2; applyFs(); });
+applyFs();
+
 $("dl").addEventListener("click", () => {
   const a = document.createElement("a");
   a.href = URL.createObjectURL(new Blob([lines.join("\n") + "\n"], { type: "text/plain;charset=utf-8" }));
@@ -245,9 +437,12 @@ $("copy").addEventListener("click", async (e) => {
   catch (err) { e.target.textContent = "복사 실패"; }
   setTimeout(() => { e.target.textContent = "복사"; }, 1500);
 });
-document.addEventListener("visibilitychange", () => { if (!document.hidden) refresh(); });
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden) { refreshSaved(); livePoll(); }
+});
 
-loadMeetings().then(start);
+selectTab(tab);
+loadMeetings().then(startAll);
 </script>
 </body>
 </html>
