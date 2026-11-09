@@ -632,9 +632,9 @@
     {
       "description": "BRAZIL",
       "personId": "32438551-653e-4da5-8ace-aa18a0b58d81",
-      "timestamp": "04:01:54",
-      "timestampCVC5": "2026-11-09T17:21:54",
-      "timestampSeconds": 14514
+      "timestamp": "04:01:51",
+      "timestampCVC5": "2026-11-09T17:21:51",
+      "timestampSeconds": 14511
     },
     {
       "description": "H.E. Mr. Kairat Torebayev",
@@ -663,6 +663,13 @@
       "timestamp": "04:10:09",
       "timestampCVC5": "2026-11-09T17:30:09",
       "timestampSeconds": 15009
+    },
+    {
+      "description": "H.E. Mr. Kairat Torebayev",
+      "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+      "timestamp": "04:14:12",
+      "timestampCVC5": "2026-11-09T17:34:12",
+      "timestampSeconds": 15252
     }
   ],
   "markers_grouped": {
@@ -1221,9 +1228,9 @@
                   {
                     "description": "BRAZIL",
                     "personId": "32438551-653e-4da5-8ace-aa18a0b58d81",
-                    "timestamp": "04:01:54",
-                    "timestampCVC5": "2026-11-09T17:21:54",
-                    "timestampSeconds": 14514
+                    "timestamp": "04:01:51",
+                    "timestampCVC5": "2026-11-09T17:21:51",
+                    "timestampSeconds": 14511
                   },
                   {
                     "description": "H.E. Mr. Kairat Torebayev",
@@ -1252,6 +1259,13 @@
                     "timestamp": "04:10:09",
                     "timestampCVC5": "2026-11-09T17:30:09",
                     "timestampSeconds": 15009
+                  },
+                  {
+                    "description": "H.E. Mr. Kairat Torebayev",
+                    "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+                    "timestamp": "04:14:12",
+                    "timestampCVC5": "2026-11-09T17:34:12",
+                    "timestampSeconds": 15252
                   }
                 ],
                 "subjectId": "2d4252da-0e34-410e-84b5-d5708b851831",
