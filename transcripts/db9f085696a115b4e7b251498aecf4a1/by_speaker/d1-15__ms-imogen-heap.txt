@@ -1,6 +1,6 @@
 # [d1-15] Protecting What Makes us Human - Is IP the Answer?
 # 발표자: Ms. Imogen Heap — Recording Artist and Technologist, United Kingdom  (panelist)
-# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 2회 · 18문장 · 730단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 2회 · 19문장 · 766단어 · 구분 방식: marker
 
 Thank you so much. I am hoping we could hear from Imogen Heap. as an artist, her perspective on the interests of creators and performers, the importance of ensuring that the interests and preferences of individual artists to be taken into account when considering the impact of AI on copyright and the creative industries. is.
 Hello there.
@@ -15,6 +15,7 @@ We are missing that.
 And actually, in the music industry, we have a lot of credits that are not able to be seen. and that is something that really we can only solve at the individual level to contribute to getting their house in order, getting their preferences in order and their credits in order, in order for people to build services on top of that, that can innovate with confidence. So, yeah, we feel we have a framework which can contribute to these future laws.
 And, you know, I think it is not just about musicians. Everyone in the room is contributing to the AI output in the world, whether you have chosen to or not. We are lucky in a way to have some framework for IP, for music. But again, that choice for us currently is being decided at a large level, you know, chosen by labels to do deals, for example, with Warner and Suno.
 
+Thank you. I believe the Danish proposal sets a period of 50 years after death, and I wondered, Imogen, if you would weigh in for us how you feel about possibly having rights in another dimension?
 Is that something that is important to you?
 Do you think the law should be thinking about? not just your rights right now, but what these rights should potentially and for how long. Imogen? Hello.
 Yeah.
