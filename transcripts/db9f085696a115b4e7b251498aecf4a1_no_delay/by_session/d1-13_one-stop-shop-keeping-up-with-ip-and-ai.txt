@@ -1,7 +1,7 @@
 # [d1-13] One-Stop Shop: Keeping up with IP and AI
 # Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva)
 # Speakers: Mr. Andres Guadamuz; Mr. Wang Qian; Mr. Edward Lee
-# 실제 구간 15:00:31-15:52:03 · 88문장 · 경계 방식: marker
+# 실제 구간 15:00:31-15:54:21 · 93문장 · 경계 방식: marker
 
 Thank you. Good afternoon.
 What a fascinating topics we discussed today. So welcome back.
@@ -91,3 +91,8 @@ As far as I know, and I'm happy to see if this has happened. As far as I know, S
 There was a copyright lawsuit and this was four questions were referred to the Court of Justice. I won't go into a lot of detail in the interest of time. As it has been mentioned already, the just last week Advocate General Spooner published an opinion. It's fantastic. It's very, very long. It's very, very detailed. Some takeaways, training is covered by the text and data mining exception which I have been advocating for as long as there has been a debate.
 Opt-outs, however, should be respected and memorization is guarded against, you could say. Real answers may infringe publishers' rights and you shall not circumvent any paywalls, which could be interesting for the future. This is the AG Spooner's opinion. The court can decide against it, but I think this is a really, really good opinion. if I may say so myself. Then, just briefly, the the same in Europe, we have regulation the AI Act, it's mostly not about copyright, but it has a couple of provisions that are related to copyright, particularly Article 53 on refers to general purpose artificial intelligence models.
 There is a technical definition of what that means. that I have never memorized. It involves teraflops and all sorts of things. that I don't remember. Just in the interest of I'm going to completely run out of time. There is now a summary for training.
+If you are training, there is a template in the Commission and you have to fulfill it. And you also have to respect existing copyrights. So I was going slower than I thought I was. Just quickly, another of the world, there has been temporary injunction on any media and open AI. in India in a Delhi court. district court, which has been very interesting because was case where the court actually analyzed the jurisdiction, recognized that the training had taken place in the United States, but it has oops, I ran out of time.
+alarm.
+I'll go very quickly. There was an injunction that favored mostly OpenAI, analyzed for use and -- sorry. and actually analyze for use under the U.S. because the training had taken place in the U.S. It's very, very fascinating decision. I highly recommend it. So, again, very quickly, China with had three all the three legal situations have happened. I am missing a lot of cases. on the authorship question.
+China has been at the forefront of the authorship question. There has been cases starting in 2023 about image protecting images that have been generated images and videos and dramas that have been generated under AI, starting with Li and Liu. and most recently there was a video that was protected in Shenzhen, if I remember correctly. and two cases. one against platforms and one against outputs, both related to Ultraman and if you are fans of Japanese of life, Japanese action from the '70s, you will realize that this is actually not Ultraman.
+This is a mid -journeys version of Ultraman. I am respecting copyright. Just briefly, and the rest of the world, we have had a case in Brazil, FOLA and OpenAI. and this did not produce a result. and missing is a case that is going, it was in Argentina in sorry I'm running out of time. time.
