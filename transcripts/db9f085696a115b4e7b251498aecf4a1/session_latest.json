@@ -327,6 +327,20 @@
       "timestamp": "02:37:42",
       "timestampCVC5": "2026-11-09T11:27:42",
       "timestampSeconds": 9462
+    },
+    {
+      "description": "Mr. Edward Lee",
+      "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+      "timestamp": "02:40:38",
+      "timestampCVC5": "2026-11-09T11:30:38",
+      "timestampSeconds": 9638
+    },
+    {
+      "description": "Ms. Caroline Gueye",
+      "personId": "0caf1bb1-6f82-46f6-ae6e-08df3b2598d3",
+      "timestamp": "02:41:32",
+      "timestampCVC5": "2026-11-09T11:31:32",
+      "timestampSeconds": 9692
     }
   ],
   "markers_grouped": {
@@ -580,6 +594,20 @@
                     "timestamp": "02:37:42",
                     "timestampCVC5": "2026-11-09T11:27:42",
                     "timestampSeconds": 9462
+                  },
+                  {
+                    "description": "Mr. Edward Lee",
+                    "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+                    "timestamp": "02:40:38",
+                    "timestampCVC5": "2026-11-09T11:30:38",
+                    "timestampSeconds": 9638
+                  },
+                  {
+                    "description": "Ms. Caroline Gueye",
+                    "personId": "0caf1bb1-6f82-46f6-ae6e-08df3b2598d3",
+                    "timestamp": "02:41:32",
+                    "timestampCVC5": "2026-11-09T11:31:32",
+                    "timestampSeconds": 9692
                   }
                 ],
                 "subjectId": "59023b79-b078-455c-a939-254b6858c034",
@@ -614,6 +642,13 @@
       "email": "",
       "id": "42f6d057-4e34-48f9-ae6d-08df3b2598d3",
       "name": "Ms. Myrtha Hurtado Rivas",
+      "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "Visual Artist, Senegal ",
+      "email": "",
+      "id": "0caf1bb1-6f82-46f6-ae6e-08df3b2598d3",
+      "name": "Ms. Caroline Gueye",
       "photoUrl": "./assets/images/noPicSpeaker.png "
     },
     {
