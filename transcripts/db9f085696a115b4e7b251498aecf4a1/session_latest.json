@@ -397,6 +397,13 @@
       "timestamp": "03:02:01",
       "timestampCVC5": "2026-11-09T16:22:01",
       "timestampSeconds": 10921
+    },
+    {
+      "description": "Ms. Natalie Corthésy",
+      "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+      "timestamp": "03:05:10",
+      "timestampCVC5": "2026-11-09T16:25:10",
+      "timestampSeconds": 11110
     }
   ],
   "markers_grouped": {
@@ -714,6 +721,13 @@
                     "timestamp": "03:02:01",
                     "timestampCVC5": "2026-11-09T16:22:01",
                     "timestampSeconds": 10921
+                  },
+                  {
+                    "description": "Ms. Natalie Corthésy",
+                    "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+                    "timestamp": "03:05:10",
+                    "timestampCVC5": "2026-11-09T16:25:10",
+                    "timestampSeconds": 11110
                   }
                 ],
                 "subjectId": "5c4b21a8-f209-492f-9b8f-4996178c9dab",
