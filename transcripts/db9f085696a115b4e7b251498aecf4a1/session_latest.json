@@ -348,6 +348,13 @@
       "timestamp": "02:51:24",
       "timestampCVC5": "2026-11-09T16:11:24",
       "timestampSeconds": 10284
+    },
+    {
+      "description": "Mr. Marco Bassini",
+      "personId": "9c88cfe9-aa83-4392-9656-57e8ab082717",
+      "timestamp": "02:52:19",
+      "timestampCVC5": "2026-11-09T16:12:19",
+      "timestampSeconds": 10339
     }
   ],
   "markers_grouped": {
@@ -616,6 +623,13 @@
                     "timestamp": "02:51:24",
                     "timestampCVC5": "2026-11-09T16:11:24",
                     "timestampSeconds": 10284
+                  },
+                  {
+                    "description": "Mr. Marco Bassini",
+                    "personId": "9c88cfe9-aa83-4392-9656-57e8ab082717",
+                    "timestamp": "02:52:19",
+                    "timestampCVC5": "2026-11-09T16:12:19",
+                    "timestampSeconds": 10339
                   }
                 ],
                 "subjectId": "5c4b21a8-f209-492f-9b8f-4996178c9dab",
@@ -693,6 +707,13 @@
       "id": "ec07df79-cc36-48c1-acea-301e6dddfad4",
       "name": "CHAIR",
       "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "Marco Bassini is an Assistant Professor of Fundamental Rights and<br>Artificial Intelligence at the Tilburg Institute for Law, Technology, and<br>Society (TILT), Tilburg University. He teaches, among other courses,<br>Regulation and Governance of AI in the Law and Technology master’s<br>program and Law, Technology, and Society in the Global Law bachelor<br>program. He is also the Principal Investigator of the Dutch-government<br>funded research grant “RetrAIn – Enforcing Constitutional Rights in the<br>Age of Generative Artificial Intelligence” and one of the experts selected<br>by the European AI Office for the drawing-up of the General Purpose AI Code of Practice. He<br>previously served as Adjunct Professor of Constitutional Law and Internet Law at Bocconi<br>University, where he was also the Coordinator of the LLM in Law of Internet Technology from<br>2020 to 2023. He obtained his PhD in Constitutional Law and European Law from the University<br>of Verona in 2016. A qualified lawyer with the Bar of Milan (Italy) since 2013, Dr. Bassini has<br>over a decade of experience combining academic research with legal practice. He has worked<br>as data protection counsel at international law firms in Milan and Rome, and served as Data<br>Protection Officer for a leading Italian company. In addition, he has advised the Italian<br>Communications Authority and the Italian Ministry for Technological Innovation. His expertise<br>spans data protection law, AI regulation, and media law.;;",
+      "email": "",
+      "id": "9c88cfe9-aa83-4392-9656-57e8ab082717",
+      "name": "Mr. Marco Bassini",
+      "photoUrl": "https://amcpwewipoassets.blob.core.windows.net/assets/8203b65f-2d7f-4c6d-9ba4-91e426f7c013.PNG"
     },
     {
       "bio": "Daryl Lim is the H. Laddie Montague Jr. Chair in Law at Penn State Dickinson Law. He is also the Associate Dean for Research and Strategic Partnerships and Founding Director of the Intellectual Property (IP) Law and Innovation Initiative. At the university level, he is a co-hire at the Institute of Computational and Data Sciences and was appointed to its Research Council in 2025. He is also an affiliate at the Center for Socially Responsible Artificial Intelligence.;",
