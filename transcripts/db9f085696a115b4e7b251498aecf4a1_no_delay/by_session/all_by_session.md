@@ -169,6 +169,10 @@ _Day 1 10:55-11:05 · Speaker: Mr. Anant Madabhushi_
 Our creators require absolute assurance of credit and compensation. just as our developers need clear, predictable rules to innovate with confidence. our legislation also defines an inventor as the natural person who devised the invention. One, hopefully I have conveyed that AI on routine images can transform precision medicine. Secondly, when we talk about IP, let's focus on patenting the pattern, not necessarily the algorithm. IP is the bridge from paper to patient, but only if it generalizes, and that's where the validation is so absolutely critical. And finally, we have to build democratization into the IP strategy so that these licensing models can be kept low cost and accessible, particularly in low and middle income countries.
 Thank you very much.
 And I just want to do a quick shout out to the amazing students and faculty and postdocs that have the pleasure and honor of working with.
+It's a powerful example of how AI is embedding entrepreneurs to track the pressing challenges of its own communities and develop solutions with the potential to make difference beyond the And there is an important Intellectual Property story. to support that. DROVIT is a 2026 WIPO Global Award winner. and recognized in innovation support by the comprehensive IP strategy. For our second AI in action showcase, please welcome the Christian Lyon, founder of and chief executive of the officer of the the Draud Technologies.
+I would like to start with a question, and if we could have a fire before it starts.
+It is not a theoretical question. In February of 2024, a forest fire to the houses. and 134 people died. I asked this question much earlier. In 2014, we walked through the Paine Towers in the Patagonia of Chile, between more than 17,000 hectares burned. That fire occurred in por un descuido. Later, during the pandemic, I had the opportunity to investigate and see the way to stop a fire.
+before it starts. Y fue en el droid a finales del 2020. Every fire in Frestal begins with a person, around 9 out of 10.
 
 ## [d1-07] Coffee Break
 
