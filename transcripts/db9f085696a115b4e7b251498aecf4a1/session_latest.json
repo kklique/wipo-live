@@ -220,16 +220,16 @@
     {
       "description": "CHAIR",
       "personId": "ec07df79-cc36-48c1-acea-301e6dddfad4",
-      "timestamp": "01:33:22",
-      "timestampCVC5": "2026-11-09T10:23:22",
-      "timestampSeconds": 5602
+      "timestamp": "01:33:09",
+      "timestampCVC5": "2026-11-09T10:23:09",
+      "timestampSeconds": 5589
     },
     {
       "description": "Mr. Anant Madabhushi",
       "personId": "8a6cb0a6-0449-4af2-ae6a-08df3b2598d3",
-      "timestamp": "01:35:30",
-      "timestampCVC5": "2026-11-09T10:25:30",
-      "timestampSeconds": 5730
+      "timestamp": "01:35:20",
+      "timestampCVC5": "2026-11-09T10:25:20",
+      "timestampSeconds": 5720
     }
   ],
   "markers_grouped": {
@@ -358,16 +358,16 @@
                   {
                     "description": "CHAIR",
                     "personId": "ec07df79-cc36-48c1-acea-301e6dddfad4",
-                    "timestamp": "01:33:22",
-                    "timestampCVC5": "2026-11-09T10:23:22",
-                    "timestampSeconds": 5602
+                    "timestamp": "01:33:09",
+                    "timestampCVC5": "2026-11-09T10:23:09",
+                    "timestampSeconds": 5589
                   },
                   {
                     "description": "Mr. Anant Madabhushi",
                     "personId": "8a6cb0a6-0449-4af2-ae6a-08df3b2598d3",
-                    "timestamp": "01:35:30",
-                    "timestampCVC5": "2026-11-09T10:25:30",
-                    "timestampSeconds": 5730
+                    "timestamp": "01:35:20",
+                    "timestampCVC5": "2026-11-09T10:25:20",
+                    "timestampSeconds": 5720
                   }
                 ],
                 "subjectId": "c20b4223-8dad-43c5-a179-1fbc704f6989",
