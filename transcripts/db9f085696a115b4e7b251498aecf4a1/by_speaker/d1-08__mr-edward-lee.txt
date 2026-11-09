@@ -1,6 +1,6 @@
 # [d1-08] Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?
 # 발표자: Mr. Edward Lee  (floor)
-# Day 1 · 2026-11-09 · 예정 11:40-12:50 (Geneva) · 발언 4회 · 9문장 · 531단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 11:40-12:50 (Geneva) · 발언 5회 · 10문장 · 578단어 · 구분 방식: marker
 
 Will Claudette be denied authorship, inventorship, performer's rights, writer personality, ownership of her IP? and how to tackle the other minds problem? In principle, we judge originality and inventive step against a model of human cognition. generally shared if somewhat culturally biased, a neural network operating beyond our reach in a black box simply does not fit that model. But AI will unavoidably increasingly be part of the creative and inventive process.
 Can we untangle distinct human and machine inputs or do we fall back on a broader causal link to confer IP ownership on the human in the room. So prior to the pragmatic work of managing the IP system as an incentives, as a set of incentives and market regulation, confronted with the impact of AI, before delineating those boundaries of protected subject matter between mimesis and poesis, how do we address tantalizing questions around our distinct human identity and the consequence ideas of personhood, human rights and fundamental equity.
@@ -14,3 +14,5 @@ It goes back to the idea of mechanism and interplay, and this is nothing new for
 So, So yeah, AI is a profoundly, is a consequential technology. How, the basics of this is that our models learn by reading a widely available number of publicly, of public materials on the web. And this is really what we do like, you know, what we did when we created the index of Google search years ago.
 It is really to understand the web and make it accessible.
 So that is the same thing here. So getting back to your question on, you know, the first principles of IP, IP is there to promote science and arts and we really believe that AI makes that possible.
+
+So it goes beyond the different technologies that are being developed, which is very important for us. And that is why I think that us artists should also be made aware of Intellectual property and WIPO for creators developed a clip which means creators learn Intellectual Property.
