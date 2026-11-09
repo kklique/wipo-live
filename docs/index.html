@@ -75,6 +75,10 @@
   aside ul { list-style: none; margin: 0; padding: 0; font-size: 13px; }
   aside li { padding: 4px 0; border-bottom: 1px dashed var(--line); }
   aside li time { color: var(--muted); font-variant-numeric: tabular-nums; margin-right: 6px; }
+  aside li.clk { cursor: pointer; }
+  aside li.clk:hover, aside li.clk:focus { background: var(--line); outline: none; }
+  #transcript p.hit { animation: hit 4s ease-out; }
+  @keyframes hit { from { background: var(--mark); } to { background: transparent; } }
   .hint { color: var(--muted); font-size: 12px; margin-top: 8px; }
   /* 저장 상태 탭 */
   #status-wrap { max-width: 900px; margin: 0 auto; padding: 12px 16px 48px; }
@@ -327,6 +331,57 @@ function applyTranscript(text) {
   if (tab === "full" && follow && lines.length !== old) window.scrollTo({ top: document.body.scrollHeight });
 }
 
+/* ---------- 마커 클릭 -> 해당 문단으로 이동 ---------- */
+// transcript.txt 에는 시각이 없으므로, 문장별 시각이 있는 updates.jsonl 의 확정 문장(번호/시각/내용)을 읽어
+// 저장본과 같은 규칙(점 줄·필러 구간 제외)으로 거른 뒤 내용이 같은 문단에 시각을 붙인다. 마커 시각과 문장 시각은 같은 시계(UTC)다.
+let timeIndex = null;                    // {meeting, at, times: 문단별 시각(ms 또는 null)}
+async function loadTimeIndex() {
+  if (timeIndex && timeIndex.meeting === meeting && timeIndex.lineCount === lines.length && Date.now() - timeIndex.at < 60000) return timeIndex;
+  const txt = await getText(`transcripts/${meeting}/updates.jsonl`);
+  if (txt === null) return null;
+  const byNum = new Map();               // --rebuild 로 중복된 줄 번호는 마지막 것만
+  for (const row of txt.split("\n")) {
+    if (!row.includes('"final"')) continue;
+    try { const r = JSON.parse(row); if (r.type === "final" && r.text && !r.noise) byNum.set(r.line_number, r); } catch (e) { /* 무시 */ }
+  }
+  const finals = [...byNum.values()].sort((a, b) => a.line_number - b.line_number).filter((r) => !isNoise(r.text));
+  const kept = dropFiller(finals, (r) => r.text);
+  const times = new Array(lines.length).fill(null);
+  let j = 0;                             // 저장본 문단과 순서대로 짝짓기 (저장본에서 빠진 줄이 있어도 어긋나지 않게 내용으로 대응)
+  for (const r of kept) {
+    const t = Date.parse((r.end_time_iso || "") + "Z");
+    const text = r.text.trim();
+    let k = j;
+    while (k < lines.length && lines[k] !== text) k++;
+    if (k < lines.length) { times[k] = Number.isNaN(t) ? null : t; j = k + 1; }
+  }
+  let last = null;                       // 시각 없는 문단은 앞 문단의 시각을 따른다
+  for (let k = 0; k < times.length; k++) { if (times[k] === null) times[k] = last; else last = times[k]; }
+  timeIndex = { meeting, at: Date.now(), lineCount: lines.length, times };
+  return timeIndex;
+}
+
+async function goToMarker(m) {
+  try {
+    const idx = await loadTimeIndex();
+    if (!idx) { setStatus("full", "warn", "저장본", "문장 시각 기록(updates.jsonl)을 불러오지 못해 이동할 수 없습니다"); return; }
+    const target = Date.parse(m.timestampCVC5 + "Z") - 5000;       // 마커는 발언 시작보다 몇 초 늦게 찍히므로 5초 앞부터 (분할과 같은 규칙)
+    let k = idx.times.findIndex((t) => t !== null && t >= target);
+    if (k < 0) k = lines.length - 1;                                // 마커가 저장본의 마지막 시각보다 늦으면 맨 끝
+    if (k < 0) return;
+    if (query) { query = ""; el.q.value = ""; renderAll(); }        // 검색으로 걸러져 있으면 해제
+    follow = false; el.follow.checked = false;
+    const p = el.tr.children[k];
+    if (!p) return;
+    p.scrollIntoView({ block: "center", behavior: "smooth" });
+    el.tr.querySelectorAll("p.hit").forEach((x) => x.classList.remove("hit"));   // 이전 강조 해제
+    void p.offsetWidth; p.classList.add("hit");
+    setStatus("full", "ok", "저장본", `마커 '${m.description || ""}' (${gvaTime(m.timestampCVC5)}) → ${k + 1}번 문단으로 이동했습니다`);
+  } catch (e) {
+    setStatus("full", "err", "저장본", `마커 이동 실패 (${e.message})`);
+  }
+}
+
 function applyMarkers(text) {
   const seen = new Set(), list = [];
   for (const row of (text || "").split("\n")) {
@@ -343,6 +398,9 @@ function applyMarkers(text) {
     const li = document.createElement("li");
     const t = document.createElement("time"); t.textContent = gvaTime(m.timestampCVC5);
     li.appendChild(t); li.appendChild(document.createTextNode(m.description || ""));
+    li.className = "clk"; li.tabIndex = 0; li.title = "클릭하면 해당 문단으로 이동합니다";
+    li.addEventListener("click", () => goToMarker(m));
+    li.addEventListener("keydown", (ev) => { if (ev.key === "Enter") goToMarker(m); });
     el.markers.appendChild(li);
   }
   el.mcount.textContent = list.length ? `(${list.length})` : "";
