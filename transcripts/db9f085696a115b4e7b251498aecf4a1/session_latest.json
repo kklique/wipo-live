@@ -569,9 +569,16 @@
     {
       "description": "H.E. Mr. Kairat Torebayev",
       "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
-      "timestamp": "03:46:25",
-      "timestampCVC5": "2026-11-09T17:06:25",
-      "timestampSeconds": 13585
+      "timestamp": "03:46:38",
+      "timestampCVC5": "2026-11-09T17:06:38",
+      "timestampSeconds": 13598
+    },
+    {
+      "description": "SWITZERLAND",
+      "personId": "426d4315-6c9b-4093-a9fa-c3f8b1668002",
+      "timestamp": "03:46:53",
+      "timestampCVC5": "2026-11-09T17:06:53",
+      "timestampSeconds": 13613
     }
   ],
   "markers_grouped": {
@@ -1067,9 +1074,16 @@
                   {
                     "description": "H.E. Mr. Kairat Torebayev",
                     "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
-                    "timestamp": "03:46:25",
-                    "timestampCVC5": "2026-11-09T17:06:25",
-                    "timestampSeconds": 13585
+                    "timestamp": "03:46:38",
+                    "timestampCVC5": "2026-11-09T17:06:38",
+                    "timestampSeconds": 13598
+                  },
+                  {
+                    "description": "SWITZERLAND",
+                    "personId": "426d4315-6c9b-4093-a9fa-c3f8b1668002",
+                    "timestamp": "03:46:53",
+                    "timestampCVC5": "2026-11-09T17:06:53",
+                    "timestampSeconds": 13613
                   }
                 ],
                 "subjectId": "2d4252da-0e34-410e-84b5-d5708b851831",
@@ -1203,6 +1217,13 @@
       "id": "9fdbaca0-1d09-4fdd-a838-b33eb0557286",
       "name": "Mr Anderson Rocha",
       "photoUrl": "https://amcpwewipoassets.blob.core.windows.net/assets/dbad3e27-95f8-4310-bec1-fbd5f1a66fd2.PNG"
+    },
+    {
+      "bio": "<p><a href=\"https://www.wipo.int/directory/en/details.jsp?country_code=CH\" target=\"_blank\">Country profile</a></p><p><a href=\"https://www.wipo.int/directory/fr/details.jsp?country_code=CH\" target=\"_blank\">Profil national</a><br></p><p><a href=\"https://www.wipo.int/directory/es/details.jsp?country_code=CH\" target=\"_blank\">Perfil national</a></p>",
+      "email": "",
+      "id": "426d4315-6c9b-4093-a9fa-c3f8b1668002",
+      "name": "SWITZERLAND",
+      "photoUrl": "https://www.wipo.int/shared/images/flags/ch.png"
     },
     {
       "bio": "<p>Andres GUADAMUZ GONZALEZ</p><p><br>Reader in Intellectual Property Law at the University of Sussex and Editor in Chief of the Journal of World Intellectual Property, Costa Rica</p><p><br>Andres is a Reader in Intellectual Property Law at the University of Sussex and the Editor in Chief of the Journal of World Intellectual Property. His main research areas are on artificial intelligence and copyright, open licensing, and smart contracts. He has written two books and over 40 articles and book chapters, and also blogs regularly about different technology regulation topics.<br></p>",
