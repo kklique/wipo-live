@@ -113,7 +113,8 @@ def is_filler(text):
 
 def filler_repeat(text):
     """한 줄 안에서 필러 구가 3번 이상 반복 ('Yeah. Yeah. Yeah.')"""
-    return is_filler(text) and len([p for p in re.split(r"[.!?。！？]+", text) if p.strip()]) >= 3
+    return is_filler(text) and (len([p for p in re.split(r"[.!?。！？]+", text) if p.strip()]) >= 3
+                                or len(re.findall(r"\w+", text)) >= 6)       # 'Yeah. Yeah. Yeah.' / 'Thank you 嗯 嗯 嗯 嗯 ...'
 
 
 def drop_filler_runs(items, key=lambda x: x):
