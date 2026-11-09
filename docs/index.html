@@ -578,28 +578,32 @@ const progView = {};               // 세션 id -> "all" | 발표자 key (발표
 const SPEAKER_SHORT = (p) => p.name;
 
 async function listDirs() {
+  // GitHub API 는 비로그인 시간당 60회 제한이라 막힐 수 있음 -> 막히면 알려진 회의 폴더(선택된 회의와 그 짝 스트림)로 대체
   try {
     const r = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/transcripts?ref=${BRANCH}`, { cache: "no-cache" });
-    if (r.ok) return (await r.json()).filter((e) => e.type === "dir").map((e) => e.name);
+    if (r.ok) { const d = (await r.json()).filter((e) => e.type === "dir").map((e) => e.name); if (d.length) return d; }
   } catch (e) { /* 무시 */ }
-  return [];
+  const base = String(meeting || "db9f085696a115b4e7b251498aecf4a1").replace(/_no_delay$/, "");
+  return [base, base + "_no_delay"];
 }
 
 async function loadProgramIndex() {
   const dirs = await listDirs();
   const merged = {};
+  let ok = 0;
   await Promise.all(dirs.map(async (d) => {
     try {
       const t = await getText(`transcripts/${d}/by_session/index.json`);
       if (!t) return;
       const parsed = JSON.parse(t);
+      ok++;
       if (parsed.clock) NAIVE_CLOCK = parsed.clock;
       for (const e of parsed.items || []) {
         if (!merged[e.id] || (e.n_lines || 0) > (merged[e.id].n_lines || 0)) merged[e.id] = { ...e, dir: d };
       }
     } catch (e) { /* 이 회의는 분할 결과가 아직 없음 */ }
   }));
-  progIdx = merged;
+  if (ok) progIdx = merged;          // 전부 실패했으면 직전 성공본을 유지 (빈 목록으로 덮어쓰지 않음)
 }
 
 function genevaNow() {                       // "2026-11-09 10:05:03"
