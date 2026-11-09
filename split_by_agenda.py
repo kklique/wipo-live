@@ -236,7 +236,9 @@ def title_match(desc, title):
     d = norm(re.sub(r"^\s*\d+[.)]\s*", "", desc))
     t = norm(title)
     pre = norm(title.split(":")[0]) if ":" in title else t
-    return max(difflib.SequenceMatcher(None, d, t).ratio(), difflib.SequenceMatcher(None, d, pre).ratio()) >= 0.85
+    def same(a, b):                      # 'Showcase 1' 과 'Showcase 2' 는 글자 유사도가 높아도 다른 세션 (숫자가 다르면 불일치)
+        return re.findall(r"\d+", a) == re.findall(r"\d+", b) and difflib.SequenceMatcher(None, a, b).ratio() >= 0.85
+    return same(d, t) or same(d, pre)
 
 
 def subject_marker_pos(item, lines, markers, prev, lead):
