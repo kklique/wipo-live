@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T09:12:19+00:00",
+ "generated": "2026-11-09T09:14:20+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -53,21 +53,21 @@
    "start": "10:10",
    "end": "10:15",
    "people": "Speaker: H.E. Mr. Kairat Torebayev",
-   "n_lines": 8,
+   "n_lines": 17,
    "method": "schedule",
    "file": "d1-02_chair-remarks.txt",
    "actual_start": "2026-11-09T10:10:12+01:00",
-   "actual_end": "2026-11-09T10:12:04+01:00",
+   "actual_end": "2026-11-09T10:14:19+01:00",
    "line_from": 16,
-   "line_to": 23,
+   "line_to": 32,
    "speakers": [
     {
      "key": "d1-02__h-e-mr-kairat-torebayev",
      "name": "H.E. Mr. Kairat Torebayev",
      "affiliation": "Permanent Representative of the Republic of Kazakhstan to the World Trade Organization and international economic organizations, Kazakhstan",
      "role": "speaker",
-     "n_lines": 8,
-     "n_words": 321,
+     "n_lines": 17,
+     "n_words": 609,
      "n_turns": 1,
      "file": "d1-02__h-e-mr-kairat-torebayev.txt",
      "method": "agenda"

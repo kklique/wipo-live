@@ -1,7 +1,7 @@
 # [d1-02] Chair Remarks
 # Day 1 · 2026-11-09 · 예정 10:10-10:15 (Geneva)
 # Speaker: H.E. Mr. Kairat Torebayev
-# 실제 구간 10:10:12-10:12:04 · 8문장 · 경계 방식: schedule
+# 실제 구간 10:10:12-10:14:19 · 17문장 · 경계 방식: schedule
 
 It is beginning to transform the processes from which Intellectual Property itself emerges – imagination, conception and expression. We really see AI helping scientists search chemical spaces that no human could explore manually. We have seen analysing medical images, designing new materials, writing sophisticated computer code, generating content and tackling increasingly complex mathematical problems.
 singly providing solutions to some problems that eluded the best human minds for decades.
@@ -11,3 +11,12 @@ WIPO's description of this forum deliberately captures both sides of that realit
 AI is expanding the possibilities for invention and creativity while raising fundamental questions about rights, ownership and responsibility. And this development is moving extremely quickly. For some time now, commentators have tried to grapple with the deeper question of whether a machine truly thinks, understands, imagines or might one day even become conscious.
 Those questions matter, of course. But given that AI has consistently broken every single prediction of the speed of development and the day is, in fact, coming where AI can itself create AI autonomously. we must already begin to address the practical implications of this technology and what AI will mean for humanity. Will it help us to find treatments for diseases that have resisted generations of medical research?
 Will it accelerate solutions in food, energy and climate technologies, where it reviews new materials, new mathematics and perhaps even new insights into the fundamental laws of nature. I sincerely hope so. But we also have to confront other possibilities. What happens to work when machines can perform an ever-large share of cognitive and physical tasks? What happens to human creators and machines can reproduce their voices, styles and creative expressions at almost no marginal cost.
+What happens to invention when AI becomes not simply an instrument used by an inventor, but an increasingly consequential participant the inventive process. And ultimately, how do we preserve human agency, dignity and meaning in a world in which some of the attributes we have considered uniquely human increasingly have analogous or even equivalent machine counterparts.
+I confess that I first began preparing for today's speech, my instinct was to make this rather safe. balanced, moderate reassuring UN -style. But the more I thought about the scale and speed of what is happening, the less honest that seemed. because this may no longer be a moment for safe conversations for wait and see, for business as usual. The decisions that the technology companies, creators, innovators and institutions take over just the next few years will shape the relationship between humanity and technology for generations to come.
+IP is, of course, only one part of that much larger story.
+But it is an important part, and for those of us gathered under this roof, it is our part.
+So I will propose three fundamental questions for us to confront as the global IP community.
+First, what should the IP system protect and incentivize in the age of AI?
+The modern IP system, the patent system of Venice and then the first corporate statutes may have been birthed during the Ménus Ones and the Age of Enlightenment, but came into maturity during the industrial age, the 1880s. It therefore reflects the economic architecture of that period. Then came computers and the digital revolution about 100 years later. Software became critical. Algorithms became enormously valuable.
+Data became an essential economic resource.
+The Internet transformed reproduction and distribution. The IP system adapted.
