@@ -1,6 +1,6 @@
 # [d1-13] One-Stop Shop: Keeping up with IP and AI
 # 발표자: Mr. Andres Guadamuz — Reader in Intellectual Property Law, University of Sussex, Costa Rica  (panelist)
-# Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva) · 발언 1회 · 17문장 · 848단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva) · 발언 1회 · 20문장 · 1,036단어 · 구분 방식: marker
 
 From a further perspective on the decision-shaping AI and IP, we turn to Mr. Andres Guenamuis, Reader in Intellectual Property Law at the University of Sussex.
 Andres, over to you.
@@ -19,3 +19,6 @@ It was getting images one very narrowly on trademarks and passing off because un
 Then we have one of the first decisions which is versus Lyon in Germany, a photographer one of his of his pictures, if I remember correctly, included in a LION data set. So now LION is a research organization. It's not a commercial organization. Some of the models are used in training of commercial models, but but Mr. Neske sued for copyright infringement. and the court in the lower court said that this was covered under the research exception under copyright under Article 3 of the digital single market directive.
 So there was a the first instance there was a discussion of whether or not opt-outs were to be machine wearable. or plain language.
 Lion also won in appeal and it's under further appeal. under federal court of justice. in Germany. Then we have two other cases that went very different. GEMA and OpenAI. And and GEMA and SUNO. under Gemma and OpenAI, this is some lyrics, so some lyrics, it was evidence that some of the lyrics had been memorized by OpenAI models. There was a discussion of the existing text and data mining exceptions.
+and while it covered the extraction and the input phase, according to the judge, it was important that under this particular circumstance, because there had been memorization, it did not cover memorization. So OpenAI and other users were responsible for infringement. Then we have GEMA and Suno, which is the first on musical words. There were infringement of six musical works, including Chorus of Mamba No. 5, Daddy Cool, Rasputin, and some other disco songs.
+And the court found that of the recordings were obtained by stream ripping on YouTube. and there was an injunction disclosure. So pretty much GEMA won both cases. They are both under appeal, if I remember correctly. But ZUNO particularly hasn't.
+As far as I know, and I'm happy to see if this has happened. As far as I know, SUNO has not appealed. Okay. So we also have like company and Google, which has been mentioned. in July 2023, a website that has several publications. it's like a portal in Hungary, produced some articles. You wonder about the dolphin, the article was about a musician releasing dolphins in Lake Balaton in Hungary.
