@@ -1,6 +1,6 @@
 # [d1-15] Protecting What Makes us Human - Is IP the Answer?
 # 발표자: Ms. Natalie Corthésy — Associate Dean of Teaching and Learning, Senior Lecturer in Law, The University of the West Indies, Mona Campus, Jamaica  (moderator)
-# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 10회 · 24문장 · 1,360단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 11회 · 24문장 · 1,376단어 · 구분 방식: marker
 
 six perspectives. six minutes. sorry, 60 minutes. Yes. so we are moving forward and now I announce the coffee break. 15 minutes. so we reconvene at 4 .45. See you in 15. Thank you very much. Welcome back. from the coffee break. So let's get started. I hope you had a chance of another caffeine to recharge your battery? and the next session is going to personal.
 Imagine someone using AI to recreate your face. your voice, your memories, perhaps even to make you appear to say or do something you never said or did. AI is getting better. every day. So here's a question. If AI can replicate almost everything that makes you recognisable, you, who gets to decide how that digital version of you is used or not? This brings us to the fundamental challenge for Intellectual Property.
@@ -34,4 +34,5 @@ Thank you for sharing that with us. Thank you very much. Marco, I wondered if yo
 
 So that's the balance that this new provision tries to bear in Tiagi, I wondered if you would comment on perhaps what one might say is the balance that this legislation is trying to strike, and when we think about the impact of unfair competition, that this could have and how Intellectual Property rights is, I think, being put in a very vulnerable position. to continue to hold the balance.
 It has traditionally held. in this area.
-Would you comment, please? Sure. So first of all, Professor Goldstein, he very famously said, I'm just reminded, that copyright is the favorite child of technology. So every time a new technological innovation happens, it knocks the door of copyright first. So I understand that our question is bouncing back into the court of copyright. But I would also like to add here, particularly because we are talking about a bit in the context of deepfakes, personality interests.
+
+Thank you so much for that. Anderson, I wanted to ask if you would perhaps add on to Tiague's comments and share with me whether you believe moving forward as we think about the kinds of legislative regimes that could effectively advance a solution, we could think about restricting it, putting some restrictions and limitations in place. to offer flexibility. I'm thinking of, for example, a somewhat dated legislation now, but out of Guernsey, where in that image act you would have to show that you actually had a valuable personality to begin with.
