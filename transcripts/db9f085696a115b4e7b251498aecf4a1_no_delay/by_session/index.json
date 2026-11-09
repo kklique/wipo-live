@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T10:09:01+00:00",
+ "generated": "2026-11-09T10:11:03+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -261,24 +261,35 @@
    "start": "11:05",
    "end": "11:25",
    "people": "",
-   "n_lines": 6,
+   "n_lines": 11,
    "method": "schedule",
    "file": "d1-06_insight-ip-at-the-table-making-ip-part-of-the-wi.txt",
    "actual_start": "2026-11-09T11:05:12+01:00",
-   "actual_end": "2026-11-09T11:08:25+01:00",
+   "actual_end": "2026-11-09T11:10:51+01:00",
    "line_from": 226,
-   "line_to": 231,
+   "line_to": 236,
    "speakers": [
     {
      "key": "d1-06__unknown",
-     "name": "(발표자 구분 불가)",
+     "name": "(진행/도입)",
      "affiliation": "",
      "role": "unknown",
      "n_lines": 6,
      "n_words": 417,
      "n_turns": 1,
      "file": "d1-06__unknown.txt",
-     "method": "none"
+     "method": "marker"
+    },
+    {
+     "key": "d1-06__h-e-mr-kamal-shehadi",
+     "name": "H.E. Mr. Kamal Shehadi",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 5,
+     "n_words": 312,
+     "n_turns": 1,
+     "file": "d1-06__h-e-mr-kamal-shehadi.txt",
+     "method": "marker"
     }
    ]
   },

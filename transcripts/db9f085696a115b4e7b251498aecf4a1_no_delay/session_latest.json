@@ -178,16 +178,16 @@
     {
       "description": "H. E. Mr. Kim Yong Sun",
       "personId": "0cf8c942-5ebb-4264-8e8f-08df3bfd2d66",
-      "timestamp": "01:02:39",
-      "timestampCVC5": "2026-11-09T09:52:39",
-      "timestampSeconds": 3759
+      "timestamp": "01:02:51",
+      "timestampCVC5": "2026-11-09T09:52:51",
+      "timestampSeconds": 3771
     },
     {
       "description": "H.E. Mr. Edwin Tong",
       "personId": "90c6b3ea-66cc-4103-8e90-08df3bfd2d66",
-      "timestamp": "01:07:32",
-      "timestampCVC5": "2026-11-09T09:57:32",
-      "timestampSeconds": 4052
+      "timestamp": "01:07:51",
+      "timestampCVC5": "2026-11-09T09:57:51",
+      "timestampSeconds": 4071
     },
     {
       "description": "Mr. Kasai Yasuyuki",
@@ -288,16 +288,16 @@
                   {
                     "description": "H. E. Mr. Kim Yong Sun",
                     "personId": "0cf8c942-5ebb-4264-8e8f-08df3bfd2d66",
-                    "timestamp": "01:02:39",
-                    "timestampCVC5": "2026-11-09T09:52:39",
-                    "timestampSeconds": 3759
+                    "timestamp": "01:02:51",
+                    "timestampCVC5": "2026-11-09T09:52:51",
+                    "timestampSeconds": 3771
                   },
                   {
                     "description": "H.E. Mr. Edwin Tong",
                     "personId": "90c6b3ea-66cc-4103-8e90-08df3bfd2d66",
-                    "timestamp": "01:07:32",
-                    "timestampCVC5": "2026-11-09T09:57:32",
-                    "timestampSeconds": 4052
+                    "timestamp": "01:07:51",
+                    "timestampCVC5": "2026-11-09T09:57:51",
+                    "timestampSeconds": 4071
                   },
                   {
                     "description": "Mr. Kasai Yasuyuki",
