@@ -19,11 +19,6 @@ And if the way society creates, innovates and exchanges value, changes a bit, th
 Machines extended our physical strength.
 The printing press reproduced and spread knowledge exponentially.
 Electricity transforms our ability to produce and transport energy. Computers expanded our ability to calculate and present information, and the Internet transformed communication, distribution, trade, connection, and commerce.
-
-## [d1-02] Chair Remarks
-
-_Day 1 10:10-10:15 · Speaker: H.E. Mr. Kairat Torebayev_
-
 But AI is doing something different.
 It is reaching into activities that we have historically associated with the human mind itself, reasoning, analysis, synthesis, and for an increasing number of people, even cognition, creation and invention.
 For an organisation concerned with IP, that matters profoundly. Because AI is not simply transforming another industry, it is beginning to transform the processes from which Intellectual Property itself emerges – imagination, conception and expression.
@@ -82,42 +77,6 @@ _Day 1 10:15-10:45_
 And that requires something much more difficult than defending the past or predicting the future. It requires us to decide what we want the future to be. It will require national experimentation and international cooperation. It will require us to be bold enough to ask whether the institutions built for an earlier age are ready for the one now arriving. And to build a new one with today's human innovator and creator, the modern narratives of that ancient human instinct of innovation and creativity with that human creator and innovator remaining at our centre.
 This is the work I hope we can all begin together.
 Thank you very much. Excellencies, Distinguished Guests, Ladies and Gentlemen, I would like to add welcome to this Integrational Global Forum on Intellectual Property and Artificial Intelligence. Over these two days, we will consider how the IP systems can continue to support creativity and public interest as AI transference our societies. It is an honor to chair these proceedings. Before proceed and dive in to the discussions, I have to make a slight adjustment to our program.
-
-## [d1-04] Tech Radar: Ready or Not - AI's Next Frontier
-
-_Day 1 10:45-10:55 · Speaker: Mr. Ren Ito_
-
-due to the unforeseen last minute changes in timing, I will postpone the pre-recorded messages from ministers and other officials and my housekeeping remarks until and after the first key presentation. And perhaps that is a fitting way to begin the forum on Artificial Intelligence by reminding ourselves how quickly things can change. One of the key questions we have to all face is how to prepare ourselves for the future that is arriving faster than we anticipated.
-One answer, of course, is to remain flexible, and another is better understand what lies ahead. And that is precisely what the first presentation will help us to do. It is my pleasure to welcome Mr. Ren Ito, Co-Founder and chairman of Sakana AI to share his perspective on what lies ahead. Mr. Ito, the floor is yours. Thank you so much for the very kind introduction and it is a great honor to be here.
-Director General Tan, excellencies, colleagues, friends, good morning. Thank you once again for inviting me at this inaugural global forum on IP and AI. When WIPO invited me to give this 10 minutes talk on the next frontier of AI, I did what you expect, someone who runs an AI company will do.
-I asked my own AI a few ideas. Some had already occurred to me, others ideas would never have crossed my mind. But within seconds, I had almost enough material to cover both days of this forum, as you can imagine. So what exactly will be my job this morning? First, let me speak about how far has AI come so far. Take the overall performance of foundation models across a range of mass, coding, reasoning and those benchmarks.
-to give you a rough sense of the scale, if we take the 2019 level as one. the figure is to about 15 in 2023 and about 1,000 in 2026.
-That is the numerical reality.
-But what those numbers mean actually in practice, in my company, we are building a system called AI scientist.
-Give it a research topic. it designs and runs experiments.
-Interpret the results and write a paper. As an experiment, we submitted three of its papers to a workshop at ICLR, an international AI research conference. and boom, one of the three papers passed a peer review by the human researchers. So this is a good example to understand and discuss what would we actually like to hand over to AI. What is the kind of the work we are happy to give up and give it to the AI?
-Two kinds of the work can easily come up in my mind. The first one is there is work I can do myself but will happily hand over. Take my expense report after a trip like this one. I got an electronic hotel invoice in my inbox, a handwritten taxi receipt, almost unreadable, in my pocket. and a credit card statement in hundreds of different currencies. I can match it up manually, but I will be delighted if AI can do that for me.
-Easy. Then there is another kind of work I could never do on my own. Imagine a pharmaceutical company looking for a better way to deliver a drug.
-This is the true story.
-By searching patents across industries. AI might stop a small materials company whose technology could help.
-And now there is an acquisition idea worth exploring.
-I could spend my whole career reading all those patent documents. and never make that connection the pharmaceutical company who might want to acquire that material company. That is the power of AI going beyond the current human capacity. I love AI to help me spot an acquisition opportunity like that, but would I let AI decide whether to buy that company?
-What is the threshold? Pope, lay of the 19 th, makes a point about responsibility.
-AI can imitate empathy, but it has no conscience of its own. Suppose I take the AI's advice like that and buy this company. If the deal goes badly and the people lose their jobs, I cannot stand in front of those employees and say, you know what, the AI thought it was a good idea. This is why I made this decision.
-No. I have to answer for it.
-Another example, it is not a pope, but Henry Kissinger, he raised a question in his 2018 essay titled, "
-How the Enlightenment Ends.
-" Suppose AI gives us an answer that works and we use it even though we do not understand how it got there. We solved the problem, but how much have we actually learned? Of course, let me give you one example. Of course, I am happy to get on a plane even though I cannot fully explain everything that keeps in the air. But part of the reason I trust the aviation is that if something goes wrong, there are people who can work out what happened and decide what needs to change.
-So it is not a complete black box.
-When we rely on AI, what we need are the people who can do that too. The question Pope was asking is about who takes the responsibility for decision. Kissinger is asking how well we understand the answers AIs is giving us. Let's go back to my lab example. How would those two questions look like in the lab setting? Imagine this AI system which is suggesting 100 different experiments.
-One looks especially promising, but a human researcher remembers that trying something similar like that 10 years ago and she knows why it failed. Even if it was seemingly optimistic. from her experience ten years ago, she knows that that failed.
-So she takes another idea on the list, changes one condition or two, and runs the experiment, and boom, this time it works. The AI is suggesting these experiments. and she is figuring out what have to change to make it work. If all we record is her final sign-off only, if we are like shrinking the scope of our conversation and only looking at her final sign -off, that insight disappears from the story.
-So here's my question to you. Could we think about those AI at the IP system as a way to record human judgment throughout the creative process? When people invent with AI, how can the IP system capture the judgments they make along the way? so we can see what each person actually contributed. We have been talking now about what people contribute when they work with AI.
-But let me finish with a much simpler question and much harder question. Is there anything which only a human being can do? The last time I met Darren, he told me about the piece of music he heard.
-He liked it. Then, partway through, something felt a little off. Darren looked it up and discovered it had been made with AI. good instinct as a musician, talented DG with a musical background. But that conversation led me to tell him about Nina Simone, an American jazz singer and pianist who was star in the 1960s. There is a film named Before Sunset. At the end of the film, Before Sunset, Celine, played by Julie Delpy, puts on Nina Simone's recording of Just in Time.
-She sways to the music and does a little impression of Simone. I love that scene so much that I was looking for Simone's live recordings on YouTube, hundreds and 200 of different live recordings, and I found myself listening for the way she makes you wait just a little longer for the next role. Hundreds of different live performances. are all different. AI, AI itself can put chords together, make harmonious or cacophonious, whatever chords.
-It can play a little behind the beat. But what moves me is the way Celine borrows the gestures and the voice of a singer she loves. Of all the ways she could express herself in that moment, that is the one she chooses. And in that choice, you see something of who she is. Let me come back. to where I started. What was my job this morning?
-AI gave me tons of ideas to cover for both days of this forum.
 My part was to choose which of them to talk about and in what order.
 And it was up to me to explain why those choices matter to me and why I thought they might matter to you. I chose leave you with Nina Simone, and that was my job this morning.
 And Darren, I did have one other reason. I wanted to see if you remembered our conversation. So thank you very much. Thank you, Mr. Ito, for that fascinating glimpse into the next frontier of artificial intelligence. and for the helping us better understand what might lie ahead and so we can choose better. Now having demonstrated a little flexibility to our program, let me return to the pre-recorded messages I promised you earlier.
@@ -200,6 +159,42 @@ Live captions will be provided in 20 languages. For live captions, you may now s
 Due to this experimental nature, you may experience some delays compared to the original speech. You may also hear some unnatural intonations when listening to the AI voice.
 I just listened to it myself and it was quite good. So speakers should please try to pace themselves as they speak to allow the AI to keep up the pace. I understand we have the flags in the room that will raise in your notice should speaking be to be fast. It is right there. So the next most important remark is how you ask the floor and how you will manage your requests. The next two days incorporate two open floor segments.
 
+## [d1-04] Tech Radar: Ready or Not - AI's Next Frontier
+
+_Day 1 10:45-10:55 · Speaker: Mr. Ren Ito_
+
+due to the unforeseen last minute changes in timing, I will postpone the pre-recorded messages from ministers and other officials and my housekeeping remarks until and after the first key presentation. And perhaps that is a fitting way to begin the forum on Artificial Intelligence by reminding ourselves how quickly things can change. One of the key questions we have to all face is how to prepare ourselves for the future that is arriving faster than we anticipated.
+One answer, of course, is to remain flexible, and another is better understand what lies ahead. And that is precisely what the first presentation will help us to do. It is my pleasure to welcome Mr. Ren Ito, Co-Founder and chairman of Sakana AI to share his perspective on what lies ahead. Mr. Ito, the floor is yours. Thank you so much for the very kind introduction and it is a great honor to be here.
+Director General Tan, excellencies, colleagues, friends, good morning. Thank you once again for inviting me at this inaugural global forum on IP and AI. When WIPO invited me to give this 10 minutes talk on the next frontier of AI, I did what you expect, someone who runs an AI company will do.
+I asked my own AI a few ideas. Some had already occurred to me, others ideas would never have crossed my mind. But within seconds, I had almost enough material to cover both days of this forum, as you can imagine. So what exactly will be my job this morning? First, let me speak about how far has AI come so far. Take the overall performance of foundation models across a range of mass, coding, reasoning and those benchmarks.
+to give you a rough sense of the scale, if we take the 2019 level as one. the figure is to about 15 in 2023 and about 1,000 in 2026.
+That is the numerical reality.
+But what those numbers mean actually in practice, in my company, we are building a system called AI scientist.
+Give it a research topic. it designs and runs experiments.
+Interpret the results and write a paper. As an experiment, we submitted three of its papers to a workshop at ICLR, an international AI research conference. and boom, one of the three papers passed a peer review by the human researchers. So this is a good example to understand and discuss what would we actually like to hand over to AI. What is the kind of the work we are happy to give up and give it to the AI?
+Two kinds of the work can easily come up in my mind. The first one is there is work I can do myself but will happily hand over. Take my expense report after a trip like this one. I got an electronic hotel invoice in my inbox, a handwritten taxi receipt, almost unreadable, in my pocket. and a credit card statement in hundreds of different currencies. I can match it up manually, but I will be delighted if AI can do that for me.
+Easy. Then there is another kind of work I could never do on my own. Imagine a pharmaceutical company looking for a better way to deliver a drug.
+This is the true story.
+By searching patents across industries. AI might stop a small materials company whose technology could help.
+And now there is an acquisition idea worth exploring.
+I could spend my whole career reading all those patent documents. and never make that connection the pharmaceutical company who might want to acquire that material company. That is the power of AI going beyond the current human capacity. I love AI to help me spot an acquisition opportunity like that, but would I let AI decide whether to buy that company?
+What is the threshold? Pope, lay of the 19 th, makes a point about responsibility.
+AI can imitate empathy, but it has no conscience of its own. Suppose I take the AI's advice like that and buy this company. If the deal goes badly and the people lose their jobs, I cannot stand in front of those employees and say, you know what, the AI thought it was a good idea. This is why I made this decision.
+No. I have to answer for it.
+Another example, it is not a pope, but Henry Kissinger, he raised a question in his 2018 essay titled, "
+How the Enlightenment Ends.
+" Suppose AI gives us an answer that works and we use it even though we do not understand how it got there. We solved the problem, but how much have we actually learned? Of course, let me give you one example. Of course, I am happy to get on a plane even though I cannot fully explain everything that keeps in the air. But part of the reason I trust the aviation is that if something goes wrong, there are people who can work out what happened and decide what needs to change.
+So it is not a complete black box.
+When we rely on AI, what we need are the people who can do that too. The question Pope was asking is about who takes the responsibility for decision. Kissinger is asking how well we understand the answers AIs is giving us. Let's go back to my lab example. How would those two questions look like in the lab setting? Imagine this AI system which is suggesting 100 different experiments.
+One looks especially promising, but a human researcher remembers that trying something similar like that 10 years ago and she knows why it failed. Even if it was seemingly optimistic. from her experience ten years ago, she knows that that failed.
+So she takes another idea on the list, changes one condition or two, and runs the experiment, and boom, this time it works. The AI is suggesting these experiments. and she is figuring out what have to change to make it work. If all we record is her final sign-off only, if we are like shrinking the scope of our conversation and only looking at her final sign -off, that insight disappears from the story.
+So here's my question to you. Could we think about those AI at the IP system as a way to record human judgment throughout the creative process? When people invent with AI, how can the IP system capture the judgments they make along the way? so we can see what each person actually contributed. We have been talking now about what people contribute when they work with AI.
+But let me finish with a much simpler question and much harder question. Is there anything which only a human being can do? The last time I met Darren, he told me about the piece of music he heard.
+He liked it. Then, partway through, something felt a little off. Darren looked it up and discovered it had been made with AI. good instinct as a musician, talented DG with a musical background. But that conversation led me to tell him about Nina Simone, an American jazz singer and pianist who was star in the 1960s. There is a film named Before Sunset. At the end of the film, Before Sunset, Celine, played by Julie Delpy, puts on Nina Simone's recording of Just in Time.
+She sways to the music and does a little impression of Simone. I love that scene so much that I was looking for Simone's live recordings on YouTube, hundreds and 200 of different live recordings, and I found myself listening for the way she makes you wait just a little longer for the next role. Hundreds of different live performances. are all different. AI, AI itself can put chords together, make harmonious or cacophonious, whatever chords.
+It can play a little behind the beat. But what moves me is the way Celine borrows the gestures and the voice of a singer she loves. Of all the ways she could express herself in that moment, that is the one she chooses. And in that choice, you see something of who she is. Let me come back. to where I started. What was my job this morning?
+AI gave me tons of ideas to cover for both days of this forum.
+
 ## [d1-05] Showcase 1: AI in Action - From Ideas to Real-World Impact
 
 _Day 1 10:55-11:05 · Speaker: Mr. Anant Madabhushi_
@@ -225,11 +220,6 @@ We can look at the twistedness and the tortuosity of the vessels associated with
 AI can identify exactly where the cancer is.
 AI can identify the individual cancer cells and allow us to transform this pathology image into a series of quantitative representations that capture the different patterns of cell abundance and cellular diversity. And these patterns from the pathology images and the radiology images now allow us to start to connect treatment response and specific drug efficacy with cancer patients across a whole host of different cancers, and you can see multiple different cancer types over on your left, individual treatment categories like chemotherapy, immunotherapy in the middle and specific treatment combinations over on your right.
 And our group, a number of other groups, are looking at the use of these algorithms to be able to associate four different cancer patients the right treatment that has the highest likelihood of treatment benefit. Now, why does this matter?
-
-## [d1-06] Insight: IP at the Table - Making IP Part of the Wider AI Policy Landscape
-
-_Day 1 11:05-11:25_
-
 Let's take an example of hormonal receptor positive breast cancer, one of the most common breast cancers out there. The challenge is that the vast majority of women with early stage breast cancer will actually do well without chemotherapy. But the question of which women will or should get chemotherapy versus those women that can avoid chemotherapy is still an open one. We have tests that can look at the tissue, but they destroy the tissue.
 They look at the gene expression.
 These can cost thousands of dollars. But what about a country like India where the cost of chemotherapy is about $ 1,900? How do you afford a $ 4,000 test to tell you whether you need chemotherapy or not? So the opportunity is that if we can look at a digital image of a biopsy and find patterns of individual cells, we now have the opportunity to figure out exactly which women with breast cancer are going to benefit from chemotherapy.
@@ -256,6 +246,11 @@ It is really critical with these technologies to bring it to patients through th
 We do not know the outcome of the trial yet, but when the trial reads out, we will be able to associate the QVT biomarker with patient survival, with patient trajectories.
 But this is the kind of prospective validation that is really critical to take the technology from conception, patent to ultimately translation to patients. So with that, I would like to just end with some takeaways. One, hopefully I have conveyed that AI on routine images can transform precision medicine. Secondly, when we talk about IP, let's focus on patenting the pattern, not necessarily the algorithm.
 IP is the bridge from paper to patient, but only if it generalizes, and that is where the validation is so absolutely critical. And finally, we have to build democratization into the IP strategies so that these licensing models be kept low cost and accessible, particularly in low and middle income countries. Thank you very much. And I just want to do a quick shout out to the amazing students and faculty and postdocs that have the pleasure and honor of working with.
+
+## [d1-07] Coffee Break
+
+_Day 1 11:25-11:40_
+
 Thank you very much. Thank you, Professor Madabhushi. Well, we are living in the future right now. The Frontier researchers, we support your endeavors.
 Now we take the coffee break for 20 minutes. so we reconvene at 12. And with the first superception, we will reconvene for the first superception back to the first principle, is the IP system fit for the age of AI?
 Thank you. .
@@ -266,17 +261,12 @@ Yes. One. I will get through it. I will .
 . I think 嗯 Yeah, I think .
 . That is a luxury, I mean, we did not call it that. .
 
-## [d1-07] Coffee Break
-
-_Day 1 11:25-11:40_
-
-. Okay.
-Please. please. Okay.
-
 ## [d1-08] Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?
 
 _Day 1 11:40-12:50 · Moderator: Mr. Stanley Lai | Speakers: Ms. Chijioke Okorie; Ms. Myrtha Hurtado Rivas; Mr. Gaétan de Rassenfosse; Mr. Antony Taubman; Ms. Caroline Gueye_
 
+. Okay.
+Please. please. Okay.
 Welcome back. to our forum. I hope AI finds some way to serve coffee faster and better. So I hope you had a chance to recharge, connect with your colleagues over the coffee and that you now fully caffeinated because we are about to tackle some rather big questions. For the first super session.
 For our first super session, we are going back to the first principle. before we ask whether the IP systems is fit for the age of AI, perhaps we should start with a more fundamental questions. What is Intellectual Property actually for? Encouraging innovation and creativity. rewarding human ingenuity, sharing knowledge, supporting economic development, preserving culture, serving the public interests.
 With the AI changing how we create, invent and access knowledge, do we do those underlying purposes still hold? The balance we built around the systems are right ones. To help us unlock these questions, please welcome Mr. Stanley Lai, head of the IP practice of Allen and Glenhill in Singapore, who will moderate the super session back to the first principle, is the IP system fit for the age of AI? Stanley, the floor is yours.
@@ -501,9 +491,9 @@ We are able to more readily the ecosystems that these technologies are coming in
 I am not here to announce another super session.
 I am here to announce that it is lunch break and we resume at 3 o'clock. But for those of you who would like to have a glimpse of another emerging frontier in AI, have something rather special during the lunch break. At the 2.30 our option side event my robot roommate will explore what happens when the artificial intelligence moves beyond the scenes and becomes a part of your daily life. We will join the robotic research, Ms.
 
-## [d1-10] Lunch break
+## [d1-11] Optional Side Event - My Robot "Roommate"
 
-_Day 1 13:00-14:30_
+_Day 1 14:30-15:00 · Speaker: Ms. Emily Kate Genatowski_
 
 Emily Kate Janowski. and rather unusual companion, TOVA. the robot at the site she leads with.
 I encourage those interested to join us for this opportunity to explore with the mean to share our homes. and perhaps one day our daily routines with the intelligent machines. Enjoy your lunch and we look forward to welcoming you back at 3 o'clock. And for those of you who will have food over here, your dishes over here, the cafeteria closes sharp at 2 o'clock. as Swiss program.

@@ -1,6 +1,6 @@
 # [d1-04] Tech Radar: Ready or Not - AI's Next Frontier
 # 발표자: Mr. Ren Ito — Co-founder and Chairman, Sakana AI, Japan  (speaker)
-# Day 1 · 2026-11-09 · 예정 10:45-10:55 (Geneva) · 발언 1회 · 32문장 · 1,398단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 10:45-10:55 (Geneva) · 발언 1회 · 31문장 · 1,383단어 · 구분 방식: marker
 
 due to the unforeseen last minute changes in timing, I will postpone the pre-recorded messages from ministers and other officials and my housekeeping remarks until and after the first key presentation. And perhaps that is a fitting way to begin the forum on Artificial Intelligence by reminding ourselves how quickly things can change. One of the key questions we have to all face is how to prepare ourselves for the future that is arriving faster than we anticipated.
 One answer, of course, is to remain flexible, and another is better understand what lies ahead. And that is precisely what the first presentation will help us to do. It is my pleasure to welcome Mr. Ren Ito, Co-Founder and chairman of Sakana AI to share his perspective on what lies ahead. Mr. Ito, the floor is yours. Thank you so much for the very kind introduction and it is a great honor to be here.
@@ -33,4 +33,3 @@ He liked it. Then, partway through, something felt a little off. Darren looked i
 She sways to the music and does a little impression of Simone. I love that scene so much that I was looking for Simone's live recordings on YouTube, hundreds and 200 of different live recordings, and I found myself listening for the way she makes you wait just a little longer for the next role. Hundreds of different live performances. are all different. AI, AI itself can put chords together, make harmonious or cacophonious, whatever chords.
 It can play a little behind the beat. But what moves me is the way Celine borrows the gestures and the voice of a singer she loves. Of all the ways she could express herself in that moment, that is the one she chooses. And in that choice, you see something of who she is. Let me come back. to where I started. What was my job this morning?
 AI gave me tons of ideas to cover for both days of this forum.
-My part was to choose which of them to talk about and in what order.
