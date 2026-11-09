@@ -1,7 +1,7 @@
 # [d1-13] One-Stop Shop: Keeping up with IP and AI
 # Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva)
 # Speakers: Mr. Andres Guadamuz; Mr. Wang Qian; Mr. Edward Lee
-# 실제 구간 15:00:32-16:04:44 · 128문장 · 경계 방식: marker
+# 실제 구간 15:00:32-16:06:46 · 132문장 · 경계 방식: marker
 
 Another great question which I will answer very quickly and I will also direct you, given that question, to speak to my colleague over there. But I use my actual, I use a unitree G1 EDU and I use it out of box. So I am not a developer and most of the consumer market are not going to be developers. So I use it as anybody would if they took it out of the box, turned it on, charged it up, turned it on and let it come into their home.
 But there are a number of incredible organizations, robotics clubs, individuals and companies who are very , Thank you. Good afternoon.
@@ -131,3 +131,7 @@ AI tools are increasingly being used create inventions. and yet there's no requi
 that sound very authoritative. explaining their technology and their inventions. How can we assess the sufficiency of these? We need to examine sufficiency. to prevent patterns for speculative inventions. But we are having increased numbers of patent applications. and that means examiners may have to examine outside their technical field. and that makes it harder for them to examine sufficiency.
 So it seems to me that perhaps we should focus more on AI-generated content. perhaps we could use AI content detectors. but at the moment, as far as I know, AI content detectors do not appear to be used by patent issuing authorities. Next slide, please. We are having an increase in the length of documents in patent procedures. An example is a recent technical Board of Appeal case where the grounds of appeal were over 140 pages long.
 Were they AI generated? The Board found that they were lengthy verbose, repetitive. and that those grounds damaged the right to be heard.
+The right to be heard applied to both parties in the appeal.
+And as a result, the Board decided to admit or not to consider many of the arguments that were in the grounds of appeal. Next slide, please. So my last point is about trends in prosecution of AI patent applications at the European Patent Office. Next slide. I would say it is generally settled. It is rare to have a case now from the Technical Board of Appeal where the main question is about determining whether the subject matter is excluded from patentability or not.
+And that is interesting because at the moment in AI technology, some of the key questions are about AI safety and AI alignment, how to have AI technology that does what humans would like. That is important because if you see the right-hand side of the slide, human society is a bit like a baby. We are a less intelligent thing and we have got to control a more intelligent thing. AI technology.
+a human baby is able to control the mother. Is that the only example we know of a less intelligent thing controlling a more intelligent thing? It seems to me that we need commercial incentives to publish AI safety and AI alignment solutions, and those are important to protect society. And those commercial incentives could include patents. So it seems that AI safety and AI alignment solutions are generally accepted.
