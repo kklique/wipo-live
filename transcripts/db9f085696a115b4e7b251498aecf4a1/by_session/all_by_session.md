@@ -500,3 +500,12 @@ I encourage those interested to join us for this opportunity to explore with the
 Okay.
 Thank you. Hi, Marco. Hello. Marco, can you hear me? Should we already ask people to sit down? I think I should stand here. Yeah, exactly. It is not next to me. I just want to hi myself. shirt.
 Genitowski.
+
+## [d1-11] Optional Side Event - My Robot "Roommate"
+
+_Day 1 14:30-15:00 · Speaker: Ms. Emily Kate Genatowski_
+
+Yeah. She is got to visit us. I hope so. No, no, I want to picture it up there. 嗯 Yeah, he is like, I know it on, especially since we kind of promised one of those who all the people who stopped by our booth during the General Assemblies back in July. Exactly. So when I first met Emily Kate a few months ago, it immediately felt obvious we just had to invite her to the global forum. Emily Kate Janowski is an AI Domestic Robotics Researcher and PhD candidate in Digital Humanities at the University of Vienna.
+For the past two years she has been living with TOVA, a Uni3 robot in Austria turning her own apartment into a real -world robotics lab. Due to unforeseen circumstances involving custom fees and train travel, Tova unfortunately could not join us today. So Emily is here today with another Unitry robot.
+She will share her perspective on the transparency we need to ensure that cutting -edge innovation can move beyond the lab. and meaningfully improve the world we live in. She is joining us today to talk about what actually happens when embodied AI moves out of the lab and into everyday life. The practical, social and governance questions that start to appear. introduction.
+I really appreciate it. Yes, this is my new friend.
