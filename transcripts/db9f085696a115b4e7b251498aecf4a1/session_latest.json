@@ -185,9 +185,9 @@
     {
       "description": "Ms. Ulrike Till",
       "personId": "e43c4a9d-684b-499d-a3de-fdcac48abfa9",
-      "timestamp": "00:59:27",
-      "timestampCVC5": "2026-11-09T14:19:27",
-      "timestampSeconds": 3567
+      "timestamp": "00:52:57",
+      "timestampCVC5": "2026-11-09T14:12:57",
+      "timestampSeconds": 3177
     },
     {
       "description": "Mr. Edward Lee",
@@ -294,9 +294,9 @@
                   {
                     "description": "Ms. Ulrike Till",
                     "personId": "e43c4a9d-684b-499d-a3de-fdcac48abfa9",
-                    "timestamp": "00:59:27",
-                    "timestampCVC5": "2026-11-09T14:19:27",
-                    "timestampSeconds": 3567
+                    "timestamp": "00:52:57",
+                    "timestampCVC5": "2026-11-09T14:12:57",
+                    "timestampSeconds": 3177
                   },
                   {
                     "description": "Mr. Edward Lee",
