@@ -1,7 +1,7 @@
 # [d1-11] Optional Side Event - My Robot "Roommate"
 # Day 1 · 2026-11-09 · 예정 14:30-15:00 (Geneva)
 # Speaker: Ms. Emily Kate Genatowski
-# 실제 구간 14:35:49-14:38:53 · 16문장 · 경계 방식: marker
+# 실제 구간 14:35:49-14:40:58 · 26문장 · 경계 방식: marker
 
 Yeah. She is got to visit us. I hope so. No, no, I want to picture it up there. 嗯 Yeah, he is like, I know it on, especially since we kind of promised one of those who all the people who stopped by our booth during the General Assemblies back in July. Exactly. So when I first met Emily Kate a few months ago, it immediately felt obvious we just had to invite her to the global forum. Emily Kate Janowski is an AI Domestic Robotics Researcher and PhD candidate in Digital Humanities at the University of Vienna.
 For the past two years she has been living with TOVA, a Uni3 robot in Austria turning her own apartment into a real -world robotics lab. Due to unforeseen circumstances involving custom fees and train travel, Tova unfortunately could not join us today. So Emily is here today with another Unitry robot.
@@ -19,3 +19,13 @@ Why did I do this?
 Is the very obvious and understandable question.
 So I am looking at three areas of intersection that intersect with life with a robot.
 So I look at legal regulation, institutional policy, and tangible and intangible infrastructure.
+And I go through life with my robot and I find every single place where that breaks down, does not work, is a disaster, and then I bring those stories to the public. I bring those stories to conferences and press and people who have the ability to affect change, and I let them know what actually happens when you bring a robot out of the lab and into real life.
+So what am I?
+If I am living with a robot, what am I?
+Am I an engineer?
+Am I a coder?
+Am I a roboticist? I am actually a historian.
+And being a historian, again, I love the laughter, being a historian who lives with a robot actually gives me a really sort of wonderful wide lens to look at history because as we know, history repeats itself. right? We have a lot of these examples of all of these times throughout history when we had intense technological transformation. And when we had this technological transformation, a lot of times we saw that regulation was simply a reactionary response to innovation.
+and it only actually occurred once we reached issues and problems and the messiness of actually deploying new technology and new innovation. So what I set out to do was to run into all of these issues when we still had an early research prototype and try to bring them to the public and say, hey, in a few years, yeah, maybe we will have a robot that can wash your dishes or do your laundry or clean for you at home, which I think we all are, we can not wait for that to actually happen, but there's going to be tons and tons of issues.
+infrastructurally to actually bring that into our world.
+So my goal is to run into all of those problems and then to hopefully bring innovation and regulation a bit closer together. And one of the areas that we have when it comes to regulation is also this idea of interoperability. So seeing as, I warned you, I am a historian, I am going to give you two very brief history lessons today. So the first history lesson, we are going back to my home country of the United States, and we are going to take a look at the Baltimore Fire of 1904.
