@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T11:55:00+00:00",
+ "generated": "2026-11-09T11:57:02+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -341,13 +341,13 @@
    "start": "11:40",
    "end": "12:50",
    "people": "Moderator: Mr. Stanley Lai | Speakers: Ms. Chijioke Okorie; Ms. Myrtha Hurtado Rivas; Mr. Gaétan de Rassenfosse; Mr. Antony Taubman; Ms. Caroline Gueye",
-   "n_lines": 123,
+   "n_lines": 128,
    "method": "cue",
    "file": "d1-08_super-session-back-to-first-principles-is-the-ip.txt",
    "actual_start": "2026-11-09T12:07:23+01:00",
-   "actual_end": "2026-11-09T12:54:49+01:00",
+   "actual_end": "2026-11-09T12:56:49+01:00",
    "line_from": 1308,
-   "line_to": 1430,
+   "line_to": 1435,
    "speakers": [
     {
      "key": "d1-08__mr-stanley-lai",
@@ -377,8 +377,8 @@
      "affiliation": "",
      "role": "floor",
      "n_lines": 20,
-     "n_words": 1241,
-     "n_turns": 9,
+     "n_words": 1197,
+     "n_turns": 10,
      "file": "d1-08__mr-edward-lee.txt",
      "method": "marker"
     },
@@ -431,9 +431,9 @@
      "name": "Ms. Chijioke Okorie",
      "affiliation": "Associate Professor of Law, University of Pretoria, Nigeria",
      "role": "panelist",
-     "n_lines": 10,
-     "n_words": 719,
-     "n_turns": 1,
+     "n_lines": 11,
+     "n_words": 796,
+     "n_turns": 2,
      "file": "d1-08__ms-chijioke-okorie.txt",
      "method": "marker"
     },
@@ -442,8 +442,8 @@
      "name": "Ms. Jennifer Tauli (Jing) Corpuz",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 13,
-     "n_words": 711,
+     "n_lines": 17,
+     "n_words": 942,
      "n_turns": 2,
      "file": "d1-08__ms-jennifer-tauli-jing-corpuz.txt",
      "method": "marker"
