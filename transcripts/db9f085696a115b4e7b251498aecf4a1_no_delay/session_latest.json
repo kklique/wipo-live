@@ -296,16 +296,23 @@
     {
       "description": "Mr. Gaétan de Rassenfosse",
       "personId": "21e44779-db8b-4434-8212-902ac31e54ff",
-      "timestamp": "02:29:41",
-      "timestampCVC5": "2026-11-09T11:19:41",
-      "timestampSeconds": 8981
+      "timestamp": "02:29:34",
+      "timestampCVC5": "2026-11-09T11:19:34",
+      "timestampSeconds": 8974
     },
     {
       "description": "Mr. Edward Lee",
       "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
-      "timestamp": "02:33:13",
-      "timestampCVC5": "2026-11-09T11:23:13",
-      "timestampSeconds": 9193
+      "timestamp": "02:33:10",
+      "timestampCVC5": "2026-11-09T11:23:10",
+      "timestampSeconds": 9190
+    },
+    {
+      "description": "Ms. Myrtha Hurtado Rivas",
+      "personId": "42f6d057-4e34-48f9-ae6d-08df3b2598d3",
+      "timestamp": "02:34:19",
+      "timestampCVC5": "2026-11-09T11:24:19",
+      "timestampSeconds": 9259
     }
   ],
   "markers_grouped": {
@@ -528,16 +535,23 @@
                   {
                     "description": "Mr. Gaétan de Rassenfosse",
                     "personId": "21e44779-db8b-4434-8212-902ac31e54ff",
-                    "timestamp": "02:29:41",
-                    "timestampCVC5": "2026-11-09T11:19:41",
-                    "timestampSeconds": 8981
+                    "timestamp": "02:29:34",
+                    "timestampCVC5": "2026-11-09T11:19:34",
+                    "timestampSeconds": 8974
                   },
                   {
                     "description": "Mr. Edward Lee",
                     "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
-                    "timestamp": "02:33:13",
-                    "timestampCVC5": "2026-11-09T11:23:13",
-                    "timestampSeconds": 9193
+                    "timestamp": "02:33:10",
+                    "timestampCVC5": "2026-11-09T11:23:10",
+                    "timestampSeconds": 9190
+                  },
+                  {
+                    "description": "Ms. Myrtha Hurtado Rivas",
+                    "personId": "42f6d057-4e34-48f9-ae6d-08df3b2598d3",
+                    "timestamp": "02:34:19",
+                    "timestampCVC5": "2026-11-09T11:24:19",
+                    "timestampSeconds": 9259
                   }
                 ],
                 "subjectId": "59023b79-b078-455c-a939-254b6858c034",
@@ -565,6 +579,13 @@
       "email": "",
       "id": "7383d287-f319-43bb-ae6b-08df3b2598d3",
       "name": "Mr. Stanley Lai",
+      "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "General Counsel, Nestlé, Switzerland / Peru ",
+      "email": "",
+      "id": "42f6d057-4e34-48f9-ae6d-08df3b2598d3",
+      "name": "Ms. Myrtha Hurtado Rivas",
       "photoUrl": "./assets/images/noPicSpeaker.png "
     },
     {
