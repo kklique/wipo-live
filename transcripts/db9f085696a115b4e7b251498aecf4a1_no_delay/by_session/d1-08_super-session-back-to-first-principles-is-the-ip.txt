@@ -1,7 +1,0 @@
-# [d1-08] Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?
-# Day 1 · 2026-11-09 · 예정 11:40-12:50 (Geneva)
-# Moderator: Mr. Stanley Lai | Speakers: Ms. Chijioke Okorie; Ms. Myrtha Hurtado Rivas; Mr. Gaétan de Rassenfosse; Mr. Antony Taubman; Ms. Caroline Gueye
-# 실제 구간 11:41:19-11:41:22 · 2문장 · 경계 방식: schedule
-
-Our creators require absolute assurance of credit and compensation. just as our developers need clear, predictable rules to innovate with confidence. our legislation also defines an inventor as the natural person who devised the invention. One, hopefully I have conveyed that AI on routine images can transform precision medicine. Secondly, when we talk about IP, let's focus on patenting the pattern, not necessarily the algorithm. IP is the bridge from paper to patient, but only if it generalizes, and that's where the validation is so absolutely critical. And finally, we have to build democratization into the IP strategy so that these licensing models can be kept low cost and accessible, particularly in low and middle income countries.
-Thank you very much.

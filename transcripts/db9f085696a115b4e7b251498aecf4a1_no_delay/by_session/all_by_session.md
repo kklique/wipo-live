@@ -2,7 +2,6 @@
 
 _Day 1 10:00-10:10 · Speaker: Daren Tang_
 
-Thank you. [MUSIC] morning. good afternoon, good evening, depending on the time zone where you are joining. Ladies and gentlemen, excellencies, colleagues and friends, please take your seats. We are about to start. the Global Forum on IP and AI. Thank you very much. It seems that everybody is getting their seats. So with that, now I would like to invite our WIPO Director General, Mr.
 Darren Tand. to the podium, to the opening.
 Thank you. Ministers, Excellencies, Heads of IFU Officers, Distinguished Delegates, dear colleagues, dear friends, good morning and welcome to the first global forum on IP and AI.
 Let me start by thanking the Ambassador of Kazakhstan, Master Karat Torabaev, for being our Chair over the next two days.
@@ -17,11 +16,6 @@ The distinction matters enormously at this point, at this moment in history, bec
 And if the way society creates, innovates and exchanges value, changes a bit, then we cannot assume that the institutions we have inherited, including the IP system, will always remain perfectly adapted to the world in which it serves. This is where artificial intelligence enters the picture. AI is often described as another technological revolution. but I am increasingly convinced that description does not quite capture what is happening.
 Humanity has of course invented extraordinary general purpose technologies before. Machines extended our physical strength. The printing press reproduced and spread knowledge exponentially. Electricity transformed our ability to produce and transport energy. Computers expanded our ability to calculate and present information and Internet transformed communication distribution, trade, connection.
 and commerce. But AI is doing something different. It is reaching into activities that we have historically associated with the human mind itself. reasoning analysis, synthesis. and for an increasing number of people, even cognition, creation and invention. For an organisation concerned with IP, that matters profoundly. because AI is not simply transforming another industry.
-
-## [d1-02] Chair Remarks
-
-_Day 1 10:10-10:15 · Speaker: H.E. Mr. Kairat Torebayev_
-
 It is beginning to transform the processes from which Intellectual Property itself emerges – imagination, conception and expression. We really see AI helping scientists search chemical spaces that no human could explore manually. We have seen analysing medical images, designing new materials, writing sophisticated computer code, generating content and tackling increasingly complex mathematical problems.
 singly providing solutions to some problems that eluded the best human minds for decades.
 At the same time, a creator can now discover that his or her voice, face or style, has been reproduced synthetically at extraordinary fidelity.
@@ -39,12 +33,12 @@ First, what should the IP system protect and incentivize in the age of AI?
 The modern IP system, the patent system of Venice and then the first corporate statutes may have been birthed during the Ménus Ones and the Age of Enlightenment, but came into maturity during the industrial age, the 1880s. It therefore reflects the economic architecture of that period. Then came computers and the digital revolution about 100 years later. Software became critical. Algorithms became enormously valuable.
 Data became an essential economic resource.
 The Internet transformed reproduction and distribution. The IP system adapted.
+
+## [d1-02] Chair Remarks
+
+_Day 1 10:10-10:15 · Speaker: H.E. Mr. Kairat Torebayev_
+
 Here at WIPO, for example, the WIPO Internet Treaties of the 1990s, which will celebrate their 30th anniversary in a few weeks' time, were a very important and rapid response to those digital transformations. Much of this adaptation has involved adding layers onto an existing architecture whose basic categories were developed for an earlier industry economy without having to rethink the architecture. AI is forcing us to turn our attention to the underlying architecture and to ask ourselves fundamental questions about its continued relevance.
-
-## [d1-03] Ministerial-level Remarks
-
-_Day 1 10:15-10:45_
-
 Who is an inventor when AI makes a material contribution to an invention? Who is the author when human creativity and machine generation become increasingly intertwined? On what basis and under what conditions should corporate protected material be used for AI training? What are the remuneration and compensation models?
 How can we say we respect copyright and yet pay nothing for it? How should we think about software, algorithms and data as sources of economic value? And we are now confronting something even more fundamental. What are the attributes of human identity itself? Our voices, our images, our likenesses, our biometric characteristics, even our thoughts. AI can replicate these in ways that earlier generations could barely have imagined.
 As Isaac Asimov said, or was it Arthur C. Clark.
@@ -66,10 +60,20 @@ All these may sound like modest points of agreement. but in a fragmented world t
 AI is beginning to change how ideas are created. how discoveries are made, how culture is produced and perhaps eventually how we understand invention, innovation and creativity. But we should not fear that change. But neither should we simply surrender to it. Our responsibility is to shape it proactively. And that requires something much more difficult than defending the past or predicting the future.
 It requires us to decide what we want the future to be. It will require national experimentation and international cooperation. It will require us to be bold enough to ask whether the institutions built for an earlier age ready for the one now arriving.
 And to build a new one with today's human innovator and creator, the modern narratives of that ancient human instinct of innovation and creativity with that human creator and innovator remaining at our center.
+
+## [d1-03] Ministerial-level Remarks
+
+_Day 1 10:15-10:45_
+
 This is the work I hope we can all begin together.
 Thank you very much. Excellencies, Distinguished Guests, Ladies and Gentlemen, I would like to add welcome to this integration of global Forum on Intellectual Property and Artificial Intelligence. Over these two days, we will consider how the IP systems can continue to support innovation, creativity and public interest as AI transforms societies. It is an honor to chair these proceedings.
 Before before we proceed and dive in to the discussions, I have to make a slight adjustment to our program due to the unforeseen last-minute changes in timing, I will postpone the prerecorded messages from ministers and other officials. and in my housekeeping remarks. until and after the first key presentation. And perhaps is a fitting way to begin the Forum on artificial intelligence by ourselves how quickly things can change.
 One of the key questions we have to all face is how to prepare ourselves for the future that is arriving faster than we anticipated. One answer, of course, is to remain flexible and another is better understand what lies ahead. And that is precisely what the first presentation will help us to do. It is my pleasure to welcome Mr. Ren Ito, Co-Founder and Chairman of the Sakana AI, to share his perspective on what lies ahead.
+
+## [d1-04] Tech Radar: Ready or Not - AI's Next Frontier
+
+_Day 1 10:45-10:55 · Speaker: Mr. Ren Ito_
+
 Mr. Ito, the floor is yours. Thank you so much for the very kind introduction. and it is a great honor to be here. Director General Tan. excellencies, colleagues, friends, good morning. Thank you once again for inviting me at this inaugural global forum on IP and AI. When When WIPO invited me to give this 10-minute talk on the next frontier of AI, I did what you expect someone who runs an AI company would do.
 I asked my own AI a few ideas. Some had already occurred to me, others ideas would never have crossed my mind. But within seconds, I had almost enough material to cover both days of this forum, as you can imagine. So what exactly will be my job this morning? First, let me speak about how far has AI come so far. Take the overall performance of foundation models across a range of standard mass, coding, reasoning, and to those benchmarks to give you a rough sense of the scale, if we take the 2019 level as one, the figure is rising to about 15 in 2023 and about 1 , 000 in 2026.
 That is the numerical reality. But what those numbers mean actually in practice, in my company we are building a system called AI scientist. Give it a research topic and it designs and runs experiments.
@@ -204,11 +208,6 @@ It is important that the developing countries have .
 .
 . the technological and the existing economy.
 Rather, we ensure that the artificial intelligence of the world allows for the development of its innovative capabilities and the strengthening of its creative industry and the achievement of a greater economic and social value than the principles of intellectual property. Ladies and Gentlemen, allow me to take this opportunity to express my appreciation for the confidence that was granted to me by choosing choice of the president of the leadership of the information technology, WILE, for the coming two years, 2027 and 2028, and I consider that not a personal honor for a party, but rather a reflection of the commitment of Egypt and the active contribution in international dialogue on the future of the country.
-
-## [d1-04] Tech Radar: Ready or Not - AI's Next Frontier
-
-_Day 1 10:45-10:55 · Speaker: Mr. Ren Ito_
-
 I like to work with my colleagues from different parts of the world to encourage the exchange of ideas in a creative way around the challenges and opportunities presented by this artificial intelligence. intelligence and the inspiration in the construction of a framework of understanding between the different visions and national priorities. And Egypt is always ready to work with the WIPO and the member states to ensure that intellectual property remains a driving force for human creativity and technological innovation.
 of technology and development. Thank you very much. General Excellencies, dear colleagues and friends, thank you for the opportunity to be with you today virtually and to share Estonia's message.
 And thank you, WIPO, to bring us all together to discuss this very urgent and important topic. AI and Intellectual Property. We share responsibility. to solve the things in advance, ongoingly and not to do it as only after math. We all agree, we are already living at an AI era. and this means that solving problems creating things, images, texts, whatever looks like differently today than it was yesterday. Intellectual property must be an integral part of AI conversations.
@@ -226,11 +225,6 @@ I hope WIPO will continue its strong coordinating role. I wish you productive di
 to share Korea's experience and policies on this topic. The first is improving IP administration and services through AI. Our ministry is towards AI -based examination systems. using specialized AI models developed in-house. We have already introduced AI into patent such as trademark classification, and design image searches to improve examination quality and will continue to expand its use to other areas. To make IP information more accessible to the public.
 We also plan to introduce an AI-powered assistant that explains complex patent documents in plain language. The second is responding to the growing number of AI -assisted IP applications. AI has significantly lowered the barriers to filing IP applications. In the first half of 2026, patent filings by individuals in Korea increased by 130% compared to last year.
 However, as filing becomes easier, we are also seeing a rise in low-quality or fraudulent IP applications involving the misuse of AI referred to as IPSLAP.
-
-## [d1-05] Showcase 1: AI in Action - From Ideas to Real-World Impact
-
-_Day 1 10:55-11:05 · Speaker: Mr. Anant Madabhushi_
-
 To address this problem, our ministry has introduced an early screening system that detects such applications. and sends out alerts. We also plan to review our fee system for individual applicants to discourage excessive filings resulting from low application costs. In addition, we will pursue legal and institutional reforms to address the misuse of AI during the application process, such as the manipulation of experimental data.
 These measures will include invalidating patterns and imposing financial penalties for such misconduct. And lastly we are preparing our IP system for the future of AI. Our ministry will look ahead to the changes AI will bring to the way we work. assess how it will affect our organizational structure and administrative operations, and develop strategies accordingly. We also intend to establish the basic principles for AI in intellectual property.
 for AI users and businesses in the IP field to promote responsible AI use and ensure that clear accountability remains with people. We believe these efforts should go beyond individual countries and become a shared international initiative. Through close cooperation, IP offices can work together to harmonize their systems and develop new international norms in the age of AI.
@@ -247,11 +241,6 @@ to cross-border challenges. Third, ensuring AI expands opportunities for everyon
 Singapore has long supported international capacity building in IP.
 This April, for example, we partnered with PO to organize an executive program on emerging AI and IP challenges, bringing together professionals from nine countries. As Singapore assumes the ASEAN Championship next year, we look forward to building on such initiatives. to help more businesses and creators harness AI. Our long-standing partnerships with WIPO and IP offices around the world. reflect our belief that we achieve more by learning from one another and then combining our strengths.
 IP was designed to serve human ingenuity. We must ensure it can continue to do so even in the age of AI. I thank all of you for the opportunity to speak, and I wish you fruitful discussions. I hope to join you in person at the next forum. Thank you. Excellencies, Distinguished Delegates, Ladies and Gentlemen, good morning. My name is Yasuyuki Kasai, Commissioner of the Japan Patent Office.
-
-## [d1-06] Insight: IP at the Table - Making IP Part of the Wider AI Policy Landscape
-
-_Day 1 11:05-11:25_
-
 JPO. First of all, I would like to express my sincere gratitude to Director General Tang and to all those concerned for providing us with a wonderful opportunity. Today the world is at a major turning point driven by the rapid advancement of AI. Enjoy of this year, the Government of Japan developed Japan's growth strategy, in addition to serving as the Commissioner of the JPL, I was responsible for its development as a member of the the Cabinet Secretariat.
 In the strategy, we have selected 17 strategic filled with a projected total scale of domestic public and private investment, expected to exceed 370 trillion yen or approximately 2.3 trillion yen. trillion US dollars. dollars, dollars cumulatively by fiscal year 2040. Within this framework, the AI transformation position as an accelerator for growth.
 Accordingly, several core fields essential for this transformation, including AI and semiconductors have been prioritized. By the end of the year, we will formulate the Japan's growth strategy implementation plan, which will include the details and amounts of domestic investment over the next five years leading up to around 2030. While the government of Japan positioned AI transformation as an accelerator of growth, the JPO is responding to the rapid development of AI by ensuring that our examination practice futility as well as reviewing institutional frameworks.
@@ -275,9 +264,18 @@ However, for this ecosystem, to thrive, our legal frameworks must keep pace.
 Our current copyright and patent laws were not designed for the complexities of the digital age, making IP reform our most immediate priority. Mr. DG, the primary legislation governing intellectual property rights for creators, performers and broadcast organizations. in Zimbabwe. is the copyright and Neighboring Rights Act, Chapter 26.05. The Act defines an author strictly as an individual, consequently works generated entirely by AI face a legal vacuum. Therefore, the law must be clarified ownership rights and defined threshold of human input required for legal protection.
 Further more, Mr. DG, AI training models rely on the consumption of vast data sets. Our regulatory framework remains silent on whether fair dealing exemptions cover commercial AI training.
 
-## [d1-08] Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?
+## [d1-05] Showcase 1: AI in Action - From Ideas to Real-World Impact
 
-_Day 1 11:40-12:50 · Moderator: Mr. Stanley Lai | Speakers: Ms. Chijioke Okorie; Ms. Myrtha Hurtado Rivas; Mr. Gaétan de Rassenfosse; Mr. Antony Taubman; Ms. Caroline Gueye_
+_Day 1 10:55-11:05 · Speaker: Mr. Anant Madabhushi_
 
 Our creators require absolute assurance of credit and compensation. just as our developers need clear, predictable rules to innovate with confidence. our legislation also defines an inventor as the natural person who devised the invention. One, hopefully I have conveyed that AI on routine images can transform precision medicine. Secondly, when we talk about IP, let's focus on patenting the pattern, not necessarily the algorithm. IP is the bridge from paper to patient, but only if it generalizes, and that's where the validation is so absolutely critical. And finally, we have to build democratization into the IP strategy so that these licensing models can be kept low cost and accessible, particularly in low and middle income countries.
 Thank you very much.
+
+## [d1-06] Insight: IP at the Table - Making IP Part of the Wider AI Policy Landscape
+
+_Day 1 11:05-11:25_
+
+。 Okay, please. Please. [Music] Okay, welcome back to our forum. I hope AAs finds some way to serve coffee faster and better. So, I hope you had a chance to recharge, connect with your colleagues over the coffee and that you now fully caffeinated. because we are about to tackle some rather big questions. For the first Super Session.
+For our first Super Session, we are going back to the first principle before we ask whether the IP systems is fit for the age of AI. Perhaps we should start with a more fundamental questions. What is Intellectual Property actually for? Encouraging innovation and creativity. rewarding human ingenuity, sharing knowledge supporting economic development, preserving culture. serving the public interests.
+With the AI changing how we create, invent, and access knowledge, do we those underlying purposes still hold? The balance we built around the systems are right ones. To help us unlock these questions, please welcome Mr. Stanley Lai. head of the IP practice of Allen and Glenhill in Singapore, who will moderate the super session. back to the first principle is the IP system fit for the age of AI?
+Stanley, the floor is yours. Thank you very much. Mr. Chairman. Good morning, everyone.

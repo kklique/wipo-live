@@ -1,6 +1,6 @@
-# [d1-03] Ministerial-level Remarks
-# 발표자: Mr. Ren Ito  (floor)
-# Day 1 · 2026-11-09 · 예정 10:15-10:45 (Geneva) · 발언 1회 · 21문장 · 1,258단어 · 구분 방식: marker
+# [d1-04] Tech Radar: Ready or Not - AI's Next Frontier
+# 발표자: (진행/도입)  (unknown)
+# Day 1 · 2026-11-09 · 예정 10:45-10:55 (Geneva) · 발언 1회 · 21문장 · 1,258단어 · 구분 방식: marker
 
 Mr. Ito, the floor is yours. Thank you so much for the very kind introduction. and it is a great honor to be here. Director General Tan. excellencies, colleagues, friends, good morning. Thank you once again for inviting me at this inaugural global forum on IP and AI. When When WIPO invited me to give this 10-minute talk on the next frontier of AI, I did what you expect someone who runs an AI company would do.
 I asked my own AI a few ideas. Some had already occurred to me, others ideas would never have crossed my mind. But within seconds, I had almost enough material to cover both days of this forum, as you can imagine. So what exactly will be my job this morning? First, let me speak about how far has AI come so far. Take the overall performance of foundation models across a range of standard mass, coding, reasoning, and to those benchmarks to give you a rough sense of the scale, if we take the 2019 level as one, the figure is rising to about 15 in 2023 and about 1 , 000 in 2026.
