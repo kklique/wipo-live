@@ -273,6 +273,8 @@ This, is not a bureaucracy. It is something key to be able to collaborate with l
 Let's go there. [Foreign Language Spoken] Let's go back to the question from the beginning. and if we could have a fire before it starts?
 We already know that our technology works.
 What follows is to be able to detect the next stage. We are moving forward on ese camino y para esto necesitamos seek territories where we can test it, institutions that support it, and people who believe that preventing a fire is worth more than reacting. That is our invitation. That is what we are looking for today on Android. Let's continue and move forward towards that fire that never existed.
+Thank you very much. Thank you so much, Christian, for showing us AI innovation and what AI innovation can make a real difference on the ground. Now, there is one thing that I can personally testify to working at the intersection of IP and AI, and it is this.
+Keeping up with it is a full-time job. New court decisions, new legislations and regulations evolving IP office practices. and the emergence of new business models. And just when you think you have caught up with it all, something else happens in this space. So we decided to give six experts a rather challenging assignment. In this fast-moving world of AI and IP, if you can just have ten minutes to brief policymakers, which developments in 2026 would you insist they pay particular attention to?
 
 ## [d1-07] Coffee Break
 
@@ -625,3 +627,10 @@ And as you saw, I bring it with me everywhere. I include it in everything. And f
 or the fact that they are not very good at stairs. So if you live in a place that has stairs or downstairs neighbors, they are quite loud and stomping. So there's all different types of things that we can learn and we can push these conversations. and these public debates forward so that by the time the actual innovation ready for deployment and is market ready for adoption, we then have figured out much more and we are in a much better place when it comes to regulation, policy and infrastructure updates needed.
 We have one minute. if any other, yes, sir. I hope you can hear me. I arrived late, so maybe you mentioned this. What software do you use? Is it from the factory, from the developer, or do you have your own? version of software? > > Amazing.
 Okay.
+
+## [d1-13] One-Stop Shop: Keeping up with IP and AI
+
+_Day 1 15:10-16:10 · Speakers: Mr. Andres Guadamuz; Mr. Wang Qian; Mr. Edward Lee_
+
+Welcome to our one-stop shop, Keeping Up with AI. We begin with some of the most consequential questions are being tested in the courts.
+Our first speaker is Professor Edward Lee, Professor of Law at Santa Clara University School of Law. Ed, what should be on our legal radar? The floor is yours. Thank you. so much. I am a professor at Santa Clara Law in Silicon belly. and I will share my screen. in a moment. if I can. If the host could give me share screen capability. Give us a second.

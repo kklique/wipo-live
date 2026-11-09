@@ -1,7 +1,7 @@
 # [d1-05] Showcase 1: AI in Action - From Ideas to Real-World Impact
 # Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva)
 # Speaker: Mr. Anant Madabhushi
-# 실제 구간 11:23:24-15:13:21 · 74문장 · 경계 방식: marker
+# 실제 구간 11:23:24-15:14:30 · 76문장 · 경계 방식: marker
 
 at the end of each day. And time will be short, and I am asking to interventions to keep up to not more than three minutes. While we have many attendees in the room. we also have a large online audience. for participants joining us remotely. Should you encounter any difficulties following the meeting in the Zoom proceedings, you can also follow through the WIPO webcast.
 I look forward to what the next two days have to offer for us. Now I pass the floor to Ken. the floor is yours. Thank you, Chair. We have just heard NISTERO interventions and we also had a keynote from Mr. Ito which gave us a fascinating glimpse into what artificial intelligence may be capable of tomorrow, but what can it already make possible today? That is what our AI in action showcase are all about.
@@ -77,3 +77,5 @@ This, is not a bureaucracy. It is something key to be able to collaborate with l
 Let's go there. [Foreign Language Spoken] Let's go back to the question from the beginning. and if we could have a fire before it starts?
 We already know that our technology works.
 What follows is to be able to detect the next stage. We are moving forward on ese camino y para esto necesitamos seek territories where we can test it, institutions that support it, and people who believe that preventing a fire is worth more than reacting. That is our invitation. That is what we are looking for today on Android. Let's continue and move forward towards that fire that never existed.
+Thank you very much. Thank you so much, Christian, for showing us AI innovation and what AI innovation can make a real difference on the ground. Now, there is one thing that I can personally testify to working at the intersection of IP and AI, and it is this.
+Keeping up with it is a full-time job. New court decisions, new legislations and regulations evolving IP office practices. and the emergence of new business models. And just when you think you have caught up with it all, something else happens in this space. So we decided to give six experts a rather challenging assignment. In this fast-moving world of AI and IP, if you can just have ten minutes to brief policymakers, which developments in 2026 would you insist they pay particular attention to?
