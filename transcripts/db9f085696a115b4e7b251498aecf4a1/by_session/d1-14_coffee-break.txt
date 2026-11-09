@@ -1,5 +1,13 @@
 # [d1-14] Coffee Break
 # Day 1 · 2026-11-09 · 예정 16:10-16:25 (Geneva)
-# 실제 구간 14:57:20-14:57:20 · 1문장 · 경계 방식: cue
+# 실제 구간 14:57:20-14:59:12 · 9문장 · 경계 방식: cue
 
 The main programme will begin shortly, so please bear with us. and have a look at the robot. Thank you. Okay. I know we are all loving seeing it walking around and that is so We do have just a couple of minutes before our next scheduled speaker, so I am very happy to take any type of question. that anybody has and answer it for the group. Does anybody have any question about living life with a robot?
+and what that is like? here in Europe? I am sure there's some. brave soul. Okay. I had some questions earlier. So since everyone is feeling shy, I will reference one of those. One of the questions that I had earlier was I do not get it, what does it do for you?
+And this is a fantastic question that I get all of the time. And I give the same answer.
+I always say great question, horrible answer.
+It does nothing for me.
+It does not really do anything for me. The goal of this type of robot, not this one in particular that is here, but my robot, Tova, is that at some point with its domestic application, it is going to be able to take care of the things that we want taken care of in the house, right, the domestic labor.
+It is going to be able to take care of cooking, cleaning, doing laundry, all of the things that we do not want to do.
+And the problem is that if we waited, if we waited and waited for it to actually be ready to do those things, then we would be very far behind when it comes to trying to inspire the public to have these debates about regulation and then actually work the regulation through the proper channels and systems so that we could actually safely deploy this technology. So I did sign on to have a robot that hopefully one day will cook and clean and does not cook or clean, live in my house.
+And as you saw, I bring it with me everywhere. I include it in everything. And from that experience, so much has come out about how people interact with it, how it interacts with infrastructure, and essentially we find out things like this particular robot cannot safely make it across the V&E's crosswalk in time before the light changes. Little funny things that you would never think to figure out.

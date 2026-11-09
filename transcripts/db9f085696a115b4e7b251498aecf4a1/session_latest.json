@@ -132,6 +132,13 @@
       "timestamp": "00:35:06",
       "timestampCVC5": "2026-11-09T13:55:06",
       "timestampSeconds": 2106
+    },
+    {
+      "description": "Ms. Emily Kate Genatowski",
+      "personId": "e7bd5820-0cb1-45d3-ae70-08df3b2598d3",
+      "timestamp": "00:38:56",
+      "timestampCVC5": "2026-11-09T13:58:56",
+      "timestampSeconds": 2336
     }
   ],
   "markers_grouped": {
@@ -166,6 +173,13 @@
                     "timestamp": "00:35:06",
                     "timestampCVC5": "2026-11-09T13:55:06",
                     "timestampSeconds": 2106
+                  },
+                  {
+                    "description": "Ms. Emily Kate Genatowski",
+                    "personId": "e7bd5820-0cb1-45d3-ae70-08df3b2598d3",
+                    "timestamp": "00:38:56",
+                    "timestampCVC5": "2026-11-09T13:58:56",
+                    "timestampSeconds": 2336
                   }
                 ],
                 "subjectId": "38f6620c-af0c-439f-801c-711b63f18c82",
