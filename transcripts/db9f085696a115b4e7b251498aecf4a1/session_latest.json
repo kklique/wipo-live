@@ -667,16 +667,16 @@
     {
       "description": "H.E. Mr. Kairat Torebayev",
       "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
-      "timestamp": "04:14:12",
-      "timestampCVC5": "2026-11-09T17:34:12",
-      "timestampSeconds": 15252
+      "timestamp": "04:14:07",
+      "timestampCVC5": "2026-11-09T17:34:07",
+      "timestampSeconds": 15247
     },
     {
       "description": "IPO (Intellectual Property Owners Association)",
       "personId": "52555e3a-ff8e-468c-8c68-56c7e6d21ded",
-      "timestamp": "04:15:03",
-      "timestampCVC5": "2026-11-09T17:35:03",
-      "timestampSeconds": 15303
+      "timestamp": "04:14:38",
+      "timestampCVC5": "2026-11-09T17:34:38",
+      "timestampSeconds": 15278
     },
     {
       "description": "RUSSIAN FEDERATION",
@@ -1277,16 +1277,16 @@
                   {
                     "description": "H.E. Mr. Kairat Torebayev",
                     "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
-                    "timestamp": "04:14:12",
-                    "timestampCVC5": "2026-11-09T17:34:12",
-                    "timestampSeconds": 15252
+                    "timestamp": "04:14:07",
+                    "timestampCVC5": "2026-11-09T17:34:07",
+                    "timestampSeconds": 15247
                   },
                   {
                     "description": "IPO (Intellectual Property Owners Association)",
                     "personId": "52555e3a-ff8e-468c-8c68-56c7e6d21ded",
-                    "timestamp": "04:15:03",
-                    "timestampCVC5": "2026-11-09T17:35:03",
-                    "timestampSeconds": 15303
+                    "timestamp": "04:14:38",
+                    "timestampCVC5": "2026-11-09T17:34:38",
+                    "timestampSeconds": 15278
                   },
                   {
                     "description": "RUSSIAN FEDERATION",
