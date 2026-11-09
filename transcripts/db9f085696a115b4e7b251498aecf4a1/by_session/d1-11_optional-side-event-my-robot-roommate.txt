@@ -1,7 +1,7 @@
 # [d1-11] Optional Side Event - My Robot "Roommate"
 # Day 1 · 2026-11-09 · 예정 14:30-15:00 (Geneva)
 # Speaker: Ms. Emily Kate Genatowski
-# 실제 구간 14:35:49-14:45:19 · 41문장 · 경계 방식: marker
+# 실제 구간 14:35:49-14:47:14 · 47문장 · 경계 방식: marker
 
 Yeah. She is got to visit us. I hope so. No, no, I want to picture it up there. 嗯 Yeah, he is like, I know it on, especially since we kind of promised one of those who all the people who stopped by our booth during the General Assemblies back in July. Exactly. So when I first met Emily Kate a few months ago, it immediately felt obvious we just had to invite her to the global forum. Emily Kate Janowski is an AI Domestic Robotics Researcher and PhD candidate in Digital Humanities at the University of Vienna.
 For the past two years she has been living with TOVA, a Uni3 robot in Austria turning her own apartment into a real -world robotics lab. Due to unforeseen circumstances involving custom fees and train travel, Tova unfortunately could not join us today. So Emily is here today with another Unitry robot.
@@ -44,3 +44,9 @@ And when something is incredibly competitive, there's not a lot of incentive for
 So I am going to tell a couple simple little stories today about how interoperability really could have helped me in a lot of ways throughout my time with the robot. So one is batteries. So I am going to ask our wonderful robot that we have here to showcase where is the battery on this robot. Any guesses? Right over here is the battery of the robot.
 And these batteries part of why they are so impressive is that they literally just clip out and then you can clip another one in. But in order to do that, A, you need to invest in two batteries. So I have invested for my robot because I use it all day, every day.
 I have invested in two batteries, but at the same time this presents an issue because we know that this is a different robot from mine.
+I wrote my colleague who was kind enough to come to the rescue here with a robot that is operational in Switzerland. And I said, oh, I have batteries.
+Do not worry. I will bring my batteries and then we can just swap it out.
+Same lab. Very close in time that these debuted, completely different batteries that do not interoperate together. So you see some of the issues that happen when you do not have that.
+And then you see options where let's say if you have seen a Lyme bicycle and a Lyme scooter have the same batteries, and they can be charged and then they can be sort of used in Congress with one another. So it is absolutely possible, however, this has not happened in the robotics field even within the same laboratories, but they could also potentially have a system where the batteries for each of the different robotics labs would actually work together so that you could go to, let's say, a battery swapping station when you were out with your robot because they are incredibly heavy.
+All of these different things, if we think about them beforehand, we can make mass adoption safer, we can make it more convenient and therefore we can make it run a lot smoother. So then next up we also have the idea of hardware maintenance. Now you can see this very glamorous shot of my robot.
+It looks very, very different from the robot that we have here today. Once again, we are talking about the same lab, and it is a very frustrating situation because also, if you look back here, I work with quite a few different robots, and every time that I go somewhere to speak or go somewhere to host something, and they give me a different robot, I always take a look at the joints and you can see if we can get a wave or something, you can see that each of these different points is a different joint, is a different actuator.
