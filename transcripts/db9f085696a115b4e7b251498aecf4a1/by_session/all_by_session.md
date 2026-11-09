@@ -822,3 +822,11 @@ So before changing the copyright rules in the name of competition, it is importa
 I have spoken about competitive entry.
 Let me end by talking about practical rights.
 WIPO's Copyright Committee is due to meet later this month with a new scoping study on AI training and Member States can and probably will disagree. about exceptions, permissions, remuneration. But there are practical questions we can investigate without agreeing on one worldwide copyright rule. Suppose the developer acquires a data set marked as license for commercial use.
+That sounds reassuring, but what if the data set provider was authorized to collect the underlying works but not to redistribute them for AI training? The developer may have a license from the data set provider without having the permissions needed for the underlying material. And that is why here we need to examine the entire data set lifecycle, how works are sourced, redistributed, retained and incorporated into subsequent datasets.
+Because a later license does not by itself establish that earlier copying was authorized, and the challenge is therefore not simply to record permissions, but to establish where they came from, what they cover, whether they actually remain valid as the works that are reused. And this is where WIPO's AI infrastructure interchange could make a real contribution. It can bring right holders, developers and technical specialists together to test what rights information systems can actually do.
+And here I suggest three tests for those systems. First, can the system distinguish indexing, training and retrieval?
+Second, can it carry permissions and their limitations through subsequent data set users?
+And third, can a small or medium-sized rights holder or developer use it without prohibitive cost.
+So in closing, let me return to the publisher and the one of AI developer. The publisher needs to be able to say "No"
+and that "No"
+must be respected without an unjustified loss of access to readers. The AI developer needs an affordable way to establish what she may lawfully use, and enough evidence to be able to rely on the permission she actually receives. Now, competition authorities, they have an important role in addressing certain constraints imposed by powerful intermediaries. Courts and legislatures, they can determine the legal scope of rights and exceptions.
