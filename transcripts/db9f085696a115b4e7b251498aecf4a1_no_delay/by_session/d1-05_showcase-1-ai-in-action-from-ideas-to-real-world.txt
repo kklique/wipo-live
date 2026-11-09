@@ -1,10 +1,8 @@
 # [d1-05] Showcase 1: AI in Action - From Ideas to Real-World Impact
 # Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva)
 # Speaker: Mr. Anant Madabhushi
-# 실제 구간 11:41:19-11:45:10 · 5문장 · 경계 방식: marker
+# 실제 구간 11:41:19-11:41:28 · 3문장 · 경계 방식: marker
 
 Our creators require absolute assurance of credit and compensation. just as our developers need clear, predictable rules to innovate with confidence. our legislation also defines an inventor as the natural person who devised the invention. One, hopefully I have conveyed that AI on routine images can transform precision medicine. Secondly, when we talk about IP, let's focus on patenting the pattern, not necessarily the algorithm. IP is the bridge from paper to patient, but only if it generalizes, and that's where the validation is so absolutely critical. And finally, we have to build democratization into the IP strategy so that these licensing models can be kept low cost and accessible, particularly in low and middle income countries.
 Thank you very much.
 And I just want to do a quick shout out to the amazing students and faculty and postdocs that have the pleasure and honor of working with.
-Thank you very much. Thank you, Professor Madabhushi. Well, we are living in the future right now. The Frontier researchers, we support your endeavors. Now we take coffee break for 20 minutes. so we reconvene at 12. And with the first superception, we will reconvene for the first superception. back to the first principle. is the IP system fit for the age of AI? Thank you. Thank you.
-Thank you very much. thank you. Thank you very much. Thank you.

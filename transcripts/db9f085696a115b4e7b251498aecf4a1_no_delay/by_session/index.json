@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T13:02:41+00:00",
+ "generated": "2026-11-09T13:04:51+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -12,21 +12,21 @@
    "start": "10:00",
    "end": "10:10",
    "people": "Speaker: Daren Tang",
-   "n_lines": 31,
+   "n_lines": 54,
    "method": "marker",
    "file": "d1-01_opening-remarks.txt",
-   "actual_start": "2026-11-09T10:04:21+01:00",
-   "actual_end": "2026-11-09T10:14:19+01:00",
-   "line_from": 2,
-   "line_to": 32,
+   "actual_start": "2026-11-09T10:04:18+01:00",
+   "actual_end": "2026-11-09T10:23:22+01:00",
+   "line_from": 1,
+   "line_to": 54,
    "speakers": [
     {
      "key": "d1-01__unknown",
      "name": "(진행/도입)",
      "affiliation": "",
      "role": "unknown",
-     "n_lines": 1,
-     "n_words": 8,
+     "n_lines": 2,
+     "n_words": 74,
      "n_turns": 1,
      "file": "d1-01__unknown.txt",
      "method": "marker"
@@ -36,8 +36,8 @@
      "name": "Daren Tang",
      "affiliation": "Director General, World Intellectual Property Organization (WIPO)",
      "role": "speaker",
-     "n_lines": 30,
-     "n_words": 1325,
+     "n_lines": 52,
+     "n_words": 2627,
      "n_turns": 1,
      "file": "d1-01__daren-tang.txt",
      "method": "marker"
@@ -53,26 +53,9 @@
    "start": "10:10",
    "end": "10:15",
    "people": "Speaker: H.E. Mr. Kairat Torebayev",
-   "n_lines": 22,
-   "method": "schedule",
-   "file": "d1-02_chair-remarks.txt",
-   "actual_start": "2026-11-09T10:14:46+01:00",
-   "actual_end": "2026-11-09T10:23:22+01:00",
-   "line_from": 33,
-   "line_to": 54,
-   "speakers": [
-    {
-     "key": "d1-02__h-e-mr-kairat-torebayev",
-     "name": "H.E. Mr. Kairat Torebayev",
-     "affiliation": "Permanent Representative of the Republic of Kazakhstan to the World Trade Organization and international economic organizations, Kazakhstan",
-     "role": "speaker",
-     "n_lines": 22,
-     "n_words": 1302,
-     "n_turns": 1,
-     "file": "d1-02__h-e-mr-kairat-torebayev.txt",
-     "method": "agenda"
-    }
-   ]
+   "n_lines": 0,
+   "method": "not-reached",
+   "file": null
   },
   {
    "id": "d1-03",
@@ -83,23 +66,111 @@
    "start": "10:15",
    "end": "10:45",
    "people": "",
-   "n_lines": 4,
+   "n_lines": 74,
    "method": "marker",
    "file": "d1-03_ministerial-level-remarks.txt",
    "actual_start": "2026-11-09T10:24:30+01:00",
-   "actual_end": "2026-11-09T10:26:21+01:00",
+   "actual_end": "2026-11-09T11:17:12+01:00",
    "line_from": 55,
-   "line_to": 58,
+   "line_to": 247,
    "speakers": [
     {
      "key": "d1-03__h-e-mr-kairat-torebayev",
      "name": "H.E. Mr. Kairat Torebayev",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 4,
-     "n_words": 220,
+     "n_lines": 7,
+     "n_words": 421,
      "n_turns": 1,
      "file": "d1-03__h-e-mr-kairat-torebayev.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-03__mr-hesham-azmi",
+     "name": "Mr. Hesham Azmi",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 13,
+     "n_words": 740,
+     "n_turns": 1,
+     "file": "d1-03__mr-hesham-azmi.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-03__h-e-ms-liisa-ly-pakosta",
+     "name": "H.E. Ms. Liisa-Ly Pakosta",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 8,
+     "n_words": 484,
+     "n_turns": 1,
+     "file": "d1-03__h-e-ms-liisa-ly-pakosta.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-03__h-e-ms-mari-leena-talvitie",
+     "name": "H. E. Ms. Mari-Leena Talvitie",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 4,
+     "n_words": 222,
+     "n_turns": 1,
+     "file": "d1-03__h-e-ms-mari-leena-talvitie.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-03__h-e-mr-kim-yong-sun",
+     "name": "H.E. Mr. Kim Yong Sun",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 8,
+     "n_words": 511,
+     "n_turns": 1,
+     "file": "d1-03__h-e-mr-kim-yong-sun.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-03__h-e-mr-edwin-tong",
+     "name": "H.E. Mr. Edwin Tong",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 11,
+     "n_words": 623,
+     "n_turns": 1,
+     "file": "d1-03__h-e-mr-edwin-tong.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-03__mr-kasai-yasuyuki",
+     "name": "Mr. Kasai Yasuyuki",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 7,
+     "n_words": 487,
+     "n_turns": 1,
+     "file": "d1-03__mr-kasai-yasuyuki.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-03__h-e-mr-kamal-shehadi",
+     "name": "H.E. Mr. Kamal Shehadi",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 8,
+     "n_words": 487,
+     "n_turns": 1,
+     "file": "d1-03__h-e-mr-kamal-shehadi.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-03__h-e-mr-ziyambi-ziyambi",
+     "name": "H.E. Mr. Ziyambi Ziyambi",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 8,
+     "n_words": 441,
+     "n_turns": 1,
+     "file": "d1-03__h-e-mr-ziyambi-ziyambi.txt",
      "method": "marker"
     }
    ]
@@ -113,123 +184,24 @@
    "start": "10:45",
    "end": "10:55",
    "people": "Speaker: Mr. Ren Ito",
-   "n_lines": 91,
+   "n_lines": 21,
    "method": "marker",
    "file": "d1-04_tech-radar-ready-or-not-ai-s-next-frontier.txt",
    "actual_start": "2026-11-09T10:27:02+01:00",
-   "actual_end": "2026-11-09T11:17:12+01:00",
+   "actual_end": "2026-11-09T10:36:22+01:00",
    "line_from": 59,
-   "line_to": 247,
+   "line_to": 79,
    "speakers": [
     {
-     "key": "d1-04__unknown",
-     "name": "(진행/도입)",
-     "affiliation": "",
-     "role": "unknown",
+     "key": "d1-04__mr-ren-ito",
+     "name": "Mr. Ren Ito",
+     "affiliation": "Co-founder and Chairman, Sakana AI, Japan",
+     "role": "speaker",
      "n_lines": 21,
      "n_words": 1258,
      "n_turns": 1,
-     "file": "d1-04__unknown.txt",
-     "method": "marker"
-    },
-    {
-     "key": "d1-04__h-e-mr-kairat-torebayev",
-     "name": "H.E. Mr. Kairat Torebayev",
-     "affiliation": "",
-     "role": "floor",
-     "n_lines": 3,
-     "n_words": 201,
-     "n_turns": 1,
-     "file": "d1-04__h-e-mr-kairat-torebayev.txt",
-     "method": "marker"
-    },
-    {
-     "key": "d1-04__mr-hesham-azmi",
-     "name": "Mr. Hesham Azmi",
-     "affiliation": "",
-     "role": "floor",
-     "n_lines": 13,
-     "n_words": 740,
-     "n_turns": 1,
-     "file": "d1-04__mr-hesham-azmi.txt",
-     "method": "marker"
-    },
-    {
-     "key": "d1-04__h-e-ms-liisa-ly-pakosta",
-     "name": "H.E. Ms. Liisa-Ly Pakosta",
-     "affiliation": "",
-     "role": "floor",
-     "n_lines": 8,
-     "n_words": 484,
-     "n_turns": 1,
-     "file": "d1-04__h-e-ms-liisa-ly-pakosta.txt",
-     "method": "marker"
-    },
-    {
-     "key": "d1-04__h-e-ms-mari-leena-talvitie",
-     "name": "H. E. Ms. Mari-Leena Talvitie",
-     "affiliation": "",
-     "role": "floor",
-     "n_lines": 4,
-     "n_words": 222,
-     "n_turns": 1,
-     "file": "d1-04__h-e-ms-mari-leena-talvitie.txt",
-     "method": "marker"
-    },
-    {
-     "key": "d1-04__h-e-mr-kim-yong-sun",
-     "name": "H.E. Mr. Kim Yong Sun",
-     "affiliation": "",
-     "role": "floor",
-     "n_lines": 8,
-     "n_words": 511,
-     "n_turns": 1,
-     "file": "d1-04__h-e-mr-kim-yong-sun.txt",
-     "method": "marker"
-    },
-    {
-     "key": "d1-04__h-e-mr-edwin-tong",
-     "name": "H.E. Mr. Edwin Tong",
-     "affiliation": "",
-     "role": "floor",
-     "n_lines": 11,
-     "n_words": 623,
-     "n_turns": 1,
-     "file": "d1-04__h-e-mr-edwin-tong.txt",
-     "method": "marker"
-    },
-    {
-     "key": "d1-04__mr-kasai-yasuyuki",
-     "name": "Mr. Kasai Yasuyuki",
-     "affiliation": "",
-     "role": "floor",
-     "n_lines": 7,
-     "n_words": 487,
-     "n_turns": 1,
-     "file": "d1-04__mr-kasai-yasuyuki.txt",
-     "method": "marker"
-    },
-    {
-     "key": "d1-04__h-e-mr-kamal-shehadi",
-     "name": "H.E. Mr. Kamal Shehadi",
-     "affiliation": "",
-     "role": "floor",
-     "n_lines": 8,
-     "n_words": 487,
-     "n_turns": 1,
-     "file": "d1-04__h-e-mr-kamal-shehadi.txt",
-     "method": "marker"
-    },
-    {
-     "key": "d1-04__h-e-mr-ziyambi-ziyambi",
-     "name": "H.E. Mr. Ziyambi Ziyambi",
-     "affiliation": "",
-     "role": "floor",
-     "n_lines": 8,
-     "n_words": 441,
-     "n_turns": 1,
-     "file": "d1-04__h-e-mr-ziyambi-ziyambi.txt",
-     "method": "marker"
+     "file": "d1-04__mr-ren-ito.txt",
+     "method": "agenda"
     }
    ]
   },
@@ -242,35 +214,24 @@
    "start": "10:55",
    "end": "11:05",
    "people": "Speaker: Mr. Anant Madabhushi",
-   "n_lines": 5,
+   "n_lines": 3,
    "method": "marker",
    "file": "d1-05_showcase-1-ai-in-action-from-ideas-to-real-world.txt",
    "actual_start": "2026-11-09T11:41:19+01:00",
-   "actual_end": "2026-11-09T11:45:10+01:00",
+   "actual_end": "2026-11-09T11:41:28+01:00",
    "line_from": 248,
-   "line_to": 252,
+   "line_to": 250,
    "speakers": [
     {
-     "key": "d1-05__unknown",
-     "name": "(진행/도입)",
-     "affiliation": "",
-     "role": "unknown",
+     "key": "d1-05__mr-anant-madabhushi",
+     "name": "Mr. Anant Madabhushi",
+     "affiliation": "Executive Director of the Emory Empathetic AI for Health Institute and Robert W. Woodruff Professor of Biomedical Engineering, Emory University, United States of America",
+     "role": "speaker",
      "n_lines": 3,
      "n_words": 148,
      "n_turns": 1,
-     "file": "d1-05__unknown.txt",
-     "method": "marker"
-    },
-    {
-     "key": "d1-05__h-e-mr-kairat-torebayev",
-     "name": "H.E. Mr. Kairat Torebayev",
-     "affiliation": "",
-     "role": "floor",
-     "n_lines": 2,
-     "n_words": 80,
-     "n_turns": 1,
-     "file": "d1-05__h-e-mr-kairat-torebayev.txt",
-     "method": "marker"
+     "file": "d1-05__mr-anant-madabhushi.txt",
+     "method": "agenda"
     }
    ]
   },
@@ -283,48 +244,9 @@
    "start": "11:05",
    "end": "11:25",
    "people": "",
-   "n_lines": 13,
-   "method": "schedule",
-   "file": "d1-06_insight-ip-at-the-table-making-ip-part-of-the-wi.txt",
-   "actual_start": "2026-11-09T11:55:19+01:00",
-   "actual_end": "2026-11-09T12:09:57+01:00",
-   "line_from": 322,
-   "line_to": 334,
-   "speakers": [
-    {
-     "key": "d1-06__unknown",
-     "name": "(진행/도입)",
-     "affiliation": "",
-     "role": "unknown",
-     "n_lines": 4,
-     "n_words": 1138,
-     "n_turns": 1,
-     "file": "d1-06__unknown.txt",
-     "method": "marker"
-    },
-    {
-     "key": "d1-06__h-e-mr-kairat-torebayev",
-     "name": "H.E. Mr. Kairat Torebayev",
-     "affiliation": "",
-     "role": "floor",
-     "n_lines": 2,
-     "n_words": 120,
-     "n_turns": 1,
-     "file": "d1-06__h-e-mr-kairat-torebayev.txt",
-     "method": "marker"
-    },
-    {
-     "key": "d1-06__mr-stanley-lai",
-     "name": "Mr. Stanley Lai",
-     "affiliation": "",
-     "role": "floor",
-     "n_lines": 7,
-     "n_words": 392,
-     "n_turns": 1,
-     "file": "d1-06__mr-stanley-lai.txt",
-     "method": "marker"
-    }
-   ]
+   "n_lines": 0,
+   "method": "not-reached",
+   "file": null
   },
   {
    "id": "d1-07",
@@ -335,13 +257,13 @@
    "start": "11:25",
    "end": "11:40",
    "people": "",
-   "n_lines": 26,
-   "method": "schedule",
+   "n_lines": 6,
+   "method": "marker",
    "file": "d1-07_coffee-break.txt",
-   "actual_start": "2026-11-09T12:10:39+01:00",
-   "actual_end": "2026-11-09T12:21:13+01:00",
-   "line_from": 335,
-   "line_to": 360
+   "actual_start": "2026-11-09T11:45:10+01:00",
+   "actual_end": "2026-11-09T12:00:24+01:00",
+   "line_from": 251,
+   "line_to": 325
   },
   {
    "id": "d1-08",
@@ -352,12 +274,12 @@
    "start": "11:40",
    "end": "12:50",
    "people": "Moderator: Mr. Stanley Lai | Speakers: Ms. Chijioke Okorie; Ms. Myrtha Hurtado Rivas; Mr. Gaétan de Rassenfosse; Mr. Antony Taubman; Ms. Caroline Gueye",
-   "n_lines": 118,
-   "method": "cue",
+   "n_lines": 153,
+   "method": "marker",
    "file": "d1-08_super-session-back-to-first-principles-is-the-ip.txt",
-   "actual_start": "2026-11-09T12:21:37+01:00",
+   "actual_start": "2026-11-09T12:06:48+01:00",
    "actual_end": "2026-11-09T13:18:28+01:00",
-   "line_from": 361,
+   "line_from": 326,
    "line_to": 479,
    "speakers": [
     {
@@ -365,10 +287,21 @@
      "name": "Mr. Stanley Lai",
      "affiliation": "Head of the IP Practice, Allen & Gledhill LLP, Singapore",
      "role": "moderator",
-     "n_lines": 3,
-     "n_words": 222,
+     "n_lines": 17,
+     "n_words": 984,
      "n_turns": 1,
      "file": "d1-08__mr-stanley-lai.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-08__mr-antony-taubman",
+     "name": "Mr. Antony Taubman",
+     "affiliation": "Honorary Professor, Queen Mary University of London, Senior Fellow, University of Melbourne, Australia",
+     "role": "panelist",
+     "n_lines": 18,
+     "n_words": 1087,
+     "n_turns": 2,
+     "file": "d1-08__mr-antony-taubman.txt",
      "method": "marker"
     },
     {
@@ -376,10 +309,21 @@
      "name": "Mr. Edward Lee",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 30,
-     "n_words": 1647,
-     "n_turns": 16,
+     "n_lines": 32,
+     "n_words": 1803,
+     "n_turns": 17,
      "file": "d1-08__mr-edward-lee.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-08__mr-gaetan-de-rassenfosse",
+     "name": "Mr. Gaétan de Rassenfosse",
+     "affiliation": "Associate Professor of Science Technology and Innovation Policy, Ecole Polytechnique Fédérale de Lausanne, Belgium",
+     "role": "panelist",
+     "n_lines": 20,
+     "n_words": 1219,
+     "n_turns": 3,
+     "file": "d1-08__mr-gaetan-de-rassenfosse.txt",
      "method": "marker"
     },
     {
@@ -435,28 +379,6 @@
      "n_words": 950,
      "n_turns": 2,
      "file": "d1-08__ms-jennifer-tauli-jing-corpuz.txt",
-     "method": "marker"
-    },
-    {
-     "key": "d1-08__mr-gaetan-de-rassenfosse",
-     "name": "Mr. Gaétan de Rassenfosse",
-     "affiliation": "Associate Professor of Science Technology and Innovation Policy, Ecole Polytechnique Fédérale de Lausanne, Belgium",
-     "role": "panelist",
-     "n_lines": 11,
-     "n_words": 699,
-     "n_turns": 2,
-     "file": "d1-08__mr-gaetan-de-rassenfosse.txt",
-     "method": "marker"
-    },
-    {
-     "key": "d1-08__mr-antony-taubman",
-     "name": "Mr. Antony Taubman",
-     "affiliation": "Honorary Professor, Queen Mary University of London, Senior Fellow, University of Melbourne, Australia",
-     "role": "panelist",
-     "n_lines": 8,
-     "n_words": 579,
-     "n_turns": 1,
-     "file": "d1-08__mr-antony-taubman.txt",
      "method": "marker"
     }
    ]
@@ -522,13 +444,9 @@
    "start": "13:00",
    "end": "14:30",
    "people": "",
-   "n_lines": 2,
-   "method": "cue",
-   "file": "d1-10_lunch-break.txt",
-   "actual_start": "2026-11-09T13:34:11+01:00",
-   "actual_end": "2026-11-09T13:34:39+01:00",
-   "line_from": 507,
-   "line_to": 508
+   "n_lines": 0,
+   "method": "not-reached",
+   "file": null
   },
   {
    "id": "d1-11",
@@ -539,9 +457,26 @@
    "start": "14:30",
    "end": "15:00",
    "people": "Speaker: Ms. Emily Kate Genatowski",
-   "n_lines": 0,
-   "method": "not-reached",
-   "file": null
+   "n_lines": 2,
+   "method": "cue",
+   "file": "d1-11_optional-side-event-my-robot-roommate.txt",
+   "actual_start": "2026-11-09T13:34:11+01:00",
+   "actual_end": "2026-11-09T13:34:39+01:00",
+   "line_from": 507,
+   "line_to": 508,
+   "speakers": [
+    {
+     "key": "d1-11__ms-emily-kate-genatowski",
+     "name": "Ms. Emily Kate Genatowski",
+     "affiliation": "AI Domestic Robotics Researcher, PhD candidate in Digital Humanities, University of Vienna, United States of America",
+     "role": "speaker",
+     "n_lines": 2,
+     "n_words": 123,
+     "n_turns": 1,
+     "file": "d1-11__ms-emily-kate-genatowski.txt",
+     "method": "agenda"
+    }
+   ]
   },
   {
    "id": "d1-12",

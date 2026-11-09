@@ -1,6 +1,6 @@
-# [d1-04] Tech Radar: Ready or Not - AI's Next Frontier
+# [d1-03] Ministerial-level Remarks
 # 발표자: H.E. Mr. Kim Yong Sun  (floor)
-# Day 1 · 2026-11-09 · 예정 10:45-10:55 (Geneva) · 발언 1회 · 8문장 · 511단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 10:15-10:45 (Geneva) · 발언 1회 · 8문장 · 511단어 · 구분 방식: marker
 
 I hope WIPO will continue its strong coordinating role. I wish you productive discussions and every success for this forum. Again, I would like to congratulate WIPO on hosting the global forum on IP and AI and thank you, Director -General, Daren Tang and the WIPO team for bringing everyone together to discuss an important issue of the AI era. Although I cannot join you in person, I am pleased to have this opportunity.
 to share Korea's experience and policies on this topic. The first is improving IP administration and services through AI. Our ministry is towards AI -based examination systems. using specialized AI models developed in-house. We have already introduced AI into patent such as trademark classification, and design image searches to improve examination quality and will continue to expand its use to other areas. To make IP information more accessible to the public.
