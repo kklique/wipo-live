@@ -186,7 +186,7 @@
 const q = new URLSearchParams(location.search);
 const [OWNER, REPO] = (q.get("repo") || "kklique/wipo-live").split("/");
 const BRANCH = q.get("branch") || "data";
-const DEFAULT_ID = "db9f085696a115b4e7b251498aecf4a1_no_delay";
+const DEFAULT_ID = "db9f085696a115b4e7b251498aecf4a1";   // 일반 스트림 (_no_delay 가 멈춘 적이 있어 기본으로 사용)
 const WIPO_API = "https://www.wipo.int/s2t/live_s2t/getLiveTranscript";
 const SAVED_POLL_MS = 30000;   // 저장본(GitHub) 갱신 주기
 const LIVE_POLL_MS = 3000;     // 실시간(WIPO 직접) 폴링 주기
@@ -194,6 +194,8 @@ const LIVE_RETRY_MS = 10000;   // 실시간 연결 실패 시 재시도 주기
 const LIVE_KEEP = 200;         // 실시간 탭에 유지하는 최대 문장 수
 
 let meeting = q.get("id") || DEFAULT_ID;
+let pinned = !!q.get("id");        // 주소(?id=)나 선택 메뉴로 직접 고른 경우 자동 전환하지 않음
+const siblingOf = (m) => (m.endsWith("_no_delay") ? m.slice(0, -"_no_delay".length) : m + "_no_delay");
 const hashParts = location.hash.slice(1).split(":");      // #live | #program[:세션id] | #full
 let tab = ["full", "program", "status"].includes(hashParts[0]) ? hashParts[0] : "live";
 let pendingOpen = hashParts[0] === "program" ? hashParts[1] || null : null;
@@ -341,6 +343,7 @@ async function refreshSaved() {
         `${SAVED_POLL_MS / 1000}초마다 갱신 (저장은 약 2분 간격이므로 최신 내용은 '실시간' 탭에서)`);
     }
     if (liveSource === "saved") renderLiveFromSaved();
+    checkStreams();
   } catch (e) {
     setStatus("full", "err", "저장본", `불러오기 실패 (${e.message}). 잠시 후 다시 시도합니다.`);
   }
@@ -438,6 +441,45 @@ function resetLive() {
   liveLines = []; livePartial = ""; liveCursor = null; liveFails = 0; liveSource = "direct"; atBottom = true;
   el.liveBox.innerHTML = '<div class="live-empty">연결 중…</div>';
   setStatus("live", "", "LIVE", "연결 중…");
+}
+
+/* ---------- 두 스트림(일반 / _no_delay) 신선도: 한쪽이 멈추면 다른 쪽으로 자동 전환 ---------- */
+const growth = {};                 // mid -> {n, t}: 저장 줄 수가 마지막으로 늘어난 시각 (이 페이지가 관측한 값)
+let streamsInfo = { a: null, b: null };
+let switchNote = "";
+
+async function streamInfo(mid) {
+  let st = null;
+  try { st = JSON.parse(await getText(`transcripts/${mid}/state.json`)); } catch (e) { return null; }
+  if (!st) return null;
+  const g = growth[mid];
+  if (!g || st.next_line_number !== g.n) growth[mid] = { n: st.next_line_number, t: Date.now() };
+  // last_data: 수집기가 기록한 'WIPO 에서 마지막으로 새 문장이 들어온 시각' (없으면 이 페이지가 줄 수 증가를 본 시각)
+  const lastData = st.last_data ? new Date(st.last_data).getTime() : growth[mid].t;
+  return { mid, n: st.next_line_number, updated: st.updated, lastData };
+}
+
+function currentItemType() {            // 지금 Geneva 시각이 속한 아젠더 항목 유형 (쉬는 시간이면 멈춤을 이상으로 보지 않음)
+  if (!agenda) return null;
+  const g = genevaNow(), d = g.slice(0, 10), hm = g.slice(11, 16);
+  const day = agenda.days.find((x) => x.date === d);
+  const it = day && day.items.find((x) => x.start <= hm && hm < x.end);
+  return it ? it.type : null;
+}
+
+async function checkStreams() {
+  const [a, b] = await Promise.all([streamInfo(meeting), streamInfo(siblingOf(meeting))]);
+  streamsInfo = { a, b };
+  if (pinned || !a || !b) return;
+  const min = (x) => (Date.now() - x.lastData) / 60000;
+  const t = currentItemType();
+  if (t === "break" || t === "social") return;
+  if (min(a) > 4 && min(b) < 2 && b.lastData - a.lastData > 3 * 60000) {      // 이 스트림은 멈췄고 다른 스트림은 진행 중
+    switchNote = `스트림 자동 전환: ${a.mid.endsWith("_no_delay") ? "_no_delay" : "일반"} 스트림이 ${Math.round(min(a))}분째 새 문장이 없어 ` +
+                 `${b.mid.endsWith("_no_delay") ? "_no_delay" : "일반"} 스트림으로 바꿨습니다`;
+    meeting = b.mid;
+    loadMeetings().then(startAll);
+  }
 }
 
 /* ---------- 프로그램 (아젠더 + 발표별 저장 스크립트) ---------- */
@@ -659,7 +701,7 @@ async function latestCollectRun() {
   try {
     const r = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/actions/workflows/collect.yml/runs?per_page=6`, { cache: "no-cache" });
     if (!r.ok) return null;
-    const runs = ((await r.json()).workflow_runs || []).filter((x) => (x.display_title || "").includes(meeting));
+    const runs = ((await r.json()).workflow_runs || []).filter((x) => (x.display_title || "").trim().split(/\s+/).pop() === meeting);
     return runs[0] || null;
   } catch (e) { return null; }
 }
@@ -714,6 +756,17 @@ async function refreshStatus() {
       if (win && !active && ahead > 0 && age > 6) { kind = "err"; reasons.push("실행 중인 수집 작업이 없습니다 (Watchdog이 5분 안에 자동 시작합니다)"); }
       if (kind === "ok" && age > 6 && win === false) { kind = ""; reasons.push("지금은 회의 시간대가 아니라서 수집이 멈춰 있는 것이 정상일 수 있습니다 (마지막 저장 " + fmtAge(age) + ")"); }
     }
+    await checkStreams();
+    const A = streamsInfo.a, B = streamsInfo.b, itType = currentItemType();
+    if (win && A && itType !== "break" && itType !== "social") {
+      const ageA = (Date.now() - A.lastData) / 60000;
+      if (ageA > 5) {
+        if (kind === "ok") kind = "warn";
+        reasons.push(`이 스트림의 마지막 새 문장이 ${Math.round(ageA)}분 전입니다 (회의 진행 중이면 WIPO 스트림이 멈췄을 수 있습니다)`);
+        if (B && (Date.now() - B.lastData) / 60000 < 2) reasons.push("같은 회의의 다른 스트림은 진행 중입니다. 위 '회의 선택'에서 그쪽으로 바꾸세요(직접 고른 경우 자동 전환되지 않습니다)");
+      }
+    }
+    if (switchNote) reasons.push(switchNote);
     root.innerHTML = "";
     const v = document.createElement("div"); v.className = "verdict " + kind;
     v.textContent = kind === "ok" ? "✅ 저장 정상" : kind === "warn" ? "⚠ 확인 필요" : kind === "err" ? "❌ 저장 이상 의심" : "ℹ 대기 중";
@@ -733,6 +786,13 @@ async function refreshStatus() {
       !run ? "" : active ? "ok" : run.conclusion === "success" ? "" : "warn"));
     cards.appendChild(card("발표별 저장", idx ? `${withText.length} / ${real.length}` : "—", idx ? `스크립트가 있는 발표/세션 · 분할 시계 ${idx.clock}` : "by_session 아직 없음", withText.length ? "ok" : ""));
     cards.appendChild(card("발표자별 저장", idx ? `${spk.length}건` : "—", idx ? `구분 불가 ${unknownLines}문장 · 마커/호명/아젠더 기준` : "by_speaker 아직 없음", spk.length ? "ok" : ""));
+    {
+      const nm = (x) => (x.mid.endsWith("_no_delay") ? "_no_delay" : "일반");
+      const row = (x) => `${nm(x)} ${(Date.now() - x.lastData) / 60000 < 3 ? "진행 중" : fmtAge(mins(new Date(x.lastData).toISOString())) + " 정지"}`;
+      cards.appendChild(card("두 스트림 비교", A && B ? `${row(A)} · ${row(B)}` : A ? row(A) : "—",
+        "같은 회의의 일반/_no_delay 스트림. 한쪽이 멈추면 다른 쪽을 쓰세요 (Watchdog은 둘 다 수집)",
+        A && B && ((Date.now() - A.lastData) / 60000 > 5) !== ((Date.now() - B.lastData) / 60000 > 5) ? "warn" : ""));
+    }
     cards.appendChild(card("발언자 마커", `${markerN}건`, "웹캐스트가 찍는 발언자 표시 (발표자 구분에 사용)", markerN ? "ok" : ""));
     root.appendChild(cards);
 
@@ -791,7 +851,7 @@ function startAll() {
 }
 
 el.meeting.addEventListener("change", () => {
-  meeting = el.meeting.value;
+  meeting = el.meeting.value; pinned = true; switchNote = "";
   const u = new URL(location.href); u.searchParams.set("id", meeting); history.replaceState(null, "", u);
   startAll();
 });
