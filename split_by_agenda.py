@@ -285,11 +285,24 @@ def resolve_label(desc, item):
     dt = toks(desc)
     mod, spk = _item_people(item)
     role_spk = "panelist" if item["type"] == "panel" else "speaker"
+    cands = ([(mod, "moderator")] if mod else []) + [(x, role_spk) for x in spk]
     if dt and set(dt) <= CHAIR_WORDS:
-        return _label(mod, "moderator") if mod else ("Chair", "", "chair")
-    for p, role in ([(mod, "moderator")] if mod else []) + [(x, role_spk) for x in spk]:
+        if mod:
+            return _label(mod, "moderator")
+        # 'Chair Remarks' 처럼 의장 본인이 발표자로 적힌 세션이면 그 사람
+        if len(spk) == 1 and "chair" in toks(item["title"]):
+            return _label(spk[0], "chair")
+        return ("Chair", "", "chair")
+    for p, role in cands:
         if person_hit(person_tokens(p["name"]), dt):
             return _label(p, role)
+    # 마커가 직함으로 찍힌 경우 (예: 'DIRECTOR GENERAL' -> 소속 '직함, 기관' 의 첫 구절): 정확히 같은 직함을 우선
+    if dt:
+        for exact in (True, False):
+            for p, role in cands:
+                title = toks((p.get("affiliation") or "").split(",")[0])
+                if title and ((set(dt) == set(title)) if exact else (len(dt) >= 2 and set(dt) <= set(title))):
+                    return _label(p, role)
     return (desc or "(미상)", "", "floor")
 
 
@@ -322,7 +335,7 @@ def build_turns(seg, item, markers, lead):
         bounds = [(m["t"] - timedelta(seconds=lead), resolve_label(m["desc"], item))
                   for m in markers if m["person"] and lo <= m["t"] <= hi]
         if bounds:
-            cur = _label(mod, "moderator") if mod else (_label(spk[0], role_spk) if len(spk) == 1 else ("(진행/도입)", "", "unknown"))
+            cur = _label(mod, "moderator") if mod else ("(진행/도입)", "", "unknown")
             bi = 0
             for l in seg:
                 while bi < len(bounds) and l.get("raw") and l["raw"] >= bounds[bi][0]:
