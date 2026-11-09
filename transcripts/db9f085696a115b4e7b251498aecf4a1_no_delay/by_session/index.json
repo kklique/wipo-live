@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T10:04:58+00:00",
+ "generated": "2026-11-09T10:06:59+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -107,8 +107,8 @@
      "name": "H.E. Mr. Kairat Torebayev",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 6,
-     "n_words": 342,
+     "n_lines": 7,
+     "n_words": 421,
      "n_turns": 2,
      "file": "d1-03__h-e-mr-kairat-torebayev.txt",
      "method": "marker"
@@ -118,8 +118,8 @@
      "name": "Mr. Ren Ito",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 22,
-     "n_words": 1337,
+     "n_lines": 21,
+     "n_words": 1258,
      "n_turns": 1,
      "file": "d1-03__mr-ren-ito.txt",
      "method": "marker"
@@ -261,9 +261,26 @@
    "start": "11:05",
    "end": "11:25",
    "people": "",
-   "n_lines": 0,
-   "method": "not-reached",
-   "file": null
+   "n_lines": 3,
+   "method": "schedule",
+   "file": "d1-06_insight-ip-at-the-table-making-ip-part-of-the-wi.txt",
+   "actual_start": "2026-11-09T11:05:12+01:00",
+   "actual_end": "2026-11-09T11:06:29+01:00",
+   "line_from": 226,
+   "line_to": 228,
+   "speakers": [
+    {
+     "key": "d1-06__unknown",
+     "name": "(발표자 구분 불가)",
+     "affiliation": "",
+     "role": "unknown",
+     "n_lines": 3,
+     "n_words": 219,
+     "n_turns": 1,
+     "file": "d1-06__unknown.txt",
+     "method": "none"
+    }
+   ]
   },
   {
    "id": "d1-07",
