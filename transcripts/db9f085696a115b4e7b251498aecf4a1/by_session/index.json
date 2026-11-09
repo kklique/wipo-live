@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T11:40:47+00:00",
+ "generated": "2026-11-09T11:42:48+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -341,13 +341,13 @@
    "start": "11:40",
    "end": "12:50",
    "people": "Moderator: Mr. Stanley Lai | Speakers: Ms. Chijioke Okorie; Ms. Myrtha Hurtado Rivas; Mr. Gaétan de Rassenfosse; Mr. Antony Taubman; Ms. Caroline Gueye",
-   "n_lines": 86,
+   "n_lines": 89,
    "method": "cue",
    "file": "d1-08_super-session-back-to-first-principles-is-the-ip.txt",
    "actual_start": "2026-11-09T12:07:23+01:00",
-   "actual_end": "2026-11-09T12:40:04+01:00",
+   "actual_end": "2026-11-09T12:42:05+01:00",
    "line_from": 1308,
-   "line_to": 1393,
+   "line_to": 1396,
    "speakers": [
     {
      "key": "d1-08__mr-stanley-lai",
@@ -376,9 +376,9 @@
      "name": "Mr. Edward Lee",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 10,
-     "n_words": 578,
-     "n_turns": 5,
+     "n_lines": 12,
+     "n_words": 743,
+     "n_turns": 6,
      "file": "d1-08__mr-edward-lee.txt",
      "method": "marker"
     },
@@ -431,8 +431,8 @@
      "name": "Ms. Chijioke Okorie",
      "affiliation": "Associate Professor of Law, University of Pretoria, Nigeria",
      "role": "panelist",
-     "n_lines": 9,
-     "n_words": 640,
+     "n_lines": 10,
+     "n_words": 719,
      "n_turns": 1,
      "file": "d1-08__ms-chijioke-okorie.txt",
      "method": "marker"
