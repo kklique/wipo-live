@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T13:55:35+00:00",
+ "generated": "2026-11-09T13:57:38+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -505,13 +505,13 @@
    "start": "14:30",
    "end": "15:00",
    "people": "Speaker: Ms. Emily Kate Genatowski",
-   "n_lines": 80,
+   "n_lines": 81,
    "method": "marker",
    "file": "d1-11_optional-side-event-my-robot-roommate.txt",
    "actual_start": "2026-11-09T14:35:49+01:00",
-   "actual_end": "2026-11-09T14:55:14+01:00",
+   "actual_end": "2026-11-09T14:55:50+01:00",
    "line_from": 1531,
-   "line_to": 1610,
+   "line_to": 1611,
    "speakers": [
     {
      "key": "d1-11__unknown",
@@ -540,8 +540,8 @@
      "name": "SECRETARIAT",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 1,
-     "n_words": 15,
+     "n_lines": 2,
+     "n_words": 67,
      "n_turns": 1,
      "file": "d1-11__secretariat.txt",
      "method": "marker"
@@ -583,9 +583,13 @@
    "start": "16:10",
    "end": "16:25",
    "people": "",
-   "n_lines": 0,
-   "method": "not-reached",
-   "file": null
+   "n_lines": 1,
+   "method": "cue",
+   "file": "d1-14_coffee-break.txt",
+   "actual_start": "2026-11-09T14:57:20+01:00",
+   "actual_end": "2026-11-09T14:57:20+01:00",
+   "line_from": 1612,
+   "line_to": 1612
   },
   {
    "id": "d1-15",

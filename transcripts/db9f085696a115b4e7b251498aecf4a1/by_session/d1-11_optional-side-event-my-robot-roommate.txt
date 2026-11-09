@@ -1,7 +1,7 @@
 # [d1-11] Optional Side Event - My Robot "Roommate"
 # Day 1 · 2026-11-09 · 예정 14:30-15:00 (Geneva)
 # Speaker: Ms. Emily Kate Genatowski
-# 실제 구간 14:35:49-14:55:14 · 80문장 · 경계 방식: marker
+# 실제 구간 14:35:49-14:55:50 · 81문장 · 경계 방식: marker
 
 Yeah. She is got to visit us. I hope so. No, no, I want to picture it up there. 嗯 Yeah, he is like, I know it on, especially since we kind of promised one of those who all the people who stopped by our booth during the General Assemblies back in July. Exactly. So when I first met Emily Kate a few months ago, it immediately felt obvious we just had to invite her to the global forum. Emily Kate Janowski is an AI Domestic Robotics Researcher and PhD candidate in Digital Humanities at the University of Vienna.
 For the past two years she has been living with TOVA, a Uni3 robot in Austria turning her own apartment into a real -world robotics lab. Due to unforeseen circumstances involving custom fees and train travel, Tova unfortunately could not join us today. So Emily is here today with another Unitry robot.
@@ -83,3 +83,4 @@ So measures that we can take so that we can actually ensure these robots and ens
 And the best way to do that, in my opinion, is to ensure that we know at all times who is accountable for its actions, what is a legal entity, whether that is a company, whether that is an organization, whether that is an individual that is going to take accountability for the way in which the robot is acting and operating. So all of that is to say that facilitating the deployment coordination efforts during this development stage, if we can also protect the core IP, will make this mass adoption event a lot safer, a lot less expensive, and a lot smoother.
 So if IP is a key barrier to this sort of coordination before we actually reach the market, these transparency pillars, which hopefully have inspired you here today, as you have heard these stories, could provide a potential solution to interoperability. So thank you so much.
 I hope you enjoyed it and we will be out and about throughout the day.
+And you are more than welcome to come up, take selfies, meet the robot, and of course, ask me any questions outside during the coffee breaks about living life with a robot. Thank you so much. Thank you. Thank you so very much for this amazing presentation. Yes, you are so amazing.
