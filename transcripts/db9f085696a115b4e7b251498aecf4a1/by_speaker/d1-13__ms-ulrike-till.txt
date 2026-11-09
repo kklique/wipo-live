@@ -1,6 +1,6 @@
 # [d1-13] One-Stop Shop: Keeping up with IP and AI
 # 발표자: Ms. Ulrike Till  (floor)
-# Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva) · 발언 4회 · 5문장 · 325단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva) · 발언 5회 · 7문장 · 396단어 · 구분 방식: marker
 
 Thank you very much. Thank you so much, Christian, for showing us AI innovation and what AI innovation can make a real difference on the ground. Now, there is one thing that I can personally testify to working at the intersection of IP and AI, and it is this.
 Keeping up with it is a full-time job. New court decisions, new legislations and regulations evolving IP office practices. and the emergence of new business models. And just when you think you have caught up with it all, something else happens in this space. So we decided to give six experts a rather challenging assignment. In this fast-moving world of AI and IP, if you can just have ten minutes to brief policymakers, which developments in 2026 would you insist they pay particular attention to?
@@ -10,3 +10,6 @@ And we will turn to more legal developments shortly. While things are playing ou
 The news industry has been in steady decline for two decades. expecting some kind of free market based turnaround is lunacy and if journalism is essential for preserving democracy, perhaps only democracy can preserve journalism. Regulation is needed. Thank you very much. Thank you so much, Eleanor. Shifting back to the courtroom, there is more than one legal development worth watching.
 
 as avoiding those exclusions to patentability except where those solutions or problems concern linguistic aspects. in contrast to other jurisdictions such as China, where that does not apply and patents could be obtained. Thank you. Next slide. Thank you very much. That is the end of my presentation. Thank you so much, Rachel. I have also been told that AI interpretation took an early coffee break, but it is back online.
+
+That is my presentation.
+Thank you very much for your attention. Thank you so much, Professor Wong. The story does not end with Intellectual Property Law in isolation. As AR markets evolve, questions about ownership, access and control increasingly bring IP and competition law into the same conversation. Taking us through key developments at this intersection will be our final 10 minutes briefing from Professor Daryl Lim, H Laddie Montague, Jr.

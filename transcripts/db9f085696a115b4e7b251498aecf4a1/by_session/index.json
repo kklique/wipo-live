@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T15:55:39+00:00",
+ "generated": "2026-11-09T15:57:42+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -603,13 +603,13 @@
    "start": "15:10",
    "end": "16:10",
    "people": "Speakers: Mr. Andres Guadamuz; Mr. Wang Qian; Mr. Edward Lee",
-   "n_lines": 133,
+   "n_lines": 196,
    "method": "marker",
    "file": "d1-13_one-stop-shop-keeping-up-with-ip-and-ai.txt",
    "actual_start": "2026-11-09T15:00:32+01:00",
-   "actual_end": "2026-11-09T16:07:27+01:00",
+   "actual_end": "2026-11-09T16:32:34+01:00",
    "line_from": 1624,
-   "line_to": 1815,
+   "line_to": 1878,
    "speakers": [
     {
      "key": "d1-13__unknown",
@@ -638,9 +638,9 @@
      "name": "Ms. Ulrike Till",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 5,
-     "n_words": 325,
-     "n_turns": 4,
+     "n_lines": 7,
+     "n_words": 396,
+     "n_turns": 5,
      "file": "d1-13__ms-ulrike-till.txt",
      "method": "marker"
     },
@@ -687,6 +687,28 @@
      "n_turns": 1,
      "file": "d1-13__ms-rachel-free.txt",
      "method": "marker"
+    },
+    {
+     "key": "d1-13__mr-wang-qian",
+     "name": "Mr. Wang Qian",
+     "affiliation": "Professor of Law, East China University of Political Science and Law, China",
+     "role": "panelist",
+     "n_lines": 26,
+     "n_words": 1411,
+     "n_turns": 1,
+     "file": "d1-13__mr-wang-qian.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-13__mr-daryl-lim",
+     "name": "Mr. Daryl Lim",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 35,
+     "n_words": 1592,
+     "n_turns": 1,
+     "file": "d1-13__mr-daryl-lim.txt",
+     "method": "marker"
     }
    ]
   },
@@ -699,13 +721,13 @@
    "start": "16:10",
    "end": "16:25",
    "people": "",
-   "n_lines": 24,
-   "method": "cue",
+   "n_lines": 4,
+   "method": "marker",
    "file": "d1-14_coffee-break.txt",
-   "actual_start": "2026-11-09T16:07:30+01:00",
-   "actual_end": "2026-11-09T16:17:17+01:00",
-   "line_from": 1816,
-   "line_to": 1839
+   "actual_start": "2026-11-09T16:54:25+01:00",
+   "actual_end": "2026-11-09T16:56:10+01:00",
+   "line_from": 1879,
+   "line_to": 1882
   },
   {
    "id": "d1-15",
@@ -716,46 +738,24 @@
    "start": "16:25",
    "end": "17:25",
    "people": "Moderator: Ms. Natalie Corthésy | Speakers: Mr. Anderson Rocha; Ms. Kalpana Tyagi; Mr. Jakob Plesner Mathiasen; Mr. Marco Bassini; Ms. Imogen Heap",
-   "n_lines": 41,
-   "method": "cue",
+   "n_lines": 2,
+   "method": "marker",
    "file": "d1-15_protecting-what-makes-us-human-is-ip-the-answer.txt",
-   "actual_start": "2026-11-09T16:17:57+01:00",
-   "actual_end": "2026-11-09T16:55:03+01:00",
-   "line_from": 1840,
-   "line_to": 1880,
+   "actual_start": "2026-11-09T16:56:46+01:00",
+   "actual_end": "2026-11-09T16:57:29+01:00",
+   "line_from": 1883,
+   "line_to": 1884,
    "speakers": [
     {
-     "key": "d1-15__ms-natalie-corthesy",
-     "name": "Ms. Natalie Corthésy",
-     "affiliation": "Associate Dean of Teaching and Learning, Senior Lecturer in Law, The University of the West Indies, Mona Campus, Jamaica",
-     "role": "moderator",
-     "n_lines": 2,
-     "n_words": 145,
-     "n_turns": 1,
-     "file": "d1-15__ms-natalie-corthesy.txt",
-     "method": "marker"
-    },
-    {
-     "key": "d1-15__ms-ulrike-till",
-     "name": "Ms. Ulrike Till",
+     "key": "d1-15__unknown",
+     "name": "(발표자 구분 불가)",
      "affiliation": "",
-     "role": "floor",
+     "role": "unknown",
      "n_lines": 2,
-     "n_words": 71,
+     "n_words": 148,
      "n_turns": 1,
-     "file": "d1-15__ms-ulrike-till.txt",
-     "method": "marker"
-    },
-    {
-     "key": "d1-15__mr-daryl-lim",
-     "name": "Mr. Daryl Lim",
-     "affiliation": "",
-     "role": "floor",
-     "n_lines": 37,
-     "n_words": 1673,
-     "n_turns": 1,
-     "file": "d1-15__mr-daryl-lim.txt",
-     "method": "marker"
+     "file": "d1-15__unknown.txt",
+     "method": "none"
     }
    ]
   },
