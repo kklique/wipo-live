@@ -32,13 +32,41 @@ WIPO Live Speech-to-Text(`webcast.wipo.int/live-speech-to-text`)의 영문 실�
 - **저장소가 public 이면 수집 결과(`data` 브랜치)와 Actions 로그가 모두 공개된다.** 공개를 원치 않으면 private 로 둘 것.
   (private 저장소는 무료 플랜 기준 월 Actions 사용 시간 한도가 있다.)
 
+## 발표별 분할 (아젠더 기준) · 3일 일정
+
+`docs/agenda.json` 에 3일 일정을 넣어 두었다 (Geneva 시간). 출처는 공식 Provisional Program 두 개이며 TBC/시간은 바뀔 수 있으니 이 파일을 고치면 된다.
+
+| 날짜 | 행사 | 비고 |
+|---|---|---|
+| 11/9, 11/10 | First Global Forum on IP and AI (`WIPO/IP-AI/GEN/26`) | 10:00–13:00 / 15:00–18:00 |
+| 11/11 | AI Infrastructure Interchange (AIII) Annual Meeting (`WIPO/AIII/GE/26`) | **다른 행사라 meeting_id 가 다를 수 있음** |
+
+`split_by_agenda.py` 는 수집된 `updates.jsonl` 을 날짜별 아젠더로 나눠 `transcripts/<meeting_id>/by_session/` 에 저장한다
+(워크플로가 2분마다 자동 실행). 하루 단위로 독립 처리하므로 meeting_id 가 날마다 달라도, 같은 날 여러 번 나눠 실행해도 된다.
+
+- `<id>_<제목>.txt` : 발표별 스크립트 (맨 위 `# ` 줄은 머리말: 시간, 발표자, 실제 구간, 경계 방식)
+- `index.json` : 세션 목록과 실제 구간/문장 수 (웹 프로그램 탭이 사용)
+- `all_by_session.md` : 전체를 발표 제목으로 구분한 한 파일
+
+경계는 (1) 예정 시각 + 앞 세션까지의 누적 지연으로 예상 시작 시각을 잡고 (2) 그 ±10분 안에서 발표자 이름/제목 키워드가
+처음 언급되는 문장을 시작점으로(ASR 오인식 대비 유사도 매칭), (3) 단서가 없으면 예정 시각 이후 첫 문장으로 정한다.
+방식은 `index.json` 의 `method`(`cue`/`schedule`/`manual`/`first-line`)에 기록된다. 틀린 경계는 직접 지정해서 다시 나눌 수 있다:
+
+```bash
+python3 split_by_agenda.py --in wipo_out --out wipo_out/by_session --override d1-04=10:46:30
+```
+
+문장 시각의 시계(UTC/Geneva)는 수신 시각과 비교해 자동 판별하며 `--clock utc|geneva|receipt` 로 강제할 수 있다.
+빈 휴식 세션은 파일이 생기지 않는다. 합성 데이터(드리프트·이름 오인식·시각 누락 포함)로 검증했고 실제 회의 ASR 로는 미검증이다.
+
 ## 웹에서 보기 (GitHub Pages)
 
-`docs/index.html` 은 탭 두 개로 구성된 정적 뷰어다.
+`docs/index.html` 은 탭 세 개로 구성된 정적 뷰어다.
 
 | 탭 | 데이터 출처 | 내용 |
 |---|---|---|
 | **실시간** | 브라우저가 WIPO `getLiveTranscript` 를 **직접** 3초마다 호출 | 확정 문장(시각 포함) + **지금 말하는 중인 문장**(커서 표시), 글자 크기 조절, 자동 스크롤/`↓ 최신으로`. 저장·커밋 지연 없음. WIPO 연결이 안 되면(회의 시작 전 등) 저장본 마지막 30문장으로 대체 표시하고 계속 재시도 |
+| **프로그램** | `docs/agenda.json` + `data` 브랜치의 `by_session/index.json` (60초마다) | 3일 일정표. 발표 제목을 누르면 그 발표의 저장된 스크립트가 펼쳐지고(`.txt` 저장/복사), 스크립트가 있는 세션에는 문장 수 표시. `#program:d1-04` 처럼 링크로 특정 발표를 바로 열 수 있음 |
 | **전체 저장본** | `data` 브랜치의 `transcript.txt` / `markers.jsonl` (30초마다 확인) | 처음부터 전체 문장(번호), 검색, `.txt` 저장/복사, 발언자 마커 패널. 저장은 약 2분 간격이라 최신 몇 분은 실시간 탭에서 확인 |
 
 ※ 실시간 탭은 보는 사람의 브라우저가 WIPO 서버를 직접 호출한다(webcast 페이지 자신이 하는 것과 같은 요청).

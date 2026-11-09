@@ -57,6 +57,9 @@ jobs:
           mkdir -p "$OUT"
 
           save() {
+            # 아젠더(docs/agenda.json) 기준 발표별 분할. 실패해도 수집은 계속한다.
+            python3 split_by_agenda.py --in "$OUT" --agenda docs/agenda.json --out "$OUT/by_session" --quiet \
+              || echo "split failed (ignored)"
             ( cd ../data
               git add -A
               if ! git diff --cached --quiet; then
