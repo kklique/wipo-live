@@ -1,9 +1,7 @@
-# [d1-14] Coffee Break
-# Day 1 · 2026-11-09 · 예정 16:10-16:25 (Geneva)
-# 실제 구간 14:55:29-14:59:39 · 13문장 · 경계 방식: cue
+# [d1-11] Optional Side Event - My Robot "Roommate"
+# 발표자: Ms. Emily Kate Genatowski — AI Domestic Robotics Researcher, PhD candidate in Digital Humanities, University of Vienna, United States of America  (speaker)
+# Day 1 · 2026-11-09 · 예정 14:30-15:00 (Geneva) · 발언 1회 · 10문장 · 450단어 · 구분 방식: marker
 
-The main programme will begin shortly, so please bear with us.
-And have a look at the robot. Thank you. Okay. I know we're all loving seeing it walking around and that's so heartwarming. We do have just a couple of minutes before our next scheduled speaker, so I'm very happy to take any type of question that anybody has and answer it for the group. Does anybody have any question about living life with a robot? and what that's like? here in Europe? I'm sure there's some brave soul.
 Okay. I had some questions earlier. So since everyone is feeling shy, I'll reference one of those. One of the questions that I had earlier was, I don't get it, what does it do for you? This is a fantastic question that I get all of the time. And I give the same answer. I always say great question. horrible answer. It does nothing for me.
 It doesn't really do anything for me.
 The goal of this type of robot, not this one in particular that's here, but my robot, Tova, is that at some point with its domestic application, it's going to be able to take care of the things that we want taken care of in the house, right? right, the domestic labor.
@@ -14,4 +12,3 @@ And from that experience, so much has come out about how people interact with it
 and stomping. So there's all different types of things that we can learn and we can push these conversations and these public debates forward. so that by the time the actual innovation ready for deployment and is market ready for adoption, we then have figured out much more and we're in a much better place when it comes to regulation, policy and infrastructure updates needed.
 We have one minute. if any other, yes, sir. I hope you can hear me. I arrived late, so maybe you mentioned this. What software you use? Is it from the factory, from the developer, or do you have your own version of software? >> Amazing.
 Okay.
-Another great question which I will answer very quickly and I will also direct you, given that question, to speak to my colleague over there.

@@ -437,11 +437,6 @@ So my robot is exclusively Uber. Until we figure out something better. Then we s
 And the best way to do that, in my opinion, is to ensure that we know at all times who is accountable for its actions, what is a legal entity, whether that is a company, whether that is an organization, whether that is an individual that is going to take accountability for the way in which the robot is acting and operating. So all of that is to say that facilitating the deployment coordination efforts during this development stage, if we can also protect the core IP, will make this mass adoption event a lot safer, a lot less expensive and a lot smoother.
 So if IP is a key barrier to this sort of coordination before we actually reach the market, these transparency pillars which hopefully have inspired you here today as you have heard these stories. could provide a potential solution to interoperability. So thank you so much. I hope you enjoyed it. And we will be out and about throughout the day. And you are more than welcome to come up.
 take selfies, meet the robot, and of course ask me any questions outside during the coffee breaks about living life with a robot. Thank you so much. Thank you. Thank you so very much. for this amazing presentation. Yes, you are also amazing.
-
-## [d1-14] Coffee Break
-
-_Day 1 16:10-16:25_
-
 The main programme will begin shortly, so please bear with us.
 And have a look at the robot. Thank you. Okay. I know we're all loving seeing it walking around and that's so heartwarming. We do have just a couple of minutes before our next scheduled speaker, so I'm very happy to take any type of question that anybody has and answer it for the group. Does anybody have any question about living life with a robot? and what that's like? here in Europe? I'm sure there's some brave soul.
 Okay. I had some questions earlier. So since everyone is feeling shy, I'll reference one of those. One of the questions that I had earlier was, I don't get it, what does it do for you? This is a fantastic question that I get all of the time. And I give the same answer. I always say great question. horrible answer. It does nothing for me.
@@ -455,3 +450,9 @@ and stomping. So there's all different types of things that we can learn and we 
 We have one minute. if any other, yes, sir. I hope you can hear me. I arrived late, so maybe you mentioned this. What software you use? Is it from the factory, from the developer, or do you have your own version of software? >> Amazing.
 Okay.
 Another great question which I will answer very quickly and I will also direct you, given that question, to speak to my colleague over there.
+But I use my actual, I use a unitree G1 EDU and I use it out of box.
+So I am not a developer. and most of the consumer market are not going to be developers. So I use it as anybody would if they took it out of the box, turned it on, charged it up, turned it on and let it come into their home. But there are a number of incredible organizations, robotics clubs, individuals and companies who are very clever and who do quite a lot of secondary development.
+And we have one of them here today, so I encourage you in the coffee break to come and say hello. And with that, we are perfectly out of time. So thank you so much for your wonderful questions. and your attention today.
+Thank you. Good afternoon.
+What a fascinating topics we discussed today. So welcome back.
+I hope you enjoyed your short lunch. And every year wildfires devastate forests, destroy livelihood and threatens community throughout the world. But what if we could identify the danger before the first flames appear? That is the ambition of our next innovator. From Chile, drovid technologies is combining artificial intelligence with anonymous drones, autonomous drones, sorry. sorry, to monitor a forest.

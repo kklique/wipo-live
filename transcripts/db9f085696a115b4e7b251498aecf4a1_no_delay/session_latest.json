@@ -136,9 +136,23 @@
     {
       "description": "Ms. Emily Kate Genatowski",
       "personId": "e7bd5820-0cb1-45d3-ae70-08df3b2598d3",
-      "timestamp": "00:38:56",
-      "timestampCVC5": "2026-11-09T13:58:56",
-      "timestampSeconds": 2336
+      "timestamp": "00:36:24",
+      "timestampCVC5": "2026-11-09T13:56:24",
+      "timestampSeconds": 2184
+    },
+    {
+      "description": "SPEAKER",
+      "personId": "33304eb7-6e83-44b3-bdfa-88d0a22264d0",
+      "timestamp": "00:39:11",
+      "timestampCVC5": "2026-11-09T13:59:11",
+      "timestampSeconds": 2351
+    },
+    {
+      "description": "Showcase 2: AI in Action - From Ideas to Real-World Impact ",
+      "subjectId": "18f903eb-6267-427c-8c24-6c5c993ac56a",
+      "timestamp": "00:41:24",
+      "timestampCVC5": "2026-11-09T14:01:24",
+      "timestampSeconds": 2484
     }
   ],
   "markers_grouped": {
@@ -177,15 +191,34 @@
                   {
                     "description": "Ms. Emily Kate Genatowski",
                     "personId": "e7bd5820-0cb1-45d3-ae70-08df3b2598d3",
-                    "timestamp": "00:38:56",
-                    "timestampCVC5": "2026-11-09T13:58:56",
-                    "timestampSeconds": 2336
+                    "timestamp": "00:36:24",
+                    "timestampCVC5": "2026-11-09T13:56:24",
+                    "timestampSeconds": 2184
+                  },
+                  {
+                    "description": "SPEAKER",
+                    "personId": "33304eb7-6e83-44b3-bdfa-88d0a22264d0",
+                    "timestamp": "00:39:11",
+                    "timestampCVC5": "2026-11-09T13:59:11",
+                    "timestampSeconds": 2351
                   }
                 ],
                 "subjectId": "38f6620c-af0c-439f-801c-711b63f18c82",
                 "timestamp": "00:14:18",
                 "timestampCVC5": "2026-11-09T13:34:18",
                 "timestampSeconds": 858
+              }
+            ]
+          },
+          {
+            "subject": [
+              {
+                "description": "Showcase 2: AI in Action - From Ideas to Real-World Impact ",
+                "list_markers": [],
+                "subjectId": "18f903eb-6267-427c-8c24-6c5c993ac56a",
+                "timestamp": "00:41:24",
+                "timestampCVC5": "2026-11-09T14:01:24",
+                "timestampSeconds": 2484
               }
             ]
           }
@@ -208,11 +241,26 @@
       "id": "a0e748e4-7441-4115-ab9c-2b2b36f5a086",
       "name": "SECRETARIAT",
       "photoUrl": "https://amcpweservicesassets.blob.core.windows.net/assets/80d8cc56-b763-401f-9522-b2cf02bb79d6.png"
+    },
+    {
+      "bio": "",
+      "email": "",
+      "id": "33304eb7-6e83-44b3-bdfa-88d0a22264d0",
+      "name": "SPEAKER",
+      "photoUrl": "./assets/images/noPicSpeaker.png "
     }
   ],
   "place": "WCH",
   "startDate": "2026-11-09T13:20:00",
   "subjects": [
+    {
+      "assets": [],
+      "description": "Showcase 2: AI in Action - From Ideas to Real-World Impact ",
+      "id": "18f903eb-6267-427c-8c24-6c5c993ac56a",
+      "orderNumber": 2,
+      "orderNumberDescription": "2",
+      "refId": null
+    },
     {
       "assets": [],
       "description": " Side Event – My Robot “Roommate”",
