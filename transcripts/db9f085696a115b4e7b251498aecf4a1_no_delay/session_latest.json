@@ -492,9 +492,9 @@
     {
       "description": "Ms. Myrtha Hurtado Rivas",
       "personId": "42f6d057-4e34-48f9-ae6d-08df3b2598d3",
-      "timestamp": "03:18:24",
-      "timestampCVC5": "2026-11-09T12:08:24",
-      "timestampSeconds": 11904
+      "timestamp": "03:18:17",
+      "timestampCVC5": "2026-11-09T12:08:17",
+      "timestampSeconds": 11897
     },
     {
       "description": "Mr. Edward Lee",
@@ -969,9 +969,9 @@
                   {
                     "description": "Ms. Myrtha Hurtado Rivas",
                     "personId": "42f6d057-4e34-48f9-ae6d-08df3b2598d3",
-                    "timestamp": "03:18:24",
-                    "timestampCVC5": "2026-11-09T12:08:24",
-                    "timestampSeconds": 11904
+                    "timestamp": "03:18:17",
+                    "timestampCVC5": "2026-11-09T12:08:17",
+                    "timestampSeconds": 11897
                   },
                   {
                     "description": "Mr. Edward Lee",

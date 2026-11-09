@@ -1,7 +1,7 @@
 # [d1-09] Insight: Painting by Numbers - The Power of IP Data
 # Day 1 · 2026-11-09 · 예정 12:50-13:00 (Geneva)
 # Speaker: Mr. Andrew Toole
-# 실제 구간 13:19:11-13:28:05 · 17문장 · 경계 방식: marker
+# 실제 구간 13:19:11-13:28:38 · 18문장 · 경계 방식: marker
 
 And so can you just join me to thank most eclectic and didactic panel. Thank you to the speakers. Thank you very much, Stanley, and the panelists here are free to depart. Thank you. And we have one more session before lunch. and I will be brief. but not fast. You're welcome. colleagues. When chat GPT burst onto the scene in late 2022, it seemed to many of us as though AI revolution had arrived almost out of nowhere.
 but had it really.
@@ -20,3 +20,4 @@ And ChatGPT was launched in November of 2022. And just weeks after that, in Janu
 if we had known what to look for. And so didn't we see it? Why didn't we see it? Because we didn't know the language that described and characterized the new technology. This picture shows the words used in USAI patent applications published in 2018 and 2019. The bigger the word, the more applications used it. In those years, AI meant things like recognizing Images, speech, faces, vehicles, even robots, the gold words on the graphic are the language of generative AI.
 So generative and language model, each appear about 1 in 200 AI applications at that time. compared with image, which appeared in one out of every four AI applications. at that time. which raises the question, where could we have learned about the language of generative AI so that we could actually the emergence of this technology? So the answer is science. and to some extent industry.
 the language of a new technology appears in research before it appears in inventions. In this diagram, the Sankey diagram, shows that flow. On the left are the words inventors use to name their generative AI models. Each family of words was coined in research papers, and the labels show which paper and when. On the right are the U.S. patent applications published from 2018 to 2022, that five -year window before Chant GPT.
+The width of each band is a count of patent applications. So almost four in five of these applications used language coined in research in 2013 and 2014. Auto encoders, word embeddings, sequence to sequence models. and above all generative adversarial networks, which alone accounted for 860 of the 1 ,726 applications. Now look at the bottom of this graphic, the language of the next wave of generative AI.
