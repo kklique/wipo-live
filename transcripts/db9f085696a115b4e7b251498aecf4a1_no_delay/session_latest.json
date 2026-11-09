@@ -258,6 +258,27 @@
       "timestamp": "01:58:47",
       "timestampCVC5": "2026-11-09T15:18:47",
       "timestampSeconds": 7127
+    },
+    {
+      "description": "Protecting What Makes us Human - Is IP the Answer? ",
+      "subjectId": "5c4b21a8-f209-492f-9b8f-4996178c9dab",
+      "timestamp": "02:36:17",
+      "timestampCVC5": "2026-11-09T15:56:17",
+      "timestampSeconds": 9377
+    },
+    {
+      "description": "CHAIR",
+      "personId": "ec07df79-cc36-48c1-acea-301e6dddfad4",
+      "timestamp": "02:36:21",
+      "timestampCVC5": "2026-11-09T15:56:21",
+      "timestampSeconds": 9381
+    },
+    {
+      "description": "Ms. Natalie Corthésy",
+      "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+      "timestamp": "02:36:33",
+      "timestampCVC5": "2026-11-09T15:56:33",
+      "timestampSeconds": 9393
     }
   ],
   "markers_grouped": {
@@ -438,6 +459,33 @@
                 "timestampSeconds": 3176
               }
             ]
+          },
+          {
+            "subject": [
+              {
+                "description": "Protecting What Makes us Human - Is IP the Answer? ",
+                "list_markers": [
+                  {
+                    "description": "CHAIR",
+                    "personId": "ec07df79-cc36-48c1-acea-301e6dddfad4",
+                    "timestamp": "02:36:21",
+                    "timestampCVC5": "2026-11-09T15:56:21",
+                    "timestampSeconds": 9381
+                  },
+                  {
+                    "description": "Ms. Natalie Corthésy",
+                    "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+                    "timestamp": "02:36:33",
+                    "timestampCVC5": "2026-11-09T15:56:33",
+                    "timestampSeconds": 9393
+                  }
+                ],
+                "subjectId": "5c4b21a8-f209-492f-9b8f-4996178c9dab",
+                "timestamp": "02:36:17",
+                "timestampCVC5": "2026-11-09T15:56:17",
+                "timestampSeconds": 9377
+              }
+            ]
           }
         ]
       }
@@ -467,6 +515,13 @@
       "photoUrl": "./assets/images/noPicSpeaker.png "
     },
     {
+      "bio": "Associate Dean of Teaching and Learning, Senior Lecturer in Law, The University of the West Indies, Mona Campus, Jamaica ",
+      "email": "",
+      "id": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+      "name": "Ms. Natalie Corthésy",
+      "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
       "bio": "Executive Director, Public Affairs and Media Policy, WAN-IFRA, World Association of News Publishers, France.\nElena Perotti is Executive Director of Media Policy and Public Affairs at WAN-IFRA, the World Association of News Publishers, representing more than 20,000 media brands and 60 national publishers' associations in 120 countries.. For 20 years at WAN-IFRA she has been the person in charge of the relationship with the global community of WAN-IFRA member associations of news media publishers, and main liaison with the organisation's governing bodies. For over a decade she has studied and advocated on the relationship between big tech and publishers on behalf of WAN-IFRA's members, developing an early specialisation in how AI is reshaping the news publishing business. She leads WAN-IFRA's regular policy briefings, keeping members promptly informed of the most relevant global media policy developments and giving them exclusive access to experts, and holds executive briefings for publisher CEOs on the role of policy in shaping the (emerging AI) content marketplace. She represents the industry before international bodies including the UN, WIPO, UNESCO, IGF, and the Council of Europe, and serves on the Advisory Group of the M20, a global initiative driving information integrity, AI governance, and press freedom within the G20 framework https://media20.org/about/#m20advisorygroup. A frequent speaker at conferences worldwide, she also oversees WAN-IFRA's News Literacy initiatives. She holds a Master's degree in International Trade Law.",
       "email": "",
       "id": "3dffddda-75c6-4963-8e95-08df3bfd2d66",
@@ -479,6 +534,13 @@
       "id": "a0e748e4-7441-4115-ab9c-2b2b36f5a086",
       "name": "SECRETARIAT",
       "photoUrl": "https://amcpweservicesassets.blob.core.windows.net/assets/80d8cc56-b763-401f-9522-b2cf02bb79d6.png"
+    },
+    {
+      "bio": "<p><a href=\"https://www.wipo.int/policy/en/rules_of_procedure.html\" target=\"_blank\">General Rules of Procedure of WIPO</a><br></p>",
+      "email": "",
+      "id": "ec07df79-cc36-48c1-acea-301e6dddfad4",
+      "name": "CHAIR",
+      "photoUrl": "./assets/images/noPicSpeaker.png "
     },
     {
       "bio": "Daryl Lim is the H. Laddie Montague Jr. Chair in Law at Penn State Dickinson Law. He is also the Associate Dean for Research and Strategic Partnerships and Founding Director of the Intellectual Property (IP) Law and Innovation Initiative. At the university level, he is a co-hire at the Institute of Computational and Data Sciences and was appointed to its Research Council in 2025. He is also an affiliate at the Center for Socially Responsible Artificial Intelligence.;",
@@ -547,6 +609,14 @@
       "id": "1fda6de4-644a-4a61-af86-3dccad676ba9",
       "orderNumber": 3,
       "orderNumberDescription": "3",
+      "refId": null
+    },
+    {
+      "assets": [],
+      "description": "Protecting What Makes us Human - Is IP the Answer? ",
+      "id": "5c4b21a8-f209-492f-9b8f-4996178c9dab",
+      "orderNumber": 4,
+      "orderNumberDescription": "4",
       "refId": null
     },
     {
