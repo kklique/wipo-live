@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T18:21:13+00:00",
+ "generated": "2026-11-09T22:07:04+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -236,13 +236,13 @@
    "start": "10:55",
    "end": "11:05",
    "people": "Speaker: Mr. Anant Madabhushi",
-   "n_lines": 71,
+   "n_lines": 47,
    "method": "marker",
    "file": "d1-05_showcase-1-ai-in-action-from-ideas-to-real-world.txt",
    "actual_start": "2026-11-09T11:23:24+01:00",
-   "actual_end": "2026-11-09T15:12:33+01:00",
+   "actual_end": "2026-11-09T11:42:05+01:00",
    "line_from": 250,
-   "line_to": 1684,
+   "line_to": 296,
    "speakers": [
     {
      "key": "d1-05__unknown",
@@ -264,28 +264,6 @@
      "n_words": 2409,
      "n_turns": 1,
      "file": "d1-05__mr-anant-madabhushi.txt",
-     "method": "marker"
-    },
-    {
-     "key": "d1-05__h-e-mr-kairat-torebayev",
-     "name": "H.E. Mr. Kairat Torebayev",
-     "affiliation": "",
-     "role": "floor",
-     "n_lines": 5,
-     "n_words": 113,
-     "n_turns": 1,
-     "file": "d1-05__h-e-mr-kairat-torebayev.txt",
-     "method": "marker"
-    },
-    {
-     "key": "d1-05__mr-cristian-leon",
-     "name": "Mr. Cristian Léon",
-     "affiliation": "",
-     "role": "floor",
-     "n_lines": 19,
-     "n_words": 951,
-     "n_turns": 1,
-     "file": "d1-05__mr-cristian-leon.txt",
      "method": "marker"
     }
    ]
@@ -590,9 +568,37 @@
    "start": "15:00",
    "end": "15:10",
    "people": "Speaker: Mr. Cristian Léon",
-   "n_lines": 0,
-   "method": "not-reached",
-   "file": null
+   "n_lines": 24,
+   "method": "marker",
+   "file": "d1-12_showcase-2-ai-in-action-from-ideas-to-real-world.txt",
+   "actual_start": "2026-11-09T15:01:29+01:00",
+   "actual_end": "2026-11-09T15:12:33+01:00",
+   "line_from": 1626,
+   "line_to": 1684,
+   "speakers": [
+    {
+     "key": "d1-12__unknown",
+     "name": "(진행/도입)",
+     "affiliation": "",
+     "role": "unknown",
+     "n_lines": 5,
+     "n_words": 113,
+     "n_turns": 1,
+     "file": "d1-12__unknown.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-12__mr-cristian-leon",
+     "name": "Mr. Cristian Léon",
+     "affiliation": "Founder and Chief Executive Officer, DROVID Technologies, Chile",
+     "role": "speaker",
+     "n_lines": 19,
+     "n_words": 951,
+     "n_turns": 1,
+     "file": "d1-12__mr-cristian-leon.txt",
+     "method": "marker"
+    }
+   ]
   },
   {
    "id": "d1-13",

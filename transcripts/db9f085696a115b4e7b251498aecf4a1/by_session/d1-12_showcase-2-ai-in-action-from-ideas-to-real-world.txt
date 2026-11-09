@@ -1,7 +1,13 @@
-# [d1-05] Showcase 1: AI in Action - From Ideas to Real-World Impact
-# 발표자: Mr. Cristian Léon  (floor)
-# Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva) · 발언 1회 · 19문장 · 951단어 · 구분 방식: marker
+# [d1-12] Showcase 2: AI in Action - From Ideas to Real-World Impact
+# Day 1 · 2026-11-09 · 예정 15:00-15:10 (Geneva)
+# Speaker: Mr. Cristian Léon
+# 실제 구간 15:01:29-15:12:33 · 24문장 · 경계 방식: marker
 
+What a fascinating topics we discussed today. So welcome back. I hope you enjoyed your short lunch.
+And every year wildfires devastate forests, destroy livelihoods and threatens communities throughout the world.
+But what if we could identify the danger before the first flames appear?
+That is the ambition of our next innovator.
+From Chile, DROVID technologies is combining artificial intelligence with anonymous drones, autonomous drones, sorry. sorry, to monitor a forest. It is a powerful example of how AI is embedding entrepreneurs to track the pressing challenges in its own communities and develop solutions with the potential to make difference beyond the And the reason an important Intellectual Property story to support that.
 DROVIT is 2026 WIPO global award winner. and recognized innovation support by the comprehensive IP strategy. For our second AI in action showcase, please welcome the Christian Lyon, founder and chief executive of the officer of the Draught Technologies. Good afternoon.
 Thank you, OMPI, for the invitation and for recognizing Droid at the Global Awards this year.
 I would like to start with a question. and if we could have a fire before it starts. It is not a theoretical question. In February 2024, a forest fire advanced to the houses and 134 people died. I asked this question much earlier. In 2014, we walked the Paine Towers in the Patagonia of Chile. more than 17,000 hectares burned.
