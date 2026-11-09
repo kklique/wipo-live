@@ -108,9 +108,9 @@
     {
       "description": " Side Event – My Robot “Roommate”",
       "subjectId": "38f6620c-af0c-439f-801c-711b63f18c82",
-      "timestamp": "00:14:31",
-      "timestampCVC5": "2026-11-09T13:34:31",
-      "timestampSeconds": 871
+      "timestamp": "00:14:18",
+      "timestampCVC5": "2026-11-09T13:34:18",
+      "timestampSeconds": 858
     },
     {
       "description": "SECRETARIAT",
@@ -155,9 +155,9 @@
                   }
                 ],
                 "subjectId": "38f6620c-af0c-439f-801c-711b63f18c82",
-                "timestamp": "00:14:31",
-                "timestampCVC5": "2026-11-09T13:34:31",
-                "timestampSeconds": 871
+                "timestamp": "00:14:18",
+                "timestampCVC5": "2026-11-09T13:34:18",
+                "timestampSeconds": 858
               }
             ]
           }
