@@ -176,7 +176,7 @@
   <aside>
     <h2>발언자 마커 <span id="mcount" style="color:var(--muted);font-weight:400"></span></h2>
     <ul id="markers"></ul>
-    <div class="hint">WIPO 회의 시스템이 찍는 발언자/안건 표시입니다. 시각은 Geneva 현지 시간 기준이며,
+    <div class="hint">WIPO 회의 시스템이 찍는 발언자/안건 표시입니다. 시각은 Geneva 현지 시간(UTC+1)으로 변환해 표시하며,
       수집 중 값이 채워지지 않으면 비어 있을 수 있습니다.</div>
   </aside>
 </main>
@@ -205,6 +205,17 @@ const el = { meeting: $("meeting"), q: $("q"), follow: $("follow"), tr: $("trans
              markers: $("markers"), mcount: $("mcount"), status: $("status"), stext: $("status-text"), badge: $("badge"),
              liveBox: $("live-box"), toBottom: $("to-bottom") };
 const hhmmss = (iso) => (iso || "").slice(11, 19);
+// WIPO 의 문장/마커 시각(end_time_iso, timestampCVC5)은 시간대 표시가 없는 값이다. 실제 데이터로 보면 UTC 이므로(개회 10:04 Geneva = 09:04 UTC)
+// 화면에는 Geneva 현지 시간으로 변환해서 보여준다. 분할 결과(index.json)의 clock 값이 다르면(geneva, offset:<초>) 그에 맞춘다.
+let NAIVE_CLOCK = "utc";
+function gvaTime(iso) {
+  const m = /^(\d{4})-(\d\d)-(\d\d)T(\d\d):(\d\d):(\d\d)/.exec(iso || "");
+  if (!m) return hhmmss(iso);
+  if (NAIVE_CLOCK === "geneva") return `${m[4]}:${m[5]}:${m[6]}`;
+  let ms = Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4], +m[5], +m[6]);
+  if (NAIVE_CLOCK.startsWith("offset:")) ms += parseInt(NAIVE_CLOCK.slice(7), 10) * 1000;
+  return new Date(ms).toLocaleTimeString("sv-SE", { timeZone: "Europe/Zurich" });
+}
 
 /* ---------- 상태 표시 (탭별로 기억) ---------- */
 const statuses = { live: ["", "LIVE", "연결 중…"], program: ["", "프로그램", "불러오는 중…"], full: ["", "저장본", "불러오는 중…"],
@@ -314,7 +325,7 @@ function applyMarkers(text) {
   el.markers.innerHTML = "";
   for (const m of list) {
     const li = document.createElement("li");
-    const t = document.createElement("time"); t.textContent = hhmmss(m.timestampCVC5);
+    const t = document.createElement("time"); t.textContent = gvaTime(m.timestampCVC5);
     li.appendChild(t); li.appendChild(document.createTextNode(m.description || ""));
     el.markers.appendChild(li);
   }
@@ -408,7 +419,7 @@ async function livePoll() {
         if (first && liveCursor !== 1) { liveCursor = 1; d = await fetchWipo(1); } else throw e;
       }
       if (gen !== liveGen) return;
-      const added = (d.full_lines || []).map((l) => ({ t: hhmmss(l.end_time_iso), text: (l.text || "").trim() }))
+      const added = (d.full_lines || []).map((l) => ({ t: gvaTime(l.end_time_iso), text: (l.text || "").trim() }))
                                         .filter((l) => l.text);
       if (first || liveSource !== "direct") liveLines = [];
       liveLines = liveLines.concat(added).slice(-LIVE_KEEP);
@@ -506,7 +517,9 @@ async function loadProgramIndex() {
     try {
       const t = await getText(`transcripts/${d}/by_session/index.json`);
       if (!t) return;
-      for (const e of JSON.parse(t).items || []) {
+      const parsed = JSON.parse(t);
+      if (parsed.clock) NAIVE_CLOCK = parsed.clock;
+      for (const e of parsed.items || []) {
         if (!merged[e.id] || (e.n_lines || 0) > (merged[e.id].n_lines || 0)) merged[e.id] = { ...e, dir: d };
       }
     } catch (e) { /* 이 회의는 분할 결과가 아직 없음 */ }
@@ -732,7 +745,7 @@ async function refreshStatus() {
       getText(`${base}/by_session/index.json`).catch(() => null), getText(`${base}/markers.jsonl`).catch(() => null)]);
     let state = null, idx = null;
     try { state = JSON.parse(st); } catch (e) { /* 없음 */ }
-    try { idx = JSON.parse(idxT); } catch (e) { /* 없음 */ }
+    try { idx = JSON.parse(idxT); if (idx && idx.clock) NAIVE_CLOCK = idx.clock; } catch (e) { /* 없음 */ }
     const [ahead, run] = await Promise.all([wipoAhead(state && state.next_line_number), latestCollectRun()]);
 
     const age = state ? mins(state.updated) : null;
