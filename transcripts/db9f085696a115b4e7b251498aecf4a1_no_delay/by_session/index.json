@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T09:08:16+00:00",
+ "generated": "2026-11-09T09:10:18+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -12,13 +12,13 @@
    "start": "10:00",
    "end": "10:10",
    "people": "Speaker: Daren Tang",
-   "n_lines": 9,
+   "n_lines": 15,
    "method": "first-line",
    "file": "d1-01_opening-remarks.txt",
    "actual_start": "2026-11-09T10:04:18+01:00",
-   "actual_end": "2026-11-09T10:07:39+01:00",
+   "actual_end": "2026-11-09T10:09:45+01:00",
    "line_from": 1,
-   "line_to": 9,
+   "line_to": 15,
    "speakers": [
     {
      "key": "d1-01__daren-tang",
@@ -36,8 +36,8 @@
      "name": "DIRECTOR GENERAL",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 7,
-     "n_words": 438,
+     "n_lines": 13,
+     "n_words": 716,
      "n_turns": 1,
      "file": "d1-01__director-general.txt",
      "method": "marker"
