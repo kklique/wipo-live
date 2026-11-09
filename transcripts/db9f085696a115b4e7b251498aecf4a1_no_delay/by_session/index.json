@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T15:57:43+00:00",
+ "generated": "2026-11-09T15:59:44+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -570,13 +570,13 @@
    "start": "15:10",
    "end": "16:10",
    "people": "Speakers: Mr. Andres Guadamuz; Mr. Wang Qian; Mr. Edward Lee",
-   "n_lines": 115,
+   "n_lines": 175,
    "method": "marker",
    "file": "d1-13_one-stop-shop-keeping-up-with-ip-and-ai.txt",
    "actual_start": "2026-11-09T15:00:31+01:00",
-   "actual_end": "2026-11-09T16:06:57+01:00",
+   "actual_end": "2026-11-09T16:31:41+01:00",
    "line_from": 661,
-   "line_to": 939,
+   "line_to": 999,
    "speakers": [
     {
      "key": "d1-13__unknown",
@@ -605,9 +605,9 @@
      "name": "Ms. Ulrike Till",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 5,
-     "n_words": 203,
-     "n_turns": 3,
+     "n_lines": 8,
+     "n_words": 371,
+     "n_turns": 5,
      "file": "d1-13__ms-ulrike-till.txt",
      "method": "marker"
     },
@@ -654,6 +654,28 @@
      "n_turns": 1,
      "file": "d1-13__ms-rachel-free.txt",
      "method": "marker"
+    },
+    {
+     "key": "d1-13__mr-wang-qian",
+     "name": "Mr. Wang Qian",
+     "affiliation": "Professor of Law, East China University of Political Science and Law, China",
+     "role": "panelist",
+     "n_lines": 23,
+     "n_words": 1330,
+     "n_turns": 1,
+     "file": "d1-13__mr-wang-qian.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-13__mr-daryl-lim",
+     "name": "Mr. Daryl Lim",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 34,
+     "n_words": 1592,
+     "n_turns": 1,
+     "file": "d1-13__mr-daryl-lim.txt",
+     "method": "marker"
     }
    ]
   },
@@ -666,12 +688,12 @@
    "start": "16:10",
    "end": "16:25",
    "people": "",
-   "n_lines": 64,
-   "method": "cue",
+   "n_lines": 4,
+   "method": "marker",
    "file": "d1-14_coffee-break.txt",
-   "actual_start": "2026-11-09T16:07:25+01:00",
+   "actual_start": "2026-11-09T16:54:02+01:00",
    "actual_end": "2026-11-09T16:55:58+01:00",
-   "line_from": 940,
+   "line_from": 1000,
    "line_to": 1003
   },
   {
@@ -683,35 +705,35 @@
    "start": "16:25",
    "end": "17:25",
    "people": "Moderator: Ms. Natalie Corthésy | Speakers: Mr. Anderson Rocha; Ms. Kalpana Tyagi; Mr. Jakob Plesner Mathiasen; Mr. Marco Bassini; Ms. Imogen Heap",
-   "n_lines": 2,
+   "n_lines": 6,
    "method": "marker",
    "file": "d1-15_protecting-what-makes-us-human-is-ip-the-answer.txt",
    "actual_start": "2026-11-09T16:56:41+01:00",
-   "actual_end": "2026-11-09T16:57:11+01:00",
+   "actual_end": "2026-11-09T16:59:16+01:00",
    "line_from": 1004,
-   "line_to": 1005,
+   "line_to": 1009,
    "speakers": [
     {
      "key": "d1-15__ms-natalie-corthesy",
      "name": "Ms. Natalie Corthésy",
      "affiliation": "Associate Dean of Teaching and Learning, Senior Lecturer in Law, The University of the West Indies, Mona Campus, Jamaica",
      "role": "moderator",
-     "n_lines": 1,
-     "n_words": 74,
+     "n_lines": 4,
+     "n_words": 259,
      "n_turns": 1,
      "file": "d1-15__ms-natalie-corthesy.txt",
-     "method": "cue"
+     "method": "marker"
     },
     {
-     "key": "d1-15__ms-imogen-heap",
-     "name": "Ms. Imogen Heap",
-     "affiliation": "Recording Artist and Technologist, United Kingdom",
+     "key": "d1-15__mr-anderson-rocha",
+     "name": "Mr. Anderson Rocha",
+     "affiliation": "Full Professor of Artificial Intelligence and Digital Forensics, University of Campinas, Head, Recod.ai Artificial Intelligence Lab, Brazil",
      "role": "panelist",
-     "n_lines": 1,
-     "n_words": 61,
+     "n_lines": 2,
+     "n_words": 112,
      "n_turns": 1,
-     "file": "d1-15__ms-imogen-heap.txt",
-     "method": "cue"
+     "file": "d1-15__mr-anderson-rocha.txt",
+     "method": "marker"
     }
    ]
   },

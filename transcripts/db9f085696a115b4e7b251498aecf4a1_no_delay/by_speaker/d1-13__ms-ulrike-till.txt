@@ -1,6 +1,6 @@
 # [d1-13] One-Stop Shop: Keeping up with IP and AI
 # 발표자: Ms. Ulrike Till  (floor)
-# Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva) · 발언 3회 · 5문장 · 203단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva) · 발언 5회 · 8문장 · 371단어 · 구분 방식: marker
 
 and the emergence of new business models. And just when you think you have caught up with it all, something else happens in this space. So we decided to give six experts a rather challenging assignment. In this fast-moving world of AI and IP, if you can just have ten minutes to brief policymakers. which developments in 2026 would you insist they pay particular attention to?
 Welcome to our one -stop shop, Keeping Up with RP and AI. We begin with some of the most consequential questions are being tested in the courts. Our first speaker is Professor Edward Lee. Professor of Law at Santa Clara University. School of Law. Ed, what should be on our legal radar? The floor is yours. Thank you. so much. I'm a professor at Santa Clara Law in Silicon Valley.
@@ -9,3 +9,8 @@ For our next 10-minute briefing, please welcome Ms. Eleanor Perotti, Executive D
 
 Thank you very much. Thank you so much, Eleanor.
 Shifting back to the courtroom, there is more than one legal development worth watching.
+
+Around the world, governments are considering how existing legislation applies to AI, where new rules may be needed and how different regulatory approaches are taking shape. To guide us through the developments in legislation and regulation that deserves particular attention, please welcome Professor Wong, Professor of Law and at East China University of Political Science and Law.
+Professor Wang, over to you. Good afternoon, everybody. It's my good pleasure to present the key developments in 2026 concerning AI and IP policies, legislation and cases in China. and other As AI technology is blowing up so fast, it's always necessary to strike a proper balance between two competing interests. The first challenge is to promote AI technology while protecting the interests of IP holders.
+
+Ladie Montague Jr. Chair in Law and Associate Dean for Research and Strategic Partnerships at Penn State Dixon Law. Daryl, the floor is yours. Thank you, Erika, and congratulations to you and your team for putting together a magnificent two-day event. And good afternoon, everybody.

@@ -260,6 +260,19 @@
       "timestampSeconds": 7127
     },
     {
+      "description": "H.E. Mr. Kairat Torebayev",
+      "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+      "timestamp": "02:11:36",
+      "timestampCVC5": "2026-11-09T15:31:36",
+      "timestampSeconds": 7896
+    },
+    {
+      "description": "Session Break",
+      "timestamp": "02:15:00",
+      "timestampCVC5": "2026-11-09T15:35:00",
+      "timestampSeconds": 8100
+    },
+    {
       "description": "Protecting What Makes us Human - Is IP the Answer? ",
       "subjectId": "5c4b21a8-f209-492f-9b8f-4996178c9dab",
       "timestamp": "02:36:17",
@@ -279,6 +292,13 @@
       "timestamp": "02:36:33",
       "timestampCVC5": "2026-11-09T15:56:33",
       "timestampSeconds": 9393
+    },
+    {
+      "description": "Mr Anderson Rocha",
+      "personId": "9fdbaca0-1d09-4fdd-a838-b33eb0557286",
+      "timestamp": "02:38:11",
+      "timestampCVC5": "2026-11-09T15:58:11",
+      "timestampSeconds": 9491
     }
   ],
   "markers_grouped": {
@@ -451,6 +471,19 @@
                     "timestamp": "01:58:47",
                     "timestampCVC5": "2026-11-09T15:18:47",
                     "timestampSeconds": 7127
+                  },
+                  {
+                    "description": "H.E. Mr. Kairat Torebayev",
+                    "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+                    "timestamp": "02:11:36",
+                    "timestampCVC5": "2026-11-09T15:31:36",
+                    "timestampSeconds": 7896
+                  },
+                  {
+                    "description": "Session Break",
+                    "timestamp": "02:15:00",
+                    "timestampCVC5": "2026-11-09T15:35:00",
+                    "timestampSeconds": 8100
                   }
                 ],
                 "subjectId": "1fda6de4-644a-4a61-af86-3dccad676ba9",
@@ -478,6 +511,13 @@
                     "timestamp": "02:36:33",
                     "timestampCVC5": "2026-11-09T15:56:33",
                     "timestampSeconds": 9393
+                  },
+                  {
+                    "description": "Mr Anderson Rocha",
+                    "personId": "9fdbaca0-1d09-4fdd-a838-b33eb0557286",
+                    "timestamp": "02:38:11",
+                    "timestampCVC5": "2026-11-09T15:58:11",
+                    "timestampSeconds": 9491
                   }
                 ],
                 "subjectId": "5c4b21a8-f209-492f-9b8f-4996178c9dab",
@@ -562,6 +602,13 @@
       "id": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
       "name": "H.E. Mr. Kairat Torebayev",
       "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "Anderson Rocha is Full-Professor of Artificial Intelligence and Digital Forensics at the Institute of Computing, University of Campinas (Unicamp), Brazil. He is an IEEE Fellow and an IEEE Biometrics Council Distinguished Lecturer. He is the Head of the Artificial Intelligence Lab., Recod.ai, at Unicamp. He is an elected affiliate of the Brazilian Academy of Sciences\n\n(ABC) and the Brazilian Academy of Forensic Sciences (ABC). He is a threeterm elected member of the IEEE Information Forensics and Security Technical Committee (IFSTC) and a two-term chair of such committee. He has actively been an editor of important international journals and the chair of key conferences in Al and digital forensics. He is a Microsoft Research and a Google Research Faculty Fellow, important academic recognitions given to researchers by Microsoft Research and Google. In addition, in 2016, he was awarded the Tan Chin Tuan (TCT) Fellowship, a recognition promoted by the Tan Chin Tuan Foundation in Singapore. Since 2023, he is also an Asia Pacific Artificial Intelligence Association Fellow. He has been the principal investigator of several research projects in partnership with public funding agencies in Brazil and abroad and national and multi-national companies, having already filed and licensed several patents. He is ranked among the Top 2% of research scientists worldwide according to PlosOne/Stanford and Research.com studies. Finally, he is now a LinkedIn Top Voice in Artificial Intelligence for continuously raising awareness of Al and its potential impacts on society at large scale.",
+      "email": "",
+      "id": "9fdbaca0-1d09-4fdd-a838-b33eb0557286",
+      "name": "Mr Anderson Rocha",
+      "photoUrl": "https://amcpwewipoassets.blob.core.windows.net/assets/dbad3e27-95f8-4310-bec1-fbd5f1a66fd2.PNG"
     },
     {
       "bio": "<p>Andres GUADAMUZ GONZALEZ</p><p><br>Reader in Intellectual Property Law at the University of Sussex and Editor in Chief of the Journal of World Intellectual Property, Costa Rica</p><p><br>Andres is a Reader in Intellectual Property Law at the University of Sussex and the Editor in Chief of the Journal of World Intellectual Property. His main research areas are on artificial intelligence and copyright, open licensing, and smart contracts. He has written two books and over 40 articles and book chapters, and also blogs regularly about different technology regulation topics.<br></p>",
