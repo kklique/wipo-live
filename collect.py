@@ -58,7 +58,8 @@ def is_filler(text):
 
 def filler_repeat(text):
     """한 줄 안에서 필러 구가 3번 이상 반복 ('Yeah. Yeah. Yeah.')"""
-    return is_filler(text) and len([p for p in re.split(r"[.!?。！？]+", text) if p.strip()]) >= 3
+    return is_filler(text) and (len([p for p in re.split(r"[.!?。！？]+", text) if p.strip()]) >= 3
+                                or len(re.findall(r"\w+", text)) >= 6)       # 'Yeah. Yeah. Yeah.' / 'Thank you 嗯 嗯 嗯 嗯 ...'
 
 
 def drop_filler_runs(items, key=lambda x: x):
@@ -138,6 +139,8 @@ def main():
     ap.add_argument("--max-seconds", type=float, default=None, help="이 시간(초) 후 종료 (대기 시간 포함)")
     ap.add_argument("--idle-exit-minutes", type=float, default=None,
                     help="데이터를 한 번이라도 받은 뒤, 이 시간(분) 동안 새 변화가 없으면 종료")
+    ap.add_argument("--rebuild", action="store_true",
+                    help="저장된 transcript.txt 를 비우고 1번 줄부터 다시 받아 새로 만든다 (누락/손상 복구용; updates.jsonl 은 보존)")
     ap.add_argument("--markers-interval", type=float, default=30.0,
                     help="발언자 마커(webcast 세션 정보) 확인 간격(초). 0 이면 끔")
     a = ap.parse_args()
@@ -145,6 +148,10 @@ def main():
     os.makedirs(a.out, exist_ok=True)
     p_txt, p_jsonl, p_state = (os.path.join(a.out, f) for f in ("transcript.txt", "updates.jsonl", "state.json"))
 
+    if a.rebuild:
+        a.start_line = 1
+        open(p_txt, "w").close()
+        print(f"[{now()}] --rebuild: transcript.txt 를 비우고 1번 줄부터 다시 받습니다", flush=True)
     line_no = a.start_line
     if line_no is None:
         try:
