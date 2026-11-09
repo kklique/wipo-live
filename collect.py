@@ -31,7 +31,7 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 
-API = "https://www.wipo.int/s2t/live_s2t/getLiveTranscript"
+API = os.environ.get("WIPO_API", "https://www.wipo.int/s2t/live_s2t/getLiveTranscript")   # WIPO_API: 시험용 대체 주소
 DEFAULT_MEETING = "db9f085696a115b4e7b251498aecf4a1_no_delay"
 SESSION_URLS = [
     "https://webcast.wipo.int/liveSessions.json",
@@ -39,6 +39,13 @@ SESSION_URLS = [
 ]
 # 변화 감지 대상 필드. markers 는 새로 생긴 것만, 나머지는 값이 바뀔 때만 기록한다.
 META_FIELDS = ("name", "event", "startDate", "endDate", "live", "live_status", "cvc5status", "people", "subjects")
+
+
+def append(path, text):
+    """매번 열고 닫으며 덧붙인다. 파일 핸들을 계속 들고 있으면, 워크플로가 `git pull --rebase` 로 작업 폴더의 파일을 교체했을 때
+    이후 기록이 지워진 옛 파일로 가서 유실된다 (실제로 일어난 사고). 열고 닫는 방식은 파일이 교체되어도 항상 현재 파일에 쓴다."""
+    with open(path, "a", encoding="utf-8") as f:
+        f.write(text)
 
 
 def now():
@@ -90,12 +97,13 @@ def main():
         except Exception:
             line_no = 1
 
-    txt = open(p_txt, "a", encoding="utf-8")
-    log = open(p_jsonl, "a", encoding="utf-8")
+    try:                # state.json 에 기록할 '저장된 문장 수' (웹이 파일 줄 수와 대조해 누락을 알아챔)
+        saved_lines = sum(1 for _ in open(p_txt, encoding="utf-8"))
+    except OSError:
+        saved_lines = 0
 
     def emit(rec):
-        log.write(json.dumps(rec, ensure_ascii=False) + "\n")
-        log.flush()
+        append(p_jsonl, json.dumps(rec, ensure_ascii=False) + "\n")
 
     p_markers, p_session = (os.path.join(a.out, f) for f in ("markers.jsonl", "session_latest.json"))
     seen_markers = set()
@@ -105,7 +113,6 @@ def main():
                 seen_markers.add(json.dumps(m, sort_keys=True, ensure_ascii=False))
     except (OSError, json.JSONDecodeError):
         pass
-    markers_log = open(p_markers, "a", encoding="utf-8")
     last_meta = None
     last_markers_check = 0.0
     markers_notice = None  # 'nomatch' | 'error' : 같은 안내를 반복 출력하지 않기 위함
@@ -141,9 +148,7 @@ def main():
         changed_meta = {k: v for k, v in meta.items() if last_meta is None or last_meta.get(k) != v}
         if new_markers or changed_meta:
             last_meta = meta
-            markers_log.write(json.dumps({"ts": now(), **changed_meta, "new_markers": new_markers},
-                                         ensure_ascii=False) + "\n")
-            markers_log.flush()
+            append(p_markers, json.dumps({"ts": now(), **changed_meta, "new_markers": new_markers}, ensure_ascii=False) + "\n")
             with open(p_session, "w", encoding="utf-8") as f:
                 json.dump(sess, f, ensure_ascii=False, indent=2)
             print(f"[{now()}] 마커 갱신 (신규 {len(new_markers)}건, 누적 {len(seen_markers)}건, "
@@ -191,10 +196,10 @@ def main():
                       "end_time_iso": ln.get("end_time_iso"), "text": text,
                       "batch": len(lines), "catchup": len(lines) > 3})   # 한 번에 많이 받았다 = 지난 문장 따라잡기
                 if text:
-                    txt.write(text + "\n")
+                    append(p_txt, text + "\n")
+                    saved_lines += 1
                 print(f"[F {line_no + i}] {text}", flush=True)
             if lines:
-                txt.flush()
                 last_change = time.monotonic()
                 last_data = now()
 
@@ -209,7 +214,8 @@ def main():
                 line_no += len(lines)
             # updated: 수집기가 살아 있다는 신호 / last_data: WIPO 에서 마지막으로 새 문장(확정·진행 중)이 들어온 시각
             # (스트림이 멈추면 updated 는 계속 갱신되지만 last_data 는 멈춘다)
-            json.dump({"next_line_number": line_no, "updated": now(), "last_data": last_data}, open(p_state, "w"))
+            json.dump({"next_line_number": line_no, "updated": now(), "last_data": last_data, "saved_lines": saved_lines},
+                      open(p_state, "w"))
 
             # 2) 진행 중(미확정) 문장 -- 바뀔 때마다 기록
             partial = ((d.get("last_line") or {}).get("text") or "").strip()
