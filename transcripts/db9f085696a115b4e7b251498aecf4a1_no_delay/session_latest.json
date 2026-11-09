@@ -539,6 +539,20 @@
       "timestampSeconds": 12554
     },
     {
+      "description": "Insight: Painting by Numbers - The Power of IP Data  ",
+      "subjectId": "049ee03f-283f-44c9-b4cf-60fb41a2b6b1",
+      "timestamp": "03:30:20",
+      "timestampCVC5": "2026-11-09T12:20:20",
+      "timestampSeconds": 12620
+    },
+    {
+      "description": "Mr. Garrett Levin",
+      "personId": "45b026fc-05cf-4844-a3a6-5f79301df7e9",
+      "timestamp": "03:30:24",
+      "timestampCVC5": "2026-11-09T12:20:24",
+      "timestampSeconds": 12624
+    },
+    {
       "description": "Mr. Andrew Toole",
       "personId": "54794eb5-3f8a-4da2-ae6f-08df3b2598d3",
       "timestamp": "03:30:37",
@@ -1007,6 +1021,26 @@
                     "timestamp": "03:29:14",
                     "timestampCVC5": "2026-11-09T12:19:14",
                     "timestampSeconds": 12554
+                  }
+                ],
+                "subjectId": "59023b79-b078-455c-a939-254b6858c034",
+                "timestamp": "02:16:09",
+                "timestampCVC5": "2026-11-09T11:06:09",
+                "timestampSeconds": 8169
+              }
+            ]
+          },
+          {
+            "subject": [
+              {
+                "description": "Insight: Painting by Numbers - The Power of IP Data  ",
+                "list_markers": [
+                  {
+                    "description": "Mr. Garrett Levin",
+                    "personId": "45b026fc-05cf-4844-a3a6-5f79301df7e9",
+                    "timestamp": "03:30:24",
+                    "timestampCVC5": "2026-11-09T12:20:24",
+                    "timestampSeconds": 12624
                   },
                   {
                     "description": "Mr. Andrew Toole",
@@ -1016,10 +1050,10 @@
                     "timestampSeconds": 12637
                   }
                 ],
-                "subjectId": "59023b79-b078-455c-a939-254b6858c034",
-                "timestamp": "02:16:09",
-                "timestampCVC5": "2026-11-09T11:06:09",
-                "timestampSeconds": 8169
+                "subjectId": "049ee03f-283f-44c9-b4cf-60fb41a2b6b1",
+                "timestamp": "03:30:20",
+                "timestampCVC5": "2026-11-09T12:20:20",
+                "timestampSeconds": 12620
               }
             ]
           }
@@ -1156,6 +1190,13 @@
       "photoUrl": "./assets/images/noPicSpeaker.png "
     },
     {
+      "bio": "Senior IP Law and Policy Officer on IP and Frontier Technologies, WIPO",
+      "email": "",
+      "id": "45b026fc-05cf-4844-a3a6-5f79301df7e9",
+      "name": "Mr. Garrett Levin",
+      "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
       "bio": "<p>Co-Founder and Chief Operating Officer, <br>Sakana AI, Japan<br></p><p>Ren co-founded Sakana AI in 2023, a Tokyo-based AI company creating a new kind of foundational AI models based on nature-inspired intelligence. Sakana AI has become Japan’s fastest unicorn after one year in business, backed by Nvidia and a broad spectrum of Japanese enterprises including the 3 Japanese Megabanks (MUFG, SMBC, Mizuho) and other leading companies in each of Japan’s industry sectors. In 2025, Sakana AI became the largest unicorn Japan has ever had.</p><p>Prior to Sakana, Ren took the lead on the global expansion of Mercari, Japan’s first unicorn start-up running the fastest-growing marketplace app. He served as CEO of Mercari Europe, as well as successfully orchestrated its IPO valuing the company at $6bn.</p><p>Before tech, Ren spent 15 years as a Japanese diplomat where he worked on the security alliance with the US, negotiated a free trade agreement with the EU, and represented Japan at the World Bank board. Ren continues to be involved in public policy debates on technological innovation and international politics as Senior Fellow at New York University (NYU) School of Law, and is the youngest member of the Trilateral Commission.</p><p>Ren received his Master of Laws from NYU School of Law (2004) and Bachelor of Laws from the University of Tokyo (2001) and is admitted to practice law in New York. Ren also holds a Master of Arts in East Asian Studies from Stanford University (2005).<br></p>",
       "email": "",
       "id": "6c098a38-b69d-48f1-b417-74270a736fa4",
@@ -1232,6 +1273,14 @@
       "id": "59023b79-b078-455c-a939-254b6858c034",
       "orderNumber": 7,
       "orderNumberDescription": "7",
+      "refId": null
+    },
+    {
+      "assets": [],
+      "description": "Insight: Painting by Numbers - The Power of IP Data  ",
+      "id": "049ee03f-283f-44c9-b4cf-60fb41a2b6b1",
+      "orderNumber": 8,
+      "orderNumberDescription": "8",
       "refId": null
     }
   ],
