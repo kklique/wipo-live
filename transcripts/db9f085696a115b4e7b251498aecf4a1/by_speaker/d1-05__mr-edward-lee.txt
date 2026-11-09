@@ -1,0 +1,7 @@
+# [d1-05] Showcase 1: AI in Action - From Ideas to Real-World Impact
+# 발표자: Mr. Edward Lee  (floor)
+# Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva) · 발언 1회 · 3문장 · 168단어 · 구분 방식: marker
+
+Okay, go to the next slide. Now, unfortunately, the state of the law is unsettled. Go to the next slide. One of the reasons why that the law is unsettled is we have very few decisions. thus far, even after four years. of litigation in the generative AI lawsuits. Okay, advance to the next slide. And one of the reasons why this is not surprising is that the main issue for the infringement claim related to the training of AI models involves the defense of fair use raised by the AI companies.
+And we are not going to study all of the nuances of Fair Use. but if the person could press yes, keep on pressing until all of the text is on this slide. Okay.
+One more time. a very high level, fair use is a general exception, which is somewhat unique to the United States. there are countries like the United Kingdom that have fair dealing, but fair use is somewhat different from even fair dealing.

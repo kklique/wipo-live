@@ -169,11 +169,32 @@
       "timestampSeconds": 2431
     },
     {
+      "description": "One-Stop Shop: Keeping up with IP and AI ",
+      "subjectId": "1fda6de4-644a-4a61-af86-3dccad676ba9",
+      "timestamp": "00:40:34",
+      "timestampCVC5": "2026-11-09T14:00:34",
+      "timestampSeconds": 2434
+    },
+    {
       "description": "Mr. Cristian Léon",
       "personId": "a5b20d32-57e1-4ec1-ae71-08df3b2598d3",
       "timestamp": "00:42:09",
       "timestampCVC5": "2026-11-09T14:02:09",
       "timestampSeconds": 2529
+    },
+    {
+      "description": "Ms. Ulrike Till",
+      "personId": "e43c4a9d-684b-499d-a3de-fdcac48abfa9",
+      "timestamp": "00:59:27",
+      "timestampCVC5": "2026-11-09T14:19:27",
+      "timestampSeconds": 3567
+    },
+    {
+      "description": "Mr. Edward Lee",
+      "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+      "timestamp": "00:59:34",
+      "timestampCVC5": "2026-11-09T14:19:34",
+      "timestampSeconds": 3574
     }
   ],
   "markers_grouped": {
@@ -249,19 +270,46 @@
                     "timestamp": "00:40:31",
                     "timestampCVC5": "2026-11-09T14:00:31",
                     "timestampSeconds": 2431
-                  },
-                  {
-                    "description": "Mr. Cristian Léon",
-                    "personId": "a5b20d32-57e1-4ec1-ae71-08df3b2598d3",
-                    "timestamp": "00:42:09",
-                    "timestampCVC5": "2026-11-09T14:02:09",
-                    "timestampSeconds": 2529
                   }
                 ],
                 "subjectId": "18f903eb-6267-427c-8c24-6c5c993ac56a",
                 "timestamp": "00:40:30",
                 "timestampCVC5": "2026-11-09T14:00:30",
                 "timestampSeconds": 2430
+              }
+            ]
+          },
+          {
+            "subject": [
+              {
+                "description": "One-Stop Shop: Keeping up with IP and AI ",
+                "list_markers": [
+                  {
+                    "description": "Mr. Cristian Léon",
+                    "personId": "a5b20d32-57e1-4ec1-ae71-08df3b2598d3",
+                    "timestamp": "00:42:09",
+                    "timestampCVC5": "2026-11-09T14:02:09",
+                    "timestampSeconds": 2529
+                  },
+                  {
+                    "description": "Ms. Ulrike Till",
+                    "personId": "e43c4a9d-684b-499d-a3de-fdcac48abfa9",
+                    "timestamp": "00:59:27",
+                    "timestampCVC5": "2026-11-09T14:19:27",
+                    "timestampSeconds": 3567
+                  },
+                  {
+                    "description": "Mr. Edward Lee",
+                    "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+                    "timestamp": "00:59:34",
+                    "timestampCVC5": "2026-11-09T14:19:34",
+                    "timestampSeconds": 3574
+                  }
+                ],
+                "subjectId": "1fda6de4-644a-4a61-af86-3dccad676ba9",
+                "timestamp": "00:40:34",
+                "timestampCVC5": "2026-11-09T14:00:34",
+                "timestampSeconds": 2434
               }
             ]
           }
@@ -286,6 +334,13 @@
       "photoUrl": "./assets/images/noPicSpeaker.png "
     },
     {
+      "bio": "Professor of Law, Santa Clara University School of Law, United States of America",
+      "email": "",
+      "id": "d562c637-4924-46a9-ae72-08df3b2598d3",
+      "name": "Mr. Edward Lee",
+      "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
       "bio": "<a href=\"https://www.wipo.int/about-wipo/en/index.html\" target=\"_blank\">About WIPO</a> <a href=\"https://www.wipo.int/about-wipo/fr/index.html\" target=\"_blank\">L'OMPI</a> <a href=\"https://www.wipo.int/about-wipo/es/index.html\" target=\"_blank\">La OMPI</a> <a href=\"https://www.wipo.int/about-wipo/ar/index.html\" target=\"_blank\">عن الويبو</a> <a href=\"https://www.wipo.int/about-wipo/ru/index.html\" target=\"_blank\">О ВОИС</a> <a href=\"https://www.wipo.int/about-wipo/zh/index.html\" target=\"_blank\">关于产权组织</a>",
       "email": "",
       "id": "a0e748e4-7441-4115-ab9c-2b2b36f5a086",
@@ -305,6 +360,13 @@
       "id": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
       "name": "H.E. Mr. Kairat Torebayev",
       "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "Director, IP and Frontier\nTechnologies Division, Infrastructure and Platforms Sector,\nWIPO, Geneva\n\nDr. Ulrike Till is the Director of the IP and Frontier Technologies Division at WIPO.\n\nShe is anexperienced IP and patent lawyer with significant commercial background and exposure to complex\ninternational patent litigation, data exclusivity issues, commercial negotiations, competition law, settlements and agreements. In her current role, Ulrike focus on the wide reaching IP policy implications arising from digitalization, industry 4.0 and frontier technologies.\n\nUlrike is qualified both as an English solicitor and German Rechtsanwalt and has practiced in both jurisdictions. She has a technical background with a PhD in Chemistry, management training",
+      "email": "",
+      "id": "e43c4a9d-684b-499d-a3de-fdcac48abfa9",
+      "name": "Ms. Ulrike Till",
+      "photoUrl": "https://amcpwewipoassets.blob.core.windows.net/assets/da42c408-7537-4429-8a7f-8df98c059250.jpg"
     }
   ],
   "place": "WCH",
@@ -316,6 +378,14 @@
       "id": "18f903eb-6267-427c-8c24-6c5c993ac56a",
       "orderNumber": 2,
       "orderNumberDescription": "2",
+      "refId": null
+    },
+    {
+      "assets": [],
+      "description": "One-Stop Shop: Keeping up with IP and AI ",
+      "id": "1fda6de4-644a-4a61-af86-3dccad676ba9",
+      "orderNumber": 3,
+      "orderNumberDescription": "3",
       "refId": null
     },
     {
