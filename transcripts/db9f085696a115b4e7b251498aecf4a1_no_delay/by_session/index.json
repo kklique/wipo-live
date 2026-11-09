@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T12:32:34+00:00",
+ "generated": "2026-11-09T12:34:36+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -376,8 +376,8 @@
      "name": "Mr. Edward Lee",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 29,
-     "n_words": 1578,
+     "n_lines": 30,
+     "n_words": 1647,
      "n_turns": 16,
      "file": "d1-08__mr-edward-lee.txt",
      "method": "marker"
@@ -453,8 +453,8 @@
      "name": "Mr. Antony Taubman",
      "affiliation": "Honorary Professor, Queen Mary University of London, Senior Fellow, University of Melbourne, Australia",
      "role": "panelist",
-     "n_lines": 9,
-     "n_words": 648,
+     "n_lines": 8,
+     "n_words": 579,
      "n_turns": 1,
      "file": "d1-08__mr-antony-taubman.txt",
      "method": "marker"
@@ -470,13 +470,13 @@
    "start": "12:50",
    "end": "13:00",
    "people": "Speaker: Mr. Andrew Toole",
-   "n_lines": 18,
+   "n_lines": 27,
    "method": "marker",
    "file": "d1-09_insight-painting-by-numbers-the-power-of-ip-data.txt",
    "actual_start": "2026-11-09T13:19:11+01:00",
-   "actual_end": "2026-11-09T13:28:38+01:00",
+   "actual_end": "2026-11-09T13:33:32+01:00",
    "line_from": 480,
-   "line_to": 497,
+   "line_to": 506,
    "speakers": [
     {
      "key": "d1-09__chair",
@@ -494,10 +494,21 @@
      "name": "Mr. Andrew Toole",
      "affiliation": "Associate Professor of Public Policy, Georgia Institute of Technology, United States of America",
      "role": "speaker",
-     "n_lines": 14,
-     "n_words": 1014,
+     "n_lines": 22,
+     "n_words": 1523,
      "n_turns": 1,
      "file": "d1-09__mr-andrew-toole.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-09__h-e-mr-kairat-torebayev",
+     "name": "H.E. Mr. Kairat Torebayev",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 1,
+     "n_words": 74,
+     "n_turns": 1,
+     "file": "d1-09__h-e-mr-kairat-torebayev.txt",
      "method": "marker"
     }
    ]
@@ -511,13 +522,13 @@
    "start": "13:00",
    "end": "14:30",
    "people": "",
-   "n_lines": 7,
-   "method": "schedule",
+   "n_lines": 1,
+   "method": "cue",
    "file": "d1-10_lunch-break.txt",
-   "actual_start": "2026-11-09T13:29:17+01:00",
-   "actual_end": "2026-11-09T13:32:06+01:00",
-   "line_from": 498,
-   "line_to": 504
+   "actual_start": "2026-11-09T13:34:11+01:00",
+   "actual_end": "2026-11-09T13:34:11+01:00",
+   "line_from": 507,
+   "line_to": 507
   },
   {
    "id": "d1-11",

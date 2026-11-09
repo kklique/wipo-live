@@ -527,9 +527,9 @@
     {
       "description": "Mr. Edward Lee",
       "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
-      "timestamp": "03:28:21",
-      "timestampCVC5": "2026-11-09T12:18:21",
-      "timestampSeconds": 12501
+      "timestamp": "03:28:17",
+      "timestampCVC5": "2026-11-09T12:18:17",
+      "timestampSeconds": 12497
     },
     {
       "description": "Insight: Painting by Numbers - The Power of IP Data  ",
@@ -551,6 +551,13 @@
       "timestamp": "03:30:27",
       "timestampCVC5": "2026-11-09T12:20:27",
       "timestampSeconds": 12627
+    },
+    {
+      "description": "H.E. Mr. Kairat Torebayev",
+      "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+      "timestamp": "03:43:08",
+      "timestampCVC5": "2026-11-09T12:33:08",
+      "timestampSeconds": 13388
     }
   ],
   "markers_grouped": {
@@ -1004,9 +1011,9 @@
                   {
                     "description": "Mr. Edward Lee",
                     "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
-                    "timestamp": "03:28:21",
-                    "timestampCVC5": "2026-11-09T12:18:21",
-                    "timestampSeconds": 12501
+                    "timestamp": "03:28:17",
+                    "timestampCVC5": "2026-11-09T12:18:17",
+                    "timestampSeconds": 12497
                   }
                 ],
                 "subjectId": "59023b79-b078-455c-a939-254b6858c034",
@@ -1034,6 +1041,13 @@
                     "timestamp": "03:30:27",
                     "timestampCVC5": "2026-11-09T12:20:27",
                     "timestampSeconds": 12627
+                  },
+                  {
+                    "description": "H.E. Mr. Kairat Torebayev",
+                    "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+                    "timestamp": "03:43:08",
+                    "timestampCVC5": "2026-11-09T12:33:08",
+                    "timestampSeconds": 13388
                   }
                 ],
                 "subjectId": "049ee03f-283f-44c9-b4cf-60fb41a2b6b1",
