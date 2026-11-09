@@ -1,7 +1,7 @@
 # [d1-13] One-Stop Shop: Keeping up with IP and AI
 # Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva)
 # Speakers: Mr. Andres Guadamuz; Mr. Wang Qian; Mr. Edward Lee
-# 실제 구간 15:00:32-16:32:34 · 196문장 · 경계 방식: marker
+# 실제 구간 15:00:32-16:31:58 · 195문장 · 경계 방식: marker
 
 Another great question which I will answer very quickly and I will also direct you, given that question, to speak to my colleague over there. But I use my actual, I use a unitree G1 EDU and I use it out of box. So I am not a developer and most of the consumer market are not going to be developers. So I use it as anybody would if they took it out of the box, turned it on, charged it up, turned it on and let it come into their home.
 But there are a number of incredible organizations, robotics clubs, individuals and companies who are very , Thank you. Good afternoon.
@@ -198,4 +198,3 @@ and that "No"
 must be respected without an unjustified loss of access to readers. The AI developer needs an affordable way to establish what she may lawfully use, and enough evidence to be able to rely on the permission she actually receives. Now, competition authorities, they have an important role in addressing certain constraints imposed by powerful intermediaries. Courts and legislatures, they can determine the legal scope of rights and exceptions.
 but it is the IP offices and WIPO, those of you in the room or those of you listening today, who can help people communicate and verify the permissions on which those precise choices depend.
 So my invitation to Member States is to test these systems against real cases, including small and medium publishers, independent AI developers, and languages that the leading language models LLM models, neglect. Find out where the permissions break down. where the costs accumulate and where a refusal actually ceases to be meaningful. because the question is, as we consider these broad issues, not only who has the legal power to say no, it is whether the systems that surround copyright allow that answer to be heard and allow a genuine yes to be trusted.
-Thank you very much. Thank you, Daryl. and thank you all for our six speakers. six perspectives. six minutes, sorry, 60 minutes. Yes, so we are moving forward and now I announce the coffee break, 15 minutes.
