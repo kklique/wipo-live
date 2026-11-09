@@ -386,3 +386,12 @@ So Carolyn, I think I just want to turn over to the whole issue where we left of
 Do you want to be paid first? Do you want to be credited or do you want to be able to refuse? Which of these would matter most to you and why? So I want to be asked first, then I want to be able to refuse.
 And if ever I am willing to, then I want to know what they are going to do with my work. I want to know I want to be credited I want to be paid to.
 I want transparency. attribution, Derivative works. I want to know what works are used to train AI. I want to be mentioned and I want to have the possibility to be a co-author. Okay, so Cedric, I am going to reach out to you. You have heard Caroline's answer. So, corporates default position really is permission before use.
+I mean, that is generally our starting point. But there are also opt-out tools, opt-out tools such as robots.txt, what that controls, and AI crawler tokens that flip that sequence. to use unless refused. That is a very technical question. Speaking of the transparency, we have a screen here that says speak slowly. And now I do not know who, but then it turned into bold, "
+Speak Slowly "and now it is red"
+Speak Slowly "
+and it is highlighted.
+So we really try to speak slowly and we are sorry for the AI interpreter in the room. So we are celebrating birthdays. There's a banner in the lobby about the Marquez 3D birthday.
+You also mentioned all the birthdays, Stan. It is Google's 20th birthday, and so when Google was launched, it was to launch a search engine, and really, if at the time we had to ask to each single owner of each single piece of content on each single page of the web for the permission to index, we would not be here.
+And so, you know, that is really where we come from.
+We think that when there's value benefits in a new technology, like a search index or an AR model, then this is, you know, how we should be able to move forward. And we are having, you know, a sort of very simple opt out regime where the websites can say, no, I do not want to be on the index.
+I do not want to be I do not want my content to be used for training, and that is really the starting point of everything you discussed, and I will leave it there. from what I am hearing you say, right, you are basically saying that an opt-out model is consistent with corporate's first principles.
