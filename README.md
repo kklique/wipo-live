@@ -19,6 +19,13 @@ WIPO Live Speech-to-Text(`webcast.wipo.int/live-speech-to-text`)의 영문 실�
 | `transcript.txt` | 확정 문장만, 한 줄에 한 문장 |
 | `updates.jsonl` | 모든 갱신 기록 (확정 문장 + 진행 중 문장의 변경 스냅샷, 수신 시각 포함) |
 | `state.json` | 이어받기 위치 (재실행하면 이어서 저장) |
+| `markers.jsonl` | 발언자 마커 변경 기록. webcast `liveSessions.json`(종료 후엔 `history_liveSessions.json`)에서 이 회의의 세션을 찾아 30초마다 확인하고, 새 마커(`new_markers`: 발언자/안건 + `timestampCVC5` 시각)나 상태 변화가 있을 때만 한 줄 추가 |
+| `session_latest.json` | 매칭된 webcast 세션 정보 전체의 최신본 |
+
+### 발언자별 분리에 대해
+라이브 전사 API 자체에는 화자 정보가 없다. 화자는 WIPO 회의 시스템이 찍는 **발언자 마커**(`markers.jsonl`)의 시각을
+`updates.jsonl` 문장의 `end_time_iso` 와 대조해서 사후에 나눌 수 있다. 마커는 사람이 발언권을 줄 때 찍히므로
+패널 토론 등에서는 경계가 부정확할 수 있고, 라이브 중 마커가 실제로 채워지는지는 회의가 시작되어야 확인된다.
 
 ### 제한 사항
 - GitHub 호스티드 러너의 job 은 최대 6시간. 더 길면 종료 후 같은 meeting_id 로 다시 실행하면 `data` 브랜치의 `state.json` 부터 이어받는다.
