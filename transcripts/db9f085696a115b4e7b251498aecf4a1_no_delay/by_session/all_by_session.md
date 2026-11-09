@@ -274,3 +274,10 @@ pioneering localized solutions to uniquely domestic challenges. A prime example 
 However, for this ecosystem, to thrive, our legal frameworks must keep pace.
 Our current copyright and patent laws were not designed for the complexities of the digital age, making IP reform our most immediate priority. Mr. DG, the primary legislation governing intellectual property rights for creators, performers and broadcast organizations. in Zimbabwe. is the copyright and Neighboring Rights Act, Chapter 26.05. The Act defines an author strictly as an individual, consequently works generated entirely by AI face a legal vacuum. Therefore, the law must be clarified ownership rights and defined threshold of human input required for legal protection.
 Further more, Mr. DG, AI training models rely on the consumption of vast data sets. Our regulatory framework remains silent on whether fair dealing exemptions cover commercial AI training.
+
+## [d1-08] Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?
+
+_Day 1 11:40-12:50 · Moderator: Mr. Stanley Lai | Speakers: Ms. Chijioke Okorie; Ms. Myrtha Hurtado Rivas; Mr. Gaétan de Rassenfosse; Mr. Antony Taubman; Ms. Caroline Gueye_
+
+Our creators require absolute assurance of credit and compensation. just as our developers need clear, predictable rules to innovate with confidence. our legislation also defines an inventor as the natural person who devised the invention. One, hopefully I have conveyed that AI on routine images can transform precision medicine. Secondly, when we talk about IP, let's focus on patenting the pattern, not necessarily the algorithm. IP is the bridge from paper to patient, but only if it generalizes, and that's where the validation is so absolutely critical. And finally, we have to build democratization into the IP strategy so that these licensing models can be kept low cost and accessible, particularly in low and middle income countries.
+Thank you very much.
