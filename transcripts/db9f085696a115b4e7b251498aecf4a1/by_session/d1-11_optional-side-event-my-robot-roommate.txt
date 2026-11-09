@@ -1,7 +1,7 @@
 # [d1-11] Optional Side Event - My Robot "Roommate"
 # Day 1 · 2026-11-09 · 예정 14:30-15:00 (Geneva)
 # Speaker: Ms. Emily Kate Genatowski
-# 실제 구간 14:35:49-15:01:07 · 95문장 · 경계 방식: marker
+# 실제 구간 14:35:49-15:00:06 · 93문장 · 경계 방식: marker
 
 Yeah. She is got to visit us. I hope so. No, no, I want to picture it up there. 嗯 Yeah, he is like, I know it on, especially since we kind of promised one of those who all the people who stopped by our booth during the General Assemblies back in July. Exactly. So when I first met Emily Kate a few months ago, it immediately felt obvious we just had to invite her to the global forum. Emily Kate Janowski is an AI Domestic Robotics Researcher and PhD candidate in Digital Humanities at the University of Vienna.
 For the past two years she has been living with TOVA, a Uni3 robot in Austria turning her own apartment into a real -world robotics lab. Due to unforeseen circumstances involving custom fees and train travel, Tova unfortunately could not join us today. So Emily is here today with another Unitry robot.
@@ -96,5 +96,3 @@ And as you saw, I bring it with me everywhere. I include it in everything. And f
 or the fact that they are not very good at stairs. So if you live in a place that has stairs or downstairs neighbors, they are quite loud and stomping. So there's all different types of things that we can learn and we can push these conversations. and these public debates forward so that by the time the actual innovation ready for deployment and is market ready for adoption, we then have figured out much more and we are in a much better place when it comes to regulation, policy and infrastructure updates needed.
 We have one minute. if any other, yes, sir. I hope you can hear me. I arrived late, so maybe you mentioned this. What software do you use? Is it from the factory, from the developer, or do you have your own? version of software? > > Amazing.
 Okay.
-Another great question which I will answer very quickly and I will also direct you, given that question, to speak to my colleague over there. But I use my actual, I use a unitree G1 EDU and I use it out of box. So I am not a developer and most of the consumer market are not going to be developers. So I use it as anybody would if they took it out of the box, turned it on, charged it up, turned it on and let it come into their home.
-But there are a number of incredible organizations, robotics clubs, individuals and companies who are very , Thank you. Good afternoon.

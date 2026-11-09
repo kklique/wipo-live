@@ -157,16 +157,16 @@
     {
       "description": "Showcase 2: AI in Action - From Ideas to Real-World Impact ",
       "subjectId": "18f903eb-6267-427c-8c24-6c5c993ac56a",
-      "timestamp": "00:41:24",
-      "timestampCVC5": "2026-11-09T14:01:24",
-      "timestampSeconds": 2484
+      "timestamp": "00:40:30",
+      "timestampCVC5": "2026-11-09T14:00:30",
+      "timestampSeconds": 2430
     },
     {
       "description": "H.E. Mr. Kairat Torebayev",
       "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
-      "timestamp": "00:41:25",
-      "timestampCVC5": "2026-11-09T14:01:25",
-      "timestampSeconds": 2485
+      "timestamp": "00:40:31",
+      "timestampCVC5": "2026-11-09T14:00:31",
+      "timestampSeconds": 2431
     },
     {
       "description": "Mr. Cristian Léon",
@@ -246,9 +246,9 @@
                   {
                     "description": "H.E. Mr. Kairat Torebayev",
                     "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
-                    "timestamp": "00:41:25",
-                    "timestampCVC5": "2026-11-09T14:01:25",
-                    "timestampSeconds": 2485
+                    "timestamp": "00:40:31",
+                    "timestampCVC5": "2026-11-09T14:00:31",
+                    "timestampSeconds": 2431
                   },
                   {
                     "description": "Mr. Cristian Léon",
@@ -259,9 +259,9 @@
                   }
                 ],
                 "subjectId": "18f903eb-6267-427c-8c24-6c5c993ac56a",
-                "timestamp": "00:41:24",
-                "timestampCVC5": "2026-11-09T14:01:24",
-                "timestampSeconds": 2484
+                "timestamp": "00:40:30",
+                "timestampCVC5": "2026-11-09T14:00:30",
+                "timestampSeconds": 2430
               }
             ]
           }

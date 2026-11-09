@@ -1,7 +1,9 @@
 # [d1-05] Showcase 1: AI in Action - From Ideas to Real-World Impact
 # 발표자: H.E. Mr. Kairat Torebayev  (floor)
-# Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva) · 발언 1회 · 4문장 · 96단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva) · 발언 1회 · 6문장 · 134단어 · 구분 방식: marker
 
+But there are a number of incredible organizations, robotics clubs, individuals and companies who are very , Thank you. Good afternoon.
+What a fascinating topics we discussed today. So welcome back. I hope you enjoyed your short lunch.
 And every year wildfires devastate forests, destroy livelihoods and threatens communities throughout the world.
 But what if we could identify the danger before the first flames appear?
 That is the ambition of our next innovator.
