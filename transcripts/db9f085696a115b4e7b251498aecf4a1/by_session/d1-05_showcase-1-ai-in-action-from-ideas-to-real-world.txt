@@ -1,7 +1,7 @@
 # [d1-05] Showcase 1: AI in Action - From Ideas to Real-World Impact
 # Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva)
 # Speaker: Mr. Anant Madabhushi
-# 실제 구간 11:23:24-15:25:30 · 93문장 · 경계 방식: marker
+# 실제 구간 11:23:24-15:27:53 · 100문장 · 경계 방식: marker
 
 at the end of each day. And time will be short, and I am asking to interventions to keep up to not more than three minutes. While we have many attendees in the room. we also have a large online audience. for participants joining us remotely. Should you encounter any difficulties following the meeting in the Zoom proceedings, you can also follow through the WIPO webcast.
 I look forward to what the next two days have to offer for us. Now I pass the floor to Ken. the floor is yours. Thank you, Chair. We have just heard NISTERO interventions and we also had a keynote from Mr. Ito which gave us a fascinating glimpse into what artificial intelligence may be capable of tomorrow, but what can it already make possible today? That is what our AI in action showcase are all about.
@@ -96,3 +96,10 @@ Now, there's a big caveat to both decisions and that is depicted by the no. with
 And Judge also said we need to go to trial on that.
 It may be infringing. and that was enough to prompt a settlement in the case for $ 1.5 billion, the largest in US history for a copyright case. By contrast, Judge Chabria said the initial acquisition of copies from shadow libraries was for the same purpose of training and there was not enough evidence that there was market harm established by that initial downloading by Meta.
 By contrast, Jachabria came up with a new theory of harm. that he thought in future cases which he called dilution, in future cases might mean it is not a fair use. and plaintiffs in other cases are advancing that theory of dilution. So we will likely have a court rule specifically on dilution theory. And I am going to go rather quickly because I am almost out of time. On the other case from Thompson Writers versus Ross Intelligence, this was not involving a large language model, and it was filed in 2020.
+So the Third Circuit said this is not a fair use to develop a legal search tool that simply had outputs in the form of quotes from judicial opinions and expressly distinguished the large language model cases from BARTs and OpenAI and CADRI saying is that we are not going to speak on those set of facts or those types of models with our decision. Now, okay, move on to the next slide. So where are we at?
+Yes, go ahead to the next slide. And if you could just, yeah, click to the next slide.
+And then click three times. You may ask yourself, well, when will we have clarity in the law?
+Well, we are not going to have clarity in the US law for at least several more years if if not, we are going to go into the next decade, 2030.
+And if you click once more, everybody is expecting the US Supreme Court will have to weigh in.
+But there is no case yet that is even potentially before the court because we are still in the very early stages of the litigation. given how long litigation takes. So if this WIPO Forum is held in the next several years, this presentation still may be Thank you so much, Ed. The courts are certainly keeping everyone busy.
+And we will turn to more legal developments shortly. While things are playing out in courts and legislator, companies, creators and rightsholders are experimenting with licensing arrangements. commercial partnerships and new ways of doing business. So what is actually happening out there and which developments might shape tomorrow's commercial landscape? For our next 10 -minute briefing, please welcome Ms.
