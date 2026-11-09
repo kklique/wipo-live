@@ -152,6 +152,10 @@ def main():
     last_partial = None
     waiting_notice = False
     last_change = None  # 마지막으로 새 내용이 들어온 시각 (monotonic); 첫 데이터 수신 전에는 None
+    try:                # 재시작해도 이어지도록 이전 state.json 의 last_data 를 이어받음
+        last_data = json.load(open(p_state)).get("last_data")
+    except Exception:
+        last_data = None
     t0 = time.time()
     print(f"[{now()}] meeting_id={a.meeting_id} 시작 line_number={line_no} -> {a.out}/", flush=True)
 
@@ -192,6 +196,7 @@ def main():
             if lines:
                 txt.flush()
                 last_change = time.monotonic()
+                last_data = now()
 
             nxt = d.get("next_line_number")
             expected = line_no + len(lines)
@@ -202,12 +207,15 @@ def main():
                 line_no = nxt
             else:
                 line_no += len(lines)
-            json.dump({"next_line_number": line_no, "updated": now()}, open(p_state, "w"))
+            # updated: 수집기가 살아 있다는 신호 / last_data: WIPO 에서 마지막으로 새 문장(확정·진행 중)이 들어온 시각
+            # (스트림이 멈추면 updated 는 계속 갱신되지만 last_data 는 멈춘다)
+            json.dump({"next_line_number": line_no, "updated": now(), "last_data": last_data}, open(p_state, "w"))
 
             # 2) 진행 중(미확정) 문장 -- 바뀔 때마다 기록
             partial = ((d.get("last_line") or {}).get("text") or "").strip()
             if partial and partial != last_partial:
                 last_change = time.monotonic()
+                last_data = now()
                 emit({"ts": now(), "type": "partial", "line_number": line_no, "text": partial})
                 print(f"[P {line_no}] {partial}", flush=True)
             if partial:
