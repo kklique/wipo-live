@@ -484,11 +484,6 @@ So the gold band in the graphic here represents nearly five years when the signa
 Why did not we see it? Because we did not know the language that described and characterized the new technology. This picture shows the words used in USAI patent applications published in 2018 and 2019. The bigger the word, the more applications used it. In those years, AI meant things like recognizing images, speech, faces, vehicles, even robots. The gold words on the graphic are the language of generative AI.
 So generative and language model each appear about 1 in 200 AI applications at that time compared with image which appeared in one out of every four AI applications at that time. which raises the question, where could we have learned about the language of generative AI so that we could actually trace the emergence of this technology? So the answer is science, and to some extent industry.
 The language of a new technology appears in research before it appears in inventions. And this diagram, the Sankey diagram, shows that flow. On the left are the words inventors use to name their generative AI models. Each family of words was coined in research papers and the labels show which paper and when. On the right are the US patent applications published from 2018 to 2022 that five -year window before CHAT GPT.
-
-## [d1-10] Lunch break
-
-_Day 1 13:00-14:30_
-
 The width of each band is a count of patent applications. So almost four in five of these applications used coined in research in 2013 and 2014. Auto encoders, word embeddings, sequence to sequence models, and above all generative adversarial networks, which alone accounted for 860 of the 1,726 applications. Now look at the bottom of this graphic.
 The language the next wave of generative AI. pre-trained language models, diffusion models, those were coined in research in 2018 and through 2020. And it is already there in a very thin line. only 37 applications at that time. So the words of the ChatGPT era were in the patent record even before ChatGPT. They were just really small.
 So in principle we could see them if we knew what we were looking for. So the trip from science to invention actually goes quickly. It is surprising actually how fast it happens.
@@ -502,3 +497,14 @@ Each rung comes earlier than the one above it.
 At the top, we have the new classification codes from the patent offices in January 2023. Below it, the market breakthrough, the moment everybody notices the chat GPT in November 2022. Below that, new words published in patent applications visible in 2018, then patents citing new science as early as 2015. and at the bottom, the very kind of root research clusters that grow fast, GAN papers went from '68 and 2016 to almost 600 in 2017.
 And Georgetown University in Washington, DC, they have a center for security and emerging technology that I am associated with. That is why I know about this. They are building maps of science, of research clusters, the language of research, and they are connecting the language of research to the language of patent applications. And that is exactly the lowest rung on this ladder, and that is where the roots of the new technology come from.
 So back to the question, can IP data help us to be proactive? And the answer is yes. Patent data are an indispensable source of identifying emerging technologies, but they cannot be viewed in isolation. The key, again, is detecting the language and discovery of science in this discovery of science in industry and taking that language to the patent data. If we do that, we can have a proactive stance as policy makers and as citizens.
+We are able to more readily the ecosystems that these technologies are coming into, set up our governance structures if needed, and of course help our IP offices to do a great job. Thank you. Yeah, thank Mr. Thule.
+I am not here to announce another super session.
+I am here to announce that it is lunch break and we resume at 3 o'clock. But for those of you who would like to have a glimpse of another emerging frontier in AI, have something rather special during the lunch break. At the 2.30 our option side event my robot roommate will explore what happens when the artificial intelligence moves beyond the scenes and becomes a part of your daily life. We will join the robotic research, Ms.
+
+## [d1-10] Lunch break
+
+_Day 1 13:00-14:30_
+
+Emily Kate Janowski. and rather unusual companion, TOVA. the robot at the site she leads with.
+I encourage those interested to join us for this opportunity to explore with the mean to share our homes. and perhaps one day our daily routines with the intelligent machines. Enjoy your lunch and we look forward to welcoming you back at 3 o'clock. And for those of you who will have food over here, your dishes over here, the cafeteria closes sharp at 2 o'clock. as Swiss program.
+Okay.

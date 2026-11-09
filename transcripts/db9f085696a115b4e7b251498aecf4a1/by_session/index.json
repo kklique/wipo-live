@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T12:33:36+00:00",
+ "generated": "2026-11-09T12:35:39+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -459,13 +459,13 @@
    "start": "12:50",
    "end": "13:00",
    "people": "Speaker: Mr. Andrew Toole",
-   "n_lines": 20,
+   "n_lines": 36,
    "method": "marker",
    "file": "d1-09_insight-painting-by-numbers-the-power-of-ip-data.txt",
    "actual_start": "2026-11-09T13:18:53+01:00",
-   "actual_end": "2026-11-09T13:28:37+01:00",
+   "actual_end": "2026-11-09T13:34:29+01:00",
    "line_from": 1490,
-   "line_to": 1509,
+   "line_to": 1525,
    "speakers": [
     {
      "key": "d1-09__unknown",
@@ -494,10 +494,21 @@
      "name": "Mr. Andrew Toole",
      "affiliation": "Associate Professor of Public Policy, Georgia Institute of Technology, United States of America",
      "role": "speaker",
-     "n_lines": 16,
-     "n_words": 1073,
+     "n_lines": 28,
+     "n_words": 1568,
      "n_turns": 1,
      "file": "d1-09__mr-andrew-toole.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-09__h-e-mr-kairat-torebayev",
+     "name": "H.E. Mr. Kairat Torebayev",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 4,
+     "n_words": 204,
+     "n_turns": 1,
+     "file": "d1-09__h-e-mr-kairat-torebayev.txt",
      "method": "marker"
     }
    ]
@@ -511,13 +522,13 @@
    "start": "13:00",
    "end": "14:30",
    "people": "",
-   "n_lines": 13,
-   "method": "schedule",
+   "n_lines": 3,
+   "method": "cue",
    "file": "d1-10_lunch-break.txt",
-   "actual_start": "2026-11-09T13:29:11+01:00",
-   "actual_end": "2026-11-09T13:33:11+01:00",
-   "line_from": 1510,
-   "line_to": 1522
+   "actual_start": "2026-11-09T13:34:40+01:00",
+   "actual_end": "2026-11-09T13:35:16+01:00",
+   "line_from": 1526,
+   "line_to": 1528
   },
   {
    "id": "d1-11",

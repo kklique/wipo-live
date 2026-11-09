@@ -1,17 +1,7 @@
 # [d1-10] Lunch break
 # Day 1 · 2026-11-09 · 예정 13:00-14:30 (Geneva)
-# 실제 구간 13:29:11-13:33:11 · 13문장 · 경계 방식: schedule
+# 실제 구간 13:34:40-13:35:16 · 3문장 · 경계 방식: cue
 
-The width of each band is a count of patent applications. So almost four in five of these applications used coined in research in 2013 and 2014. Auto encoders, word embeddings, sequence to sequence models, and above all generative adversarial networks, which alone accounted for 860 of the 1,726 applications. Now look at the bottom of this graphic.
-The language the next wave of generative AI. pre-trained language models, diffusion models, those were coined in research in 2018 and through 2020. And it is already there in a very thin line. only 37 applications at that time. So the words of the ChatGPT era were in the patent record even before ChatGPT. They were just really small.
-So in principle we could see them if we knew what we were looking for. So the trip from science to invention actually goes quickly. It is surprising actually how fast it happens.
-Patents cite the research they build on.
-Each gray dot in this graphic is a landmark research paper. The gold dots are the US patents that cite it, placed at the year the application was filed.
-The bigger the dot, the more patents.
-The first GAN paper was published in 2014 and inventors cited it in applications filed in 2015. 57 applications were filed in 2017.
-The transformer paper published in June of 2017 was cited in applications that very same year. The GPT -3 and the diffusion model, both from 2020, were cited in filings from 2020.
-In other words, inventors were building on these breakthroughs within a year or two. And the path from science to patents is fast and it is measurable. So this is a short presentation because we are going to lunch and I do not want to delay anything, but that is the briefcase study of generative AI. Now let's put it all back together. And if you do this, if you step back from generative AI and put these signals in order, we get a ladder.
-Each rung comes earlier than the one above it.
-At the top, we have the new classification codes from the patent offices in January 2023. Below it, the market breakthrough, the moment everybody notices the chat GPT in November 2022. Below that, new words published in patent applications visible in 2018, then patents citing new science as early as 2015. and at the bottom, the very kind of root research clusters that grow fast, GAN papers went from '68 and 2016 to almost 600 in 2017.
-And Georgetown University in Washington, DC, they have a center for security and emerging technology that I am associated with. That is why I know about this. They are building maps of science, of research clusters, the language of research, and they are connecting the language of research to the language of patent applications. And that is exactly the lowest rung on this ladder, and that is where the roots of the new technology come from.
-So back to the question, can IP data help us to be proactive? And the answer is yes. Patent data are an indispensable source of identifying emerging technologies, but they cannot be viewed in isolation. The key, again, is detecting the language and discovery of science in this discovery of science in industry and taking that language to the patent data. If we do that, we can have a proactive stance as policy makers and as citizens.
+Emily Kate Janowski. and rather unusual companion, TOVA. the robot at the site she leads with.
+I encourage those interested to join us for this opportunity to explore with the mean to share our homes. and perhaps one day our daily routines with the intelligent machines. Enjoy your lunch and we look forward to welcoming you back at 3 o'clock. And for those of you who will have food over here, your dishes over here, the cafeteria closes sharp at 2 o'clock. as Swiss program.
+Okay.
