@@ -76,6 +76,20 @@
   aside li { padding: 4px 0; border-bottom: 1px dashed var(--line); }
   aside li time { color: var(--muted); font-variant-numeric: tabular-nums; margin-right: 6px; }
   .hint { color: var(--muted); font-size: 12px; margin-top: 8px; }
+  /* 저장 상태 탭 */
+  #status-wrap { max-width: 900px; margin: 0 auto; padding: 12px 16px 48px; }
+  .verdict { border-radius: 10px; padding: 14px 16px; margin-bottom: 14px; font-weight: 600; border: 1px solid var(--line); background: var(--card); }
+  .verdict.ok { border-color: var(--ok); } .verdict.warn { border-color: var(--warn); } .verdict.err { border-color: var(--err); }
+  .verdict small { display: block; font-weight: 400; color: var(--muted); margin-top: 4px; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; margin-bottom: 16px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+  .card .k { font-size: 12px; color: var(--muted); }
+  .card .v { font-size: 20px; font-weight: 700; margin: 2px 0; }
+  .card .v.ok { color: var(--ok); } .card .v.warn { color: var(--warn); } .card .v.err { color: var(--err); }
+  .card .sub { font-size: 12px; color: var(--muted); }
+  .tbl { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .tbl th, .tbl td { text-align: left; padding: 5px 6px; border-bottom: 1px solid var(--line); }
+  .tbl td.n, .tbl th.n { text-align: right; font-variant-numeric: tabular-nums; }
   /* 프로그램 탭 */
   #program-wrap { max-width: 900px; margin: 0 auto; padding: 8px 16px 48px; }
   .day h2 { font-size: 17px; margin: 22px 0 2px; }
@@ -133,6 +147,7 @@
     <button class="tab" role="tab" id="tab-live" aria-selected="true" aria-controls="live-wrap">실시간</button>
     <button class="tab" role="tab" id="tab-program" aria-selected="false" aria-controls="program-wrap">프로그램</button>
     <button class="tab" role="tab" id="tab-full" aria-selected="false" aria-controls="full-wrap">전체 저장본</button>
+    <button class="tab" role="tab" id="tab-status" aria-selected="false" aria-controls="status-wrap">저장 상태</button>
   </div>
 </header>
 <div id="status" style="padding-left:16px"><span class="dot"></span><span class="badge" id="badge">LIVE</span><span id="status-text">불러오는 중…</span></div>
@@ -146,6 +161,11 @@
 <!-- 프로그램: 3일 일정 + 제목을 누르면 해당 발표의 저장된 스크립트 -->
 <div id="program-wrap" role="tabpanel" hidden>
   <div id="program"><div class="live-empty">불러오는 중…</div></div>
+</div>
+
+<!-- 저장 상태: 수집/저장이 잘 되고 있는지 한눈에 (Claude 없이 확인) -->
+<div id="status-wrap" role="tabpanel" hidden>
+  <div id="status-panel"><div class="live-empty">불러오는 중…</div></div>
 </div>
 
 <!-- 전체 저장본: data 브랜치에 저장된 전체 문장 -->
@@ -175,7 +195,7 @@ const LIVE_KEEP = 200;         // 실시간 탭에 유지하는 최대 문장 �
 
 let meeting = q.get("id") || DEFAULT_ID;
 const hashParts = location.hash.slice(1).split(":");      // #live | #program[:세션id] | #full
-let tab = ["full", "program"].includes(hashParts[0]) ? hashParts[0] : "live";
+let tab = ["full", "program", "status"].includes(hashParts[0]) ? hashParts[0] : "live";
 let pendingOpen = hashParts[0] === "program" ? hashParts[1] || null : null;
 
 const $ = (id) => document.getElementById(id);
@@ -185,7 +205,8 @@ const el = { meeting: $("meeting"), q: $("q"), follow: $("follow"), tr: $("trans
 const hhmmss = (iso) => (iso || "").slice(11, 19);
 
 /* ---------- 상태 표시 (탭별로 기억) ---------- */
-const statuses = { live: ["", "LIVE", "연결 중…"], program: ["", "프로그램", "불러오는 중…"], full: ["", "저장본", "불러오는 중…"] };
+const statuses = { live: ["", "LIVE", "연결 중…"], program: ["", "프로그램", "불러오는 중…"], full: ["", "저장본", "불러오는 중…"],
+                   status: ["", "상태", "불러오는 중…"] };
 function setStatus(which, kind, badge, msg) {
   statuses[which] = [kind, badge, msg];
   if (which === tab) showStatus();
@@ -621,22 +642,138 @@ async function refreshProgram() {
   }
 }
 
+/* ---------- 저장 상태 (사람이 직접 확인: 수집·저장이 잘 되고 있는지) ---------- */
+let statusTimer = null;
+const mins = (iso) => Math.max(0, Math.round((Date.now() - new Date(iso)) / 60000));
+const fmtAge = (m) => (m < 1 ? "방금" : m < 60 ? `${m}분 전` : `${Math.floor(m / 60)}시간 ${m % 60}분 전`);
+
+async function wipoAhead(savedNext) {            // WIPO 에는 있는데 아직 저장 안 된 확정 문장 수 (null: 응답 없음)
+  try {
+    const r = await fetch(`${WIPO_API}?meeting_id=${encodeURIComponent(meeting)}&line_number=${savedNext || 1}&cache=${Math.random()}`, { cache: "no-store" });
+    if (!r.ok) return null;
+    return ((await r.json()).full_lines || []).length;
+  } catch (e) { return null; }
+}
+
+async function latestCollectRun() {
+  try {
+    const r = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/actions/workflows/collect.yml/runs?per_page=6`, { cache: "no-cache" });
+    if (!r.ok) return null;
+    const runs = ((await r.json()).workflow_runs || []).filter((x) => (x.display_title || "").includes(meeting));
+    return runs[0] || null;
+  } catch (e) { return null; }
+}
+
+function inEventWindow() {                      // 지금이 회의 시간대(시작 20분 전 ~ 종료 30분 후, Geneva)인가
+  if (!agenda) return null;
+  const g = genevaNow(), d = g.slice(0, 10), hm = g.slice(11, 16);
+  const day = agenda.days.find((x) => x.date === d);
+  if (!day) return false;
+  const sub = (t, m) => { const [h, mi] = t.split(":").map(Number); const v = h * 60 + mi + m; return String(Math.floor(v / 60)).padStart(2, "0") + ":" + String(v % 60).padStart(2, "0"); };
+  return hm >= sub(day.items[0].start, -20) && hm <= sub(day.items[day.items.length - 1].end, 30);
+}
+
+function card(k, v, sub, kind) {
+  const c = document.createElement("div"); c.className = "card";
+  const a = document.createElement("div"); a.className = "k"; a.textContent = k;
+  const b = document.createElement("div"); b.className = "v" + (kind ? " " + kind : ""); b.textContent = v;
+  const d = document.createElement("div"); d.className = "sub"; d.textContent = sub || "";
+  c.appendChild(a); c.appendChild(b); c.appendChild(d); return c;
+}
+
+async function refreshStatus() {
+  const root = $("status-panel");
+  const base = `transcripts/${meeting}`;
+  try {
+    if (!agenda) { try { const r = await fetch("agenda.json", { cache: "no-cache" }); if (r.ok) agenda = await r.json(); } catch (e) { /* 무시 */ } }
+    const [st, idxT, mk] = await Promise.all([getText(`${base}/state.json`).catch(() => null),
+      getText(`${base}/by_session/index.json`).catch(() => null), getText(`${base}/markers.jsonl`).catch(() => null)]);
+    let state = null, idx = null;
+    try { state = JSON.parse(st); } catch (e) { /* 없음 */ }
+    try { idx = JSON.parse(idxT); } catch (e) { /* 없음 */ }
+    const [ahead, run] = await Promise.all([wipoAhead(state && state.next_line_number), latestCollectRun()]);
+
+    const age = state ? mins(state.updated) : null;
+    const win = inEventWindow();
+    const active = run && ["queued", "in_progress", "waiting", "pending"].includes(run.status);
+    let markerN = 0;
+    for (const row of (mk || "").split("\n")) { if (!row.trim()) continue; try { markerN += (JSON.parse(row).new_markers || []).length; } catch (e) { /* 무시 */ } }
+    const items = (idx && idx.items) || [];
+    const real = items.filter((e) => !["break", "social"].includes(e.type));
+    const withText = real.filter((e) => e.n_lines > 0);
+    const spk = items.flatMap((e) => (e.speakers || []).map((s) => ({ ...s, sid: e.id })));
+    const unknownLines = spk.filter((s) => s.role === "unknown").reduce((a, s) => a + s.n_lines, 0);
+    const words = lines.reduce((a, l) => a + l.split(/\s+/).length, 0);
+
+    // 판정
+    const reasons = []; let kind = "ok";
+    if (!state) { kind = win ? "warn" : ""; reasons.push("이 회의의 저장 데이터가 아직 없습니다 (수집 시작 전이거나 meeting_id 확인 필요)"); }
+    else {
+      if (age > 6 && win) { kind = "err"; reasons.push(`수집기가 ${fmtAge(age)}부터 저장하지 않았습니다 (회의 시간대)`); }
+      if (ahead !== null && ahead > 60 && age > 6) { kind = "err"; reasons.push(`WIPO에는 ${ahead}줄이 더 있는데 저장되지 않고 있습니다`); }
+      if (win && !active && ahead > 0 && age > 6) { kind = "err"; reasons.push("실행 중인 수집 작업이 없습니다 (Watchdog이 5분 안에 자동 시작합니다)"); }
+      if (kind === "ok" && age > 6 && win === false) { kind = ""; reasons.push("지금은 회의 시간대가 아니라서 수집이 멈춰 있는 것이 정상일 수 있습니다 (마지막 저장 " + fmtAge(age) + ")"); }
+    }
+    root.innerHTML = "";
+    const v = document.createElement("div"); v.className = "verdict " + kind;
+    v.textContent = kind === "ok" ? "✅ 저장 정상" : kind === "warn" ? "⚠ 확인 필요" : kind === "err" ? "❌ 저장 이상 의심" : "ℹ 대기 중";
+    if (kind === "ok") { const sm = document.createElement("small"); sm.textContent = `수집기 마지막 저장 ${fmtAge(age)} · 확정 문장 ${lines.length.toLocaleString()}개 저장됨`; v.appendChild(sm); }
+    for (const r of reasons) { const sm = document.createElement("small"); sm.textContent = r; v.appendChild(sm); }
+    root.appendChild(v);
+
+    const cards = document.createElement("div"); cards.className = "cards";
+    cards.appendChild(card("수집기 (마지막 저장)", state ? fmtAge(age) : "—", state ? `저장 위치 ${state.next_line_number}번 줄부터 이어받음` : "state.json 없음",
+      !state ? "" : age > 6 && win ? "err" : age > 6 ? "warn" : "ok"));
+    cards.appendChild(card("전체 스크립트", `${lines.length.toLocaleString()}문장`, `${words.toLocaleString()}단어 · 확정 문장만`, lines.length ? "ok" : ""));
+    cards.appendChild(card("WIPO 대비", ahead === null ? "확인 불가" : ahead === 0 ? "동기화됨" : `${ahead}줄 저장 대기`,
+      ahead === null ? "WIPO 응답 없음 (시작 전/종료 후이거나 접속 불가)" : "저장은 약 2분 간격이라 수 줄 대기는 정상",
+      ahead === null ? "" : ahead > 60 ? "err" : ahead > 25 ? "warn" : "ok"));
+    cards.appendChild(card("수집 작업 (Actions)", !run ? "정보 없음" : active ? "실행 중" : `종료 (${run.conclusion || run.status})`,
+      run ? `시작 ${fmtAge(mins(run.created_at))} · ${run.html_url.replace("https://github.com/", "")}` : "최근 실행 기록 없음",
+      !run ? "" : active ? "ok" : run.conclusion === "success" ? "" : "warn"));
+    cards.appendChild(card("발표별 저장", idx ? `${withText.length} / ${real.length}` : "—", idx ? `스크립트가 있는 발표/세션 · 분할 시계 ${idx.clock}` : "by_session 아직 없음", withText.length ? "ok" : ""));
+    cards.appendChild(card("발표자별 저장", idx ? `${spk.length}건` : "—", idx ? `구분 불가 ${unknownLines}문장 · 마커/호명/아젠더 기준` : "by_speaker 아직 없음", spk.length ? "ok" : ""));
+    cards.appendChild(card("발언자 마커", `${markerN}건`, "웹캐스트가 찍는 발언자 표시 (발표자 구분에 사용)", markerN ? "ok" : ""));
+    root.appendChild(cards);
+
+    if (withText.length) {                    // 최근 저장된 발표 목록
+      const h = document.createElement("div"); h.className = "k"; h.style.margin = "4px 0"; h.textContent = "스크립트가 저장된 발표/세션";
+      const t = document.createElement("table"); t.className = "tbl";
+      t.innerHTML = "<thead><tr><th>세션</th><th>제목</th><th class='n'>문장</th><th>경계</th></tr></thead>";
+      const tb = document.createElement("tbody");
+      for (const e of withText) {
+        const tr = document.createElement("tr");
+        for (const [txt, cls] of [[e.id, ""], [e.title, ""], [String(e.n_lines), "n"], [e.method, ""]]) {
+          const td = document.createElement("td"); if (cls) td.className = cls; td.textContent = txt; tr.appendChild(td); }
+        tb.appendChild(tr);
+      }
+      t.appendChild(tb); root.appendChild(h); root.appendChild(t);
+    }
+    setStatus("status", kind === "ok" ? "ok" : kind === "warn" ? "warn" : kind === "err" ? "err" : "", "상태",
+      `${v.textContent.replace(/^\S+\s/, "")} · 마지막 확인 ${new Date().toLocaleTimeString()} · 30초마다 갱신`);
+  } catch (e) {
+    setStatus("status", "err", "상태", `불러오기 실패 (${e.message})`);
+  }
+}
+
 /* ---------- 탭 / 이벤트 ---------- */
 function selectTab(name) {
   tab = name;
-  for (const n of ["live", "program", "full"]) $("tab-" + n).setAttribute("aria-selected", n === name);
+  for (const n of ["live", "program", "full", "status"]) $("tab-" + n).setAttribute("aria-selected", n === name);
   $("live-wrap").hidden = name !== "live"; $("live-ctl").hidden = name !== "live";
-  $("program-wrap").hidden = name !== "program";
+  $("program-wrap").hidden = name !== "program"; $("status-wrap").hidden = name !== "status";
   $("full-wrap").hidden = name !== "full"; $("full-ctl").hidden = name !== "full";
   history.replaceState(null, "", name === "live" ? location.pathname + location.search : "#" + name);
   showStatus();
   if (name === "live") { el.liveBox.scrollTop = el.liveBox.scrollHeight; }
   else if (name === "program") { refreshProgram(); }
+  else if (name === "status") { refreshStatus(); }
   else if (follow) window.scrollTo({ top: document.body.scrollHeight });
 }
 $("tab-live").addEventListener("click", () => selectTab("live"));
 $("tab-program").addEventListener("click", () => selectTab("program"));
 $("tab-full").addEventListener("click", () => selectTab("full"));
+$("tab-status").addEventListener("click", () => selectTab("status"));
 
 function startAll() {
   $("title-sub").textContent = "· " + meeting;
@@ -647,7 +784,10 @@ function startAll() {
   savedTimer = setInterval(() => { if (!document.hidden) refreshSaved(); }, SAVED_POLL_MS);
   clearInterval(progTimer);
   progTimer = setInterval(() => { if (!document.hidden && tab === "program") refreshProgram(); }, 60000);
+  clearInterval(statusTimer);
+  statusTimer = setInterval(() => { if (!document.hidden && tab === "status") refreshStatus(); }, 30000);
   if (tab === "program") refreshProgram();
+  if (tab === "status") refreshStatus();
 }
 
 el.meeting.addEventListener("change", () => {
@@ -691,7 +831,7 @@ $("copy").addEventListener("click", async (e) => {
   setTimeout(() => { e.target.textContent = "복사"; }, 1500);
 });
 document.addEventListener("visibilitychange", () => {
-  if (!document.hidden) { refreshSaved(); livePoll(); if (tab === "program") refreshProgram(); }
+  if (!document.hidden) { refreshSaved(); livePoll(); if (tab === "program") refreshProgram(); if (tab === "status") refreshStatus(); }
 });
 
 selectTab(tab);
