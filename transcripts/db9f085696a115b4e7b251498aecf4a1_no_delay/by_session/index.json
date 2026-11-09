@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T09:52:49+00:00",
+ "generated": "2026-11-09T09:54:51+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -146,13 +146,13 @@
    "start": "10:45",
    "end": "10:55",
    "people": "Speaker: Mr. Ren Ito",
-   "n_lines": 13,
+   "n_lines": 16,
    "method": "schedule",
    "file": "d1-04_tech-radar-ready-or-not-ai-s-next-frontier.txt",
    "actual_start": "2026-11-09T10:45:22+01:00",
-   "actual_end": "2026-11-09T10:52:16+01:00",
+   "actual_end": "2026-11-09T10:54:42+01:00",
    "line_from": 193,
-   "line_to": 205,
+   "line_to": 208,
    "speakers": [
     {
      "key": "d1-04__mr-ren-ito",
@@ -185,6 +185,17 @@
      "n_words": 222,
      "n_turns": 1,
      "file": "d1-04__h-e-ms-mari-leena-talvitie.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-04__h-e-mr-kim-yong-sun",
+     "name": "H. E. Mr. Kim Yong Sun",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 3,
+     "n_words": 203,
+     "n_turns": 1,
+     "file": "d1-04__h-e-mr-kim-yong-sun.txt",
      "method": "marker"
     }
    ]
