@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T09:32:34+00:00",
+ "generated": "2026-11-09T09:34:36+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -83,13 +83,13 @@
    "start": "10:15",
    "end": "10:45",
    "people": "",
-   "n_lines": 39,
+   "n_lines": 42,
    "method": "schedule",
    "file": "d1-03_ministerial-level-remarks.txt",
    "actual_start": "2026-11-09T10:15:10+01:00",
-   "actual_end": "2026-11-09T10:32:19+01:00",
+   "actual_end": "2026-11-09T10:34:07+01:00",
    "line_from": 34,
-   "line_to": 72,
+   "line_to": 75,
    "speakers": [
     {
      "key": "d1-03__unknown",
@@ -118,8 +118,8 @@
      "name": "Mr. Ren Ito",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 14,
-     "n_words": 750,
+     "n_lines": 17,
+     "n_words": 974,
      "n_turns": 1,
      "file": "d1-03__mr-ren-ito.txt",
      "method": "marker"
