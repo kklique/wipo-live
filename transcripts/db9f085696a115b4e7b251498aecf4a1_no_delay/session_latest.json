@@ -139,6 +139,13 @@
       "timestamp": "00:34:31",
       "timestampCVC5": "2026-11-09T09:24:31",
       "timestampSeconds": 2071
+    },
+    {
+      "description": "Mr. Ren Ito",
+      "personId": "6c098a38-b69d-48f1-b417-74270a736fa4",
+      "timestamp": "00:36:32",
+      "timestampCVC5": "2026-11-09T09:26:32",
+      "timestampSeconds": 2192
     }
   ],
   "markers_grouped": {
@@ -186,6 +193,13 @@
                     "timestamp": "00:34:31",
                     "timestampCVC5": "2026-11-09T09:24:31",
                     "timestampSeconds": 2071
+                  },
+                  {
+                    "description": "Mr. Ren Ito",
+                    "personId": "6c098a38-b69d-48f1-b417-74270a736fa4",
+                    "timestamp": "00:36:32",
+                    "timestampCVC5": "2026-11-09T09:26:32",
+                    "timestampSeconds": 2192
                   }
                 ],
                 "subjectId": "c20b4223-8dad-43c5-a179-1fbc704f6989",
@@ -207,6 +221,13 @@
       "id": "ec07df79-cc36-48c1-acea-301e6dddfad4",
       "name": "CHAIR",
       "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "<p>Co-Founder and Chief Operating Officer, <br>Sakana AI, Japan<br></p><p>Ren co-founded Sakana AI in 2023, a Tokyo-based AI company creating a new kind of foundational AI models based on nature-inspired intelligence. Sakana AI has become Japan’s fastest unicorn after one year in business, backed by Nvidia and a broad spectrum of Japanese enterprises including the 3 Japanese Megabanks (MUFG, SMBC, Mizuho) and other leading companies in each of Japan’s industry sectors. In 2025, Sakana AI became the largest unicorn Japan has ever had.</p><p>Prior to Sakana, Ren took the lead on the global expansion of Mercari, Japan’s first unicorn start-up running the fastest-growing marketplace app. He served as CEO of Mercari Europe, as well as successfully orchestrated its IPO valuing the company at $6bn.</p><p>Before tech, Ren spent 15 years as a Japanese diplomat where he worked on the security alliance with the US, negotiated a free trade agreement with the EU, and represented Japan at the World Bank board. Ren continues to be involved in public policy debates on technological innovation and international politics as Senior Fellow at New York University (NYU) School of Law, and is the youngest member of the Trilateral Commission.</p><p>Ren received his Master of Laws from NYU School of Law (2004) and Bachelor of Laws from the University of Tokyo (2001) and is admitted to practice law in New York. Ren also holds a Master of Arts in East Asian Studies from Stanford University (2005).<br></p>",
+      "email": "",
+      "id": "6c098a38-b69d-48f1-b417-74270a736fa4",
+      "name": "Mr. Ren Ito",
+      "photoUrl": "https://amcpwewipoassets.blob.core.windows.net/assets/3589b04e-f96d-4ea8-a2a0-ed50dcb36a67.PNG"
     },
     {
       "bio": "Permanent Representative of the Republic of Kazakhstan to the World Trade Organization and international economic organizations, Kazakhstan",
