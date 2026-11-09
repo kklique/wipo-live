@@ -1094,3 +1094,18 @@ It is not there. But if we connect to AIS, we the innovation development with th
 This means that when developing these goals, as the goals of the up to 1936, unfortunately, our organization, the specialized organization of the UN, does not participate well. 必 须 建 议 更 丰 富 的 互 动, within the UN and other international organizations, to develop and improve these goals.
 First of all, what are we talking about here? That we need to change the system of evaluation of innovative development.
 Not publications and patents, but non-material assets that have been declared by the board of BIS, but, unfortunately, has not yet been implemented in practice. Today, about half of the world's countries have a strategy for the development of intellectual property. But on the basis of their are based on security and protection. There is no economy. There is nothing you should strive for. Of course, it is necessary in this reform.
+the structure of the UN, including the reform of the AIS, it is necessary to recommend and achieve to abandon the national regime of expropriation of exclusive rights. It is dependent when the economy does not work for the interests of the people. the interests of all countries, but for the interests of the rich. You have now turned me off from the presentation. The next of course, is necessary in this part, speaking of the fact that necessary to develop the economy.
+In this part, the market is not for patents and publications, but for technologies.
+And technologies are a combination of the preserved results of intellectual activity.
+And, of course, the work of AIS in this part can be a very significant help at the national level in order to reduce the inequality that exists today. At the end of this part of my speech, I like to talk about the second part of artificial intelligence.
+What do we have?
+We have diametrically opposite positions, secular and spiritual power.
+The position of the Pope of Rome and the position of the head of the United States are diametrically opposite.
+The strategy that is declared today by the United States of America is the world through force.
+What is the force based on?
+The technology of artificial intelligence.
+Of course, the role of the United Nations, as well as other UN structures, is to analyze these positions.
+The position of scientists is different, including the founders of artificial intelligence. The positions stated in the public discussion are different. And if we look at more than 60 strategies for the development of artificial intelligence, which are adopted today at the national level, they are also different.
+And if we impose 100 strategies for the development of artificial intelligence, property on 60 strategies of the development of artificial intelligence, there is no intersection.
+How can we move forward in this part, if is no coordination? in this part?
+What is this coordination for? It plays a coordinating role.

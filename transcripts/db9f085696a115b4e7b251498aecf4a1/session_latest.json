@@ -653,16 +653,16 @@
     {
       "description": "H.E. Mr. Kairat Torebayev",
       "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
-      "timestamp": "04:09:57",
-      "timestampCVC5": "2026-11-09T17:29:57",
-      "timestampSeconds": 14997
+      "timestamp": "04:09:54",
+      "timestampCVC5": "2026-11-09T17:29:54",
+      "timestampSeconds": 14994
     },
     {
       "description": "CANADA",
       "personId": "3467ab14-10b4-46f0-97b5-67f92413dbfb",
-      "timestamp": "04:10:09",
-      "timestampCVC5": "2026-11-09T17:30:09",
-      "timestampSeconds": 15009
+      "timestamp": "04:10:07",
+      "timestampCVC5": "2026-11-09T17:30:07",
+      "timestampSeconds": 15007
     },
     {
       "description": "H.E. Mr. Kairat Torebayev",
@@ -1263,16 +1263,16 @@
                   {
                     "description": "H.E. Mr. Kairat Torebayev",
                     "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
-                    "timestamp": "04:09:57",
-                    "timestampCVC5": "2026-11-09T17:29:57",
-                    "timestampSeconds": 14997
+                    "timestamp": "04:09:54",
+                    "timestampCVC5": "2026-11-09T17:29:54",
+                    "timestampSeconds": 14994
                   },
                   {
                     "description": "CANADA",
                     "personId": "3467ab14-10b4-46f0-97b5-67f92413dbfb",
-                    "timestamp": "04:10:09",
-                    "timestampCVC5": "2026-11-09T17:30:09",
-                    "timestampSeconds": 15009
+                    "timestamp": "04:10:07",
+                    "timestampCVC5": "2026-11-09T17:30:07",
+                    "timestampSeconds": 15007
                   },
                   {
                     "description": "H.E. Mr. Kairat Torebayev",
