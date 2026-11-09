@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T12:31:35+00:00",
+ "generated": "2026-11-09T12:33:36+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -365,8 +365,8 @@
      "name": "Mr. Antony Taubman",
      "affiliation": "Honorary Professor, Queen Mary University of London, Senior Fellow, University of Melbourne, Australia",
      "role": "panelist",
-     "n_lines": 24,
-     "n_words": 1161,
+     "n_lines": 23,
+     "n_words": 1044,
      "n_turns": 2,
      "file": "d1-08__mr-antony-taubman.txt",
      "method": "marker"
@@ -376,9 +376,9 @@
      "name": "Mr. Edward Lee",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 33,
-     "n_words": 1860,
-     "n_turns": 16,
+     "n_lines": 35,
+     "n_words": 2013,
+     "n_turns": 17,
      "file": "d1-08__mr-edward-lee.txt",
      "method": "marker"
     },
@@ -387,8 +387,8 @@
      "name": "Mr. Gaétan de Rassenfosse",
      "affiliation": "Associate Professor of Science Technology and Innovation Policy, Ecole Polytechnique Fédérale de Lausanne, Belgium",
      "role": "panelist",
-     "n_lines": 29,
-     "n_words": 1372,
+     "n_lines": 28,
+     "n_words": 1336,
      "n_turns": 3,
      "file": "d1-08__mr-gaetan-de-rassenfosse.txt",
      "method": "marker"
@@ -511,13 +511,13 @@
    "start": "13:00",
    "end": "14:30",
    "people": "",
-   "n_lines": 10,
+   "n_lines": 13,
    "method": "schedule",
    "file": "d1-10_lunch-break.txt",
    "actual_start": "2026-11-09T13:29:11+01:00",
-   "actual_end": "2026-11-09T13:31:24+01:00",
+   "actual_end": "2026-11-09T13:33:11+01:00",
    "line_from": 1510,
-   "line_to": 1519
+   "line_to": 1522
   },
   {
    "id": "d1-11",
