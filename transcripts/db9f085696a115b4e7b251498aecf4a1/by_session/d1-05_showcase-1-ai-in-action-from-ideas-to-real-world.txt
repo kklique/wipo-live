@@ -1,91 +1,26 @@
 # [d1-05] Showcase 1: AI in Action - From Ideas to Real-World Impact
 # Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva)
 # Speaker: Mr. Anant Madabhushi
-# 실제 구간 11:05:26-11:13:56 · 86문장 · 경계 방식: schedule
+# 실제 구간 11:23:24-11:33:08 · 21문장 · 경계 방식: marker
 
-IP was designed to serve human ingenuity. We must ensure that it can continue to do so even in the age of AI. I thank all of you for the opportunity. to speak, and I wish you fruitful discussions. I hope to join you in person at the next forum. Thank you. Excellencies, Distinguished Delegates, Ladies and Gentlemen, Good morning. My name is Yasuyuki Kasai, Commissioner of the Japan Patent Office, JPO. First of all, I would like to express my sincere gratitude to Director General Tang and to all those concerned for providing us with a wonderful opportunity.
-Today, the world is at a major turning point driven by the rapid advancement of AI. In July of this year, the Government of Japan developed Japan's Growth Strategy, in addition to serving as the Commissioner of the JPL, I was responsible for its development as a member of Cabinet Secretariat. In the strategy, we have selected 17 strategic fields with a projected total scale of domestic, public and private investment expected to exceed 373 trillion yen or approximately 2.3 trillion yen.
-US dollars, cumulatively by fiscal year 2040. Within this framework, the AI transformation position as an accelerator for growth.
-Accordingly, several core fields essential for this transformation, including AI and semiconductors, have been prioritized. By the end of the year, we will formulate the Japan's growth strategy implementation plan, which will include the details and amounts of domestic investment over the next five years. leading up to around 2030. While the government of Japan positioned AI transformation as an accelerator of growth, the JPO is responding to the rapid development of AI by ensuring that our examination practice is future-ready, as well as reviewing our institutional frameworks.
-In Japan, patent applications for AI-related inventions stood at approximately $ 8,000 in 2019, but exceeded $ 20 , 000 in 2024. To address the growth of these applications, the PL launched the Air Examination Support Team in 2021 to provide proper support for their examination. In addition, the JPL is promoting the use of AI and its operations and released the JPO AI vision this July.
-The AI vision advocates a human centric approach as one of its key concepts aiming for the responsible use of AI. Through these ongoing efforts, the JPO has keenly reaffirmed the importance of deepening collaboration with stakeholders and taking into consideration trends in foreign countries regarding AI. As AI rapidly advances, it is essential for Member States and stakeholders to come together and share diverse experience.
-insights, and challenges in order to ensure that IP administrations and the IP system continue to support global innovation and creativity. This global platform truly responds to the demand of the times by providing a cross-cutting platform for the dialogue on IP and AI. I would like to pay my sincere respect to WIPO for organizing this forum. Unfortunately, I could not join you today.
-Instead, Mr. Nunaka, Deputy Commissioner of the JPO, is attending on our behalf. .
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-. and other endeavors, the JPO remained fully committed to contributing to the global discussions on AI and Intellectual Property.
-Thank you very much for your attention. Director General, Daren Tang, Excellencies, Distinguished Delegates, ladies and gentlemen, it is an honor to join you at the first Global Forum on Intellectual Property and Artificial Intelligence.
-I am sorry I cannot be with you in Geneva, but I am glad to open this conversation with you from Beirut. I would like to thank WIPO and Director General Tang for creating this space. Artificial intelligence is moving faster than most legal frameworks were built to handle. A forum that brings Member States and stakeholders together regularly and openly is exactly what this moment needs. The questions before you are not small.
-They are the questions of the age. Who is the author of the work created with AI?
-Who is the discoverer of something an algorithm help discover. What happens to the rights of creators whose work is used to train these systems? Each answer will shape how people create, invest and share knowledge for decades to come. In Lebanon, we live and deal with these questions from a particular vantage point. We are a country with a long tradition of creativity, entrepreneurship and talent.
-Our engineers designers, writers, and founders around the world. At the same time, we are building our own digital foundations and developing our approach to AI at home. So we know that Intellectual Property cannot be an afterthought. It is what lets a young innovator in Beirut, Tripoli or Saida, believe that an idea can become a business and that the business can grow without the idea being taken from them.
-We also know that no country can answer these questions alone. Large economies and smaller ones, those that build AI and those that mostly use AI. all have a stake in shaping the rules. Smaller countries need a voice in shaping those rules and not only the task of adhering to them. This is why forums like this one matter. I would like to leave you with three hopes for the next two days.
-First, that we protect creators and innovators. so that people keep being rewarded and incentivized to create original work. Second, that we keep the door open to progress so that AI can serve health care, education, public services, and economic growth. Third, that we make sure every Member State, whatever its size or resources, takes part in this conversation on equal terms.
-Lebanon is ready to listen, to learn and to contribute.
-We value our partnership with WIPO and we look forward to working with you. I wish you a productive and inspiring forum.
-Thank you. 2, 3.
-Mr. Director General, Excellencies, Distinguished Delegates, Ladies and Gentlemen, At the outset, I wish to extend my highest commendations to the World Intellectual Property Organization. and to you, Mr. Director General, for your visionary leadership. in convening this inaugural global forum on Intellectual Property. and Artificial Intelligence. Thank you. from exploratory dialogues to the structured, inclusive and platform WIPO has fostered a collaborative space where all nations actively participate in shaping the global governance of artificial intelligence.
+at the end of each day. And time will be short, and I am asking to interventions to keep up to not more than three minutes. While we have many attendees in the room. we also have a large online audience. for participants joining us remotely. Should you encounter any difficulties following the meeting in the Zoom proceedings, you can also follow through the WIPO webcast.
+I look forward to what the next two days have to offer for us. Now I pass the floor to Ken. the floor is yours. Thank you, Chair. We have just heard NISTERO interventions and we also had a keynote from Mr. Ito which gave us a fascinating glimpse into what artificial intelligence may be capable of tomorrow, but what can it already make possible today? That is what our AI in action showcase are all about.
+Over these two days, we will see how AI is helping us tackle some of humanity's biggest challenges. problems that have remained beyond our reach despite decades of scientific progress. But we will also discover how around the world are using AI to solve problems all around the world, turning local issues into real world solutions. and how AI is opening up entirely new possibilities for human creativity and expression.
+And we begin with one of the greatest challenges of all, human health. Imagine if a medical image could reveal clues invisible to even the most experienced specialists. groups that could help us understand cancer better. predict how a patient might respond to treatment and ultimately lives. Our next is guest is helping make that possible. Please welcome Professor Anand Madhubhushi, Executive Director of the MRE Empathetic AI for Health Institute.
+Professor, Madam Hoshi, the floor is yours. Director General, Assistant Director General of WIPO, Ministers, Excellencies and dear colleagues, It is a pleasure to be here in Geneva this morning and a real pleasure to be giving this talk on artificial intelligence and health. And I very intentionally framed my presentation from pixels to patents to patients, translating interpretable AI for precision medicine.
+As you heard, the Assistant Director General, there's a huge opportunity to use the power of AI to clean patterns and features routine medical images. not just because these medical images can allow us to detect and diagnose diseases earlier to really help radiologists identify early cues around cancer. But critically, there's a huge opportunity to use these images to find patterns, to find features that can help prognosticate outcomes and disease trajectories for patients with cancer.
+But perhaps even more critically, there is a huge opportunity to identify the ability to predict treatment response to specific drugs for patients with cancer because one of the big challenges that we have today is that all the drugs that are provided to cancer patients do not have 100% efficacy.
+In fact, the majority of these drugs only work in 20 to 25% of cancer patients. And the ability of artificial intelligence coupled with routinely acquired data. allows the opportunity to realize the promise of precision medicine, which is bearing the right treatment with the right patient to achieve the best possible outcome. You heard this morning that one of the big challenges with artificial intelligence is that it tends to be fairly black box.
+In other words, we do not always understand what the features are, how the AI is coming up with its representations, with its predictions. Now, that might be okay when for many, many different applications, you heard from our keynote speaker this morning for looking at your tables or your travel adjustments, it might be okay.
+But when it comes to health, interpretability becomes really critical to drive trust both from a physician and a patient perspective. The other issue with the black box nature of a lot of AI is this issue of lack of reproducibility of the AI.
+We saw this during the pandemic when a number of AI algorithms to identify COVID were released. Unfortunately, none of them turned out to be generalizable, resulting in this issue of AI slop, the lack of reproducibility around AI. and that is a big challenge and directly connected to the fact that the AI algorithms do not really we do not really understand the source of the features or the patterns with respect to how the AI is making its predictions.
+One of the other challenges also with the AI is that while the argument is made that more data can help the AI algorithms, the irony is that the more data that is fed to these algorithms, the higher the likelihood that they can hallucinate. And this is a term I think a lot of us have become very familiar with where AI can give very, very compelling responses to questions that are completely erroneous.
+And my wife, who works in the financial space and does not really work in the AI, I was trying a few months ago to explain to her this concept of AI hallucination. We were sitting in bed, and she was reading something and sort of indulging me, not really engaged in my conversation around AI hallucinations, at which point I pulled out my laptop, I dropped in a picture of myself, and to my great surprise, Chad GBT told me here that this photo is a picture of Dr. Anant Marabushi.
+And as you can see, those highlights are obviously my own.
+His work is highly recognized in the field of artificial intelligence and medical imaging. very excitedly I looked at my wife and said, "Look, dear, Chad GPD knows who I am,"
+at which point my wife's smile looked at me and said, "Oh, dear, now I understand what you mean by AI hallucinating." But is there another way? And so in our group, we focused on the use of artificial intelligence, not to make direct predictions, but instead to focus on extracting patterns, to extract features from routine data, radiographic images like CT or MRI scans, biopsy images that can now be digitized and now trying to associate these patterns that we are capturing from routine data to questions around disease trajectories, patient outcomes and more critically predicting treatment response and treatment benefit.
+So what does this look like? Here's an example of a CT scan for a lung cancer patient. You can see a large adenocarcinoma or a large lung mass. in the bottom right lung. Now this is on a CT scan, but with the power of AI, we can extract out this nodule. We can look at patterns inside the tumor, outside the tumor, but critically, we can look at features associated with the vessels of the tumor.
+We can look at the twistedness and the tortuosity of the vessels associated with the tumor. Now, assuming this individual gets a resection of the lung nodule, we actually saw an example of this with the pope who was diagnosed with early stage lung cancer recently and underwent resection. So that piece of tissue can now be digitized, and with the power of AI, we can now start to analyze the patterns of cells on the biopsy image that is used for diagnosis. AI can identify the tissue areas.
+AI can identify exactly where the cancer is.
+AI can identify the individual cancer cells and allow us to transform this pathology image into a series of quantitative representations that capture the different patterns of cell abundance and cellular diversity. And these patterns from the pathology images and the radiology images now allow us to start to connect treatment response and specific drug efficacy with cancer patients across a whole host of different cancers, and you can see multiple different cancer types over on your left, individual treatment categories like chemotherapy, immunotherapy in the middle and specific treatment combinations over on your right.
+And our group, a number of other groups, are looking at the use of these algorithms to be able to associate four different cancer patients the right treatment that has the highest likelihood of treatment benefit. Now, why does this matter?

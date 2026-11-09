@@ -1,7 +1,9 @@
 # [d1-04] Tech Radar: Ready or Not - AI's Next Frontier
-# 발표자: (진행/도입)  (unknown)
-# Day 1 · 2026-11-09 · 예정 10:45-10:55 (Geneva) · 발언 1회 · 6문장 · 381단어 · 구분 방식: marker
+# 발표자: H.E. Mr. Kim Yong Sun  (floor)
+# Day 1 · 2026-11-09 · 예정 10:45-10:55 (Geneva) · 발언 1회 · 8문장 · 511단어 · 구분 방식: marker
 
+Another important issue is the protection of identity. AI can imitate our voices, faces and other personal traits. Non-authorized use harms, performance and creators as well as politicians. politicians, public figures and ordinary citizens. People must remain in control of how they likeness and identity are used. Clear rules and effective tools are needed.
+The digital transformation will continue for many years and no country can address these challenges alone. I hope WIPO will continue its strong coordinating role. I wish you productive discussions and every success for this Forum. Again, I would like to congratulate WIPO on hosting the global forum on IP and AI and thank you, Director General, Daren Tang and the WIPO team for bringing everyone together to discuss an important issue of the AI era.
 Although I cannot join you in person, I am pleased to have this opportunity to share Korea's experience and policies on this topic. The first is improving IP administration and services through AI. Our ministry is moving towards AI-based examination systems. using specialized AI models developed in-house. We have already introduced AI into patent such as trademark classification, and design image searches to improve examination quality and will continue to expand its use to other areas.
 To make IP information more accessible to the public, we also plan to introduce an AI-powered assistant that explains complex patent documents in plain language. The second is responding to the growing number of AI -assisted IP applications. [0.002s][warning][perf,memops] Cannot use file /tmp/hsperfdata_smtadmin/1077450 because it is locked by another process (errno = 11)
 AI has significantly lowered the barriers to filing IP applications. In the first half of 2026, patent filings by individuals in Korea increased by 130% compared to last year. However, as filing becomes easier, we are also seeing rise in low quality or fraudulent IP applications. involving the misuse of AI, referred to as IP slab. love.
