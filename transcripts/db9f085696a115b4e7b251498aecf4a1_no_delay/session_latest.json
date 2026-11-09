@@ -108,16 +108,16 @@
     {
       "description": "Opening Remarks  ",
       "subjectId": "b8c24cf4-528e-481a-bdcd-cdb79e1ee816",
-      "timestamp": "00:14:25",
-      "timestampCVC5": "2026-11-09T09:04:25",
-      "timestampSeconds": 865
+      "timestamp": "00:13:25",
+      "timestampCVC5": "2026-11-09T09:03:25",
+      "timestampSeconds": 805
     },
     {
       "description": "CHAIR",
       "personId": "ec07df79-cc36-48c1-acea-301e6dddfad4",
-      "timestamp": "00:14:33",
-      "timestampCVC5": "2026-11-09T09:04:33",
-      "timestampSeconds": 873
+      "timestamp": "00:13:26",
+      "timestampCVC5": "2026-11-09T09:03:26",
+      "timestampSeconds": 806
     },
     {
       "description": "DIRECTOR GENERAL",
@@ -181,6 +181,13 @@
       "timestamp": "01:02:39",
       "timestampCVC5": "2026-11-09T09:52:39",
       "timestampSeconds": 3759
+    },
+    {
+      "description": "H.E. Mr. Edwin Tong",
+      "personId": "90c6b3ea-66cc-4103-8e90-08df3bfd2d66",
+      "timestamp": "01:07:32",
+      "timestampCVC5": "2026-11-09T09:57:32",
+      "timestampSeconds": 4052
     }
   ],
   "markers_grouped": {
@@ -198,9 +205,9 @@
                   {
                     "description": "CHAIR",
                     "personId": "ec07df79-cc36-48c1-acea-301e6dddfad4",
-                    "timestamp": "00:14:33",
-                    "timestampCVC5": "2026-11-09T09:04:33",
-                    "timestampSeconds": 873
+                    "timestamp": "00:13:26",
+                    "timestampCVC5": "2026-11-09T09:03:26",
+                    "timestampSeconds": 806
                   },
                   {
                     "description": "DIRECTOR GENERAL",
@@ -211,9 +218,9 @@
                   }
                 ],
                 "subjectId": "b8c24cf4-528e-481a-bdcd-cdb79e1ee816",
-                "timestamp": "00:14:25",
-                "timestampCVC5": "2026-11-09T09:04:25",
-                "timestampSeconds": 865
+                "timestamp": "00:13:25",
+                "timestampCVC5": "2026-11-09T09:03:25",
+                "timestampSeconds": 805
               }
             ]
           },
@@ -270,6 +277,13 @@
                     "timestamp": "01:02:39",
                     "timestampCVC5": "2026-11-09T09:52:39",
                     "timestampSeconds": 3759
+                  },
+                  {
+                    "description": "H.E. Mr. Edwin Tong",
+                    "personId": "90c6b3ea-66cc-4103-8e90-08df3bfd2d66",
+                    "timestamp": "01:07:32",
+                    "timestampCVC5": "2026-11-09T09:57:32",
+                    "timestampSeconds": 4052
                   }
                 ],
                 "subjectId": "c20b4223-8dad-43c5-a179-1fbc704f6989",
@@ -290,6 +304,13 @@
       "email": "",
       "id": "0cf8c942-5ebb-4264-8e8f-08df3bfd2d66",
       "name": "H. E. Mr. Kim Yong Sun",
+      "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "Minister for Law and Second Minister for Home Affairs, Singapore\nMr. Edwin Tong, SC is Minister for Law and Second Minister for Home Affairs.\nAs Minister for Law, Mr. Tong leads efforts to uphold the rule of law, strengthen Singapore’s legal framework, and advance access to justice. He also advances Singapore’s position as an international hub for legal services, dispute resolution, intellectual property, and restructuring and insolvency. For his work in reforming Singapore’s copyright and IP law, Mr. Tong was recognized to be amongst the 50 most influential people in IP by Managing IP in 2021 and 2022.\nBefore entering public service, Mr. Tong spent his entire professional career at Allen & Gledhill LLP. He held concurrent leadership roles as Head of the Restructuring and Corporate Insolvency Department, Co-Head of the Litigation & Dispute Resolution Department, and member of the Executive Committee. Widely acknowledged to be a leading lawyer of the Singapore Bar, he was appointed Senior Counsel in 2015.",
+      "email": "",
+      "id": "90c6b3ea-66cc-4103-8e90-08df3bfd2d66",
+      "name": "H.E. Mr. Edwin Tong",
       "photoUrl": "./assets/images/noPicSpeaker.png "
     },
     {
