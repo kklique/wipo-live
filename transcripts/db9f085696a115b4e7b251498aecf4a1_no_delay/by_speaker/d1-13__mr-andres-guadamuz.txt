@@ -1,6 +1,6 @@
 # [d1-13] One-Stop Shop: Keeping up with IP and AI
 # 발표자: Mr. Andres Guadamuz — Reader in Intellectual Property Law, University of Sussex, Costa Rica  (panelist)
-# Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva) · 발언 1회 · 13문장 · 599단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva) · 발언 1회 · 17문장 · 848단어 · 구분 방식: marker
 
 From a further perspective on the decision-shaping AI and IP, we turn to Mr. Andres Guenamuis, Reader in Intellectual Property Law at the University of Sussex.
 Andres, over to you.
@@ -15,3 +15,7 @@ I am the proud owner of four images.
 I think I'm the only person in the UK that has four images with Getty from 2022, from that time, because I'm a copyright heard, of course.
 So I had to do it.
 But interesting legal questions here were particularly that the training had taken place outside of the UK. And therefore, most of the direct copyright infringement claims were dropped by the court. So there are other interesting questions. whether a model can be an article, but not an infringing , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , said that the model itself is not a copy and is the first ruling that we had where a model itself was not considered to be a copy.
+It was getting images one very narrowly on trademarks and passing off because under some circumstances the model was able to reproduce some images. The case has been permissioned to appeal to the Court of Appeal pending. As I mentioned, we don't know what's going to happen because Getty has declared for bankruptcy. Some people blame AI. but that is a different question.
+Then we have one of the first decisions which is versus Lyon in Germany, a photographer one of his of his pictures, if I remember correctly, included in a LION data set. So now LION is a research organization. It's not a commercial organization. Some of the models are used in training of commercial models, but but Mr. Neske sued for copyright infringement. and the court in the lower court said that this was covered under the research exception under copyright under Article 3 of the digital single market directive.
+So there was a the first instance there was a discussion of whether or not opt-outs were to be machine wearable. or plain language.
+Lion also won in appeal and it's under further appeal. under federal court of justice. in Germany. Then we have two other cases that went very different. GEMA and OpenAI. And and GEMA and SUNO. under Gemma and OpenAI, this is some lyrics, so some lyrics, it was evidence that some of the lyrics had been memorized by OpenAI models. There was a discussion of the existing text and data mining exceptions.
