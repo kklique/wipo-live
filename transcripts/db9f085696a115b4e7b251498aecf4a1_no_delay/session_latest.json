@@ -310,9 +310,16 @@
     {
       "description": "Ms. Myrtha Hurtado Rivas",
       "personId": "42f6d057-4e34-48f9-ae6d-08df3b2598d3",
-      "timestamp": "02:34:19",
-      "timestampCVC5": "2026-11-09T11:24:19",
-      "timestampSeconds": 9259
+      "timestamp": "02:34:18",
+      "timestampCVC5": "2026-11-09T11:24:18",
+      "timestampSeconds": 9258
+    },
+    {
+      "description": "Mr. Edward Lee",
+      "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+      "timestamp": "02:36:52",
+      "timestampCVC5": "2026-11-09T11:26:52",
+      "timestampSeconds": 9412
     }
   ],
   "markers_grouped": {
@@ -549,9 +556,16 @@
                   {
                     "description": "Ms. Myrtha Hurtado Rivas",
                     "personId": "42f6d057-4e34-48f9-ae6d-08df3b2598d3",
-                    "timestamp": "02:34:19",
-                    "timestampCVC5": "2026-11-09T11:24:19",
-                    "timestampSeconds": 9259
+                    "timestamp": "02:34:18",
+                    "timestampCVC5": "2026-11-09T11:24:18",
+                    "timestampSeconds": 9258
+                  },
+                  {
+                    "description": "Mr. Edward Lee",
+                    "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+                    "timestamp": "02:36:52",
+                    "timestampCVC5": "2026-11-09T11:26:52",
+                    "timestampSeconds": 9412
                   }
                 ],
                 "subjectId": "59023b79-b078-455c-a939-254b6858c034",
