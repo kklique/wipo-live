@@ -1,7 +1,7 @@
 # [d1-11] Optional Side Event - My Robot "Roommate"
 # Day 1 · 2026-11-09 · 예정 14:30-15:00 (Geneva)
 # Speaker: Ms. Emily Kate Genatowski
-# 실제 구간 14:37:48-14:43:16 · 17문장 · 경계 방식: marker
+# 실제 구간 14:37:48-14:45:21 · 24문장 · 경계 방식: marker
 
 I know it. me everywhere. Why?
 Why did I do this?
@@ -20,3 +20,10 @@ And this is understandably a disaster. So what do we learn from this? Essentiall
 So hello. Thank you so much.
 So right now, the robotics field is one of the most competitive and one of the most promising and charming fields that we have today. So we have this report out by Goldman Sachs that looks at the Horizon Report, right?
 And it's telling us that this is an enormous, enormous market, right, that could reach $5 trillion U.S. dollars by 2050 with a billion estimated humanoid robots alone in use globally. That is probably a very large number. but even if we get somewhere close to that number, this is an enormous market.
+And what that also means is that the development stage of this market and of this technology. is incredibly competitive. And when something is incredibly competitive... there's not a lot of incentive for all of these different labs to be working together. And that is actually what we want.
+We want them to be working together. So in order to sort of facilitate the transparency but still protect the intellectual property that they are trying to guard. there is the option of having preemptive interoperability during development. So I'm going to tell a couple simple little stories today about how interoperability really could have helped me in a lot of ways. ways throughout my time with the robot.
+So one is batteries. So I'm going to ask our wonderful robot that we have here to showcase where is the battery on this robot. Any guesses? Right over here is the battery of the robot. And these batteries part of why they are so impressive is that they literally just clip out and then you can clip another one in. But in order to do that, A, you need to invest in two batteries.
+So I have invested for my robot because I use it all day, every day.
+I have invested in two batteries. But at the same time, this presents an issue because we know that this is a different robot from mine. I wrote my colleague who was kind enough to come to the rescue here with a robot that is operational in Switzerland and I said, oh, I have batteries.
+Don't worry.
+I'll bring my batteries and then we can just swap it out. Same lab. very close in time that these debuted, completely different batteries that do not interoperate together. So you see some of the issues that happen when you don't have that, and then you see options where let's say if you have seen a Lyme bicycle and a Lyme scooter, have the same batteries and they can be charged and then they can be sort of used in Congress with one another.
