@@ -289,3 +289,12 @@ Tony, I hope you can hear us.
 I certainly can not see you, but I hope you can see us. and you will be able to answer the questions. Secondly, I am also pleased to introduce the far end of this panel, Mr Cedric Menara, who is the Director and Head of Copyright at Google. Two spaces down, ladies and gentlemen, we did not actually take any particular order, but two spaces down from Cedric's right would be Merthyr, Merthyr Rivas, who is the General Counsel of Nestle.
 Next to her on her left, and I know this is starting to get confusing, but please get used to it.
 Professor Getan, who is an Associate Professor of Science. Technology and Innovation Policy at the Swiss Federal Technology Institute of Lausanne. And to Mertus right is Professor Chijoke Okori, who is an Associate Professor of Law at the University of Pretoria. Her expertise lies in IP, AI data science and African development.
+And that is the key.
+We need to get the perspective of the global south on this as well. Now, to her right is Ms Jennifer Corpus, who is the Chair of the Indigenous Caucus in the Philippines, and she is also a member of the UN Permanent Forum on Indigenous Issues for the 26th to 28th term. and she is a lawyer by profession. And finally, and certainly not least, is Carolyn Gwere, a working artist whose works explore perception and space through installation and sculpture.
+And for those of you who do not know her, ask her to show you her business card.
+I promise you will not be disappointed because it will show the full extent of her visual artistry.
+I certainly was impressed. Cedric also has a pretty interesting business card as well, but he is told me not to tell anybody about it.
+So I have already breached that first rule.
+It is actually a limited edition. I do not see his colleagues in Singapore having the same thing. So let's make a start. Anthony, can you hear me? I am not sure whether he can. Hi, Anthony. I am Dave Stanley.
+Very good to see you.
+Yes. I am just going to ask you to kick us off because I think that the theme we want to talk about is IPs of Philosophical Foundations and whether the architecture as we know it and as you have worked on it for many, many years.
