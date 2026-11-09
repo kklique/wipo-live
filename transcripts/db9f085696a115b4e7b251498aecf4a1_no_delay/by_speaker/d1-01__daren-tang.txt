@@ -1,8 +1,7 @@
 # [d1-01] Opening Remarks
 # 발표자: Daren Tang — Director General, World Intellectual Property Organization (WIPO)  (speaker)
-# Day 1 · 2026-11-09 · 예정 10:00-10:10 (Geneva) · 발언 1회 · 52문장 · 2,627단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 10:00-10:10 (Geneva) · 발언 1회 · 51문장 · 2,600단어 · 구분 방식: marker
 
-Thank you. Ministers, Excellencies, Heads of IFU Officers, Distinguished Delegates, dear colleagues, dear friends, good morning and welcome to the first global forum on IP and AI.
 Let me start by thanking the Ambassador of Kazakhstan, Master Karat Torabaev, for being our Chair over the next two days.
 And while WIPO has dealt with IP and AI issues for the past few years, this is the first time that we are convening the global community to discuss critical issues across the whole spectrum of IP rights. patterns, trademarks, designs, copyrights and many, many others. Over the next two days, we will look widely across this fast-moving landscape, grapple with difficult issues, and put our heads together on a wide range of topics ranging from authorship and inventorship to AI training, human likeness and the impact of AI on the administration and governance of IP.
 But this morning I want to start somewhere else.

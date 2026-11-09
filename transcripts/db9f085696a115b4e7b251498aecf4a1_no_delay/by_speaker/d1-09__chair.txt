@@ -1,8 +1,7 @@
 # [d1-09] Insight: Painting by Numbers - The Power of IP Data
 # 발표자: Chair  (chair)
-# Day 1 · 2026-11-09 · 예정 12:50-13:00 (Geneva) · 발언 1회 · 4문장 · 205단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 12:50-13:00 (Geneva) · 발언 1회 · 3문장 · 188단어 · 구분 방식: marker
 
-And so can you just join me to thank most eclectic and didactic panel. Thank you to the speakers. Thank you very much, Stanley, and the panelists here are free to depart. Thank you. And we have one more session before lunch. and I will be brief. but not fast. You're welcome. colleagues. When chat GPT burst onto the scene in late 2022, it seemed to many of us as though AI revolution had arrived almost out of nowhere.
-but had it really.
 Back in 2019, WIPO's technology trends report on artificial intelligence. intelligence was already telling a rather different story. Scientific publications and AI had been growing rapidly for decades. and patent applications were following a similarly dramatic trajectory. with exponential growth in the years leading up to the report. The signals were there, but the question was were we paying attention to them?
 And that raises a very interesting possibility. If patent and scientific data could have helped us anticipate the AI revolution, what might they be telling us about the next breakthrough technology? Our next insight, painting by numbers, the power of IP data explores how IP information can offer just a record of past innovation, but a window into its future.
+To help us connect the dots, please welcome to the stage Mr. Andrew Toole. Associate Professor of Public policy at the Georgia Institute of Technology. Andrew, the floor is yours. Good afternoon, everyone. and thank you to the organizers. for this opportunity. I appreciate it very much. I think all of us here really understand the potential of new technology. to fundamentally change our daily lives.

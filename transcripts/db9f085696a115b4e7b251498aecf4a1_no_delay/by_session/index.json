@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T13:19:07+00:00",
+ "generated": "2026-11-09T13:23:08+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -25,8 +25,8 @@
      "name": "(진행/도입)",
      "affiliation": "",
      "role": "unknown",
-     "n_lines": 2,
-     "n_words": 74,
+     "n_lines": 3,
+     "n_words": 101,
      "n_turns": 1,
      "file": "d1-01__unknown.txt",
      "method": "marker"
@@ -36,8 +36,8 @@
      "name": "Daren Tang",
      "affiliation": "Director General, World Intellectual Property Organization (WIPO)",
      "role": "speaker",
-     "n_lines": 52,
-     "n_words": 2627,
+     "n_lines": 51,
+     "n_words": 2600,
      "n_turns": 1,
      "file": "d1-01__daren-tang.txt",
      "method": "marker"
@@ -75,14 +75,36 @@
    "line_to": 247,
    "speakers": [
     {
+     "key": "d1-03__unknown",
+     "name": "(진행/도입)",
+     "affiliation": "",
+     "role": "unknown",
+     "n_lines": 2,
+     "n_words": 71,
+     "n_turns": 1,
+     "file": "d1-03__unknown.txt",
+     "method": "marker"
+    },
+    {
      "key": "d1-03__h-e-mr-kairat-torebayev",
      "name": "H.E. Mr. Kairat Torebayev",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 7,
-     "n_words": 421,
-     "n_turns": 1,
+     "n_lines": 5,
+     "n_words": 340,
+     "n_turns": 2,
      "file": "d1-03__h-e-mr-kairat-torebayev.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-03__mr-ren-ito",
+     "name": "Mr. Ren Ito",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 1,
+     "n_words": 79,
+     "n_turns": 1,
+     "file": "d1-03__mr-ren-ito.txt",
      "method": "marker"
     },
     {
@@ -91,7 +113,7 @@
      "affiliation": "",
      "role": "floor",
      "n_lines": 13,
-     "n_words": 740,
+     "n_words": 701,
      "n_turns": 1,
      "file": "d1-03__mr-hesham-azmi.txt",
      "method": "marker"
@@ -102,7 +124,7 @@
      "affiliation": "",
      "role": "floor",
      "n_lines": 8,
-     "n_words": 484,
+     "n_words": 516,
      "n_turns": 1,
      "file": "d1-03__h-e-ms-liisa-ly-pakosta.txt",
      "method": "marker"
@@ -113,7 +135,7 @@
      "affiliation": "",
      "role": "floor",
      "n_lines": 4,
-     "n_words": 222,
+     "n_words": 234,
      "n_turns": 1,
      "file": "d1-03__h-e-ms-mari-leena-talvitie.txt",
      "method": "marker"
@@ -124,7 +146,7 @@
      "affiliation": "",
      "role": "floor",
      "n_lines": 8,
-     "n_words": 511,
+     "n_words": 508,
      "n_turns": 1,
      "file": "d1-03__h-e-mr-kim-yong-sun.txt",
      "method": "marker"
@@ -135,7 +157,7 @@
      "affiliation": "",
      "role": "floor",
      "n_lines": 11,
-     "n_words": 623,
+     "n_words": 622,
      "n_turns": 1,
      "file": "d1-03__h-e-mr-edwin-tong.txt",
      "method": "marker"
@@ -157,7 +179,7 @@
      "affiliation": "",
      "role": "floor",
      "n_lines": 8,
-     "n_words": 487,
+     "n_words": 489,
      "n_turns": 1,
      "file": "d1-03__h-e-mr-kamal-shehadi.txt",
      "method": "marker"
@@ -167,8 +189,8 @@
      "name": "H.E. Mr. Ziyambi Ziyambi",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 8,
-     "n_words": 441,
+     "n_lines": 7,
+     "n_words": 369,
      "n_turns": 1,
      "file": "d1-03__h-e-mr-ziyambi-ziyambi.txt",
      "method": "marker"
@@ -287,8 +309,8 @@
      "name": "Mr. Stanley Lai",
      "affiliation": "Head of the IP Practice, Allen & Gledhill LLP, Singapore",
      "role": "moderator",
-     "n_lines": 17,
-     "n_words": 984,
+     "n_lines": 18,
+     "n_words": 1044,
      "n_turns": 1,
      "file": "d1-08__mr-stanley-lai.txt",
      "method": "marker"
@@ -298,8 +320,8 @@
      "name": "Mr. Antony Taubman",
      "affiliation": "Honorary Professor, Queen Mary University of London, Senior Fellow, University of Melbourne, Australia",
      "role": "panelist",
-     "n_lines": 18,
-     "n_words": 1087,
+     "n_lines": 20,
+     "n_words": 1168,
      "n_turns": 2,
      "file": "d1-08__mr-antony-taubman.txt",
      "method": "marker"
@@ -309,8 +331,8 @@
      "name": "Mr. Edward Lee",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 32,
-     "n_words": 1803,
+     "n_lines": 30,
+     "n_words": 1797,
      "n_turns": 17,
      "file": "d1-08__mr-edward-lee.txt",
      "method": "marker"
@@ -321,7 +343,7 @@
      "affiliation": "Associate Professor of Science Technology and Innovation Policy, Ecole Polytechnique Fédérale de Lausanne, Belgium",
      "role": "panelist",
      "n_lines": 20,
-     "n_words": 1219,
+     "n_words": 1280,
      "n_turns": 3,
      "file": "d1-08__mr-gaetan-de-rassenfosse.txt",
      "method": "marker"
@@ -332,7 +354,7 @@
      "affiliation": "General Counsel, Nestlé, Switzerland / Peru",
      "role": "panelist",
      "n_lines": 10,
-     "n_words": 827,
+     "n_words": 746,
      "n_turns": 4,
      "file": "d1-08__ms-myrtha-hurtado-rivas.txt",
      "method": "marker"
@@ -343,7 +365,7 @@
      "affiliation": "",
      "role": "floor",
      "n_lines": 17,
-     "n_words": 894,
+     "n_words": 881,
      "n_turns": 2,
      "file": "d1-08__mr-cedric-manara.txt",
      "method": "marker"
@@ -353,8 +375,8 @@
      "name": "Ms. Caroline Gueye",
      "affiliation": "Visual Artist, Senegal",
      "role": "panelist",
-     "n_lines": 7,
-     "n_words": 441,
+     "n_lines": 6,
+     "n_words": 352,
      "n_turns": 2,
      "file": "d1-08__ms-caroline-gueye.txt",
      "method": "marker"
@@ -365,7 +387,7 @@
      "affiliation": "Associate Professor of Law, University of Pretoria, Nigeria",
      "role": "panelist",
      "n_lines": 18,
-     "n_words": 1139,
+     "n_words": 1123,
      "n_turns": 2,
      "file": "d1-08__ms-chijioke-okorie.txt",
      "method": "marker"
@@ -376,7 +398,7 @@
      "affiliation": "",
      "role": "floor",
      "n_lines": 14,
-     "n_words": 950,
+     "n_words": 953,
      "n_turns": 2,
      "file": "d1-08__ms-jennifer-tauli-jing-corpuz.txt",
      "method": "marker"
@@ -401,12 +423,23 @@
    "line_to": 506,
    "speakers": [
     {
+     "key": "d1-09__unknown",
+     "name": "(진행/도입)",
+     "affiliation": "",
+     "role": "unknown",
+     "n_lines": 2,
+     "n_words": 83,
+     "n_turns": 1,
+     "file": "d1-09__unknown.txt",
+     "method": "marker"
+    },
+    {
      "key": "d1-09__chair",
      "name": "Chair",
      "affiliation": "",
      "role": "chair",
-     "n_lines": 4,
-     "n_words": 205,
+     "n_lines": 3,
+     "n_words": 188,
      "n_turns": 1,
      "file": "d1-09__chair.txt",
      "method": "marker"
@@ -417,20 +450,9 @@
      "affiliation": "Associate Professor of Public Policy, Georgia Institute of Technology, United States of America",
      "role": "speaker",
      "n_lines": 22,
-     "n_words": 1523,
+     "n_words": 1531,
      "n_turns": 1,
      "file": "d1-09__mr-andrew-toole.txt",
-     "method": "marker"
-    },
-    {
-     "key": "d1-09__h-e-mr-kairat-torebayev",
-     "name": "H.E. Mr. Kairat Torebayev",
-     "affiliation": "",
-     "role": "floor",
-     "n_lines": 1,
-     "n_words": 74,
-     "n_turns": 1,
-     "file": "d1-09__h-e-mr-kairat-torebayev.txt",
      "method": "marker"
     }
    ]
