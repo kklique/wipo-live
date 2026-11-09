@@ -1,6 +1,6 @@
 # [d1-16] Floor Interventions from Member States and Observers
 # Day 1 · 2026-11-09 · 예정 17:25-17:55 (Geneva)
-# 실제 구간 17:56:34-18:55:10 · 139문장 · 경계 방식: marker
+# 실제 구간 17:56:34-18:56:09 · 143문장 · 경계 방식: marker
 
 And I am also from the land of great regular performers and people that we love to replicate, you know, permission sometimes, which is not so nice. But I am hoping everyone you have enjoyed this discussion and thank you to all the panelists.
 Thank you, WIPO, for hosting this panel discussion. So thank you for all moderators. panelists and presenters today.
@@ -141,3 +141,7 @@ When we talk about consent as a principle in all aspects of life, we understand 
 Robots.Text is inadequate in too many ways to go into in three minutes. but I do want to highlight that it may have the further consequence of eliminating the discoverability of an artist's online presence through Google's AI search results. So if we are truly seeking ways to move forward today, perhaps we can start with agreeing to abandon ideas of opting out as a workable model for gaining consent and also that we stop talking about artists' work in the same way that we talk about scientific data.
 Thank you. Thank you.
 And there is one more lady. No. Oh, I see. So she will speak up tomorrow. Is there any other delegates who would like to take the floor? Unfortunately, no. No one. Okay. So closing. I thank everyone for their valuable contributions.
+Your perspectives are on the essential part of this forum and will help inform our continued discussions on IP and AI. Excellencies, Distinguished Delegates, ladies and gentlemen, as we conclude our first day, I would like to thank all the speakers, moderators and participants for their valuable contributions. Today's discussions we have demonstrated both the opportunities and the complex questions that artificial intelligence presents for their Intellectual Property system and the importance of continued international dialogue.
+Tomorrow we will turn to the exercises of IP offices and evolving role of human creators and inventors. and what the future may hold for IP and AI.
+Thank you once again for patience.
+And we will resume tomorrow at 10 o'clock sharp.

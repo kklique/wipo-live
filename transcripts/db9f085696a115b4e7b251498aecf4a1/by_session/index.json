@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T17:55:48+00:00",
+ "generated": "2026-11-09T17:57:51+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -823,13 +823,13 @@
    "start": "17:25",
    "end": "17:55",
    "people": "",
-   "n_lines": 139,
+   "n_lines": 143,
    "method": "marker",
    "file": "d1-16_floor-interventions-from-member-states-and-obser.txt",
    "actual_start": "2026-11-09T17:56:34+01:00",
-   "actual_end": "2026-11-09T18:55:10+01:00",
+   "actual_end": "2026-11-09T18:56:09+01:00",
    "line_from": 2044,
-   "line_to": 2303,
+   "line_to": 2307,
    "speakers": [
     {
      "key": "d1-16__unknown",
@@ -847,8 +847,8 @@
      "name": "H.E. Mr. Kairat Torebayev",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 19,
-     "n_words": 992,
+     "n_lines": 23,
+     "n_words": 1111,
      "n_turns": 10,
      "file": "d1-16__h-e-mr-kairat-torebayev.txt",
      "method": "marker"
