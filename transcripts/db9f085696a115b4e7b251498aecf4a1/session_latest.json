@@ -474,6 +474,27 @@
       "timestamp": "03:16:39",
       "timestampCVC5": "2026-11-09T12:06:39",
       "timestampSeconds": 11799
+    },
+    {
+      "description": "Ms. Myrtha Hurtado Rivas",
+      "personId": "42f6d057-4e34-48f9-ae6d-08df3b2598d3",
+      "timestamp": "03:16:57",
+      "timestampCVC5": "2026-11-09T12:06:57",
+      "timestampSeconds": 11817
+    },
+    {
+      "description": "Mr. Edward Lee",
+      "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+      "timestamp": "03:17:50",
+      "timestampCVC5": "2026-11-09T12:07:50",
+      "timestampSeconds": 11870
+    },
+    {
+      "description": "Ms. Myrtha Hurtado Rivas",
+      "personId": "42f6d057-4e34-48f9-ae6d-08df3b2598d3",
+      "timestamp": "03:18:24",
+      "timestampCVC5": "2026-11-09T12:08:24",
+      "timestampSeconds": 11904
     }
   ],
   "markers_grouped": {
@@ -874,6 +895,27 @@
                     "timestamp": "03:16:39",
                     "timestampCVC5": "2026-11-09T12:06:39",
                     "timestampSeconds": 11799
+                  },
+                  {
+                    "description": "Ms. Myrtha Hurtado Rivas",
+                    "personId": "42f6d057-4e34-48f9-ae6d-08df3b2598d3",
+                    "timestamp": "03:16:57",
+                    "timestampCVC5": "2026-11-09T12:06:57",
+                    "timestampSeconds": 11817
+                  },
+                  {
+                    "description": "Mr. Edward Lee",
+                    "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+                    "timestamp": "03:17:50",
+                    "timestampCVC5": "2026-11-09T12:07:50",
+                    "timestampSeconds": 11870
+                  },
+                  {
+                    "description": "Ms. Myrtha Hurtado Rivas",
+                    "personId": "42f6d057-4e34-48f9-ae6d-08df3b2598d3",
+                    "timestamp": "03:18:24",
+                    "timestampCVC5": "2026-11-09T12:08:24",
+                    "timestampSeconds": 11904
                   }
                 ],
                 "subjectId": "59023b79-b078-455c-a939-254b6858c034",
