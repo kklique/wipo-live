@@ -498,3 +498,5 @@ _Day 1 14:30-15:00 · Speaker: Ms. Emily Kate Genatowski_
 Emily Kate Janowski. and rather unusual companion, TOVA. the robot at the site she leads with.
 I encourage those interested to join us for this opportunity to explore with the mean to share our homes. and perhaps one day our daily routines with the intelligent machines. Enjoy your lunch and we look forward to welcoming you back at 3 o'clock. And for those of you who will have food over here, your dishes over here, the cafeteria closes sharp at 2 o'clock. as Swiss program.
 Okay.
+Thank you. Hi, Marco. Hello. Marco, can you hear me? Should we already ask people to sit down? I think I should stand here. Yeah, exactly. It is not next to me. I just want to hi myself. shirt.
+Genitowski.
