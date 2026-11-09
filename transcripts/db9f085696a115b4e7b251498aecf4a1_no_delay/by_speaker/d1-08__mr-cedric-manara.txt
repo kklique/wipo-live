@@ -1,6 +1,6 @@
 # [d1-08] Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?
 # 발표자: Mr. Cédric Manara  (floor)
-# Day 1 · 2026-11-09 · 예정 11:40-12:50 (Geneva) · 발언 1회 · 8문장 · 439단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 11:40-12:50 (Geneva) · 발언 2회 · 14문장 · 666단어 · 구분 방식: marker
 
 AI developers often argue that a model learning from works is closer to reading than it is to copying. And I think coming from where you are, I really want to hear your answer to this. Where does that analogy hold? as a matter of first principles? and where does it break down? So consider, for example, the Munich Regional Court's November 25, finding in the Gamma case, GEMA versus OpenAI, that the lyrics are memorised in the model also in fringe.
 What's your perspective on that in terms of the copyright calibration? Thank you. and thank you to the IP and Frontier team for inviting me and And congratulations to WIPO, by the way, for placing AI at the front of the work. long ago. maybe Google started a bit before, though. I mean, Google journey is to understand language. And we started working on machine learning, I think, a decade ago.
@@ -10,3 +10,10 @@ except now because we have to speak slowly. But otherwise, AI makes us faster, r
 And so we at Google, we have we profoundly believe this is a transformational technology. that has the capacity to advance science you know, save transform the way creators work. and also bring more translation to this room.
 For example, we are currently being translated by an AI, and that's also a premier, I think. So I think really, you know, the very, the message in this room, by the way. So, yeah. AI is a profoundly a consequential technology. How How, the basics of this is that our models learn by reading a widely available number of publicly, of public materials on the web.
 And this is really what we do like, you know, what we did when we created the index of Google search years ago. It's really to understand the web and make it accessible.
+
+So, Cedric, I'm going to reach out to you. You've heard Caroline's answer. So, copyright's default position really is permission use. I mean that's generally our starting point. But there are also -out tools. opt-out tools such as robots .txt. what that controls, an AI tokens that flip that sequence. to use unless refused. That's a very technical question. Speaking of the transparency so we have a screen here that says speak slowly.
+And now I don't know who, but then it turned into bold, "Speak slowly." and now it's red, "Speak Slowly"
+and it's highlighted.
+So are we really trying to speak slowly? And we're sorry for the AI interpreter in the room. So celebrating birthdays.
+There's a banner in the lobby about the market S3D birthday, you also mentioned all the birthdays, Stan.
+It's Google's 20th birthday, and so when Google was launched, it was to launch a search engine, and really if at the time we had to ask to each single owner of each single piece of content on each single page of the web for the permission to index, we wouldn't be here. And so that's really where we come from. We think that when this value benefits a new technology. like a search index or an AR model, then this is, you know, how we should be able to move forward.

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T11:49:56+00:00",
+ "generated": "2026-11-09T11:51:57+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -352,13 +352,13 @@
    "start": "11:40",
    "end": "12:50",
    "people": "Moderator: Mr. Stanley Lai | Speakers: Ms. Chijioke Okorie; Ms. Myrtha Hurtado Rivas; Mr. Gaétan de Rassenfosse; Mr. Antony Taubman; Ms. Caroline Gueye",
-   "n_lines": 54,
+   "n_lines": 60,
    "method": "cue",
    "file": "d1-08_super-session-back-to-first-principles-is-the-ip.txt",
    "actual_start": "2026-11-09T12:21:37+01:00",
-   "actual_end": "2026-11-09T12:49:39+01:00",
+   "actual_end": "2026-11-09T12:51:26+01:00",
    "line_from": 361,
-   "line_to": 415,
+   "line_to": 421,
    "speakers": [
     {
      "key": "d1-08__mr-stanley-lai",
@@ -376,9 +376,9 @@
      "name": "Mr. Edward Lee",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 12,
-     "n_words": 750,
-     "n_turns": 6,
+     "n_lines": 13,
+     "n_words": 767,
+     "n_turns": 7,
      "file": "d1-08__mr-edward-lee.txt",
      "method": "marker"
     },
@@ -398,9 +398,9 @@
      "name": "Mr. Cédric Manara",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 8,
-     "n_words": 439,
-     "n_turns": 1,
+     "n_lines": 14,
+     "n_words": 666,
+     "n_turns": 2,
      "file": "d1-08__mr-cedric-manara.txt",
      "method": "marker"
     },
@@ -409,8 +409,8 @@
      "name": "Ms. Caroline Gueye",
      "affiliation": "Visual Artist, Senegal",
      "role": "panelist",
-     "n_lines": 8,
-     "n_words": 458,
+     "n_lines": 7,
+     "n_words": 441,
      "n_turns": 2,
      "file": "d1-08__ms-caroline-gueye.txt",
      "method": "marker"

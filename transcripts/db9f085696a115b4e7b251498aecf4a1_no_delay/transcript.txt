@@ -245,3 +245,9 @@ asked first.
 Do you want to be paid first? Do you want to be credited? or do you want to be able to refuse? Which of these would matter most to you and why? So I want to be asked first. then I want to be able to refuse. and if ever I'm willing to, then I want to know what they're going to do with my work. I want to know I want to be credited I want to be paid to.
 I want transparency, attribution, derivative works. I want to know what works are used to train AI.
 I want to be mentioned. and I want to have the possibility to be a co-author. Okay.
+So, Cedric, I'm going to reach out to you. You've heard Caroline's answer. So, copyright's default position really is permission use. I mean that's generally our starting point. But there are also -out tools. opt-out tools such as robots .txt. what that controls, an AI tokens that flip that sequence. to use unless refused. That's a very technical question. Speaking of the transparency so we have a screen here that says speak slowly.
+And now I don't know who, but then it turned into bold, "Speak slowly." and now it's red, "Speak Slowly"
+and it's highlighted.
+So are we really trying to speak slowly? And we're sorry for the AI interpreter in the room. So celebrating birthdays.
+There's a banner in the lobby about the market S3D birthday, you also mentioned all the birthdays, Stan.
+It's Google's 20th birthday, and so when Google was launched, it was to launch a search engine, and really if at the time we had to ask to each single owner of each single piece of content on each single page of the web for the permission to index, we wouldn't be here. And so that's really where we come from. We think that when this value benefits a new technology. like a search index or an AR model, then this is, you know, how we should be able to move forward.

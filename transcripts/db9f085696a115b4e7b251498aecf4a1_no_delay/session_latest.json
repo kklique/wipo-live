@@ -383,6 +383,20 @@
       "timestamp": "02:58:56",
       "timestampCVC5": "2026-11-09T11:48:56",
       "timestampSeconds": 10736
+    },
+    {
+      "description": "Mr. Edward Lee",
+      "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+      "timestamp": "02:59:42",
+      "timestampCVC5": "2026-11-09T11:49:42",
+      "timestampSeconds": 10782
+    },
+    {
+      "description": "Mr. Cédric Manara",
+      "personId": "1f82399a-a536-42d6-ba1a-2a493bf32aac",
+      "timestamp": "03:00:20",
+      "timestampCVC5": "2026-11-09T11:50:20",
+      "timestampSeconds": 10820
     }
   ],
   "markers_grouped": {
@@ -692,6 +706,20 @@
                     "timestamp": "02:58:56",
                     "timestampCVC5": "2026-11-09T11:48:56",
                     "timestampSeconds": 10736
+                  },
+                  {
+                    "description": "Mr. Edward Lee",
+                    "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+                    "timestamp": "02:59:42",
+                    "timestampCVC5": "2026-11-09T11:49:42",
+                    "timestampSeconds": 10782
+                  },
+                  {
+                    "description": "Mr. Cédric Manara",
+                    "personId": "1f82399a-a536-42d6-ba1a-2a493bf32aac",
+                    "timestamp": "03:00:20",
+                    "timestampCVC5": "2026-11-09T11:50:20",
+                    "timestampSeconds": 10820
                   }
                 ],
                 "subjectId": "59023b79-b078-455c-a939-254b6858c034",
