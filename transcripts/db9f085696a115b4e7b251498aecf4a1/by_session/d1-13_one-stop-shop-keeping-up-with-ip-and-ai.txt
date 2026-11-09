@@ -1,7 +1,7 @@
 # [d1-13] One-Stop Shop: Keeping up with IP and AI
 # Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva)
 # Speakers: Mr. Andres Guadamuz; Mr. Wang Qian; Mr. Edward Lee
-# 실제 구간 15:00:32-15:38:10 · 64문장 · 경계 방식: marker
+# 실제 구간 15:00:32-15:39:54 · 73문장 · 경계 방식: marker
 
 Another great question which I will answer very quickly and I will also direct you, given that question, to speak to my colleague over there. But I use my actual, I use a unitree G1 EDU and I use it out of box. So I am not a developer and most of the consumer market are not going to be developers. So I use it as anybody would if they took it out of the box, turned it on, charged it up, turned it on and let it come into their home.
 But there are a number of incredible organizations, robotics clubs, individuals and companies who are very , Thank you. Good afternoon.
@@ -67,3 +67,12 @@ Real Simple Licensing Collective, for example, is non-profit.
 It is modeled on the music collecting societies.
 In this case, publishers join for free. non-exclusively, and they declare the terms of their licensing through the real simple licensing standard that I presented to you earlier. The collective is RSL collective negotiates one license covering all members.
 It collects royalties for everybody and pays members by use. There are other cases of existing collecting societies in associations who sign for their members.
+For example, the DPCMO, which is a Denmark existing CMO representing 99 per of the Danish publishers.
+In December 2025, they pre-negotiated a deal with Prorata. Their members, the Danish members, can opt in.
+In that case, they are paid directly by Prorata when they are cited in GIST. The US Trade Association, our member, the News Media Alliance, did something very similar.
+They signed an Optin license with RATA.
+Again, their members therefore receive directly the payment, 50% payment on advertising shown in GIST and for Usage Rights Coalition.
+It is a coalition against, launched in February 2026 by publishers.
+The founding partners are now BBC, Financial Times, Guardian, Sky, Telegraph, MediaHouse from Belgium, CMA Media in France, Associated Press, plus 75 other members. It is fairly easy to implement.
+You just have to join as a member. And the difference is that it is a news led coalition.
+It means that SPUR does not replace the standards we already saw, the TDN rep, C2PA, RSL or comp, what it does is it aims to assess them on the publisher's behalf.

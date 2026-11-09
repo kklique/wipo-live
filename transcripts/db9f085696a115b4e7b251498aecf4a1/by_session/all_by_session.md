@@ -691,3 +691,12 @@ Real Simple Licensing Collective, for example, is non-profit.
 It is modeled on the music collecting societies.
 In this case, publishers join for free. non-exclusively, and they declare the terms of their licensing through the real simple licensing standard that I presented to you earlier. The collective is RSL collective negotiates one license covering all members.
 It collects royalties for everybody and pays members by use. There are other cases of existing collecting societies in associations who sign for their members.
+For example, the DPCMO, which is a Denmark existing CMO representing 99 per of the Danish publishers.
+In December 2025, they pre-negotiated a deal with Prorata. Their members, the Danish members, can opt in.
+In that case, they are paid directly by Prorata when they are cited in GIST. The US Trade Association, our member, the News Media Alliance, did something very similar.
+They signed an Optin license with RATA.
+Again, their members therefore receive directly the payment, 50% payment on advertising shown in GIST and for Usage Rights Coalition.
+It is a coalition against, launched in February 2026 by publishers.
+The founding partners are now BBC, Financial Times, Guardian, Sky, Telegraph, MediaHouse from Belgium, CMA Media in France, Associated Press, plus 75 other members. It is fairly easy to implement.
+You just have to join as a member. And the difference is that it is a news led coalition.
+It means that SPUR does not replace the standards we already saw, the TDN rep, C2PA, RSL or comp, what it does is it aims to assess them on the publisher's behalf.

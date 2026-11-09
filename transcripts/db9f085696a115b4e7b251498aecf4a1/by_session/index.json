@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T14:38:17+00:00",
+ "generated": "2026-11-09T14:40:20+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -603,13 +603,13 @@
    "start": "15:10",
    "end": "16:10",
    "people": "Speakers: Mr. Andres Guadamuz; Mr. Wang Qian; Mr. Edward Lee",
-   "n_lines": 64,
+   "n_lines": 73,
    "method": "marker",
    "file": "d1-13_one-stop-shop-keeping-up-with-ip-and-ai.txt",
    "actual_start": "2026-11-09T15:00:32+01:00",
-   "actual_end": "2026-11-09T15:38:10+01:00",
+   "actual_end": "2026-11-09T15:39:54+01:00",
    "line_from": 1624,
-   "line_to": 1746,
+   "line_to": 1755,
    "speakers": [
     {
      "key": "d1-13__unknown",
@@ -638,8 +638,8 @@
      "name": "Ms. Ulrike Till",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 12,
-     "n_words": 820,
+     "n_lines": 3,
+     "n_words": 193,
      "n_turns": 2,
      "file": "d1-13__ms-ulrike-till.txt",
      "method": "marker"
@@ -649,8 +649,8 @@
      "name": "Mr. Edward Lee",
      "affiliation": "Professor of Law, Santa Clara University School of Law, United States of America",
      "role": "panelist",
-     "n_lines": 16,
-     "n_words": 888,
+     "n_lines": 25,
+     "n_words": 1515,
      "n_turns": 1,
      "file": "d1-13__mr-edward-lee.txt",
      "method": "marker"
@@ -660,8 +660,8 @@
      "name": "Ms. Elena Perrotti",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 33,
-     "n_words": 1353,
+     "n_lines": 42,
+     "n_words": 1535,
      "n_turns": 1,
      "file": "d1-13__ms-elena-perrotti.txt",
      "method": "marker"
