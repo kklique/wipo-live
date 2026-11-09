@@ -1040,3 +1040,7 @@ Now I give the floor to the Delegate of the Burkina Faso. you, Mr. President, Yo
 Conscient de ces enjeux, mon pays an engagé plusieurs initiatives visant à promouvoir une transformation numérique souveraine, inclusive et responsable. digital transformation.
 This ambition is carried out in the National Artificial Intelligence Road Map of 2026-2030, developed by Burkina Faso, which translates its will to integrate this technology in public policies, in particular in the fields of health and agriculture. education and public administration, while 創 造 和 強 化 國 家 技 術 的 改 善 .
 Mr. President, in the face of the emerging In this perspective, my country pursues, through its competent national structures, in particular, the National Center for Intellectual Property and the Bureau, Burkinabe of copyright, the actions of awareness and appreciation of intellectual property in collaboration with the OAPI.
+In this dynamic, the BBDA has devoted the 7th edition of the Entry into the Rights of the Author in 2025 to the issues of collective management in the era of the IAEA. These initiatives bear witness to the attention given to the adaptation of protection mechanisms to technological mutations.
+Burkina Faso also considers it indispensable to preserve human creativity and to strengthen the protection of human rights in the face of the abusive use of their 法 of strengthening of capacity, access to technological data and elaboration of the appropriate legal framework. 為 定 Thank you. you.
+Now I give the floor to the Delegate from Brazil.
+Thank you, Mr. Chair.

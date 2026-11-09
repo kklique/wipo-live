@@ -621,6 +621,20 @@
       "timestamp": "03:58:25",
       "timestampCVC5": "2026-11-09T17:18:25",
       "timestampSeconds": 14305
+    },
+    {
+      "description": "H.E. Mr. Kairat Torebayev",
+      "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+      "timestamp": "04:01:47",
+      "timestampCVC5": "2026-11-09T17:21:47",
+      "timestampSeconds": 14507
+    },
+    {
+      "description": "BRAZIL",
+      "personId": "32438551-653e-4da5-8ace-aa18a0b58d81",
+      "timestamp": "04:01:54",
+      "timestampCVC5": "2026-11-09T17:21:54",
+      "timestampSeconds": 14514
     }
   ],
   "markers_grouped": {
@@ -1168,6 +1182,20 @@
                     "timestamp": "03:58:25",
                     "timestampCVC5": "2026-11-09T17:18:25",
                     "timestampSeconds": 14305
+                  },
+                  {
+                    "description": "H.E. Mr. Kairat Torebayev",
+                    "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+                    "timestamp": "04:01:47",
+                    "timestampCVC5": "2026-11-09T17:21:47",
+                    "timestampSeconds": 14507
+                  },
+                  {
+                    "description": "BRAZIL",
+                    "personId": "32438551-653e-4da5-8ace-aa18a0b58d81",
+                    "timestamp": "04:01:54",
+                    "timestampCVC5": "2026-11-09T17:21:54",
+                    "timestampSeconds": 14514
                   }
                 ],
                 "subjectId": "2d4252da-0e34-410e-84b5-d5708b851831",
@@ -1301,6 +1329,13 @@
       "id": "87c3553d-f577-44f4-bda2-a39a350d74d5",
       "name": "Ms. Imogen Heap",
       "photoUrl": "https://amcpwewipoassets.blob.core.windows.net/assets/09cedfa6-1945-404c-89a9-e6c232a0bc3f.PNG"
+    },
+    {
+      "bio": "<p><a href=\"https://www.wipo.int/directory/en/details.jsp?country_code=BR\" target=\"_blank\">Country profile</a></p><p><a href=\"https://www.wipo.int/directory/fr/details.jsp?country_code=BR\" target=\"_blank\">Profil national</a><br></p><p><a href=\"https://www.wipo.int/directory/es/details.jsp?country_code=BW\" target=\"_blank\">Perfil national</a></p>",
+      "email": "",
+      "id": "32438551-653e-4da5-8ace-aa18a0b58d81",
+      "name": "BRAZIL",
+      "photoUrl": "https://www.wipo.int/shared/images/flags/br.png"
     },
     {
       "bio": "<p><a href=\"https://www.wipo.int/directory/en/details.jsp?country_code=AE\" target=\"_blank\">Country profile</a></p><p><a href=\"https://www.wipo.int/directory/fr/details.jsp?country_code=AE\" target=\"_blank\">Profil national</a><br></p><p><a href=\"https://www.wipo.int/directory/es/details.jsp?country_code=AE\" target=\"_blank\">Perfil national</a></p>",
