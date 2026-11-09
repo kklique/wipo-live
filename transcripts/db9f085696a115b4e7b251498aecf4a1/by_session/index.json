@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T14:01:43+00:00",
+ "generated": "2026-11-09T14:03:45+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -236,13 +236,13 @@
    "start": "10:55",
    "end": "11:05",
    "people": "Speaker: Mr. Anant Madabhushi",
-   "n_lines": 51,
+   "n_lines": 55,
    "method": "marker",
    "file": "d1-05_showcase-1-ai-in-action-from-ideas-to-real-world.txt",
    "actual_start": "2026-11-09T11:23:24+01:00",
-   "actual_end": "2026-11-09T15:01:40+01:00",
+   "actual_end": "2026-11-09T15:03:39+01:00",
    "line_from": 250,
-   "line_to": 1629,
+   "line_to": 1633,
    "speakers": [
     {
      "key": "d1-05__unknown",
@@ -271,10 +271,21 @@
      "name": "SPEAKER",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 4,
-     "n_words": 52,
+     "n_lines": 5,
+     "n_words": 113,
      "n_turns": 1,
      "file": "d1-05__speaker.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-05__mr-cristian-leon",
+     "name": "Mr. Cristian Léon",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 3,
+     "n_words": 118,
+     "n_turns": 1,
+     "file": "d1-05__mr-cristian-leon.txt",
      "method": "marker"
     }
    ]

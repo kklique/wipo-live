@@ -1,7 +1,7 @@
 # [d1-05] Showcase 1: AI in Action - From Ideas to Real-World Impact
 # Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva)
 # Speaker: Mr. Anant Madabhushi
-# 실제 구간 11:23:24-15:01:40 · 51문장 · 경계 방식: marker
+# 실제 구간 11:23:24-15:03:39 · 55문장 · 경계 방식: marker
 
 at the end of each day. And time will be short, and I am asking to interventions to keep up to not more than three minutes. While we have many attendees in the room. we also have a large online audience. for participants joining us remotely. Should you encounter any difficulties following the meeting in the Zoom proceedings, you can also follow through the WIPO webcast.
 I look forward to what the next two days have to offer for us. Now I pass the floor to Ken. the floor is yours. Thank you, Chair. We have just heard NISTERO interventions and we also had a keynote from Mr. Ito which gave us a fascinating glimpse into what artificial intelligence may be capable of tomorrow, but what can it already make possible today? That is what our AI in action showcase are all about.
@@ -54,3 +54,7 @@ What a fascinating topics we discussed today. So welcome back. I hope you enjoye
 And every year wildfires devastate forests, destroy livelihoods and threatens communities throughout the world.
 But what if we could identify the danger before the first flames appear?
 That is the ambition of our next innovator.
+From Chile, DROVID technologies is combining artificial intelligence with anonymous drones, autonomous drones, sorry. sorry, to monitor a forest. It is a powerful example of how AI is embedding entrepreneurs to track the pressing challenges in its own communities and develop solutions with the potential to make difference beyond the And the reason an important Intellectual Property story to support that.
+DROVIT is 2026 WIPO global award winner. and recognized innovation support by the comprehensive IP strategy. For our second AI in action showcase, please welcome the Christian Lyon, founder and chief executive of the officer of the Draught Technologies. Good afternoon.
+Thank you, OMPI, for the invitation and for recognizing Droid at the Global Awards this year.
+I would like to start with a question. and if we could have a fire before it starts. It is not a theoretical question. In February 2024, a forest fire advanced to the houses and 134 people died. I asked this question much earlier. In 2014, we walked the Paine Towers in the Patagonia of Chile. more than 17,000 hectares burned.
