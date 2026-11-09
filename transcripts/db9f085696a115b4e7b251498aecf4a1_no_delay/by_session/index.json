@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T11:10:14+00:00",
+ "generated": "2026-11-09T11:13:52+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -113,7 +113,7 @@
    "start": "10:45",
    "end": "10:55",
    "people": "Speaker: Mr. Ren Ito",
-   "n_lines": 189,
+   "n_lines": 91,
    "method": "marker",
    "file": "d1-04_tech-radar-ready-or-not-ai-s-next-frontier.txt",
    "actual_start": "2026-11-09T10:27:02+01:00",
@@ -148,8 +148,8 @@
      "name": "Mr. Hesham Azmi",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 111,
-     "n_words": 838,
+     "n_lines": 13,
+     "n_words": 740,
      "n_turns": 1,
      "file": "d1-04__mr-hesham-azmi.txt",
      "method": "marker"
@@ -272,21 +272,21 @@
    "start": "11:05",
    "end": "11:25",
    "people": "",
-   "n_lines": 7,
+   "n_lines": 9,
    "method": "schedule",
    "file": "d1-06_insight-ip-at-the-table-making-ip-part-of-the-wi.txt",
    "actual_start": "2026-11-09T12:06:48+01:00",
    "actual_end": "2026-11-09T12:09:57+01:00",
    "line_from": 326,
-   "line_to": 332,
+   "line_to": 334,
    "speakers": [
     {
      "key": "d1-06__unknown",
      "name": "(진행/도입)",
      "affiliation": "",
      "role": "unknown",
-     "n_lines": 4,
-     "n_words": 205,
+     "n_lines": 2,
+     "n_words": 120,
      "n_turns": 1,
      "file": "d1-06__unknown.txt",
      "method": "marker"
@@ -296,8 +296,8 @@
      "name": "Mr. Stanley Lai",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 3,
-     "n_words": 242,
+     "n_lines": 7,
+     "n_words": 392,
      "n_turns": 1,
      "file": "d1-06__mr-stanley-lai.txt",
      "method": "marker"
@@ -313,9 +313,13 @@
    "start": "11:25",
    "end": "11:40",
    "people": "",
-   "n_lines": 0,
-   "method": "not-reached",
-   "file": null
+   "n_lines": 7,
+   "method": "schedule",
+   "file": "d1-07_coffee-break.txt",
+   "actual_start": "2026-11-09T12:10:39+01:00",
+   "actual_end": "2026-11-09T12:13:30+01:00",
+   "line_from": 335,
+   "line_to": 341
   },
   {
    "id": "d1-08",

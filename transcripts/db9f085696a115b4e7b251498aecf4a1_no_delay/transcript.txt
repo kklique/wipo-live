@@ -90,104 +90,6 @@ For Egypt, these issues are closely linked to our national identity for developm
 and we realize that artificial intelligence calls us to look at some of the aspects of the existing intellectual property.
 And now, we to support this issue to a complete and comprehensive argument and clear understanding of the interests of the inventors, researchers, researchers and the existence of technology and society as a whole. At the international level, we all agree that it country can face these challenges on its own. And from here, we give great importance to the role of the WIPO in facilitating the dialogue and exchanging national experience and determining the articles that can be international cooperation can achieve results.
 It is important that the developing countries have .
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
 . the technological and the existing economy.
 Rather, we ensure that the artificial intelligence of the world allows for the development of its innovative capabilities and the strengthening of its creative industry and the achievement of a greater economic and social value than the principles of intellectual property. Ladies and Gentlemen, allow me to take this opportunity to express my appreciation for the confidence that was granted to me by choosing choice of the president of the leadership of the information technology, WILE, for the coming two years, 2027 and 2028, and I consider that not a personal honor for a party, but rather a reflection of the commitment of Egypt and the active contribution in international dialogue on the future of the country.
 I like to work with my colleagues from different parts of the world to encourage the exchange of ideas in a creative way around the challenges and opportunities presented by this artificial intelligence. intelligence and the inspiration in the construction of a framework of understanding between the different visions and national priorities. And Egypt is always ready to work with the WIPO and the member states to ensure that intellectual property remains a driving force for human creativity and technological innovation.
@@ -254,3 +156,12 @@ Stanley, the floor is yours. Thank you very much. Mr. Chairman. Good morning, ev
 It's a pleasure to see all of you here. As I recall what the Director General was saying this morning, about this being the 30th anniversary of the United Nations Convention on the Rights the Internet Treaties in 1996, and the it actually was a salutary reminder to me that that's as long as I have been practicing Intellectual Property law. and it shows. As the head of the IP practice in one of Singapore's largest firms, it is my pleasure to actually appear before all of you and I'm very pleased to be able to introduce a very esteemed panel of speakers.
 But before that, let me just say a few words. in terms of the introduction to this session. The IP system traditionally rested a number of key principles. including the encouragement of innovation and also the protection of an individual's natural rights over his or her creations. The proliferation of artificial intelligence, and the concomitant peculiarities has prompted us in recent years to confront some of these principles.
 and explore the extent to which they remain relevant today. So I propose to divide the time that we have with this panel into two segments. First of I will invite each speaker. whom I'm about to introduce immediately to share their respective positions on the topic. And then after that, I will ask the speakers to engage in a structured exchange to tease out some of the perspectives and tensions.
+where our ideas and in principles collide. and in some way, it sets the stage for the rest of this conference where we try to find the answers to that. Now, actually, there are seven speakers, excluding myself. We have Mr. Anthony Tolman, who is the Director of IP at WTO, and he actually is joining us online.
+Tony, I hope you can hear us.
+I certainly can't see you, but I hope you can see us and you will be able to answer the questions.
+Secondly, I'm also pleased to introduce at the far end of this panel, Mr. Cedric Manara, who is the Director and Head of Copyright at Google. Two spaces down, ladies and gentlemen, we didn't actually take any particular order, but two spaces down from Cedric's right would be Merthyr, Merthyr Rivas, who is the General Counsel of Nestle.
+Next to her on her left, and I know this is starting to get confusing, but please get used to it. Professor Getan, who is an Associate Professor of Science Technology and Innovation Policy at the Swiss Federal Technology Institute of Lausanne. And to Murta's right is Professor Chijoke Okori, who is an Associate Professor of Law at the University of Pretoria. Her expertise lies in IP AI data science and African Development.
+and that's the key. We need to get the perspective of the global south on this as well. Now, to her right is Ms Jennifer Corpus, who is the Chair of the Indigenous Caucus in the Philippines.
+And she is also a member of the UN Permanent Forum on Indigenous Issues. for the 26th to 28th term. And she's a lawyer by profession. And finally, and certainly not least, I would like to thank the Chair of the United is Carolyn Greer, a working artist works explore perception and space through installation and sculpture. And for those of you who don't know her, ask her to show you her business card.
+I promise you will not be disappointed because it will show the full extent of her visual artistry. I certainly was impressed. Cedric also has a pretty interesting business card as well, but he's told me not to tell anybody about it. So I've already breached that first rule.
+It is actually a limited edition. I do not see his colleagues in Singapore having the same thing. So let's make a start. Anthony, can you hear me? I'm not sure whether he can. Hi, Anthony. indeed, Stanley. Very good to see you. Yes. I'm just going to ask you to kick us off because I think the theme we want to talk about is IPs of Philosophical Foundations. and whether the international architecture as we know it and as you've worked on it for many, many years, that's how I have known you, can absorb AI.

@@ -275,9 +275,9 @@
     {
       "description": "Mr. Stanley Lai",
       "personId": "7383d287-f319-43bb-ae6b-08df3b2598d3",
-      "timestamp": "02:18:48",
-      "timestampCVC5": "2026-11-09T11:08:48",
-      "timestampSeconds": 8328
+      "timestamp": "02:18:00",
+      "timestampCVC5": "2026-11-09T11:08:00",
+      "timestampSeconds": 8280
     }
   ],
   "markers_grouped": {
@@ -479,9 +479,9 @@
                   {
                     "description": "Mr. Stanley Lai",
                     "personId": "7383d287-f319-43bb-ae6b-08df3b2598d3",
-                    "timestamp": "02:18:48",
-                    "timestampCVC5": "2026-11-09T11:08:48",
-                    "timestampSeconds": 8328
+                    "timestamp": "02:18:00",
+                    "timestampCVC5": "2026-11-09T11:08:00",
+                    "timestampSeconds": 8280
                   }
                 ],
                 "subjectId": "59023b79-b078-455c-a939-254b6858c034",
