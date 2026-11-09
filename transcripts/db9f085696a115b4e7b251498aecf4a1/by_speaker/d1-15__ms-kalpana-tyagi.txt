@@ -1,6 +1,6 @@
 # [d1-15] Protecting What Makes us Human - Is IP the Answer?
 # 발표자: Ms. Kalpana Tyagi — Assistant Professor of Intellectual Property and Competition Law, Maastricht University, India  (panelist)
-# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 1회 · 7문장 · 269단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 1회 · 10문장 · 463단어 · 구분 방식: marker
 
 as well as entirely new forms of creative output. This raises questions about whether existing copyright and related rights frameworks provide adequate protection, particularly in relation to the identity and impersonation of performers. Thank you for asking that question. You kind of take me to the entire span and the foundation of Intellectual Property rights. So what we call deepfakes today, it is formed from two words, deep and fake.
 It is a kind of a misnomer, but that is what it is claimed to be known as. and names stay longer than we expect. So let's take it as deep fakes. Now, what deepfakes are creating today. Now this technology has been in the market for a long time.
@@ -9,3 +9,6 @@ What Defaix did was they democratized access to content, which means it is much 
 One challenge is from the copyright perspective because content is becoming more and more AI -generated.
 And as we know, irrespective of the foundation of copyright, we talk about whether utilitarian, labor rights theory or the personality theory, the romanticized human author sits at the core of copyright.
 Now, JNI is challenging that very notion. There's a very fine thread between JNI and deepfake which often gets ignored, and that is the generated adversarial networks, because that is also the basis that led to generation of data and training of these large language models.
+So there's some interlinkage behind these different technologies when we talk about it. Now the challenge comes from a human perspective, as is the topic for our panel, What Humans Make, which is AI, deepfakes, innovative technologies, and what makes us human.
+And that what makes us human is our privacy, our personality rights. Now on the face of it, these things might sound very different, as different as chalk and cheese. Now, in my research, I go to the foundations of these. particularly if I look at it from a personality rights perspective, which is the Kantian theory which defines Dwadhyayate traditions, there is a foundation where you do see in copyright what we call Dwatmural.
+and Dwatwaza which is the right neighboring on the core of copyright on the one side and from a personality rights perspective which is based in my integrity, my right not to be left alone but as we call in the German tradition, a free space to grow. So there's a place at its very foundation that connects all this together from a personality rights perspective, and it is for this reason when in the morning, Mr.

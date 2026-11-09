@@ -1,6 +1,6 @@
 # [d1-15] Protecting What Makes us Human - Is IP the Answer?
 # 발표자: Ms. Natalie Corthésy — Associate Dean of Teaching and Learning, Senior Lecturer in Law, The University of the West Indies, Mona Campus, Jamaica  (moderator)
-# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 2회 · 9문장 · 513단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 3회 · 11문장 · 640단어 · 구분 방식: marker
 
 So we reconvene at 4.45. See you in 15. Thank you very much. Welcome back from the coffee break. So let's get started.
 I hope you had a chance of another caffeine to recharge your battery? and the next session is going to personal. Imagine someone using AI to recreate your face. your voice, your your memories, perhaps even to make you appear to say or do something you never said or did. AI is getting better, at it every day.
@@ -11,4 +11,7 @@ Today our panelists will include Mr. Anderson, Rocha, Ms. Kalpana Tiagi, Mr. Jac
 And justification for the right is premised on the ineffectiveness, perhaps, of current IP and related regimes such as the right to privacy and personality rights. to provide adequate safeguards for the indicia of an individual's personality, their voice, image, silhouette, attributes of their persona that are capable of being exploited, whether or not they are of any apparent commercial value.
 the right should be to the benefit of famous persons, unknown persons. living and deceased persons, and certainly the idea that if deceased exercisable by their heirs, akin to a moral right which under the copyright system is inalienable. So I would want perhaps to ask my first question of you, Anderson, individual autonomy and control over identity and creative output.
 
+How can we quickly develop solutions to detect that? But the fourth is the most important of all, is education. So think about the global south. where people are struggling with normal education. Now we have this another layer of complication. how to make sure that they understand what is going on, how do they understand that they need to be protected if they are an artist, like an indigenous artist in the Amazonia or an artist in Kenya.
 they need to understand the problem so that they can stand up and fight. Thank you. Kalpania, could you please share with us? deep fakes? impersonation and the mass production of synthetic content. how the growing accessibility of AI tools is making it increasingly easy and inexpensive to generate synthetic content. including deepfakes and other forms of impersonation.
+
+Tan opened the session, you know, going into the history, it all made sense because AI is bringing that history together into the present, and we have to look together to look for a promising future. Thank you so much for that. I want now to invite Jacob.
