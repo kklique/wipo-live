@@ -450,16 +450,16 @@
     {
       "description": "Mr. Gaétan de Rassenfosse",
       "personId": "21e44779-db8b-4434-8212-902ac31e54ff",
-      "timestamp": "03:11:35",
-      "timestampCVC5": "2026-11-09T12:01:35",
-      "timestampSeconds": 11495
+      "timestamp": "03:11:25",
+      "timestampCVC5": "2026-11-09T12:01:25",
+      "timestampSeconds": 11485
     },
     {
       "description": "Mr. Edward Lee",
       "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
-      "timestamp": "03:14:17",
-      "timestampCVC5": "2026-11-09T12:04:17",
-      "timestampSeconds": 11657
+      "timestamp": "03:14:14",
+      "timestampCVC5": "2026-11-09T12:04:14",
+      "timestampSeconds": 11654
     },
     {
       "description": "Ms. Myrtha Hurtado Rivas",
@@ -471,9 +471,9 @@
     {
       "description": "Mr. Edward Lee",
       "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
-      "timestamp": "03:16:39",
-      "timestampCVC5": "2026-11-09T12:06:39",
-      "timestampSeconds": 11799
+      "timestamp": "03:16:32",
+      "timestampCVC5": "2026-11-09T12:06:32",
+      "timestampSeconds": 11792
     },
     {
       "description": "Ms. Myrtha Hurtado Rivas",
@@ -899,16 +899,16 @@
                   {
                     "description": "Mr. Gaétan de Rassenfosse",
                     "personId": "21e44779-db8b-4434-8212-902ac31e54ff",
-                    "timestamp": "03:11:35",
-                    "timestampCVC5": "2026-11-09T12:01:35",
-                    "timestampSeconds": 11495
+                    "timestamp": "03:11:25",
+                    "timestampCVC5": "2026-11-09T12:01:25",
+                    "timestampSeconds": 11485
                   },
                   {
                     "description": "Mr. Edward Lee",
                     "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
-                    "timestamp": "03:14:17",
-                    "timestampCVC5": "2026-11-09T12:04:17",
-                    "timestampSeconds": 11657
+                    "timestamp": "03:14:14",
+                    "timestampCVC5": "2026-11-09T12:04:14",
+                    "timestampSeconds": 11654
                   },
                   {
                     "description": "Ms. Myrtha Hurtado Rivas",
@@ -920,9 +920,9 @@
                   {
                     "description": "Mr. Edward Lee",
                     "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
-                    "timestamp": "03:16:39",
-                    "timestampCVC5": "2026-11-09T12:06:39",
-                    "timestampSeconds": 11799
+                    "timestamp": "03:16:32",
+                    "timestampCVC5": "2026-11-09T12:06:32",
+                    "timestampSeconds": 11792
                   },
                   {
                     "description": "Ms. Myrtha Hurtado Rivas",
