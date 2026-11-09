@@ -187,6 +187,10 @@ The third model, which I will talk about in a moment, is a very important one. w
 so we went in search of creating them. with the help of the CUNAF, the National Forest Corporation and the PDI, the Police of Investigations. We had all the support. to go to the field. to look for that data. We carried out multiple tests. and captured the data that we needed. needed to train our teams. models. Both of those institutions validated our way of operating and the scope of the detections.
 From the end of the 2024, we have been working with Forestal Santa Lanca, a Chilean company. company, company in a territory of 2,500 hectares. In this area, we have carried out multiple tests. and in them, our model detected in an autonomous and the alert arrived a few seconds after our team's phone calls. 。
 。 emergency, but it worked.
+From then on, the company signed a purchase commitment subject to the validation and the next stage. This stage has already begun with the support of a suspension of the State of Chile.
+As we are in the OMPI, a little bit of intellectual property. Our first developments, our technology, a part of our technology was born from a laboratory, from a colaboración con ENREA. the French Institute for Research. which transferred 100% of its ownership to Droid. of the rights of the what was developed. We protect what we build in different ways. We use patents, patent applications, currently in 42 countries.
+thanks to the PCT system. system with industrial secrets. secrets for our training data. data and our know -how, together with copyrights, copyrights and brands. for a small company.
+This... is not a bureaucracy. It is something key to be able to to with large companies. and not lose what was built. and be able to carry out a local solution to other countries. The fire that begins with a person, not only in Chile, it occurs in the entire Mediterranean basin, it occurs in California, in India, in Brazil. Asella vamos. go back to the question from the beginning.
 
 ## [d1-07] Coffee Break
 

@@ -1,7 +1,7 @@
 # [d1-05] Showcase 1: AI in Action - From Ideas to Real-World Impact
 # Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva)
 # Speaker: Mr. Anant Madabhushi
-# 실제 구간 11:41:19-15:09:49 · 21문장 · 경계 방식: marker
+# 실제 구간 11:41:19-15:11:45 · 25문장 · 경계 방식: marker
 
 Our creators require absolute assurance of credit and compensation. just as our developers need clear, predictable rules to innovate with confidence. our legislation also defines an inventor as the natural person who devised the invention. One, hopefully I have conveyed that AI on routine images can transform precision medicine. Secondly, when we talk about IP, let's focus on patenting the pattern, not necessarily the algorithm. IP is the bridge from paper to patient, but only if it generalizes, and that's where the validation is so absolutely critical. And finally, we have to build democratization into the IP strategy so that these licensing models can be kept low cost and accessible, particularly in low and middle income countries.
 Thank you very much.
@@ -24,3 +24,7 @@ The third model, which I will talk about in a moment, is a very important one. w
 so we went in search of creating them. with the help of the CUNAF, the National Forest Corporation and the PDI, the Police of Investigations. We had all the support. to go to the field. to look for that data. We carried out multiple tests. and captured the data that we needed. needed to train our teams. models. Both of those institutions validated our way of operating and the scope of the detections.
 From the end of the 2024, we have been working with Forestal Santa Lanca, a Chilean company. company, company in a territory of 2,500 hectares. In this area, we have carried out multiple tests. and in them, our model detected in an autonomous and the alert arrived a few seconds after our team's phone calls. 。
 。 emergency, but it worked.
+From then on, the company signed a purchase commitment subject to the validation and the next stage. This stage has already begun with the support of a suspension of the State of Chile.
+As we are in the OMPI, a little bit of intellectual property. Our first developments, our technology, a part of our technology was born from a laboratory, from a colaboración con ENREA. the French Institute for Research. which transferred 100% of its ownership to Droid. of the rights of the what was developed. We protect what we build in different ways. We use patents, patent applications, currently in 42 countries.
+thanks to the PCT system. system with industrial secrets. secrets for our training data. data and our know -how, together with copyrights, copyrights and brands. for a small company.
+This... is not a bureaucracy. It is something key to be able to to with large companies. and not lose what was built. and be able to carry out a local solution to other countries. The fire that begins with a person, not only in Chile, it occurs in the entire Mediterranean basin, it occurs in California, in India, in Brazil. Asella vamos. go back to the question from the beginning.
