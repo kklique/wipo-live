@@ -153,6 +153,13 @@
       "timestamp": "00:47:32",
       "timestampCVC5": "2026-11-09T09:37:32",
       "timestampSeconds": 2852
+    },
+    {
+      "description": "Mr. Hesham Azmi",
+      "personId": "b48abf68-5102-455c-8faa-3abb4846c844",
+      "timestamp": "00:49:07",
+      "timestampCVC5": "2026-11-09T09:39:07",
+      "timestampSeconds": 2947
     }
   ],
   "markers_grouped": {
@@ -214,6 +221,13 @@
                     "timestamp": "00:47:32",
                     "timestampCVC5": "2026-11-09T09:37:32",
                     "timestampSeconds": 2852
+                  },
+                  {
+                    "description": "Mr. Hesham Azmi",
+                    "personId": "b48abf68-5102-455c-8faa-3abb4846c844",
+                    "timestamp": "00:49:07",
+                    "timestampCVC5": "2026-11-09T09:39:07",
+                    "timestampSeconds": 2947
                   }
                 ],
                 "subjectId": "c20b4223-8dad-43c5-a179-1fbc704f6989",
@@ -234,6 +248,13 @@
       "email": "",
       "id": "ec07df79-cc36-48c1-acea-301e6dddfad4",
       "name": "CHAIR",
+      "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "Chairman of the Egyptian Intellectual Property Authority, Egypt\nProf. Hesham Azmi is Chairman of the Egyptian Intellectual Property Authority. He formerly served as Secretary-General of the Supreme Council of Culture and Chairman of the National Library. With a Ph.D. in Library Science, he is a leading expert in cultural policy and innovation, and has represented Egypt in numerous international conferences and forums.",
+      "email": "",
+      "id": "b48abf68-5102-455c-8faa-3abb4846c844",
+      "name": "Mr. Hesham Azmi",
       "photoUrl": "./assets/images/noPicSpeaker.png "
     },
     {
