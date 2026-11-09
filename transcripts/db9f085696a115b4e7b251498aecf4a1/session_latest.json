@@ -285,6 +285,20 @@
       "timestamp": "02:24:15",
       "timestampCVC5": "2026-11-09T11:14:15",
       "timestampSeconds": 8655
+    },
+    {
+      "description": "Mr. Edward Lee",
+      "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+      "timestamp": "02:29:02",
+      "timestampCVC5": "2026-11-09T11:19:02",
+      "timestampSeconds": 8942
+    },
+    {
+      "description": "Mr. Gaétan de Rassenfosse",
+      "personId": "21e44779-db8b-4434-8212-902ac31e54ff",
+      "timestamp": "02:29:41",
+      "timestampCVC5": "2026-11-09T11:19:41",
+      "timestampSeconds": 8981
     }
   ],
   "markers_grouped": {
@@ -496,6 +510,20 @@
                     "timestamp": "02:24:15",
                     "timestampCVC5": "2026-11-09T11:14:15",
                     "timestampSeconds": 8655
+                  },
+                  {
+                    "description": "Mr. Edward Lee",
+                    "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+                    "timestamp": "02:29:02",
+                    "timestampCVC5": "2026-11-09T11:19:02",
+                    "timestampSeconds": 8942
+                  },
+                  {
+                    "description": "Mr. Gaétan de Rassenfosse",
+                    "personId": "21e44779-db8b-4434-8212-902ac31e54ff",
+                    "timestamp": "02:29:41",
+                    "timestampCVC5": "2026-11-09T11:19:41",
+                    "timestampSeconds": 8981
                   }
                 ],
                 "subjectId": "59023b79-b078-455c-a939-254b6858c034",
@@ -523,6 +551,13 @@
       "email": "",
       "id": "7383d287-f319-43bb-ae6b-08df3b2598d3",
       "name": "Mr. Stanley Lai",
+      "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "Professor of Law, Santa Clara University School of Law, United States of America",
+      "email": "",
+      "id": "d562c637-4924-46a9-ae72-08df3b2598d3",
+      "name": "Mr. Edward Lee",
       "photoUrl": "./assets/images/noPicSpeaker.png "
     },
     {
@@ -601,6 +636,13 @@
       "id": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
       "name": "H.E. Mr. Kairat Torebayev",
       "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "Associate Professor of Science Technology and Innovation Policy, Ecole Polytechnique Fédérale de Lausanne, Belgium\nGaétan de Rassenfosse is an Associate Professor of Science, Technology and Innovation Policy at the École polytechnique fédérale de Lausanne (EPFL), Switzerland. Trained as an economist, he studies how intellectual property and innovation policies shape the creation, diffusion, and commercialization of knowledge. He holds a Ph.D. in Economics from the Université libre de Bruxelles, Belgium.\nHis research bridges economics, management, and law. His publications have appeared in a wide range of journals, including the Journal of Industrial Economics, Strategic Management Journal, Research Policy, Journal of Law and Economics, Southern California Law Review, among others. His most recent work addresses patent quality, knowledge disclosure, technology commercialization, and the implications of AI-generated inventions for the patent system. He combines economic analysis with large-scale data to examine how intellectual property institutions serve innovators and society.\nAt EPFL, he teaches intellectual property management and the economics of innovation, introducing students from different disciplines to the economic foundations, legal principles, and strategic uses of IP. He writes The Patentist, a publication that makes economic research on patents accessible to policymakers, practitioners, and a wider audience.\nAcross his research, teaching, and public engagement, he seeks to bring empirical evidence to debates about how intellectual property can support innovation and the public interest.",
+      "email": "",
+      "id": "21e44779-db8b-4434-8212-902ac31e54ff",
+      "name": "Mr. Gaétan de Rassenfosse",
+      "photoUrl": "https://amcpwewipoassets.blob.core.windows.net/assets/41b2de24-a64c-4894-ac53-68bc6d233c8c.jpg"
     },
     {
       "bio": "Honorary Professor, Queen Mary University of London, Senior Fellow, University of Melbourne, Australia  ",

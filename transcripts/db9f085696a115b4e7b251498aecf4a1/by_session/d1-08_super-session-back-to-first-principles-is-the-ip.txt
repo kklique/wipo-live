@@ -1,7 +1,7 @@
 # [d1-08] Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?
 # Day 1 · 2026-11-09 · 예정 11:40-12:50 (Geneva)
 # Moderator: Mr. Stanley Lai | Speakers: Ms. Chijioke Okorie; Ms. Myrtha Hurtado Rivas; Mr. Gaétan de Rassenfosse; Mr. Antony Taubman; Ms. Caroline Gueye
-# 실제 구간 12:07:23-12:18:10 · 35문장 · 경계 방식: cue
+# 실제 구간 12:07:23-12:20:10 · 39문장 · 경계 방식: cue
 
 Welcome back. to our forum. I hope AI finds some way to serve coffee faster and better. So I hope you had a chance to recharge, connect with your colleagues over the coffee and that you now fully caffeinated because we are about to tackle some rather big questions. For the first super session.
 For our first super session, we are going back to the first principle. before we ask whether the IP systems is fit for the age of AI, perhaps we should start with a more fundamental questions. What is Intellectual Property actually for? Encouraging innovation and creativity. rewarding human ingenuity, sharing knowledge, supporting economic development, preserving culture, serving the public interests.
@@ -38,3 +38,7 @@ Hegelian personality theory, the third of your trail for it, may support a privi
 But will our species maintain a monopoly over personhood? Imagine Claude's super daughter, Claudette, fully unambiguously creative and inventive, brimming with personality. Might she be deemed to be a legal person under a domestic law?
 Then what?
 Paris, Bern and Trix obliged protection of foreign nationals.
+Will Claudette be denied authorship, inventorship, performer's rights, writer personality, ownership of her IP? and how to tackle the other minds problem? In principle, we judge originality and inventive step against a model of human cognition. generally shared if somewhat culturally biased, a neural network operating beyond our reach in a black box simply does not fit that model. But AI will unavoidably increasingly be part of the creative and inventive process.
+Can we untangle distinct human and machine inputs or do we fall back on a broader causal link to confer IP ownership on the human in the room. So prior to the pragmatic work of managing the IP system as an incentives, as a set of incentives and market regulation, confronted with the impact of AI, before delineating those boundaries of protected subject matter between mimesis and poesis, how do we address tantalizing questions around our distinct human identity and the consequence ideas of personhood, human rights and fundamental equity.
+So I have the privilege of being the first speaker, so I leave you with those questions to think about. you. Thanks very much for that.
+And maybe I can turn it over to Professor Getan because Professor Getan in 1958, Fritz Mechler, told the US Senate that on evidence, it would be irresponsible to recommend creating a patent system if none existed, but equally irresponsible to abolish the one that did exist. If we were designing the IP system from scratch for an AI economy, would the evidence still justify building it as it stands, or do we need to think about something different?

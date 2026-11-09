@@ -1,0 +1,5 @@
+# [d1-08] Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?
+# 발표자: Mr. Gaétan de Rassenfosse — Associate Professor of Science Technology and Innovation Policy, Ecole Polytechnique Fédérale de Lausanne, Belgium  (panelist)
+# Day 1 · 2026-11-09 · 예정 11:40-12:50 (Geneva) · 발언 1회 · 1문장 · 79단어 · 구분 방식: marker
+
+And maybe I can turn it over to Professor Getan because Professor Getan in 1958, Fritz Mechler, told the US Senate that on evidence, it would be irresponsible to recommend creating a patent system if none existed, but equally irresponsible to abolish the one that did exist. If we were designing the IP system from scratch for an AI economy, would the evidence still justify building it as it stands, or do we need to think about something different?

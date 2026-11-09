@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T11:18:27+00:00",
+ "generated": "2026-11-09T11:20:29+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -341,13 +341,13 @@
    "start": "11:40",
    "end": "12:50",
    "people": "Moderator: Mr. Stanley Lai | Speakers: Ms. Chijioke Okorie; Ms. Myrtha Hurtado Rivas; Mr. Gaétan de Rassenfosse; Mr. Antony Taubman; Ms. Caroline Gueye",
-   "n_lines": 35,
+   "n_lines": 39,
    "method": "cue",
    "file": "d1-08_super-session-back-to-first-principles-is-the-ip.txt",
    "actual_start": "2026-11-09T12:07:23+01:00",
-   "actual_end": "2026-11-09T12:18:10+01:00",
+   "actual_end": "2026-11-09T12:20:10+01:00",
    "line_from": 1308,
-   "line_to": 1342,
+   "line_to": 1346,
    "speakers": [
     {
      "key": "d1-08__mr-stanley-lai",
@@ -365,10 +365,32 @@
      "name": "Mr. Antony Taubman",
      "affiliation": "Honorary Professor, Queen Mary University of London, Senior Fellow, University of Melbourne, Australia",
      "role": "panelist",
-     "n_lines": 14,
-     "n_words": 481,
+     "n_lines": 15,
+     "n_words": 553,
      "n_turns": 1,
      "file": "d1-08__mr-antony-taubman.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-08__mr-edward-lee",
+     "name": "Mr. Edward Lee",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 2,
+     "n_words": 116,
+     "n_turns": 1,
+     "file": "d1-08__mr-edward-lee.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-08__mr-gaetan-de-rassenfosse",
+     "name": "Mr. Gaétan de Rassenfosse",
+     "affiliation": "Associate Professor of Science Technology and Innovation Policy, Ecole Polytechnique Fédérale de Lausanne, Belgium",
+     "role": "panelist",
+     "n_lines": 1,
+     "n_words": 79,
+     "n_turns": 1,
+     "file": "d1-08__mr-gaetan-de-rassenfosse.txt",
      "method": "marker"
     }
    ]
