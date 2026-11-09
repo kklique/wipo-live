@@ -541,30 +541,37 @@
     {
       "description": "H.E. Mr. Kairat Torebayev",
       "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
-      "timestamp": "03:36:51",
-      "timestampCVC5": "2026-11-09T16:56:51",
-      "timestampSeconds": 13011
+      "timestamp": "03:36:43",
+      "timestampCVC5": "2026-11-09T16:56:43",
+      "timestampSeconds": 13003
     },
     {
       "description": "UNITED ARAB EMIRATES",
       "personId": "ed027126-7cb8-4188-8688-ac407025e46b",
-      "timestamp": "03:39:19",
-      "timestampCVC5": "2026-11-09T16:59:19",
-      "timestampSeconds": 13159
+      "timestamp": "03:39:18",
+      "timestampCVC5": "2026-11-09T16:59:18",
+      "timestampSeconds": 13158
     },
     {
       "description": "H.E. Mr. Kairat Torebayev",
       "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
-      "timestamp": "03:43:07",
-      "timestampCVC5": "2026-11-09T17:03:07",
-      "timestampSeconds": 13387
+      "timestamp": "03:43:02",
+      "timestampCVC5": "2026-11-09T17:03:02",
+      "timestampSeconds": 13382
     },
     {
       "description": "MOROCCO",
       "personId": "78e466cb-30fb-4908-846f-47b57b9310f5",
-      "timestamp": "03:43:26",
-      "timestampCVC5": "2026-11-09T17:03:26",
-      "timestampSeconds": 13406
+      "timestamp": "03:43:24",
+      "timestampCVC5": "2026-11-09T17:03:24",
+      "timestampSeconds": 13404
+    },
+    {
+      "description": "H.E. Mr. Kairat Torebayev",
+      "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+      "timestamp": "03:46:25",
+      "timestampCVC5": "2026-11-09T17:06:25",
+      "timestampSeconds": 13585
     }
   ],
   "markers_grouped": {
@@ -1032,30 +1039,37 @@
                   {
                     "description": "H.E. Mr. Kairat Torebayev",
                     "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
-                    "timestamp": "03:36:51",
-                    "timestampCVC5": "2026-11-09T16:56:51",
-                    "timestampSeconds": 13011
+                    "timestamp": "03:36:43",
+                    "timestampCVC5": "2026-11-09T16:56:43",
+                    "timestampSeconds": 13003
                   },
                   {
                     "description": "UNITED ARAB EMIRATES",
                     "personId": "ed027126-7cb8-4188-8688-ac407025e46b",
-                    "timestamp": "03:39:19",
-                    "timestampCVC5": "2026-11-09T16:59:19",
-                    "timestampSeconds": 13159
+                    "timestamp": "03:39:18",
+                    "timestampCVC5": "2026-11-09T16:59:18",
+                    "timestampSeconds": 13158
                   },
                   {
                     "description": "H.E. Mr. Kairat Torebayev",
                     "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
-                    "timestamp": "03:43:07",
-                    "timestampCVC5": "2026-11-09T17:03:07",
-                    "timestampSeconds": 13387
+                    "timestamp": "03:43:02",
+                    "timestampCVC5": "2026-11-09T17:03:02",
+                    "timestampSeconds": 13382
                   },
                   {
                     "description": "MOROCCO",
                     "personId": "78e466cb-30fb-4908-846f-47b57b9310f5",
-                    "timestamp": "03:43:26",
-                    "timestampCVC5": "2026-11-09T17:03:26",
-                    "timestampSeconds": 13406
+                    "timestamp": "03:43:24",
+                    "timestampCVC5": "2026-11-09T17:03:24",
+                    "timestampSeconds": 13404
+                  },
+                  {
+                    "description": "H.E. Mr. Kairat Torebayev",
+                    "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab",
+                    "timestamp": "03:46:25",
+                    "timestampCVC5": "2026-11-09T17:06:25",
+                    "timestampSeconds": 13585
                   }
                 ],
                 "subjectId": "2d4252da-0e34-410e-84b5-d5708b851831",
