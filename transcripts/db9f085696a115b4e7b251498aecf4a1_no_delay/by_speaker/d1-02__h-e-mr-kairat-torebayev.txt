@@ -1,6 +1,6 @@
 # [d1-02] Chair Remarks
 # 발표자: H.E. Mr. Kairat Torebayev — Permanent Representative of the Republic of Kazakhstan to the World Trade Organization and international economic organizations, Kazakhstan  (speaker)
-# Day 1 · 2026-11-09 · 예정 10:10-10:15 (Geneva) · 발언 1회 · 17문장 · 609단어 · 구분 방식: agenda
+# Day 1 · 2026-11-09 · 예정 10:10-10:15 (Geneva) · 발언 1회 · 18문장 · 693단어 · 구분 방식: agenda
 
 It is beginning to transform the processes from which Intellectual Property itself emerges – imagination, conception and expression. We really see AI helping scientists search chemical spaces that no human could explore manually. We have seen analysing medical images, designing new materials, writing sophisticated computer code, generating content and tackling increasingly complex mathematical problems.
 singly providing solutions to some problems that eluded the best human minds for decades.
@@ -19,3 +19,4 @@ First, what should the IP system protect and incentivize in the age of AI?
 The modern IP system, the patent system of Venice and then the first corporate statutes may have been birthed during the Ménus Ones and the Age of Enlightenment, but came into maturity during the industrial age, the 1880s. It therefore reflects the economic architecture of that period. Then came computers and the digital revolution about 100 years later. Software became critical. Algorithms became enormously valuable.
 Data became an essential economic resource.
 The Internet transformed reproduction and distribution. The IP system adapted.
+Here at WIPO, for example, the WIPO Internet Treaties of the 1990s, which will celebrate their 30th anniversary in a few weeks' time, were a very important and rapid response to those digital transformations. Much of this adaptation has involved adding layers onto an existing architecture whose basic categories were developed for an earlier industry economy without having to rethink the architecture. AI is forcing us to turn our attention to the underlying architecture and to ask ourselves fundamental questions about its continued relevance.

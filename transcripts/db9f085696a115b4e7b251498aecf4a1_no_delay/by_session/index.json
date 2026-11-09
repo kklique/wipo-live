@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T09:14:20+00:00",
+ "generated": "2026-11-09T09:16:22+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -53,21 +53,21 @@
    "start": "10:10",
    "end": "10:15",
    "people": "Speaker: H.E. Mr. Kairat Torebayev",
-   "n_lines": 17,
+   "n_lines": 18,
    "method": "schedule",
    "file": "d1-02_chair-remarks.txt",
    "actual_start": "2026-11-09T10:10:12+01:00",
-   "actual_end": "2026-11-09T10:14:19+01:00",
+   "actual_end": "2026-11-09T10:14:46+01:00",
    "line_from": 16,
-   "line_to": 32,
+   "line_to": 33,
    "speakers": [
     {
      "key": "d1-02__h-e-mr-kairat-torebayev",
      "name": "H.E. Mr. Kairat Torebayev",
      "affiliation": "Permanent Representative of the Republic of Kazakhstan to the World Trade Organization and international economic organizations, Kazakhstan",
      "role": "speaker",
-     "n_lines": 17,
-     "n_words": 609,
+     "n_lines": 18,
+     "n_words": 693,
      "n_turns": 1,
      "file": "d1-02__h-e-mr-kairat-torebayev.txt",
      "method": "agenda"
@@ -83,9 +83,26 @@
    "start": "10:15",
    "end": "10:45",
    "people": "",
-   "n_lines": 0,
-   "method": "not-reached",
-   "file": null
+   "n_lines": 5,
+   "method": "schedule",
+   "file": "d1-03_ministerial-level-remarks.txt",
+   "actual_start": "2026-11-09T10:15:10+01:00",
+   "actual_end": "2026-11-09T10:16:01+01:00",
+   "line_from": 34,
+   "line_to": 38,
+   "speakers": [
+    {
+     "key": "d1-03__unknown",
+     "name": "(발표자 구분 불가)",
+     "affiliation": "",
+     "role": "unknown",
+     "n_lines": 5,
+     "n_words": 158,
+     "n_turns": 1,
+     "file": "d1-03__unknown.txt",
+     "method": "none"
+    }
+   ]
   },
   {
    "id": "d1-04",

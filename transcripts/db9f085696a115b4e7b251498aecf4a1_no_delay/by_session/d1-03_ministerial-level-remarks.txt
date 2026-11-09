@@ -1,0 +1,9 @@
+# [d1-03] Ministerial-level Remarks
+# Day 1 · 2026-11-09 · 예정 10:15-10:45 (Geneva)
+# 실제 구간 10:15:10-10:16:01 · 5문장 · 경계 방식: schedule
+
+Who is an inventor when AI makes a material contribution to an invention? Who is the author when human creativity and machine generation become increasingly intertwined? On what basis and under what conditions should corporate protected material be used for AI training? What are the remuneration and compensation models?
+How can we say we respect copyright and yet pay nothing for it? How should we think about software, algorithms and data as sources of economic value? And we are now confronting something even more fundamental. What are the attributes of human identity itself? Our voices, our images, our likenesses, our biometric characteristics, even our thoughts. AI can replicate these in ways that earlier generations could barely have imagined.
+As Isaac Asimov said, or was it Arthur C. Clark.
+When technology is sufficiently advanced, it is indistinguishable from magic.
+Yet, the legal protections surrounding them remain fragmented across IP, privacy, personality rights, unfair competition and other bodies of law.
