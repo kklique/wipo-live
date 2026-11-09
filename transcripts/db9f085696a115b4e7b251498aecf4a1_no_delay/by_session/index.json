@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T14:15:57+00:00",
+ "generated": "2026-11-09T14:18:00+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -581,13 +581,13 @@
    "start": "15:10",
    "end": "16:10",
    "people": "Speakers: Mr. Andres Guadamuz; Mr. Wang Qian; Mr. Edward Lee",
-   "n_lines": 2,
+   "n_lines": 6,
    "method": "cue",
    "file": "d1-13_one-stop-shop-keeping-up-with-ip-and-ai.txt",
    "actual_start": "2026-11-09T15:14:44+01:00",
-   "actual_end": "2026-11-09T15:15:25+01:00",
+   "actual_end": "2026-11-09T15:17:41+01:00",
    "line_from": 830,
-   "line_to": 831,
+   "line_to": 835,
    "speakers": [
     {
      "key": "d1-13__unknown",
@@ -605,8 +605,8 @@
      "name": "Mr. Edward Lee",
      "affiliation": "Professor of Law, Santa Clara University School of Law, United States of America",
      "role": "panelist",
-     "n_lines": 1,
-     "n_words": 48,
+     "n_lines": 5,
+     "n_words": 329,
      "n_turns": 1,
      "file": "d1-13__mr-edward-lee.txt",
      "method": "cue"
