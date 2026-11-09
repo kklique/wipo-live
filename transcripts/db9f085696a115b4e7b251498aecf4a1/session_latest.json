@@ -251,6 +251,13 @@
       "timestamp": "01:58:07",
       "timestampCVC5": "2026-11-09T15:18:07",
       "timestampSeconds": 7087
+    },
+    {
+      "description": "Mr. Daryl Lim",
+      "personId": "2c49b210-9701-42c8-9d89-7b575a0eb971",
+      "timestamp": "01:58:55",
+      "timestampCVC5": "2026-11-09T15:18:55",
+      "timestampSeconds": 7135
     }
   ],
   "markers_grouped": {
@@ -416,6 +423,13 @@
                     "timestamp": "01:58:07",
                     "timestampCVC5": "2026-11-09T15:18:07",
                     "timestampSeconds": 7087
+                  },
+                  {
+                    "description": "Mr. Daryl Lim",
+                    "personId": "2c49b210-9701-42c8-9d89-7b575a0eb971",
+                    "timestamp": "01:58:55",
+                    "timestampCVC5": "2026-11-09T15:18:55",
+                    "timestampSeconds": 7135
                   }
                 ],
                 "subjectId": "1fda6de4-644a-4a61-af86-3dccad676ba9",
@@ -465,6 +479,13 @@
       "id": "a0e748e4-7441-4115-ab9c-2b2b36f5a086",
       "name": "SECRETARIAT",
       "photoUrl": "https://amcpweservicesassets.blob.core.windows.net/assets/80d8cc56-b763-401f-9522-b2cf02bb79d6.png"
+    },
+    {
+      "bio": "Daryl Lim is the H. Laddie Montague Jr. Chair in Law at Penn State Dickinson Law. He is also the Associate Dean for Research and Strategic Partnerships and Founding Director of the Intellectual Property (IP) Law and Innovation Initiative. At the university level, he is a co-hire at the Institute of Computational and Data Sciences and was appointed to its Research Council in 2025. He is also an affiliate at the Center for Socially Responsible Artificial Intelligence.;",
+      "email": "",
+      "id": "2c49b210-9701-42c8-9d89-7b575a0eb971",
+      "name": "Mr. Daryl Lim",
+      "photoUrl": "https://amcpwewipoassets.blob.core.windows.net/assets/5455f202-5501-43ab-94c9-a24865708bef.PNG"
     },
     {
       "bio": "",
