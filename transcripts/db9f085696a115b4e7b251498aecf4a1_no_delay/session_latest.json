@@ -157,23 +157,23 @@
     {
       "description": "Mr. Hesham Azmi",
       "personId": "b48abf68-5102-455c-8faa-3abb4846c844",
-      "timestamp": "00:49:07",
-      "timestampCVC5": "2026-11-09T09:39:07",
-      "timestampSeconds": 2947
+      "timestamp": "00:49:13",
+      "timestampCVC5": "2026-11-09T09:39:13",
+      "timestampSeconds": 2953
     },
     {
       "description": "H.E. Ms. Liisa-Ly Pakosta",
       "personId": "9ad71538-77d5-41e4-8e92-08df3bfd2d66",
-      "timestamp": "00:55:33",
-      "timestampCVC5": "2026-11-09T09:45:33",
-      "timestampSeconds": 3333
+      "timestamp": "00:55:38",
+      "timestampCVC5": "2026-11-09T09:45:38",
+      "timestampSeconds": 3338
     },
     {
       "description": "H. E. Ms. Mari-Leena Talvitie",
       "personId": "2a546b99-fe4a-456b-8e91-08df3bfd2d66",
-      "timestamp": "00:59:58",
-      "timestampCVC5": "2026-11-09T09:49:58",
-      "timestampSeconds": 3598
+      "timestamp": "00:59:56",
+      "timestampCVC5": "2026-11-09T09:49:56",
+      "timestampSeconds": 3596
     },
     {
       "description": "H. E. Mr. Kim Yong Sun",
@@ -195,6 +195,13 @@
       "timestamp": "01:14:22",
       "timestampCVC5": "2026-11-09T10:04:22",
       "timestampSeconds": 4462
+    },
+    {
+      "description": "H.E. Mr. Kamal Shehadi",
+      "personId": "6ca0705f-4bec-4f6c-8e94-08df3bfd2d66",
+      "timestamp": "01:18:42",
+      "timestampCVC5": "2026-11-09T10:08:42",
+      "timestampSeconds": 4722
     }
   ],
   "markers_grouped": {
@@ -260,23 +267,23 @@
                   {
                     "description": "Mr. Hesham Azmi",
                     "personId": "b48abf68-5102-455c-8faa-3abb4846c844",
-                    "timestamp": "00:49:07",
-                    "timestampCVC5": "2026-11-09T09:39:07",
-                    "timestampSeconds": 2947
+                    "timestamp": "00:49:13",
+                    "timestampCVC5": "2026-11-09T09:39:13",
+                    "timestampSeconds": 2953
                   },
                   {
                     "description": "H.E. Ms. Liisa-Ly Pakosta",
                     "personId": "9ad71538-77d5-41e4-8e92-08df3bfd2d66",
-                    "timestamp": "00:55:33",
-                    "timestampCVC5": "2026-11-09T09:45:33",
-                    "timestampSeconds": 3333
+                    "timestamp": "00:55:38",
+                    "timestampCVC5": "2026-11-09T09:45:38",
+                    "timestampSeconds": 3338
                   },
                   {
                     "description": "H. E. Ms. Mari-Leena Talvitie",
                     "personId": "2a546b99-fe4a-456b-8e91-08df3bfd2d66",
-                    "timestamp": "00:59:58",
-                    "timestampCVC5": "2026-11-09T09:49:58",
-                    "timestampSeconds": 3598
+                    "timestamp": "00:59:56",
+                    "timestampCVC5": "2026-11-09T09:49:56",
+                    "timestampSeconds": 3596
                   },
                   {
                     "description": "H. E. Mr. Kim Yong Sun",
@@ -298,6 +305,13 @@
                     "timestamp": "01:14:22",
                     "timestampCVC5": "2026-11-09T10:04:22",
                     "timestampSeconds": 4462
+                  },
+                  {
+                    "description": "H.E. Mr. Kamal Shehadi",
+                    "personId": "6ca0705f-4bec-4f6c-8e94-08df3bfd2d66",
+                    "timestamp": "01:18:42",
+                    "timestampCVC5": "2026-11-09T10:08:42",
+                    "timestampSeconds": 4722
                   }
                 ],
                 "subjectId": "c20b4223-8dad-43c5-a179-1fbc704f6989",
@@ -346,6 +360,13 @@
       "email": "",
       "id": "af7193f6-05eb-46bf-8e93-08df3bfd2d66",
       "name": "Mr. Kasai Yasuyuki",
+      "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "Minister of State for Technology and Artificial Intelligence and Minister of Displaced, Republic of Lebanon\nH.E. Dr. Kamal Shehadi is the Minister of State for Technology and Artificial Intelligence and Minister of Displaced Persons of the Republic of Lebanon. He has extensive leadership experience in telecommunications, technology and digital policy across the Middle East and North Africa and internationally.\nFrom 2010 to 2023, he held senior positions at e& Group (formerly Etisalat), including Chief Legal and Regulatory Officer and Chief Strategy Officer (International). He previously chaired Lebanon’s Telecommunications Regulatory Authority, the ITU Global Symposium for Regulators, and the GSMA Chief Policy and Regulatory Officers’ Group. He has also advised the World Bank on infrastructure projects in the region.\nDr. Shehadi holds a BA in Economics from Harvard College and a PhD from Columbia University.",
+      "email": "",
+      "id": "6ca0705f-4bec-4f6c-8e94-08df3bfd2d66",
+      "name": "H.E. Mr. Kamal Shehadi",
       "photoUrl": "./assets/images/noPicSpeaker.png "
     },
     {
