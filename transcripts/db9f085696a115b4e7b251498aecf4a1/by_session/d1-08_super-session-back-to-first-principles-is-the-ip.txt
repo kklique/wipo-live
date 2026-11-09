@@ -1,7 +1,7 @@
 # [d1-08] Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?
 # Day 1 · 2026-11-09 · 예정 11:40-12:50 (Geneva)
 # Moderator: Mr. Stanley Lai | Speakers: Ms. Chijioke Okorie; Ms. Myrtha Hurtado Rivas; Mr. Gaétan de Rassenfosse; Mr. Antony Taubman; Ms. Caroline Gueye
-# 실제 구간 12:07:23-12:24:30 · 50문장 · 경계 방식: cue
+# 실제 구간 12:07:23-12:26:05 · 55문장 · 경계 방식: cue
 
 Welcome back. to our forum. I hope AI finds some way to serve coffee faster and better. So I hope you had a chance to recharge, connect with your colleagues over the coffee and that you now fully caffeinated because we are about to tackle some rather big questions. For the first super session.
 For our first super session, we are going back to the first principle. before we ask whether the IP systems is fit for the age of AI, perhaps we should start with a more fundamental questions. What is Intellectual Property actually for? Encouraging innovation and creativity. rewarding human ingenuity, sharing knowledge, supporting economic development, preserving culture, serving the public interests.
@@ -53,3 +53,8 @@ And then I have an answer, a final answer to that question, but I just want to, 
 And so very early on in the Venice patent statute, there was actually the willingness to attract foreign knowledge and diffuse technology. And I think when we look at the situation today, especially in GNI or AI capabilities, while we see a very fragmented world, Europe is worried, and rightly so, to be lagging behind US in development and China in adoption. And that is not even mentioning Latin America, Africa, Southeast Asia.
 So if there is one feature that today's IP system should actually encourage, it is the development of indigenous innovation or the adoption of innovation in terms of AI in countries. That is up here. Thank you.
 And I think as a reminder to speakers, I have just been reminded by the Secretariat, I know it is a super session, but can we speak slowly? Because the agentic AI is tracking us and so I will ask us to speak slowly. I do not know what it does to my preparation for this. panel, but I think we will find out towards the end. Cedric, oh sorry, before Cedric, Merthyr, maybe I can ask you, because you come, currently counseled in one of the global brands, and from your perspective, what is IP really about?
+Is it for the incentive to invest Is it a signal of brand origination or a guarantee of consumer quality?
+Which of these rationales, and I appreciate that I have not been exhaustive, which of these rationales would AI strengthen which would it potentially corrode? I mean, just answer in any way you think best.
+Thank you so much, Stanley, for the question.
+I will try to speak slower. First of all, I would like to clarify that I am here on my personal capacity and not speaking on behalf of the company that employs me. The question is, you ask about incentive, investment, trust, quality and origin, and I would say all of the above. sometimes all of them combined, sometimes some of them isolated, but I think at least in business what we see is really a combination and actually an interconnection of those rights.
+When it comes to AI, I would say what I am observing is that the principles, the underlying principles of the IP system actually gets strengthened by AI, what is more difficult, is how to maintain clarity, transparency on authenticity. origin, provenance, right? But on the other hand, because of AI, we see how important it is to strengthen the underlying principles.
