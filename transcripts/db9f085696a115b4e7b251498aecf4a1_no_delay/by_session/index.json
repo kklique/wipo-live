@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T09:58:54+00:00",
+ "generated": "2026-11-09T10:00:55+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -209,13 +209,13 @@
    "start": "10:55",
    "end": "11:05",
    "people": "Speaker: Mr. Anant Madabhushi",
-   "n_lines": 6,
+   "n_lines": 9,
    "method": "schedule",
    "file": "d1-05_showcase-1-ai-in-action-from-ideas-to-real-world.txt",
    "actual_start": "2026-11-09T10:55:26+01:00",
-   "actual_end": "2026-11-09T10:58:42+01:00",
+   "actual_end": "2026-11-09T11:00:31+01:00",
    "line_from": 210,
-   "line_to": 215,
+   "line_to": 218,
    "speakers": [
     {
      "key": "d1-05__mr-anant-madabhushi",
@@ -233,8 +233,8 @@
      "name": "H.E. Mr. Edwin Tong",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 2,
-     "n_words": 102,
+     "n_lines": 5,
+     "n_words": 293,
      "n_turns": 1,
      "file": "d1-05__h-e-mr-edwin-tong.txt",
      "method": "marker"

@@ -122,9 +122,9 @@
     {
       "description": "DIRECTOR GENERAL",
       "personId": "06db8e4e-da86-4b69-bfd7-e689f8e9f55c",
-      "timestamp": "00:14:38",
-      "timestampCVC5": "2026-11-09T09:04:38",
-      "timestampSeconds": 878
+      "timestamp": "00:14:29",
+      "timestampCVC5": "2026-11-09T09:04:29",
+      "timestampSeconds": 869
     },
     {
       "description": "Ministerial-level Remarks",
@@ -212,9 +212,9 @@
                   {
                     "description": "DIRECTOR GENERAL",
                     "personId": "06db8e4e-da86-4b69-bfd7-e689f8e9f55c",
-                    "timestamp": "00:14:38",
-                    "timestampCVC5": "2026-11-09T09:04:38",
-                    "timestampSeconds": 878
+                    "timestamp": "00:14:29",
+                    "timestampCVC5": "2026-11-09T09:04:29",
+                    "timestampSeconds": 869
                   }
                 ],
                 "subjectId": "b8c24cf4-528e-481a-bdcd-cdb79e1ee816",

@@ -1,6 +1,9 @@
 # [d1-05] Showcase 1: AI in Action - From Ideas to Real-World Impact
 # 발표자: H.E. Mr. Edwin Tong  (floor)
-# Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva) · 발언 1회 · 2문장 · 102단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva) · 발언 1회 · 5문장 · 293단어 · 구분 방식: marker
 
 Thank you very much. Director General Daren Tang, excellencies, ladies and gentlemen. I am sorry I can not join you in person. Unfortunately, for all its advances, AI still cannot put me in two different places. at the same time. But thankfully, technology allows me to deliver this pre-recorded speech, and I am delighted to share some thoughts with you. First, I thank WIPO for convening this important inaugural global forum.
 AI is fundamentally transforming how we create and innovate. challenging our very basic assumptions underlying our IP systems. I think we cannot nor should we stand in the way of progress.
+As policymakers, our task is to ensure that AI and IP reinforce rather than undermine each other so that innovation and human creativity can thrive together. I would like to suggest three areas where we can work together. First, sustaining human creativity alongside AI innovation. AI models learn from vast quantities of human -created content, whilst increasingly generating content themselves. How do we encourage AI innovation?
+without weakening incentives for human creativity? Even before generative AI became mainstream, our copyright Act in Singapore already permitted computational data analysis, including AI training, using lawfully accessed works, subject to safeguards. Our approach is to regulate with a light touch. particularly when technology is evolving so rapidly. This, we believe, encourages innovation.
+We also believe in giving creators and innovators the space to experiment, develop new ideas, and bring them to market without being constrained by overly prescriptive rules. At the same time, they must have the confidence that their works are protected. That is the environment we are seeking to provide in Singapore, one that encourages innovation underpinned by a strong, predictable IP framework. But getting this balance right is an ongoing process.
