@@ -21,7 +21,7 @@
   ],
   "cvc5id": "dd006ca1-db12-4479-04e3-08df3b1fc4ff",
   "cvc5securityLevel": "Public",
-  "cvc5status": "Scheduled",
+  "cvc5status": "Prepared",
   "description": "",
   "event": "Global Forum",
   "id": "dd006ca1-db12-4479-04e3-08df3b1fc4ff",
@@ -30,8 +30,8 @@
       "language": "ru",
       "trackIdentifier": "qaf",
       "videoUrls": {
-        "hls": null,
-        "live": null,
+        "hls": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+        "live": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
         "progressive": ""
       }
     },
@@ -39,8 +39,8 @@
       "language": "xx",
       "trackIdentifier": "qaa",
       "videoUrls": {
-        "hls": null,
-        "live": null,
+        "hls": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+        "live": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
         "progressive": ""
       }
     },
@@ -48,8 +48,8 @@
       "language": "es",
       "trackIdentifier": "qad",
       "videoUrls": {
-        "hls": null,
-        "live": null,
+        "hls": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+        "live": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
         "progressive": ""
       }
     },
@@ -57,8 +57,8 @@
       "language": "pt",
       "trackIdentifier": "qah",
       "videoUrls": {
-        "hls": null,
-        "live": null,
+        "hls": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+        "live": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
         "progressive": ""
       }
     },
@@ -66,8 +66,8 @@
       "language": "fr",
       "trackIdentifier": "qac",
       "videoUrls": {
-        "hls": null,
-        "live": null,
+        "hls": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+        "live": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
         "progressive": ""
       }
     },
@@ -75,8 +75,8 @@
       "language": "ar",
       "trackIdentifier": "qae",
       "videoUrls": {
-        "hls": null,
-        "live": null,
+        "hls": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+        "live": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
         "progressive": ""
       }
     },
@@ -84,8 +84,8 @@
       "language": "zh",
       "trackIdentifier": "qag",
       "videoUrls": {
-        "hls": null,
-        "live": null,
+        "hls": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+        "live": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
         "progressive": ""
       }
     },
@@ -93,8 +93,8 @@
       "language": "en",
       "trackIdentifier": "qab",
       "videoUrls": {
-        "hls": null,
-        "live": null,
+        "hls": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+        "live": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
         "progressive": ""
       }
     }
@@ -122,8 +122,8 @@
   "subjects": [],
   "thumbnail": null,
   "videoUrls": {
-    "hls": null,
-    "live": null,
+    "hls": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
+    "live": "https://amcpwewipohls.azurewebsites.net/live/wch/index.m3u8",
     "progressive": ""
   }
 }

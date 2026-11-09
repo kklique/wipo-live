@@ -78,3 +78,4 @@
 {"ts": "2026-11-09T12:33:33+00:00", "new_markers": [{"description": "H.E. Mr. Kairat Torebayev", "personId": "bc0adb6a-ddb2-43d5-b42d-8a2a776dd6ab", "timestamp": "03:43:08", "timestampCVC5": "2026-11-09T12:33:08", "timestampSeconds": 13388}]}
 {"ts": "2026-11-09T12:52:10+00:00", "name": "First Global Forum on Intellectual Property and Artificial Intelligence - WIPO IP-AI GEN 26 - Day 1 Afternoon", "startDate": "2026-11-09T13:20:00", "live_status": "NOT_STARTED", "cvc5status": "Scheduled", "people": [], "subjects": [], "new_markers": []}
 {"ts": "2026-11-09T13:01:36+00:00", "name": "First Global Forum on Intellectual Property and Artificial Intelligence - WIPO IP-AI GEN 26 - Day 1 Afternoon", "event": "Global Forum", "startDate": "2026-11-09T13:20:00", "endDate": null, "live": true, "live_status": "NOT_STARTED", "cvc5status": "Scheduled", "people": [], "subjects": [], "new_markers": []}
+{"ts": "2026-11-09T13:10:32+00:00", "cvc5status": "Prepared", "new_markers": []}
