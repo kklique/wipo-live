@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T12:21:27+00:00",
+ "generated": "2026-11-09T12:23:29+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -459,21 +459,21 @@
    "start": "12:50",
    "end": "13:00",
    "people": "Speaker: Mr. Andrew Toole",
-   "n_lines": 1,
+   "n_lines": 5,
    "method": "cue",
    "file": "d1-09_insight-painting-by-numbers-the-power-of-ip-data.txt",
    "actual_start": "2026-11-09T13:20:47+01:00",
-   "actual_end": "2026-11-09T13:20:47+01:00",
+   "actual_end": "2026-11-09T13:23:25+01:00",
    "line_from": 1496,
-   "line_to": 1496,
+   "line_to": 1500,
    "speakers": [
     {
      "key": "d1-09__mr-andrew-toole",
      "name": "Mr. Andrew Toole",
      "affiliation": "Associate Professor of Public Policy, Georgia Institute of Technology, United States of America",
      "role": "speaker",
-     "n_lines": 1,
-     "n_words": 30,
+     "n_lines": 5,
+     "n_words": 346,
      "n_turns": 1,
      "file": "d1-09__mr-andrew-toole.txt",
      "method": "agenda"
