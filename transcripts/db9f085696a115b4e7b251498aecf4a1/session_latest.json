@@ -415,9 +415,9 @@
     {
       "description": "Mr. Edward Lee",
       "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
-      "timestamp": "03:03:17",
-      "timestampCVC5": "2026-11-09T11:53:17",
-      "timestampSeconds": 10997
+      "timestamp": "03:03:09",
+      "timestampCVC5": "2026-11-09T11:53:09",
+      "timestampSeconds": 10989
     },
     {
       "description": "Ms. Jennifer Tauli (Jing) Corpuz",
@@ -453,6 +453,13 @@
       "timestamp": "03:11:35",
       "timestampCVC5": "2026-11-09T12:01:35",
       "timestampSeconds": 11495
+    },
+    {
+      "description": "Mr. Edward Lee",
+      "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+      "timestamp": "03:14:17",
+      "timestampCVC5": "2026-11-09T12:04:17",
+      "timestampSeconds": 11657
     }
   ],
   "markers_grouped": {
@@ -794,9 +801,9 @@
                   {
                     "description": "Mr. Edward Lee",
                     "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
-                    "timestamp": "03:03:17",
-                    "timestampCVC5": "2026-11-09T11:53:17",
-                    "timestampSeconds": 10997
+                    "timestamp": "03:03:09",
+                    "timestampCVC5": "2026-11-09T11:53:09",
+                    "timestampSeconds": 10989
                   },
                   {
                     "description": "Ms. Jennifer Tauli (Jing) Corpuz",
@@ -832,6 +839,13 @@
                     "timestamp": "03:11:35",
                     "timestampCVC5": "2026-11-09T12:01:35",
                     "timestampSeconds": 11495
+                  },
+                  {
+                    "description": "Mr. Edward Lee",
+                    "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+                    "timestamp": "03:14:17",
+                    "timestampCVC5": "2026-11-09T12:04:17",
+                    "timestampSeconds": 11657
                   }
                 ],
                 "subjectId": "59023b79-b078-455c-a939-254b6858c034",

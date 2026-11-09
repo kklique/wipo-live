@@ -1,6 +1,6 @@
 # [d1-08] Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?
 # 발표자: Mr. Cédric Manara  (floor)
-# Day 1 · 2026-11-09 · 예정 11:40-12:50 (Geneva) · 발언 2회 · 23문장 · 857단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 11:40-12:50 (Geneva) · 발언 2회 · 22문장 · 766단어 · 구분 방식: marker
 
 So I will pause here. Thank you very much. Cedric, maybe I can turn it over to you now. The Statute of Anne, 1710, talks about copyright beginning for the encouragement of learning. AI developers often argue that a model learning from works is closer to reading than it is to copying. And I think coming from where you are, I really want to hear your answer to this. Where does that analogy hold as a matter of first principles and where does it break down?
 So, consider, for example, the Munich Regional Courts, November 25 finding in the Gamma case, GEMA versus OpenAI, that the lyrics are memorised in the model also in fringe.
@@ -25,4 +25,3 @@ You also mentioned all the birthdays, Stan. It is Google's 20th birthday, and so
 And so, you know, that is really where we come from.
 We think that when there's value benefits in a new technology, like a search index or an AR model, then this is, you know, how we should be able to move forward. And we are having, you know, a sort of very simple opt out regime where the websites can say, no, I do not want to be on the index.
 I do not want to be I do not want my content to be used for training, and that is really the starting point of everything you discussed, and I will leave it there. from what I am hearing you say, right, you are basically saying that an opt-out model is consistent with corporate's first principles.
-It is a way to deal at scale with concerns. But it is not a rewriting of them. I am not cross-examining you, I am just It is so rare that I get Google in the winner's that I feel compelled to put that to you. So you need to have rules that allow, that make it possible for the technology to develop, and this is one of these rules. Okay, but hearing Carolyn's response, you would still want to make the choice that she wants workable for individual artists, right?

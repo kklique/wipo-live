@@ -1,6 +1,6 @@
 # [d1-08] Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?
 # 발표자: Mr. Edward Lee  (floor)
-# Day 1 · 2026-11-09 · 예정 11:40-12:50 (Geneva) · 발언 11회 · 23문장 · 1,355단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 11:40-12:50 (Geneva) · 발언 12회 · 26문장 · 1,585단어 · 구분 방식: marker
 
 Will Claudette be denied authorship, inventorship, performer's rights, writer personality, ownership of her IP? and how to tackle the other minds problem? In principle, we judge originality and inventive step against a model of human cognition. generally shared if somewhat culturally biased, a neural network operating beyond our reach in a black box simply does not fit that model. But AI will unavoidably increasingly be part of the creative and inventive process.
 Can we untangle distinct human and machine inputs or do we fall back on a broader causal link to confer IP ownership on the human in the room. So prior to the pragmatic work of managing the IP system as an incentives, as a set of incentives and market regulation, confronted with the impact of AI, before delineating those boundaries of protected subject matter between mimesis and poesis, how do we address tantalizing questions around our distinct human identity and the consequence ideas of personhood, human rights and fundamental equity.
@@ -27,6 +27,7 @@ It is used for burials, for burial blankets. And so, you know, there is value in
 Do you want to be paid first? Do you want to be credited or do you want to be able to refuse? Which of these would matter most to you and why? So I want to be asked first, then I want to be able to refuse.
 And if ever I am willing to, then I want to know what they are going to do with my work. I want to know I want to be credited I want to be paid to.
 
+It is a way to deal at scale with concerns. But it is not a rewriting of them. I am not cross-examining you, I am just It is so rare that I get Google in the winner's that I feel compelled to put that to you. So you need to have rules that allow, that make it possible for the technology to develop, and this is one of these rules. Okay, but hearing Carolyn's response, you would still want to make the choice that she wants workable for individual artists, right?
 So we talk about training here, but then there's generation and there's distribution, and it is really at the distribution stage that there will be an impact on the market, and we at Google, we have, and you alluded to this, Professor O'Courier, a long history and long experience in monetizing works, selling works on Google Play and YouTube and the likes. So that is really where the work, actually the work that we do together should be discussed.
 It is not just the training that matters, it is also generation and distribution.
 
@@ -35,3 +36,6 @@ So this is an open question, right, is how do we use the power of the technology
 Collective licensing would also be able to play a role in that space. Finally, collective licensing is not just a copyright solution. We also see collective licensing in the patent space with standard setting organizations and standard essential patents where now you have patent pools and people being able to license as a collective in that space.
 It is the same solution, lower transaction cost, higher bargaining power because now you have mass of inventors, you know, or creators. Where we need to solve is in the governance so that collective organizations or licensing organizations are transparent and accountable and have access to infrastructure. And that is where also technology can also play a to make them better at their jobs. At friend rates, very reasonable and non-discriminatory rates.
 Now, maybe I can turn it to another section now, which is dealing with the incentive rationale for IP protection. and also economic evidence and what are we seeing?
+
+Let's assume we are at the beginning of a pandemic. And now a pharma company has a choice between hiring 20 data scientists and, you know, coming up with a new vaccine in three months or hiring 100 pharmacologists and coming up with a vaccine in a year. We do not want the firm to take the decision based on the type of IP rights that it will get at the end. And so that is when I say we do not want IP rights to bias what we want to be desirable as a society.
+This is precisely the point. So we will need an incentive to invest, you know, to invent in a way that is compatible to our social value. It depends on fields, of course, you know, hardcore inventions versus creative industry, for instance. Thanks.
