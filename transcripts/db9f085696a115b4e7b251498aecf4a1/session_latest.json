@@ -313,6 +313,20 @@
       "timestamp": "02:34:18",
       "timestampCVC5": "2026-11-09T11:24:18",
       "timestampSeconds": 9258
+    },
+    {
+      "description": "Mr. Edward Lee",
+      "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+      "timestamp": "02:36:52",
+      "timestampCVC5": "2026-11-09T11:26:52",
+      "timestampSeconds": 9412
+    },
+    {
+      "description": "Mr. Cédric Manara",
+      "personId": "1f82399a-a536-42d6-ba1a-2a493bf32aac",
+      "timestamp": "02:37:55",
+      "timestampCVC5": "2026-11-09T11:27:55",
+      "timestampSeconds": 9475
     }
   ],
   "markers_grouped": {
@@ -552,6 +566,20 @@
                     "timestamp": "02:34:18",
                     "timestampCVC5": "2026-11-09T11:24:18",
                     "timestampSeconds": 9258
+                  },
+                  {
+                    "description": "Mr. Edward Lee",
+                    "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+                    "timestamp": "02:36:52",
+                    "timestampCVC5": "2026-11-09T11:26:52",
+                    "timestampSeconds": 9412
+                  },
+                  {
+                    "description": "Mr. Cédric Manara",
+                    "personId": "1f82399a-a536-42d6-ba1a-2a493bf32aac",
+                    "timestamp": "02:37:55",
+                    "timestampCVC5": "2026-11-09T11:27:55",
+                    "timestampSeconds": 9475
                   }
                 ],
                 "subjectId": "59023b79-b078-455c-a939-254b6858c034",
@@ -643,6 +671,13 @@
       "id": "56b0e973-cea1-434f-0a78-08df3e38844a",
       "name": "H.E. Mr. Ziyambi Ziyambi",
       "photoUrl": "./assets/images/noPicSpeaker.png "
+    },
+    {
+      "bio": "<p>Cédric Manara, Ph.D., has lost his hair teaching, writing or consulting. </p><p>He has been a full-time law professor at EDHEC Business School (France) and held visitorships in Finland, Italy, Japan and the USA, published a lot on intellectual property and internet legal issues and also was a consultant for e-commerce companies or law firms. </p><p>Cédric joined Google in 2013, where he is a Director and leads the Global Copyright Legal team.<br></p>",
+      "email": "",
+      "id": "1f82399a-a536-42d6-ba1a-2a493bf32aac",
+      "name": "Mr. Cédric Manara",
+      "photoUrl": "https://amcpwewipoassets.blob.core.windows.net/assets/78f95542-aa92-4ea6-916c-ed6a742b4fb5.jpg"
     },
     {
       "bio": "<p><a href=\"https://www.wipo.int/policy/en/rules_of_procedure.html\" target=\"_blank\">General Rules of Procedure of WIPO</a><br></p>",

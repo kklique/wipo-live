@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T11:26:35+00:00",
+ "generated": "2026-11-09T11:28:36+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -341,13 +341,13 @@
    "start": "11:40",
    "end": "12:50",
    "people": "Moderator: Mr. Stanley Lai | Speakers: Ms. Chijioke Okorie; Ms. Myrtha Hurtado Rivas; Mr. Gaétan de Rassenfosse; Mr. Antony Taubman; Ms. Caroline Gueye",
-   "n_lines": 55,
+   "n_lines": 60,
    "method": "cue",
    "file": "d1-08_super-session-back-to-first-principles-is-the-ip.txt",
    "actual_start": "2026-11-09T12:07:23+01:00",
-   "actual_end": "2026-11-09T12:26:05+01:00",
+   "actual_end": "2026-11-09T12:28:26+01:00",
    "line_from": 1308,
-   "line_to": 1362,
+   "line_to": 1367,
    "speakers": [
     {
      "key": "d1-08__mr-stanley-lai",
@@ -376,9 +376,9 @@
      "name": "Mr. Edward Lee",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 4,
-     "n_words": 272,
-     "n_turns": 2,
+     "n_lines": 5,
+     "n_words": 366,
+     "n_turns": 3,
      "file": "d1-08__mr-edward-lee.txt",
      "method": "marker"
     },
@@ -398,10 +398,21 @@
      "name": "Ms. Myrtha Hurtado Rivas",
      "affiliation": "General Counsel, Nestlé, Switzerland / Peru",
      "role": "panelist",
-     "n_lines": 6,
-     "n_words": 307,
+     "n_lines": 7,
+     "n_words": 365,
      "n_turns": 1,
      "file": "d1-08__ms-myrtha-hurtado-rivas.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-08__mr-cedric-manara",
+     "name": "Mr. Cédric Manara",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 3,
+     "n_words": 141,
+     "n_turns": 1,
+     "file": "d1-08__mr-cedric-manara.txt",
      "method": "marker"
     }
    ]

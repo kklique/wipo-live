@@ -1,0 +1,7 @@
+# [d1-08] Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?
+# 발표자: Mr. Cédric Manara  (floor)
+# Day 1 · 2026-11-09 · 예정 11:40-12:50 (Geneva) · 발언 1회 · 3문장 · 141단어 · 구분 방식: marker
+
+So I will pause here. Thank you very much. Cedric, maybe I can turn it over to you now. The Statute of Anne, 1710, talks about copyright beginning for the encouragement of learning. AI developers often argue that a model learning from works is closer to reading than it is to copying. And I think coming from where you are, I really want to hear your answer to this. Where does that analogy hold as a matter of first principles and where does it break down?
+So, consider, for example, the Munich Regional Courts, November 25 finding in the Gamma case, GEMA versus OpenAI, that the lyrics are memorised in the model also in fringe.
+What is your perspective on that in terms of the copyright calibration? Thank you and thank you to the IP and Frontier team for inviting me.
