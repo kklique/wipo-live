@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T15:27:11+00:00",
+ "generated": "2026-11-09T15:29:15+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -716,13 +716,13 @@
    "start": "16:25",
    "end": "17:25",
    "people": "Moderator: Ms. Natalie Corthésy | Speakers: Mr. Anderson Rocha; Ms. Kalpana Tyagi; Mr. Jakob Plesner Mathiasen; Mr. Marco Bassini; Ms. Imogen Heap",
-   "n_lines": 23,
+   "n_lines": 28,
    "method": "cue",
    "file": "d1-15_protecting-what-makes-us-human-is-ip-the-answer.txt",
    "actual_start": "2026-11-09T16:17:57+01:00",
-   "actual_end": "2026-11-09T16:26:57+01:00",
+   "actual_end": "2026-11-09T16:28:50+01:00",
    "line_from": 1840,
-   "line_to": 1862,
+   "line_to": 1867,
    "speakers": [
     {
      "key": "d1-15__ms-natalie-corthesy",
@@ -751,8 +751,8 @@
      "name": "Mr. Daryl Lim",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 19,
-     "n_words": 933,
+     "n_lines": 24,
+     "n_words": 1137,
      "n_turns": 1,
      "file": "d1-15__mr-daryl-lim.txt",
      "method": "marker"
