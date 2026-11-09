@@ -1,6 +1,6 @@
 # [d1-15] Protecting What Makes us Human - Is IP the Answer?
 # 발표자: Mr. Jakob Plesner Mathiasen — Partner, Gorrissen Federspiel, Denmark  (panelist)
-# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 2회 · 9문장 · 520단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 3회 · 10문장 · 590단어 · 구분 방식: marker
 
 I hope I am pronouncing his name correctly, will you share with us the protection of individuals beyond their role as creators, whether and to what extent IP frameworks can protect individuals not only in their professional capacity as artists and performers, but also in relation to their broader identity, personal integrity and moral rights? Yes, I am glad to do so.
 And will tell you a bit about a Danish bill that is proposed right now. currently regarding protection for all individuals against being defaked.
@@ -12,3 +12,5 @@ and human rights and how deepfakes was approached in that legislation. Definitel
 However, we all know that at least to some extent, it is good to make fun of politicians and governments.
 So if you are doing it for fun, in parodies, you are allowed to do so. And also making fun of friends and famous people.
 That is also as a general rule, okay, satire, parody, criticism, social criticism is okay. However, when that turns into misinformation, it is not allowed. For example, if I was a government with bad intention and made a parody of a politician, which then spread to misinformation, that would not be allowed. So the general rule, it requires permission. You have an exemption for parities and criticism of politicians, governments.
+
+So this is, I think, the effort we should look for. I think we already have something interesting in copyright law, in data protection law. We have to find a way to make the enforcement of these measures and remedies effective. Thank you. I wanted to ask Jagop if you would perhaps mention a little bit about the criminal sanctions. We have not mentioned that so far in our discussions.

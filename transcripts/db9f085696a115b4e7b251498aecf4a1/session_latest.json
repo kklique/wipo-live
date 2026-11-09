@@ -481,6 +481,20 @@
       "timestamp": "03:24:08",
       "timestampCVC5": "2026-11-09T16:44:08",
       "timestampSeconds": 12248
+    },
+    {
+      "description": "Ms. Natalie Corthésy",
+      "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+      "timestamp": "03:27:48",
+      "timestampCVC5": "2026-11-09T16:47:48",
+      "timestampSeconds": 12468
+    },
+    {
+      "description": "Mr. Jakob Plesner Mathiasen",
+      "personId": "2f8becf0-558a-4050-ae75-08df3b2598d3",
+      "timestamp": "03:27:53",
+      "timestampCVC5": "2026-11-09T16:47:53",
+      "timestampSeconds": 12473
     }
   ],
   "markers_grouped": {
@@ -882,6 +896,20 @@
                     "timestamp": "03:24:08",
                     "timestampCVC5": "2026-11-09T16:44:08",
                     "timestampSeconds": 12248
+                  },
+                  {
+                    "description": "Ms. Natalie Corthésy",
+                    "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+                    "timestamp": "03:27:48",
+                    "timestampCVC5": "2026-11-09T16:47:48",
+                    "timestampSeconds": 12468
+                  },
+                  {
+                    "description": "Mr. Jakob Plesner Mathiasen",
+                    "personId": "2f8becf0-558a-4050-ae75-08df3b2598d3",
+                    "timestamp": "03:27:53",
+                    "timestampCVC5": "2026-11-09T16:47:53",
+                    "timestampSeconds": 12473
                   }
                 ],
                 "subjectId": "5c4b21a8-f209-492f-9b8f-4996178c9dab",
