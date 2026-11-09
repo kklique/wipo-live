@@ -1,7 +1,7 @@
 # [d1-15] Protecting What Makes us Human - Is IP the Answer?
 # Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva)
 # Moderator: Ms. Natalie Corthésy | Speakers: Mr. Anderson Rocha; Ms. Kalpana Tyagi; Mr. Jakob Plesner Mathiasen; Mr. Marco Bassini; Ms. Imogen Heap
-# 실제 구간 16:54:25-17:40:13 · 117문장 · 경계 방식: marker
+# 실제 구간 16:54:25-17:42:12 · 125문장 · 경계 방식: marker
 
 So we reconvene at 4.45. See you in 15. Thank you very much. Welcome back from the coffee break. So let's get started.
 I hope you had a chance of another caffeine to recharge your battery? and the next session is going to personal. Imagine someone using AI to recreate your face. your voice, your your memories, perhaps even to make you appear to say or do something you never said or did. AI is getting better, at it every day.
@@ -120,3 +120,11 @@ I am thinking of, for example, a somewhat dated legislation now, but out of Guer
 So it is not a legislation for nobodies.
 It is a legislation for persons who could establish that their persona was of value to begin with. Would you care to comment on that? Yes. This is exactly the thing that we need to change. Because three in four people that are affected by deepfakes are the ones that cannot defend themselves. They are the nobody as it was mentioned here, just like professors. But most of the people that are affected by deepfakes nowadays, there are women and children and they are not famous.
 So when we need about, when we think about legislation, we need to think about the less powerful parties. And that is very important to discuss because this is the right to exist. This is the right to express. If you are a singer, this is your way of living. But if someone uses your voice, this might be a lost contract. But if you are an average person and someone uses your voice and makes a video of you like in pornography, this is a moral thing.
+This destroys your public image. And I think that the next step here is to think about something global. That is how WIPO can join because it is an international organization. And just like United Nations, I think that we need to discuss how to empower the people. and how to make sure that authorization is required, how to make sure that these big companies, when they use your data to create something new, they do so in an authorized form.
+And here we have two modes. of operating. One is if they had used your data to train, that is very hard to prove. that someone uses your data to train. Even if you are like the most famous artist in the world, because these models are opaque. right?
+If you do not have access to the weights, there is no way you can check, oh, my painting was used, my photograph was used, my voice was used.
+It is very, very hard. Then the only way to act here is to have strong legislation about the authorized use.
+And then there is the second modus operandi. which is not in the history. It is from now on. So this is use.
+So suppose uses some data of you to train you do not know.
+But now if they use your artistic skills to create something, that is something that we need to take down right away if there is no authorization.
+See the case of Studio Ghibli, some time ago they like it was a fever in the world to create images in the Studio Ghibli -like.
