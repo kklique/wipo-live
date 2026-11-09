@@ -716,6 +716,7 @@ async function refreshProgram() {
 
 /* ---------- 저장 상태 (사람이 직접 확인: 수집·저장이 잘 되고 있는지) ---------- */
 let statusTimer = null;
+const integMiss = {};              // meeting -> 저장 파일이 기록보다 적게 처음 관측된 시각(ms). 20초 넘게 지속돼야 유실로 확정 (두 요청 사이에 커밋이 끼는 일시 불일치를 거르기 위함)
 const mins = (iso) => Math.max(0, Math.round((Date.now() - new Date(iso)) / 60000));
 const fmtAge = (m) => (m < 1 ? "방금" : m < 60 ? `${m}분 전` : `${Math.floor(m / 60)}시간 ${m % 60}분 전`);
 
@@ -758,10 +759,20 @@ async function refreshStatus() {
   const base = `transcripts/${meeting}`;
   try {
     if (!agenda) { try { const r = await fetch("agenda.json", { cache: "no-cache" }); if (r.ok) agenda = await r.json(); } catch (e) { /* 무시 */ } }
-    const [st, idxT, mk] = await Promise.all([getText(`${base}/state.json`).catch(() => null),
-      getText(`${base}/by_session/index.json`).catch(() => null), getText(`${base}/markers.jsonl`).catch(() => null)]);
+    const [st, idxT, mk, trT] = await Promise.all([getText(`${base}/state.json`).catch(() => null),
+      getText(`${base}/by_session/index.json`).catch(() => null), getText(`${base}/markers.jsonl`).catch(() => null),
+      getText(`${base}/transcript.txt`).catch(() => null)]);
     let state = null, idx = null;
     try { state = JSON.parse(st); } catch (e) { /* 없음 */ }
+    // 저장 파일 대조: 수집기가 '저장했다'고 기록한 문장 수(saved_lines) vs 실제 transcript.txt 줄 수.
+    // (사고 사례: 수집 위치는 계속 앞으로 가는데 파일이 늘지 않았다 -> 파일이 기록보다 적으면 유실 의심)
+    let integ = null;
+    if (state && Number.isInteger(state.saved_lines) && trT !== null) {
+      const fileLines = dropFiller(trT.split("\n").map((x) => x.trim()).filter((x) => x && !isNoise(x))).length;
+      const diff = state.saved_lines - fileLines;           // 양수: 파일이 기록보다 적음
+      if (diff > 8) { if (!integMiss[meeting]) integMiss[meeting] = Date.now(); } else delete integMiss[meeting];
+      integ = { saved: state.saved_lines, fileLines, diff, confirmed: diff > 30 || (!!integMiss[meeting] && Date.now() - integMiss[meeting] >= 20000) };
+    }
     try { idx = JSON.parse(idxT); if (idx && idx.clock) NAIVE_CLOCK = idx.clock; } catch (e) { /* 없음 */ }
     const [ahead, run] = await Promise.all([wipoAhead(state && state.next_line_number), latestCollectRun()]);
 
@@ -796,6 +807,10 @@ async function refreshStatus() {
         if (B && (Date.now() - B.lastData) / 60000 < 2) reasons.push("같은 회의의 다른 스트림은 진행 중입니다. 위 '회의 선택'에서 그쪽으로 바꾸세요(직접 고른 경우 자동 전환되지 않습니다)");
       }
     }
+    if (integ && integ.diff > 8) {
+      if (integ.confirmed) { kind = "err"; reasons.push(`저장 파일 유실 의심: 수집기는 ${integ.saved}줄을 저장했다고 기록했는데 저장 파일에는 ${integ.fileLines}줄뿐입니다 (${integ.diff}줄 부족). 수집 작업을 'rebuild=true' 로 다시 실행하세요`); }
+      else { if (kind === "ok") kind = "warn"; reasons.push(`저장 파일이 수집기 기록보다 ${integ.diff}줄 적습니다 (확인 중 - 다음 갱신에도 같으면 유실로 판단)`); }
+    }
     if (switchNote) reasons.push(switchNote);
     root.innerHTML = "";
     const v = document.createElement("div"); v.className = "verdict " + kind;
@@ -807,6 +822,9 @@ async function refreshStatus() {
     const cards = document.createElement("div"); cards.className = "cards";
     cards.appendChild(card("수집기 (마지막 저장)", state ? fmtAge(age) : "—", state ? `저장 위치 ${state.next_line_number}번 줄부터 이어받음` : "state.json 없음",
       !state ? "" : age > 6 && win ? "err" : age > 6 ? "warn" : "ok"));
+    cards.appendChild(card("저장 파일 대조", integ ? (integ.diff > 8 ? `${integ.diff}줄 부족` : "일치") : "대조 불가",
+      integ ? `수집기 기록 ${integ.saved}줄 / 저장 파일 ${integ.fileLines}줄` : "저장 문장 수가 기록되지 않은 수집 작업(구버전)이거나 파일이 없습니다",
+      integ ? (integ.diff > 8 ? (integ.confirmed ? "err" : "warn") : "ok") : ""));
     cards.appendChild(card("전체 스크립트", `${lines.length.toLocaleString()}문장`, `${words.toLocaleString()}단어 · 확정 문장만`, lines.length ? "ok" : ""));
     cards.appendChild(card("WIPO 대비", ahead === null ? "확인 불가" : ahead === 0 ? "동기화됨" : `${ahead}줄 저장 대기`,
       ahead === null ? "WIPO 응답 없음 (시작 전/종료 후이거나 접속 불가)" : "저장은 약 2분 간격이라 수 줄 대기는 정상",

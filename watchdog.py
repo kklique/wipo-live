@@ -80,6 +80,19 @@ def saved_state(data_dir, mid):
         return None, None
 
 
+def integrity(data_dir, mid):
+    """(수집기가 기록한 저장 문장 수, 실제 transcript.txt 줄 수). saved_lines 를 기록하지 않는 구버전 작업이면 None.
+    state.json 과 transcript.txt 는 같은 커밋에서 읽으므로 서로 일치해야 한다."""
+    try:
+        d = os.path.join(data_dir, "transcripts", mid)
+        n = json.load(open(os.path.join(d, "state.json"), encoding="utf-8")).get("saved_lines")
+        if not isinstance(n, int):
+            return None
+        return n, sum(1 for l in open(os.path.join(d, "transcript.txt"), encoding="utf-8") if l.strip())
+    except Exception:
+        return None
+
+
 def gh(args, dry, capture=True):
     if dry and args[0] in ("workflow", "issue", "run") and args[1] in ("run", "create", "cancel"):
         print("  [dry-run] gh " + " ".join(args))
@@ -220,6 +233,14 @@ def main():
             res = probe(mid, nxt or 1)
             action, reason = decide(mid, res, nxt, upd, runs, h in live, now, keep_alive=keep_h)
             print(f"- {mid[:12]}…{'_nd' if mid.endswith('_no_delay') else '   '} {('(' + name + ') ') if name else ''}저장위치={nxt} -> {action}: {reason}")
+            chk = integrity(a.data_dir, mid)
+            if chk and chk[0] - chk[1] > 8:      # 수집기가 저장했다고 기록한 줄 수보다 파일이 적다 = 파일 유실 의심
+                rc = 1
+                print(f"  ⚠ 저장 파일 불일치: 기록 {chk[0]}줄 / 파일 {chk[1]}줄")
+                open_issue(f"[watchdog] 저장 파일 불일치: {mid[:8]}{'_nd' if mid.endswith('_no_delay') else ''} {now_g:%Y-%m-%d}",
+                           f"- meeting_id: `{mid}`\n- 수집기가 저장했다고 기록한 문장 수: {chk[0]}줄 / 실제 transcript.txt: {chk[1]}줄 ({chk[0] - chk[1]}줄 부족)\n"
+                           f"- 시각: {now_g:%Y-%m-%d %H:%M} (Geneva)\n\n파일 유실이 의심됩니다. Actions 에서 `Collect WIPO live transcript` 를 "
+                           f"`meeting_id={mid}`, `rebuild=true` 로 다시 실행하면 WIPO 원본에서 저장본을 새로 만듭니다 (WIPO 는 지난 문장을 보관합니다).", a.dry_run)
             if action in ("dispatch", "restart"):
                 if action == "restart":
                     for r in runs:
