@@ -1,5 +1,10 @@
 # [d1-13] One-Stop Shop: Keeping up with IP and AI
 # 발표자: Ms. Rachel Free  (floor)
-# Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva) · 발언 1회 · 1문장 · 37단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 15:10-16:10 (Geneva) · 발언 1회 · 6문장 · 300단어 · 구분 방식: marker
 
 For the developments in IP office practice, the policymakers should have on their radar, we have invited Ms. Rachel Free, partner at CMS. Rachel, the floor is yours. Hello, everybody. Thank you very much for inviting me.
+My name is Rachel Free. I am a partner in an international law firm called CMS where we have a team of patent attorneys. I am going to tell you about three things. A UK Supreme Court case, using AI tools in patent application work and trends in prosecution of AI patent applications at the European Patent Office. Next slide, please. So in the UK, we have had a Supreme Court case where emotional perception is a company.
+They applied for a patent application. and it led to a Supreme Court case that has changed the law regarding patentability of computer implemented inventions in the United Kingdom. Next slide, please. This is the history. You can see some pictures from the patent application. It is all about a neural network. a neural network for recommending music tracks to people. The UK IPO refused the patent application.
+They said the invention was excluded as a program for a computer.
+But the High Court reversed that. They thought that potentially this avoided the exclusion and could be granted a patent. But the Court of Appeal overturned Next slide, please. There was an intervention and CMS represented the interveners.
+The interveners made the case for greater harmonization between the European Patent Office and the UK law, and many of those suggestions in the intervention were followed by the Supreme Court. The Supreme Court set out a new test. any hardware test. followed by an intermediate filtering step, and then the UK holistic test for inventive step. Next slide, please. So what are the implications of this?
