@@ -383,3 +383,15 @@ Can you hear me? Should we already ask people to 。
 I just want to hide my stress. Genitowski.
 Yeah. She's going to miss it out, so. This is so cool.
 No, no, I want to picture it up there. Yeah, he's my creature.
+
+## [d1-11] Optional Side Event - My Robot "Roommate"
+
+_Day 1 14:30-15:00 · Speaker: Ms. Emily Kate Genatowski_
+
+I know it. me everywhere. Why?
+Why did I do this?
+Is the very obvious and understandable question. So I am looking at three areas of intersection that intersect with life with a robot.
+So I look at legal regulation, institutional policy, and tangible and intangible infrastructure. And I go through life with my robot and I find every single place where that breaks down, doesn't work, is a disaster, and then I bring those stories to the public.
+I bring those stories to conferences and press and people who have the ability to affect change, and I let them know what actually happens when you bring a robot out of the lab and into real life. So what am I? If I'm living with a robot, what am I?
+Am I an engineer?
+Am I a coder? Am I a roboticist? I'm actually a historian. And being a historian, again, I love the laughter. being a historian who lives with a robot actually gives me a really sort of wonderful wide lens to look at history. because as we know, history repeats itself. right? We have a lot of these examples of all of these times throughout history when we had intense technological transformation.
