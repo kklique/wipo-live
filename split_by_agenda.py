@@ -12,6 +12,11 @@
      (ASR 오인식을 감안해 유사도 매칭, 휴식 세션은 '쉬겠다'는 안내 문장 다음부터)
   3) 단서가 없으면 예상 시각 이후 첫 문장
   4) --override d1-04=10:46:30 (Geneva 시각) 으로 수동 지정 가능. 어떤 방식으로 정했는지는 index.json 의 method 에 기록.
+발표자별 저장 (by_speaker/, 각 발표자의 발언만 모아 저장 -> 발표자별 AI 요약의 입력)
+  - 웹캐스트 발언자 마커(markers.jsonl: 이름/국가 + 시각)가 있으면 그 시각으로 발언자 교대를 나눈다 (가장 정확, 플로어 발언의 국가별 구분 포함).
+    마커 시각은 문장 시각(end_time_iso)과 같은 시계(CVC5 현지 시계)라 별도 보정 없이 비교한다.
+  - 마커가 없으면: 발표자가 1명이면 아젠더 기준, 패널이면 사회자의 호명 문장("…님 모시겠습니다")에서 이름을 잡아 나눈다(경계가 덜 정확).
+  - 산출물: by_speaker/<세션id>__<발표자>.txt, by_speaker/speakers.jsonl (세션 맥락 + 소속/역할 + 단어 수 + 본문)
 시계: 문장 시각(end_time_iso)이 UTC 인지 Geneva 현지시간인지는 수신 시각(ts)과 비교해 자동 판별 (--clock 으로 강제 가능).
 """
 import argparse
@@ -224,9 +229,169 @@ def split_day(day, lines, overrides):
     return out
 
 
-def slug(title):
+def slug(title, default="session"):
     s = re.sub(r"[^a-z0-9]+", "-", unicodedata.normalize("NFKD", title).encode("ascii", "ignore").decode().lower())
-    return s.strip("-")[:48] or "session"
+    return s.strip("-")[:48] or default
+
+
+# ---------------------------------------------------------------- 발표자별 분할
+INTRO = {"welcome", "invite", "invited", "turn", "over", "floor", "hear", "next", "please", "start", "begin",
+         "pass", "introduce", "joining", "give", "handing", "word", "now"}
+CHAIR_WORDS = {"chair", "chairperson", "chairman", "chairwoman", "vice", "moderator"}
+
+
+def read_markers(dirs):
+    """webcast 발언자 마커 (collect.py 의 markers.jsonl 의 new_markers) -> 시간순 [{t(naive), desc, person}]"""
+    seen, out = set(), []
+    for d in dirs:
+        p = os.path.join(d, "markers.jsonl")
+        if not os.path.exists(p):
+            continue
+        for ln in open(p, encoding="utf-8"):
+            try:
+                row = json.loads(ln)
+            except json.JSONDecodeError:
+                continue
+            for m in row.get("new_markers") or []:
+                k = json.dumps(m, sort_keys=True, ensure_ascii=False)
+                if k in seen:
+                    continue
+                seen.add(k)
+                try:
+                    t = datetime.fromisoformat(m["timestampCVC5"]).replace(tzinfo=None)
+                except (KeyError, ValueError):
+                    continue
+                out.append({"t": t, "desc": (m.get("description") or "").strip(), "person": "personId" in m})
+    out.sort(key=lambda m: m["t"])
+    return out
+
+
+def _real(p):
+    return bool(p) and p.get("name", "").strip().upper() != "TBC"
+
+
+def _label(p, role):
+    return (p["name"], p.get("affiliation", ""), role)
+
+
+def _item_people(item):
+    mod = item.get("moderator") if _real(item.get("moderator")) else None
+    spk = [p for p in item.get("speakers", []) if _real(p)]
+    return mod, spk
+
+
+def resolve_label(desc, item):
+    """마커 설명 -> (이름, 소속, 역할). 아젠더 인물과 맞으면 그 인물, 'CHAIR' 는 사회자, 그 외는 설명 그대로(국가/기관 등)."""
+    dt = toks(desc)
+    mod, spk = _item_people(item)
+    role_spk = "panelist" if item["type"] == "panel" else "speaker"
+    if dt and set(dt) <= CHAIR_WORDS:
+        return _label(mod, "moderator") if mod else ("Chair", "", "chair")
+    for p, role in ([(mod, "moderator")] if mod else []) + [(x, role_spk) for x in spk]:
+        if person_hit(person_tokens(p["name"]), dt):
+            return _label(p, role)
+    return (desc or "(미상)", "", "floor")
+
+
+def _match_pos(ptoks, ltoks):
+    pos = -1
+    for w in ptoks:
+        for i, t in enumerate(ltoks):
+            if (len(w) < 4 and w == t) or (len(w) >= 4 and abs(len(t) - len(w)) <= 2 and
+                                           difflib.SequenceMatcher(None, w, t).ratio() >= 0.84):
+                pos = max(pos, i)
+    return pos
+
+
+def _add(turns, label, line):
+    if turns and turns[-1]["label"][0] == label[0]:
+        turns[-1]["lines"].append(line)
+    else:
+        turns.append({"label": label, "lines": [line]})
+
+
+def build_turns(seg, item, markers, lead):
+    """세션 문장(seg)을 발언자 교대 단위로 나눈다. 반환: (turns, 방식)  turns=[{'label':(이름,소속,역할),'lines':[...]}]"""
+    mod, spk = _item_people(item)
+    role_spk = "panelist" if item["type"] == "panel" else "speaker"
+    raws = [l["raw"] for l in seg if l.get("raw")]
+    turns = []
+    # 1) 마커
+    if raws:
+        lo, hi = min(raws) - timedelta(seconds=lead), max(raws)
+        bounds = [(m["t"] - timedelta(seconds=lead), resolve_label(m["desc"], item))
+                  for m in markers if m["person"] and lo <= m["t"] <= hi]
+        if bounds:
+            cur = _label(mod, "moderator") if mod else (_label(spk[0], role_spk) if len(spk) == 1 else ("(진행/도입)", "", "unknown"))
+            bi = 0
+            for l in seg:
+                while bi < len(bounds) and l.get("raw") and l["raw"] >= bounds[bi][0]:
+                    cur = bounds[bi][1]; bi += 1
+                _add(turns, cur, l)
+            return turns, "marker"
+    # 2) 마커 없음: 발표자가 1명뿐이면 아젠더 기준
+    if len(spk) == 1 and not mod:
+        for l in seg:
+            _add(turns, _label(spk[0], role_spk), l)
+        return turns, "agenda"
+    # 3) 마커 없음: 패널 - 사회자의 호명 문장에서 이름을 잡아 교대
+    if spk and (mod or len(spk) > 1):
+        cur = _label(mod, "moderator") if mod else ("(진행/도입)", "", "unknown")
+        ptoks = {p["name"]: person_tokens(p["name"]) for p in spk}
+        switched = 0
+        for l in seg:
+            lt = l["ltoks"]; ls = set(lt)
+            hits = [(p, _match_pos(ptoks[p["name"]], lt)) for p in spk if person_hit(ptoks[p["name"]], lt)]
+            if hits and (INTRO & ls):
+                p = max(hits, key=lambda h: h[1])[0]
+                if cur[0] != p["name"]:
+                    switched += 1
+                _add(turns, _label(mod, "moderator") if mod else cur, l)   # 호명 문장은 사회자 발언, 교대는 다음 줄부터
+                cur = _label(p, role_spk)
+                continue
+            elif hits and ({"thank", "thanks"} & ls) and cur[2] == role_spk and any(h[0]["name"] == cur[0] for h in hits):
+                cur = _label(mod, "moderator") if mod else ("(진행/도입)", "", "unknown")
+            _add(turns, cur, l)
+        if switched:
+            return turns, "cue"
+    # 4) 구분 불가
+    turns = []
+    for l in seg:
+        _add(turns, ("(발표자 구분 불가)", "", "unknown"), l)
+    return turns, "none"
+
+
+def write_speakers(sp_dir, item, day, ent, turns, method, records):
+    """발표자(이름)별로 발언을 모아 파일/레코드로 저장하고 ent['speakers'] 를 채운다."""
+    by = {}
+    for t in turns:
+        by.setdefault(t["label"], []).append(t)
+    ent["speakers"], used = [], set()
+    for label, ts in by.items():
+        name, affil, role = label
+        key = f'{item["id"]}__{slug(name, "unknown")}'
+        base, k = key, 2
+        while key in used:
+            key = f"{base}-{k}"; k += 1
+        used.add(key)
+        lines = [l for t in ts for l in t["lines"]]
+        words = sum(len(l["text"].split()) for l in lines)
+        turn_info = [{"start": t["lines"][0]["t"].strftime("%H:%M:%S"), "end": t["lines"][-1]["t"].strftime("%H:%M:%S"),
+                      "line_from": t["lines"][0]["n"], "line_to": t["lines"][-1]["n"], "n_lines": len(t["lines"])} for t in ts]
+        text = "\n\n".join("\n".join(l["text"] for l in t["lines"]) for t in ts)
+        fn = key + ".txt"
+        head = [f'# [{item["id"]}] {item["title"]}',
+                f'# 발표자: {name}' + (f' — {affil}' if affil else "") + f'  ({role})',
+                f'# Day {day["day"]} · {day["date"]} · 예정 {item["start"]}-{item["end"]} (Geneva) · 발언 {len(ts)}회 · '
+                f'{len(lines)}문장 · {words:,}단어 · 구분 방식: {method}']
+        with open(os.path.join(sp_dir, fn), "w", encoding="utf-8") as f:
+            f.write("\n".join(head) + "\n\n" + text + "\n")
+        records.append({"id": key, "session_id": item["id"], "session_title": item["title"], "session_type": item["type"],
+                        "day": day["day"], "date": day["date"], "scheduled": f'{item["start"]}-{item["end"]}',
+                        "speaker": name, "affiliation": affil, "role": role, "method": method,
+                        "n_turns": len(ts), "n_lines": len(lines), "n_words": words, "turns": turn_info, "text": text})
+        ent["speakers"].append({"key": key, "name": name, "affiliation": affil, "role": role, "n_lines": len(lines),
+                                "n_words": words, "n_turns": len(ts), "file": fn, "method": method})
 
 
 def people_str(it):
@@ -247,6 +412,8 @@ def main():
     ap.add_argument("--clock", default="auto", help="auto | utc | geneva | receipt | offset:<초> (문장 시각+초=UTC)")
     ap.add_argument("--override", action="append", default=[], help="ID=HH:MM[:SS] (Geneva 시각) 시작 시각 수동 지정")
     ap.add_argument("--overrides-file", default=None, help='{"d1-04": "10:46:30"} 형태 JSON')
+    ap.add_argument("--speakers-out", default=None, help="기본: <out>의 형제 폴더 by_speaker")
+    ap.add_argument("--marker-lead", type=float, default=5.0, help="마커 시각보다 이만큼(초) 앞 문장부터 새 발언자로 본다")
     ap.add_argument("--quiet", action="store_true")
     a = ap.parse_args()
     out = a.out or os.path.join(a.inputs[0], "by_session")
@@ -265,14 +432,15 @@ def main():
         log("확정 문장(updates.jsonl)이 아직 없어 건너뜀")
         return 0
     clock, med, note = calibrate(rows, a.clock, agenda)
-    prev, lines = None, []
+    prev, lines, last_raw = None, [], None
     rows.sort(key=lambda r: (r["src"], r["n"] or 0))
     for r in rows:
         t = to_geneva(r, clock, prev)
         if prev is not None and t < prev:
             t = prev                      # 시간 역행 방지
         prev = t
-        lines.append({**r, "t": t, "ltoks": toks(r["text"])})
+        last_raw = r["end"] or last_raw    # 마커와 비교할 '원래 시계' 시각 (없으면 앞 문장 값)
+        lines.append({**r, "t": t, "raw": last_raw, "ltoks": toks(r["text"])})
     lines.sort(key=lambda l: l["t"])
     log(f"문장 {len(lines)}개 | 시계: {clock}" + (f" (수신-문장 중앙값 {med:.0f}s)" if med is not None else "") +
         (f" | {note}" if note else ""))
@@ -281,6 +449,13 @@ def main():
     for f in os.listdir(out):             # 이전 결과 정리
         if re.match(r"^d\d+-\d+_.*\.txt$", f) or f in ("index.json", "all_by_session.md"):
             os.remove(os.path.join(out, f))
+    sp_dir = a.speakers_out or os.path.join(os.path.dirname(os.path.abspath(out)), "by_speaker")
+    os.makedirs(sp_dir, exist_ok=True)
+    for f in os.listdir(sp_dir):
+        if re.match(r"^d\d+-\d+__.*\.txt$", f) or f == "speakers.jsonl":
+            os.remove(os.path.join(sp_dir, f))
+    markers = read_markers(a.inputs)
+    sp_records = []
 
     index, md = [], []
     used_dates = set()
@@ -311,6 +486,9 @@ def main():
                             f'{len(seg)}문장 · 경계 방식: {method}')
                 with open(os.path.join(out, fn), "w", encoding="utf-8") as f:
                     f.write("\n".join(head) + "\n\n" + "\n".join(l["text"] for l in seg) + "\n")
+                if it["type"] not in ("break", "social"):
+                    turns, smeth = build_turns(seg, it, markers, a.marker_lead)
+                    write_speakers(sp_dir, it, day, ent, turns, smeth, sp_records)
                 md.append(f'## [{it["id"]}] {it["title"]}\n\n_Day {day["day"]} {it["start"]}-{it["end"]}'
                           + (f' · {ent["people"]}' if ent["people"] else "") + "_\n\n"
                           + "\n".join(l["text"] for l in seg) + "\n")
@@ -322,6 +500,9 @@ def main():
                "clock_note": note, "items": index}, open(os.path.join(out, "index.json"), "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
     open(os.path.join(out, "all_by_session.md"), "w", encoding="utf-8").write("\n".join(md))
+    with open(os.path.join(sp_dir, "speakers.jsonl"), "w", encoding="utf-8") as f:
+        for rec in sp_records:
+            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
     for e in index:
         if e["n_lines"]:
             log(f'  {e["id"]:6} {e["start"]}-{e["end"]}  {e["n_lines"]:5}문장  {e["method"]:9} {e["title"][:60]}')
