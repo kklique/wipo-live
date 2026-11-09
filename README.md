@@ -32,6 +32,19 @@ WIPO Live Speech-to-Text(`webcast.wipo.int/live-speech-to-text`)의 영문 실�
 - **저장소가 public 이면 수집 결과(`data` 브랜치)와 Actions 로그가 모두 공개된다.** 공개를 원치 않으면 private 로 둘 것.
   (private 저장소는 무료 플랜 기준 월 Actions 사용 시간 한도가 있다.)
 
+## 저장 누락 방지 (안전장치)
+
+| 겹 | 장치 | 하는 일 |
+|---|---|---|
+| 1 | **수집기** (`collect.py`) | 저장된 줄 번호(`state.json`)부터 이어받음. 일시 오류/503 은 계속 재시도. 늦게 시작해도 WIPO 가 보관한 지난 문장을 1번부터 받아옴(`catchup` 표시). 줄 번호가 이어지지 않으면 `gap` 기록 + 경고 |
+| 2 | **수집 워크플로** | 수집기가 비정상 종료하면 작업 안에서 저장 위치부터 자동 재시작(20회 넘게 죽으면 작업 실패 처리). `start_line` 입력으로 특정 줄부터 다시 받을 수도 있음 |
+| 3 | **Watchdog** (`watchdog.yml`) | 행사 날짜(11/9–11) UTC 08–17시에 5분마다: 새 전사가 있는데 수집 작업이 없으면 **자동 시작**, 떠 있는데 12분 넘게 저장 위치가 안 바뀌면 **취소 후 재시작**. 러너에서 WIPO 접속 불가/반복 실패는 **GitHub 이슈**로 알림. 첫 수집 시작도 이슈로 알림 |
+
+Watchdog 은 기본 meeting_id(`db9f…`)와 webcast 에서 '진행 중'인 세션의 id, `data` 브랜치에 이미 있는 id 를 감시한다.
+다른 id(예: 11/11 AIII)는 진행 중 세션으로 자동 감지되며, 미리 지정하려면 Actions → Watchdog → Run workflow 의 `ids` 에 넣는다.
+`dry_run=true`, `ignore_window=true` 로 수동 점검(판단만 출력)할 수 있다.
+수집·분할 시계 판별은 라이브로 받은 줄 기준이며, 지난 문장을 한꺼번에 받은 경우에도 아젠더 첫 시각과 비교해 판별한다.
+
 ## 발표별 분할 (아젠더 기준) · 3일 일정
 
 `docs/agenda.json` 에 3일 일정을 넣어 두었다 (Geneva 시간). 출처는 공식 Provisional Program 두 개이며 TBC/시간은 바뀔 수 있으니 이 파일을 고치면 된다.

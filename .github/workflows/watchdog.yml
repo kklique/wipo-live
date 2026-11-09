@@ -1,0 +1,60 @@
+name: Watchdog (keep collecting)
+
+# 회의 시간대(UTC 08~17시, 11/9~11/11)에 5분마다: 새 전사가 있는데 수집이 안 돌고 있으면 자동으로 시작/재시작하고,
+# 이상이 있으면 GitHub 이슈로 알린다. 행사 날짜/시간대 밖에서는 아무것도 하지 않고 바로 종료한다.
+on:
+  schedule:
+    - cron: "*/5 8-17 9-11 11 *"
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "(선택) 추가로 감시할 meeting_id, 쉼표로 구분"
+        default: ""
+        required: false
+      dry_run:
+        description: "true 면 판단만 출력 (실행/이슈 생성 안 함)"
+        default: "false"
+        required: false
+      ignore_window:
+        description: "true 면 행사 시간대 검사를 건너뜀 (점검용)"
+        default: "false"
+        required: false
+
+concurrency:
+  group: watchdog
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  actions: write   # 수집 워크플로 실행/취소
+  issues: write    # 이상 알림 이슈
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch data branch (saved positions)
+        run: |
+          if git ls-remote --exit-code --heads origin data >/dev/null 2>&1; then
+            git fetch -q origin data
+            git worktree add ../data origin/data --detach
+          else
+            mkdir -p ../data
+          fi
+
+      - name: Watchdog
+        env:
+          MEETING_IDS: ${{ inputs.ids }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          IGNORE_WINDOW: ${{ inputs.ignore_window }}
+        run: |
+          ARGS="--data-dir ../data"
+          [ "$DRY_RUN" = "true" ] && ARGS="$ARGS --dry-run"
+          [ "$IGNORE_WINDOW" = "true" ] && ARGS="$ARGS --ignore-window"
+          python3 watchdog.py $ARGS

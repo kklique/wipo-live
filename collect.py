@@ -184,7 +184,8 @@ def main():
             for i, ln in enumerate(lines):
                 text = (ln.get("text") or "").strip()
                 emit({"ts": now(), "type": "final", "line_number": line_no + i,
-                      "end_time_iso": ln.get("end_time_iso"), "text": text})
+                      "end_time_iso": ln.get("end_time_iso"), "text": text,
+                      "batch": len(lines), "catchup": len(lines) > 3})   # 한 번에 많이 받았다 = 지난 문장 따라잡기
                 if text:
                     txt.write(text + "\n")
                 print(f"[F {line_no + i}] {text}", flush=True)
@@ -193,6 +194,10 @@ def main():
                 last_change = time.monotonic()
 
             nxt = d.get("next_line_number")
+            expected = line_no + len(lines)
+            if isinstance(nxt, int) and nxt != expected:     # 줄 번호가 이어지지 않음 = 누락 가능성
+                emit({"ts": now(), "type": "gap", "from": line_no, "expected_next": expected, "next_line_number": nxt})
+                print(f"[{now()}] 경고: 줄 번호 불연속 (예상 {expected}, 응답 {nxt})", flush=True)
             if isinstance(nxt, int) and nxt >= line_no:
                 line_no = nxt
             else:
