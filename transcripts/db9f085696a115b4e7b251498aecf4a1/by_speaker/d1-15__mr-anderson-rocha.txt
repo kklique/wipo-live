@@ -1,6 +1,6 @@
 # [d1-15] Protecting What Makes us Human - Is IP the Answer?
 # 발표자: Mr. Anderson Rocha — Full Professor of Artificial Intelligence and Digital Forensics, University of Campinas, Head, Recod.ai Artificial Intelligence Lab, Brazil  (panelist)
-# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 3회 · 24문장 · 1,080단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 3회 · 27문장 · 1,227단어 · 구분 방식: marker
 
 How do artists, can they be given greater autonomy and meaningful choices about their identity, including their face and voice and their creative output used by AI systems? Thank you, everyone, for being here.
 Thank you for the great question. I think that we are living in a very interesting time of our history. As it was said before, the whole IP system was developed to protect what we make, right? So I make this music, I create this image.
@@ -28,3 +28,6 @@ And then there is the second modus operandi. which is not in the history. It is 
 So suppose uses some data of you to train you do not know.
 But now if they use your artistic skills to create something, that is something that we need to take down right away if there is no authorization.
 See the case of Studio Ghibli, some time ago they like it was a fever in the world to create images in the Studio Ghibli -like.
+So people just used that. They assumed. there was authorization or they did not even care. But that is something that we need to think about. Because if we do not do anything, like in three, four years, 90% of the content online will be synthetic.
+This is fact.
+Right now it is 57% of the content online. is synthetic or touched by AI. In three to five years, it is going to be 90%. So now everything is going to be synthetic, nine out of ten objects. How can we ensure that creativity is present? How can we make sure that the humanity of it is present? Just to close this. my wife has a very interesting saying. She says that she is a ceramist, she is an artist, and she says that Every piece she does, she makes, it is made with her own hands.

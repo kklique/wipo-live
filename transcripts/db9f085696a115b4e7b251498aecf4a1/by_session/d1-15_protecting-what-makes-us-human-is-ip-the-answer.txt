@@ -1,7 +1,7 @@
 # [d1-15] Protecting What Makes us Human - Is IP the Answer?
 # Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva)
 # Moderator: Ms. Natalie Corthésy | Speakers: Mr. Anderson Rocha; Ms. Kalpana Tyagi; Mr. Jakob Plesner Mathiasen; Mr. Marco Bassini; Ms. Imogen Heap
-# 실제 구간 16:54:25-17:42:12 · 125문장 · 경계 방식: marker
+# 실제 구간 16:54:25-17:44:26 · 130문장 · 경계 방식: marker
 
 So we reconvene at 4.45. See you in 15. Thank you very much. Welcome back from the coffee break. So let's get started.
 I hope you had a chance of another caffeine to recharge your battery? and the next session is going to personal. Imagine someone using AI to recreate your face. your voice, your your memories, perhaps even to make you appear to say or do something you never said or did. AI is getting better, at it every day.
@@ -128,3 +128,8 @@ And then there is the second modus operandi. which is not in the history. It is 
 So suppose uses some data of you to train you do not know.
 But now if they use your artistic skills to create something, that is something that we need to take down right away if there is no authorization.
 See the case of Studio Ghibli, some time ago they like it was a fever in the world to create images in the Studio Ghibli -like.
+So people just used that. They assumed. there was authorization or they did not even care. But that is something that we need to think about. Because if we do not do anything, like in three, four years, 90% of the content online will be synthetic.
+This is fact.
+Right now it is 57% of the content online. is synthetic or touched by AI. In three to five years, it is going to be 90%. So now everything is going to be synthetic, nine out of ten objects. How can we ensure that creativity is present? How can we make sure that the humanity of it is present? Just to close this. my wife has a very interesting saying. She says that she is a ceramist, she is an artist, and she says that Every piece she does, she makes, it is made with her own hands.
+It carries all of her history. and it is full of the defects. but those are human defects. And those defects make the piece unique. Thank you. I absolutely love that. I hope I will have an opportunity to see her work. Well, I want to come back to Marco, if I may. I want to shift the discussion a little bit to the positive sides around this technology that is deepfake.
+surely there is a silver lining somewhere we are optimistic. that the technology can, in fact, if properly mobilized regulated can inure to the benefit of everyone, which is indeed hope that we offer incentives with a view to bringing that innovation the benefit of the wider public.

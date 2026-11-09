@@ -467,6 +467,20 @@
       "timestamp": "03:18:25",
       "timestampCVC5": "2026-11-09T16:38:25",
       "timestampSeconds": 11905
+    },
+    {
+      "description": "Ms. Natalie Corthésy",
+      "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+      "timestamp": "03:22:50",
+      "timestampCVC5": "2026-11-09T16:42:50",
+      "timestampSeconds": 12170
+    },
+    {
+      "description": "Mr. Marco Bassini",
+      "personId": "9c88cfe9-aa83-4392-9656-57e8ab082717",
+      "timestamp": "03:24:09",
+      "timestampCVC5": "2026-11-09T16:44:09",
+      "timestampSeconds": 12249
     }
   ],
   "markers_grouped": {
@@ -854,6 +868,20 @@
                     "timestamp": "03:18:25",
                     "timestampCVC5": "2026-11-09T16:38:25",
                     "timestampSeconds": 11905
+                  },
+                  {
+                    "description": "Ms. Natalie Corthésy",
+                    "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+                    "timestamp": "03:22:50",
+                    "timestampCVC5": "2026-11-09T16:42:50",
+                    "timestampSeconds": 12170
+                  },
+                  {
+                    "description": "Mr. Marco Bassini",
+                    "personId": "9c88cfe9-aa83-4392-9656-57e8ab082717",
+                    "timestamp": "03:24:09",
+                    "timestampCVC5": "2026-11-09T16:44:09",
+                    "timestampSeconds": 12249
                   }
                 ],
                 "subjectId": "5c4b21a8-f209-492f-9b8f-4996178c9dab",
