@@ -527,9 +527,9 @@
     {
       "description": "Ms. Natalie Corthésy",
       "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
-      "timestamp": "03:35:21",
-      "timestampCVC5": "2026-11-09T16:55:21",
-      "timestampSeconds": 12921
+      "timestamp": "03:35:09",
+      "timestampCVC5": "2026-11-09T16:55:09",
+      "timestampSeconds": 12909
     },
     {
       "description": "Floor Interventions from Member States and Observers ",
@@ -548,9 +548,9 @@
     {
       "description": "UNITED ARAB EMIRATES",
       "personId": "ed027126-7cb8-4188-8688-ac407025e46b",
-      "timestamp": "03:40:17",
-      "timestampCVC5": "2026-11-09T17:00:17",
-      "timestampSeconds": 13217
+      "timestamp": "03:39:19",
+      "timestampCVC5": "2026-11-09T16:59:19",
+      "timestampSeconds": 13159
     }
   ],
   "markers_grouped": {
@@ -998,9 +998,9 @@
                   {
                     "description": "Ms. Natalie Corthésy",
                     "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
-                    "timestamp": "03:35:21",
-                    "timestampCVC5": "2026-11-09T16:55:21",
-                    "timestampSeconds": 12921
+                    "timestamp": "03:35:09",
+                    "timestampCVC5": "2026-11-09T16:55:09",
+                    "timestampSeconds": 12909
                   }
                 ],
                 "subjectId": "5c4b21a8-f209-492f-9b8f-4996178c9dab",
@@ -1025,9 +1025,9 @@
                   {
                     "description": "UNITED ARAB EMIRATES",
                     "personId": "ed027126-7cb8-4188-8688-ac407025e46b",
-                    "timestamp": "03:40:17",
-                    "timestampCVC5": "2026-11-09T17:00:17",
-                    "timestampSeconds": 13217
+                    "timestamp": "03:39:19",
+                    "timestampCVC5": "2026-11-09T16:59:19",
+                    "timestampSeconds": 13159
                   }
                 ],
                 "subjectId": "2d4252da-0e34-410e-84b5-d5708b851831",

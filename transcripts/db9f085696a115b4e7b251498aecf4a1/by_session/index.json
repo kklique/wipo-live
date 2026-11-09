@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T17:00:49+00:00",
+ "generated": "2026-11-09T17:02:52+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -823,13 +823,13 @@
    "start": "17:25",
    "end": "17:55",
    "people": "",
-   "n_lines": 6,
+   "n_lines": 7,
    "method": "marker",
    "file": "d1-16_floor-interventions-from-member-states-and-obser.txt",
    "actual_start": "2026-11-09T17:56:34+01:00",
-   "actual_end": "2026-11-09T18:00:09+01:00",
+   "actual_end": "2026-11-09T18:02:46+01:00",
    "line_from": 2044,
-   "line_to": 2049,
+   "line_to": 2050,
    "speakers": [
     {
      "key": "d1-16__unknown",
@@ -851,6 +851,17 @@
      "n_words": 277,
      "n_turns": 1,
      "file": "d1-16__h-e-mr-kairat-torebayev.txt",
+     "method": "marker"
+    },
+    {
+     "key": "d1-16__united-arab-emirates",
+     "name": "UNITED ARAB EMIRATES",
+     "affiliation": "",
+     "role": "floor",
+     "n_lines": 1,
+     "n_words": 194,
+     "n_turns": 1,
+     "file": "d1-16__united-arab-emirates.txt",
      "method": "marker"
     }
    ]
