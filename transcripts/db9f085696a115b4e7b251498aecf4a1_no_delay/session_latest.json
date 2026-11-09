@@ -341,6 +341,20 @@
       "timestamp": "02:41:32",
       "timestampCVC5": "2026-11-09T11:31:32",
       "timestampSeconds": 9692
+    },
+    {
+      "description": "Mr. Edward Lee",
+      "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+      "timestamp": "02:44:44",
+      "timestampCVC5": "2026-11-09T11:34:44",
+      "timestampSeconds": 9884
+    },
+    {
+      "description": "Ms. Chijioke Okorie",
+      "personId": "5696e288-9c75-4194-836f-0268cf746678",
+      "timestamp": "02:45:22",
+      "timestampCVC5": "2026-11-09T11:35:22",
+      "timestampSeconds": 9922
     }
   ],
   "markers_grouped": {
@@ -608,6 +622,20 @@
                     "timestamp": "02:41:32",
                     "timestampCVC5": "2026-11-09T11:31:32",
                     "timestampSeconds": 9692
+                  },
+                  {
+                    "description": "Mr. Edward Lee",
+                    "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+                    "timestamp": "02:44:44",
+                    "timestampCVC5": "2026-11-09T11:34:44",
+                    "timestampSeconds": 9884
+                  },
+                  {
+                    "description": "Ms. Chijioke Okorie",
+                    "personId": "5696e288-9c75-4194-836f-0268cf746678",
+                    "timestamp": "02:45:22",
+                    "timestampCVC5": "2026-11-09T11:35:22",
+                    "timestampSeconds": 9922
                   }
                 ],
                 "subjectId": "59023b79-b078-455c-a939-254b6858c034",
@@ -623,6 +651,13 @@
   },
   "name": "First Global Forum on Intellectual Property and Artificial Intelligence - WIPO IP-AI GEN 26 - Day 1 Morning",
   "people": [
+    {
+      "bio": "Prof. Chijioke Okorie is an associate professor in the Department of Private<br>Law at the University of Pretoria, South Africa, where she leads the Data<br>Science Law Lab, a research group that deploys research in law and<br>produces evidence and policy advice to support the growth of all aspects of<br>data science research and application across Africa. An established<br>researcher rated C2 by South Africa’s National Research Foundation,<br>Chijioke’s work explores the intersection of intellectual property (IP) law,<br>digital technologies, and innovation policy in Africa. Chijioke is also a barrister and solicitor of<br>the supreme court of Nigeria. Chijioke is associate editor of South African Intellectual Property<br>Law Journal, and the author of several articles and resources on intellectual property and<br>information justice issues in Africa including the NOODL Licence [Nwulite Obodo Open Data<br>Licence] designed for equitable open licensing of African datasets. More information about<br>Chijioke can be found at www.chijiokeo.com;",
+      "email": "",
+      "id": "5696e288-9c75-4194-836f-0268cf746678",
+      "name": "Ms. Chijioke Okorie",
+      "photoUrl": "https://amcpwewipoassets.blob.core.windows.net/assets/eb991839-4ef9-4934-9b4d-90e002e1f155.PNG"
+    },
     {
       "bio": "Executive Director of the Emory Empathetic AI for Health Institute and Robert W. Woodruff Professor of Biomedical Engineering, Emory University, United States of America\nDr. Anant Madabhushi is the Robert W Woodruff Professor of Biomedical Engineering; and on the faculty in the Departments of Pathology, Biomedical Informatics, Urology and Radiology and Imaging Sciences at Emory University. He is a researcher within the Cancer Immunology program at the Winship Cancer Center and also a Research Career Scientist at the Atlanta Veterans Administration Medical Center. Dr. Madabhushi has authored over 500 peer-reviewed publications and more than 200 patents issued or pending.\nHe is a Fellow of the American Institute of Medical and Biological Engineering (AIMBE), Fellow of the Institute for Electrical and Electronic Engineers (IEEE), Fellow of the American Association for Advancement of Science (AAAS) and a Fellow of the National Academy of Inventors (NAI). His work on \"Smart Imaging Computers for Identifying lung cancer patients who need chemotherapy\" was called out by Prevention Magazine as one of the top 10 medical breakthroughs of 2018. In 2019, Nature Magazine hailed him as one of 5 scientists developing \"offbeat and innovative approaches for cancer research\". Dr. Madabhushi was named to The Pathologist’s Power List in 2019, 2020, 2021 and 2022.",
       "email": "",
