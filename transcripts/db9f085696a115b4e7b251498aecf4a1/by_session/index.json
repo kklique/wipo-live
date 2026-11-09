@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T16:54:43+00:00",
+ "generated": "2026-11-09T16:56:45+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -738,22 +738,22 @@
    "start": "16:25",
    "end": "17:25",
    "people": "Moderator: Ms. Natalie Corthésy | Speakers: Mr. Anderson Rocha; Ms. Kalpana Tyagi; Mr. Jakob Plesner Mathiasen; Mr. Marco Bassini; Ms. Imogen Heap",
-   "n_lines": 158,
+   "n_lines": 166,
    "method": "marker",
    "file": "d1-15_protecting-what-makes-us-human-is-ip-the-answer.txt",
    "actual_start": "2026-11-09T16:54:25+01:00",
-   "actual_end": "2026-11-09T17:54:31+01:00",
+   "actual_end": "2026-11-09T17:56:34+01:00",
    "line_from": 1879,
-   "line_to": 2036,
+   "line_to": 2044,
    "speakers": [
     {
      "key": "d1-15__ms-natalie-corthesy",
      "name": "Ms. Natalie Corthésy",
      "affiliation": "Associate Dean of Teaching and Learning, Senior Lecturer in Law, The University of the West Indies, Mona Campus, Jamaica",
      "role": "moderator",
-     "n_lines": 32,
-     "n_words": 1878,
-     "n_turns": 14,
+     "n_lines": 36,
+     "n_words": 2017,
+     "n_turns": 15,
      "file": "d1-15__ms-natalie-corthesy.txt",
      "method": "marker"
     },
@@ -762,9 +762,9 @@
      "name": "Mr. Anderson Rocha",
      "affiliation": "Full Professor of Artificial Intelligence and Digital Forensics, University of Campinas, Head, Recod.ai Artificial Intelligence Lab, Brazil",
      "role": "panelist",
-     "n_lines": 27,
-     "n_words": 1227,
-     "n_turns": 3,
+     "n_lines": 31,
+     "n_words": 1367,
+     "n_turns": 4,
      "file": "d1-15__mr-anderson-rocha.txt",
      "method": "marker"
     },

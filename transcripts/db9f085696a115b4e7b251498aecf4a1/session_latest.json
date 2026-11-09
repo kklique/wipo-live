@@ -509,6 +509,27 @@
       "timestamp": "03:30:16",
       "timestampCVC5": "2026-11-09T16:50:16",
       "timestampSeconds": 12616
+    },
+    {
+      "description": "Ms. Natalie Corthésy",
+      "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+      "timestamp": "03:34:15",
+      "timestampCVC5": "2026-11-09T16:54:15",
+      "timestampSeconds": 12855
+    },
+    {
+      "description": "Mr Anderson Rocha",
+      "personId": "9fdbaca0-1d09-4fdd-a838-b33eb0557286",
+      "timestamp": "03:34:30",
+      "timestampCVC5": "2026-11-09T16:54:30",
+      "timestampSeconds": 12870
+    },
+    {
+      "description": "Ms. Natalie Corthésy",
+      "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+      "timestamp": "03:35:21",
+      "timestampCVC5": "2026-11-09T16:55:21",
+      "timestampSeconds": 12921
     }
   ],
   "markers_grouped": {
@@ -938,6 +959,27 @@
                     "timestamp": "03:30:16",
                     "timestampCVC5": "2026-11-09T16:50:16",
                     "timestampSeconds": 12616
+                  },
+                  {
+                    "description": "Ms. Natalie Corthésy",
+                    "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+                    "timestamp": "03:34:15",
+                    "timestampCVC5": "2026-11-09T16:54:15",
+                    "timestampSeconds": 12855
+                  },
+                  {
+                    "description": "Mr Anderson Rocha",
+                    "personId": "9fdbaca0-1d09-4fdd-a838-b33eb0557286",
+                    "timestamp": "03:34:30",
+                    "timestampCVC5": "2026-11-09T16:54:30",
+                    "timestampSeconds": 12870
+                  },
+                  {
+                    "description": "Ms. Natalie Corthésy",
+                    "personId": "2ab9470e-135d-40b3-ae73-08df3b2598d3",
+                    "timestamp": "03:35:21",
+                    "timestampCVC5": "2026-11-09T16:55:21",
+                    "timestampSeconds": 12921
                   }
                 ],
                 "subjectId": "5c4b21a8-f209-492f-9b8f-4996178c9dab",

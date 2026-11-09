@@ -1,6 +1,6 @@
 # [d1-15] Protecting What Makes us Human - Is IP the Answer?
 # 발표자: Mr. Anderson Rocha — Full Professor of Artificial Intelligence and Digital Forensics, University of Campinas, Head, Recod.ai Artificial Intelligence Lab, Brazil  (panelist)
-# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 3회 · 27문장 · 1,227단어 · 구분 방식: marker
+# Day 1 · 2026-11-09 · 예정 16:25-17:25 (Geneva) · 발언 4회 · 31문장 · 1,367단어 · 구분 방식: marker
 
 How do artists, can they be given greater autonomy and meaningful choices about their identity, including their face and voice and their creative output used by AI systems? Thank you, everyone, for being here.
 Thank you for the great question. I think that we are living in a very interesting time of our history. As it was said before, the whole IP system was developed to protect what we make, right? So I make this music, I create this image.
@@ -31,3 +31,8 @@ See the case of Studio Ghibli, some time ago they like it was a fever in the wor
 So people just used that. They assumed. there was authorization or they did not even care. But that is something that we need to think about. Because if we do not do anything, like in three, four years, 90% of the content online will be synthetic.
 This is fact.
 Right now it is 57% of the content online. is synthetic or touched by AI. In three to five years, it is going to be 90%. So now everything is going to be synthetic, nine out of ten objects. How can we ensure that creativity is present? How can we make sure that the humanity of it is present? Just to close this. my wife has a very interesting saying. She says that she is a ceramist, she is an artist, and she says that Every piece she does, she makes, it is made with her own hands.
+
+And for that, we need to have some kind of protection, which I see as a unifying threat, for example, because the question was about deepfakes.
+So from a performance perspective, if you look at the Rome Convention, for example, and go for the extra protection that it can offer for the impersonation of the performer's interest. Thank you so much.
+Well, we are just about out of time.
+Anderson, final two words. Okay, I still have one hour to speak. I would say that key lesson today for me at least is that education is the most important thing. If we put education upfront, people will know what is going on. and they can get organized and they can claim their protection. Without education, then we cannot do anything. The IP discussions, the law discussions, the regulation, the uses.
