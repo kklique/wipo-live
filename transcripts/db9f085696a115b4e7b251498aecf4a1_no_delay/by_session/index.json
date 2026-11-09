@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T14:13:56+00:00",
+ "generated": "2026-11-09T14:15:57+00:00",
  "clock": "utc",
  "clock_note": "",
  "items": [
@@ -236,13 +236,13 @@
    "start": "10:55",
    "end": "11:05",
    "people": "Speaker: Mr. Anant Madabhushi",
-   "n_lines": 28,
+   "n_lines": 29,
    "method": "marker",
    "file": "d1-05_showcase-1-ai-in-action-from-ideas-to-real-world.txt",
    "actual_start": "2026-11-09T11:41:19+01:00",
-   "actual_end": "2026-11-09T15:13:26+01:00",
+   "actual_end": "2026-11-09T15:13:55+01:00",
    "line_from": 248,
-   "line_to": 828,
+   "line_to": 829,
    "speakers": [
     {
      "key": "d1-05__unknown",
@@ -282,8 +282,8 @@
      "name": "Mr. Cristian Léon",
      "affiliation": "",
      "role": "floor",
-     "n_lines": 20,
-     "n_words": 1004,
+     "n_lines": 21,
+     "n_words": 1070,
      "n_turns": 1,
      "file": "d1-05__mr-cristian-leon.txt",
      "method": "marker"
@@ -581,9 +581,37 @@
    "start": "15:10",
    "end": "16:10",
    "people": "Speakers: Mr. Andres Guadamuz; Mr. Wang Qian; Mr. Edward Lee",
-   "n_lines": 0,
-   "method": "not-reached",
-   "file": null
+   "n_lines": 2,
+   "method": "cue",
+   "file": "d1-13_one-stop-shop-keeping-up-with-ip-and-ai.txt",
+   "actual_start": "2026-11-09T15:14:44+01:00",
+   "actual_end": "2026-11-09T15:15:25+01:00",
+   "line_from": 830,
+   "line_to": 831,
+   "speakers": [
+    {
+     "key": "d1-13__unknown",
+     "name": "(진행/도입)",
+     "affiliation": "",
+     "role": "unknown",
+     "n_lines": 1,
+     "n_words": 70,
+     "n_turns": 1,
+     "file": "d1-13__unknown.txt",
+     "method": "cue"
+    },
+    {
+     "key": "d1-13__mr-edward-lee",
+     "name": "Mr. Edward Lee",
+     "affiliation": "Professor of Law, Santa Clara University School of Law, United States of America",
+     "role": "panelist",
+     "n_lines": 1,
+     "n_words": 48,
+     "n_turns": 1,
+     "file": "d1-13__mr-edward-lee.txt",
+     "method": "cue"
+    }
+   ]
   },
   {
    "id": "d1-14",
