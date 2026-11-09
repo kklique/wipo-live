@@ -1,7 +1,7 @@
 # [d1-08] Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?
 # Day 1 · 2026-11-09 · 예정 11:40-12:50 (Geneva)
 # Moderator: Mr. Stanley Lai | Speakers: Ms. Chijioke Okorie; Ms. Myrtha Hurtado Rivas; Mr. Gaétan de Rassenfosse; Mr. Antony Taubman; Ms. Caroline Gueye
-# 실제 구간 12:07:23-13:11:02 · 163문장 · 경계 방식: cue
+# 실제 구간 12:07:23-13:13:02 · 172문장 · 경계 방식: cue
 
 Welcome back. to our forum. I hope AI finds some way to serve coffee faster and better. So I hope you had a chance to recharge, connect with your colleagues over the coffee and that you now fully caffeinated because we are about to tackle some rather big questions. For the first super session.
 For our first super session, we are going back to the first principle. before we ask whether the IP systems is fit for the age of AI, perhaps we should start with a more fundamental questions. What is Intellectual Property actually for? Encouraging innovation and creativity. rewarding human ingenuity, sharing knowledge, supporting economic development, preserving culture, serving the public interests.
@@ -166,3 +166,12 @@ All of that needs to be assessed together. And so I think today already we see t
 Thank you. Professor Katan, maybe I can ask you AI capability is ultimately concentrated in a few firms. that control compute data and the models, and we can see how the rise of data centers can itself be such a controversial political topic in recent times. Thus, Intellectual Property reinforce that incumbency or temper it?
 And are there lessons from the standard essential patterns and friend licensing paradigms to access training data or models.
 What is your view? To be honest on the first question, what is the role of IP in that concentration of power.
+I think it is IP secondary importance because there are so many things that matter so much more, like the quality of human capital, the quality I mean, the amount of VC investment you know, a local cluster of innovation, Silicon Valley or China versus elsewhere. But now, can we learn something indeed from standard essential patents, patent pools? in terms of arranging licensing agreements across essentially producers.
+and users or implementers of technologies. I think we can, but I think, but in two ways.
+So we know things that work in terms of front terms. but we also know that, let's say, front terms are very vaguely defined, and so that creates a lot of frictions in litigation eventually. And so at the end of the day, you solve a problem and you create another.
+Likewise for patent pools, patent pools allow the coordination of actors by pulling their IP under specific regimes. But at the same time, there are players outside of button pools that then start having disproportionate power.
+And that creates another set of frictions. So we can learn a lot from this. The main difference that I see is between implementors, I mean between the standard essential patterns. and let's say the creative industry or I mean it is books and copyrights and it is essentially the fragmentation of actors.
+So we have a huge fragmentation of actors, both user and implementers. or end users as opposed to SCPs where the ecosystem is fairly well defined. And so I think that fragmentation will actually be a huge problem for coordination.
+There will be a lot of free riding around the central ecosystem which may defeat the purpose of coordination. And not just rewriting but also relying on Can I turn it back to you, if you can hear us?
+Thank you.
+Since you are in WTO now, let me ask you a TRIPS question.

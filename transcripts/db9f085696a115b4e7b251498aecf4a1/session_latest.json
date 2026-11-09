@@ -509,6 +509,13 @@
       "timestamp": "03:20:21",
       "timestampCVC5": "2026-11-09T12:10:21",
       "timestampSeconds": 12021
+    },
+    {
+      "description": "Mr. Edward Lee",
+      "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+      "timestamp": "03:22:13",
+      "timestampCVC5": "2026-11-09T12:12:13",
+      "timestampSeconds": 12133
     }
   ],
   "markers_grouped": {
@@ -944,6 +951,13 @@
                     "timestamp": "03:20:21",
                     "timestampCVC5": "2026-11-09T12:10:21",
                     "timestampSeconds": 12021
+                  },
+                  {
+                    "description": "Mr. Edward Lee",
+                    "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+                    "timestamp": "03:22:13",
+                    "timestampCVC5": "2026-11-09T12:12:13",
+                    "timestampSeconds": 12133
                   }
                 ],
                 "subjectId": "59023b79-b078-455c-a939-254b6858c034",
