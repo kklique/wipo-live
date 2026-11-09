@@ -523,6 +523,20 @@
       "timestamp": "03:23:10",
       "timestampCVC5": "2026-11-09T12:13:10",
       "timestampSeconds": 12190
+    },
+    {
+      "description": "Mr. Edward Lee",
+      "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+      "timestamp": "03:28:21",
+      "timestampCVC5": "2026-11-09T12:18:21",
+      "timestampSeconds": 12501
+    },
+    {
+      "description": "CHAIR",
+      "personId": "ec07df79-cc36-48c1-acea-301e6dddfad4",
+      "timestamp": "03:29:14",
+      "timestampCVC5": "2026-11-09T12:19:14",
+      "timestampSeconds": 12554
     }
   ],
   "markers_grouped": {
@@ -972,6 +986,20 @@
                     "timestamp": "03:23:10",
                     "timestampCVC5": "2026-11-09T12:13:10",
                     "timestampSeconds": 12190
+                  },
+                  {
+                    "description": "Mr. Edward Lee",
+                    "personId": "d562c637-4924-46a9-ae72-08df3b2598d3",
+                    "timestamp": "03:28:21",
+                    "timestampCVC5": "2026-11-09T12:18:21",
+                    "timestampSeconds": 12501
+                  },
+                  {
+                    "description": "CHAIR",
+                    "personId": "ec07df79-cc36-48c1-acea-301e6dddfad4",
+                    "timestamp": "03:29:14",
+                    "timestampCVC5": "2026-11-09T12:19:14",
+                    "timestampSeconds": 12554
                   }
                 ],
                 "subjectId": "59023b79-b078-455c-a939-254b6858c034",
