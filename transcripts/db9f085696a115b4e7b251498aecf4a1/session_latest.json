@@ -404,6 +404,20 @@
       "timestamp": "03:05:10",
       "timestampCVC5": "2026-11-09T16:25:10",
       "timestampSeconds": 11110
+    },
+    {
+      "description": "Mr. Marco Bassini",
+      "personId": "9c88cfe9-aa83-4392-9656-57e8ab082717",
+      "timestamp": "03:06:32",
+      "timestampCVC5": "2026-11-09T16:26:32",
+      "timestampSeconds": 11192
+    },
+    {
+      "description": "Ms. Imogen Heap",
+      "personId": "87c3553d-f577-44f4-bda2-a39a350d74d5",
+      "timestamp": "03:07:40",
+      "timestampCVC5": "2026-11-09T16:27:40",
+      "timestampSeconds": 11260
     }
   ],
   "markers_grouped": {
@@ -728,6 +742,20 @@
                     "timestamp": "03:05:10",
                     "timestampCVC5": "2026-11-09T16:25:10",
                     "timestampSeconds": 11110
+                  },
+                  {
+                    "description": "Mr. Marco Bassini",
+                    "personId": "9c88cfe9-aa83-4392-9656-57e8ab082717",
+                    "timestamp": "03:06:32",
+                    "timestampCVC5": "2026-11-09T16:26:32",
+                    "timestampSeconds": 11192
+                  },
+                  {
+                    "description": "Ms. Imogen Heap",
+                    "personId": "87c3553d-f577-44f4-bda2-a39a350d74d5",
+                    "timestamp": "03:07:40",
+                    "timestampCVC5": "2026-11-09T16:27:40",
+                    "timestampSeconds": 11260
                   }
                 ],
                 "subjectId": "5c4b21a8-f209-492f-9b8f-4996178c9dab",
