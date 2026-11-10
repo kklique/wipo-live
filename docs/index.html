@@ -162,12 +162,15 @@
   .chip[aria-pressed=true] { background: var(--accent); color: var(--on-accent); border-color: var(--accent); }
   .script p { margin: 0 0 10px; font-size: 16px; line-height: 1.65; }
   .script .note { font-size: 12px; color: var(--muted); margin-top: 12px; }
-  :root { --ko-bg: #1f1f23; --ko-fg: #f5f5f7; --ko-key: #7ab8ff; }                  /* 한국어 번역은 어두운 바탕에 흰 글자 (눈의 피로 줄이기) */
-  @media (prefers-color-scheme: dark) { :root { --ko-bg: #2a2a2f; } }
+  /* 한국어 번역 읽기용 색: 순백/순흑 대신 푸른 기가 도는 슬레이트 바탕(#20242b)에 부드러운 회백색 글자(#d9dce2).
+     대비 약 11:1 (AAA 7:1 이상이면서 눈부심은 적음), 강조 구절만 더 밝게(#fff) + 연한 파랑 밑줄 */
+  :root { --ko-bg: #20242b; --ko-fg: #d9dce2; --ko-key: #8ab4f8; --ko-line: rgba(255,255,255,.07); }
+  @media (prefers-color-scheme: dark) { :root { --ko-bg: #262b33; } }
   .script .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 0; padding: 5px 0; border-bottom: 0; }
   .script .pair p { margin: 0; padding: 11px 0; }
-  .script .pair p.ko, #transcript .pair p.ko { background: var(--ko-bg); color: var(--ko-fg); border-radius: 12px; padding: 11px 18px; }
-  .pair p.ko strong.key { text-decoration-color: var(--ko-key); }
+  .script .pair p.ko, #transcript .pair p.ko { background: var(--ko-bg); color: var(--ko-fg); border: 1px solid var(--ko-line); border-radius: 12px; padding: 12px 18px;
+    font-size: 16.5px; line-height: 1.8; letter-spacing: -0.003em; word-break: keep-all; overflow-wrap: break-word; }     /* 한글은 어절 단위로 줄바꿈 */
+  .pair p.ko strong.key { color: #fff; text-decoration-color: var(--ko-key); }
   .script .colhead .kohead { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
   .script .colhead .kohead .btn-sum { font-weight: 600; }
   .script .colhead { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; font-size: 12px; color: var(--muted); align-items: center;
