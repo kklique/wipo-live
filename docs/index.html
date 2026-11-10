@@ -21,6 +21,7 @@
       --frost: rgba(0,0,0,.72);
     }
   }
+  :root { --wrap: min(1840px, max(80vw, 700px)); }                       /* 프로그램 화면과 머리글이 함께 쓰는 가로 폭 (넓은 화면에서 80%) */
   * { box-sizing: border-box; }
   html { -webkit-text-size-adjust: 100%; }
   body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.5 var(--font); letter-spacing: -0.01em;
@@ -30,7 +31,8 @@
 
   /* 머리글: 반투명 sub-nav (제목 + 탭) */
   header { position: sticky; top: 0; z-index: 5; background: var(--frost); -webkit-backdrop-filter: saturate(180%) blur(20px);
-           backdrop-filter: saturate(180%) blur(20px); border-bottom: 1px solid var(--line); padding: 14px 24px 10px; }
+           backdrop-filter: saturate(180%) blur(20px); border-bottom: 1px solid var(--line); padding: 14px 0 10px; }
+  .head-row, header > .bar { max-width: var(--wrap); margin-left: auto; margin-right: auto; padding-left: 24px; padding-right: 24px; }
   .head-row { display: flex; flex-wrap: wrap; gap: 10px 24px; align-items: center; justify-content: space-between; }
   h1 { font-size: 21px; line-height: 1.2; margin: 0; font-weight: 600; letter-spacing: -0.015em; }
   .subtitle { font-size: 14px; color: var(--muted); margin: 2px 0 0; }
@@ -46,7 +48,7 @@
   button:active, .btn-video:active { transform: scale(.95); }
   label.chk { font-size: 14px; color: var(--muted); display: inline-flex; gap: 6px; align-items: center; }
   input[type=checkbox] { accent-color: var(--accent); width: 16px; height: 16px; }
-  .tabs { display: flex; gap: 4px; flex-wrap: wrap; }
+  .tabs { display: flex; gap: 4px; flex-wrap: wrap; margin-left: auto; }          /* 줄이 바뀌어도 오른쪽 끝에 붙음 */
   .tab { border: 0; border-radius: 9999px; background: transparent; padding: 7px 16px; font-weight: 600; color: var(--muted); }
   .tab:hover { color: var(--accent); border: 0; }
   .tablink { text-decoration: none; display: inline-block; font-size: 14px; line-height: 1.3; }
@@ -60,7 +62,7 @@
   .menu a span { grid-column: 1; font-size: 13px; color: var(--muted); }
   .menu a i { grid-column: 2; grid-row: 1 / span 2; font-style: normal; color: var(--accent); font-size: 14px; }
   .tab[aria-selected=true] { background: var(--accent); color: var(--on-accent); }
-  #status { font-size: 13px; color: var(--muted); padding: 10px 24px 0; max-width: 1840px; margin: 0 auto; }
+  #status { font-size: 13px; color: var(--muted); padding: 10px 24px 0; max-width: var(--wrap); margin: 0 auto; }
   #status .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--muted); margin-right: 8px; }
   #status.ok .dot { background: var(--ok); }
   #status.err .dot { background: var(--err); }
@@ -70,6 +72,12 @@
   #status.ok .badge { background: var(--ok); color: #fff; animation: pulse 1.6s ease-in-out infinite; }
   #status.warn .badge { background: var(--warn); color: #fff; }
   @keyframes pulse { 50% { opacity: .55; } }
+
+  /* 푸터 (Apple 가이드: 파치먼트 바탕, 12px 작은 글씨, 헤어라인) */
+  #site-footer { margin-top: 56px; border-top: 1px solid var(--line); background: var(--bg); color: var(--muted); font-size: 12px; line-height: 1.7; padding: 26px 0 44px; }
+  #site-footer .foot-in { max-width: var(--wrap); margin: 0 auto; padding: 0 24px; }
+  #site-footer p { margin: 0 0 4px; }
+  #site-footer .foot-org { color: var(--fg); font-weight: 600; font-size: 13px; margin-bottom: 8px; }
 
   /* 실시간 탭 */
   #live-wrap { max-width: 980px; margin: 0 auto; padding: 12px 24px 16px; position: relative; }
@@ -122,7 +130,7 @@
   .tbl td.n, .tbl th.n { text-align: right; font-variant-numeric: tabular-nums; }
 
   /* 프로그램 탭 */
-  #program-wrap { max-width: min(1840px, max(80vw, 700px)); margin: 0 auto; padding: 16px 24px 64px; }      /* 넓은 화면에서는 가로 80% 정도만 써서 한 줄이 너무 길지 않게 */
+  #program-wrap { max-width: var(--wrap); margin: 0 auto; padding: 16px 24px 64px; }      /* 넓은 화면에서는 가로 80% 정도만 써서 한 줄이 너무 길지 않게 */
   .day { margin-bottom: 40px; }
   .day h2 { font-size: 30px; line-height: 1.15; margin: 28px 0 4px; font-weight: 600; letter-spacing: -0.02em; }
   .day .ev { color: var(--muted); font-size: 14px; margin-bottom: 12px; }
@@ -223,7 +231,9 @@
   #transcript .pair p { margin: 0; padding: 11px 0 11px 52px; }
   #transcript .pair p.ko { padding: 11px 18px; }
   @media (max-width: 900px) {
-    header { padding: 12px 16px 8px; }
+    header { padding: 12px 0 8px; }
+    .head-row, header > .bar { padding-left: 16px; padding-right: 16px; }
+    #site-footer .foot-in { padding: 0 16px; }
     #program-wrap, #status-wrap, #live-wrap, main { padding-left: 16px; padding-right: 16px; }
     #status { padding-left: 16px; padding-right: 16px; }
     .day h2 { font-size: 26px; }
@@ -326,6 +336,13 @@
   </aside>
 </main>
 
+<footer id="site-footer">
+  <div class="foot-in">
+    <p class="foot-org">지식재산처 IP-AX 추진단 / Designed by Buyong JEONG(2026-11-09)</p>
+    <p>이 서비스는 지식재산처 공식 누리집은 아니며, 개인 프로젝트로 시범 운영 중입니다.</p>
+    <p>WIPO(세계지식재산기구)에서 개최된 국제컨퍼런스(2026.11.09~11.11)의 스크립트를 수집하여 AI로 번역, 요약, 재구성한 사이트입니다. 원문은 WIPO 해당 웹사이트를 참조하시기 바랍니다.</p>
+  </div>
+</footer>
 <dialog id="sumdlg" class="pop" aria-label="한글 AI요약"></dialog>
 <dialog id="profdlg" class="pop" aria-label="연사 프로필"></dialog>
 <script>
