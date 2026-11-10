@@ -129,6 +129,10 @@
                      margin: 4px 0 6px; font-weight: 600; }
   .script .acts label.chk { display: inline-flex; gap: 6px; align-items: center; font-size: 13px; }
   .script .spkhead { margin: 0 0 10px; font-size: 14px; }
+  .btn-sum { background: #2563eb; color: #fff; border-color: #2563eb; font-weight: 600; }
+  .btn-sum:hover { background: #1d4ed8; border-color: #1d4ed8; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .btn-sum { background: #3b82f6; border-color: #3b82f6; }
+    :root:not([data-theme="light"]) .btn-sum:hover { background: #2563eb; border-color: #2563eb; } }
   .namebtn { background: none; border: 0; padding: 0; margin: 0; font: inherit; color: var(--accent); cursor: pointer;
              text-decoration: underline dotted; text-underline-offset: 3px; }
   .namebtn:hover { text-decoration-style: solid; }
@@ -930,7 +934,7 @@ function renderScriptText(panel, id, text, e, view, extra) {
   const paras = e && e.official ? (spObj ? spObj.paras : e.paras) : null;
   const sum = sums ? (spObj ? (sums.speakers || {})[spObj.key] : (sums.sessions || {})[id]) : null;
   if (sum) {                                              // 한글 요약 팝업
-    const sb = document.createElement("button"); sb.type = "button"; sb.textContent = "한글 요약";
+    const sb = document.createElement("button"); sb.type = "button"; sb.className = "btn-sum"; sb.textContent = "한글 요약";
     sb.addEventListener("click", () => showSummary(spObj ? `${spObj.name} · 한글 요약` : `${e.title} · 한글 요약`,
       spObj ? e.title : "", sum));
     acts.appendChild(sb);
