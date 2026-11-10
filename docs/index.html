@@ -127,10 +127,23 @@
   .day h2 { font-size: 30px; line-height: 1.15; margin: 28px 0 4px; font-weight: 600; letter-spacing: -0.02em; }
   .day .ev { color: var(--muted); font-size: 14px; margin-bottom: 12px; }
   .vid-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
-  .items { background: var(--card); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; }
+  .items { background: var(--card); border: 1px solid var(--line); border-radius: 18px; overflow: clip; }      /* clip: 모서리는 자르되 sticky 는 유지 */
   .item { border-bottom: 1px solid var(--soft); }
   .item:last-child { border-bottom: 0; }
-  .item-row { display: grid; grid-template-columns: 112px 1fr auto; gap: 12px; padding: 16px 22px; align-items: start; }
+  :root { --hdr: 0px; --open-bg: #eef5fd; }
+  @media (prefers-color-scheme: dark) { :root { --open-bg: #11263a; } }
+  .item { scroll-margin-top: calc(var(--hdr) + 8px); }
+  .item-row { display: grid; grid-template-columns: 22px 112px minmax(0, 1fr) auto auto; gap: 10px 12px; padding: 16px 22px; align-items: start; cursor: pointer; }
+  .item-row .chev { display: inline-flex; color: var(--muted); padding-top: 3px; transition: transform .15s ease, color .15s ease; }
+  .item.open > .item-row { background: var(--open-bg); position: sticky; top: var(--hdr); z-index: 4; border-bottom: 1px solid var(--line); }
+  .item.open > .item-row .chev { transform: rotate(90deg); color: var(--accent); }
+  .item.open .item-title { color: var(--accent); }
+  .row-acts { display: none; gap: 6px; align-items: center; }
+  .item.open .row-acts { display: flex; }
+  .row-acts button { font-size: 13px; padding: 4px 12px; }
+  .row-acts .close { color: var(--accent); border-color: var(--accent); font-weight: 600; }
+  .script-foot { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--line); align-items: center; }
+  .script-foot .sp { flex-grow: 1; }
   .item-time { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 14px; padding-top: 2px; }
   .item-title { background: none; border: 0; padding: 0; text-align: left; color: var(--fg); cursor: pointer;
                 font: inherit; font-size: 17px; font-weight: 600; line-height: 1.35; letter-spacing: -0.015em; border-radius: 0; }
@@ -152,15 +165,20 @@
   .script .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 0; padding: 14px 0; border-bottom: 1px solid var(--line); }
   .script .pair:last-of-type { border-bottom: 0; }
   .script .pair p { margin: 0; }
-  .script .colhead { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; font-size: 12px; color: var(--muted);
+  .script .colhead .kohead { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .script .colhead .kohead .btn-sum { font-weight: 600; }
+  .script .colhead { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; font-size: 12px; color: var(--muted); align-items: center;
                      margin: 4px 0 2px; font-weight: 600; letter-spacing: .02em; text-transform: none; }
   .script .acts label.chk { display: inline-flex; gap: 6px; align-items: center; font-size: 14px; margin-left: 4px; }
   .script .spkhead { margin: 0 0 12px; font-size: 15px; }
   /* 버튼: 파란 필(주요) / 윤곽 필(보조) — 강조색은 파랑 하나 */
+  strong.key { font-weight: 700; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; text-decoration-color: var(--accent); }
   .btn-sum, .btn-video { display: inline-flex; align-items: center; gap: 6px; border-radius: 9999px; text-decoration: none;
                          font-size: 14px; font-weight: 600; padding: 7px 16px; line-height: 1.3; }
-  .btn-sum { background: var(--accent); color: var(--on-accent); border: 1px solid var(--accent); }
-  .btn-sum:hover { background: var(--accent-press); border-color: var(--accent-press); color: var(--on-accent); }
+  .btn-sum { background: #7c3aed; color: #fff; border: 1px solid #7c3aed; }                        /* 보라색 (사용자 지정) */
+  .btn-sum:hover { background: #6d28d9; border-color: #6d28d9; color: #fff; }
+  @media (prefers-color-scheme: dark) { .btn-sum { background: #8b5cf6; border-color: #8b5cf6; }
+    .btn-sum:hover { background: #7c3aed; border-color: #7c3aed; } }
   .btn-video { background: transparent; color: var(--accent) !important; border: 1px solid var(--accent); }
   .btn-video:hover { background: var(--accent); color: var(--on-accent) !important; }
   .vid-row .btn-video { background: var(--accent); color: var(--on-accent) !important; padding: 10px 22px; font-size: 15px; }
@@ -206,7 +224,7 @@
     .script .pair, #transcript .pair, .script .colhead { grid-template-columns: 1fr; gap: 6px; }
     .script .pair p.ko, #transcript .pair p.ko { padding-left: 0; color: var(--muted); }
     #transcript .pair p { padding-left: 0; }
-    .script .colhead { display: none; }
+    .script .colhead > div:first-child { display: none; }
     .pop-body .pp, .pop-body .colhead { grid-template-columns: 1fr; gap: 4px; }
     .pop-body .pp p.ko { color: var(--muted); }
     main { grid-template-columns: 1fr; }
@@ -217,8 +235,10 @@
     header { position: static; }
     .tabs { flex-wrap: nowrap; overflow-x: auto; width: 100%; -webkit-overflow-scrolling: touch; }
     .tab { white-space: nowrap; padding: 7px 14px; }
-    .item-row { grid-template-columns: 1fr; gap: 4px; padding: 14px 16px; }
-    .pill-wrap { grid-column: 1; }
+    .item-row { grid-template-columns: 22px minmax(0, 1fr); gap: 4px 8px; padding: 14px 16px; }
+    .item-row .item-time, .item-row .item-mid, .item-row .pill-wrap, .item-row .row-acts { grid-column: 2; }
+    .item-row .chev { grid-row: 1; grid-column: 1; }
+    .item.open > .item-row { top: 0; position: static; }
     .pill { margin: 0 6px 0 0; }
     .script { padding: 16px; }
     h1 { font-size: 18px; }
@@ -251,6 +271,7 @@
       <input id="q" type="search" placeholder="검색 (일치하는 문장만 표시)" aria-label="검색">
       <label class="chk"><input id="follow" type="checkbox" checked>맨 아래 따라가기</label>
       <label id="ko-wrap" class="chk" hidden><input id="ko-toggle" type="checkbox" checked>한글 번역</label>
+      <label id="hl-wrap" class="chk" hidden><input id="hl-toggle" type="checkbox" checked>핵심 강조</label>
       <select id="official" hidden aria-label="전체 저장본 종류" title="WIPO 가 행사 후 배포한 공식 verbatim 스크립트 (실시간 수집분과 별도 보관)"></select>
       <button id="dl" type="button">.txt 저장</button>
       <button id="copy" type="button">복사</button>
@@ -298,7 +319,7 @@
   </aside>
 </main>
 
-<dialog id="sumdlg" class="pop" aria-label="한글 요약"></dialog>
+<dialog id="sumdlg" class="pop" aria-label="한글 AI요약"></dialog>
 <dialog id="profdlg" class="pop" aria-label="연사 프로필"></dialog>
 <script>
 "use strict";
@@ -401,7 +422,7 @@ let query = "";
 let follow = true;
 let savedTimer = null;
 
-function addLine(text, n, parent) {
+function addLine(text, n, parent, phrases) {
   const p = document.createElement("p");
   const mHead = /^▌ \[([\d:]+)\]\s*(.*)$/.exec(text);
   if (/^[■▌] /.test(text)) p.className = "hd" + (text[0] === "■" ? " sec" : "");     // 공식본의 안건/발언자 표지 줄
@@ -419,18 +440,21 @@ function addLine(text, n, parent) {
       p.appendChild(m); i = j + query.length;
     }
     p.appendChild(document.createTextNode(text.slice(i)));
+  } else if (phrases) {
+    fillKey(p, text, phrases);
   } else {
     p.appendChild(document.createTextNode(text));
   }
   (parent || el.tr).appendChild(p);
   return p;
 }
-let officialKo = null;                                      // 공식본 보는 중일 때 한글 번역 {단락번호: 번역}
+let officialKo = null, officialHl = null;                                      // 공식본 보는 중일 때 한글 번역 {단락번호: 번역}
 function addOfficial(text, i, parNo) {                      // 공식본 한 줄 (표지는 한 줄, 단락은 번역과 나란히)
-  if (/^[■▌] /.test(text) || !officialKo || !koOn) return addLine(text, i + 1);
+  const h = (hlOn && officialHl && !/^[■▌] /.test(text) && !query) ? officialHl[String(parNo)] : null;
+  if (/^[■▌] /.test(text) || !officialKo || !koOn) return addLine(text, i + 1, null, h && h.en);
   const row = document.createElement("div"); row.className = "pair";
-  addLine(text, i + 1, row);
-  const k = document.createElement("p"); k.className = "ko"; k.textContent = officialKo[String(parNo)] || "";
+  addLine(text, i + 1, row, h && h.en);
+  const k = document.createElement("p"); k.className = "ko"; fillKey(k, officialKo[String(parNo)] || "", h && h.ko);
   row.appendChild(k); el.tr.appendChild(row);
 }
 
@@ -568,10 +592,10 @@ async function refreshSaved() {
     await loadOfficialList();
     if (officialKey) {
       const t = await getLocal(`official/${officialKey}/transcript.txt`);
-      officialKo = await loadKo(officialKey); await loadProfiles();
+      officialKo = await loadKo(officialKey); officialHl = await loadHl(officialKey); await loadProfiles();
       applyTranscript(t || ""); applyMarkers(null);
       setStatus("full", "ok", "공식본", `WIPO 공식 verbatim 스크립트(행사 후 배포본) · ${lines.length.toLocaleString()}줄 (■ 안건 · ▌ 발언자 표지 포함)` +
-        `${officialKo && koOn ? " · 한국어는 AI 번역" : ""} · 발언자 이름을 누르면 프로필 · 위 선택에서 '실시간 수집분'을 고르면 돌아갑니다`);
+        `${officialKo && koOn ? " · 한국어는 AI 번역" : ""}${officialHl && hlOn ? " · 굵은 밑줄은 AI가 고른 핵심 구절" : ""} · 발언자 이름을 누르면 프로필 · 위 선택에서 '실시간 수집분'을 고르면 돌아갑니다`);
       return;
     }
     const [t, m, st] = await Promise.all([getText(`${base}/transcript.txt`), getText(`${base}/markers.jsonl`).catch(() => null),
@@ -844,6 +868,29 @@ function showSummary(title, sub, s) {
   fn.textContent = "AI(Claude)가 공식 전사본을 바탕으로 작성한 요약입니다. 전사본 자체가 기계 생성본이라 부정확한 부분이 있을 수 있습니다."; body.appendChild(fn);
   dlg.showModal();
 }
+const hlCache = {};
+async function loadHl(key) {                                   // 핵심 구절 {단락번호: {en:[...], ko:[...]}} (AI가 고른 것)
+  if (hlCache[key] !== undefined) return hlCache[key];
+  try { hlCache[key] = JSON.parse((await getLocal(`official/${key}/highlights.json`)) || "null"); } catch (e) { hlCache[key] = null; }
+  return hlCache[key];
+}
+function fillKey(node, text, phrases) {                        // text 안의 핵심 구절을 굵은 밑줄(<strong class="key">)로 감싸 node 에 채운다
+  const spans = [];
+  for (const ph of phrases || []) {
+    const i = ph ? text.indexOf(ph) : -1;
+    if (i >= 0 && !spans.some((x) => i < x[1] && i + ph.length > x[0])) spans.push([i, i + ph.length]);
+  }
+  spans.sort((a, b) => a[0] - b[0]);
+  let pos = 0;
+  for (const [a, b] of spans) {
+    if (a > pos) node.appendChild(document.createTextNode(text.slice(pos, a)));
+    const st = document.createElement("strong"); st.className = "key"; st.textContent = text.slice(a, b); node.appendChild(st);
+    pos = b;
+  }
+  if (pos < text.length) node.appendChild(document.createTextNode(text.slice(pos)));
+}
+let hlOn = true;
+try { hlOn = localStorage.getItem("hlOn") !== "0"; } catch (e) { /* 저장소 없음 */ }
 let koOn = true;
 try { koOn = localStorage.getItem("koOn") !== "0"; } catch (e) { /* 저장소 없음 */ }
 
@@ -949,15 +996,26 @@ function buildProgram() {
       box.className = "item" + (["break", "social"].includes(it.type) ? " dim" : "");
       box.dataset.id = it.id; box.dataset.date = day.date;
       const row = document.createElement("div"); row.className = "item-row";
+      const chev = document.createElement("span"); chev.className = "chev"; chev.setAttribute("aria-hidden", "true");
+      chev.innerHTML = '<svg width="16" height="16" viewBox="0 0 16 16"><path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>';
       const tm = document.createElement("div"); tm.className = "item-time"; tm.textContent = `${it.start}–${it.end}`;
-      const mid = document.createElement("div");
+      const mid = document.createElement("div"); mid.className = "item-mid";
       const btn = document.createElement("button"); btn.type = "button"; btn.className = "item-title"; btn.textContent = it.title;
-      btn.addEventListener("click", () => toggleScript(it.id));
+      btn.setAttribute("aria-expanded", "false");
       mid.appendChild(btn);
       const pl = peopleLine(it);
       if (pl) { const pe = document.createElement("div"); pe.className = "item-people"; pe.appendChild(pl); mid.appendChild(pe); }
       const pw = document.createElement("div"); pw.className = "pill-wrap";
-      row.appendChild(tm); row.appendChild(mid); row.appendChild(pw);
+      const acts = document.createElement("div"); acts.className = "row-acts";      // 펼친 행에서만 보이는 이동·접기 단추 (행이 상단에 고정됨)
+      const mkb = (label, cls, fn, title) => { const b = document.createElement("button"); b.type = "button"; b.textContent = label; if (cls) b.className = cls; if (title) b.title = title; b.addEventListener("click", fn); acts.appendChild(b); };
+      mkb("▲ 이전", "", () => openAdjacent(it.id, -1), "이전 스크립트 발표로");
+      mkb("다음 ▼", "", () => openAdjacent(it.id, +1), "다음 스크립트 발표로");
+      mkb("접기", "close", () => toggleScript(it.id), "이 발표 접기 (Esc)");
+      row.appendChild(chev); row.appendChild(tm); row.appendChild(mid); row.appendChild(pw); row.appendChild(acts);
+      row.addEventListener("click", (ev) => {                  // 행 어디를 눌러도 펼침/접힘 (이름·링크·단추는 제외)
+        if (ev.target.closest(".namebtn, a, .row-acts, label, input")) return;
+        toggleScript(it.id);
+      });
       const sc = document.createElement("div"); sc.className = "script"; sc.hidden = true;
       box.appendChild(row); box.appendChild(sc); list.appendChild(box);
     }
@@ -988,8 +1046,8 @@ function updatePills() {
 }
 
 function renderScriptText(panel, id, text, e, view, extra) {
-  const ko = (extra && extra.ko) || null, sums = (extra && extra.sums) || null;
-  const key = view + ":" + koOn + ":" + (ko ? 1 : 0) + ":" + String(text.length) + ":" + text.slice(-40);
+  const ko = (extra && extra.ko) || null, sums = (extra && extra.sums) || null, hl = (extra && extra.hl) || null;
+  const key = view + ":" + koOn + ":" + hlOn + ":" + (ko ? 1 : 0) + ":" + (hl ? 1 : 0) + ":" + String(text.length) + ":" + text.slice(-40);
   if (panel.dataset.key === key) return;
   panel.dataset.key = key;
   panel.innerHTML = "";
@@ -1036,41 +1094,68 @@ function renderScriptText(panel, id, text, e, view, extra) {
   acts.appendChild(dl); acts.appendChild(cp);
   const paras = e && e.official ? (spObj ? spObj.paras : e.paras) : null;
   const sum = sums ? (spObj ? (sums.speakers || {})[spObj.key] : (sums.sessions || {})[id]) : null;
-  if (sum) {                                              // 한글 요약 팝업
-    const sb = document.createElement("button"); sb.type = "button"; sb.className = "btn-sum"; sb.textContent = "한글 요약";
-    sb.addEventListener("click", () => showSummary(spObj ? `${spObj.name} · 한글 요약` : `${e.title} · 한글 요약`,
+  let sb = null;                                          // 한글 AI요약 팝업 단추 (한글 전문 열이 있으면 그 맨 위, 없으면 단추 줄)
+  if (sum) {
+    sb = document.createElement("button"); sb.type = "button"; sb.className = "btn-sum"; sb.textContent = "한글 AI요약";
+    sb.addEventListener("click", () => showSummary(spObj ? `${spObj.name} · 한글 AI요약` : `${e.title} · 한글 AI요약`,
       spObj ? e.title : "", sum));
-    acts.appendChild(sb);
   }
   const canPair = !!(ko && paras && paras.length === body.length);
+  const hlAt = (i) => (hlOn && hl && paras && paras.length === body.length) ? (hl[String(paras[i])] || null) : null;   // i번째 단락의 핵심 구절
+  if (hl && paras && paras.length === body.length) {          // 핵심 구절 강조 켜고 끄기
+    const lab = document.createElement("label"); lab.className = "chk";
+    const cb = document.createElement("input"); cb.type = "checkbox"; cb.checked = hlOn;
+    cb.addEventListener("change", () => setHlOn(cb.checked));
+    lab.appendChild(cb); lab.appendChild(document.createTextNode("핵심 강조 (AI 선정)")); acts.appendChild(lab);
+  }
   if (canPair) {                                          // 영어/한국어 나란히 보기 켜고 끄기
     const lab = document.createElement("label"); lab.className = "chk";
     const cb = document.createElement("input"); cb.type = "checkbox"; cb.checked = koOn;
     cb.addEventListener("change", () => setKoOn(cb.checked));
     lab.appendChild(cb); lab.appendChild(document.createTextNode("한글 번역 함께 보기")); acts.appendChild(lab);
   }
+  if (sb && !(canPair && koOn)) acts.appendChild(sb);
   panel.appendChild(m); panel.appendChild(acts);
   if (canPair && koOn) {
     const ch = document.createElement("div"); ch.className = "colhead";
-    ch.innerHTML = "<div>English · WIPO 공식 전사본</div><div>한국어 · AI 번역 (Claude)</div>"; panel.appendChild(ch);
+    ch.innerHTML = "<div>English · WIPO 공식 전사본</div><div class=\"kohead\"><span>한국어 · AI 번역 (Claude)</span></div>";
+    if (sb) ch.querySelector(".kohead").appendChild(sb);                     // 한글 전문 바로 위
+    panel.appendChild(ch);
     body.forEach((l, i) => {
       const row = document.createElement("div"); row.className = "pair";
-      const en = document.createElement("p"); en.textContent = l;
-      const k = document.createElement("p"); k.className = "ko"; k.textContent = ko[String(paras[i])] || "";
+      const h = hlAt(i);
+      const en = document.createElement("p"); fillKey(en, l, h && h.en);
+      const k = document.createElement("p"); k.className = "ko"; fillKey(k, ko[String(paras[i])] || "", h && h.ko);
       row.appendChild(en); row.appendChild(k); panel.appendChild(row);
     });
   } else {
-    for (const l of body) { const p = document.createElement("p"); p.textContent = l; panel.appendChild(p); }
+    body.forEach((l, i) => { const p = document.createElement("p"); const h = hlAt(i); fillKey(p, l, h && h.en); panel.appendChild(p); });
   }
   const n = document.createElement("div"); n.className = "note";
   n.textContent = e && e.official
     ? "WIPO 가 행사 후 배포한 공식 verbatim 스크립트를 문서의 안건·발언자 표지 그대로 나눈 것입니다. (기계 생성 전사본이라 정확성이 보장되지는 않습니다.)" +
-      (canPair ? " 한국어는 AI 번역이며 단락 단위로 영어와 나란히 놓았습니다." : "")
+      (canPair ? " 한국어는 AI 번역이며 단락 단위로 영어와 나란히 놓았습니다." : "") +
+      (hl ? " 굵은 밑줄은 AI(Claude)가 고른 핵심 구절입니다." : "")
     : "아젠더 시간표와 발표자 이름 언급으로 자동 분할한 결과라, 앞뒤 경계의 몇 문장은 어긋날 수 있습니다." +
       (view !== "all" ? " 발표자별 구분은 웹캐스트 발언자 마커(있을 때) 또는 사회자의 호명 문장을 기준으로 합니다." : "");
   panel.appendChild(n);
+  const foot = document.createElement("div"); foot.className = "script-foot";             // 긴 스크립트를 다 읽은 뒤 위로 올라가지 않고 바로 접기/이동
+  const fb = (label, fn, cls) => { const b = document.createElement("button"); b.type = "button"; b.textContent = label; if (cls) b.className = cls; b.addEventListener("click", fn); foot.appendChild(b); };
+  fb("▲ 맨 위로", () => document.querySelector(`#program .item[data-id="${id}"]`).scrollIntoView({ block: "start", behavior: "smooth" }));
+  const sp = document.createElement("span"); sp.className = "sp"; foot.appendChild(sp);
+  fb("▲ 이전 발표", () => openAdjacent(id, -1));
+  fb("다음 발표 ▼", () => openAdjacent(id, +1));
+  fb("접기", () => toggleScript(id), "btn-sum");
+  panel.appendChild(foot);
 }
 
+function setHlOn(v) {                                      // 핵심 강조 켜기/끄기
+  hlOn = !!v;
+  try { localStorage.setItem("hlOn", hlOn ? "1" : "0"); } catch (e) { /* 저장소 없음 */ }
+  const t = $("hl-toggle"); if (t) t.checked = hlOn;
+  for (const id of progOpen) { const bx = document.querySelector(`#program .item[data-id="${id}"] .script`); if (bx) bx.dataset.key = ""; loadScript(id); }
+  if (officialKey) { lines = []; refreshSaved(); }
+}
 function setKoOn(v) {                                      // 번역 보기 켜기/끄기 (프로그램 탭과 전체 저장본 탭 공통)
   koOn = !!v;
   try { localStorage.setItem("koOn", koOn ? "1" : "0"); } catch (e) { /* 저장소 없음 */ }
@@ -1101,7 +1186,7 @@ async function loadScript(id) {
     if (sp) path = loc("by_speaker", sp.file); else view = "all";
     const t = e.official ? await getLocal(path) : await getText(path);
     if (t === null) throw new Error("파일 없음");
-    const extra = e.official ? { ko: await loadKo(e.okey), sums: await loadSummaries(e.okey) } : null;
+    const extra = e.official ? { ko: await loadKo(e.okey), sums: await loadSummaries(e.okey), hl: await loadHl(e.okey) } : null;
     await loadProfiles();
     renderScriptText(panel, id, t, e, view, extra);
   } catch (err) {
@@ -1110,15 +1195,44 @@ async function loadScript(id) {
   }
 }
 
+function setOpenState(id, open) {
+  const box = document.querySelector(`#program .item[data-id="${id}"]`);
+  if (!box) return;
+  box.classList.toggle("open", open);
+  box.querySelector(".script").hidden = !open;
+  const t = box.querySelector(".item-title"); if (t) t.setAttribute("aria-expanded", String(open));
+}
 function toggleScript(id) {
   const box = document.querySelector(`#program .item[data-id="${id}"]`);
   if (!box) return;
-  const panel = box.querySelector(".script");
-  if (progOpen.has(id)) { progOpen.delete(id); panel.hidden = true; return; }
-  progOpen.add(id); panel.hidden = false;
+  if (progOpen.has(id)) {                                    // 접기: 접은 행이 화면 밖이면 그 행으로 돌아간다
+    progOpen.delete(id); setOpenState(id, false);
+    const r = box.getBoundingClientRect();
+    if (r.top < (parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--hdr")) || 0)) box.scrollIntoView({ block: "start" });
+    history.replaceState(null, "", location.pathname + location.search);
+    return;
+  }
+  for (const other of [...progOpen]) { progOpen.delete(other); setOpenState(other, false); }      // 긴 스크립트가 겹치지 않도록 한 번에 하나만 펼침
+  progOpen.add(id); setOpenState(id, true);
   history.replaceState(null, "", `#program:${id}`);
   loadScript(id);
+  box.scrollIntoView({ block: "start", behavior: "smooth" });
 }
+function openAdjacent(id, dir) {                             // 스크립트가 있는 이전/다음 발표를 바로 연다
+  const items = [...document.querySelectorAll("#program .item")];
+  let i = items.findIndex((x) => x.dataset.id === id) + dir;
+  for (; i >= 0 && i < items.length; i += dir) if (items[i].querySelector(".pill.has")) { toggleScript(items[i].dataset.id); return; }
+}
+document.addEventListener("keydown", (ev) => {                // Esc: 펼친 발표 접기 (팝업이 열려 있으면 팝업이 먼저 닫힘)
+  if (ev.key !== "Escape" || tab !== "program" || document.querySelector("dialog[open]") || !infoMenu.hidden) return;
+  const id = [...progOpen][0]; if (id) toggleScript(id);
+});
+function setHdrVar() {                                       // 고정 머리글 높이 (펼친 행이 그 아래에 붙도록)
+  const h = document.querySelector("header");
+  document.documentElement.style.setProperty("--hdr", (window.innerWidth > 640 && h ? h.offsetHeight : 0) + "px");
+}
+window.addEventListener("resize", setHdrVar);
+setHdrVar();
 
 async function refreshProgram() {
   try {
@@ -1296,7 +1410,8 @@ function selectTab(name) {
   $("live-wrap").hidden = name !== "live"; $("live-ctl").hidden = name !== "live";
   $("program-wrap").hidden = name !== "program"; $("status-wrap").hidden = name !== "status";
   $("full-wrap").hidden = name !== "full"; $("full-ctl").hidden = name !== "full";
-  $("ctlbar").hidden = name === "program";                       // 프로그램 탭에는 스트림 선택 등 조작 막대를 숨김 (단순화)
+  $("ctlbar").hidden = name === "program";
+  setHdrVar();                       // 프로그램 탭에는 스트림 선택 등 조작 막대를 숨김 (단순화)
   history.replaceState(null, "", name === "program" ? location.pathname + location.search : "#" + name);
   showStatus();
   if (name === "live") { el.liveBox.scrollTop = el.liveBox.scrollHeight; }
@@ -1364,9 +1479,11 @@ el.toBottom.addEventListener("click", () => { atBottom = true; el.liveBox.scroll
 el.official.addEventListener("change", () => {
   officialKey = el.official.value;
   document.body.classList.toggle("wide-full", !!officialKey);
-  $("ko-wrap").hidden = !officialKey;
+  $("ko-wrap").hidden = !officialKey; $("hl-wrap").hidden = !officialKey;
   lines = []; refreshSaved();
 });
+$("hl-toggle").checked = hlOn;
+$("hl-toggle").addEventListener("change", (ev) => setHlOn(ev.target.checked));
 $("ko-toggle").checked = koOn;
 $("ko-toggle").addEventListener("change", (ev) => setKoOn(ev.target.checked));
 
