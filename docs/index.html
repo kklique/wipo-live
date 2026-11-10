@@ -127,10 +127,23 @@
   .day h2 { font-size: 30px; line-height: 1.15; margin: 28px 0 4px; font-weight: 600; letter-spacing: -0.02em; }
   .day .ev { color: var(--muted); font-size: 14px; margin-bottom: 12px; }
   .vid-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
-  .items { background: var(--card); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; }
+  .items { background: var(--card); border: 1px solid var(--line); border-radius: 18px; overflow: clip; }      /* clip: 모서리는 자르되 sticky 는 유지 */
   .item { border-bottom: 1px solid var(--soft); }
   .item:last-child { border-bottom: 0; }
-  .item-row { display: grid; grid-template-columns: 112px 1fr auto; gap: 12px; padding: 16px 22px; align-items: start; }
+  :root { --hdr: 0px; --open-bg: #eef5fd; }
+  @media (prefers-color-scheme: dark) { :root { --open-bg: #11263a; } }
+  .item { scroll-margin-top: calc(var(--hdr) + 8px); }
+  .item-row { display: grid; grid-template-columns: 22px 112px minmax(0, 1fr) auto auto; gap: 10px 12px; padding: 16px 22px; align-items: start; cursor: pointer; }
+  .item-row .chev { display: inline-flex; color: var(--muted); padding-top: 3px; transition: transform .15s ease, color .15s ease; }
+  .item.open > .item-row { background: var(--open-bg); position: sticky; top: var(--hdr); z-index: 4; border-bottom: 1px solid var(--line); }
+  .item.open > .item-row .chev { transform: rotate(90deg); color: var(--accent); }
+  .item.open .item-title { color: var(--accent); }
+  .row-acts { display: none; gap: 6px; align-items: center; }
+  .item.open .row-acts { display: flex; }
+  .row-acts button { font-size: 13px; padding: 4px 12px; }
+  .row-acts .close { color: var(--accent); border-color: var(--accent); font-weight: 600; }
+  .script-foot { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--line); align-items: center; }
+  .script-foot .sp { flex-grow: 1; }
   .item-time { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 14px; padding-top: 2px; }
   .item-title { background: none; border: 0; padding: 0; text-align: left; color: var(--fg); cursor: pointer;
                 font: inherit; font-size: 17px; font-weight: 600; line-height: 1.35; letter-spacing: -0.015em; border-radius: 0; }
@@ -222,8 +235,10 @@
     header { position: static; }
     .tabs { flex-wrap: nowrap; overflow-x: auto; width: 100%; -webkit-overflow-scrolling: touch; }
     .tab { white-space: nowrap; padding: 7px 14px; }
-    .item-row { grid-template-columns: 1fr; gap: 4px; padding: 14px 16px; }
-    .pill-wrap { grid-column: 1; }
+    .item-row { grid-template-columns: 22px minmax(0, 1fr); gap: 4px 8px; padding: 14px 16px; }
+    .item-row .item-time, .item-row .item-mid, .item-row .pill-wrap, .item-row .row-acts { grid-column: 2; }
+    .item-row .chev { grid-row: 1; grid-column: 1; }
+    .item.open > .item-row { top: 0; position: static; }
     .pill { margin: 0 6px 0 0; }
     .script { padding: 16px; }
     h1 { font-size: 18px; }
@@ -981,15 +996,26 @@ function buildProgram() {
       box.className = "item" + (["break", "social"].includes(it.type) ? " dim" : "");
       box.dataset.id = it.id; box.dataset.date = day.date;
       const row = document.createElement("div"); row.className = "item-row";
+      const chev = document.createElement("span"); chev.className = "chev"; chev.setAttribute("aria-hidden", "true");
+      chev.innerHTML = '<svg width="16" height="16" viewBox="0 0 16 16"><path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>';
       const tm = document.createElement("div"); tm.className = "item-time"; tm.textContent = `${it.start}–${it.end}`;
-      const mid = document.createElement("div");
+      const mid = document.createElement("div"); mid.className = "item-mid";
       const btn = document.createElement("button"); btn.type = "button"; btn.className = "item-title"; btn.textContent = it.title;
-      btn.addEventListener("click", () => toggleScript(it.id));
+      btn.setAttribute("aria-expanded", "false");
       mid.appendChild(btn);
       const pl = peopleLine(it);
       if (pl) { const pe = document.createElement("div"); pe.className = "item-people"; pe.appendChild(pl); mid.appendChild(pe); }
       const pw = document.createElement("div"); pw.className = "pill-wrap";
-      row.appendChild(tm); row.appendChild(mid); row.appendChild(pw);
+      const acts = document.createElement("div"); acts.className = "row-acts";      // 펼친 행에서만 보이는 이동·접기 단추 (행이 상단에 고정됨)
+      const mkb = (label, cls, fn, title) => { const b = document.createElement("button"); b.type = "button"; b.textContent = label; if (cls) b.className = cls; if (title) b.title = title; b.addEventListener("click", fn); acts.appendChild(b); };
+      mkb("▲ 이전", "", () => openAdjacent(it.id, -1), "이전 스크립트 발표로");
+      mkb("다음 ▼", "", () => openAdjacent(it.id, +1), "다음 스크립트 발표로");
+      mkb("접기", "close", () => toggleScript(it.id), "이 발표 접기 (Esc)");
+      row.appendChild(chev); row.appendChild(tm); row.appendChild(mid); row.appendChild(pw); row.appendChild(acts);
+      row.addEventListener("click", (ev) => {                  // 행 어디를 눌러도 펼침/접힘 (이름·링크·단추는 제외)
+        if (ev.target.closest(".namebtn, a, .row-acts, label, input")) return;
+        toggleScript(it.id);
+      });
       const sc = document.createElement("div"); sc.className = "script"; sc.hidden = true;
       box.appendChild(row); box.appendChild(sc); list.appendChild(box);
     }
@@ -1113,6 +1139,14 @@ function renderScriptText(panel, id, text, e, view, extra) {
     : "아젠더 시간표와 발표자 이름 언급으로 자동 분할한 결과라, 앞뒤 경계의 몇 문장은 어긋날 수 있습니다." +
       (view !== "all" ? " 발표자별 구분은 웹캐스트 발언자 마커(있을 때) 또는 사회자의 호명 문장을 기준으로 합니다." : "");
   panel.appendChild(n);
+  const foot = document.createElement("div"); foot.className = "script-foot";             // 긴 스크립트를 다 읽은 뒤 위로 올라가지 않고 바로 접기/이동
+  const fb = (label, fn, cls) => { const b = document.createElement("button"); b.type = "button"; b.textContent = label; if (cls) b.className = cls; b.addEventListener("click", fn); foot.appendChild(b); };
+  fb("▲ 맨 위로", () => document.querySelector(`#program .item[data-id="${id}"]`).scrollIntoView({ block: "start", behavior: "smooth" }));
+  const sp = document.createElement("span"); sp.className = "sp"; foot.appendChild(sp);
+  fb("▲ 이전 발표", () => openAdjacent(id, -1));
+  fb("다음 발표 ▼", () => openAdjacent(id, +1));
+  fb("접기", () => toggleScript(id), "btn-sum");
+  panel.appendChild(foot);
 }
 
 function setHlOn(v) {                                      // 핵심 강조 켜기/끄기
@@ -1161,15 +1195,44 @@ async function loadScript(id) {
   }
 }
 
+function setOpenState(id, open) {
+  const box = document.querySelector(`#program .item[data-id="${id}"]`);
+  if (!box) return;
+  box.classList.toggle("open", open);
+  box.querySelector(".script").hidden = !open;
+  const t = box.querySelector(".item-title"); if (t) t.setAttribute("aria-expanded", String(open));
+}
 function toggleScript(id) {
   const box = document.querySelector(`#program .item[data-id="${id}"]`);
   if (!box) return;
-  const panel = box.querySelector(".script");
-  if (progOpen.has(id)) { progOpen.delete(id); panel.hidden = true; return; }
-  progOpen.add(id); panel.hidden = false;
+  if (progOpen.has(id)) {                                    // 접기: 접은 행이 화면 밖이면 그 행으로 돌아간다
+    progOpen.delete(id); setOpenState(id, false);
+    const r = box.getBoundingClientRect();
+    if (r.top < (parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--hdr")) || 0)) box.scrollIntoView({ block: "start" });
+    history.replaceState(null, "", location.pathname + location.search);
+    return;
+  }
+  for (const other of [...progOpen]) { progOpen.delete(other); setOpenState(other, false); }      // 긴 스크립트가 겹치지 않도록 한 번에 하나만 펼침
+  progOpen.add(id); setOpenState(id, true);
   history.replaceState(null, "", `#program:${id}`);
   loadScript(id);
+  box.scrollIntoView({ block: "start", behavior: "smooth" });
 }
+function openAdjacent(id, dir) {                             // 스크립트가 있는 이전/다음 발표를 바로 연다
+  const items = [...document.querySelectorAll("#program .item")];
+  let i = items.findIndex((x) => x.dataset.id === id) + dir;
+  for (; i >= 0 && i < items.length; i += dir) if (items[i].querySelector(".pill.has")) { toggleScript(items[i].dataset.id); return; }
+}
+document.addEventListener("keydown", (ev) => {                // Esc: 펼친 발표 접기 (팝업이 열려 있으면 팝업이 먼저 닫힘)
+  if (ev.key !== "Escape" || tab !== "program" || document.querySelector("dialog[open]") || !infoMenu.hidden) return;
+  const id = [...progOpen][0]; if (id) toggleScript(id);
+});
+function setHdrVar() {                                       // 고정 머리글 높이 (펼친 행이 그 아래에 붙도록)
+  const h = document.querySelector("header");
+  document.documentElement.style.setProperty("--hdr", (window.innerWidth > 640 && h ? h.offsetHeight : 0) + "px");
+}
+window.addEventListener("resize", setHdrVar);
+setHdrVar();
 
 async function refreshProgram() {
   try {
@@ -1347,7 +1410,8 @@ function selectTab(name) {
   $("live-wrap").hidden = name !== "live"; $("live-ctl").hidden = name !== "live";
   $("program-wrap").hidden = name !== "program"; $("status-wrap").hidden = name !== "status";
   $("full-wrap").hidden = name !== "full"; $("full-ctl").hidden = name !== "full";
-  $("ctlbar").hidden = name === "program";                       // 프로그램 탭에는 스트림 선택 등 조작 막대를 숨김 (단순화)
+  $("ctlbar").hidden = name === "program";
+  setHdrVar();                       // 프로그램 탭에는 스트림 선택 등 조작 막대를 숨김 (단순화)
   history.replaceState(null, "", name === "program" ? location.pathname + location.search : "#" + name);
   showStatus();
   if (name === "live") { el.liveBox.scrollTop = el.liveBox.scrollHeight; }
