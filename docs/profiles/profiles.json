@@ -19,7 +19,20 @@
     "Mr. Torebayev has been awarded the Order “Qurmet” and other state honours for his contributions to public service and international cooperation.",
     "He speaks Kazakh, Russian, and English fluently, and has a working knowledge of French."
    ],
-   "photo": "img/h-e-mr-kairat-torebayev.jpg"
+   "photo": "img/h-e-mr-kairat-torebayev.jpg",
+   "title_ko": "카자흐스탄 공화국 세계무역기구(WTO) 및 국제경제기구 상주대표부 대사(Permanent Representative), 카자흐스탄",
+   "bio_ko": [
+    "Kairat Torebayev는 국제 경제 거버넌스, 다자간 협상, 규제 정책 분야에서 25년 이상의 경력을 쌓은 카자흐스탄 공화국의 고위 외교관이자 정책 전문가입니다.",
+    "현재 제네바에서 카자흐스탄의 세계무역기구(WTO) 및 기타 국제기구 상주대표를 맡고 있습니다. 이 직책에서 유엔 체제 전반에 걸쳐 활발히 활동하며 글로벌 경제 거버넌스, 혁신, 규제 체계에 관한 논의에 기여하고 있습니다.",
+    "WTO 업무에서의 폭넓은 경험과 적극적인 참여를 인정받아, Torebayev 대사는 WTO 개혁 프로세스를 이끄는 5인의 조정관(facilitator) 중 한 명으로 임명되어 회원국 주도의 논의를 진전시키고 다자무역체제의 미래를 만들어 가는 데 기여하는 임무를 맡고 있습니다.",
+    "Torebayev 대사는 회원국 무역정책의 투명성과 상호 검토를 감독하는 핵심 기구인 WTO 무역정책검토기구(Trade Policy Review Body) 의장을 역임했습니다. 이 직책에서 복잡한 다자간 절차를 조율하여 다양한 회원국 간에 균형 잡히고 포용적이며 합의에 기반한 결과를 이끌어냈습니다.",
+    "제네바 부임 이전에는 2019년부터 2025년까지 카자흐스탄 공화국 무역통합부 차관을 지냈습니다. 이 기간 동안 카자흐스탄의 세계 경제 편입을 강화하기 위한 주요 개혁을 주도했으며, 수출 진흥을 지원하는 국가 기관의 구축과 비자원 기반 무역의 확대를 추진했습니다. 또한 시장 접근, 표준, 소비자 보호와 관련된 규제 체계를 총괄하여 혁신과 경쟁력을 뒷받침하는 제도 발전에 기여했습니다.",
+    "경력 초기에는 국민경제부(Ministry of National Economy)와 카자흐스탄 중앙은행(National Bank of Kazakhstan)의 국제협력국장을 지내며 IMF와 세계은행 등 국제 금융기관과의 협력을 총괄했습니다. 또한 외교부에서 인도 주재 근무를 비롯해 미주 담당 부서와 국제경제기구 담당 부서 등 여러 외교 직책을 역임했습니다.",
+    "Torebayev 대사는 기술규제법과 소비자보호법 등 국내 입법의 발전에도 기여했습니다. 그의 전문 경력은 무역, 규제, 혁신의 접점, 그리고 지식재산 제도가 중요한 역할을 하는 정책 환경에 일관되게 초점을 맞추어 왔습니다.",
+    "베른 대학교 세계무역연구소(World Trade Institute)에서 국제법경제학 석사(MILE) 학위를 받았으며, 현재 글로벌 무역정책과 산업 구조 전환을 주제로 경영학 박사(DBA) 과정을 밟고 있습니다.",
+    "공공 서비스와 국제 협력에 대한 공로로 쿠르메트(Qurmet) 훈장과 그 밖의 국가 포상을 받았습니다.",
+    "카자흐어, 러시아어, 영어에 능통하며 프랑스어로 업무를 볼 수 있는 수준입니다."
+   ]
   },
   {
    "id": "mr-hesham-azmi",
@@ -30,7 +43,11 @@
    "bio": [
     "Prof. Hesham Azmi is Chairman of the Egyptian Intellectual Property Authority. He formerly served as Secretary-General of the Supreme Council of Culture and Chairman of the National Library. With a Ph.D. in Library Science, he is a leading expert in cultural policy and innovation, and has represented Egypt in numerous international conferences and forums."
    ],
-   "photo": "img/mr-hesham-azmi.jpg"
+   "photo": "img/mr-hesham-azmi.jpg",
+   "title_ko": "이집트 지식재산청(Egyptian Intellectual Property Authority) 청장, 이집트",
+   "bio_ko": [
+    "Hesham Azmi 교수는 이집트 지식재산청 청장입니다. 이전에는 최고문화위원회(Supreme Council of Culture) 사무총장과 국립도서관(National Library) 관장을 역임했습니다. 도서관학 박사 학위를 보유한 문화 정책 및 혁신 분야의 선도적인 전문가이며, 다수의 국제 회의와 포럼에서 이집트를 대표해 왔습니다."
+   ]
   },
   {
    "id": "h-e-ms-liisa-ly-pakosta",
@@ -58,7 +75,28 @@
     "In 2023 L.-L. Pakosta was awarded the Commander Cross of the Swedish Royal Order of the Polar Star.",
     "Member of the Supervisory Board of the Estonian Open Air Museum in 2013–2015, Member of the Supervisory Board of the Estonian Anti-Doping and Sports Ethics Foundation since 2019. Her hobbies are crafting, culture, working out, and pets."
    ],
-   "photo": "img/h-e-ms-liisa-ly-pakosta.jpg"
+   "photo": "img/h-e-ms-liisa-ly-pakosta.jpg",
+   "title_ko": "법무·디지털부 장관, 에스토니아 공화국",
+   "bio_ko": [
+    "2024년 7월 23일부터 에스토니아 공화국 법무·디지털부 장관을 맡고 있습니다. 에스토니아 200당(Eesti 200) 소속입니다.",
+    "경력:",
+    "• 2023–2024 제15대 의회(Riigikogu) 의원, 유럽연합업무위원회 위원장",
+    "• 2022 국립문화유산청(National Heritage Board) 청장",
+    "• 2015–2022 양성평등·평등대우 위원(Gender Equality and Equal Treatment Commissioner)",
+    "• 2009–2014 제11·12대 의회(Riigikogu) 의원, 반부패특별위원회 부위원장(2013–2014)",
+    "• 2008–2009 내무부 기획국장",
+    "• 2004–2008 AS Suur Eesti Raamatuklubi 이사회 이사, AS Ühinenud Ajakirjad 편집장",
+    "• 2005–2009 및 2015–2017 탈린 시의회 의원",
+    "• 2002–2005 에스토니아 예술아카데미(Estonian Academy of Arts) 프로젝트 매니저, 2015–2016 연구개발부장 및 강사",
+    "• 1999–2001 탈린 부시장",
+    "• 1998–1999 탈린 문화유산국장",
+    "• 1997–1998 탈린 시정부 정보개발국장",
+    "• 1995–1997 ME Tallinn Tourist Information 이사",
+    "• 1994–1995 외교부 교육 정보 담당 직원",
+    "Liisa-Ly Pakosta는 1993년 타르투 대학교에서 역사학 학위를, 2021년 탈린 대학교에서 법학 석사 학위를 받았습니다. 2022년부터 타르투 대학교에서 법학 박사 과정을 밟고 있습니다.",
+    "2023년 스웨덴 왕립 북극성 훈장(Royal Order of the Polar Star) 코맨더 십자장(Commander Cross)을 받았습니다.",
+    "2013–2015년 에스토니아 야외박물관(Estonian Open Air Museum) 감사회 위원을 지냈고, 2019년부터 에스토니아 반도핑·스포츠윤리재단(Estonian Anti-Doping and Sports Ethics Foundation) 감사회 위원을 맡고 있습니다. 취미는 공예, 문화, 운동, 반려동물입니다."
+   ]
   },
   {
    "id": "h-e-ms-mari-leena-talvitie",
@@ -73,7 +111,15 @@
     "Before being elected to Parliament, Talvitie worked in the food industry and as an assistant to several Members of Parliament.",
     "She has a husband and two daughters. Talvitie, who was a girl scout in her youth, enjoys physical exercise, outdoor activities and various cultural pursuits."
    ],
-   "photo": "img/h-e-ms-mari-leena-talvitie.jpg"
+   "photo": "img/h-e-ms-mari-leena-talvitie.jpg",
+   "title_ko": "과학문화부 장관, 핀란드",
+   "bio_ko": [
+    "1980년 6월 11일 바사(Vaasa)에서 태어난 Mari-Leena Talvitie(출생 시 성 Kairivaara)는 남오스트로보트니아의 자영업 가정에서 자랐습니다. 1999년 일마욕키(Ilmajoki) 일반계 고등학교에서 대학입학자격시험을 마친 뒤 오울루 대학교에서 공부하여 2010년 환경기술 이학석사 학위를 받았습니다.",
+    "Talvitie는 2015년 오울루 선거구에서 처음 국회의원이 되었습니다. 이후 행정위원회 부위원장을 지냈으며 교육문화위원회, 환경위원회, 법제사법위원회 등 여러 의회 위원회의 위원을 역임했습니다. 의원 재직 기간 내내 북극의회회의(Arctic Parliamentary Conference) 핀란드 대표단의 일원이기도 했습니다. 또한 국민연합당(National Coalition Party) 원내 그룹의 부대표를 맡았습니다.",
+    "정치 경력에서 국민연합당 부대표와 당 평의회 의장을 역임했습니다. 2005년부터 오울루 시의회 의원으로 활동하고 있으며, 오울루 시 집행부, 오울루 시의회, 오울루 지역환경위원회, 교육연합체 OSAO, 북오스트로보트니아 지역의회의 의장을 지냈습니다. 또한 핀란드 대졸 엔지니어·건축가 협회(TEK) 집행이사회 의장을 맡았습니다.",
+    "국회의원에 당선되기 전에는 식품 산업 분야에서 일했으며 여러 국회의원의 보좌관으로 근무했습니다.",
+    "남편과 두 딸이 있습니다. 어린 시절 걸스카우트 단원이었던 Talvitie는 운동, 야외 활동, 다양한 문화 활동을 즐깁니다."
+   ]
   },
   {
    "id": "h-e-mr-kim-yong-sun",
@@ -86,7 +132,13 @@
     "Prior to his appointment as Minister in November 2025, he served as President of the Korea Intellectual Property Protection Agency (KOIPA) and Vice Commissioner of the Korean Intellectual Property Office (KIPO). His previous roles at KIPO include Director-General of the Industrial Property Policy Bureau, Chief Presiding Administrative Judge of the IP Trial and Appeal Board (IPTAB), and Director of the Intellectual Property Policy Division. He also served as IP Attaché at the Permanent Mission of the Republic of Korea to the United Nations in Geneva.",
     "Dr. Kim holds a J.S.D. and LL.M. in Intellectual Property Law from Washington University in St. Louis School of Law and a B.A. of Urban Administration from the University of Seoul."
    ],
-   "photo": "img/h-e-mr-kim-yong-sun.jpg"
+   "photo": "img/h-e-mr-kim-yong-sun.jpg",
+   "title_ko": "지식재산처 장관, 대한민국",
+   "bio_ko": [
+    "Kim Yong Sun 박사는 대한민국 지식재산처 장관입니다. 한국 지식재산 체계 내에서 다양한 고위 직책을 거치며 지식재산 정책, 행정, 국제 협력 분야에서 폭넓은 경험을 쌓았습니다.",
+    "2025년 11월 장관으로 임명되기 전에는 한국지식재산보호원(KOIPA) 원장과 특허청(KIPO) 차장을 지냈습니다. 특허청에서는 산업재산정책국장, 지식재산심판원(IPTAB) 수석심판장, 지식재산정책과장 등을 역임했습니다. 또한 제네바 주재 대한민국 유엔대표부에서 지식재산 담당관(IP Attaché)으로 근무했습니다.",
+    "김 박사는 워싱턴 대학교 세인트루이스 로스쿨(Washington University in St. Louis School of Law)에서 지식재산법 법학박사(J.S.D.) 및 법학석사(LL.M.) 학위를, 서울시립대학교에서 도시행정학 학사 학위를 받았습니다."
+   ]
   },
   {
    "id": "h-e-mr-edwin-tong",
@@ -99,7 +151,13 @@
     "As Minister for Law, Mr Tong leads efforts to uphold the rule of law, strengthen Singapore’s legal framework, and advance access to justice. He also advances Singapore’s position as an international hub for legal services, dispute resolution, intellectual property, and restructuring and insolvency. For his work in reforming Singapore’s copyright and IP law, Mr Tong was recognised to be amongst the 50 most influential people in IP by Managing IP in 2021 and 2022.",
     "Before entering public service, Mr Tong spent his entire professional career at Allen & Gledhill LLP. He held concurrent leadership roles as Head of the Restructuring and Corporate Insolvency Department, Co-Head of the Litigation & Dispute Resolution Department, and member of the Executive Committee. Widely acknowledged to be a leading lawyer of the Singapore Bar, he was appointed Senior Counsel in 2015."
    ],
-   "photo": "img/h-e-mr-edwin-tong.jpg"
+   "photo": "img/h-e-mr-edwin-tong.jpg",
+   "title_ko": "법무부 장관 겸 내무부 제2장관, 싱가포르",
+   "bio_ko": [
+    "Edwin Tong 선임변호사(Senior Counsel, SC)는 법무부 장관이자 내무부 제2장관입니다.",
+    "법무부 장관으로서 Tong 장관은 법치 수호, 싱가포르 법체계 강화, 사법 접근성 증진을 위한 노력을 이끌고 있습니다. 또한 법률 서비스, 분쟁 해결, 지식재산, 구조조정 및 도산 분야의 국제 허브로서 싱가포르의 위상을 높이고 있습니다. 싱가포르 저작권 및 지식재산법 개혁에 기울인 노력을 인정받아 2021년과 2022년 Managing IP가 선정한 지식재산 분야 영향력 있는 인물 50인에 이름을 올렸습니다.",
+    "공직에 들어서기 전에는 전 경력을 Allen & Gledhill LLP에서 보냈습니다. 구조조정·기업도산 부문 대표, 소송·분쟁해결 부문 공동 대표, 경영위원회 위원을 겸임했습니다. 싱가포르 변호사 사회에서 손꼽히는 변호사로 널리 인정받아 2015년 선임변호사(Senior Counsel)로 임명되었습니다."
+   ]
   },
   {
    "id": "h-e-mr-ziyambi-ziyambi",
@@ -110,7 +168,11 @@
    "bio": [
     "Honourable Ziyambi Ziyambi, Minister of Justice, Legal and Parliamentary Affairs of the Republic of Zimbabwe, oversees the Ministry responsible for the administration of justice, legal policy and legislative development, as well as the protection and administration of intellectual property rights through Zimbabwe’s intellectual property office. He has been actively engaged in matters relating to intellectual property, innovation, geographical indications and the development of legal and policy frameworks that support Zimbabwe’s socio-economic development. He has represented Zimbabwe at various regional and international forums and has participated in high-level WIPO programmes, including the Worldwide Symposium on Geographical Indications. He brings to his portfolio extensive experience in public policy, legislation, governance, and international cooperation, with a particular interest in strengthening legal and institutional frameworks that promote innovation, creativity, investment and sustainable development."
    ],
-   "photo": "img/h-e-mr-ziyambi-ziyambi.jpg"
+   "photo": "img/h-e-mr-ziyambi-ziyambi.jpg",
+   "title_ko": "법무·법제·의회담당부 장관, 짐바브웨",
+   "bio_ko": [
+    "짐바브웨 공화국의 법무·법제·의회담당부 장관인 Ziyambi Ziyambi 장관은 사법 행정, 법률 정책 및 입법 발전을 담당할 뿐 아니라 짐바브웨 지식재산청을 통한 지식재산권의 보호와 관리를 책임지는 부처를 이끌고 있습니다. 지식재산, 혁신, 지리적 표시, 그리고 짐바브웨의 사회경제적 발전을 뒷받침하는 법률·정책 체계의 구축과 관련된 사안에 적극적으로 참여해 왔습니다. 여러 지역 및 국제 포럼에서 짐바브웨를 대표해 왔으며, 지리적 표시에 관한 세계 심포지엄(Worldwide Symposium on Geographical Indications)을 비롯한 WIPO의 고위급 프로그램에 참여했습니다. 공공 정책, 입법, 거버넌스, 국제 협력 분야의 폭넓은 경험을 바탕으로 업무를 수행하고 있으며, 특히 혁신, 창의성, 투자, 지속가능한 발전을 촉진하는 법률 및 제도적 체계를 강화하는 데 관심을 기울이고 있습니다."
+   ]
   },
   {
    "id": "mr-kasai-yasuyuki",
@@ -124,7 +186,14 @@
     "In addition to his METI responsibilities, KASAI has also served as Director-General of the National Space Policy Secretariat in the Cabinet Office, he led Japan’s efforts to strengthen and coordinate national space policy. Deputy Director-General of the Headquarters for Japan’s Growth Strategy in the Cabinet Secretariat, where he guided cross-government growth strategy development. Later, as Deputy Director-General of the Headquarters for Japan’s Growth Strategy in the Cabinet Secretariat, where he guided cross-government growth strategy development. Director-General of the National Space Policy Secretariat in the Cabinet Office, he led Japan’s efforts to strengthen and coordinate national space policy. Since development. Since July 2025, he has served as the 90th Commissioner of the Japan Patent Office.",
     "KASAI graduated from the Faculty of Law at the University of Tokyo, and later earned an MBA from the Haas School of Business at the University of California, Berkeley. Outside of work, he stays active by playing senior-league soccer and participating in ski racing."
    ],
-   "photo": "img/mr-kasai-yasuyuki.jpg"
+   "photo": "img/mr-kasai-yasuyuki.jpg",
+   "title_ko": "특허청장, 일본 특허청, 일본",
+   "bio_ko": [
+    "KASAI Yasuyuki는 경제산업성(METI)을 비롯한 정부 기관에서 여러 핵심 지도적 직책을 맡아 왔습니다. 산업·경제 정책과 법제 분야의 주요 사업에 기여했습니다.",
+    "경제산업성에서는 경제산업정책국 경제구조정책 담당 과장, 내각법제국 제4부 참사관, 경제산업정책국 산업재생정책과장, 특허청 정책기획조정부 총괄조정과장, 경제산업정책국 심의관 등의 직책을 역임했습니다.",
+    "경제산업성 업무 외에도 내각부 국가우주정책비서실장(Director-General of the National Space Policy Secretariat)을 지내며 일본의 국가 우주 정책을 강화하고 조율하는 노력을 이끌었습니다. 또한 내각관방 일본 성장전략본부 사무국 심의관(Deputy Director-General of the Headquarters for Japan’s Growth Strategy in the Cabinet Secretariat)으로서 범정부 성장전략 수립을 지도했습니다. 2025년 7월부터 제90대 일본 특허청장을 맡고 있습니다.",
+    "KASAI는 도쿄 대학교 법학부를 졸업하고, 이후 캘리포니아 대학교 버클리의 하스 경영대학원(Haas School of Business)에서 MBA를 취득했습니다. 업무 외에는 시니어 리그 축구와 스키 레이싱에 참여하며 활동적인 생활을 하고 있습니다."
+   ]
   },
   {
    "id": "h-e-mr-kamal-shehadi",
@@ -137,7 +206,13 @@
     "From 2010 to 2023, he held senior positions at e& Group (formerly Etisalat), including Chief Legal and Regulatory Officer and Chief Strategy Officer (International). He previously chaired Lebanon’s Telecommunications Regulatory Authority, the ITU Global Symposium for Regulators, and the GSMA Chief Policy and Regulatory Officers’ Group. He has also advised the World Bank on infrastructure projects in the region.",
     "Dr. Shehadi holds a BA in Economics from Harvard College and a PhD from Columbia University."
    ],
-   "photo": "img/h-e-mr-kamal-shehadi.jpg"
+   "photo": "img/h-e-mr-kamal-shehadi.jpg",
+   "title_ko": "기술·인공지능 담당 국무장관 겸 이재민부 장관, 레바논 공화국",
+   "bio_ko": [
+    "Kamal Shehadi 박사는 레바논 공화국의 기술·인공지능 담당 국무장관 겸 이재민부 장관입니다. 중동·북아프리카 지역과 국제적으로 통신, 기술, 디지털 정책 분야에서 폭넓은 리더십 경험을 갖추고 있습니다.",
+    "2010년부터 2023년까지 e& Group(구 Etisalat)에서 최고법무·규제책임자(Chief Legal and Regulatory Officer)와 최고전략책임자(국제 부문, Chief Strategy Officer (International)) 등 고위직을 역임했습니다. 이전에는 레바논 통신규제청(Telecommunications Regulatory Authority) 의장, 국제전기통신연합(ITU) 규제기관 글로벌 심포지엄(Global Symposium for Regulators) 의장, GSMA 최고정책·규제책임자 그룹(Chief Policy and Regulatory Officers’ Group) 의장을 지냈습니다. 또한 이 지역의 인프라 사업과 관련해 세계은행에 자문을 제공했습니다.",
+    "Shehadi 박사는 하버드 칼리지에서 경제학 학사 학위를, 컬럼비아 대학교에서 박사 학위를 받았습니다."
+   ]
   },
   {
    "id": "mr-ren-ito",
@@ -152,7 +227,15 @@
     "Earlier in his career, Ren spent 15 years as a Japanese diplomat. He worked on the U.S.–Japan alliance, participated in negotiations for the EU–Japan Economic Partnership Agreement, and represented Japan on the Board of the World Bank. He continues to contribute to discussions on AI governance, technology, and geopolitics as a member of Japan’s Growth Strategy Council, the Prime Minister’s advisory body on AI and semiconductors, and as a Senior Fellow at NYU School of Law.",
     "Ren holds an LL.B. from the University of Tokyo, an LL.M. from NYU School of Law, and an M.A. from Stanford University. He is admitted to the New York Bar."
    ],
-   "photo": "img/mr-ren-ito.jpg"
+   "photo": "img/mr-ren-ito.jpg",
+   "title_ko": "공동 창업자 겸 회장, Sakana AI, 일본",
+   "bio_ko": [
+    "Ren Ito는 파운데이션 모델과 AI 시스템을 개발하는 도쿄 소재 AI 기업 Sakana AI의 공동 창업자 겸 회장입니다. Sakana는 최근 여러 최첨단(frontier) AI 모델을 조율하여 특정 모델 제공업체에 의존하지 않고도 최첨단 모델 수준의 성능을 달성하는 오케스트레이션 시스템 Fugu를 선보였으며, 이를 통해 회복력과 상호운용성을 갖춘 AI 시스템을 구축하는 새로운 접근 방식을 제시했습니다.",
+    "2023년에 설립된 Sakana AI는 1년 만에 일본에서 가장 빠르게 유니콘이 된 기업이 되었습니다. 이 회사는 Nvidia와 Google을 비롯한 유수의 기술 기업들의 투자를 받고 있으며, 세계 최대 규모의 금융기관 일부와 일본 정부 기관에 서비스를 제공하고 있습니다.",
+    "Sakana AI 이전에는 일본 최초의 유니콘 스타트업인 Mercari의 글로벌 확장을 이끌었습니다. Mercari Europe의 CEO를 지냈으며 회사의 기업공개(IPO)에서 핵심적인 역할을 했습니다.",
+    "경력 초기에는 15년간 일본 외교관으로 일했습니다. 미일 동맹 업무를 담당했고, EU–일본 경제동반자협정(EPA) 협상에 참여했으며, 세계은행 이사회에서 일본을 대표했습니다. 현재도 AI와 반도체에 관한 총리 자문 기구인 일본 성장전략회의(Growth Strategy Council) 위원이자 NYU 로스쿨 선임 연구원(Senior Fellow)으로서 AI 거버넌스, 기술, 지정학에 관한 논의에 기여하고 있습니다.",
+    "도쿄 대학교에서 법학사(LL.B.), NYU 로스쿨에서 법학석사(LL.M.), 스탠퍼드 대학교에서 문학석사(M.A.) 학위를 받았습니다. 뉴욕주 변호사 자격을 보유하고 있습니다."
+   ]
   },
   {
    "id": "mr-anant-madabhushi",
@@ -164,7 +247,12 @@
     "Dr. Anant Madabhushi is the Robert W Woodruff Professor of Biomedical Engineering; and on the faculty in the Departments of Pathology, Biomedical Informatics, Urology and Radiology and Imaging Sciences at Emory University. He is a researcher within the Cancer Immunology program at the Winship Cancer Center and also a Research Career Scientist at the Atlanta Veterans Administration Medical Center. Dr. Madabhushi has authored over 500 peer-reviewed publications and more than 200 patents issued or pending.",
     "He is a Fellow of the American Institute of Medical and Biological Engineering (AIMBE), Fellow of the Institute for Electrical and Electronic Engineers (IEEE), Fellow of the American Association for Advancement of Science (AAAS) and a Fellow of the National Academy of Inventors (NAI). His work on \"Smart Imaging Computers for Identifying lung cancer patients who need chemotherapy\" was called out by Prevention Magazine as one of the top 10 medical breakthroughs of 2018. In 2019, Nature Magazine hailed him as one of 5 scientists developing \"offbeat and innovative approaches for cancer research\". Dr. Madabhushi was named to The Pathologist’s Power List in 2019, 2020, 2021 and 2022."
    ],
-   "photo": "img/mr-anant-madabhushi.jpg"
+   "photo": "img/mr-anant-madabhushi.jpg",
+   "title_ko": "에모리 공감 AI 보건연구소(Emory Empathetic AI for Health Institute) 소장 겸 Robert W. Woodruff 석좌교수(생체의공학), 에모리 대학교, 미합중국",
+   "bio_ko": [
+    "Anant Madabhushi 박사는 Robert W. Woodruff 생체의공학 석좌교수이며, 에모리 대학교 병리학과, 생물의학정보학과, 비뇨기과학과, 영상의학과의 교수진으로도 활동하고 있습니다. 윈십 암센터(Winship Cancer Center) 암면역학 프로그램의 연구자이자 애틀랜타 보훈의료원(Atlanta Veterans Administration Medical Center)의 연구경력과학자(Research Career Scientist)입니다. Madabhushi 박사는 500편이 넘는 동료 심사 논문을 발표했으며 등록 또는 출원 중인 특허가 200건 이상입니다.",
+    "미국의생명공학회(AIMBE) 펠로우, 전기전자기술자협회(IEEE) 펠로우, 미국과학진흥협회(AAAS) 펠로우, 미국발명가아카데미(NAI) 펠로우입니다. “화학요법이 필요한 폐암 환자를 가려내는 스마트 영상 컴퓨터(Smart Imaging Computers for Identifying lung cancer patients who need chemotherapy)”에 관한 그의 연구는 Prevention 매거진에서 2018년 10대 의학적 혁신 중 하나로 꼽혔습니다. 2019년에는 Nature가 “암 연구에 대한 독특하고 혁신적인 접근법”을 개발하는 과학자 5인 중 한 명으로 소개했습니다. 또한 The Pathologist의 파워 리스트(Power List)에 2019년, 2020년, 2021년, 2022년 연속으로 이름을 올렸습니다."
+   ]
   },
   {
    "id": "mr-stanley-lai",
@@ -175,7 +263,11 @@
    "bio": [
     "Dr Stanley Lai is a Senior Counsel who specialises in all forms of IP litigation/arbitration and information technology disputes and is also a commercial litigator and SIAC Arbitrator. Over 27 years of legal practice he has argued many significant cases before the Singapore Courts as well as the Singapore International Commercial Court, spanning a range of different subject areas. He also maintains a strong practice for IP/data management and cybersecurity, serving a broad spectrum of clients. In the sphere of artificial intelligence, Stanley continues to advise clients on issues relating to intellectual property, data protection, content regulation as well as legal tech. Stanley currently serves as the Deputy President of the Copyright Tribunal and sits on the panel of Arbitrators in the Singapore International Arbitration Centre, specializing in the intellectual property disputes. From 1 July 2026, Stanley has been appointed Chairperson of the Data Protection Appeal (DPAP), an independent body that hears appeals against directions or decisions of the Personal Data Protection Commission (PDPC) in relation to data protection provisions in the Personal Data Protection Act (PDPA). From 2026, Stanley has also been appointed to serve as a neutral in the newly formed Patent Mediation and Arbitration Centre under the Unified Patent Court (Europe). Stanley also serves as a Senior Mediator of the Singapore Mediation Centre and as a Specialist Mediator of the Singapore International Mediation Centre. He is an author of many published journal articles and was the first Singapore born lawyer to be conferred a PhD by the University of Cambridge (UK). Stanley was formerly the Chairman of the Intellectual Property Office of Singapore (IPOS). He was awarded the Public Service Medal (Pingat Bakit Masyarakat) in 2020, and the Public Service Star (Bintang Bakti Masyarakat) in 2024. On 31 August 2022, Stanley was awarded the Singapore Academy of Law Merit Award, which is an award given to individuals who have served in promoting and advancing the objectives of the Singapore Academy of Law. Stanley was appointed Senior Counsel in 2010."
    ],
-   "photo": "img/mr-stanley-lai.jpg"
+   "photo": "img/mr-stanley-lai.jpg",
+   "title_ko": "지식재산 그룹 대표, Allen & Gledhill LLP, 싱가포르",
+   "bio_ko": [
+    "Stanley Lai 박사는 선임변호사(Senior Counsel)로, 모든 형태의 지식재산 소송·중재와 정보기술 분쟁을 전문으로 하며 상사 소송 전문 변호사이자 싱가포르국제중재센터(SIAC) 중재인이기도 합니다. 27년간의 법조 경력 동안 싱가포르 법원과 싱가포르 국제상사법원(Singapore International Commercial Court)에서 다양한 분야에 걸친 수많은 주요 사건을 변론했습니다. 또한 지식재산, 데이터 관리, 사이버 보안 분야에서도 탄탄한 업무를 이어 가며 폭넓은 고객층을 대상으로 서비스를 제공하고 있습니다. 인공지능 분야에서는 지식재산, 개인정보 보호, 콘텐츠 규제, 리걸테크와 관련된 사안에 대해 고객에게 계속 자문하고 있습니다. 현재 저작권심판원(Copyright Tribunal) 부원장을 맡고 있으며, 싱가포르국제중재센터 중재인단에 속해 지식재산 분쟁을 전문으로 하고 있습니다. 2026년 7월 1일부터 개인정보보호법(PDPA)의 개인정보 보호 조항과 관련한 개인정보보호위원회(PDPC)의 지시나 결정에 대한 항고를 심리하는 독립 기구인 개인정보보호항고위원회(Data Protection Appeal Panel, DPAP)의 위원장으로 임명되었습니다. 또한 2026년부터 새롭게 출범한 통합특허법원(Unified Patent Court, 유럽) 산하 특허조정·중재센터(Patent Mediation and Arbitration Centre)의 중립인(neutral)으로 임명되었습니다. 싱가포르조정센터(Singapore Mediation Centre)의 선임 조정인(Senior Mediator)과 싱가포르국제조정센터(Singapore International Mediation Centre)의 전문 조정인(Specialist Mediator)으로도 활동하고 있습니다. 다수의 학술 논문을 집필했으며, 싱가포르 출신 법조인으로는 처음으로 케임브리지 대학교(영국)에서 박사 학위를 받았습니다. 싱가포르 지식재산청(IPOS)의 이사회 의장을 역임했습니다. 2020년 공공봉사훈장(Public Service Medal, Pingat Bakit Masyarakat)을, 2024년 공공봉사성훈장(Public Service Star, Bintang Bakti Masyarakat)을 받았습니다. 2022년 8월 31일에는 싱가포르 법률아카데미(Singapore Academy of Law)의 설립 목적을 증진하고 발전시키는 데 기여한 개인에게 수여하는 싱가포르 법률아카데미 공로상(Merit Award)을 받았습니다. 2010년 선임변호사(Senior Counsel)로 임명되었습니다."
+   ]
   },
   {
    "id": "ms-jennifer-tauli-jing-corpuz",
@@ -184,7 +276,9 @@
    "session": "Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?",
    "page": 9,
    "bio": [],
-   "photo": null
+   "photo": null,
+   "title_ko": "원주민 코커스(Indigenous Caucus) 의장, 필리핀",
+   "bio_ko": []
   },
   {
    "id": "ms-caroline-gueye",
@@ -193,7 +287,9 @@
    "session": "Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?",
    "page": 9,
    "bio": [],
-   "photo": null
+   "photo": null,
+   "title_ko": "시각 예술가, 세네갈",
+   "bio_ko": []
   },
   {
    "id": "ms-myrtha-hurtado-rivas",
@@ -202,7 +298,9 @@
    "session": "Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?",
    "page": 10,
    "bio": [],
-   "photo": null
+   "photo": null,
+   "title_ko": "법무총괄(General Counsel), 네슬레 워터스 앤 프리미엄 비버리지(Nestlé Waters & Premium Beverages), 스위스/페루",
+   "bio_ko": []
   },
   {
    "id": "mr-cedric-manara",
@@ -211,7 +309,9 @@
    "session": "Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?",
    "page": 10,
    "bio": [],
-   "photo": null
+   "photo": null,
+   "title_ko": "저작권 총괄 이사(Director, Head of Copyright), 구글(Google), 프랑스",
+   "bio_ko": []
   },
   {
    "id": "ms-chijioke-okorie",
@@ -220,7 +320,9 @@
    "session": "Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?",
    "page": 10,
    "bio": [],
-   "photo": null
+   "photo": null,
+   "title_ko": "프리토리아 대학교(University of Pretoria) 법학 부교수, 나이지리아",
+   "bio_ko": []
   },
   {
    "id": "mr-gaetan-de-rassenfosse",
@@ -234,7 +336,14 @@
     "At EPFL, he teaches intellectual property management and the economics of innovation, introducing students from different disciplines to the economic foundations, legal principles, and strategic uses of IP. He writes The Patentist, a publication that makes economic research on patents accessible to policymakers, practitioners, and a wider audience.",
     "Across his research, teaching, and public engagement, he seeks to bring empirical evidence to debates about how intellectual property can support innovation and the public interest."
    ],
-   "photo": "img/mr-gaetan-de-rassenfosse.jpg"
+   "photo": "img/mr-gaetan-de-rassenfosse.jpg",
+   "title_ko": "로잔 연방공과대학교(EPFL) 과학기술혁신정책 부교수, 벨기에",
+   "bio_ko": [
+    "Gaétan de Rassenfosse는 스위스 로잔 연방공과대학교(École polytechnique fédérale de Lausanne, EPFL)의 과학·기술·혁신 정책 부교수입니다. 경제학자로서 훈련받았으며, 지식재산과 혁신 정책이 지식의 창출, 확산, 사업화를 어떻게 형성하는지를 연구합니다. 벨기에 브뤼셀 자유대학교(Université libre de Bruxelles)에서 경제학 박사 학위를 받았습니다.",
+    "그의 연구는 경제학, 경영학, 법학을 아우릅니다. Journal of Industrial Economics, Strategic Management Journal, Research Policy, Journal of Law and Economics, Southern California Law Review 등 폭넓은 학술지에 논문을 발표했습니다. 최근 연구는 특허 품질, 지식 공개, 기술 사업화, 그리고 AI가 생성한 발명이 특허 제도에 미치는 영향을 다룹니다. 경제 분석과 대규모 데이터를 결합하여 지식재산 제도가 혁신가와 사회에 어떻게 기여하는지를 살펴봅니다.",
+    "EPFL에서는 지식재산 경영과 혁신의 경제학을 가르치며, 다양한 학문 분야의 학생들에게 지식재산의 경제적 기초, 법적 원칙, 전략적 활용을 소개합니다. 또한 특허에 관한 경제학 연구를 정책 입안자, 실무자, 일반 대중이 쉽게 접할 수 있도록 하는 간행물 The Patentist를 집필하고 있습니다.",
+    "연구, 교육, 대중과의 소통 전반에 걸쳐 지식재산이 어떻게 혁신과 공익을 뒷받침할 수 있는지에 관한 논의에 실증적 근거를 제공하고자 노력합니다."
+   ]
   },
   {
    "id": "mr-antony-taubman",
@@ -243,7 +352,9 @@
    "session": "Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?",
    "page": 10,
    "bio": [],
-   "photo": null
+   "photo": null,
+   "title_ko": "런던 퀸 메리 대학교(Queen Mary University of London) 명예교수, 멜버른 대학교(University of Melbourne) 선임 연구원(Senior Fellow), 호주",
+   "bio_ko": []
   },
   {
    "id": "mr-andrew-toole",
@@ -254,7 +365,11 @@
    "bio": [
     "Dr. Andrew A. Toole is an economist specializing in innovation policy, science and technology policy, and intellectual property. His work explores how institutions, incentives, and policy design shape participation in invention and innovation, how firms invest in research and commercialization, and how new technologies reach the market. Dr. Toole is particularly interested in how innovation systems function to support public needs and how policy can broaden opportunities for scientists, inventors, and entrepreneurs. He also serves as an Associate Editor of the Journal of Technology Transfer, and holds a Ph.D. in economics from Michigan State University and a B.A. in economics from Kalamazoo College."
    ],
-   "photo": "img/mr-andrew-toole.jpg"
+   "photo": "img/mr-andrew-toole.jpg",
+   "title_ko": "공공정책 부교수, 조지아 공과대학교(Georgia Institute of Technology), 미국",
+   "bio_ko": [
+    "Dr. Andrew A. Toole은 혁신 정책, 과학기술 정책, 지식재산을 전문으로 하는 경제학자입니다. 그는 제도, 유인, 정책 설계가 발명과 혁신에 대한 참여를 어떻게 형성하는지, 기업이 연구와 사업화에 어떻게 투자하는지, 그리고 신기술이 어떻게 시장에 도달하는지를 연구합니다. Dr. Toole은 특히 혁신 시스템이 공공의 필요를 뒷받침하기 위해 어떻게 작동하는지, 그리고 정책이 과학자, 발명가, 기업가의 기회를 어떻게 넓힐 수 있는지에 관심을 두고 있습니다. 또한 Journal of Technology Transfer의 부편집장을 맡고 있으며, 미시간 주립대학교(Michigan State University)에서 경제학 박사 학위를, 칼라마주 대학(Kalamazoo College)에서 경제학 학사 학위를 받았습니다."
+   ]
   },
   {
    "id": "ms-emily-genatowski",
@@ -268,7 +383,14 @@
     "Before transitioning into immersive robotics research, Genatowski established a diverse career bridging digital humanities and corporate innovation. She holds an undergraduate degree in History from Columbia University and a Master’s degree from Harvard University. She formerly served as the North American coordinator for Google Arts & Culture, where she managed major digital collaborations with world-class institutions, including NASA, the Smithsonian, and the U.S. National Archives.",
     "Currently a PhD candidate in Digital Humanities at the University of Vienna, she designed and taught the university's first academic master's course on AI and Large Language Models in Humanities Research and regularly consults with numerous other Viennese institutions on AI adoption policies. Emily speaks on stages and lecture halls across Europe about the many pain points of human robotic cohabitation and with a mind towards solution oriented thinking, has embarked upon both advocacy and entrepreneurial ventures. In addition to advocating for identity standards for autonomous robotics within the EU, Genatowski is also the founder of PSL, an Austria-based insurtech startup. PSL standardizes hundreds of risk variables across humanoid robotic deployments in five sectors. The confidence-weighted, multivariable risk scores enable specialist underwriters to develop insurance policies for autonomous robotics, helping modern society safely navigate the complex, evolving landscape of physical AI adoption."
    ],
-   "photo": "img/ms-emily-genatowski.jpg"
+   "photo": "img/ms-emily-genatowski.jpg",
+   "title_ko": "AI 가정용 로봇 연구원, 빈 대학교(University of Vienna) 디지털 인문학 박사과정, 미국",
+   "bio_ko": [
+    "Emily Kate Genatowski는 오스트리아 빈을 기반으로 활동하는 미국인 몰입형 로봇공학 연구자이자 역사학자, 기업가로, 인간과 AI의 통합 분야에서 선구적인 연구로 세계적인 인정을 받았습니다. 그녀만의 독특한 연구 방법론은 개발 중인 기술이 실험실을 벗어나 일상 환경으로 들어올 때 발생하는 실무적, 법적, 사회적 마찰 지점을 탐구합니다.",
+    "Genatowski는 빈의 자택에서 유니트리(Unitree)의 이족보행 휴머노이드 로봇 Tova와 함께 상시 생활하는 최초의 실험으로 국제적인 주목을 받았습니다. 자신의 집을 로봇공학 실험실로 삼아 휴머노이드 로봇과 물리적 공간을 공유하는 삶의 인간적인 현실을 기록해 왔으며, 이를 통해 얻은 통찰을 TEDAI Vienna에서 화제가 된 TED 강연을 비롯한 세계 무대에서 공유하고 있습니다. 현재도 진행 중인 이 몰입형 민족지학 실험은 그녀의 일상을 가정용 휴머노이드 도입에 관한 공공 담론의 영감으로 바꾸어 놓았습니다. Emily는 기계와 함께 사는 삶의 심리적, 행동적, 실제적 현실에 대해 솔직하게 이야기합니다.",
+    "몰입형 로봇공학 연구로 전환하기 전, Genatowski는 디지털 인문학과 기업 혁신을 잇는 다양한 경력을 쌓았습니다. 컬럼비아 대학교(Columbia University)에서 역사학 학사 학위를, 하버드 대학교(Harvard University)에서 석사 학위를 받았습니다. 이전에는 Google Arts & Culture의 북미 지역 코디네이터로서 NASA, 스미소니언(Smithsonian), 미국 국립문서보관소(U.S. National Archives) 등 세계적인 기관과의 주요 디지털 협업을 총괄했습니다.",
+    "현재 빈 대학교 디지털 인문학 박사과정에 재학 중이며, 이 대학 최초로 인문학 연구에서의 AI와 거대언어모델(LLM)을 다루는 학술 석사 과정을 설계하고 가르쳤고, 빈의 여러 다른 기관에도 AI 도입 정책에 관해 정기적으로 자문하고 있습니다. Emily는 유럽 전역의 무대와 강의실에서 인간과 로봇의 동거에 따르는 여러 어려움에 대해 강연하며, 해결 중심의 사고를 바탕으로 옹호 활동과 창업 활동을 모두 시작했습니다. 유럽연합(EU)에서 자율 로봇을 위한 식별 표준을 옹호하는 활동에 더하여, Genatowski는 오스트리아에 기반을 둔 인슈어테크 스타트업 PSL의 설립자이기도 합니다. PSL은 다섯 개 분야의 휴머노이드 로봇 도입 사례에 걸친 수백 가지 위험 변수를 표준화합니다. 신뢰도 가중치를 적용한 다변수 위험 점수를 통해 전문 언더라이터가 자율 로봇을 위한 보험 상품을 개발할 수 있도록 하며, 현대 사회가 복잡하고 빠르게 진화하는 피지컬 AI 도입 환경을 안전하게 헤쳐 나가도록 돕고 있습니다."
+   ]
   },
   {
    "id": "mr-cristian-leon",
@@ -283,7 +405,15 @@
     "Cristian represented Chile at the COP28 business mission and, in 2025 and 2026, was nominated by Chile’s Ministry of Foreign Affairs as the country’s representative for the APEC Bio-Circular-Green Award. He is a member of the Sustainable Forest Future Roundtable (Proyecta Chile 2050), where he promotes a prevention-first approach to wildfires. In 2026, Drovid was the winner of the WIPO Global Awards in the ICT startup category.",
     "He leads Drovid’s intellectual property strategy and sustainability vision, with the conviction that protecting nature is not a cost but one of the greatest opportunities of our generation."
    ],
-   "photo": "img/mr-cristian-leon.jpg"
+   "photo": "img/mr-cristian-leon.jpg",
+   "title_ko": "창업자 겸 최고경영자(CEO), DROVID Technologies, 칠레",
+   "bio_ko": [
+    "Cristian León은 칠레의 딥테크 기업 Drovid Technologies의 창업자 겸 CEO입니다. Drovid는 자율 드론과 온보드 인공지능을 활용해 산불의 대부분을 일으키는 근본 원인인 위험한 인간 활동을 발화 이전 단계에서 탐지함으로써 산림을 보호합니다.",
+    "Cristian은 전기공학을 전공했으며 엔지니어링, 기술, 창업 분야에서 10년 이상의 경험을 갖고 있습니다. 2015년에 전기공학 서비스 회사를 설립했고, 기술 개발 관리(MIT)와 지식재산(홍콩과학기술대학교, Hong Kong University of Science and Technology) 분야의 전문 과정을 수료했습니다.",
+    "2020년에 그는 불이 나기 전에 막을 수 있다면 어떨까라는 단순한 질문에서 출발해 Drovid를 설립했습니다. Drovid의 AI는 드론에서 직접 작동하며 낮과 밤을 가리지 않고 위험한 인간 활동, 연기, 화재를 탐지합니다. 이 가운데 AirWERD 모델은 INRIA와 협력하여 개발되었으며, INRIA는 그 권리의 100%를 Drovid에 이전했습니다. 이 기술은 칠레 국립산림공사(CONAF)와 수사경찰(PDI)의 지원으로 현장에서 검증되었고, Forestal Santa Blanca와 함께한 2,500헥타르 규모의 시범 사업을 통해 상업적으로도 타당성을 인정받았습니다. 현재 Startup Ciencia 2026 지원금을 받아 인간의 위험을 맥락적으로 파악하는 최신 세대 모델을 포함한 운영 검증의 2단계가 시작되고 있습니다. PCT 특허 출원은 수십 개국에서 진행 중입니다.",
+    "Cristian은 COP28 비즈니스 사절단에서 칠레를 대표했으며, 2025년과 2026년에는 칠레 외교부로부터 APEC 바이오·순환·녹색(BCG) 어워드의 자국 대표로 추천받았습니다. 그는 지속가능한 산림의 미래 라운드테이블(Proyecta Chile 2050)의 위원으로서 산불에 대한 예방 우선 접근을 알리고 있습니다. 2026년에 Drovid는 WIPO 글로벌 어워드 ICT 스타트업 부문에서 수상했습니다.",
+    "그는 Drovid의 지식재산 전략과 지속가능성 비전을 이끌고 있으며, 자연을 보호하는 일은 비용이 아니라 우리 세대의 가장 큰 기회 중 하나라는 신념을 갖고 있습니다."
+   ]
   },
   {
    "id": "ms-rachel-free",
@@ -294,7 +424,11 @@
    "bio": [
     "Dr Rachel Free is a partner in the patent team at International Law Firm CMS where she helps clients to protect their technology through patents. She has an MSc in Artificial Intelligence and a DPhil in Vision Science. She qualified as a European and UK patent attorney in the last century and has worked on AI patent drafting and prosecution through her career. Rachel is a member of the All Party Parliamentary Group on AI (APPG AI) which advises parliamentarians regarding AI. She is vice Chair of the Chartered Institute of Patent Attorneys (CIPA) computer technology committee."
    ],
-   "photo": "img/ms-rachel-free.jpg"
+   "photo": "img/ms-rachel-free.jpg",
+   "title_ko": "파트너, CMS, 영국",
+   "bio_ko": [
+    "Dr Rachel Free는 국제 로펌 CMS의 특허팀 파트너로, 고객이 특허를 통해 기술을 보호할 수 있도록 지원하고 있습니다. 그녀는 인공지능 석사(MSc) 학위와 시각과학 박사(DPhil) 학위를 보유하고 있습니다. 지난 세기에 유럽 및 영국 변리사 자격을 취득했으며, 경력 내내 AI 특허 명세서 작성과 심사 대응 업무를 해 왔습니다. Rachel은 의원들에게 AI에 관해 자문하는 AI 초당적 의원 그룹(APPG AI)의 구성원입니다. 또한 영국 공인변리사협회(CIPA) 컴퓨터기술위원회의 부위원장입니다."
+   ]
   },
   {
    "id": "mr-andres-guadamuz",
@@ -305,7 +439,11 @@
    "bio": [
     "Dr Andres Guadamuz is a Reader in Intellectual Property Law at the University of Sussex and the Editor in Chief of the Journal of World Intellectual Property. His main research areas are on artificial intelligence and copyright, open licensing, cryptocurrencies, and smart contracts. He has written two books and over 40 articles and book chapters, and also blogs regularly about different technology regulation topics."
    ],
-   "photo": "img/mr-andres-guadamuz.jpg"
+   "photo": "img/mr-andres-guadamuz.jpg",
+   "title_ko": "지식재산법 리더(Reader), 서식스 대학교(University of Sussex), 코스타리카",
+   "bio_ko": [
+    "Dr Andres Guadamuz는 서식스 대학교의 지식재산법 리더(Reader)이자 Journal of World Intellectual Property의 편집장입니다. 주요 연구 분야는 인공지능과 저작권, 오픈 라이선스, 암호화폐, 스마트 계약입니다. 두 권의 저서와 40편이 넘는 논문 및 도서 챕터를 집필했으며, 다양한 기술 규제 주제에 대해 정기적으로 블로그에 글을 쓰고 있습니다."
+   ]
   },
   {
    "id": "mr-edward-lee",
@@ -316,7 +454,11 @@
    "bio": [
     "Professor Edward Lee is a legal scholar whose research focuses on the ways in which the Internet, disruptive technologies, and globalization challenge existing legal paradigms. He teaches copyright law, design law, international intellectual property law, and torts, and has co-authored casebooks in the latter three subjects. He founded ChatGPTiseatingtheworld.com, where he analyzes AI controversies, especially the copyright litigation. Before joining the Santa Clara Law faculty, he was a professor of law at IIT Chicago-Kent’s faculty and a director of its Program in Intellectual Property Law. He started his academic career at The Ohio State University Moritz College of Law, where he became a professor of law. Lee clerked for Judge John T. Noonan, Jr., on the U.S. Court of Appeals for the Ninth Circuit. He was a fellow at the Stanford Center for Internet and Society, where he worked on public interest cases. He was a litigation associate at Mayer Brown. Professor Lee is a graduate of Harvard Law School, where he was an editor and co-chair of the books and commentaries office of the Harvard Law Review. In 1992, he graduated Phi Beta Kappa and summa cum laude from Williams College with a bachelor’s degree in philosophy (highest honors) and classics."
    ],
-   "photo": "img/mr-edward-lee.jpg"
+   "photo": "img/mr-edward-lee.jpg",
+   "title_ko": "법학 교수, 산타클라라 대학교 로스쿨(Santa Clara University School of Law), 미국",
+   "bio_ko": [
+    "Edward Lee 교수는 인터넷, 파괴적 기술, 세계화가 기존 법적 패러다임에 어떤 도전을 제기하는지를 연구하는 법학자입니다. 저작권법, 디자인법, 국제 지식재산법, 불법행위법을 가르치며, 이 가운데 뒤의 세 과목에서 공저 케이스북을 펴냈습니다. 그는 AI 관련 논쟁, 특히 저작권 소송을 분석하는 ChatGPTiseatingtheworld.com을 설립했습니다. 산타클라라 로스쿨 교수진에 합류하기 전에는 IIT 시카고-켄트 로스쿨(IIT Chicago-Kent) 교수이자 지식재산법 프로그램 책임자였습니다. 학자의 길은 오하이오 주립대학교 모리츠 로스쿨(The Ohio State University Moritz College of Law)에서 시작했으며, 그곳에서 법학 교수가 되었습니다. Lee는 제9순회 미국 연방항소법원의 John T. Noonan, Jr. 판사 밑에서 재판연구원으로 근무했습니다. 스탠퍼드 인터넷 및 사회 센터(Stanford Center for Internet and Society)의 펠로우로서 공익 소송 업무를 했고, Mayer Brown에서 소송 담당 어소시에이트로 일했습니다. Lee 교수는 하버드 로스쿨을 졸업했으며, 재학 중 Harvard Law Review의 편집자이자 도서·논평 부문 공동 책임자를 지냈습니다. 1992년에는 윌리엄스 칼리지(Williams College)에서 철학(최우등)과 고전학 학사 학위를 받으며 Phi Beta Kappa 회원으로 최우등(summa cum laude) 졸업했습니다."
+   ]
   },
   {
    "id": "mr-daryl-lim",
@@ -331,7 +473,15 @@
     "Lim serves as Co-Director of the Intellectual Property Law and Policy Conference at Fordham University School of Law and Co-Chair of the Capitol Hill Innovation Forum. He regularly participates in international academic and policy discussions on intellectual property, artificial intelligence, and innovation.",
     "Lim also serves as Microsoft Professorial Fellow at Fordham University School of Law, Senior Scholar at George Mason University's Center for Intellectual Property x Innovation Policy, and Academic Fellow at the National University of Singapore's Centre for Technology, Robotics, Artificial Intelligence and the Law. Before joining Penn State, he was Professor of Law and Director of the Center for Intellectual Property, Information & Privacy Law at the University of Illinois Chicago."
    ],
-   "photo": "img/mr-daryl-lim.jpg"
+   "photo": "img/mr-daryl-lim.jpg",
+   "title_ko": "H. Laddie Montague Jr. 석좌 법학 교수 겸 연구·전략적 협력 담당 부학장, 펜실베이니아 주립대학교 딕킨슨 로스쿨(Penn State Dickinson Law), 미국",
+   "bio_ko": [
+    "Daryl Lim은 펜실베이니아 주립대학교 딕킨슨 로스쿨의 H. Laddie Montague Jr. 석좌 법학 교수이자 연구·전략적 협력 담당 부학장이며, 그곳에서 지식재산법·혁신 이니셔티브(Intellectual Property Law and Innovation Initiative)의 초대 책임자를 맡고 있습니다. 또한 펜실베이니아 주립대학교 계산·데이터과학 연구소(Institute for Computational and Data Sciences)의 공동 임용 교수이자 책임 있는 AI 센터(Center for Socially Responsible Artificial Intelligence)의 제휴 연구자입니다.",
+    "그의 연구는 지식재산, 반독점 및 경쟁법, 인공지능, 혁신 정책을 다루며, 특히 법적 틀이 기술 중심 시장에서 혁신, 시장 지배력, 접근성, 거버넌스를 어떻게 형성하는지를 살펴봅니다. 그는 미국법률협회(American Law Institute)의 선출 회원이며, WIPO의 2024년 간행물 Getting the Innovation Ecosystem Ready for AI: An IP Policy Toolkit에 의뢰를 받아 배경 논문을 기고했습니다.",
+    "그는 출간 예정인 Infringement in Intellectual Property Law(옥스퍼드 대학교 출판부, Oxford University Press)의 저자이며, Inclusive Innovation in the Age of AI and Big Data의 공동 편집자입니다. 최근 연구는 저작권과 AI 학습, 생성형 AI 시장에서의 경쟁, 신흥 기술의 규제를 다루고 있습니다.",
+    "Lim은 포덤 대학교 로스쿨(Fordham University School of Law)의 지식재산법·정책 콘퍼런스(Intellectual Property Law and Policy Conference) 공동 책임자이자 Capitol Hill Innovation Forum의 공동 의장을 맡고 있습니다. 그는 지식재산, 인공지능, 혁신에 관한 국제 학술 및 정책 논의에 정기적으로 참여하고 있습니다.",
+    "또한 Lim은 포덤 대학교 로스쿨의 Microsoft Professorial Fellow, 조지 메이슨 대학교(George Mason University) 지식재산·혁신정책 센터(Center for Intellectual Property x Innovation Policy)의 Senior Scholar, 싱가포르 국립대학교(National University of Singapore) 기술·로봇공학·인공지능·법 센터(Centre for Technology, Robotics, Artificial Intelligence and the Law)의 Academic Fellow를 맡고 있습니다. 펜실베이니아 주립대학교에 오기 전에는 일리노이 대학교 시카고 캠퍼스(University of Illinois Chicago)에서 법학 교수 겸 지식재산·정보·프라이버시법 센터(Center for Intellectual Property, Information & Privacy Law) 책임자를 지냈습니다."
+   ]
   },
   {
    "id": "ms-elena-perrotti",
@@ -342,7 +492,11 @@
    "bio": [
     "Elena Perotti is Executive Director of Media Policy and Public Affairs at WAN-IFRA, the World Association of News Publishers, representing more than 20,000 media brands and 60 national publishers' associations in 120 countries.. For 20 years at WAN-IFRA she has been the person in charge of the relationship with the global community of WAN-IFRA member associations of news media publishers, and main liaison with the organisation's governing bodies. For over a decade she has studied and advocated on the relationship between big tech and publishers on behalf of WAN-IFRA's members, developing an early specialisation in how AI is reshaping the news publishing business. She leads WAN-IFRA's regular policy briefings, keeping members promptly informed of the most relevant global media policy developments and giving them exclusive access to experts, and holds executive briefings for publisher CEOs on the role of policy in shaping the (emerging AI) content marketplace. She represents the industry before international bodies including the UN, WIPO, UNESCO, IGF, and the Council of Europe, and serves on the Advisory Group of the M20, a global initiative driving information integrity, AI governance, and press freedom within the G20 framework https://media20.org/about/#m20advisorygroup. A frequent speaker at conferences worldwide, she also oversees WAN-IFRA's News Literacy initiatives. She holds a Master's degree in International Trade Law."
    ],
-   "photo": "img/ms-elena-perrotti.jpg"
+   "photo": "img/ms-elena-perrotti.jpg",
+   "title_ko": "공공정책·미디어 정책 담당 상무이사, WAN-IFRA(세계신문협회), 프랑스",
+   "bio_ko": [
+    "Elena Perotti는 120개국 2만 개 이상의 미디어 브랜드와 60개 국가별 발행인 협회를 대표하는 세계신문협회 WAN-IFRA(World Association of News Publishers)의 미디어 정책·공공정책 담당 상무이사입니다. WAN-IFRA에서 20년 동안 뉴스 미디어 발행인 협회로 구성된 WAN-IFRA 회원 협회의 글로벌 커뮤니티와의 관계를 책임져 왔으며, 협회 운영 기구와의 주된 연락 창구를 맡고 있습니다. 10년 넘게 빅테크와 발행인의 관계에 대해 연구하고 WAN-IFRA 회원을 대신해 목소리를 내 왔으며, AI가 뉴스 출판 사업을 어떻게 바꾸고 있는지에 대해 일찍부터 전문성을 쌓았습니다. 그녀는 WAN-IFRA의 정례 정책 브리핑을 이끌며 회원들에게 가장 중요한 글로벌 미디어 정책 동향을 신속하게 알리고 전문가를 독점적으로 접할 수 있도록 하며, 발행사 CEO를 대상으로 (부상하는 AI) 콘텐츠 시장을 형성하는 데 정책이 하는 역할에 관한 경영진 브리핑을 진행합니다. 유엔(UN), WIPO, 유네스코(UNESCO), 인터넷거버넌스포럼(IGF), 유럽평의회(Council of Europe)를 비롯한 국제기구에서 업계를 대표하며, G20 틀 안에서 정보 무결성, AI 거버넌스, 언론 자유를 추진하는 글로벌 이니셔티브 M20의 자문그룹(Advisory Group)에서도 활동하고 있습니다(https://media20.org/about/#m20advisorygroup). 전 세계 콘퍼런스에서 자주 강연하며, WAN-IFRA의 뉴스 리터러시(News Literacy) 이니셔티브도 총괄합니다. 국제무역법 석사 학위를 보유하고 있습니다."
+   ]
   },
   {
    "id": "mr-wang-qian",
@@ -355,7 +509,13 @@
     "He acts as a consulting expert for many courts and procuratorates, including the Supreme People’s Procuratorates, National Intellectual Property Administration and Shanghai Intellectual Property Court. He participated in the drafting of the \"Regulations on the Protection of Information Network Transmission Rights\" and is a member of the Expert Committee for the third revision of the Copyright Law. He served as a member in the Drafting Committee and the Delegation of China during the Diplomatic Conferences for the WIPO's 2012 Beijing Treaty on Audiovisual Performances and the 2013 Marrakesh Treaty. He was honored as one of the Top Ten Outstanding Young Jurists in the Ninth National Awards.",
     "Protecting What Makes us Human - Is IP the Answer?"
    ],
-   "photo": "img/mr-wang-qian.jpg"
+   "photo": "img/mr-wang-qian.jpg",
+   "title_ko": "법학 교수, 화둥정법대학교(East China University of Political Science and Law), 중국",
+   "bio_ko": [
+    "WANG Qian은 화둥정법대학교의 법학 교수이며, 중국저작권협회(China Copyright Association)의 부회장도 맡고 있습니다. 토론토 대학교(University of Toronto)에서 법학 석사(LL.M.) 학위를, 베이징 대학교(Peking University)에서 박사 학위를 받았습니다. 저서로 Study on Exclusive Rights of Copyright in the Network Environment, Protection and Regulation of Technological Measures in the Copyright Law, Copyright Protection in the Internet가 있습니다. 그의 교재 Intellectual Property Law Course(제1판부터 제8판)는 중국에서 가장 널리 읽히는 지식재산 교재 중 하나입니다.",
+    "그는 최고인민검찰원(Supreme People's Procuratorate), 국가지식재산권국(National Intellectual Property Administration), 상하이 지식재산법원(Shanghai Intellectual Property Court)을 비롯한 여러 법원과 검찰기관의 자문 전문가로 활동하고 있습니다. 「정보네트워크 전송권 보호 조례(Regulations on the Protection of Information Network Transmission Rights)」의 기초에 참여했으며, 저작권법 제3차 개정 전문가위원회의 위원입니다. 2012년 WIPO 시청각 실연에 관한 베이징 조약과 2013년 마라케시 조약의 외교회의에서 기초위원회 위원 및 중국 대표단 일원으로 활동했습니다. 제9회 전국 우수 청년 법학자 10인(Top Ten Outstanding Young Jurists) 상을 받았습니다.",
+    "인간다움을 지키는 일: 지식재산이 해답일까?"
+   ]
   },
   {
    "id": "ms-natalie-corthesy",
@@ -366,7 +526,11 @@
    "bio": [
     "Dr Natalie Corthésy is the Associate Dean of Teaching and Learning at Mona Law The University of the West Indies (UWI) Jamaica. She was a visiting research fellow at the CCLS Queen Mary University of London and the British Institute of International Commercial Law in 2025. A graduate of The UWI Barbados and Norman Manley Law School Jamaica, she obtained an LLM from University College London, a PhD from CCLS Queen Mary University of London, and qualified as an attorney-at-law in Jamaica. As former Programme Coordinator of UWI’s LLM in IP and the Cultural and Creative Industries, she was instrumental in its conceptualization and launch with the assistance of WIPO. In 2026, she received The UWI Principal’s award for Best Faculty Researcher in the Faculty of Law. She was co-investigator in the 2022 UWI-City University joint research project entitled “Creative Artificial Intelligence and Intellectual Property in the Caribbean: Exploring Challenges and Opportunities”. She won INTA’s Ladas Memorial Prize in 2017 for her paper Trademarks, Country Names and Misappropriation of National Identity. Natalie’s publications include: Intellectual Property and Cannabis [2025] co- edited by Corthésy, N, Bonadio, E and Williams, Y, and International Intellectual Property Protection of Country Names - Balancing Nation Brands and Geographic Commons In a Competitive Global Marketplace [2023]. Her affiliations include ATRIP, The IP Unit-The UWI Cave Hill, Jamaica Bar Association’s IP Law Committee and the Jamaica Copyright Licensing Agency. She has served as a Member of the Advisory Board of JIPO, and is a member of the National Technical Working Group on Brand Jamaica. Prior to academia, Natalie served in Jamaica’s civil service for 10 years as Legal Officer at Ministry of Labour, Director of Copyright and Related Rights at JIPO, and Director of Entertainment Policy at the Ministry of Tourism and Culture."
    ],
-   "photo": "img/ms-natalie-corthesy.jpg"
+   "photo": "img/ms-natalie-corthesy.jpg",
+   "title_ko": "교육·학습 담당 부학장 겸 법학 선임강사, 웨스트인디즈 대학교(The University of the West Indies) 모나 캠퍼스, 자메이카",
+   "bio_ko": [
+    "Dr Natalie Corthésy는 자메이카 웨스트인디즈 대학교(UWI) 모나 로스쿨(Mona Law)의 교육·학습 담당 부학장입니다. 2025년에는 런던 퀸메리 대학교(Queen Mary University of London)의 상업법 연구센터(CCLS)와 영국 국제상사법연구소(British Institute of International Commercial Law)의 방문 연구원이었습니다. UWI 바베이도스 캠퍼스와 자메이카의 노먼 맨리 로스쿨(Norman Manley Law School)을 졸업했고, 유니버시티 칼리지 런던(University College London)에서 법학 석사(LLM) 학위를, 퀸메리 대학교 CCLS에서 박사 학위를 받았으며, 자메이카에서 변호사(attorney-at-law) 자격을 취득했습니다. UWI의 지식재산 및 문화창조산업 법학 석사(LLM) 과정의 전 프로그램 코디네이터로서 WIPO의 지원을 받아 이 과정의 구상과 개설에 중추적인 역할을 했습니다. 2026년에는 법학부 최우수 연구자에게 수여하는 UWI 총장상(Principal's Award)을 받았습니다. 2022년 UWI와 시티 대학교(City University)의 공동 연구 프로젝트 Creative Artificial Intelligence and Intellectual Property in the Caribbean: Exploring Challenges and Opportunities의 공동 연구자였습니다. 2017년에는 논문 Trademarks, Country Names and Misappropriation of National Identity로 국제상표협회(INTA)의 Ladas Memorial Prize를 수상했습니다. Natalie의 출판물로는 Corthésy, N, Bonadio, E, Williams, Y가 공동 편집한 Intellectual Property and Cannabis [2025]와 International Intellectual Property Protection of Country Names - Balancing Nation Brands and Geographic Commons In a Competitive Global Marketplace [2023]가 있습니다. 소속 단체로는 ATRIP, UWI 케이브힐 캠퍼스의 IP Unit, 자메이카 변호사협회 지식재산법 위원회, 자메이카 저작권사용허락기구(Jamaica Copyright Licensing Agency)가 있습니다. 자메이카 지식재산청(JIPO) 자문위원회 위원을 지냈으며, 브랜드 자메이카(Brand Jamaica) 국가기술실무그룹의 위원입니다. 학계에 오기 전에는 10년간 자메이카 공무원으로 근무하며 노동부 법무관, 자메이카 지식재산청(JIPO)의 저작권 및 저작인접권 국장, 관광문화부의 엔터테인먼트 정책 국장을 지냈습니다."
+   ]
   },
   {
    "id": "mr-marco-bassini",
@@ -375,7 +539,9 @@
    "session": "One-Stop Shop: Keeping up with IP and AI",
    "page": 16,
    "bio": [],
-   "photo": null
+   "photo": null,
+   "title_ko": "기본권·인공지능 조교수, 틸뷔르흐 법·기술·사회 연구소(Tilburg Institute for Law, Technology, and Society), 틸뷔르흐 대학교(Tilburg University), 이탈리아",
+   "bio_ko": []
   },
   {
    "id": "ms-imogen-heap",
@@ -387,7 +553,12 @@
     "Self-produced British composer and recording artist for 25 years, Imogen Heap has released five solo albums, another as one half of Frou Frou and collaborated with countless and varied artists including Taylor Swift, Nitin Sawhney, Deadmau5, Eric Whitacre, Jeff Beck and Jon Hopkins. Her compositions and songs pop up in blockbuster and indie films as well as countless TV shows, are featured in underground rap and dance music and covered by the likes of Ariana Grande. As composer and arranger for one of the biggest hits in theatrical history, Harry Potter and The Cursed Child, Imogen won the Drama Desk Outstanding Music in a Play award. As a sought-after speaker and performer, Heap hosted 2020’s Grammys Premiere Ceremony. Heap’s collaborative and multi-dimensional workflow attracts companies for commissioned works, leading to songs such as Tiny Human, the first song to distribute payments via a Smart Contract, and The Happy Song, a highly successful song for children in their early-years. Heap, recognised as an artist's artist, has won two Grammys and an Ivor Novello award. In recognition of her pioneering work at the intersection of music and tech, Heap has a hat trick of three honorary doctorates for the gestural music-ware 'MI.MU gloves' system and recently for ’The Creative Passport’ (now Auracles.io) an integrated digital ID and IP solution, empowering music makers to be the change toward a fair and flourishing music ecosystem. Between projects a constant for the past year is every Thursday afternoon, Imogen Q&A chats with her fans via The Listening Chair with those who subscribe to Imogenheap.app to collaborate together on Augmented Imogen, Imogen's in dev AI.",
     "Heap’s collaborative and multi-dimensional workflow attracts companies for commissioned works, leading to songs such as Tiny Human, the first song to distribute payments via a Smart Contract, and The Happy Song, a highly successful song for children in their early-years. Heap, recognised as an artist's artist, has won two Grammys and an Ivor Novello award. In recognition of her pioneering work at the intersection of music and tech, Heap has a hat trick of three honorary doctorates for the gestural music-ware 'MI.MU gloves' system and recently for ’The Creative Passport’ (now Auracles.io) an integrated digital ID and IP solution, empowering music makers to be the change toward a fair and flourishing music ecosystem. Between projects a constant for the past year is every Thursday afternoon, Imogen Q&A chats with her fans via The Listening Chair with those who subscribe to Imogenheap.app to collaborate together on Augmented Imogen, Imogen's in dev AI."
    ],
-   "photo": "img/ms-imogen-heap.jpg"
+   "photo": "img/ms-imogen-heap.jpg",
+   "title_ko": "레코딩 아티스트 겸 테크놀로지스트, 영국",
+   "bio_ko": [
+    "25년간 스스로 프로듀싱해 온 영국의 작곡가이자 레코딩 아티스트인 Imogen Heap은 솔로 앨범 다섯 장을 발표했고, Frou Frou의 절반으로서 또 한 장의 앨범을 냈으며, Taylor Swift, Nitin Sawhney, Deadmau5, Eric Whitacre, Jeff Beck, Jon Hopkins를 비롯한 수많은 다양한 아티스트와 협업했습니다. 그녀의 작곡과 노래는 블록버스터와 독립 영화, 수많은 TV 프로그램에 등장하고, 언더그라운드 랩과 댄스 음악에도 사용되며, Ariana Grande 등이 커버하기도 했습니다. 연극 역사상 가장 큰 히트작 중 하나인 Harry Potter and The Cursed Child의 작곡가이자 편곡자로서 Drama Desk 연극 음악상(Outstanding Music in a Play)을 받았습니다. 인기 있는 연사이자 공연자인 Heap은 2020년 그래미 프리미어 세리머니(Grammys Premiere Ceremony)의 사회를 맡았습니다. Heap의 협업적이고 다차원적인 작업 방식은 기업의 의뢰 작업으로 이어졌고, 스마트 계약으로 수익을 분배한 최초의 노래인 Tiny Human과 유아기 어린이를 위한 큰 성공을 거둔 노래 The Happy Song 같은 곡이 탄생했습니다. 아티스트가 인정하는 아티스트로 평가받는 Heap은 그래미상 2회와 아이버 노벨로상(Ivor Novello award)을 수상했습니다. 음악과 기술의 접점에서 이룬 선구적인 작업을 기려 몸짓 기반 음악 소프트웨어·하드웨어 시스템인 MI.MU 장갑과, 최근에는 통합 디지털 ID 및 IP 솔루션으로 음악 창작자가 공정하고 번성하는 음악 생태계를 향한 변화의 주체가 되도록 힘을 실어 주는 The Creative Passport(현 Auracles.io)로 명예박사 학위 세 개를 받아 해트트릭을 달성했습니다. 프로젝트 사이사이에 지난 1년 동안 꾸준히 이어 온 일은 매주 목요일 오후에 The Listening Chair를 통해 팬들과 나누는 Q&A 대화로, Imogenheap.app을 구독하는 팬들과 함께 Imogen이 개발 중인 AI인 Augmented Imogen을 협업하여 만들어 가고 있습니다.",
+    "Heap의 협업적이고 다차원적인 작업 방식은 기업의 의뢰 작업으로 이어졌고, 스마트 계약으로 수익을 분배한 최초의 노래인 Tiny Human과 유아기 어린이를 위한 큰 성공을 거둔 노래 The Happy Song 같은 곡이 탄생했습니다. 아티스트가 인정하는 아티스트로 평가받는 Heap은 그래미상 2회와 아이버 노벨로상(Ivor Novello award)을 수상했습니다. 음악과 기술의 접점에서 이룬 선구적인 작업을 기려 몸짓 기반 음악 소프트웨어·하드웨어 시스템인 MI.MU 장갑과, 최근에는 통합 디지털 ID 및 IP 솔루션으로 음악 창작자가 공정하고 번성하는 음악 생태계를 향한 변화의 주체가 되도록 힘을 실어 주는 The Creative Passport(현 Auracles.io)로 명예박사 학위 세 개를 받아 해트트릭을 달성했습니다. 프로젝트 사이사이에 지난 1년 동안 꾸준히 이어 온 일은 매주 목요일 오후에 The Listening Chair를 통해 팬들과 나누는 Q&A 대화로, Imogenheap.app을 구독하는 팬들과 함께 Imogen이 개발 중인 AI인 Augmented Imogen을 협업하여 만들어 가고 있습니다."
+   ]
   },
   {
    "id": "mr-jakob-plesner-mathiasen",
@@ -402,7 +573,15 @@
     "Jakob has authored and co-authored several books and articles on intellectual property law.",
     "Jakob hosts the podcast Entertainment Law (Entertainmentretten). The podcast explores current developments in copyright, entertainment law and AI, with a particular focus on making complex legal issues accessible to a broader audience."
    ],
-   "photo": "img/mr-jakob-plesner-mathiasen.jpg"
+   "photo": "img/mr-jakob-plesner-mathiasen.jpg",
+   "title_ko": "파트너, Gorrissen Federspiel, 덴마크",
+   "bio_ko": [
+    "Jakob Plesner Mathiasen은 덴마크 로펌 Gorrissen Federspiel의 파트너로 미디어·엔터테인먼트 그룹을 이끌고 있습니다. 그는 덴마크를 대표하는 지식재산법 전문가로, 특히 저작권, 미디어 및 엔터테인먼트법, 인공지능의 법적 함의에 전문성을 갖추고 있습니다.",
+    "그의 업무는 점점 더 AI와 지식재산의 접점에 초점을 맞추고 있으며, 여기에는 AI 학습을 위한 저작물 이용, AI가 생성하거나 AI의 도움으로 만든 콘텐츠의 저작권 보호, 딥페이크, AI 에이전트의 법적 함의가 포함됩니다.",
+    "Jakob은 저작권법에 관한 논의와 지식 공유를 촉진하는 덴마크 저작권협회(Danish Copyright Society)의 사무총장입니다. 또한 덴마크어 엔터테인먼트법 교재의 편집자이자 공저자입니다. 코펜하겐 대학교(University of Copenhagen)에 엔터테인먼트법 과목을 개설했으며 그곳에서 강의도 하고 있습니다. Jakob은 저작권, 지식재산, AI를 주제로 한 국내외 콘퍼런스에서 정기적으로 강연합니다.",
+    "Jakob은 지식재산법에 관한 여러 권의 책과 논문을 단독 또는 공동으로 집필했습니다.",
+    "Jakob은 팟캐스트 Entertainment Law(Entertainmentretten)를 진행하고 있습니다. 이 팟캐스트는 저작권, 엔터테인먼트법, AI의 최신 동향을 다루며, 복잡한 법적 쟁점을 더 폭넓은 청중이 이해하기 쉽게 전달하는 데 중점을 둡니다."
+   ]
   },
   {
    "id": "mr-anderson-rocha",
@@ -413,7 +592,11 @@
    "bio": [
     "Prof. Anderson Rocha is a Full Professor of Artificial Intelligence and Digital Forensics at the Institute of Computing, University of Campinas (Unicamp), Brazil, where he leads the Artificial Intelligence Lab, Recod.ai. He is an IEEE Fellow and serves as a Distinguished Lecturer for the IEEE Signal Processing Society (2026–2027) and the IEEE Biometrics Council (2025–2027). His research spans deepfake detection, Agentic AI security, media provenance forensics, open-set recognition, biometric anti-spoofing, and AI for health and well-being. His lab also studies the reliability and security of AI systems, including prompt injection, hallucination detection, bias, and AI agents that go astray. He has spoken in more than 30 countries, including at forums of the United Nations, the World Intellectual Property Organization (WIPO) and BRICS."
    ],
-   "photo": "img/mr-anderson-rocha.jpg"
+   "photo": "img/mr-anderson-rocha.jpg",
+   "title_ko": "인공지능·디지털 포렌식 정교수, 캄피나스 대학교(University of Campinas), Recod.ai 인공지능 연구소 소장, 브라질",
+   "bio_ko": [
+    "Anderson Rocha 교수는 브라질 캄피나스 대학교(Unicamp) 컴퓨팅 연구소(Institute of Computing)의 인공지능·디지털 포렌식 정교수이며, 인공지능 연구소 Recod.ai를 이끌고 있습니다. 그는 IEEE 펠로우(IEEE Fellow)이자 IEEE 신호처리학회(IEEE Signal Processing Society)(2026–2027)와 IEEE 생체인식협의회(IEEE Biometrics Council)(2025–2027)의 Distinguished Lecturer입니다. 연구 분야는 딥페이크 탐지, 에이전틱 AI 보안, 미디어 출처 포렌식, 오픈셋 인식, 생체인식 스푸핑 방지, 건강과 웰빙을 위한 AI에 걸쳐 있습니다. 그의 연구소는 프롬프트 주입, 환각 탐지, 편향, 엇나가는 AI 에이전트를 포함한 AI 시스템의 신뢰성과 보안도 연구합니다. 유엔, 세계지적재산기구(WIPO), BRICS 포럼을 포함해 30개국 이상에서 강연했습니다."
+   ]
   },
   {
    "id": "ms-kalpana-tyagi",
@@ -424,7 +607,11 @@
    "bio": [
     "Kalpana Tyagi is the professor for innovation laws at Maastricht University. Tyagi holds a multidisciplinary PhD (summa cum laude) from the Max Planck Institute for Innovation and Competition, Munich, where she worked as a 'Max Planck junior research fellow for IP & competition'. In the US, Tyagi worked as a 'consultant' and was the recipient of the 'Lee Iacocca Fellowship for Future Leaders in Business and Industry'. Tyagi has also worked as a 'research policy analyst' at the International Telecommunications Union, Geneva, whereby she worked on standard setting, 5G patents and telecommunications policy. Thereafter, she worked with a third-party funder, Vannin Capital in London, whereby she evaluated the funding potential of arbitrating and litigating IP-related disputes. While working at the University of Århus, Denmark, she developed the Center for Law & Digitalization with focus on emerging technologies such as AI & the Blockchain technology. Tyagi has had an academic training in law and economics (with the 'Erasmus Mundus' scholarship and 'Max Planck Fellow in Innovation & Competition' fellowship) and corporate strategy (as 'Think Marketing' and the 'International Education Without Borders (in M&A Strategy)' scholarships). Tyagi has authored a monograph with Springer, co-edited a book with Hart Publishing and published in top tier journals, such as Nature, the International Review of Intellectual Property and Competition Law, Journal of Business Strategy, and the Journal of Intellectual Property Law & Practice. Tyagi’s research and teaching interest relate to exploring the inter-disciplinary interface between intellectual property rights, contracts, unfair competition and competition policy, particularly in the context of innovation, digitalization and sustainability."
    ],
-   "photo": "img/ms-kalpana-tyagi.jpg"
+   "photo": "img/ms-kalpana-tyagi.jpg",
+   "title_ko": "마스트리흐트 대학교(Maastricht University) 혁신법 조교수, 인도",
+   "bio_ko": [
+    "Kalpana Tyagi는 마스트리흐트 대학교(Maastricht University)의 혁신법 교수입니다. 뮌헨 막스 플랑크 혁신·경쟁 연구소(Max Planck Institute for Innovation and Competition)에서 학제 간 박사학위를 최우수(summa cum laude) 성적으로 취득했으며, 같은 연구소에서 ‘지식재산 및 경쟁 분야 막스 플랑크 주니어 연구원’으로 근무했습니다. 미국에서는 ‘컨설턴트’로 일했고, ‘Lee Iacocca Fellowship for Future Leaders in Business and Industry’를 받았습니다. 또한 제네바의 국제전기통신연합(International Telecommunications Union)에서 ‘연구 정책 분석관’으로 근무하며 표준 설정, 5G 특허, 통신 정책을 다뤘습니다. 이후 런던의 제3자 소송자금 지원사 Vannin Capital에서 지식재산 관련 분쟁의 중재 및 소송에 대한 자금 지원 가능성을 평가했습니다. 덴마크 오르후스 대학교(University of Århus)에서 근무하는 동안에는 AI와 블록체인 기술 같은 신기술에 초점을 맞춘 법·디지털화 센터(Center for Law & Digitalization)를 설립했습니다. Tyagi는 법학과 경제학(‘Erasmus Mundus’ 장학금 및 ‘Max Planck Fellow in Innovation & Competition’ 펠로십)과 기업 전략(‘Think Marketing’ 및 ‘International Education Without Borders (in M&A Strategy)’ 장학금) 분야에서 학문적 훈련을 받았습니다. Springer에서 단행본을 저술했고 Hart Publishing에서 공동 편집한 책을 냈으며, Nature, International Review of Intellectual Property and Competition Law, Journal of Business Strategy, Journal of Intellectual Property Law & Practice 등 최상위 학술지에 논문을 게재했습니다. Tyagi의 연구와 강의 관심사는 지식재산권, 계약, 부정경쟁, 경쟁 정책 간의 학제적 접점을 탐구하는 것이며, 특히 혁신, 디지털화, 지속가능성의 맥락에 중점을 둡니다."
+   ]
   },
   {
    "id": "ms-inch-chua",
@@ -437,7 +624,13 @@
     "Her multi-sensory production 'Til The End Of The World, We'll Meet In No Man's Land (TheatreWorks) won Best Sound at the 2020 LIFE! Theatre Awards. Her honours include the",
     "National Youth Award (2018), and the Woman of the Future Award in Arts and Culture and the Compass Artistic Excellence Award (2024)."
    ],
-   "photo": "img/ms-inch-chua.jpg"
+   "photo": "img/ms-inch-chua.jpg",
+   "title_ko": "다학제 아티스트, 싱가포르",
+   "bio_ko": [
+    "Inch Chua는 음악, 연극, 사운드 디자인, 글쓰기, 예술 교육 전반에서 활동하는 싱가포르의 다학제 아티스트이며, 싱가포르 레퍼토리 극단(Singapore Repertory Theatre)의 어소시에이트 아티스트입니다. 최신작 Myles: Soulmate in a Box는 자신만의 AI 동반자를 만든 한 여성과 그를 곁에 두기 위해 그녀가 내어주는 것들을 그린 1인 아트팝 뮤지컬입니다. 5년간의 개발 끝에 2026년 5월 SRT의 KC Arts Centre에서 초연되었습니다. Inch는 이 작품을 직접 쓰고 작곡하고 공연했으며, 작품이 파고드는 바로 그 기술을 활용해 작품 세계의 상당 부분을 구축했습니다. 이 과정 자체가 연구의 일부가 되었습니다. 지치지도 않고 거절하지도 않는 협업자와 함께할 때 저작권(authorship)과 동의(consent)는 어떻게 되는가라는 물음입니다.",
+    "다감각 공연 ‘Til The End Of The World, We'll Meet In No Man's Land (TheatreWorks)는 2020년 LIFE! Theatre Awards에서 최우수 사운드상을 받았습니다. 수상 경력으로는",
+    "National Youth Award(2018), 그리고 Woman of the Future Award in Arts and Culture와 Compass Artistic Excellence Award(2024)가 있습니다."
+   ]
   },
   {
    "id": "ms-anna-jardfelt",
@@ -451,7 +644,14 @@
     "Prior to taking up this position, Anna Jardfelt had a career in diplomacy holding such positions as Permanent Representative of Sweden to the United Nations Office in Geneva, Ambassador to Kenya and Permanent Representative to UNEP and UN-Habitat in Nairobi, and Ambassador to the European Union’s Political and Security Committee in Brussels. Between 2010-2014 she served as the Director of the Swedish Institute of International Affairs (UI).",
     "Anna Jardfelt holds a Master of Laws degree with a specialisation in EU and international law."
    ],
-   "photo": "img/ms-anna-jardfelt.jpg"
+   "photo": "img/ms-anna-jardfelt.jpg",
+   "title_ko": "청장, 스웨덴 특허등록청(Swedish Intellectual Property Office), 스웨덴",
+   "bio_ko": [
+    "Anna Jardfelt는 2024년 8월부터 스웨덴의 지식재산 전문 당국인 스웨덴 특허등록청(PRV)의 청장을 맡고 있습니다.",
+    "– PRV는 성장, 경쟁력, 혁신 등 스웨덴에 핵심적인 분야에서 중요한 역할을 하는 기관입니다. 청장으로서 저의 역할은 PRV가 다른 기관들과 협력하여 스웨덴과 스웨덴 기업에 유리한 여건을 조성하는 데 효과적으로 기여하도록 하는 것입니다.",
+    "이 직책을 맡기 전 Anna Jardfelt는 외교관으로 경력을 쌓아 주제네바 유엔사무소 스웨덴 대사(Permanent Representative), 케냐 주재 대사 겸 나이로비 소재 유엔환경계획(UNEP) 및 유엔인간정주계획(UN-Habitat) 상주 대표, 유럽연합 정치안보위원회(Political and Security Committee) 주재 대사 등을 역임했습니다. 2010년부터 2014년까지는 스웨덴 국제문제연구소(UI) 소장을 지냈습니다.",
+    "Anna Jardfelt는 EU 및 국제법을 전공한 법학 석사(Master of Laws) 학위를 보유하고 있습니다."
+   ]
   },
   {
    "id": "ms-lilyclaire-bellamy",
@@ -462,7 +662,11 @@
    "bio": [
     "Ms Lilyclaire Bellamy, returning Board member, is the Executive Director at Jamaica Intellectual Property Office (JIPO). She is an Attorney-at-Law and a trained communicator with extensive experience in intellectual property law, health administration and law. She holds a bachelor’s degree in Communications & Law and a master’s degree in Media Studies with a minor in Educational Technology. She directs legal and policy aspects at the Jamaica Intellectual Property Office and provides legal advice and guidance relating to intellectual property laws, international relations and issues, to the Minister of Industry, Investment and Commerce, other Ministries and departments of Government at their request."
    ],
-   "photo": "img/ms-lilyclaire-bellamy.jpg"
+   "photo": "img/ms-lilyclaire-bellamy.jpg",
+   "title_ko": "사무총장(Executive Director), 자메이카 지식재산청(Jamaica Intellectual Property Office), 자메이카",
+   "bio_ko": [
+    "Lilyclaire Bellamy는 이사회에 재임명된 이사이며, 자메이카 지식재산청(JIPO)의 사무총장(Executive Director)입니다. 변호사(Attorney-at-Law)이자 전문 커뮤니케이터로, 지식재산법, 보건 행정, 법률 분야에서 폭넓은 경험을 갖고 있습니다. 커뮤니케이션·법학 학사학위와 미디어학 석사학위(교육공학 부전공)를 취득했습니다. 자메이카 지식재산청에서 법률 및 정책 업무를 총괄하며, 산업투자통상부(Ministry of Industry, Investment and Commerce) 장관과 기타 정부 부처 및 기관의 요청에 따라 지식재산법, 국제 관계 및 현안에 관한 법률 자문과 지침을 제공합니다."
+   ]
   },
   {
    "id": "ms-maria-daphne-papadopoulou",
@@ -475,7 +679,13 @@
     "She has played a leading role in drafting Greek copyright legislation and has implemented a large part of the EU copyright acquis into national law. This includes the DSM, Online Broadcasting, Marrakesh, Collective Rights Management, Term Extension and Orphan Works Directives, as well as the copyright aspects of the Digital Services Act. She designed and implemented EDPPI, Greece’s administrative mechanism against online piracy, including piracy of live events. She represents Greece at WIPO’s SCCR and ACE, in the copyright and IP working groups of the Council of the EU, and in working groups of the EUIPO Observatory. Since March 2026 she has been a member of the Ministry of Culture’s Committee on AI and Culture, and she is the author of the Ministry’s 2026 report on AI and copyright.",
     "She holds a doctorate in law on moral rights from Aristotle University of Thessaloniki and an LL.M. in International IP Law from the University of Houston Law Center, both earned as an Onassis Scholar. She is a post-doctoral researcher on text and data mining at the Ionian University and teaches IP and Technology Law at the University of Nicosia. She has published widely on copyright and AI, and she is a certified mediator on the WIPO Neutrals list."
    ],
-   "photo": "img/ms-maria-daphne-papadopoulou.jpg"
+   "photo": "img/ms-maria-daphne-papadopoulou.jpg",
+   "title_ko": "원장 직무대행, 그리스 저작권기구(Hellenic Copyright Organization), 그리스",
+   "bio_ko": [
+    "Maria-Daphne Papadopoulou 박사는 문화부 산하에서 저작권 정책을 담당하는 그리스 당국인 그리스 저작권기구(HCO)의 원장 직무대행입니다. HCO는 저작권 법안을 마련하고, 집중관리단체를 감독하며, 관련 국제기구와 EU 기구에서 그리스를 대표합니다. 또한 저작권에 관해 대중에게 정보를 제공하고 교육 프로그램을 운영합니다. 아울러 인터넷상 저작권 및 저작인접권 침해 통지 위원회(EDPPI)의 업무를 지원합니다. 그녀는 HCO에서 20년 이상 근무한 저작권 변호사로, 이전에 법무부서장을 지냈으며 그리스 대법원에서 변호사로 활동할 자격이 있습니다.",
+    "그녀는 그리스 저작권 법령 제정에서 주도적인 역할을 했고, EU 저작권 법제(acquis)의 상당 부분을 국내법으로 이행했습니다. 여기에는 디지털 단일시장(DSM), 온라인 방송, 마라케시, 집중관리, 보호기간 연장, 고아저작물 지침과 디지털서비스법(Digital Services Act)의 저작권 관련 사항이 포함됩니다. 그리스의 온라인 불법복제(라이브 이벤트 불법복제 포함) 대응 행정 메커니즘인 EDPPI를 설계하고 운영했습니다. WIPO의 저작권및저작인접권상설위원회(SCCR)와 집행자문위원회(ACE), EU 이사회의 저작권 및 지식재산 작업반, EUIPO 침해 관측소(Observatory)의 작업반에서 그리스를 대표합니다. 2026년 3월부터 문화부 AI·문화 위원회 위원으로 활동하고 있으며, 문화부의 2026년 AI와 저작권 보고서를 집필했습니다.",
+    "그녀는 아리스토텔레스 대학교(Aristotle University of Thessaloniki)에서 인격권(moral rights)을 주제로 법학 박사학위를, 휴스턴 대학교 로센터(University of Houston Law Center)에서 국제 지식재산법 LL.M.을 취득했으며, 두 과정 모두 Onassis 장학생으로 이수했습니다. 이오니아 대학교(Ionian University)에서 텍스트·데이터 마이닝을 연구하는 박사후 연구원이며, 니코시아 대학교(University of Nicosia)에서 지식재산 및 기술법을 가르칩니다. 저작권과 AI에 관해 다수의 논문을 발표했고, WIPO 중립인(Neutrals) 명단에 등재된 공인 조정인입니다."
+   ]
   },
   {
    "id": "ms-ewa-skrzydo-tefelska",
@@ -489,7 +699,14 @@
     "She holds a law degree and a postdoctoral degree in law, specialising in European Union law. She is the author of numerous books, academic textbooks, and scholarly articles on European Union law, private international law, industrial property protection, and advertising law. Her academic work reflects a longstanding engagement with these fields of law.",
     "She regularly speaks at national and international conferences, congresses, and professional seminars, contributing to expert discussions on intellectual property protection, legal developments, and the evolution of the European legal framework."
    ],
-   "photo": "img/ms-ewa-skrzydo-tefelska.jpg"
+   "photo": "img/ms-ewa-skrzydo-tefelska.jpg",
+   "title_ko": "청장, 폴란드 공화국 특허청(Patent Office of the Republic of Poland), 폴란드",
+   "bio_ko": [
+    "그녀는 폴란드 특허청장이며, 특히 특허 및 상표 보호, 유럽연합법, 광고법에 전문성을 가진 지식재산·산업재산법 분야의 저명한 전문가입니다. 청장으로서 국가 지식재산 제도를 총괄하고, 지식재산 보호를 강화하기 위한 정책 수립에 기여하고 있습니다.",
+    "임명 전에는 로펌의 파트너로 일하며 법률 실무 경험을 폭넓게 쌓았고, 국내외 절차에서 복잡한 사건을 처리했습니다.",
+    "그녀는 법학 학위와 유럽연합법을 전문으로 하는 법학 박사후 학위(habilitation)를 보유하고 있습니다. 유럽연합법, 국제사법, 산업재산 보호, 광고법에 관한 다수의 저서, 학술 교재, 학술 논문을 집필했습니다. 그녀의 학문적 업적은 이들 법 분야에 대한 오랜 천착을 보여줍니다.",
+    "국내외 학술대회, 회의, 전문 세미나에서 정기적으로 발표하며, 지식재산 보호, 법제 동향, 유럽 법체계의 발전에 관한 전문가 논의에 기여하고 있습니다."
+   ]
   },
   {
    "id": "mr-mordechay-sorek",
@@ -500,7 +717,11 @@
    "bio": [
     "Mordechay (Moti) Sorek is Executive Director of the Israel Patent Office and Commissioner of Patents, Trademarks, and Designs. In this role, he oversees the management of Israel’s patent, trademark, and design registrations and plays a central role in shaping national IP policy. He also presides over a specialized IP court for registration matters and represents Israel in major international IP forums. Prior to joining the Office, he served as a principal litigator specializing in complex intellectual property litigations and has taught IP law in adjunct positions at several Israeli universities. He holds advanced law degrees from Bar Ilan University and Yeshiva University’s Cardozo School of Law."
    ],
-   "photo": "img/mr-mordechay-sorek.jpg"
+   "photo": "img/mr-mordechay-sorek.jpg",
+   "title_ko": "청장(Executive Director), 이스라엘 특허청(Israel Patent Office), 법무부, 이스라엘",
+   "bio_ko": [
+    "Mordechay (Moti) Sorek은 이스라엘 특허청 청장(Executive Director) 겸 특허·상표·디자인 심사관장(Commissioner of Patents, Trademarks, and Designs)입니다. 이 직책에서 이스라엘의 특허, 상표, 디자인 등록 업무를 총괄하며 국가 지식재산 정책을 수립하는 데 중추적인 역할을 합니다. 또한 등록 관련 사안을 다루는 전문 지식재산 법원의 재판장을 맡고 있으며, 주요 국제 지식재산 포럼에서 이스라엘을 대표합니다. 특허청에 합류하기 전에는 복잡한 지식재산 소송을 전문으로 하는 주력 소송 변호사로 활동했고, 이스라엘 여러 대학에서 겸임으로 지식재산법을 가르쳤습니다. 바르일란 대학교(Bar Ilan University)와 예시바 대학교(Yeshiva University) 카르도조 로스쿨(Cardozo School of Law)에서 법학 고급 학위를 취득했습니다."
+   ]
   },
   {
    "id": "mr-tan-kong-hwee",
@@ -513,7 +734,13 @@
     "Prior to IPOS, Mr Tan was an Executive Vice President and Member of the Executive Committee from late 2019 at the Singapore Economic Development Board (EDB). In his 19 years at the EDB, he had the opportunity to develop several industries including aerospace, mobility, design and space, drove account management excellence and dabbled at branding, marketing and public communications. Mr Tan was also posted to Tokyo and London for 6 years.",
     "Mr Tan started his career in the Singapore public service at the Ministry of Home Affairs shortly after he graduated from Kyoto University with a Master’s degree in Electrical Engineering."
    ],
-   "photo": "img/mr-tan-kong-hwee.jpg"
+   "photo": "img/mr-tan-kong-hwee.jpg",
+   "title_ko": "최고경영자(Chief Executive), 싱가포르 지식재산청(Intellectual Property Office of Singapore), 싱가포르",
+   "bio_ko": [
+    "Tan Kong Hwee는 2025년 3월 싱가포르 지식재산청(IPOS)의 최고경영자(Chief Executive)로 취임했습니다. 그는 무형자산과 지식재산을 통해 싱가포르의 미래 경제 성장을 이끈다는 IPOS의 사명에 깊이 헌신하고 있습니다.",
+    "IPOS에 오기 전에는 2019년 말부터 싱가포르 경제개발청(EDB)에서 부사장(Executive Vice President) 겸 경영위원회 위원을 지냈습니다. EDB에서 19년간 근무하며 항공우주, 모빌리티, 디자인, 우주 등 여러 산업을 육성했고, 고객 관리 우수성을 이끌었으며, 브랜딩, 마케팅, 대외 커뮤니케이션 업무도 경험했습니다. 또한 도쿄와 런던에서 6년간 파견 근무를 했습니다.",
+    "Tan은 교토 대학교(Kyoto University)에서 전기공학 석사학위를 받은 직후 싱가포르 내무부(Ministry of Home Affairs)에서 공직 생활을 시작했습니다."
+   ]
   },
   {
    "id": "mr-zhang-zhicheng",
@@ -525,7 +752,12 @@
     "Zhang Zhicheng was born in 1971, Anhui Province. He graduated with Master’s degree in History from Nankai University in 1995. He obtained an LL.M. from Peking University in 2001 and a Ph.D. in law from Peking University in 2008.",
     "Since 1995, he started working at the China National Intellectual Property Administration (CNIPA). From 2011, he served successively as Deputy Director General of Protection Coordination Department, Deputy Director General of IP Development and Research Center, Director General of Protection Coordination Department, Director General of IP Protection Department and Director General of Personnel Department. In December 2024, he was appointed as Deputy Commissioner of CNIPA."
    ],
-   "photo": "img/mr-zhang-zhicheng.jpg"
+   "photo": "img/mr-zhang-zhicheng.jpg",
+   "title_ko": "부국장(Deputy Commissioner), 중국 국가지식재산권국(China National Intellectual Property Administration), 중국",
+   "bio_ko": [
+    "Zhang Zhicheng은 1971년 안후이성(Anhui Province)에서 태어났습니다. 1995년 난카이 대학교(Nankai University)에서 역사학 석사학위를 받았고, 2001년 베이징 대학교(Peking University)에서 법학 석사(LL.M.), 2008년 같은 대학에서 법학 박사학위를 취득했습니다.",
+    "1995년부터 중국 국가지식재산권국(CNIPA)에서 근무를 시작했습니다. 2011년부터 보호조정부 부국장, 지식재산개발연구센터 부국장, 보호조정부 국장, 지식재산보호부 국장, 인사부 국장을 차례로 역임했습니다. 2024년 12월 CNIPA 부국장(Deputy Commissioner)에 임명되었습니다."
+   ]
   },
   {
    "id": "mr-ken-ichiro-natsume",
@@ -537,7 +769,12 @@
     "Ken has been the Assistant Director General, Infrastructure and Platforms Sector, World Intellectual Property Organization (WIPO) since January 2021. His portfolio includes frontier technologies such as AI, databases, classifications, standards, digital solutions for intellectual property offices, as well as customer experience, marketing, and digital engagement. Prior to his current role, he was the Senior Director of PCT Legal and International Affairs Department, the Director of PCT International Cooperation Division, as well as the Head of the WIPO Japan Office. Before joining WIPO, Ken served with the Ministry of Foreign Affairs of Japan, the Permanent Mission of Japan to Geneva, and at the Japan Patent Office, where he played a leading role in various international intellectual property negotiations and debates including WIPO, WTO/TRIPS, WHO and CBD. At the Japan Patent Office, he also worked as a patent examiner specializing in image and information processing.",
     "He was also a visiting researcher at California Institute of Technology."
    ],
-   "photo": "img/mr-ken-ichiro-natsume.jpg"
+   "photo": "img/mr-ken-ichiro-natsume.jpg",
+   "title_ko": "사무차장보(Assistant Director General), 세계지적재산기구(WIPO)",
+   "bio_ko": [
+    "Ken은 2021년 1월부터 세계지적재산기구(WIPO) 인프라·플랫폼 부문 사무차장보(Assistant Director General)를 맡고 있습니다. 그의 담당 분야에는 AI, 데이터베이스, 분류, 표준, 지식재산청을 위한 디지털 솔루션 같은 최첨단 기술과 함께 고객 경험, 마케팅, 디지털 소통이 포함됩니다. 현직에 앞서 PCT 법무·국제업무국 선임국장(Senior Director), PCT 국제협력부장(Director), WIPO 일본사무소장을 역임했습니다. WIPO에 합류하기 전에는 일본 외무성, 주제네바 일본대표부, 일본 특허청에서 근무하며 WIPO, WTO/TRIPS, WHO, 생물다양성협약(CBD) 등 다양한 국제 지식재산 협상과 논의에서 주도적인 역할을 했습니다. 일본 특허청에서는 영상 및 정보 처리를 전문으로 하는 특허 심사관으로도 근무했습니다.",
+    "또한 캘리포니아 공과대학(California Institute of Technology)에서 방문 연구원을 지냈습니다."
+   ]
   },
   {
    "id": "mr-samuel-anum",
@@ -546,7 +783,9 @@
    "session": "Insight: Efficiency in Action - Deploying AI in IP Administration",
    "page": 23,
    "bio": [],
-   "photo": null
+   "photo": null,
+   "title_ko": "지식재산 컨설턴트, 가나 산업재산청(Ghana Industrial Property Office), 가나",
+   "bio_ko": []
   },
   {
    "id": "mr-rahul-bhartiya",
@@ -558,7 +797,12 @@
     "Rahul Bhartiya is an Electronics and Telecommunication Engineer with over 15 years of experience working with EU public organizations. His expertise lies in implementing new technologies within the Trademark and Design domain. Rahul serves as the AI coordinator for the entire office, where he oversees and monitors the implementation of AI systems and processes. He is also the head of IT development and maintenance service in the digital innovation department.",
     "Mr. Mario Magued Mina, Machine Learning Developer, Advanced Technology Applications Center, WIPO"
    ],
-   "photo": "img/mr-rahul-bhartiya.jpg"
+   "photo": "img/mr-rahul-bhartiya.jpg",
+   "title_ko": "AI 코디네이터, 유럽연합 지식재산청(European Union Intellectual Property Office), 스페인",
+   "bio_ko": [
+    "Rahul Bhartiya는 전자통신공학 엔지니어로, EU 공공기관에서 15년 이상 근무한 경험이 있습니다. 상표·디자인 분야에 신기술을 도입하는 데 전문성을 갖고 있습니다. 청 전체의 AI 코디네이터로서 AI 시스템과 프로세스의 도입을 총괄하고 모니터링합니다. 또한 디지털혁신부 내 IT 개발·유지보수 서비스 책임자를 겸하고 있습니다.",
+    "Mario Magued Mina, 머신러닝 개발자, 첨단기술응용센터(Advanced Technology Applications Center), WIPO"
+   ]
   },
   {
    "id": "mr-mario-magued-mina",
@@ -570,7 +814,12 @@
     "Mario Magued Mina is a machine learning developer at the Advanced Technology Application Center (ATAC) at the World Intellectual Property Organization (WIPO). He focuses on building, deploying, and integrating Large Language Models (LLMs) to address complex, real-world application needs. During his time at WIPO, he conducted architectural and practical engineering efforts to serve LLM applications reliably in production, establishing optimized inference pipelines and building multiple pilot projects and functional prototypes for various use cases.",
     "Prior to joining WIPO, his research at the Barcelona Supercomputing Center (BSC) concentrated heavily on the safety, ethics, and intrinsic bias of AI models. At BSC, he led research initiatives resulting in the development of evaluation benchmarks and methodologies to measure social stereotypes and cognitive biases in LLMs. Additionally, his work encompassed the data engineering lifecycle for generative AI. This includes the curation of massive pre-training corpora for mid- and low-resourced languages and hands-on contributions to the pre-training of foundational language models."
    ],
-   "photo": "img/mr-mario-magued-mina.jpg"
+   "photo": "img/mr-mario-magued-mina.jpg",
+   "title_ko": "머신러닝 개발자, 첨단기술응용센터(Advanced Technology Applications Center), WIPO",
+   "bio_ko": [
+    "Mario Magued Mina는 세계지적재산기구(WIPO) 첨단기술응용센터(ATAC)의 머신러닝 개발자입니다. 복잡한 실제 응용 수요에 대응하기 위해 대규모 언어 모델(LLM)을 구축, 배포, 통합하는 일에 주력하고 있습니다. WIPO에서 근무하는 동안 LLM 애플리케이션을 운영 환경에서 안정적으로 제공하기 위한 아키텍처 및 실무 엔지니어링 작업을 수행했으며, 최적화된 추론 파이프라인을 구축하고 다양한 활용 사례를 위한 여러 시범 프로젝트와 기능 프로토타입을 만들었습니다.",
+    "WIPO에 합류하기 전에는 바르셀로나 슈퍼컴퓨팅 센터(Barcelona Supercomputing Center, BSC)에서 AI 모델의 안전성, 윤리, 내재적 편향을 집중적으로 연구했습니다. BSC에서는 LLM의 사회적 고정관념과 인지 편향을 측정하는 평가 벤치마크와 방법론을 개발하는 연구를 이끌었습니다. 또한 생성형 AI를 위한 데이터 엔지니어링 전 주기에 걸쳐 활동했습니다. 여기에는 중·저자원 언어를 위한 대규모 사전학습 말뭉치의 구축과 기반 언어 모델의 사전학습에 대한 직접적인 기여가 포함됩니다."
+   ]
   },
   {
    "id": "mr-bruno-pouliquen",
@@ -581,7 +830,11 @@
    "bio": [
     "Bruno Pouliquen heads the Advanced Technology Applications Center at the World Intellectual Property Organization (WIPO) in Geneva. He has been working at WIPO since 2009 and is responsible for applying and exploring machine learning and AI techniques to intellectual property applications. He heads a small team working on various aspects of AI/machine learning, including speech recognition (transcription of WIPO conferences), machine translation, classification (image & text) and using Generative AI tools to support various WIPO use-cases. He holds a PhD in computer science, later specializing in multilingual text mining (ten years in the Joint Research Center of the European Commission), and currently works on various aspects of AI at WIPO. He has published 60 scientific papers in the computational linguistics domain"
    ],
-   "photo": "img/mr-bruno-pouliquen.jpg"
+   "photo": "img/mr-bruno-pouliquen.jpg",
+   "title_ko": "IP 데이터 머신러닝 개발 매니저, 첨단기술응용센터(Advanced Technology Applications Center), WIPO",
+   "bio_ko": [
+    "Bruno Pouliquen은 제네바 소재 세계지적재산기구(WIPO) 첨단기술응용센터(Advanced Technology Applications Center)의 센터장입니다. 2009년부터 WIPO에서 근무해 왔으며, 머신러닝과 AI 기법을 지식재산 응용 분야에 적용하고 탐구하는 일을 맡고 있습니다. 소규모 팀을 이끌며 음성 인식(WIPO 회의 녹취), 기계 번역, 분류(이미지 및 텍스트), 그리고 다양한 WIPO 활용 사례를 지원하기 위한 생성형 AI 도구 활용 등 AI/머신러닝의 여러 분야를 다룹니다. 컴퓨터 과학 박사학위를 보유하고 있으며, 이후 다국어 텍스트 마이닝을 전문으로 했고(유럽연합 집행위원회 공동연구센터(Joint Research Center)에서 10년 근무), 현재는 WIPO에서 AI의 다양한 측면을 연구하고 있습니다. 전산언어학 분야에서 60편의 학술 논문을 발표했습니다."
+   ]
   },
   {
    "id": "ms-kelly-sims",
@@ -596,7 +849,15 @@
     "She was Austrade's inaugural LGBTQ+ Executive Champion and established the Pride@Austrade global network.",
     "Kelly holds a Bachelor of Environmental Science (Hons) from the University of Wollongong, a Masters of Management from the Australian National University (ANU), and completed the Executive Leadership program at Columbia University in New York City."
    ],
-   "photo": "img/ms-kelly-sims.jpg"
+   "photo": "img/ms-kelly-sims.jpg",
+   "title_ko": "부청장 직무대행(Acting Deputy Director General), 호주 지식재산청(IP Australia), 호주",
+   "bio_ko": [
+    "Kelly Sims는 상표·디자인 등록관(Registrar of Trade Marks and Designs) 겸 총괄 매니저(General Manager)이며, 현재 호주 지식재산청(IP Australia)의 부청장 직무대행을 맡고 있습니다. 부청장 직무대행으로서 IP Australia의 최고보안책임자(Chief Security Officer), AI 책임 담당관(Accountable Official for AI), 최고AI책임자(Chief AI Officer)를 겸하고 있습니다. 멜버른 사무소를 이끌고 있으며, 청의 장애인 포용 담당 임원 챔피언(Disability Executive Champion)이기도 합니다.",
+    "Kelly는 IP Australia의 거버넌스그룹 총괄 매니저를 비롯해 호주 무역투자진흥청(Austrade)에서 기술 분야, 고객 경험, 제품 디자인을 담당한 여러 임원직 등 다수의 고위 임원직을 역임했습니다.",
+    "Kelly는 샌프란시스코, 뉴욕, 프랑크푸르트에서 호주 정부 무역투자 대표(Trade and Investment Commissioner)로 12년간 해외 근무한 뒤 2018년에 귀국했습니다.",
+    "Austrade의 초대 LGBTQ+ 임원 챔피언(Executive Champion)을 지냈으며, 글로벌 네트워크인 Pride@Austrade를 설립했습니다.",
+    "Kelly는 울런공 대학교(University of Wollongong)에서 환경과학 학사(우등) 학위를, 호주국립대학교(ANU)에서 경영학 석사 학위를 취득했고, 뉴욕 컬럼비아 대학교(Columbia University)의 경영진 리더십 과정(Executive Leadership program)을 수료했습니다."
+   ]
   },
   {
    "id": "mr-mohammad-elzend",
@@ -605,7 +866,9 @@
    "session": "Discussion: The Human in the Center - Authorship and Inventorship in the Age of AI",
    "page": 25,
    "bio": [],
-   "photo": null
+   "photo": null,
+   "title_ko": "고등항소법원 항소심 판사(Appellate Judge, High Court of Appeals), 법무부 국제문화협력국 선임 자문관, 이집트",
+   "bio_ko": []
   },
   {
    "id": "ms-claudia-catelin",
@@ -619,7 +882,14 @@
     "With a background in government relations, Claudia was previously a strategy consultant at Flint Global where she advised multinationals, membership organisations and other clients on their advocacy activities. She also worked at the Institute of Directors as EU and Trade Policy Adviser, which saw her lobbying on behalf of UK chief executives during the Brexit negotiations.",
     "Earlier in her career, Claudia worked for the Board of Directors at the European Bank for Reconstruction and Development and at the American Chamber of Commerce to Belgium. She holds an MSc in European Studies from the London School of Economics and Political Science. Outside of work, she is a Trustee of the Barnes Literary Society."
    ],
-   "photo": "img/ms-claudia-catelin.jpg"
+   "photo": "img/ms-claudia-catelin.jpg",
+   "title_ko": "정책이사(Director of Policy), 출판인협회(The Publishers Association), 영국",
+   "bio_ko": [
+    "Claudia Catelin은 출판사를 대표하는 런던 소재 업계 협회인 출판인협회(Publishers Association)의 정책이사(Director of Policy)입니다. 협회 회원사들은 다양한 장르와 주제에 걸쳐 디지털 및 인쇄 도서, 연구 학술지, 교육 자료를 제작합니다.",
+    "Claudia는 출판사들의 관심 사안인 저작권, 인공지능, 디지털 시장 등에 관한 정책 입장을 마련하고 정치, 정책, 규제 관계자들과 소통하는 역할을 맡고 있습니다. 영국 및 국제 권리자 단체들과도 정기적으로 긴밀하게 협력합니다.",
+    "정부 관계(government relations) 분야에서 경력을 쌓은 Claudia는 이전에 Flint Global에서 전략 컨설턴트로 일하며 다국적 기업, 회원 단체 및 기타 고객의 옹호 활동에 대해 자문했습니다. 또한 영국이사협회(Institute of Directors)에서 EU·통상정책 자문관으로 근무하며 브렉시트 협상 기간에 영국 최고경영자들을 대변하는 로비 활동을 했습니다.",
+    "경력 초기에는 유럽부흥개발은행(European Bank for Reconstruction and Development) 이사회와 벨기에 주재 미국상공회의소(American Chamber of Commerce to Belgium)에서 근무했습니다. 런던정치경제대학교(London School of Economics and Political Science)에서 유럽학 석사(MSc) 학위를 받았습니다. 업무 외에는 Barnes Literary Society의 이사(Trustee)로 활동하고 있습니다."
+   ]
   },
   {
    "id": "ms-eva-janeckova",
@@ -630,7 +900,11 @@
    "bio": [
     "Eva is a legal scholar. She researches on implications of artificial intelligence-driven systems' creativity for intellectual property law. She is the author of research monograph Copyright and Patent Laws for the Age of Artificial Intelligence: Authorship and Inventorship Revisited (Hart 2025). She teaches intellectual property law and digital competition at the University of Bristol. She holds DPhil from the University of Oxford, LLM in Intellectual Property and Competition Law from the Munich Intellectual Property Law Center and Magister juris from the Faculty of Law, Charles University in Prague. Her professional experience spans teaching at the University of Oxford, coordinating public policy making in the internal market at the Secretariat General of the European Commission in Brussels and practising law in corporate, transactions and IP/IT legal teams in Prague."
    ],
-   "photo": "img/ms-eva-janeckova.jpg"
+   "photo": "img/ms-eva-janeckova.jpg",
+   "title_ko": "법학 강사(Lecturer in Law), 브리스톨 대학교 로스쿨(University of Bristol Law School), 슬로바키아",
+   "bio_ko": [
+    "Eva는 법학자입니다. 인공지능 기반 시스템의 창작성이 지식재산법에 미치는 영향을 연구합니다. 연구 단행본 Copyright and Patent Laws for the Age of Artificial Intelligence: Authorship and Inventorship Revisited (Hart 2025)의 저자입니다. 브리스톨 대학교(University of Bristol)에서 지식재산법과 디지털 경쟁법을 가르칩니다. 옥스퍼드 대학교(University of Oxford)에서 DPhil(박사학위)을, 뮌헨 지식재산법센터(Munich Intellectual Property Law Center)에서 지식재산·경쟁법 LLM을, 프라하 카렐 대학교(Charles University) 법학부에서 Magister juris를 취득했습니다. 경력으로는 옥스퍼드 대학교에서의 강의, 브뤼셀 유럽연합 집행위원회 사무총국(Secretariat General)에서의 역내시장 공공정책 수립 조정, 프라하의 기업·거래·IP/IT 법무팀에서의 변호사 실무가 있습니다."
+   ]
   },
   {
    "id": "mr-james-malackowski",
@@ -645,7 +919,15 @@
     "An inventor with more than 20 issued U.S. patents, he is a Certified Public Accountant and Certified Licensing Professional. He also participated in the inaugural cohort of Georgetown University’s Masters in AI Management program.",
     "A frequent speaker on intellectual property, emerging technologies, and financial markets, he has appeared on Bloomberg, CNBC, CBS News Radio, and Fox Business."
    ],
-   "photo": "img/mr-james-malackowski.jpg"
+   "photo": "img/mr-james-malackowski.jpg",
+   "title_ko": "선임 매니징 디렉터(Senior Managing Director), Ocean Tomo, 미국",
+   "bio_ko": [
+    "James E. Malackowski(CPA, CLP)는 J.S. Held LLC의 최고지식재산책임자(Chief Intellectual Property Officer)이자 J.S. Held 소속인 Ocean Tomo의 공동 설립자입니다. 그의 업무는 지식재산 전략, 가치평가, 전문가 증언, 그리고 지식재산·기술·금융·인공지능이 교차하는 새로운 쟁점에 초점을 맞추고 있습니다.",
+    "그는 인공지능도 조직이 다른 형태의 지식재산 및 무형자산에 적용하는 것과 같은 전략적 규율로 관리되어야 한다는 논지를 펼치는 연재 기사 시리즈의 주 저자입니다. 그의 연구는 소유권, 보호, 가치평가, 거버넌스, 상업화 문제를 포함해 지식재산과 기업 가치의 관점에서 AI를 탐구합니다.",
+    "James E. Malackowski는 2022년 IP 명예의 전당(IP Hall of Fame)에 헌액되었고 2025년 라이선싱 경영인협회(Licensing Executives Society) 금메달을 받았습니다. 주요 업계 매체들로부터 세계 최고의 지식재산 전략가 중 한 명으로 인정받았으며, 미국 연방법원 및 파산법원, 주 법원, 델라웨어 형평법원(Delaware Court of Chancery), 온타리오 고등법원(Ontario Superior Court of Justice), 호주 조세법원(Australian Tax Court), 국제 중재에서 전문가로 인정받았습니다.",
+    "미국 특허 20건 이상을 보유한 발명가이며, 공인회계사(CPA)이자 공인 라이선싱 전문가(Certified Licensing Professional)입니다. 또한 조지타운 대학교(Georgetown University) AI 경영 석사(Masters in AI Management) 프로그램의 첫 기수에 참여했습니다.",
+    "지식재산, 신기술, 금융 시장에 관한 강연자로 자주 초청되며, Bloomberg, CNBC, CBS News Radio, Fox Business에 출연했습니다."
+   ]
   },
   {
    "id": "mr-ekene-som-mekwunye",
@@ -660,7 +942,15 @@
     "As a filmmaker, producer and educator, he is particularly interested in the intersection of technology, creativity and intellectual property. He sees artificial intelligence as a potentially transformative creative tool that can expand the possibilities of storytelling and film production, while emphasising the importance of human authorship, creative judgment, ownership and the protection of creators' rights.",
     "Ekene is passionate about the growth of Africa's creative industries and believes African creators, businesses and policymakers must play an active role in shaping the global conversations and frameworks that will determine the future of creativity and intellectual property."
    ],
-   "photo": "img/mr-ekene-som-mekwunye.jpg"
+   "photo": "img/mr-ekene-som-mekwunye.jpg",
+   "title_ko": "영화감독·제작자, 리버사이드 프로덕션(Riverside Productions) 설립자 겸 크리에이티브 디렉터, 나이지리아",
+   "bio_ko": [
+    "Ekene Som Mekwunye는 나이지리아의 영화감독, 영화 제작자, 연출가, 시나리오 작가, 창의 분야 기업가이자 교육자입니다. 영화 및 시청각 콘텐츠의 개발, 제작, 상업적 활용을 담당하는 나이지리아 영화 제작사 리버사이드 프로덕션(Riverside Productions)의 설립자 겸 크리에이티브 디렉터입니다.",
+    "약 15년간 영화 산업에 종사하며 영화 제작, 창작 개발, 제작 관리, 영화 비즈니스를 아우르는 경력을 쌓았습니다. 이야기와 지식재산을 개발하고, 창작 프로젝트를 현실로 구현하며, 나이지리아 영화가 더 넓은 관객과 해외 시장에 다가갈 수 있는 기회를 모색하는 일을 하고 있습니다.",
+    "영화 제작 활동 외에도 팬애틀랜틱 대학교(Pan-Atlantic University) 미디어·커뮤니케이션 대학(The School of Media and Communication)의 겸임 교수로서 지난 9년간 강의해 왔습니다. 교육과 멘토링에 대한 깊은 열정을 바탕으로 실무 산업 지식을 나누고, 신진 인재를 육성하며, 청년들이 창의 산업에서 성공하는 데 필요한 역량과 자신감, 창의적 사고를 기르도록 돕고 있습니다. 차세대 창작자들과의 교류는 기술이 사람들의 학습, 창작, 업무 방식을 어떻게 바꾸고 있는지에 대한 관심으로도 이어졌습니다.",
+    "영화인, 제작자, 교육자로서 기술, 창의성, 지식재산의 접점에 특히 관심이 많습니다. 인공지능을 스토리텔링과 영화 제작의 가능성을 넓힐 수 있는 잠재적으로 혁신적인 창작 도구로 보면서도, 인간의 저작성, 창의적 판단, 소유권, 창작자 권리 보호의 중요성을 강조합니다.",
+    "Ekene는 아프리카 창의 산업의 성장에 열정을 가지고 있으며, 아프리카의 창작자, 기업, 정책 입안자들이 창의성과 지식재산의 미래를 좌우할 글로벌 논의와 체계를 형성하는 데 적극적인 역할을 해야 한다고 믿습니다."
+   ]
   },
   {
    "id": "ms-anna-tumadottir",
@@ -669,7 +959,9 @@
    "session": "Discussion: The Human in the Center - Authorship and Inventorship in the Age of AI",
    "page": 28,
    "bio": [],
-   "photo": null
+   "photo": null,
+   "title_ko": "최고경영자(CEO), 크리에이티브 커먼즈(Creative Commons), 아이슬란드",
+   "bio_ko": []
   },
   {
    "id": "mr-christian-wichard",
@@ -678,7 +970,9 @@
    "session": "Discussion: The Human in the Center - Authorship and Inventorship in the Age of AI",
    "page": 28,
    "bio": [],
-   "photo": null
+   "photo": null,
+   "title_ko": "차관급 국장(Deputy Director General), 연방법무·소비자보호부(Federal Ministry of Justice and Consumer Protection), 독일",
+   "bio_ko": []
   },
   {
    "id": "mr-alain-ephraim-goumou",
@@ -697,7 +991,19 @@
     "He also presented Kôlèpòno-AI at the AI for Good Global Summit, organized in Geneva by the International Telecommunication Union (ITU), and was selected for the STATION F Fighters Program in Paris.",
     "Through his initiatives, Alain advocates for inclusive artificial intelligence, demonstrating how locally developed innovations can address pressing challenges and generate meaningful impact beyond national borders."
    ],
-   "photo": "img/mr-alain-ephraim-goumou.jpg"
+   "photo": "img/mr-alain-ephraim-goumou.jpg",
+   "title_ko": "TínaanTech 설립자 겸 최고기술책임자(CTO), Kôlèpòno-AI 기술 이사, 기니",
+   "bio_ko": [
+    "Alain Goumou는 로봇공학, 인공지능, 컴퓨터 비전을 전문으로 하는 기니 출신 엔지니어입니다. 기술 혁신에 헌신하는 기업가로서, 특히 아프리카의 보건 의료 분야를 중심으로 사회의 주요 과제를 해결하는 솔루션을 개발하고 있습니다.",
+    "몽펠리에 대학교에서 로봇공학과 인공지능을, 프랑스 님 대학교에서 컴퓨터 비전을 공부했으며, 인공지능, 로봇공학, 지능형 시스템을 활용한 혁신적 솔루션 개발에 주력하는 기술 기업 TínaanTech의 설립자 겸 최고기술책임자(CTO)입니다.",
+    "인공지능과 컴퓨터 비전을 활용해 말라리아와 결핵 진단을 지원하는 지능형 의료기기 Kôlèpòno-AI의 기술 개발을 이끌고 있습니다. 이 기기는 인터넷 연결 없이 작동하고 태양광 충전식 배터리로 구동되도록 설계되어, 특히 의료 혜택이 부족한 농촌 지역사회에서 의료 진단을 더 빠르고 쉽게 접할 수 있도록 하는 것을 목표로 합니다.",
+    "혁신에 대한 헌신으로 다음을 비롯한 여러 국제적 상을 받았습니다.",
+    "• 아프리카 연합(African Union) 청년 혁신·창업 부문 상 2026 수상",
+    "• 아프리카 대통령 AI·로봇공학 경진대회(African Presidential AI & Robotics Competition) 2025 – 요하네스버그 3위",
+    "• 중국-아프리카 혁신 경진대회(China-Africa Innovation Competition) 은상",
+    "또한 국제전기통신연합(ITU)이 제네바에서 개최한 AI for Good 글로벌 서밋(AI for Good Global Summit)에서 Kôlèpòno-AI를 발표했으며, 파리 STATION F의 Fighters 프로그램에 선발되었습니다.",
+    "Alain은 자신의 활동을 통해 포용적 인공지능을 옹호하며, 현지에서 개발된 혁신이 시급한 과제를 해결하고 국경을 넘어 의미 있는 영향을 만들어 낼 수 있음을 보여 주고 있습니다."
+   ]
   },
   {
    "id": "mr-marco-aleman",
@@ -708,7 +1014,11 @@
    "bio": [
     "Mr. Alemán studied law at the Javeriana University (J.D., 1991), where he also obtained a Corporate Law Certificate (LL.M., 1996). He then obtained a Diploma in Advanced Studies (DEA) in Research at the Alcalá University (Spain, 2006), and a Ph.D. in Law (2011, Cum Laude). He practiced as an IP Attorney from 1991 to 1995, was then appointed Head of the Colombian Industrial Property Office from 1995 to 1998 and was invited as a Fellow Visiting Researcher at the Max Planck Institute in Munich, Germany, in 1998. He joined WIPO in 1999 as Senior Program Officer, Office of Cooperation for Development for Latin America and the Caribbean (1999–2006). He was then appointed Deputy Director in the Division for Public Policy and Development (2006–2009), Deputy Director of the Patent Law Division (2009–2013), and Director of the Patent Law Division (2013–2020). He currently holds the position of Assistant Director General, leading the IP and Innovation Ecosystems Sector (IES)."
    ],
-   "photo": "img/mr-marco-aleman.jpg"
+   "photo": "img/mr-marco-aleman.jpg",
+   "title_ko": "사무차장보, 지식재산·혁신 생태계 부문(IP and Innovation Ecosystems Sector), 세계지적재산기구(WIPO)",
+   "bio_ko": [
+    "Alemán 씨는 하베리아나 대학교(Javeriana University)에서 법학을 전공하고(J.D., 1991) 기업법 수료증(LL.M., 1996)을 취득했습니다. 이후 스페인 알칼라 대학교(Alcalá University)에서 연구 분야 고급 연구과정 수료증(DEA, 2006)과 법학 박사학위(Ph.D., 2011, 최우수 등급)를 받았습니다. 1991년부터 1995년까지 지식재산 변호사로 활동했고, 1995년부터 1998년까지 콜롬비아 산업재산청장을 지냈으며, 1998년에는 독일 뮌헨의 막스 플랑크 연구소(Max Planck Institute)에 객원 연구원(Fellow Visiting Researcher)으로 초청되었습니다. 1999년 WIPO에 선임 프로그램 담당관(Senior Program Officer)으로 입사하여 라틴아메리카·카리브 지역 개발협력실(Office of Cooperation for Development for Latin America and the Caribbean)에서 근무했습니다(1999–2006). 이후 공공정책·개발국(Division for Public Policy and Development) 부국장(2006–2009), 특허법국(Patent Law Division) 부국장(2009–2013), 특허법국 국장(2013–2020)을 역임했습니다. 현재 사무차장보로서 지식재산·혁신 생태계 부문(IES)을 이끌고 있습니다."
+   ]
   },
   {
    "id": "ms-maria-de-icaza",
@@ -719,7 +1029,11 @@
    "bio": [
     "Ms. de Icaza is Head of Web Communications at WIPO, where she turns ideas into trusted tools that help the world understand the value of intellectual property. She specializes in building from the ground up, from global databases and digital platforms to cross-functional teams and compelling narratives, connecting strategy to execution. Her focus is on making the complex simple, the technical relatable and the invisible value of IP visible. She is currently exploring how AI and digital marketing can enable smarter communication and more human workflows. Ms. de Icaza holds a Master of Business Administration from Georgetown University’s McDonough School of Business, as well as two Bachelor’s degrees, one in Economic Theory and one in International Relations, from American University."
    ],
-   "photo": "img/ms-maria-de-icaza.jpg"
+   "photo": "img/ms-maria-de-icaza.jpg",
+   "title_ko": "웹 커뮤니케이션 책임자, 고객 경험·마케팅·디지털 참여국(Customer Experience, Marketing, and Digital Engagement Division), 인프라·플랫폼 부문(Infrastructure and Platforms Sector), WIPO",
+   "bio_ko": [
+    "de Icaza 씨는 WIPO의 웹 커뮤니케이션 책임자로서, 아이디어를 전 세계가 지식재산의 가치를 이해하도록 돕는 신뢰할 수 있는 도구로 만들어 내고 있습니다. 글로벌 데이터베이스와 디지털 플랫폼에서부터 부서 간 협업 팀과 설득력 있는 스토리에 이르기까지 처음부터 구축하는 일을 전문으로 하며, 전략을 실행으로 연결합니다. 복잡한 것을 단순하게, 기술적인 것을 친근하게, 보이지 않는 지식재산의 가치를 눈에 보이게 만드는 데 주력하고 있습니다. 현재는 AI와 디지털 마케팅이 어떻게 더 스마트한 커뮤니케이션과 더 인간적인 업무 방식을 가능하게 하는지 탐구하고 있습니다. de Icaza 씨는 조지타운 대학교 맥도너 경영대학원(McDonough School of Business)에서 경영학 석사(MBA)를, 아메리칸 대학교(American University)에서 경제 이론과 국제관계학 학사 학위 두 개를 취득했습니다."
+   ]
   },
   {
    "id": "ms-kim-miles",
@@ -730,7 +1044,11 @@
    "bio": [
     "Ms. Miles is Director of Digital Engagement at WIPO, where she leads the Organization’s web, content and design strategies while modernizing its underlying discovery systems for both human users and AI capabilities. She has over 20 years of experience at the intersection of enterprise technology and global outreach. Combining a background in Computer Science with an M.A. in International Relations, her focus is on building clear, accessible pathways that expand WIPO’s reach and connect creators worldwide to the IP resources they depend on."
    ],
-   "photo": "img/ms-kim-miles.jpg"
+   "photo": "img/ms-kim-miles.jpg",
+   "title_ko": "디지털 참여 국장, 고객 경험·마케팅·디지털 참여국(Customer Experience, Marketing, and Digital Engagement Division), WIPO",
+   "bio_ko": [
+    "Miles 씨는 WIPO의 디지털 참여 국장으로서, 기구의 웹, 콘텐츠, 디자인 전략을 이끌고 있으며 사람 이용자와 AI 기능 모두를 위해 기반 검색·탐색 시스템을 현대화하고 있습니다. 기업 기술과 글로벌 대외 협력의 접점에서 20년 이상의 경력을 보유하고 있습니다. 컴퓨터 과학 배경과 국제관계학 석사(M.A.)를 겸비한 그는 WIPO의 영향력을 넓히고 전 세계 창작자들이 필요로 하는 지식재산 자원에 연결될 수 있도록 명확하고 접근하기 쉬운 경로를 구축하는 데 주력하고 있습니다."
+   ]
   },
   {
    "id": "ms-lorena-rivera-leon",
@@ -741,7 +1059,11 @@
    "bio": [
     "Ms. Rivera León is a Senior Economist and the co-editor of the Global Innovation Index (GII) at the Department for Economics and Data Analytics of the World Intellectual Property Organization (WIPO). She has worked as a researcher, policy analyst and consultant in the field of research and innovation for around 20 years, including consulting for various services of the European Commission, UNESCO and the OECD. At WIPO, she is in charge of constructing and developing the GII statistical model and undertaking related data computations of the innovation index. She also provides ad hoc technical advice to countries on innovation policy and performance and innovation metrics. Ms. Rivera León holds a PhD in Economics and Policy Studies of Technical Change from UNU-MERIT in the Netherlands, and a Master of Arts awarded jointly by the Department of Economics, University of British Columbia, Canada, and the Université Grenoble Alpes, France."
    ],
-   "photo": "img/ms-lorena-rivera-leon.jpg"
+   "photo": "img/ms-lorena-rivera-leon.jpg",
+   "title_ko": "선임 경제학자 겸 글로벌 혁신 지수(Global Innovation Index) 공동 편집자, 경제·데이터 분석국(Department for Economics and Data Analytics), WIPO",
+   "bio_ko": [
+    "Rivera León 씨는 세계지적재산기구(WIPO) 경제·데이터 분석국의 선임 경제학자이자 글로벌 혁신 지수(GII) 공동 편집자입니다. 약 20년간 연구·혁신 분야에서 연구원, 정책 분석가, 컨설턴트로 활동했으며, 유럽 집행위원회, 유네스코(UNESCO), 경제협력개발기구(OECD)의 여러 부서에 자문을 제공한 경험이 있습니다. WIPO에서는 GII 통계 모델의 구축·개발과 혁신 지수 관련 데이터 산출을 담당하고 있습니다. 또한 각국에 혁신 정책과 성과, 혁신 지표에 관한 수시 기술 자문을 제공합니다. Rivera León 씨는 네덜란드 UNU-MERIT에서 경제학 및 기술변화 정책 연구 박사학위(PhD)를, 캐나다 브리티시컬럼비아 대학교(University of British Columbia) 경제학과와 프랑스 그르노블 알프 대학교(Université Grenoble Alpes)가 공동 수여한 석사학위(M.A.)를 받았습니다."
+   ]
   },
   {
    "id": "mr-jeff-slee",
@@ -752,7 +1074,11 @@
    "bio": [
     "Mr. Slee is a Data Scientist at the Department for Economics and Data Analytics of the World Intellectual Property Organization (WIPO). He has over fifteen years of experience in national and international statistical compilation, transforming complex data into meaningful, actionable insights. Before joining WIPO, he served as Senior Statistical Analyst at the Reserve Bank of New Zealand, Statistical and Research Analyst at the Bank for International Settlements (BIS) in Basel, and Senior Statistical Analyst at the Bank of Canada. He began his career as an Economic Policy Analyst with the Federal Government of Canada. Mr. Slee holds a Bachelor of Arts in Economics from Simon Fraser University and a Master of Arts in Economics from the University of Ottawa."
    ],
-   "photo": "img/mr-jeff-slee.jpg"
+   "photo": "img/mr-jeff-slee.jpg",
+   "title_ko": "데이터 과학자, 경제·데이터 분석국(DEDA), 지식재산·혁신 생태계 부문(IP and Innovation Ecosystems Sector), WIPO",
+   "bio_ko": [
+    "Slee 씨는 세계지적재산기구(WIPO) 경제·데이터 분석국의 데이터 과학자입니다. 국내외 통계 작성 분야에서 15년 이상의 경력을 쌓으며 복잡한 데이터를 의미 있고 실행 가능한 인사이트로 전환해 왔습니다. WIPO 입사 전에는 뉴질랜드 중앙은행(Reserve Bank of New Zealand)에서 선임 통계 분석가, 스위스 바젤의 국제결제은행(BIS)에서 통계·연구 분석가, 캐나다 중앙은행(Bank of Canada)에서 선임 통계 분석가로 근무했습니다. 캐나다 연방정부의 경제정책 분석가로 경력을 시작했습니다. Slee 씨는 사이먼프레이저 대학교(Simon Fraser University)에서 경제학 학사(B.A.)를, 오타와 대학교(University of Ottawa)에서 경제학 석사(M.A.)를 취득했습니다."
+   ]
   },
   {
    "id": "mr-roger-zamora-matute",
@@ -761,7 +1087,9 @@
    "session": "Optional Side Event – Launch – Meet the Global Innovation Index AI Assistant",
    "page": 31,
    "bio": [],
-   "photo": null
+   "photo": null,
+   "title_ko": "경제·데이터 분석국(DEDA), 지식재산·혁신 생태계 부문(IP and Innovation Ecosystems Sector), WIPO",
+   "bio_ko": []
   },
   {
    "id": "ms-michelle-azuaje-pirela",
@@ -770,7 +1098,9 @@
    "session": "Discussion: The IP in the Machine – Untangling IP Issues Behind the Models",
    "page": 31,
    "bio": [],
-   "photo": null
+   "photo": null,
+   "title_ko": "법·신기술 부교수, 메트로폴리탄 기술대학교(Metropolitan University of Technology), 칠레",
+   "bio_ko": []
   },
   {
    "id": "mr-ahmed-elgammal",
@@ -783,7 +1113,13 @@
     "Prof. Elgammal published over 200 peer-reviewed papers, book chapters, and books in the fields of computer vision, machine learning, and artificial intelligence. His research on knowledge discovery in art history and AI art generation, received wide international media attention, including reports on the Washington Post, New York Times, the Guardian, the Daily Telegraph, CBS, NBC News, Science News, New Scientist, and many others. His art has been shown in several technology and art venues in Los Angeles, Frankfurt, San Francisco, and New York City. Dr. Elgammal also led the AI team which completed Beethoven 10th symphony using emerging LLMs, which was a pioneering project in music generation, receiving worldwide media coverage, and several awards.",
     "Dr Elgammal received the National Science Foundation CAREER Award in 2006. Dr. Elgammal received his M.Sc. and Ph.D. degrees in computer science from the University of Maryland, College Park, in 2000 and 2002, respectively."
    ],
-   "photo": null
+   "photo": null,
+   "title_ko": "컴퓨터 과학 교수 겸 예술·인공지능 연구소(Art and Artificial Intelligence Laboratory) 소장, 럿거스 대학교(Rutgers University), 미국/이집트",
+   "bio_ko": [
+    "Ahmed Elgammal 박사는 럿거스 대학교 컴퓨터 과학과 교수입니다. 디지털 인문학 분야의 데이터 과학을 연구하는 럿거스 예술·인공지능 연구소(Art and Artificial Intelligence Laboratory)의 설립자이자 소장이며, 럿거스 대학교 인지과학센터(Center for Cognitive Science)의 집행위원회 교수(Executive Council Faculty)도 맡고 있습니다.",
+    "Elgammal 교수는 컴퓨터 비전, 머신러닝, 인공지능 분야에서 200편 이상의 동료 심사 논문, 도서 챕터, 저서를 발표했습니다. 미술사 분야의 지식 발견과 AI 미술 생성에 관한 그의 연구는 워싱턴 포스트, 뉴욕 타임스, 가디언, 데일리 텔레그래프, CBS, NBC News, Science News, New Scientist 등 여러 매체의 보도를 비롯해 국제적으로 폭넓은 언론의 주목을 받았습니다. 그의 작품은 로스앤젤레스, 프랑크푸르트, 샌프란시스코, 뉴욕시의 여러 기술·예술 전시 공간에서 선보였습니다. 또한 Elgammal 박사는 새로운 거대언어모델(LLM)을 활용해 베토벤 교향곡 10번을 완성한 AI 팀을 이끌었는데, 이 프로젝트는 음악 생성 분야의 선구적 사례로서 전 세계 언론의 주목을 받았고 여러 상을 받았습니다.",
+    "Elgammal 박사는 2006년 미국 국립과학재단(National Science Foundation) CAREER Award를 수상했습니다. 2000년과 2002년에 각각 메릴랜드 대학교 칼리지파크(University of Maryland, College Park)에서 컴퓨터 과학 석사(M.Sc.)와 박사(Ph.D.) 학위를 받았습니다."
+   ]
   },
   {
    "id": "ms-kim-jordahl",
@@ -797,7 +1133,14 @@
     "Kim oversees the preparation and prosecution of patent applications in the areas of diagnostics, cellular therapies, methods of treatment, and bioinformatics, and manages related intellectual property portfolios. She advises investigators and institutional stakeholders on intellectual property matters, navigating the intersection of scientific innovation, patent protection, and the dissemination of research findings.",
     "Her broader practice has encompassed patent portfolio development, domestic and international patent prosecution, and intellectual property strategy across a wide range of technologies and industries. Her perspective on artificial intelligence and intellectual property is informed by the practical challenges of protecting emerging technologies, including AI-enabled innovations, while supporting the research, collaboration, and knowledge sharing that are fundamental to scientific advancement."
    ],
-   "photo": "img/ms-kim-jordahl.jpg"
+   "photo": "img/ms-kim-jordahl.jpg",
+   "title_ko": "부수석 특허 담당 변호사(Associate General Patent Counsel), 법무실(Office of General Counsel), 다나파버 암 연구소(Dana-Farber Cancer Institute), 미국",
+   "bio_ko": [
+    "Kim Jordahl은 암 연구와 치료 분야의 세계적 선도 기관인 매사추세츠주 보스턴의 다나파버 암 연구소(Dana-Farber Cancer Institute)에서 부수석 특허 담당 변호사(Associate General Patent Counsel)로 일하고 있습니다.",
+    "Kim은 민간 법률사무소, 기업 법무 부서, 학술 연구기관을 아우르는 30년 이상의 지식재산법 경력을 보유하고 있습니다. 2023년 다나파버에 합류하기 전에는 15년 이상 개인 사무소를 운영하며 포춘 50대 기업과 이에 필적하는 규모의 비상장 글로벌 기업들을 대리했습니다. 이전에는 Solvay와 The Pillsbury Company에서 사내 변호사로 일했고, 대형 종합 로펌과 전문 지식재산 부티크 로펌에서도 근무했습니다. 미국지적재산권법협회(AIPLA)에서 이사회 구성원을 비롯해 여러 리더십 직책을 맡았습니다.",
+    "Kim은 진단, 세포 치료, 치료 방법, 생물정보학 분야의 특허 출원서 작성과 심사 대응을 총괄하고 관련 지식재산 포트폴리오를 관리합니다. 연구자와 기관 이해관계자에게 지식재산 관련 자문을 제공하며, 과학적 혁신, 특허 보호, 연구 성과의 확산이 만나는 지점을 조율합니다.",
+    "그의 폭넓은 업무는 특허 포트폴리오 개발, 국내외 특허 심사 대응, 다양한 기술·산업 분야에 걸친 지식재산 전략을 포괄해 왔습니다. 인공지능과 지식재산에 대한 그의 관점은, 과학 발전의 근간인 연구, 협력, 지식 공유를 뒷받침하면서 AI 기반 혁신을 포함한 신기술을 보호하는 데 따르는 실무적 과제에서 비롯된 것입니다."
+   ]
   },
   {
    "id": "mr-daheo-lee",
@@ -810,7 +1153,13 @@
     "His practice spans patent prosecution, litigation, and IP strategy. He has handled Korean court cases concerning data, web crawling, and the protection of software services, and has prosecuted patent applications directed to data structures and AI model structures before the Korean Intellectual Property Office — experience that directly informs the questions this panel addresses.",
     "Mr. Lee has been recognized as one of IAM's Patent 300 Global Leaders since 2024 and as a Trade Mark Star by Managing IP since 2022. Beyond client work, he leads the AI transformation of his own firm, building agent-based automation systems and MCP-based services that connect clients' AI assistants directly to the firm's case management systems — giving him a practitioner's view of \"the IP in the machine\" from both sides: protecting AI, and practicing with it."
    ],
-   "photo": "img/mr-daheo-lee.jpg"
+   "photo": "img/mr-daheo-lee.jpg",
+   "title_ko": "대표 파트너, PI IP LAW, 대한민국",
+   "bio_ko": [
+    "Daeho Lee는 서울에 있는 지식재산 법률사무소 PI IP LAW의 설립자이자 대표 파트너입니다. 18년 경력의 한국 변리사로서 인공지능과 소프트웨어 특허를 전문으로 하며, 스타트업부터 글로벌 기술 기업에 이르는 AI 개발사에 모델 아키텍처, 학습 데이터 파이프라인, 배포 기술을 아우르는 보호 전략을 자문하고 있습니다.",
+    "그의 업무는 특허 출원·심사 대응, 소송, 지식재산 전략에 걸쳐 있습니다. 데이터, 웹 크롤링, 소프트웨어 서비스 보호에 관한 한국 법원 사건을 수행했으며, 한국 특허청(Korean Intellectual Property Office)에서 데이터 구조와 AI 모델 구조에 관한 특허 출원의 심사에 대응한 경험이 있습니다. 이러한 경험은 이번 패널이 다루는 문제들과 직접 맞닿아 있습니다.",
+    "Lee 변리사는 2024년부터 IAM Patent 300 글로벌 리더 중 한 명으로, 2022년부터 Managing IP의 Trade Mark Star로 선정되었습니다. 고객 업무 외에도 자신의 법률사무소의 AI 전환을 이끌며, 고객의 AI 어시스턴트를 사무소의 사건 관리 시스템에 직접 연결하는 에이전트 기반 자동화 시스템과 MCP 기반 서비스를 구축하고 있습니다. 이를 통해 AI를 보호하는 입장과 AI를 활용해 업무를 수행하는 입장 양면에서 \"기계 속의 지식재산(the IP in the machine)\"을 바라보는 실무자의 시각을 갖추고 있습니다."
+   ]
   },
   {
    "id": "ms-burcu-g-ozcan-buyuktanr",
@@ -825,7 +1174,15 @@
     "She has also been involved in a research project with the Republic of Türkiye Ministry of Culture and Tourism entitled “Artificial Intelligence and Copyright: A Comparative Law and Economics Analysis Across Countries.”",
     "In addition to her academic work, she also practices law, providing legal advice and consultancy in her areas of expertise. She is actively involved in mediation and professional training and serves as an expert witness in copyright and patent law matters."
    ],
-   "photo": "img/ms-burcu-g-ozcan-buyuktanr.jpg"
+   "photo": "img/ms-burcu-g-ozcan-buyuktanr.jpg",
+   "title_ko": "민법 교수, 민법학과 학과장, 보건법연구센터(Health Law Research Center) 소장, 법과대학, 하제테페 대학교(Hacettepe University), 튀르키예",
+   "bio_ko": [
+    "Burcu G. Özcan Büyüktanır 교수(Prof. Dr.)는 튀르키예 앙카라 하제테페 대학교(Hacettepe University) 법과대학 법학 교수로, 민법학과 학과장과 보건법연구센터(Health Law Research Center) 소장을 맡고 있습니다.",
+    "연구는 지식재산법, 특히 특허법, 의약품 특허, 저작권법에 초점을 두고 있습니다. 학문적 관심 분야로는 책임법, 계약법, 가족법, 소비자법, 보건법도 포함됩니다.",
+    "최근에는 AI 관련 발명의 특허성, 저작권 보호, 기술 혁신·경쟁·공익 간의 균형 등 인공지능과 지식재산권의 접점을 연구하고 있습니다.",
+    "또한 튀르키예 공화국 문화관광부와 함께 \"인공지능과 저작권: 국가 간 비교법·경제학적 분석(Artificial Intelligence and Copyright: A Comparative Law and Economics Analysis Across Countries)\"이라는 연구 프로젝트에 참여했습니다.",
+    "학술 활동 외에도 법률 실무를 병행하며 전문 분야에서 법률 자문과 컨설팅을 제공하고 있습니다. 조정과 전문 교육에도 적극적으로 참여하고 있으며, 저작권 및 특허법 사안에서 전문가 증인으로 활동하고 있습니다."
+   ]
   },
   {
    "id": "fr-paolo-benanti-t-o-r",
@@ -834,7 +1191,9 @@
    "session": "Insight: IP at the Table - Making IP Part of the Wider AI Policy Landscape",
    "page": 34,
    "bio": [],
-   "photo": null
+   "photo": null,
+   "title_ko": "도덕철학·기술윤리 교수, 교황청립 그레고리안 대학교(Pontifical Gregorian University), 이탈리아",
+   "bio_ko": []
   },
   {
    "id": "ms-inbar-preiss",
@@ -849,7 +1208,15 @@
     "From crypto to AI, she reports on how frontier technologies test the limits of existing law, and what that means for the people and businesses using them.",
     "Earlier, she worked with Brussels-based publications including The Parliament Magazine and Are We Europe. She holds a bachelor’s degree in international relations from University College Utrecht and a master’s degree in international politics from KU Leuven."
    ],
-   "photo": "img/ms-inbar-preiss.jpg"
+   "photo": "img/ms-inbar-preiss.jpg",
+   "title_ko": "선임 지식재산 특파원, MLex, 네덜란드",
+   "bio_ko": [
+    "Inbar Preiss는 규제 및 법적 리스크를 전문으로 다루는 뉴스 매체 MLex의 브뤼셀 기반 선임 지식재산 특파원입니다. 특허, 저작권, 상표를 아우르며 지식재산, 인공지능, 혁신의 관계에 초점을 두고 취재합니다.",
+    "유럽 기관과 법원 전반의 동향을 추적하며, 법적 판단과 정책 선택이 기업, 창작자, 기술 개발자에게 어떤 영향을 미치는지 살펴봅니다. AI 학습을 둘러싼 저작권 분쟁, 새롭게 등장하는 라이선스 모델, 유럽 통합특허법원(Unified Patent Court)의 발전 등을 취재해 왔습니다.",
+    "이전에는 DL News와 The Block에서 디지털 자산 정책과 규제를 취재했습니다. EU 최초의 암호자산 시장 규제의 마련과 시행, 그리고 탈중앙화 기술에서 책임의 경계를 시험하는 소송 및 형사 절차를 보도했습니다. 토네이도 캐시(Tornado Cash) 기소 관련 보도에서는 소프트웨어 개발자의 책임, 금융 프라이버시, 오픈소스 코드의 법적 함의에 관한 문제를 다루었습니다.",
+    "암호자산에서 AI에 이르기까지, 최첨단 기술이 기존 법의 한계를 어떻게 시험하는지, 그리고 그것이 이를 사용하는 사람과 기업에 어떤 의미인지를 보도합니다.",
+    "그 이전에는 브뤼셀 기반 매체인 The Parliament Magazine과 Are We Europe에서 근무했습니다. 유트레히트 대학 칼리지(University College Utrecht)에서 국제관계학 학사, 루뱅 가톨릭대학교(KU Leuven)에서 국제정치학 석사 학위를 받았습니다."
+   ]
   },
   {
    "id": "ms-danielle-boyer",
@@ -858,7 +1225,9 @@
    "session": "Horizon Scan: What’s Next for IP and AI?",
    "page": 35,
    "bio": [],
-   "photo": null
+   "photo": null,
+   "title_ko": "설립자, The STEAM Connection, 미국",
+   "bio_ko": []
   },
   {
    "id": "mr-paul-goldstein",
@@ -870,7 +1239,12 @@
     "A globally recognized expert on intellectual property law, Paul Goldstein is the author of an influential five-volume treatise on U.S. copyright law and a one-volume treatise on international copyright law. He has authored twelve books including five novels. Some of his other works include Copyright’s Highway: From Gutenberg to the Celestial Jukebox, a widely acclaimed book on the history and future of copyright and Intellectual Property: The Tough New Realities That Could Make or Break Your Business. Havana Requiem, his third novel, won the 2013 Harper Lee Prize for Legal Fiction.",
     "In 2015 Paul Goldstein was inducted by Intellectual Asset Management into the IP Hall of Fame, which honors those who have helped to establish intellectual property as one of the key business assets of the 21st century. He currently serves as of counsel at Morrison & Foerster in their intellectual property group and has been regularly included in Best Lawyers in America. He has served as chairman of the U.S. Office of Technology Assessment Advisory Panel on Intellectual Property Rights in an Age of Electronics and Information, has been a visiting scholar at the Max Planck Institute for Foreign and International Patent, Copyright, and Competition Law in Munich, Germany and was a founding faculty member of the Munich Intellectual Property Law Center. In addition, before joining the Stanford Law School faculty in 1975, he was a professor of law at the State University of New York at Buffalo Law School."
    ],
-   "photo": "img/mr-paul-goldstein.jpg"
+   "photo": "img/mr-paul-goldstein.jpg",
+   "title_ko": "스탠퍼드 대학교 법학 명예교수(Stella W. and Ira S. Lillick Professor of Law, Emeritus), 미국",
+   "bio_ko": [
+    "지식재산법 분야의 세계적인 전문가인 Paul Goldstein은 영향력 있는 미국 저작권법 5권짜리 해설서와 국제 저작권법 1권짜리 해설서의 저자입니다. 소설 5권을 포함해 12권의 책을 썼습니다. 그의 다른 저작으로는 저작권의 역사와 미래를 다룬 호평받은 저서 Copyright’s Highway: From Gutenberg to the Celestial Jukebox와 Intellectual Property: The Tough New Realities That Could Make or Break Your Business 등이 있습니다. 세 번째 소설 Havana Requiem은 2013년 Harper Lee Prize for Legal Fiction을 수상했습니다.",
+    "2015년 Paul Goldstein은 지식재산을 21세기 핵심 기업 자산의 하나로 자리 잡게 한 인물들을 기리는 Intellectual Asset Management의 IP 명예의 전당(IP Hall of Fame)에 헌액되었습니다. 현재 Morrison & Foerster 지식재산 그룹의 오브 카운슬(of counsel)로 활동하고 있으며, Best Lawyers in America에 꾸준히 선정되어 왔습니다. 미국 기술평가국(U.S. Office of Technology Assessment)의 \"전자·정보 시대의 지식재산권(Intellectual Property Rights in an Age of Electronics and Information)\" 자문위원회 위원장을 지냈고, 독일 뮌헨의 막스 플랑크 외국·국제 특허·저작권·경쟁법 연구소(Max Planck Institute for Foreign and International Patent, Copyright, and Competition Law)의 객원 연구원이었으며, 뮌헨 지식재산법센터(Munich Intellectual Property Law Center)의 창립 교수진이었습니다. 또한 1975년 스탠퍼드 로스쿨 교수진에 합류하기 전에는 뉴욕 주립대학교 버펄로 로스쿨(State University of New York at Buffalo Law School)의 법학 교수였습니다."
+   ]
   },
   {
    "id": "ms-aishwarya-karnataki",
@@ -885,7 +1259,15 @@
     "Under her leadership, Glovatrix was named a winner of the WIPO Global Awards in 2025. Her work has also been presented at the United Nations AI for Good Summit in Geneva.",
     "Aishwarya brings a founder’s perspective to discussions on AI and intellectual property: how to turn technical innovation into practical tools, build sustainable ventures, and ensure that the benefits of emerging technologies reach people too often excluded from their design."
    ],
-   "photo": "img/ms-aishwarya-karnataki.jpg"
+   "photo": "img/ms-aishwarya-karnataki.jpg",
+   "title_ko": "공동 설립자 겸 최고경영자(CEO), Glovatrix, 인도",
+   "bio_ko": [
+    "Aishwarya Karnataki는 청각장애인의 의사소통을 더 쉽게 접근할 수 있도록 AI 기반 도구를 개발하는 인도의 보조 기술 기업 Glovatrix의 공동 설립자 겸 최고경영자(CEO)입니다. 마니팔 대학교(Manipal University)에서 전자·전기공학을 전공했으며, 기술적 전문성에 독립성, 존엄성, 포용에 대한 기업가적 관심을 결합하고 있습니다.",
+    "Glovatrix에서 센서와 인공지능을 활용해 수어를 음성과 텍스트로 번역하는 웨어러블 시스템 Fifth Sense 개발을 이끌고 있습니다. 또한 텍스트와 음성을 디지털 아바타를 통해 인도 수어로 번역하는 AI 기반 서비스를 개발하는 Mira의 공동 설립자이기도 합니다. 이 두 가지 노력은 양방향의 의사소통 장벽을 함께 해소하며, 환대 서비스업, 직장, 교육, 의료, 공공 서비스 등 폭넓은 분야에 적용됩니다.",
+    "그의 헌신은 학창 시절 청각장애 아동을 만난 경험에서 시작되었고, 접근할 수 없는 의사소통이 일상에서 초래하는 결과를 지켜보며 더욱 깊어졌습니다. 청각장애인 동료 및 언어 전문가들과 긴밀히 협력하여, 제품 개발이 해당 커뮤니티의 필요와 경험에 기반하도록 하고 있습니다.",
+    "그의 리더십 아래 Glovatrix는 2025년 WIPO 글로벌 어워드(WIPO Global Awards) 수상자로 선정되었습니다. 그의 활동은 제네바에서 열린 유엔 AI for Good 서밋(AI for Good Summit)에서도 발표되었습니다.",
+    "Aishwarya는 AI와 지식재산에 관한 논의에 창업자의 관점을 더합니다. 기술 혁신을 실용적인 도구로 전환하고, 지속 가능한 사업을 구축하며, 신기술의 혜택이 그 설계 과정에서 지나치게 자주 배제되어 온 사람들에게도 닿도록 하는 방법에 대한 관점입니다."
+   ]
   },
   {
    "id": "mr-qoane-mothibeli",
@@ -900,7 +1282,15 @@
     "With an academic background in Philosophy and Sociology from the National University of Lesotho, complemented by training in data science, artificial intelligence, and technology entrepreneurship, he brings an interdisciplinary perspective to emerging technologies.",
     "His interests include AI governance, intellectual property, technological sovereignty, and equitable access to advanced technologies, particularly the opportunities and challenges of building and deploying AI solutions in African markets."
    ],
-   "photo": "img/mr-qoane-mothibeli.jpg"
+   "photo": "img/mr-qoane-mothibeli.jpg",
+   "title_ko": "설립자 겸 대표이사, JuliGerm (Pty) Ltd, 레소토",
+   "bio_ko": [
+    "Qoane Mothibeli는 레소토 기반의 기술 기업가이자 AI 혁신가이며, 인공지능, 지리공간 인텔리전스, 지속가능 발전의 접점에서 솔루션을 개발하는 기술 기반 벤처 빌딩·컨설팅 기업 JuliGerm (Pty) Ltd의 설립자 겸 대표이사입니다.",
+    "지구 관측, 위성 영상, 지리공간 분석, 대화형 AI를 결합해 복잡한 토지·환경 정보를 개인, 기업, 기관이 쉽게 이용할 수 있도록 하는 AI 기반 지리공간 인텔리전스 플랫폼 Orbi의 개발을 이끌고 있습니다. 그의 업무는 정밀 농업, 기후 인텔리전스, 농업 보험, 디지털 모니터링 시스템에 걸쳐 있으며, 레소토에서 유엔 세계식량계획(WFP)의 농업 보험 활동을 지원하는 지리공간 기술 이니셔티브도 포함합니다.",
+    "Qoane는 지속가능 발전을 위한 혁신적 접근에 대한 기여를 인정받아 유엔사회개발연구소(UNRISD) Explorer Award를 수상했습니다. 또한 Included VC Africa Fellow이며, 국제적인 기술·창업·혁신 이니셔티브에 참여해 왔습니다.",
+    "레소토 국립대학교(National University of Lesotho)에서 철학과 사회학을 공부하고 데이터 과학, 인공지능, 기술 창업 교육을 이수하여, 신기술에 대한 학제적 관점을 갖추고 있습니다.",
+    "관심 분야는 AI 거버넌스, 지식재산, 기술 주권, 첨단 기술에 대한 공평한 접근이며, 특히 아프리카 시장에서 AI 솔루션을 구축·배포할 때의 기회와 과제에 관심이 많습니다."
+   ]
   },
   {
    "id": "mr-terry-winograd",
@@ -912,7 +1302,12 @@
     "Terry Winograd is Professor Emeritus in the Computer Science Department at Stanford University. During his 40 years of teaching and research he created and directed the Human-Computer Interaction Group and the teaching and research program in Human-Computer Interaction Design at Stanford. He was a founding faculty member of the Hasso Plattner Institute of Design (the \"d.school\").",
     "Winograd did pioneering research in artificial intelligence, in particular natural language understanding, during his PhD program at the MIT Artificial Intelligence Lab in the 1960s. His 1986 book with Fernando Flores, Understanding Computers and Cognition, marked a major departure in the philosophy underlying AI. He was a founding member and National President of Computer Professionals for Social Responsibility. He is a member of the ACM CHI Academy and an ACM Fellow. He received the 2011 CHI Lifetime Research Achievement Award. He is a Fellow of the Stanford Human-Centered AI Institute and has been a consultant to a number of companies, including Google, founded by Stanford students from his projects."
    ],
-   "photo": "img/mr-terry-winograd.jpg"
+   "photo": "img/mr-terry-winograd.jpg",
+   "title_ko": "컴퓨터 과학 명예교수, 스탠퍼드 대학교, 미국",
+   "bio_ko": [
+    "Terry Winograd는 스탠퍼드 대학교 컴퓨터 과학과 명예교수입니다. 40년간 교육과 연구를 하며 스탠퍼드의 인간-컴퓨터 상호작용(Human-Computer Interaction) 그룹과 HCI 디자인 교육·연구 프로그램을 창설하고 이끌었습니다. 하소 플라트너 디자인 연구소(Hasso Plattner Institute of Design, \"d.school\")의 창립 교수진이었습니다.",
+    "1960년대 MIT 인공지능 연구소(MIT Artificial Intelligence Lab)에서 박사 과정을 밟는 동안 인공지능, 특히 자연어 이해 분야에서 선구적인 연구를 수행했습니다. Fernando Flores와 함께 쓴 1986년 저서 Understanding Computers and Cognition은 AI의 근간을 이루는 철학에서 중대한 전환점이 되었습니다. 사회적 책임을 위한 컴퓨터 전문가 협회(Computer Professionals for Social Responsibility)의 창립 회원이자 전국 회장을 지냈습니다. ACM CHI 아카데미(ACM CHI Academy) 회원이자 ACM 펠로우입니다. 2011년 CHI 평생 연구 공로상(CHI Lifetime Research Achievement Award)을 받았습니다. 스탠퍼드 인간중심 AI 연구소(Stanford Human-Centered AI Institute)의 펠로우이며, 자신의 프로젝트에 참여한 스탠퍼드 학생들이 창업한 Google을 비롯한 여러 기업의 자문을 맡았습니다."
+   ]
   },
   {
    "id": "ms-noemi-beza",
@@ -921,7 +1316,9 @@
    "session": "Horizon Scan: What’s Next for IP and AI?",
    "page": 37,
    "bio": [],
-   "photo": null
+   "photo": null,
+   "title_ko": "싱어송라이터, 스위스",
+   "bio_ko": []
   }
  ]
 }

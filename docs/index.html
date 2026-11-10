@@ -155,6 +155,7 @@
   .btn-video:hover { background: var(--accent); color: var(--on-accent) !important; }
   .vid-row .btn-video { background: var(--accent); color: var(--on-accent) !important; padding: 10px 22px; font-size: 15px; }
   .vid-row .btn-video:hover { background: var(--accent-press); border-color: var(--accent-press); }
+  .btn-video.off { background: transparent !important; color: var(--muted) !important; border: 1px dashed var(--line) !important; cursor: default; font-weight: 400; }
   .btn-video.mini { padding: 3px 12px; font-size: 12px; margin-top: 6px; }
   .namebtn { background: none; border: 0; padding: 0; margin: 0; font: inherit; color: var(--accent); cursor: pointer; border-radius: 0; }
   .namebtn:hover { text-decoration: underline; text-underline-offset: 3px; color: var(--accent); border: 0; }
@@ -170,6 +171,11 @@
   .pop-head .x { margin-left: auto; font-size: 18px; line-height: 1; width: 32px; height: 32px; padding: 0; flex: none;
                  background: var(--soft); border-color: transparent; color: var(--muted); }
   .pop-body { padding: 6px 24px 24px; overflow-y: auto; max-height: calc(88vh - 100px); font-size: 17px; line-height: 1.6; letter-spacing: -0.01em; }
+  dialog.pop.wide { max-width: min(1120px, 94vw); }
+  .pop-body .colhead { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; font-size: 12px; color: var(--muted); font-weight: 600; margin: 8px 0 2px; }
+  .pop-body .pp { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; padding: 10px 0; border-bottom: 1px solid var(--soft); }
+  .pop-body .pp:last-of-type { border-bottom: 0; }
+  .pop-body .pp p { margin: 0; font-size: 16px; line-height: 1.6; }
   .pop-body p { margin: 0 0 12px; }
   .pop-body ul { margin: 6px 0 12px; padding-left: 22px; }
   .pop-body li { margin-bottom: 4px; }
@@ -191,6 +197,8 @@
     .script .pair p.ko, #transcript .pair p.ko { padding-left: 0; color: var(--muted); }
     #transcript .pair p { padding-left: 0; }
     .script .colhead { display: none; }
+    .pop-body .pp, .pop-body .colhead { grid-template-columns: 1fr; gap: 4px; }
+    .pop-body .pp p.ko { color: var(--muted); }
     main { grid-template-columns: 1fr; }
     aside { position: static; max-height: none; }
     #live-box { height: calc(100vh - 290px); }
@@ -763,17 +771,30 @@ async function showProfile(name) {
   let img;
   if (p.photo) { img = document.createElement("img"); img.className = "prof-photo"; img.src = "profiles/" + p.photo; img.alt = p.name; img.loading = "lazy"; }
   else { img = document.createElement("div"); img.className = "prof-ph0"; img.textContent = (nameKey(p.name).map((t) => t[0]).join("").slice(0, 2) || "?").toUpperCase(); }
+  const hasKo = !!(p.title_ko || (p.bio_ko && p.bio_ko.length === p.bio.length && p.bio.length));
+  dlg.classList.toggle("wide", hasKo);
   const body = popHead(dlg, p.name, p.title, img);
+  if (p.title_ko) { const k = dlg.querySelector(".pop-head .sub"); if (k) { const kk = document.createElement("div"); kk.className = "sub"; kk.textContent = p.title_ko; k.after(kk); } }
   if (p.session) { const s = document.createElement("div"); s.className = "fn"; s.textContent = "프로그램: " + p.session; s.style.marginTop = "0"; body.appendChild(s); }
   if (!p.bio.length) { const m = document.createElement("p"); m.style.color = "var(--muted)"; m.textContent = "프로필 PDF 에 직함 외 약력이 없습니다."; body.appendChild(m); }
-  const list = [];
-  for (const t of p.bio) {
-    if (t.startsWith("• ")) { list.push(t.slice(2)); continue; }
-    if (list.length) { const ul = document.createElement("ul"); list.splice(0).forEach((x) => { const li = document.createElement("li"); li.textContent = x; ul.appendChild(li); }); body.appendChild(ul); }
-    const pp = document.createElement("p"); pp.textContent = t; body.appendChild(pp);
+  if (hasKo && p.bio.length && p.bio_ko && p.bio_ko.length === p.bio.length) {      // 영문 | 한글 나란히
+    const ch = document.createElement("div"); ch.className = "colhead"; ch.innerHTML = "<div>English</div><div>한국어 (AI 번역)</div>"; body.appendChild(ch);
+    p.bio.forEach((t, i) => {
+      const row = document.createElement("div"); row.className = "pp";
+      const en = document.createElement("p"); en.textContent = t;
+      const ko = document.createElement("p"); ko.className = "ko"; ko.textContent = p.bio_ko[i];
+      row.appendChild(en); row.appendChild(ko); body.appendChild(row);
+    });
+  } else {
+    const list = [];
+    for (const t of p.bio) {
+      if (t.startsWith("• ")) { list.push(t.slice(2)); continue; }
+      if (list.length) { const ul = document.createElement("ul"); list.splice(0).forEach((x) => { const li = document.createElement("li"); li.textContent = x; ul.appendChild(li); }); body.appendChild(ul); }
+      const pp = document.createElement("p"); pp.textContent = t; body.appendChild(pp);
+    }
+    if (list.length) { const ul = document.createElement("ul"); list.forEach((x) => { const li = document.createElement("li"); li.textContent = x; ul.appendChild(li); }); body.appendChild(ul); }
   }
-  if (list.length) { const ul = document.createElement("ul"); list.forEach((x) => { const li = document.createElement("li"); li.textContent = x; ul.appendChild(li); }); body.appendChild(ul); }
-  const fn = document.createElement("div"); fn.className = "fn"; fn.textContent = "출처: WIPO Global Forum on IP and AI 연사 프로필(PDF, 영문 원문)"; body.appendChild(fn);
+  const fn = document.createElement("div"); fn.className = "fn"; fn.textContent = "출처: WIPO Global Forum on IP and AI 연사 프로필(PDF, 영문 원문) · 한국어는 AI 번역"; body.appendChild(fn);
   dlg.showModal();
 }
 
@@ -893,9 +914,9 @@ function buildProgram() {
     sec.appendChild(h); sec.appendChild(ev);
     if ((day.videos || []).length) {                           // 동영상 보기 (WIPO 웹캐스트)
       const vr = document.createElement("div"); vr.className = "vid-row";
-      for (const v of day.videos) {
-        vr.appendChild(videoLink(`▶ ${day.day}일차 ${v.label} 동영상 보기 ↗`, v.url));
-        for (const id of v.items || []) videoOf[id] = v;
+      for (const v of day.videos) {                           // 일차별 오전/오후 동영상 (주소가 없으면 '준비 중')
+        if (v.url) vr.appendChild(videoLink(`▶ ${day.day}일차 ${v.label} 동영상 보기 ↗`, v.url));
+        else { const off = document.createElement("span"); off.className = "btn-video off"; off.textContent = `▶ ${day.day}일차 ${v.label} 동영상 · 주소 준비 중`; vr.appendChild(off); }
       }
       sec.appendChild(vr);
     }
@@ -990,7 +1011,6 @@ function renderScriptText(panel, id, text, e, view, extra) {
     setTimeout(() => { cp.textContent = "복사"; }, 1500);
   });
   acts.appendChild(dl); acts.appendChild(cp);
-  if (videoOf[id]) acts.appendChild(videoLink("▶ 동영상 보기", videoOf[id].url));
   const paras = e && e.official ? (spObj ? spObj.paras : e.paras) : null;
   const sum = sums ? (spObj ? (sums.speakers || {})[spObj.key] : (sums.sessions || {})[id]) : null;
   if (sum) {                                              // 한글 요약 팝업
