@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>WIPO Live Transcript</title>
+<title>WIPO First Global Forum on IP and AI</title>
 <style>
   :root {
     --bg: #fafaf9; --fg: #1c1917; --muted: #78716c; --line: #e7e5e4;
@@ -22,7 +22,8 @@
          font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans KR", sans-serif; }
   header { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line);
            padding: 10px 16px 0; }
-  h1 { font-size: 16px; margin: 0 0 8px; font-weight: 600; }
+  h1 { font-size: 18px; margin: 0 0 2px; font-weight: 700; }
+  .subtitle { font-size: 13px; color: var(--muted); margin: 0 0 10px; }
   .bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 8px; }
   select, input[type=search], button {
     font: inherit; font-size: 14px; color: var(--fg); background: var(--card);
@@ -171,7 +172,8 @@
 </head>
 <body>
 <header>
-  <h1>WIPO Live Speech-to-Text <span id="title-sub" style="color:var(--muted);font-weight:400"></span></h1>
+  <h1>WIPO First Global Forum on Intellectual Property and Artificial Intelligence</h1>
+  <div class="subtitle">발표자 스크립트와 AI요약 리포트</div>
   <div class="bar">
     <select id="meeting" aria-label="회의 선택"></select>
     <span id="live-ctl" class="bar" style="margin:0">
@@ -1206,7 +1208,6 @@ $("tab-full").addEventListener("click", () => selectTab("full"));
 $("tab-status").addEventListener("click", () => selectTab("status"));
 
 function startAll() {
-  $("title-sub").textContent = "· " + meeting;
   lines = []; el.tr.innerHTML = ""; el.tr.appendChild(el.empty);
   resetLive();
   clearInterval(savedTimer);
