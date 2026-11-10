@@ -1,6 +1,6 @@
 # [d1-05] Showcase 1: AI in Action - From Ideas to Real-World Impact
 # 발표자: Chair  (chair)
-# Day 1 · 2026-11-09 · 예정 10:55-11:05 (Geneva) · 발언 1회 · 3단락 · 196단어 · 구분 방식: official
+# Day 1 · 2026-11-09 · 예정 11:00-11:15 (Geneva) · 발언 1회 · 3단락 · 196단어 · 구분 방식: official
 
 We have just heard interventions and we also had a keynote from Mr. Ito which gave us a fascinating glimpse into what artificial intelligence may be capable of tomorrow but what can it already make possible today. That is what our AI in action showcase are all about. Over these two days we will see how AI is helping us tackle some of humanity’s biggest challenges. Problems that have remained beyond our reach despite decades of scientific progress. But we will also discover how innovators around the world are using AI to solve problems all around the world, turning local issues into real world solutions.
 How AI is opening up entirely new possibilities for human creativity and expression. And we begin with one of the greatest challenges of all, human health. Imagine if a medical image could reveal clues invisible to even the most experienced specialists, clues that could help us understand understand cancer better, predict how a patient might respond to treatment and ultimately save lives. Our next guest is helping make that possible. Please welcome Professor Anand Madhava Hoshi, Executive Director of the Emory empathetic AI for Health Institute.

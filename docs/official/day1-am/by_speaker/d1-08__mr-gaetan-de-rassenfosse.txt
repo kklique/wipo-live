@@ -1,6 +1,6 @@
 # [d1-08] Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?
 # 발표자: Mr. Gaétan de Rassenfosse — Associate Professor of Science Technology and Innovation Policy, Ecole Polytechnique Fédérale de Lausanne, Belgium  (panelist)
-# Day 1 · 2026-11-09 · 예정 11:40-12:50 (Geneva) · 발언 3회 · 15단락 · 1,321단어 · 구분 방식: official
+# Day 1 · 2026-11-09 · 예정 11:35-12:45 (Geneva) · 발언 3회 · 15단락 · 1,321단어 · 구분 방식: official
 
 Thank you very much for that question. I’m very happy you picked Fritz Meschlup’s quote because it really explains well economists’ ambivalence towards the IP system, sometimes too strong, sometimes too weak, but for sure imperfect. But to answer your question, so should we create in light of GNI a patent system as it is today? Well, the answer is no, but maybe not for the reason you expect. The reason is today’s system fundamentally doesn’t really work well.
 So we don’t want that even in a non-AI world. And I’m thinking here more about patents. And the reason I’m saying that, well, we know it’s too slow. We know it’s too fragmented. We know the examination process is prone to error.

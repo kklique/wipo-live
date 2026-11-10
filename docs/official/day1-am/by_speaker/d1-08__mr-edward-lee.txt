@@ -1,6 +1,6 @@
 # [d1-08] Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?
 # 발표자: Mr. Edward Lee  (floor)
-# Day 1 · 2026-11-09 · 예정 11:40-12:50 (Geneva) · 발언 18회 · 32단락 · 1,797단어 · 구분 방식: official
+# Day 1 · 2026-11-09 · 예정 11:35-12:45 (Geneva) · 발언 18회 · 32단락 · 1,797단어 · 구분 방식: official
 
 Thanks very much for that. And maybe I can turn over to Professor Gatton, because Professor Gatton in 1958, Fritz Meschlup, told the U.S. Senate that on evidence it would be irresponsible to recommend creating a patent system if none existed, but equally irresponsible to abolish the one that did exist. If we were designing the IP system from scratch for an AI economy, would the evidence still justify building it as it stands or do we need to think about something different?
 

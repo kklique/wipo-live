@@ -1,6 +1,6 @@
 # [d1-03] Ministerial-level Remarks
-# 발표자: H.E. Mr. Kamal Shehadi  (floor)
-# Day 1 · 2026-11-09 · 예정 10:15-10:45 (Geneva) · 발언 1회 · 6단락 · 414단어 · 구분 방식: official
+# 발표자: H.E. Mr. Kamal Shehadi — Minister of State for Technology and Artificial Intelligence and Minister of Displaced, Lebanon  (speaker)
+# Day 1 · 2026-11-09 · 예정 10:10-10:45 (Geneva) · 발언 1회 · 6단락 · 414단어 · 구분 방식: official
 
 Director General Daren Tang, Excellencies, Distinguished Delegates, Ladies and Gentlemen, it is an honor to join you at the first global forum on Intellectual Property and Artificial Intelligence. I’m sorry I cannot be with you in Geneva, but I’m glad to open this conversation with you from Beirut. I would like to thank WIPO and Director General Tang for creating this space. Artificial Intelligence is moving faster than most legal frameworks were built to handle. A forum that brings Member States and stakeholders together regularly and openly is exactly what this moment needs.
 The questions before you are not small. They are the questions of the age. Who is the author of a work created with AI? Who is the discoverer of something an algorithm helped discover? What happens to the rights of creators whose work is used to train these systems?

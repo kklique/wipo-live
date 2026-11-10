@@ -820,8 +820,16 @@ async function loadProfiles() {
 const HONOR = new Set("he h e mr ms mrs dr prof professor fr hon amb sir".split(" "));
 const nameKey = (s) => (s || "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z\s-]/g, " ")
   .replace(/-/g, "").split(/\s+/).filter((t) => t && !HONOR.has(t));
-const tokClose = (a, b) => a === b || (a.length >= 4 && b.length >= 4 && Math.abs(a.length - b.length) <= 1 &&
-  (a.startsWith(b) || b.startsWith(a) || [...a].filter((c, i) => c === b[i]).length >= Math.max(a.length, b.length) - 1));
+const near1 = (a, b) => {                                      // 철자 차이가 1글자(삽입·삭제·치환·인접 교환)인가
+  if (Math.abs(a.length - b.length) > 1) return false;
+  let i = 0; while (i < a.length && i < b.length && a[i] === b[i]) i++;
+  if (i === a.length && i === b.length) return true;
+  const A = a.slice(i), B = b.slice(i);
+  if (A.length === B.length) return A.slice(1) === B.slice(1) || (A[0] === B[1] && A[1] === B[0] && A.slice(2) === B.slice(2));
+  return A.length > B.length ? A.slice(1) === B : B.slice(1) === A;
+};
+const tokClose = (a, b) => a === b || (a.length >= 5 && b.length >= 5 && near1(a, b)) ||
+  (a.length >= 4 && b.length >= 4 && Math.abs(a.length - b.length) <= 1 && (a.startsWith(b) || b.startsWith(a)));
 function findProfile(name) {
   const t = nameKey(name);
   if (!profData || t.length < 2) return null;
@@ -830,8 +838,10 @@ function findProfile(name) {
     if ((p.aliases || []).some((a) => nameKey(a).join(" ") === t.join(" "))) return p;      // 'DIRECTOR GENERAL' 처럼 직함으로만 표기된 경우
     const u = nameKey(p.name);
     const hit = t.filter((x) => u.some((y) => tokClose(x, y))).length;
-    const score = hit / Math.max(t.length, 1);
-    if (hit >= 2 && score >= 0.99 && hit >= bestScore) { best = p; bestScore = hit; }          // 이름 토큰이 모두 맞아야 함
+    const rev = u.filter((y) => t.some((x) => tokClose(x, y))).length;                           // 프로필 이름이 더 짧은 경우(중간 이름 생략)
+    const score = Math.max(hit / Math.max(t.length, 1), rev / Math.max(u.length, 1));
+    const n = Math.max(hit, rev);
+    if (n >= 2 && score >= 0.99 && n >= bestScore) { best = p; bestScore = n; }                  // 어느 한쪽 이름 토큰이 모두 맞아야 함
   }
   return best;
 }

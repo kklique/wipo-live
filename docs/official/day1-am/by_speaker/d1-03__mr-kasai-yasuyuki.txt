@@ -1,6 +1,6 @@
 # [d1-03] Ministerial-level Remarks
-# 발표자: Mr. Kasai Yasuyuki  (floor)
-# Day 1 · 2026-11-09 · 예정 10:15-10:45 (Geneva) · 발언 1회 · 5단락 · 472단어 · 구분 방식: official
+# 발표자: Mr. Kasai Yasuyuki — Commissioner, Japan Patent Office, Japan  (speaker)
+# Day 1 · 2026-11-09 · 예정 10:10-10:45 (Geneva) · 발언 1회 · 5단락 · 472단어 · 구분 방식: official
 
 Excellencies, Distinguished Delegates, Ladies and Gentlemen, good morning. My name is Yasuyuki Kasai, Commissioner of the Japan Patent Office, JPO. First of all, I would like to express my sincere gratitude to Director General Tang and to all those concerned for providing us with a wonderful opportunity. Today, the world is at a major turning point driven by the rapid advancement of AI. In July of this year, the Government of Japan developed Japan’s growth strategy.
 In addition to serving as Commissioner of the JPO, I was responsible for its development as a member of the Cabinet Secretariat. In the strategy, we have selected 17 strategic fields with a projected total scale of domestic, public and private investment expected to exceed 373 yen or approximately 2.33 US dollars cumulatively by fiscal year 2040. Within this framework, the AI transformation position adds an accelerator for growth. Accordingly, several core fields essential for this transformation including AI and semiconductors have been prioritized. By the end of the year, we will formulate the Japan’s growth strategy implementation plan which will include the details and amounts of domestic investment over the next five years leading up to around 2030.

@@ -1,0 +1,18 @@
+{
+ "source": "WIPO_IP-AI_GEN_26_2026-11-09_pm_en.verbatim.docx",
+ "title": "WIPO S2T: WIPO IP-AI GEN 26 2026-11-09 dd006ca1-db12-4479-04e3-08df3b1fc4ff en",
+ "date": "2026-11-09",
+ "generated": "2026-11-10T12:51:54+00:00",
+ "turns": 83,
+ "paragraphs": 386,
+ "words": 31347,
+ "base_utc": "2026-11-09T13:19:58+00:00",
+ "clock_note": "웹캐스트 마커 125/1347개가 일치 (편차 ±15s)",
+ "sessions": {
+  "d1-11": 45,
+  "d1-12": 18,
+  "d1-13": 122,
+  "d1-15": 102,
+  "d1-16": 99
+ }
+}

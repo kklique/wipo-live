@@ -1,8 +1,8 @@
 {
  "event": "WIPO AI week, Geneva: Global Forum on IP and AI (Nov 9-10) and AIII Annual Meeting (Nov 11)",
- "source": "Provisional programs: WIPO/IP-AI/GEN/26/1 PROV.2 and WIPO/IP/AIII/GE/26/1 PROV.",
+ "source": "Final program WIPO/IP-AI/GEN/26/1 (Days 1-2); WIPO/IP/AIII/GE/26/1 PROV. (Day 3)",
  "timezone": "Europe/Zurich",
- "note": "Times are Geneva local time (Europe/Zurich). Provisional: TBC speakers and times may change; edit this file and re-run split_by_agenda.py.",
+ "note": "Times are Geneva local time (Europe/Zurich). Days 1-2 follow the final program PDF; edit this file and re-run split_by_agenda.py.",
  "days": [
   {
    "day": 1,
@@ -22,9 +22,50 @@
      ]
     },
     {
-     "id": "d1-02",
+     "id": "d1-03",
      "start": "10:10",
-     "end": "10:15",
+     "end": "10:45",
+     "title": "Ministerial-level Remarks",
+     "type": "remarks",
+     "speakers": [
+      {
+       "name": "Mr. Hesham Azmi",
+       "affiliation": "Chairman of the Board of Directors of the Egyptian Intellectual Property Authority, Egypt"
+      },
+      {
+       "name": "H.E. Ms. Liisa-Ly Pakosta",
+       "affiliation": "Minister of Justice and Digital Affairs, Estonia"
+      },
+      {
+       "name": "H.E. Ms. Mari-Leena Talvitie",
+       "affiliation": "Minister of Science and Culture, Finland"
+      },
+      {
+       "name": "H.E. Mr. Kim Yong Sun",
+       "affiliation": "Minister of Intellectual Property, Republic of Korea"
+      },
+      {
+       "name": "H.E. Mr. Edwin Tong",
+       "affiliation": "Minister for Law and Second Minister for Home Affairs, Singapore"
+      },
+      {
+       "name": "H.E. Mr. Ziyambi Ziyambi",
+       "affiliation": "Minister of Justice, Legal and Parliamentary Affairs, Zimbabwe"
+      },
+      {
+       "name": "Mr. Kasai Yasuyuki",
+       "affiliation": "Commissioner, Japan Patent Office, Japan"
+      },
+      {
+       "name": "H.E. Mr. Kamal Shehadi",
+       "affiliation": "Minister of State for Technology and Artificial Intelligence and Minister of Displaced, Lebanon"
+      }
+     ]
+    },
+    {
+     "id": "d1-02",
+     "start": "10:45",
+     "end": "10:50",
      "title": "Chair Remarks",
      "type": "remarks",
      "speakers": [
@@ -35,17 +76,9 @@
      ]
     },
     {
-     "id": "d1-03",
-     "start": "10:15",
-     "end": "10:45",
-     "title": "Ministerial-level Remarks",
-     "type": "remarks",
-     "speakers": []
-    },
-    {
      "id": "d1-04",
-     "start": "10:45",
-     "end": "10:55",
+     "start": "10:50",
+     "end": "11:00",
      "title": "Tech Radar: Ready or Not - AI's Next Frontier",
      "type": "keynote",
      "speakers": [
@@ -57,8 +90,8 @@
     },
     {
      "id": "d1-05",
-     "start": "10:55",
-     "end": "11:05",
+     "start": "11:00",
+     "end": "11:15",
      "title": "Showcase 1: AI in Action - From Ideas to Real-World Impact",
      "type": "showcase",
      "speakers": [
@@ -69,31 +102,17 @@
      ]
     },
     {
-     "id": "d1-06",
-     "start": "11:05",
-     "end": "11:25",
-     "title": "Insight: IP at the Table - Making IP Part of the Wider AI Policy Landscape",
-     "type": "insight",
-     "speakers": [
-      {
-       "name": "Fr. Paolo Benanti, T.O.R.",
-       "affiliation": "Professor of Moral Philosophy and Ethics of Technology, Pontifical Gregorian University"
-      }
-     ],
-     "note": "1일차 11:05 예정이었으나 이 시간대에 진행되지 않았습니다 (실시간 수집분과 WIPO 공식 전사본 모두에 이 발표가 없고, 사회자가 Showcase 1 직후 바로 휴식과 Super Session을 안내했습니다). 연사 프로필 문서는 이 발표를 2일차 오후(Discussion: The IP in the Machine 다음, Horizon Scan 앞)에 두고 있어 일정이 옮겨진 것으로 보입니다. 2일차 공식 스크립트가 배포되면 확인해 반영합니다."
-    },
-    {
      "id": "d1-07",
-     "start": "11:25",
-     "end": "11:40",
+     "start": "11:15",
+     "end": "11:35",
      "title": "Coffee Break",
      "type": "break",
      "speakers": []
     },
     {
      "id": "d1-08",
-     "start": "11:40",
-     "end": "12:50",
+     "start": "11:35",
+     "end": "12:45",
      "title": "Super Session: Back to First Principles - Is the IP System Fit for the Age of AI?",
      "type": "panel",
      "moderator": {
@@ -102,12 +121,24 @@
      },
      "speakers": [
       {
-       "name": "Ms. Chijioke Okorie",
-       "affiliation": "Associate Professor of Law, University of Pretoria, Nigeria"
+       "name": "Ms. Jennifer Tauli Corpuz",
+       "affiliation": "Expert-Member (Asia), UN Permanent Forum on Indigenous Issues, Philippines"
+      },
+      {
+       "name": "Ms. Caroline Gueye",
+       "affiliation": "Visual Artist, Senegal"
       },
       {
        "name": "Ms. Myrtha Hurtado Rivas",
-       "affiliation": "General Counsel, Nestlé, Switzerland / Peru"
+       "affiliation": "General Counsel, Nestlé Waters & Premium Beverages, Switzerland / Peru"
+      },
+      {
+       "name": "Mr. Cédric Manara",
+       "affiliation": "Director, Head of Copyright, Google, France"
+      },
+      {
+       "name": "Ms. Chijioke Okorie",
+       "affiliation": "Associate Professor of Law, University of Pretoria, Nigeria"
       },
       {
        "name": "Mr. Gaétan de Rassenfosse",
@@ -116,24 +147,12 @@
       {
        "name": "Mr. Antony Taubman",
        "affiliation": "Honorary Professor, Queen Mary University of London, Senior Fellow, University of Melbourne, Australia"
-      },
-      {
-       "name": "Ms. Caroline Gueye",
-       "affiliation": "Visual Artist, Senegal"
-      },
-      {
-       "name": "TBC",
-       "affiliation": ""
-      },
-      {
-       "name": "TBC",
-       "affiliation": ""
       }
      ]
     },
     {
      "id": "d1-09",
-     "start": "12:50",
+     "start": "12:45",
      "end": "13:00",
      "title": "Insight: Painting by Numbers - The Power of IP Data",
      "type": "insight",
@@ -147,8 +166,8 @@
     {
      "id": "d1-10",
      "start": "13:00",
-     "end": "14:30",
-     "title": "Lunch break",
+     "end": "15:00",
+     "title": "Lunch Break",
      "type": "break",
      "speakers": []
     },
@@ -173,8 +192,8 @@
      "type": "showcase",
      "speakers": [
       {
-       "name": "Mr. Cristian Léon",
-       "affiliation": "Founder and Chief Executive Officer, DROVID Technologies, Chile"
+       "name": "Mr. Cristian León",
+       "affiliation": "Founder and Chief Executive Officer, Drovid Technologies, Chile"
       }
      ]
     },
@@ -186,28 +205,28 @@
      "type": "panel",
      "speakers": [
       {
-       "name": "Mr. Andres Guadamuz",
-       "affiliation": "Reader in Intellectual Property Law, University of Sussex, Costa Rica"
+       "name": "Ms. Rachel Free",
+       "affiliation": "Partner, CMS, United Kingdom"
       },
       {
-       "name": "Mr. Wang Qian",
-       "affiliation": "Professor of Law, East China University of Political Science and Law, China"
+       "name": "Mr. Andres Guadamuz",
+       "affiliation": "Reader in Intellectual Property Law, University of Sussex, Costa Rica"
       },
       {
        "name": "Mr. Edward Lee",
        "affiliation": "Professor of Law, Santa Clara University School of Law, United States of America"
       },
       {
-       "name": "TBC",
-       "affiliation": ""
+       "name": "Mr. Daryl Lim",
+       "affiliation": "H. Laddie Montague Jr. Chair in Law and Associate Dean for Research and Strategic Partnerships, Penn State Dickinson Law, United States of America"
       },
       {
-       "name": "TBC",
-       "affiliation": ""
+       "name": "Ms. Elena Perotti",
+       "affiliation": "Executive Director, Public Affairs and Media Policy, WAN-IFRA, World Association of News Publishers, France"
       },
       {
-       "name": "TBC",
-       "affiliation": ""
+       "name": "Mr. Wang Qian",
+       "affiliation": "Professor of Law, East China University of Political Science and Law, China"
       }
      ]
     },
@@ -223,25 +242,13 @@
      "id": "d1-15",
      "start": "16:25",
      "end": "17:25",
-     "title": "Protecting What Makes us Human - Is IP the Answer?",
+     "title": "Discussion: Protecting What Makes us Human - Is IP the Answer?",
      "type": "panel",
      "moderator": {
       "name": "Ms. Natalie Corthésy",
       "affiliation": "Associate Dean of Teaching and Learning, Senior Lecturer in Law, The University of the West Indies, Mona Campus, Jamaica"
      },
      "speakers": [
-      {
-       "name": "Mr. Anderson Rocha",
-       "affiliation": "Full Professor of Artificial Intelligence and Digital Forensics, University of Campinas, Head, Recod.ai Artificial Intelligence Lab, Brazil"
-      },
-      {
-       "name": "Ms. Kalpana Tyagi",
-       "affiliation": "Assistant Professor of Intellectual Property and Competition Law, Maastricht University, India"
-      },
-      {
-       "name": "Mr. Jakob Plesner Mathiasen",
-       "affiliation": "Partner, Gorrissen Federspiel, Denmark"
-      },
       {
        "name": "Mr. Marco Bassini",
        "affiliation": "Assistant Professor of Fundamental Rights and Artificial Intelligence, Tilburg Institute for Law, Technology, and Society, Tilburg University, Italy"
@@ -251,8 +258,16 @@
        "affiliation": "Recording Artist and Technologist, United Kingdom"
       },
       {
-       "name": "TBC",
-       "affiliation": ""
+       "name": "Mr. Jakob Plesner Mathiasen",
+       "affiliation": "Partner, Gorrissen Federspiel, Denmark"
+      },
+      {
+       "name": "Mr. Anderson Rocha",
+       "affiliation": "Full Professor of Artificial Intelligence and Digital Forensics, University of Campinas, Head, Recod.ai Artificial Intelligence Lab, Brazil"
+      },
+      {
+       "name": "Ms. Kalpana Tyagi",
+       "affiliation": "Assistant Professor of Innovation Laws, Maastricht University, India"
       }
      ]
     },
@@ -277,7 +292,7 @@
     "name": "First Global Forum on Intellectual Property and Artificial Intelligence",
     "code": "WIPO/IP-AI/GEN/26",
     "meeting_page": "https://www.wipo.int/meetings/en/details.jsp?meeting_id=93550",
-    "source": "WIPO/IP-AI/GEN/26/1 PROV.2 (2026-10-23)"
+    "source": "WIPO/IP-AI/GEN/26/1 PROV (final program provided by the organizer)"
    },
    "videos": [
     {
@@ -286,7 +301,7 @@
     },
     {
      "label": "오후",
-     "url": null
+     "url": "https://webcast.wipo.int/video/WIPO_IP-AI_GEN_26_2026-11-09_dd006ca1-db12-4479-04e3-08df3b1fc4ff"
     }
    ]
   },
@@ -305,33 +320,20 @@
     {
      "id": "d2-02",
      "start": "10:05",
-     "end": "10:15",
-     "title": "Tech Radar: Fast Forward - How AI Is Accelerating AI",
-     "type": "keynote",
+     "end": "10:20",
+     "title": "Showcase 3: AI in Action - From Ideas to Real-World Impact",
+     "type": "showcase",
      "speakers": [
       {
-       "name": "TBC",
-       "affiliation": ""
+       "name": "Ms. Inch Chua",
+       "affiliation": "Multidisciplinary Artist, Singapore"
       }
      ]
     },
     {
      "id": "d2-03",
-     "start": "10:15",
-     "end": "10:25",
-     "title": "Showcase 3: AI in Action - From Ideas to Real-World Impact",
-     "type": "showcase",
-     "speakers": [
-      {
-       "name": "Mr. Alain Goumou",
-       "affiliation": "Founder and Chief Technology Officer, TínaanTech, Lead Architect and Director, Kôlèpòno-AI, Guinea"
-      }
-     ]
-    },
-    {
-     "id": "d2-04",
-     "start": "10:25",
-     "end": "11:25",
+     "start": "10:20",
+     "end": "11:20",
      "title": "Super Session: At the Helm - Navigating IP Offices in the Age of AI",
      "type": "panel",
      "moderator": {
@@ -340,76 +342,76 @@
      },
      "speakers": [
       {
-       "name": "Mr. Tan Kong Hwee",
-       "affiliation": "Chief Executive, Intellectual Property Office of Singapore, Singapore"
-      },
-      {
        "name": "Ms. Lilyclaire Bellamy",
        "affiliation": "Executive Director, Jamaica Intellectual Property Office, Jamaica"
       },
       {
-       "name": "Mr. Zhang Zhicheng",
-       "affiliation": "Deputy Commissioner, China National Intellectual Property Administration, China"
+       "name": "Ms. Maria-Daphne Papadopoulou",
+       "affiliation": "Acting Director, Hellenic Copyright Organization, Greece"
       },
       {
        "name": "Ms. Ewa Skrzydło-Tefelska",
        "affiliation": "President, Patent Office of the Republic of Poland, Poland"
       },
       {
-       "name": "TBC",
-       "affiliation": ""
+       "name": "Mr. Mordechay Sorek",
+       "affiliation": "Executive Director of the Israel Patent Office, Israel"
       },
       {
-       "name": "TBC",
-       "affiliation": ""
+       "name": "Mr. Tan Kong Hwee",
+       "affiliation": "Chief Executive, Intellectual Property Office of Singapore, Singapore"
       },
       {
-       "name": "TBC",
-       "affiliation": ""
+       "name": "Mr. Zhang Zhicheng",
+       "affiliation": "Deputy Commissioner, China National Intellectual Property Administration, China"
       }
      ]
     },
     {
-     "id": "d2-05",
-     "start": "11:25",
-     "end": "11:40",
+     "id": "d2-04",
+     "start": "11:20",
+     "end": "11:30",
      "title": "Coffee Break",
      "type": "break",
      "speakers": []
     },
     {
-     "id": "d2-06",
-     "start": "11:40",
-     "end": "12:00",
+     "id": "d2-05",
+     "start": "11:30",
+     "end": "11:50",
      "title": "Insight: Efficiency in Action - Deploying AI in IP Administration",
      "type": "insight",
      "moderator": {
-      "name": "Mr. Kenichiro Natsume",
+      "name": "Mr. Ken-Ichiro Natsume",
       "affiliation": "Assistant Director General, WIPO"
      },
      "speakers": [
+      {
+       "name": "Mr. Samuel Anum",
+       "affiliation": "Intellectual Property Consultant, Ghana Industrial Property Office, Ghana"
+      },
+      {
+       "name": "Mr. Rahul Bhartiya",
+       "affiliation": "AI coordinator, European Union Intellectual Property Office, Spain"
+      },
+      {
+       "name": "Mr. Mario Magued Mina",
+       "affiliation": "Machine Learning Developer, Advanced Technology Applications Center, WIPO"
+      },
       {
        "name": "Mr. Bruno Pouliquen",
        "affiliation": "IP Data Machine Learning Development Manager, Advanced Technology Applications Center, WIPO"
       },
       {
-       "name": "TBC",
-       "affiliation": ""
-      },
-      {
-       "name": "TBC",
-       "affiliation": ""
-      },
-      {
-       "name": "TBC",
-       "affiliation": ""
+       "name": "Ms. Kelly Sims",
+       "affiliation": "Acting Deputy Director General, IP Australia, Australia"
       }
      ]
     },
     {
-     "id": "d2-07",
-     "start": "12:00",
-     "end": "13:00",
+     "id": "d2-06",
+     "start": "11:50",
+     "end": "12:50",
      "title": "Discussion: The Human in the Center - Authorship and Inventorship in the Age of AI",
      "type": "panel",
      "moderator": {
@@ -418,24 +420,41 @@
      },
      "speakers": [
       {
-       "name": "Mr. Ekene Som Mekwunye",
-       "affiliation": "Filmmaker, Founder and Creative Director, Riverside Productions, Nigeria"
+       "name": "Ms. Claudia Catelin",
+       "affiliation": "Director of Policy, The Publishers Association, United Kingdom"
       },
       {
        "name": "Ms. Eva Janečková",
-       "affiliation": "Lecturer in Law, University of Bristol Law School, Czech Republic"
+       "affiliation": "Lecturer in Law, University of Bristol Law School, Slovakia"
+      },
+      {
+       "name": "Mr. James Malackowski",
+       "affiliation": "Senior Managing Director, Ocean Tomo, United States of America"
+      },
+      {
+       "name": "Mr. Ekene Som Mekwunye",
+       "affiliation": "Filmmaker, Founder and Creative Director, Riverside Productions, Nigeria"
       },
       {
        "name": "Ms. Anna Tumadóttir",
        "affiliation": "Chief Executive Officer, Creative Commons, Iceland"
       },
       {
-       "name": "Ms. Claudia Catelin",
-       "affiliation": "Director of Policy, The Publishers Association, United Kingdom"
-      },
+       "name": "Mr. Christian Wichard",
+       "affiliation": "Deputy Director General, Federal Ministry of Justice and Consumer Protection, Germany"
+      }
+     ]
+    },
+    {
+     "id": "d2-07",
+     "start": "12:50",
+     "end": "13:00",
+     "title": "Showcase 4: AI in Action - From Ideas to Real-World Impact",
+     "type": "showcase",
+     "speakers": [
       {
-       "name": "TBC",
-       "affiliation": ""
+       "name": "Mr. Alain Ephraïm Goumou",
+       "affiliation": "Founder and Chief Technology Officer, TínaanTech, Technical Director, Kôlèpòno-AI, Guinea"
       }
      ]
     },
@@ -443,27 +462,47 @@
      "id": "d2-08",
      "start": "13:00",
      "end": "15:00",
-     "title": "Lunch break",
+     "title": "Lunch Break",
      "type": "break",
      "speakers": []
     },
     {
      "id": "d2-09",
-     "start": "15:00",
-     "end": "15:10",
-     "title": "Showcase 4: AI in Action - From Ideas to Real-World Impact",
-     "type": "showcase",
+     "start": "13:00",
+     "end": "13:30",
+     "title": "Optional Side Event - Launch - Meet the Global Innovation Index AI Assistant",
+     "type": "side_event",
      "speakers": [
       {
-       "name": "Ms. Inch Chua",
-       "affiliation": "Singer-Songwriter / Artist, Singapore"
+       "name": "Mr. Marco M. Alemán",
+       "affiliation": "Assistant Director General, IP and Innovation Ecosystems Sector, WIPO"
+      },
+      {
+       "name": "Ms. Maria de Icaza",
+       "affiliation": "Head of Web Communications, Customer Experience, Marketing, and Digital Engagement Division, Infrastructure and Platforms Sector, WIPO"
+      },
+      {
+       "name": "Ms. Kim Miles",
+       "affiliation": "Director of Digital Engagement, Customer Experience, Marketing, and Digital Engagement Division, Infrastructure and Platforms Sector, WIPO"
+      },
+      {
+       "name": "Ms. Lorena Rivera Leon",
+       "affiliation": "Senior Economist and co-editor of the Global Innovation Index, Department for Economics and Data Analytics (DEDA), IP and Innovation Ecosystems Sector, WIPO"
+      },
+      {
+       "name": "Mr. Jeff Slee",
+       "affiliation": "Data Scientist, Department for Economics and Data Analytics (DEDA), IP and Innovation Ecosystems Sector, WIPO"
+      },
+      {
+       "name": "Mr. Roger Zamora Matute",
+       "affiliation": "Department for Economics and Data Analytics (DEDA), IP and Innovation Ecosystems Sector, WIPO"
       }
      ]
     },
     {
      "id": "d2-10",
-     "start": "15:10",
-     "end": "16:10",
+     "start": "15:00",
+     "end": "16:00",
      "title": "Discussion: The IP in the Machine - Untangling IP Issues Behind the Models",
      "type": "panel",
      "moderator": {
@@ -472,25 +511,38 @@
      },
      "speakers": [
       {
-       "name": "Ms. Burcu G. Özcan Büyüktanır",
-       "affiliation": "Associate Professor of Civil Law, Hacettepe University Faculty of Law, Türkiye"
-      },
-      {
        "name": "Mr. Ahmed Elgammal",
-       "affiliation": "Professor of Computer Science and Director of the Art and Artificial Intelligence Laboratory, Rutgers University, United States of America /Egypt"
+       "affiliation": "Professor of Computer Science and Director of the Art and Artificial Intelligence Laboratory, Rutgers University, United States of America / Egypt"
       },
       {
-       "name": "Mr. Lee Daheo",
-       "affiliation": "Managing Partner, Lee, Park & Associates, Republic of Korea"
+       "name": "Ms. Kim Jordahl",
+       "affiliation": "Associate General Patent Counsel, Office of General Counsel, Dana-Farber Cancer Institute, United States of America"
       },
       {
-       "name": "TBC",
-       "affiliation": ""
+       "name": "Mr. Daeho Lee",
+       "affiliation": "Managing Partner, PI IP LAW, Republic of Korea"
+      },
+      {
+       "name": "Ms. Burcu G. Özcan Büyüktanır",
+       "affiliation": "Professor of Civil Law, Head of the Department of Civil Law, Director of the Health Law Research Center, Faculty of Law, Hacettepe University, Türkiye"
       }
      ]
     },
     {
      "id": "d2-11",
+     "start": "16:00",
+     "end": "16:10",
+     "title": "Insight: IP at the Table - Making IP Part of the Wider AI Policy Landscape",
+     "type": "insight",
+     "speakers": [
+      {
+       "name": "Fr. Paolo Benanti, T.O.R.",
+       "affiliation": "Professor of Moral Philosophy and Ethics of Technology, Pontifical Gregorian University, Italy"
+      }
+     ]
+    },
+    {
+     "id": "d2-12",
      "start": "16:10",
      "end": "16:25",
      "title": "Coffee Break",
@@ -498,44 +550,48 @@
      "speakers": []
     },
     {
-     "id": "d2-12",
+     "id": "d2-13",
      "start": "16:25",
-     "end": "17:05",
+     "end": "17:15",
      "title": "Horizon Scan: What's Next for IP and AI?",
      "type": "panel",
      "moderator": {
-      "name": "TBC",
-      "affiliation": ""
+      "name": "Ms. Inbar Preiss",
+      "affiliation": "Senior intellectual property correspondent, MLex, Netherlands"
      },
      "speakers": [
       {
-       "name": "Mr. Terry Winograd",
-       "affiliation": "Professor Emeritus of Computer Science, Stanford University, United States of America"
+       "name": "Ms. Danielle Boyer",
+       "affiliation": "Founder, The STEAM Connection, United States of America"
       },
       {
        "name": "Mr. Paul Goldstein",
        "affiliation": "Stella W. and Ira S. Lillick Professor of Law, Emeritus, Stanford University, United States of America"
       },
       {
-       "name": "TBC",
-       "affiliation": ""
+       "name": "Ms. Aishwarya Karnataki",
+       "affiliation": "Co-founder and Chief Executive Officer, Glovatrix, India"
       },
       {
-       "name": "TBC",
-       "affiliation": ""
+       "name": "Mr. Qoane Mothibeli",
+       "affiliation": "Founder & Managing Director, JuliGerm (Pty) Ltd, Lesotho"
+      },
+      {
+       "name": "Mr. Terry Winograd",
+       "affiliation": "Professor Emeritus of Computer Science, Stanford University, United States of America"
       }
      ]
     },
     {
-     "id": "d2-13",
-     "start": "17:05",
+     "id": "d2-14",
+     "start": "17:15",
      "end": "17:50",
      "title": "Floor Interventions from Member States and Observers",
      "type": "floor",
      "speakers": []
     },
     {
-     "id": "d2-14",
+     "id": "d2-15",
      "start": "17:50",
      "end": "18:00",
      "title": "Closing Remarks",
@@ -543,7 +599,7 @@
      "speakers": []
     },
     {
-     "id": "d2-15",
+     "id": "d2-16",
      "start": "18:00",
      "end": "19:30",
      "title": "WIPO Hosted Reception, AB Lobby",
@@ -560,7 +616,7 @@
     "name": "First Global Forum on Intellectual Property and Artificial Intelligence",
     "code": "WIPO/IP-AI/GEN/26",
     "meeting_page": "https://www.wipo.int/meetings/en/details.jsp?meeting_id=93550",
-    "source": "WIPO/IP-AI/GEN/26/1 PROV.2 (2026-10-23)"
+    "source": "WIPO/IP-AI/GEN/26/1 PROV (final program provided by the organizer)"
    },
    "videos": [
     {
@@ -591,7 +647,7 @@
      "type": "remarks",
      "speakers": [
       {
-       "name": "Mr. Daren Tang",
+       "name": "Daren Tang",
        "affiliation": "Director General, World Intellectual Property Organization (WIPO)"
       }
      ]
