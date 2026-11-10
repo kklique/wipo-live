@@ -73,6 +73,13 @@
   #status.warn .badge { background: var(--warn); color: #fff; }
   @keyframes pulse { 50% { opacity: .55; } }
 
+  /* 일차 선택 (Day 1 / 2 / 3) */
+  .dayseg { display: flex; flex-wrap: wrap; gap: 6px; }
+  #daybar-program { margin: 18px 0 4px; }
+  .dayseg button { font-size: 14px; font-weight: 600; padding: 7px 16px; border-radius: 9999px; color: var(--fg); }
+  .dayseg button small { font-weight: 400; font-size: 12px; opacity: .75; margin-left: 4px; }
+  .dayseg button[aria-pressed=true] { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+  .dayseg button[aria-pressed=true]:hover { color: var(--on-accent); }
   /* 푸터 (Apple 가이드: 파치먼트 바탕, 12px 작은 글씨, 헤어라인) */
   #site-footer { margin-top: 56px; border-top: 1px solid var(--line); background: var(--bg); color: var(--muted); font-size: 12px; line-height: 1.7; padding: 26px 0 44px; }
   #site-footer .foot-in { max-width: var(--wrap); margin: 0 auto; padding: 0 24px; }
@@ -285,6 +292,7 @@
       <button id="fs-inc" type="button" aria-label="글자 크게">A+</button>
     </span>
     <span id="full-ctl" class="bar" style="margin:0;flex:1 1 360px" hidden>
+      <span id="daybar-full" class="dayseg" role="group" aria-label="일차 선택"></span>
       <input id="q" type="search" placeholder="검색 (일치하는 문장만 표시)" aria-label="검색">
       <label class="chk"><input id="follow" type="checkbox" checked>맨 아래 따라가기</label>
       <label id="ko-wrap" class="chk" hidden><input id="ko-toggle" type="checkbox" checked>한글 번역</label>
@@ -315,6 +323,7 @@
 
 <!-- 프로그램: 3일 일정 + 제목을 누르면 해당 발표의 저장된 스크립트 -->
 <div id="program-wrap" role="tabpanel" hidden>
+  <div id="daybar-program" class="dayseg" role="group" aria-label="일차 선택"></div>
   <div id="program"><div class="live-empty">불러오는 중…</div></div>
 </div>
 
@@ -492,8 +501,8 @@ function renderAll() {
   });
   if (!shown) {
     el.tr.appendChild(el.empty);
-    el.empty.textContent = query ? "검색 결과가 없습니다." :
-      "아직 표시할 스크립트가 없습니다. 회의가 시작 전이거나 수집이 아직 시작되지 않았을 수 있습니다.";
+    el.empty.textContent = query ? "검색 결과가 없습니다." : (emptyMsg ||
+      "아직 표시할 스크립트가 없습니다. 회의가 시작 전이거나 수집이 아직 시작되지 않았을 수 있습니다.");
   }
 }
 
@@ -602,18 +611,38 @@ async function getLocal(path) {        // 이 페이지와 같은 곳(GitHub Pag
 async function loadOfficialList() {
   if (officialList) return officialList;
   try { officialList = JSON.parse((await getLocal("official/index.json")) || "{}").items || []; } catch (e) { officialList = []; }
-  if (officialList.length) {
-    el.official.innerHTML = "";
-    const o0 = document.createElement("option"); o0.value = ""; o0.textContent = "실시간 수집분 (STT)"; el.official.appendChild(o0);
-    for (const m of officialList) { const o = document.createElement("option"); o.value = m.key; o.textContent = "공식 스크립트 · " + m.label; el.official.appendChild(o); }
-    el.official.hidden = false;
-  }
   return officialList;
+}
+function syncOfficialSelect() {                      // 선택한 일차에 있는 종류만 고르게 한다 (실시간 수집분이 있으면 먼저, 그다음 공식본)
+  const date = dayDate(curDay);
+  const opts = [];
+  if (date && sttDates.has(date)) opts.push(["", "실시간 수집분 (STT)"]);
+  for (const m of officialList || []) if (m.date === date) opts.push([m.key, "공식 스크립트 · " + m.label]);
+  const sig = opts.map((o) => o[0]).join("|");
+  if (el.official.dataset.sig !== sig) {
+    el.official.innerHTML = "";
+    for (const [v, t] of opts) { const o = document.createElement("option"); o.value = v; o.textContent = t; el.official.appendChild(o); }
+    el.official.dataset.sig = sig;
+  }
+  if (!opts.some((o) => o[0] === officialKey)) officialKey = opts.length ? opts[0][0] : null;     // null: 이 일차에는 아직 저장본이 없음
+  el.official.value = officialKey === null ? "" : officialKey;
+  el.official.hidden = opts.length < 2;
+  document.body.classList.toggle("wide-full", !!officialKey);
+  $("ko-wrap").hidden = !officialKey; $("hl-wrap").hidden = !officialKey;
 }
 async function refreshSaved() {
   const base = `transcripts/${meeting}`;
   try {
-    await loadOfficialList();
+    await ensureAgenda(); await loadOfficialList();
+    if (!progIdxLoaded) await loadProgramIndex();    // 어느 날짜에 실시간 수집분이 있는지 알기 위해
+    syncOfficialSelect(); savedDay = curDay;
+    if (officialKey === null) {                       // 선택한 일차에는 저장본이 아직 없음
+      lines = []; emptyMsg = `Day ${curDay} 저장본은 아직 없습니다. 공식 영문 스크립트가 배포되면 추가됩니다.`;
+      renderAll(); applyMarkers(null);
+      setStatus("full", "", "저장본", `Day ${curDay}: 아직 저장된 스크립트가 없습니다 (이 일차는 실시간 수집을 하지 않았고, 공식 스크립트 배포를 기다리는 중입니다).`);
+      return;
+    }
+    emptyMsg = null;
     if (officialKey) {
       const t = await getLocal(`official/${officialKey}/transcript.txt`);
       officialKo = await loadKo(officialKey); officialHl = await loadHl(officialKey); await loadProfiles();
@@ -920,8 +949,59 @@ try { koOn = localStorage.getItem("koOn") !== "0"; } catch (e) { /* 저장소 �
 
 /* ---------- 프로그램 (아젠더 + 발표별 저장 스크립트) ---------- */
 let agenda = null;
+let curDay = 1;                      // 선택한 일차 (프로그램·전체 저장본 공통)
+let dayInit = false;
+const sttDates = new Set();          // 실시간 수집분(STT)에 스크립트가 있는 날짜
+let emptyMsg = null;
+let savedDay = 0;                    // 전체 저장본 화면에 마지막으로 그린 일차                 // 전체 저장본이 비어 있을 때 안내 문구
+const dayOfId = (id) => Number((/^d(\d+)-/.exec(id || "") || [])[1]) || null;
+const dayDate = (n) => { const d = agenda && agenda.days.find((x) => x.day === n); return d ? d.date : null; };
+async function ensureAgenda() {
+  if (!agenda) {
+    try { const r = await fetch("agenda.json", { cache: "no-cache" }); if (r.ok) agenda = await r.json(); } catch (e) { /* 아래에서 처리 */ }
+  }
+  if (agenda && !dayInit) {                                  // 처음 열 일차: 주소의 발표 번호 > 오늘(행사 기간) > 지난번 선택 > Day 1
+    dayInit = true;
+    const today = new Date().toLocaleString("sv-SE", { timeZone: "Europe/Zurich" }).slice(0, 10);
+    let saved = 0; try { saved = Number(localStorage.getItem("day")) || 0; } catch (e) { /* 저장소 없음 */ }
+    const byToday = (agenda.days.find((d) => d.date === today) || {}).day;
+    const c = dayOfId(pendingOpen) || byToday || saved || 1;
+    curDay = agenda.days.some((d) => d.day === c) ? c : 1;
+    buildDayBars();
+  }
+  return agenda;
+}
+function buildDayBars() {
+  for (const id of ["daybar-program", "daybar-full"]) {
+    const box = $(id); if (!box || !agenda) continue;
+    box.innerHTML = "";
+    for (const d of agenda.days) {
+      const dt = new Date(d.date + "T12:00:00Z");
+      const b = document.createElement("button"); b.type = "button"; b.dataset.day = d.day;
+      b.setAttribute("aria-pressed", String(d.day === curDay));
+      b.innerHTML = `Day ${d.day}<small>${dt.getUTCMonth() + 1}/${dt.getUTCDate()}(${["일","월","화","수","목","금","토"][dt.getUTCDay()]})</small>`;
+      b.addEventListener("click", () => setDay(d.day));
+      box.appendChild(b);
+    }
+  }
+}
+function applyDay() {                                        // 선택한 일차만 보이기
+  document.querySelectorAll("#program .day").forEach((sec) => { sec.hidden = Number(sec.dataset.day) !== curDay; });
+  document.querySelectorAll(".dayseg button").forEach((b) => b.setAttribute("aria-pressed", String(Number(b.dataset.day) === curDay)));
+}
+function setDay(n) {
+  if (n === curDay) return;
+  curDay = n;
+  try { localStorage.setItem("day", String(n)); } catch (e) { /* 저장소 없음 */ }
+  for (const id of [...progOpen]) { progOpen.delete(id); setOpenState(id, false); }
+  applyDay();
+  if (location.hash.startsWith("#program:")) history.replaceState(null, "", location.pathname + location.search);
+  window.scrollTo({ top: 0 });
+  if (tab === "full") { lines = []; refreshSaved(); }
+}
 let progIdx = {};                  // 세션 id -> {file, n_lines, dir, ...} (data 브랜치의 by_session/index.json 병합)
 let progBuilt = false;
+let progIdxLoaded = false;
 let progTimer = null;
 const progOpen = new Set();
 const progView = {};               // 세션 id -> "all" | 발표자 key (발표자별 보기)
@@ -949,6 +1029,7 @@ async function loadProgramIndex() {
       ok++;
       if (parsed.clock) NAIVE_CLOCK = parsed.clock;
       for (const e of parsed.items || []) {
+        if (e.n_lines && e.date) sttDates.add(e.date);
         if (!merged[e.id] || (e.n_lines || 0) > (merged[e.id].n_lines || 0)) merged[e.id] = { ...e, dir: d };
       }
     } catch (e) { /* 이 회의는 분할 결과가 아직 없음 */ }
@@ -964,7 +1045,7 @@ async function loadProgramIndex() {
       }
     } catch (e) { /* 공식본 없음 */ }
   }
-  if (ok) progIdx = merged;          // 전부 실패했으면 직전 성공본을 유지 (빈 목록으로 덮어쓰지 않음)
+  if (ok) { progIdx = merged; progIdxLoaded = true; }          // 전부 실패했으면 직전 성공본을 유지 (빈 목록으로 덮어쓰지 않음)
 }
 
 function genevaNow() {                       // "2026-11-09 10:05:03"
@@ -999,7 +1080,7 @@ function buildProgram() {
   if (!agenda) { root.innerHTML = '<div class="live-empty">프로그램(agenda.json)을 불러오지 못했습니다.</div>'; return; }
   const wd = ["일", "월", "화", "수", "목", "금", "토"];
   for (const day of agenda.days) {
-    const sec = document.createElement("section"); sec.className = "day";
+    const sec = document.createElement("section"); sec.className = "day"; sec.dataset.day = day.day;
     const d = new Date(day.date + "T12:00:00Z");
     const h = document.createElement("h2");
     h.textContent = `Day ${day.day} · ${d.getUTCMonth() + 1}월 ${d.getUTCDate()}일(${wd[d.getUTCDay()]})`;
@@ -1046,6 +1127,7 @@ function buildProgram() {
     root.appendChild(sec);
   }
   progBuilt = true;
+  applyDay();
 }
 
 function updatePills() {
@@ -1260,16 +1342,14 @@ setHdrVar();
 
 async function refreshProgram() {
   try {
-    if (!agenda) {
-      const r = await fetch("agenda.json", { cache: "no-cache" });
-      if (r.ok) agenda = await r.json();
-    }
+    await ensureAgenda();
     if (!progBuilt || !document.querySelector("#program .item")) buildProgram();
     if (!agenda) return;
     await loadProgramIndex();
     updatePills();
     for (const id of progOpen) loadScript(id);          // 열려 있는 발표는 진행 중일 수 있어 같이 갱신
     if (pendingOpen) { const id = pendingOpen; pendingOpen = null;
+      const dn = dayOfId(id); if (dn && dn !== curDay) setDay(dn);
       const box = document.querySelector(`#program .item[data-id="${id}"]`);
       if (box) { toggleScript(id); box.scrollIntoView({ block: "center" }); } }
   } catch (e) {
@@ -1441,7 +1521,7 @@ function selectTab(name) {
   if (name === "live") { el.liveBox.scrollTop = el.liveBox.scrollHeight; }
   else if (name === "program") { refreshProgram(); }
   else if (name === "status") { refreshStatus(); }
-  else if (follow) window.scrollTo({ top: document.body.scrollHeight });
+  else { if (savedDay !== curDay) { lines = []; refreshSaved(); } if (follow) window.scrollTo({ top: document.body.scrollHeight }); }
 }
 /* 행사정보 메뉴: 두 행사의 WIPO 페이지로 이동 (고정 위치라 탭 줄이 가로 스크롤이어도 잘리지 않음) */
 const infoBtn = $("tab-info"), infoMenu = $("info-menu");
@@ -1506,6 +1586,7 @@ el.official.addEventListener("change", () => {
   $("ko-wrap").hidden = !officialKey; $("hl-wrap").hidden = !officialKey;
   lines = []; refreshSaved();
 });
+ensureAgenda().then(() => { if (progBuilt) applyDay(); });
 $("hl-toggle").checked = hlOn;
 $("hl-toggle").addEventListener("change", (ev) => setHlOn(ev.target.checked));
 $("ko-toggle").checked = koOn;
