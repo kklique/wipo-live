@@ -117,6 +117,12 @@ python3 official_import.py 문서.docx --name day1-am --label "Day 1 오전 (11�
 - 문서의 시각은 녹화 시작 기준 오프셋이라, 웹캐스트 발언자 마커와 이름으로 맞춰 절대 시각(UTC)을 구합니다 (`info.json` 의 `base_utc`, `clock_note`). `info.json` 의 `compare` 는 실시간 수집분과 4단어 연속 구간 일치율입니다.
 - 표지 없는 안건(예: Chair Remarks)은 그 앞 안건 구간 안에서 아젠더 발표자 이름과 같은 발언을 그 안건으로 가져옵니다. 문서에 없는 안건은 비어 있습니다.
 
+### 한글 번역 · 한글 요약 · 연사 프로필
+
+- **번역/요약 (공식본만)**: `docs/official/<이름>/ko.json` (`{"단락번호": "한국어"}`, `paragraphs.json` 의 `n` 과 같은 번호) 과 `summaries.json` (`{"sessions": {세션id: {summary, points}}, "speakers": {발표자key: {summary, points}}}`) 이 있으면 프로그램 탭이 영어/한국어를 단락 단위로 나란히 보여주고 '한글 요약' 단추(팝업)를 만듭니다. 전체 저장본 탭의 공식본 보기에서도 나란히 보입니다. 번역·요약은 AI(Claude)가 만든 것이며 파일이 없으면 해당 기능은 나타나지 않습니다. 화면은 1920px 모니터 기준으로 넓게 씁니다.
+- **연사 프로필**: `python3 profiles_import.py 프로필.pdf --out docs/profiles` (pdfplumber, Pillow 필요) 가 PDF 를 `docs/profiles/profiles.json` + 사진 썸네일로 바꿉니다. 프로그램 탭의 연사 이름(사회자/발표자, 발표자 칩 옆 ⓘ, 공식본 발언자 표지)을 누르면 팝업으로 보입니다. 이름은 호칭·하이픈·철자 한 글자 차이를 무시하고 맞춥니다. PDF 에 없는 사람은 '프로필 없음'으로 표시됩니다 (사진이 없는 연사는 이니셜).
+- 원본 PDF 는 저장소에 넣지 않았습니다 (문서 속성에 'FOR OFFICIAL USE ONLY' 표기가 있어, 공개 사이트에 올릴 범위는 확인이 필요합니다).
+
 ## 웹에서 보기 (GitHub Pages)
 
 `docs/index.html` 은 탭 세 개로 구성된 정적 뷰어다.

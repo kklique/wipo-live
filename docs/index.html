@@ -97,7 +97,7 @@
   .tbl th, .tbl td { text-align: left; padding: 5px 6px; border-bottom: 1px solid var(--line); }
   .tbl td.n, .tbl th.n { text-align: right; font-variant-numeric: tabular-nums; }
   /* 프로그램 탭 */
-  #program-wrap { max-width: 900px; margin: 0 auto; padding: 8px 16px 48px; }
+  #program-wrap { max-width: 1840px; margin: 0 auto; padding: 8px 20px 48px; }
   .day h2 { font-size: 17px; margin: 22px 0 2px; }
   .day .ev { color: var(--muted); font-size: 13px; margin-bottom: 6px; }
   .item { border-bottom: 1px solid var(--line); }
@@ -121,6 +121,38 @@
   .chip[aria-pressed=true] { background: var(--accent); color: #fff; border-color: var(--accent); }
   .script p { margin: 0 0 8px; }
   .script .note { font-size: 12px; color: var(--muted); margin-top: 8px; }
+  .script .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin: 0 0 10px; padding-bottom: 10px;
+                  border-bottom: 1px dashed var(--line); }
+  .script .pair p { margin: 0; }
+  .script .pair .ko { color: var(--fg); font-family: "Noto Sans KR", "Malgun Gothic", "Apple SD Gothic Neo", system-ui, sans-serif; }
+  .script .colhead { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; font-size: 12px; color: var(--muted);
+                     margin: 4px 0 6px; font-weight: 600; }
+  .script .acts label.chk { display: inline-flex; gap: 6px; align-items: center; font-size: 13px; }
+  .script .spkhead { margin: 0 0 10px; font-size: 14px; }
+  .namebtn { background: none; border: 0; padding: 0; margin: 0; font: inherit; color: var(--accent); cursor: pointer;
+             text-decoration: underline dotted; text-underline-offset: 3px; }
+  .namebtn:hover { text-decoration-style: solid; }
+  .chip-i { font-size: 11px; padding: 0 6px; border-radius: 10px; margin-left: -4px; }
+  dialog.pop { border: 1px solid var(--line); border-radius: 12px; padding: 0; background: var(--card); color: var(--fg);
+               max-width: min(760px, 94vw); width: 100%; max-height: 88vh; box-shadow: 0 12px 48px rgba(0,0,0,.35); }
+  dialog.pop::backdrop { background: rgba(0,0,0,.45); }
+  .pop-head { display: flex; gap: 14px; align-items: flex-start; padding: 16px 18px 8px; position: sticky; top: 0; background: var(--card); }
+  .pop-head h3 { margin: 0 0 2px; font-size: 18px; }
+  .pop-head .sub { color: var(--muted); font-size: 13px; }
+  .pop-head .x { margin-left: auto; font-size: 18px; line-height: 1; padding: 2px 9px; }
+  .pop-body { padding: 4px 18px 16px; overflow-y: auto; max-height: calc(88vh - 90px); font-size: 15px; line-height: 1.7; }
+  .pop-body p { margin: 0 0 10px; }
+  .pop-body ul { margin: 6px 0 10px; padding-left: 20px; }
+  .pop-body .fn { font-size: 12px; color: var(--muted); margin-top: 12px; }
+  .prof-photo { width: 96px; height: 96px; border-radius: 10px; object-fit: cover; flex: none; background: var(--line); }
+  .prof-ph0 { width: 96px; height: 96px; border-radius: 10px; flex: none; background: var(--line); color: var(--muted);
+              display: grid; place-items: center; font-size: 30px; font-weight: 600; }
+  body.wide-full main { max-width: 1840px; grid-template-columns: 1fr; }
+  body.wide-full aside { display: none; }
+  #transcript .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin: 0 0 10px; padding-bottom: 10px;
+                      border-bottom: 1px dashed var(--line); }
+  #transcript .pair p { margin: 0; padding-left: 52px; }
+  #transcript .pair p.ko { padding-left: 0; font-family: "Noto Sans KR", "Malgun Gothic", "Apple SD Gothic Neo", system-ui, sans-serif; }
   @media (max-width: 640px) {
     .item-row { grid-template-columns: 74px 1fr; }
     .pill-wrap { grid-column: 2; }
@@ -145,6 +177,7 @@
     <span id="full-ctl" class="bar" style="margin:0;flex:1 1 360px" hidden>
       <input id="q" type="search" placeholder="검색 (일치하는 문장만 표시)" aria-label="검색">
       <label class="chk"><input id="follow" type="checkbox" checked>맨 아래 따라가기</label>
+      <label id="ko-wrap" class="chk" hidden><input id="ko-toggle" type="checkbox" checked>한글 번역</label>
       <select id="official" hidden aria-label="전체 저장본 종류" title="WIPO 가 행사 후 배포한 공식 verbatim 스크립트 (실시간 수집분과 별도 보관)"></select>
       <button id="dl" type="button">.txt 저장</button>
       <button id="copy" type="button">복사</button>
@@ -188,6 +221,8 @@
   </aside>
 </main>
 
+<dialog id="sumdlg" class="pop" aria-label="한글 요약"></dialog>
+<dialog id="profdlg" class="pop" aria-label="연사 프로필"></dialog>
 <script>
 "use strict";
 const q = new URLSearchParams(location.search);
@@ -289,13 +324,17 @@ let query = "";
 let follow = true;
 let savedTimer = null;
 
-function addLine(text, n) {
+function addLine(text, n, parent) {
   const p = document.createElement("p");
+  const mHead = /^▌ \[([\d:]+)\]\s*(.*)$/.exec(text);
   if (/^[■▌] /.test(text)) p.className = "hd" + (text[0] === "■" ? " sec" : "");     // 공식본의 안건/발언자 표지 줄
   const num = document.createElement("span");
   num.className = "n"; num.textContent = n;
   p.appendChild(num);
-  if (query) {
+  if (mHead) {                                              // 공식본 발언자 표지: 이름을 누르면 프로필
+    p.appendChild(document.createTextNode("▌ [" + mHead[1] + "] "));
+    p.appendChild(nameButton(mHead[2]));
+  } else if (query) {
     const low = text.toLowerCase(); let i = 0, j;
     while ((j = low.indexOf(query, i)) !== -1) {
       p.appendChild(document.createTextNode(text.slice(i, j)));
@@ -306,14 +345,25 @@ function addLine(text, n) {
   } else {
     p.appendChild(document.createTextNode(text));
   }
-  el.tr.appendChild(p);
+  (parent || el.tr).appendChild(p);
+  return p;
+}
+let officialKo = null;                                      // 공식본 보는 중일 때 한글 번역 {단락번호: 번역}
+function addOfficial(text, i, parNo) {                      // 공식본 한 줄 (표지는 한 줄, 단락은 번역과 나란히)
+  if (/^[■▌] /.test(text) || !officialKo || !koOn) return addLine(text, i + 1);
+  const row = document.createElement("div"); row.className = "pair";
+  addLine(text, i + 1, row);
+  const k = document.createElement("p"); k.className = "ko"; k.textContent = officialKo[String(parNo)] || "";
+  row.appendChild(k); el.tr.appendChild(row);
 }
 
 function renderAll() {
   el.tr.innerHTML = "";
-  let shown = 0;
+  let shown = 0, par = 0;
   lines.forEach((t, i) => {
-    if (!query || t.toLowerCase().includes(query)) { addLine(t, i + 1); shown++; }
+    const isHd = /^[■▌] /.test(t);
+    if (officialKey && !isHd) par++;                         // 공식본 단락 번호 (번역과 맞추는 키)
+    if (!query || t.toLowerCase().includes(query)) { officialKey ? addOfficial(t, i, par) : addLine(t, i + 1); shown++; }
   });
   if (!shown) {
     el.tr.appendChild(el.empty);
@@ -323,6 +373,11 @@ function renderAll() {
 }
 
 function applyTranscript(text) {
+  if (officialKey) {                                        // 공식본: 걸러내지 않고 그대로 (번역과 단락 번호를 맞춰야 함)
+    lines = (text || "").split("\n").map((x) => x.trim()).filter(Boolean);
+    renderAll();
+    return;
+  }
   const next = dropFiller((text || "").split("\n").map((s) => s.trim()).filter((s) => s && !isNoise(s)));
   const grew = next.length >= lines.length && lines.every((t, i) => t === next[i]);
   const old = lines.length;
@@ -436,9 +491,10 @@ async function refreshSaved() {
     await loadOfficialList();
     if (officialKey) {
       const t = await getLocal(`official/${officialKey}/transcript.txt`);
+      officialKo = await loadKo(officialKey); await loadProfiles();
       applyTranscript(t || ""); applyMarkers(null);
-      setStatus("full", "ok", "공식본", `WIPO 공식 verbatim 스크립트(행사 후 배포본) · ${lines.length.toLocaleString()}줄 (■ 안건 · ▌ 발언자 표지 포함) · ` +
-        `실시간 수집분(STT)은 따로 보관되어 있으며 위 선택에서 '실시간 수집분'을 고르면 돌아갑니다`);
+      setStatus("full", "ok", "공식본", `WIPO 공식 verbatim 스크립트(행사 후 배포본) · ${lines.length.toLocaleString()}줄 (■ 안건 · ▌ 발언자 표지 포함)` +
+        `${officialKo && koOn ? " · 한국어는 AI 번역" : ""} · 발언자 이름을 누르면 프로필 · 위 선택에서 '실시간 수집분'을 고르면 돌아갑니다`);
       return;
     }
     const [t, m, st] = await Promise.all([getText(`${base}/transcript.txt`), getText(`${base}/markers.jsonl`).catch(() => null),
@@ -599,6 +655,106 @@ async function checkStreams() {
   }
 }
 
+/* ---------- 연사 프로필 / 한글 번역·요약 팝업 ---------- */
+let profData = null;                                  // profiles/profiles.json 의 people (없으면 [])
+async function loadProfiles() {
+  if (profData) return profData;
+  try { profData = JSON.parse((await getLocal("profiles/profiles.json")) || "{}").people || []; } catch (e) { profData = []; }
+  return profData;
+}
+const HONOR = new Set("he h e mr ms mrs dr prof professor fr hon amb sir".split(" "));
+const nameKey = (s) => (s || "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z\s-]/g, " ")
+  .replace(/-/g, "").split(/\s+/).filter((t) => t && !HONOR.has(t));
+const tokClose = (a, b) => a === b || (a.length >= 4 && b.length >= 4 && Math.abs(a.length - b.length) <= 1 &&
+  (a.startsWith(b) || b.startsWith(a) || [...a].filter((c, i) => c === b[i]).length >= Math.max(a.length, b.length) - 1));
+function findProfile(name) {
+  const t = nameKey(name);
+  if (!profData || t.length < 2) return null;
+  let best = null, bestScore = 0;
+  for (const p of profData) {
+    const u = nameKey(p.name);
+    const hit = t.filter((x) => u.some((y) => tokClose(x, y))).length;
+    const score = hit / Math.max(t.length, 1);
+    if (hit >= 2 && score >= 0.99 && hit >= bestScore) { best = p; bestScore = hit; }          // 이름 토큰이 모두 맞아야 함
+  }
+  return best;
+}
+function nameButton(name, label) {
+  const b = document.createElement("button"); b.type = "button"; b.className = "namebtn";
+  b.textContent = label || name; b.title = "연사 프로필 보기";
+  b.addEventListener("click", (ev) => { ev.stopPropagation(); showProfile(name); });
+  return b;
+}
+function popHead(dlg, title, sub, imgEl) {
+  dlg.innerHTML = "";
+  const head = document.createElement("div"); head.className = "pop-head";
+  if (imgEl) head.appendChild(imgEl);
+  const box = document.createElement("div");
+  const h = document.createElement("h3"); h.textContent = title; box.appendChild(h);
+  if (sub) { const d = document.createElement("div"); d.className = "sub"; d.textContent = sub; box.appendChild(d); }
+  head.appendChild(box);
+  const x = document.createElement("button"); x.type = "button"; x.className = "x"; x.textContent = "×"; x.setAttribute("aria-label", "닫기");
+  x.addEventListener("click", () => dlg.close()); head.appendChild(x);
+  dlg.appendChild(head);
+  const body = document.createElement("div"); body.className = "pop-body"; dlg.appendChild(body);
+  return body;
+}
+for (const id of ["sumdlg", "profdlg"]) {                      // 바깥(어두운 영역)을 누르면 닫힘
+  $(id).addEventListener("click", (ev) => { if (ev.target === $(id)) $(id).close(); });
+}
+async function showProfile(name) {
+  const dlg = $("profdlg");
+  await loadProfiles();
+  const p = findProfile(name);
+  const cleanName = (name || "").replace(/\bH\.\s*E\./g, "H.E.");
+  if (!p) {
+    const body = popHead(dlg, cleanName, "", null);
+    const m = document.createElement("p"); m.textContent = "업로드된 연사 프로필(PDF)에 이 연사의 정보가 없습니다."; body.appendChild(m);
+    dlg.showModal(); return;
+  }
+  let img;
+  if (p.photo) { img = document.createElement("img"); img.className = "prof-photo"; img.src = "profiles/" + p.photo; img.alt = p.name; img.loading = "lazy"; }
+  else { img = document.createElement("div"); img.className = "prof-ph0"; img.textContent = (nameKey(p.name).map((t) => t[0]).join("").slice(0, 2) || "?").toUpperCase(); }
+  const body = popHead(dlg, p.name, p.title, img);
+  if (p.session) { const s = document.createElement("div"); s.className = "fn"; s.textContent = "프로그램: " + p.session; s.style.marginTop = "0"; body.appendChild(s); }
+  if (!p.bio.length) { const m = document.createElement("p"); m.style.color = "var(--muted)"; m.textContent = "프로필 PDF 에 직함 외 약력이 없습니다."; body.appendChild(m); }
+  const list = [];
+  for (const t of p.bio) {
+    if (t.startsWith("• ")) { list.push(t.slice(2)); continue; }
+    if (list.length) { const ul = document.createElement("ul"); list.splice(0).forEach((x) => { const li = document.createElement("li"); li.textContent = x; ul.appendChild(li); }); body.appendChild(ul); }
+    const pp = document.createElement("p"); pp.textContent = t; body.appendChild(pp);
+  }
+  if (list.length) { const ul = document.createElement("ul"); list.forEach((x) => { const li = document.createElement("li"); li.textContent = x; ul.appendChild(li); }); body.appendChild(ul); }
+  const fn = document.createElement("div"); fn.className = "fn"; fn.textContent = "출처: WIPO Global Forum on IP and AI 연사 프로필(PDF, 영문 원문)"; body.appendChild(fn);
+  dlg.showModal();
+}
+
+const koCache = {}, sumCache = {};
+async function loadKo(key) {                                   // 공식본 한글 번역 {단락번호: 번역}
+  if (koCache[key] !== undefined) return koCache[key];
+  try { koCache[key] = JSON.parse((await getLocal(`official/${key}/ko.json`)) || "null"); } catch (e) { koCache[key] = null; }
+  return koCache[key];
+}
+async function loadSummaries(key) {
+  if (sumCache[key] !== undefined) return sumCache[key];
+  try { sumCache[key] = JSON.parse((await getLocal(`official/${key}/summaries.json`)) || "null"); } catch (e) { sumCache[key] = null; }
+  return sumCache[key];
+}
+function showSummary(title, sub, s) {
+  const dlg = $("sumdlg");
+  const body = popHead(dlg, title, sub, null);
+  const p = document.createElement("p"); p.textContent = s.summary; body.appendChild(p);
+  if ((s.points || []).length) {
+    const h = document.createElement("div"); h.style.fontWeight = "600"; h.textContent = "핵심 포인트"; body.appendChild(h);
+    const ul = document.createElement("ul"); for (const x of s.points) { const li = document.createElement("li"); li.textContent = x; ul.appendChild(li); } body.appendChild(ul);
+  }
+  const fn = document.createElement("div"); fn.className = "fn";
+  fn.textContent = "AI(Claude)가 공식 전사본을 바탕으로 작성한 요약입니다. 전사본 자체가 기계 생성본이라 부정확한 부분이 있을 수 있습니다."; body.appendChild(fn);
+  dlg.showModal();
+}
+let koOn = true;
+try { koOn = localStorage.getItem("koOn") !== "0"; } catch (e) { /* 저장소 없음 */ }
+
 /* ---------- 프로그램 (아젠더 + 발표별 저장 스크립트) ---------- */
 let agenda = null;
 let progIdx = {};                  // 세션 id -> {file, n_lines, dir, ...} (data 브랜치의 by_session/index.json 병합)
@@ -652,14 +808,20 @@ function genevaNow() {                       // "2026-11-09 10:05:03"
   return new Date().toLocaleString("sv-SE", { timeZone: "Europe/Zurich" });
 }
 
-function peopleLine(it) {
-  const parts = [];
-  if (it.moderator && it.moderator.name !== "TBC") parts.push("사회: " + SPEAKER_SHORT(it.moderator));
+function peopleLine(it) {                                    // 사회자·발표자 이름 (누르면 프로필 팝업)
+  const frag = document.createDocumentFragment();
+  const add = (t) => frag.appendChild(document.createTextNode(t));
+  let first = true;
+  if (it.moderator && it.moderator.name !== "TBC") { add("사회: "); frag.appendChild(nameButton(it.moderator.name, SPEAKER_SHORT(it.moderator))); first = false; }
   const sp = (it.speakers || []).filter((p) => p.name !== "TBC");
-  if (sp.length) parts.push(sp.map(SPEAKER_SHORT).join(", "));
+  if (sp.length) {
+    if (!first) add(" · ");
+    sp.forEach((p, i) => { if (i) add(", "); frag.appendChild(nameButton(p.name, SPEAKER_SHORT(p))); });
+    first = false;
+  }
   const tbc = (it.speakers || []).length - sp.length;
-  if (tbc) parts.push(`TBC ${tbc}명`);
-  return parts.join(" · ");
+  if (tbc) { if (!first) add(" · "); add(`TBC ${tbc}명`); }
+  return first ? null : frag;
 }
 
 function buildProgram() {
@@ -686,9 +848,7 @@ function buildProgram() {
       btn.addEventListener("click", () => toggleScript(it.id));
       mid.appendChild(btn);
       const pl = peopleLine(it);
-      if (pl) { const pe = document.createElement("div"); pe.className = "item-people"; pe.textContent = pl;
-        pe.title = [it.moderator, ...(it.speakers || [])].filter((p) => p && p.name !== "TBC")
-          .map((p) => p.name + (p.affiliation ? " — " + p.affiliation : "")).join("\n"); mid.appendChild(pe); }
+      if (pl) { const pe = document.createElement("div"); pe.className = "item-people"; pe.appendChild(pl); mid.appendChild(pe); }
       const pw = document.createElement("div"); pw.className = "pill-wrap";
       row.appendChild(tm); row.appendChild(mid); row.appendChild(pw);
       const sc = document.createElement("div"); sc.className = "script"; sc.hidden = true;
@@ -720,22 +880,35 @@ function updatePills() {
     `마지막 확인 ${new Date().toLocaleTimeString()}`);
 }
 
-function renderScriptText(panel, id, text, e, view) {
-  const key = view + ":" + String(text.length) + ":" + text.slice(-40);
+function renderScriptText(panel, id, text, e, view, extra) {
+  const ko = (extra && extra.ko) || null, sums = (extra && extra.sums) || null;
+  const key = view + ":" + koOn + ":" + (ko ? 1 : 0) + ":" + String(text.length) + ":" + text.slice(-40);
   if (panel.dataset.key === key) return;
   panel.dataset.key = key;
   panel.innerHTML = "";
+  const spObj = view !== "all" ? (e.speakers || []).find((x) => x.key === view) : null;
   if (e && e.speakers && e.speakers.length > 1) {          // 발표자별 보기 선택
     const chips = document.createElement("div"); chips.className = "chips";
-    const mk = (label, val) => {
+    const mk = (label, val, sp) => {
       const b = document.createElement("button"); b.type = "button"; b.className = "chip"; b.textContent = label;
       b.setAttribute("aria-pressed", String(view === val));
       b.addEventListener("click", () => { progView[id] = val; panel.dataset.key = ""; loadScript(id); });
       chips.appendChild(b);
+      if (sp) {                                           // 칩 옆 ⓘ: 연사 프로필 팝업
+        const i = document.createElement("button"); i.type = "button"; i.className = "chip chip-i"; i.textContent = "ⓘ";
+        i.title = sp.name + " 프로필"; i.setAttribute("aria-label", sp.name + " 프로필");
+        i.addEventListener("click", () => showProfile(sp.name)); chips.appendChild(i);
+      }
     };
     mk("전체 세션", "all");
-    for (const sp of e.speakers) mk(`${sp.name} · ${sp.n_lines}${e.official ? "단락" : "문장"}`, sp.key);
+    for (const sp of e.speakers) mk(`${sp.name} · ${sp.n_lines}${e.official ? "단락" : "문장"}`, sp.key, sp);
     panel.appendChild(chips);
+  }
+  if (spObj) {                                            // 발표자별 보기: 이름(누르면 프로필) + 소속
+    const h = document.createElement("div"); h.className = "spkhead";
+    h.appendChild(document.createTextNode("발표자: ")); h.appendChild(nameButton(spObj.name));
+    if (spObj.affiliation) h.appendChild(document.createTextNode(" — " + spObj.affiliation));
+    panel.appendChild(h);
   }
   const all = text.split("\n");
   const meta = all.filter((l) => l.startsWith("# ")).map((l) => l.slice(2));
@@ -754,14 +927,49 @@ function renderScriptText(panel, id, text, e, view) {
     setTimeout(() => { cp.textContent = "복사"; }, 1500);
   });
   acts.appendChild(dl); acts.appendChild(cp);
+  const paras = e && e.official ? (spObj ? spObj.paras : e.paras) : null;
+  const sum = sums ? (spObj ? (sums.speakers || {})[spObj.key] : (sums.sessions || {})[id]) : null;
+  if (sum) {                                              // 한글 요약 팝업
+    const sb = document.createElement("button"); sb.type = "button"; sb.textContent = "한글 요약";
+    sb.addEventListener("click", () => showSummary(spObj ? `${spObj.name} · 한글 요약` : `${e.title} · 한글 요약`,
+      spObj ? e.title : "", sum));
+    acts.appendChild(sb);
+  }
+  const canPair = !!(ko && paras && paras.length === body.length);
+  if (canPair) {                                          // 영어/한국어 나란히 보기 켜고 끄기
+    const lab = document.createElement("label"); lab.className = "chk";
+    const cb = document.createElement("input"); cb.type = "checkbox"; cb.checked = koOn;
+    cb.addEventListener("change", () => setKoOn(cb.checked));
+    lab.appendChild(cb); lab.appendChild(document.createTextNode("한글 번역 함께 보기")); acts.appendChild(lab);
+  }
   panel.appendChild(m); panel.appendChild(acts);
-  for (const l of body) { const p = document.createElement("p"); p.textContent = l; panel.appendChild(p); }
+  if (canPair && koOn) {
+    const ch = document.createElement("div"); ch.className = "colhead";
+    ch.innerHTML = "<div>English · WIPO 공식 전사본</div><div>한국어 · AI 번역 (Claude)</div>"; panel.appendChild(ch);
+    body.forEach((l, i) => {
+      const row = document.createElement("div"); row.className = "pair";
+      const en = document.createElement("p"); en.textContent = l;
+      const k = document.createElement("p"); k.className = "ko"; k.textContent = ko[String(paras[i])] || "";
+      row.appendChild(en); row.appendChild(k); panel.appendChild(row);
+    });
+  } else {
+    for (const l of body) { const p = document.createElement("p"); p.textContent = l; panel.appendChild(p); }
+  }
   const n = document.createElement("div"); n.className = "note";
   n.textContent = e && e.official
-    ? "WIPO 가 행사 후 배포한 공식 verbatim 스크립트를 문서의 안건·발언자 표지 그대로 나눈 것입니다. (기계 생성 전사본이라 정확성이 보장되지는 않습니다.)"
+    ? "WIPO 가 행사 후 배포한 공식 verbatim 스크립트를 문서의 안건·발언자 표지 그대로 나눈 것입니다. (기계 생성 전사본이라 정확성이 보장되지는 않습니다.)" +
+      (canPair ? " 한국어는 AI 번역이며 단락 단위로 영어와 나란히 놓았습니다." : "")
     : "아젠더 시간표와 발표자 이름 언급으로 자동 분할한 결과라, 앞뒤 경계의 몇 문장은 어긋날 수 있습니다." +
       (view !== "all" ? " 발표자별 구분은 웹캐스트 발언자 마커(있을 때) 또는 사회자의 호명 문장을 기준으로 합니다." : "");
   panel.appendChild(n);
+}
+
+function setKoOn(v) {                                      // 번역 보기 켜기/끄기 (프로그램 탭과 전체 저장본 탭 공통)
+  koOn = !!v;
+  try { localStorage.setItem("koOn", koOn ? "1" : "0"); } catch (e) { /* 저장소 없음 */ }
+  const t = $("ko-toggle"); if (t) t.checked = koOn;
+  for (const id of progOpen) { const bx = document.querySelector(`#program .item[data-id="${id}"] .script`); if (bx) bx.dataset.key = ""; loadScript(id); }
+  if (officialKey) { lines = []; refreshSaved(); }
 }
 
 async function loadScript(id) {
@@ -786,7 +994,9 @@ async function loadScript(id) {
     if (sp) path = loc("by_speaker", sp.file); else view = "all";
     const t = e.official ? await getLocal(path) : await getText(path);
     if (t === null) throw new Error("파일 없음");
-    renderScriptText(panel, id, t, e, view);
+    const extra = e.official ? { ko: await loadKo(e.okey), sums: await loadSummaries(e.okey) } : null;
+    await loadProfiles();
+    renderScriptText(panel, id, t, e, view, extra);
   } catch (err) {
     panel.innerHTML = ""; const msg = document.createElement("div"); msg.className = "meta";
     msg.textContent = `스크립트를 불러오지 못했습니다 (${err.message}).`; panel.appendChild(msg);
@@ -1027,8 +1237,12 @@ el.toBottom.addEventListener("click", () => { atBottom = true; el.liveBox.scroll
 // 글자 크기 (실시간 탭)
 el.official.addEventListener("change", () => {
   officialKey = el.official.value;
+  document.body.classList.toggle("wide-full", !!officialKey);
+  $("ko-wrap").hidden = !officialKey;
   lines = []; refreshSaved();
 });
+$("ko-toggle").checked = koOn;
+$("ko-toggle").addEventListener("change", (ev) => setKoOn(ev.target.checked));
 
 let fs = 22;
 try { fs = Number(localStorage.getItem("wipo-fs")) || 22; } catch (e) { /* 저장소 사용 불가 */ }
