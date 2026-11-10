@@ -737,6 +737,7 @@ let profData = null;                                  // profiles/profiles.json 
 async function loadProfiles() {
   if (profData) return profData;
   try { profData = JSON.parse((await getLocal("profiles/profiles.json")) || "{}").people || []; } catch (e) { profData = []; }
+  try { profData = profData.concat(JSON.parse((await getLocal("profiles/extra.json")) || "{}").people || []); } catch (e) { /* 보충 프로필 없음 */ }
   return profData;
 }
 const HONOR = new Set("he h e mr ms mrs dr prof professor fr hon amb sir".split(" "));
@@ -749,6 +750,7 @@ function findProfile(name) {
   if (!profData || t.length < 2) return null;
   let best = null, bestScore = 0;
   for (const p of profData) {
+    if ((p.aliases || []).some((a) => nameKey(a).join(" ") === t.join(" "))) return p;      // 'DIRECTOR GENERAL' 처럼 직함으로만 표기된 경우
     const u = nameKey(p.name);
     const hit = t.filter((x) => u.some((y) => tokClose(x, y))).length;
     const score = hit / Math.max(t.length, 1);
@@ -815,7 +817,7 @@ async function showProfile(name) {
     }
     if (list.length) { const ul = document.createElement("ul"); list.forEach((x) => { const li = document.createElement("li"); li.textContent = x; ul.appendChild(li); }); body.appendChild(ul); }
   }
-  const fn = document.createElement("div"); fn.className = "fn"; fn.textContent = "출처: WIPO Global Forum on IP and AI 연사 프로필(PDF, 영문 원문) · 한국어는 AI 번역"; body.appendChild(fn);
+  const fn = document.createElement("div"); fn.className = "fn"; fn.textContent = (p.source || "출처: WIPO Global Forum on IP and AI 연사 프로필(PDF, 영문 원문)") + " · 한국어는 AI 번역"; body.appendChild(fn);
   dlg.showModal();
 }
 

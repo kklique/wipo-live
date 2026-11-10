@@ -1,0 +1,34 @@
+{
+ "note": "프로필 PDF에 없는 연사를 다른 출처에서 보충한 목록 (profiles_import.py 를 다시 실행해도 유지됨)",
+ "people": [
+  {
+   "id": "mr-daren-tang",
+   "name": "Mr. Daren Tang",
+   "title": "Director General, World Intellectual Property Organization (WIPO)",
+   "title_ko": "세계지식재산기구(WIPO) 사무총장",
+   "session": "Opening Remarks",
+   "page": 0,
+   "photo": null,
+   "aliases": [
+    "DIRECTOR GENERAL"
+   ],
+   "source": "WIPO 홈페이지 사무총장 소개(https://www.wipo.int/en/web/director-general)를 바탕으로 정리한 내용입니다 (프로필 PDF에는 없음).",
+   "bio": [
+    "Daren Tang, a national of Singapore, is the fifth Director General of the World Intellectual Property Organization (WIPO). He took office on 1 October 2020 and was reappointed on 21 April 2026 for a second term running from 1 October 2026 to 30 September 2032.",
+    "Before joining WIPO he served in the Government of Singapore, most recently as Chief Executive of the Intellectual Property Office of Singapore (IPOS), which he helped transform from a traditional IP registry into an innovation agency. He began his career as an international lawyer for the Singapore Government, specializing in international economic law, including international dispute settlement and the negotiation of major international agreements.",
+    "As Director General he has led the adoption of two multilateral treaties in 2024, the WIPO Treaty on Intellectual Property, Genetic Resources and Associated Traditional Knowledge and the Riyadh Design Law Treaty. His other priorities include modernizing and digitizing IP registration services, supporting Member States in enforcement and dispute resolution, work on frontier technologies, IP finance and the future of IP, and data-driven publications such as the Global Innovation Index.",
+    "He has also promoted inclusion in the IP system, with WIPO's first IP and Gender Action Plan and Youth Engagement Strategy, support for women, young people and small and medium-sized enterprises (SMEs), and efforts to bring Indigenous peoples and local communities into the IP ecosystem. Over four years, the WIPO Academy has trained more than 600,000 people, over 80 percent of them from developing countries. In 2026 WIPO also launched the AI Infrastructure Interchange (AIII).",
+    "Mr. Tang holds an LL.B. (Honours) from the National University of Singapore, an LL.M. (Distinction) from Georgetown University Law Center, and has completed the Advanced Management Program at Harvard Business School.",
+    "He is also a jazz pianist and the author of a book on the history and culture of tea."
+   ],
+   "bio_ko": [
+    "싱가포르 국적의 Daren Tang은 세계지식재산기구(WIPO)의 제5대 사무총장입니다. 2020년 10월 1일 취임했고, 2026년 4월 21일 재임명되어 2026년 10월 1일부터 2032년 9월 30일까지 두 번째 임기를 맡습니다.",
+    "WIPO에 오기 전에는 싱가포르 정부에서 일했고, 마지막 직책은 싱가포르 지식재산청(IPOS) 최고경영자(Chief Executive)였습니다. 이 기관을 전통적인 지식재산 등록기관에서 혁신 기관으로 바꾸는 데 기여했습니다. 경력은 싱가포르 정부의 국제 변호사로 시작해 국제경제법을 전문으로 다루었고, 국제 분쟁 해결과 주요 국제협정 협상에도 참여했습니다.",
+    "사무총장으로서 2024년에 다자조약 두 건의 채택을 이끌었습니다. 지식재산, 유전자원 및 관련 전통지식에 관한 WIPO 조약과 리야드 디자인법 조약입니다. 그 밖의 우선 과제로는 지식재산 등록 서비스의 현대화와 디지털 전환, 회원국의 집행과 분쟁 해결 지원, 첨단기술·지식재산 금융·지식재산의 미래 분야 업무, 글로벌혁신지수(Global Innovation Index) 같은 데이터 기반 발간물이 있습니다.",
+    "또한 지식재산 제도의 포용성을 높이는 데 힘써, WIPO 최초의 지식재산·성평등 실행계획(IP and Gender Action Plan)과 청년 참여 전략(Youth Engagement Strategy)을 마련했고, 여성·청년·중소기업(SME)을 지원하며 원주민과 지역사회를 지식재산 생태계에 포함하려는 노력을 이어 갑니다. 지난 4년간 WIPO 아카데미는 60만 명 넘게 교육했고, 그중 80% 이상이 개발도상국 출신입니다. 2026년에는 WIPO가 AI 인프라 교류 공간(AI Infrastructure Interchange, AIII)도 출범시켰습니다.",
+    "Tang 사무총장은 싱가포르 국립대학교(National University of Singapore)에서 법학사(우등) 학위를, 조지타운 대학교 로스쿨(Georgetown University Law Center)에서 법학석사(Distinction) 학위를 받았고, 하버드 경영대학원(Harvard Business School)의 Advanced Management Program을 이수했습니다.",
+    "재즈 피아니스트이자, 차(tea)의 역사와 문화를 다룬 책을 쓴 저자입니다."
+   ]
+  }
+ ]
+}

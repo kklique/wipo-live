@@ -130,6 +130,15 @@ def main():
             fn = None
         out.append({"id": pid, "name": re.sub(r"\bH\.\s*E\.", "H.E.", p["name"]), "title": title, "session": p["session"], "page": p["page"],
                     "bio": bio, "photo": f"img/{fn}" if fn else None})
+    old_p = os.path.join(a.out, "profiles.json")
+    if os.path.exists(old_p):                                # 이미 만든 한국어 번역(title_ko, bio_ko)은 원문이 같으면 그대로 이어받는다
+        prev = {x["id"]: x for x in json.load(open(old_p, encoding="utf-8")).get("people", [])}
+        for o in out:
+            x = prev.get(o["id"])
+            if x and x.get("title") == o["title"] and x.get("bio") == o["bio"]:
+                for k in ("title_ko", "bio_ko"):
+                    if k in x:
+                        o[k] = x[k]
     json.dump({"source": os.path.basename(a.pdf), "people": out}, open(os.path.join(a.out, "profiles.json"), "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
     print(f"{len(out)}명 · 사진 {sum(1 for o in out if o['photo'])}장")
