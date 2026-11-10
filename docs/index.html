@@ -122,7 +122,7 @@
   .tbl td.n, .tbl th.n { text-align: right; font-variant-numeric: tabular-nums; }
 
   /* 프로그램 탭 */
-  #program-wrap { max-width: 1840px; margin: 0 auto; padding: 16px 24px 64px; }
+  #program-wrap { max-width: min(1840px, max(80vw, 700px)); margin: 0 auto; padding: 16px 24px 64px; }      /* 넓은 화면에서는 가로 80% 정도만 써서 한 줄이 너무 길지 않게 */
   .day { margin-bottom: 40px; }
   .day h2 { font-size: 30px; line-height: 1.15; margin: 28px 0 4px; font-weight: 600; letter-spacing: -0.02em; }
   .day .ev { color: var(--muted); font-size: 14px; margin-bottom: 12px; }
