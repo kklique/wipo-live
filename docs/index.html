@@ -1066,7 +1066,7 @@ async function loadScript(id) {
     panel.innerHTML = "";
     const it = agenda.days.flatMap((d) => d.items).find((x) => x.id === id);
     const msg = document.createElement("div"); msg.className = "meta";
-    msg.textContent = ["break", "social"].includes(it.type) ? "이 구간에는 저장된 발언이 없습니다." :
+    msg.textContent = it.note ? it.note : ["break", "social"].includes(it.type) ? "이 구간에는 저장된 발언이 없습니다." :
       "아직 저장된 스크립트가 없습니다. 해당 발표가 진행되고 수집·분할이 끝나면 여기에 나타납니다.";
     panel.appendChild(msg); return;
   }
