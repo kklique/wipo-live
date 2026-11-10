@@ -1,6 +1,6 @@
 # [d1-03] Ministerial-level Remarks
-# 발표자: H.E. Mr. Edwin Tong  (floor)
-# Day 1 · 2026-11-09 · 예정 10:15-10:45 (Geneva) · 발언 1회 · 9단락 · 663단어 · 구분 방식: official
+# 발표자: H.E. Mr. Edwin Tong — Minister for Law and Second Minister for Home Affairs, Singapore  (speaker)
+# Day 1 · 2026-11-09 · 예정 10:10-10:45 (Geneva) · 발언 1회 · 9단락 · 663단어 · 구분 방식: official
 
 Director General Daren Tang, Excellencies, Ladies and Gentlemen, I’m sorry I can’t join you in person. Unfortunately, for all its advances, AI still cannot put me in two different places at the same time. Thankfully, technology allows me to deliver this prerecorded speech and I’m delighted to share some thoughts with you. First, I thank WIPO for convening this important inaugural global forum. AI is fundamentally transforming how we create and innovate, challenging our very basic assumptions underlying our IP systems.
 I think we cannot nor should we stand in the way of progress. As policymakers, our task is to ensure that AI and IP reinforce rather than undermine each other so that innovation and human creativity can thrive together. I would like to suggest three areas where we can work together. First, sustaining human creativity alongside AI innovation. AI models learn from vast quantities of human created content, whilst increasingly generating content themselves.

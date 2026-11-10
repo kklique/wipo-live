@@ -1,0 +1,5 @@
+# [d1-11] Optional Side Event - My Robot "Roommate"
+# 발표자: SPEAKER  (floor)
+# Day 1 · 2026-11-09 · 예정 14:30-15:00 (Geneva) · 발언 1회 · 1단락 · 45단어 · 구분 방식: official
+
+We have one minute if any other yes, sir. I hope you can hear me. I arrived late so maybe you mentioned this. What software do you use? Is it from the factory, from the developer or do you have your own version of software?

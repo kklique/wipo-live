@@ -1,6 +1,6 @@
 # [d1-04] Tech Radar: Ready or Not - AI's Next Frontier
 # 발표자: Mr. Ren Ito — Co-founder and Chairman, Sakana AI, Japan  (speaker)
-# Day 1 · 2026-11-09 · 예정 10:45-10:55 (Geneva) · 발언 1회 · 19단락 · 1,331단어 · 구분 방식: official
+# Day 1 · 2026-11-09 · 예정 10:50-11:00 (Geneva) · 발언 1회 · 19단락 · 1,331단어 · 구분 방식: official
 
 Director General Tan, excellencies, colleagues, friends, good morning. Thank you once again for inviting me at this inaugural global Forum on IP and AI. When WIPO invited me to give this 10 minutes’ talk on the next frontier of AI, I did what you expect someone who runs an AI company would do. I asked my own AI a few ideas. Some had already occurred to me.
 Others of ideas would never have crossed my mind. But within seconds I had almost enough material to cover both days of this Forum as you can imagine. So what exactly will be my job this morning? First, let me speak about how far has AI come so far. Take the overall performance of foundational models across a range of standard mass, coding, reasoning and those benchmarks to give you a rough sense of the scale.

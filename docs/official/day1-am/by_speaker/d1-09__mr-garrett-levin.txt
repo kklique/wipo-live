@@ -1,6 +1,6 @@
 # [d1-09] Insight: Painting by Numbers - The Power of IP Data
 # 발표자: Mr. Garrett Levin  (floor)
-# Day 1 · 2026-11-09 · 예정 12:50-13:00 (Geneva) · 발언 1회 · 3단락 · 197단어 · 구분 방식: official
+# Day 1 · 2026-11-09 · 예정 12:45-13:00 (Geneva) · 발언 1회 · 3단락 · 197단어 · 구분 방식: official
 
 Thank you. We have one more session before lunch and I will be brief but not fast. You are welcome, colleagues. When chatGPT burst onto the scene in late 2022, it seemed to many of us as though AI revolution had arrived almost out of nowhere. But had it really?
 Back in 2019, WIPO’s technology trends report on artificial intelligence was already telling a rather different story. Scientific publications in AI had been growing rapidly for decades and patent applications were following a similarly dramatic trajectory with exponential growth in the years leading up to the report. The signals were there but the question was were we paying attention to them? And that raises a very interesting possibility. If patent and scientific data could have helped us anticipate the AI revolution, what might they be telling us about the next breakthrough, technology?
