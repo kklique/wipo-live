@@ -277,7 +277,24 @@
     "code": "WIPO/IP-AI/GEN/26",
     "meeting_page": "https://www.wipo.int/meetings/en/details.jsp?meeting_id=93550",
     "source": "WIPO/IP-AI/GEN/26/1 PROV.2 (2026-10-23)"
-   }
+   },
+   "videos": [
+    {
+     "label": "오전",
+     "url": "https://webcast.wipo.int/video/WIPO_IP-AI_GEN_26_2026-11-09_3169d8fe-c816-466a-04e2-08df3b1fc4ff",
+     "items": [
+      "d1-01",
+      "d1-02",
+      "d1-03",
+      "d1-04",
+      "d1-05",
+      "d1-06",
+      "d1-07",
+      "d1-08",
+      "d1-09"
+     ]
+    }
+   ]
   },
   {
    "day": 2,
