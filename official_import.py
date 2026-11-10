@@ -205,6 +205,7 @@ def main():
             lines_n = sum(len(t["paras"]) for t in ts)
             nwords = sum(len(p.split()) for t in ts for p in t["paras"])
             ent["n_lines"] = lines_n
+            ent["paras"] = [n for t in ts for n in t["nums"]]            # 전체 단락 번호 (번역 정렬용)
             fn = f'{it["id"]}_{sba.slug(it["title"])}.txt'
             ent["file"] = fn
             if ts[0]["t"]:
@@ -235,6 +236,11 @@ def main():
                     else:
                         tl.append({"label": label, "lines": lines})
                 sba.write_speakers(sp_dir, it, day, ent, tl, "official", sp_records)
+                nums_by = {}
+                for t in tl:
+                    nums_by.setdefault(t["label"][0], []).extend(l["n"] for l in t["lines"])
+                for sp in ent.get("speakers", []):
+                    sp["paras"] = nums_by.get(sp["name"], [])
                 for sp in ent.get("speakers", []):            # 단락 단위이므로 머리글의 '문장' 표기를 바꾼다
                     fp = os.path.join(sp_dir, sp["file"])
                     txt = open(fp, encoding="utf-8").read().replace("문장 ·", "단락 ·", 1)
@@ -242,7 +248,10 @@ def main():
             md.append(f'## [{it["id"]}] {it["title"]}\n\n' + "\n".join(body) + "\n")
         index.append(ent)
 
-    # 5) 전체 (표지 줄 포함)
+    # 5) 전체 (표지 줄 포함) + 단락 목록(번역 입력/정렬용)
+    with open(os.path.join(out, "paragraphs.json"), "w", encoding="utf-8") as f:
+        json.dump([{"n": n, "item": items[t["item"]]["id"], "speaker": t["raw"], "off": t["off"], "text": p}
+                   for t in turns for n, p in zip(t["nums"], t["paras"])], f, ensure_ascii=False)
     with open(os.path.join(out, "transcript.txt"), "w", encoding="utf-8") as f:
         last_sec = None
         for t in turns:
