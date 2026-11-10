@@ -130,6 +130,12 @@
                      margin: 4px 0 6px; font-weight: 600; }
   .script .acts label.chk { display: inline-flex; gap: 6px; align-items: center; font-size: 13px; }
   .script .spkhead { margin: 0 0 10px; font-size: 14px; }
+  .btn-video { display: inline-flex; align-items: center; gap: 6px; background: #dc2626; color: #fff !important; text-decoration: none;
+               font-weight: 600; border-radius: 8px; padding: 7px 14px; font-size: 14px; border: 1px solid #dc2626; }
+  .btn-video:hover { background: #b91c1c; border-color: #b91c1c; }
+  .vid-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0 10px; }
+  .btn-video.mini { padding: 3px 10px; font-size: 12px; border-radius: 14px; margin-top: 4px; }
+  .script .acts a.btn-video { padding: 5px 12px; font-size: 13px; }
   .btn-sum { background: #2563eb; color: #fff; border-color: #2563eb; font-weight: 600; }
   .btn-sum:hover { background: #1d4ed8; border-color: #1d4ed8; }
   @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .btn-sum { background: #3b82f6; border-color: #3b82f6; }
@@ -830,6 +836,12 @@ function peopleLine(it) {                                    // 사회자·발�
   return first ? null : frag;
 }
 
+const videoOf = {};                                          // 세션 id -> {label, url} (agenda.json 의 videos)
+function videoLink(text, url, mini) {
+  const a = document.createElement("a"); a.className = "btn-video" + (mini ? " mini" : ""); a.href = url; a.target = "_blank";
+  a.rel = "noopener noreferrer"; a.textContent = text; a.title = "WIPO 웹캐스트에서 동영상 열기 (새 창)";
+  return a;
+}
 function buildProgram() {
   const root = $("program");
   root.innerHTML = "";
@@ -843,6 +855,14 @@ function buildProgram() {
     const ev = document.createElement("div"); ev.className = "ev";
     ev.textContent = (day.event && day.event.name || "") + " · Geneva 현지 시간";
     sec.appendChild(h); sec.appendChild(ev);
+    if ((day.videos || []).length) {                           // 동영상 보기 (WIPO 웹캐스트)
+      const vr = document.createElement("div"); vr.className = "vid-row";
+      for (const v of day.videos) {
+        vr.appendChild(videoLink(`▶ ${day.day}일차 ${v.label} 동영상 보기 ↗`, v.url));
+        for (const id of v.items || []) videoOf[id] = v;
+      }
+      sec.appendChild(vr);
+    }
     for (const it of day.items) {
       const box = document.createElement("div");
       box.className = "item" + (["break", "social"].includes(it.type) ? " dim" : "");
@@ -855,6 +875,9 @@ function buildProgram() {
       mid.appendChild(btn);
       const pl = peopleLine(it);
       if (pl) { const pe = document.createElement("div"); pe.className = "item-people"; pe.appendChild(pl); mid.appendChild(pe); }
+      if (videoOf[it.id] && !["break", "social"].includes(it.type)) {
+        const vm = document.createElement("div"); vm.appendChild(videoLink("▶ 동영상", videoOf[it.id].url, true)); mid.appendChild(vm);
+      }
       const pw = document.createElement("div"); pw.className = "pill-wrap";
       row.appendChild(tm); row.appendChild(mid); row.appendChild(pw);
       const sc = document.createElement("div"); sc.className = "script"; sc.hidden = true;
@@ -933,6 +956,7 @@ function renderScriptText(panel, id, text, e, view, extra) {
     setTimeout(() => { cp.textContent = "복사"; }, 1500);
   });
   acts.appendChild(dl); acts.appendChild(cp);
+  if (videoOf[id]) acts.appendChild(videoLink("▶ 동영상 보기", videoOf[id].url));
   const paras = e && e.official ? (spObj ? spObj.paras : e.paras) : null;
   const sum = sums ? (spObj ? (sums.speakers || {})[spObj.key] : (sums.sessions || {})[id]) : null;
   if (sum) {                                              // 한글 요약 팝업
