@@ -1634,7 +1634,7 @@ async function refreshReport() {
       s.appendChild(g); box.appendChild(s);
     }
     reportBuilt = true;
-    setStatus("report", "", "리포트", `작성 기준일 ${rp.updated} · 1·2일차 공식 스크립트 기반 분석`);
+    setStatus("report", "", "리포트", `작성 기준일 ${rp.updated} · 1~3일차 공식 스크립트 기반 분석 (3일차는 오후 세션)`);
   } catch (e) {
     box.innerHTML = ""; box.appendChild(Object.assign(document.createElement("div"), { className: "live-empty", textContent: "리포트를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요." }));
     setStatus("report", "err", "리포트", `불러오기 실패 (${e.message})`);
