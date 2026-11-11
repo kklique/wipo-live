@@ -342,10 +342,10 @@
     </div>
     <div class="tabs" role="tablist">
       <button class="tab tablink" type="button" id="tab-info" aria-haspopup="true" aria-expanded="false" aria-controls="info-menu" title="WIPO 행사 정보 페이지로 이동">행사정보 <span aria-hidden="true">▾</span></button>
-      <button class="tab" role="tab" id="tab-program" aria-selected="true" aria-controls="program-wrap">프로그램</button>
+      <button class="tab" role="tab" id="tab-program" aria-selected="true" aria-controls="program-wrap">프로그램별 스크립트&amp;요약</button>
       <button class="tab" role="tab" id="tab-report" aria-selected="false" aria-controls="report-wrap">리포트&amp;시사점</button>
       <button class="tab" role="tab" id="tab-full" aria-selected="false" aria-controls="full-wrap">전체 저장본</button>
-      <button class="tab" role="tab" id="tab-live" aria-selected="false" aria-controls="live-wrap">실시간</button>
+      <button class="tab" role="tab" id="tab-live" aria-selected="false" aria-controls="live-wrap" hidden style="display:none">실시간</button>
       <button class="tab" role="tab" id="tab-status" aria-selected="false" aria-controls="status-wrap" hidden style="display:none">저장 상태</button>
     </div>
   </div>
@@ -381,7 +381,7 @@
 
 <!-- 실시간: 브라우저가 WIPO 전사 API 를 직접 폴링 (진행 중인 문장 포함) -->
 <div id="live-wrap" role="tabpanel">
-  <div id="live-box" aria-live="polite"><div class="live-empty">행사가 끝나 실시간 자막 조회를 중단했습니다. 발표 스크립트는 <b>프로그램</b>과 <b>전체 저장본</b> 메뉴에서 볼 수 있습니다.</div></div>
+  <div id="live-box" aria-live="polite"><div class="live-empty">행사가 끝나 실시간 자막 조회를 중단했습니다. 발표 스크립트는 <b>프로그램별 스크립트&amp;요약</b>과 <b>전체 저장본</b> 메뉴에서 볼 수 있습니다.</div></div>
   <button id="to-bottom" type="button" hidden>↓ 최신으로</button>
 </div>
 
@@ -838,7 +838,7 @@ function resetLive() {
   liveGen++; clearTimeout(liveTimer);
   liveLines = []; livePartial = ""; liveCursor = null; liveFails = 0; liveSource = "direct"; atBottom = true;
   if (!LIVE_ON) {
-    el.liveBox.innerHTML = '<div class="live-empty">행사가 끝나 실시간 자막 조회를 중단했습니다. 발표 스크립트는 <b>프로그램</b>과 <b>전체 저장본</b> 메뉴에서 볼 수 있습니다.</div>';
+    el.liveBox.innerHTML = '<div class="live-empty">행사가 끝나 실시간 자막 조회를 중단했습니다. 발표 스크립트는 <b>프로그램별 스크립트&amp;요약</b>과 <b>전체 저장본</b> 메뉴에서 볼 수 있습니다.</div>';
     setStatus("live", "", "종료", "실시간 자막 조회 중단 (행사 종료)"); return;
   }
   el.liveBox.innerHTML = '<div class="live-empty">연결 중…</div>';
