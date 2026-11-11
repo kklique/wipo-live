@@ -1,0 +1,9 @@
+# [d3-13] Floor Interventions from Member States, Observers, and Members of the Technical Exchange Network
+# 발표자: INDIA  (floor)
+# Day 3 · 2026-11-11 · 예정 17:30-17:55 (Geneva) · 발언 1회 · 5단락 · 292단어 · 구분 방식: official
+
+We are building the cultural intelligence layer for music AI. We record Indian classical music in the studio and consent log training data from it. The case we just saw about the Raga nobody could find is the problem we work on every day. Most music metadata was designed around western music, key, tempo, time signature. A Raga is not a key.
+A tal is not a time signature. Our tradition works with a larger grammar that a 12 note grid cannot record. When that is lost at ingestion nobody can tell what a model learned from. I would like to add three points from the creation end of that chain, especially for Andy Khan. First, the mood.
+The question on the slide was whether an assistant could find calming, meditative music. The tradition already has an answer. Most Ragas carry an emotional character and at the time of the day they belong to. We don’t need to invent a mood vocabulary for this music. We need fields that can hold the one it already has.
+Second is the lineage. A credit field built for one name will never capture a teaser to student lineage. That should be structured data and not a free text note. Lastly, the consent. In our sessions each performer’s permission is logged against specific recordings.
+If that record stays in a contract folder the AI at the end of the chain can’t see it either. All three can be captured at the moment of recording while the musician is in the room. My suggestion to the metadata and the lexicon group is that we would be glad to contribute in the field definition and to test them as a worked example. Thank you. Thank you very much.

@@ -1,5 +1,5 @@
 {
- "source": "3b2a4061-wipo_ip_ai_gen_26_speaker_profiles_1.pdf",
+ "source": "3b2a4061-wipo_ip_ai_gen_26_speaker_profiles_1.pdf + 2ebfcbb2-wipo_aiii_ge_26_speaker_profiles.pdf",
  "people": [
   {
    "id": "h-e-mr-kairat-torebayev",
@@ -1319,6 +1319,432 @@
    "photo": null,
    "title_ko": "싱어송라이터, 스위스",
    "bio_ko": []
+  },
+  {
+   "id": "mr-andres-martin-lopez",
+   "name": "Mr. Andrés Martín López",
+   "title": "Vice President Engineering (Music Technology and Copyright Infrastructure), Spain",
+   "session": "Industry Workflows Focus Group Update",
+   "page": 2,
+   "bio": [
+    "Andrés Martín is VP of Engineering at BMAT Music Innovators, where he leads engineering teams building technology infrastructure for the music industry.",
+    "He has over a decade of experience in music technology, spanning copyright and licensing, music metadata, data platforms, and artificial intelligence. Previously, he served as Founding CTO at Blokur, where he led the development of technology simplifying music copyright and licensing, helping build and scale the company from inception through its acquisition. Before that, he worked at Universal Music Group on music data, search and discovery, and digital products."
+   ],
+   "photo": "img/mr-andres-martin-lopez.jpg",
+   "event": "AIII 2026",
+   "title_ko": "엔지니어링 부사장(음악 기술 및 저작권 인프라), 스페인",
+   "bio_ko": [
+    "Andrés Martín은 BMAT Music Innovators의 엔지니어링 부사장으로, 음악 산업을 위한 기술 인프라를 구축하는 엔지니어링 팀을 이끌고 있습니다.",
+    "저작권과 라이선싱, 음악 메타데이터, 데이터 플랫폼, 인공지능에 걸쳐 10년 넘게 음악 기술 분야에서 경력을 쌓았습니다. 이전에는 Blokur의 창립 CTO로서 음악 저작권과 라이선싱을 단순화하는 기술 개발을 이끌었고, 창업부터 인수에 이르기까지 회사를 키우고 확장하는 데 기여했습니다. 그 전에는 Universal Music Group에서 음악 데이터, 검색과 발견, 디지털 제품 업무를 맡았습니다."
+   ]
+  },
+  {
+   "id": "mr-lucas-oliveira",
+   "name": "Mr. Lucas Oliveira",
+   "title": "Head of International Relations, SBACEM, Brazil",
+   "session": "Industry Workflows Focus Group Update",
+   "page": 2,
+   "bio": [
+    "Lucas Mariano Lessa Fernandes de Oliveira is the head of International Affairs at SBACEM, the Brazilian collective management organization for musical copyright and neighbouring rights. He leads the department responsible for international copyright, international neighbouring rights and audiovisual matters, and represents SBACEM within CISAC, SCAPR and WIPO. His work includes negotiating bilateral representation agreements with foreign societies. He has signed 10 new international contracts, including agreements with neighbouring rights societies such as NORMA and SENA, with 14 more under negotiation. He also manages IPI codes for SBACEM rightholders and oversees international tax documentation to prevent double taxation in countries such as Spain, Portugal and Italy. He led SBACEM’s accession process to SCAPR and the implementation of BMAT ATLAS for the international sector. By applying artificial intelligence to automate internal workflows, he reduced processes that once took months to just a few days. He has represented SBACEM at two CISAC General Assemblies and took part in WIPO’s AIII, researching the impact of AI on musical intellectual property."
+   ],
+   "photo": "img/mr-lucas-oliveira.jpg",
+   "event": "AIII 2026",
+   "title_ko": "SBACEM 국제관계 책임자, 브라질",
+   "bio_ko": [
+    "Lucas Mariano Lessa Fernandes de Oliveira는 음악 저작권과 저작인접권을 관리하는 브라질 집중관리단체 SBACEM의 국제업무 책임자입니다. 국제 저작권, 국제 저작인접권, 시청각 업무를 담당하는 부서를 이끌며 CISAC, SCAPR, WIPO에서 SBACEM을 대표합니다. 해외 단체와의 상호 대리 계약 협상도 맡고 있습니다. NORMA, SENA 같은 저작인접권 단체와의 계약을 포함해 10건의 새로운 국제 계약을 체결했으며, 14건을 추가로 협상하고 있습니다. 또한 SBACEM 권리자의 IPI 코드를 관리하고, 스페인, 포르투갈, 이탈리아 등에서 이중과세를 막기 위한 국제 세무 서류를 감독합니다. SBACEM의 SCAPR 가입 절차와 국제 부문의 BMAT ATLAS 도입을 이끌었습니다. 인공지능으로 내부 업무 흐름을 자동화해 몇 달씩 걸리던 절차를 며칠로 줄였습니다. CISAC 총회 두 차례에서 SBACEM을 대표했고, WIPO AIII에 참여해 AI가 음악 지식재산에 미치는 영향을 연구했습니다."
+   ]
+  },
+  {
+   "id": "mr-matteo-ripamonti",
+   "name": "Mr. Matteo Ripamonti",
+   "title": "Head of Third Party Relationships, Elsevier, RELX Group, Italy",
+   "session": "Industry Workflows Focus Group Update",
+   "page": 3,
+   "bio": [
+    "Matteo Ripamonti is Head of Third Party Relationships at Elsevier, part of RELX. He leads global engagement on third-party use of scholarly content, with a particular focus on artificial intelligence, text and data mining, content licensing, copyright, and research infrastructure.",
+    "Matteo works with academic institutions, technology companies, industry organizations, and policymakers to develop practical approaches for responsible access to and use of scientific information in the AI era. His work includes supporting initiatives related to machine-readable rights, provenance, content protection, and emerging standards, while helping connect legal, technical, and policy perspectives across the scholarly communication ecosystem.",
+    "Based in Italy, Matteo regularly contributes to international discussions on AI, intellectual property, and the future of trusted research information."
+   ],
+   "photo": "img/mr-matteo-ripamonti.jpg",
+   "event": "AIII 2026",
+   "title_ko": "Elsevier(RELX Group) 제3자 관계 책임자, 이탈리아",
+   "bio_ko": [
+    "Matteo Ripamonti는 RELX 소속 Elsevier의 제3자 관계 책임자입니다. 학술 콘텐츠의 제3자 이용에 관한 전 세계 협력을 이끌며, 특히 인공지능, 텍스트·데이터 마이닝, 콘텐츠 라이선싱, 저작권, 연구 인프라에 중점을 둡니다.",
+    "학술 기관, 기술 기업, 업계 단체, 정책 입안자와 함께 AI 시대에 과학 정보에 책임 있게 접근하고 이를 이용하는 실용적인 방안을 마련하고 있습니다. 기계 판독 가능한 권리 정보, 출처, 콘텐츠 보호, 새로운 표준과 관련된 이니셔티브를 지원하고, 학술 커뮤니케이션 생태계 전반에서 법률, 기술, 정책 관점을 잇는 일도 하고 있습니다.",
+    "이탈리아에 거주하며 AI, 지식재산, 신뢰할 수 있는 연구 정보의 미래에 관한 국제 논의에 꾸준히 참여하고 있습니다."
+   ]
+  },
+  {
+   "id": "mr-utkarsh-sharma",
+   "name": "Mr. Utkarsh Sharma",
+   "title": "Founding Head, Tagmusic, India",
+   "session": "Industry Workflows Focus Group Update",
+   "page": 3,
+   "bio": [
+    "Utkarsh Sharma is a music-tech innovator and strategist specializing in media authentication, AI provenance, and C2PA standards. As the founding head of Tagmusic, he works at the intersection of music, film, and technology to build content credentials and attribution models for human-created and AI-assisted works. Utkarsh is pioneering DAW-native provenance architectures that safeguard creator privacy during production while generating tamper-evident proofs for transparent AI disclosures. Driven by a mission to build a trust infrastructure across the creative industries, his work addresses the risks of AI misuse by ensuring verifiable attribution and protecting creator rights. Alongside Scott Farrant, he co- leads the Audio Provenance Initiative, advancing practical, scalable provenance standards across modern audio workflows."
+   ],
+   "photo": "img/mr-utkarsh-sharma.jpg",
+   "event": "AIII 2026",
+   "title_ko": "Tagmusic 창립 책임자, 인도",
+   "bio_ko": [
+    "Utkarsh Sharma는 미디어 인증, AI 출처, C2PA 표준을 전문으로 하는 음악 기술 혁신가이자 전략가입니다. Tagmusic의 창립 책임자로서 음악, 영화, 기술이 만나는 영역에서 사람이 만든 저작물과 AI의 도움을 받은 저작물을 위한 콘텐츠 자격 증명(content credentials)과 저작자 표시 모델을 만들고 있습니다. 제작 과정에서 창작자의 프라이버시를 지키면서 투명한 AI 사용 공개를 위해 위변조를 확인할 수 있는 증명을 생성하는 DAW 기반 출처 아키텍처를 앞장서 개발하고 있습니다. 창작 산업 전반에 신뢰 인프라를 구축한다는 목표 아래, 검증 가능한 저작자 표시를 보장하고 창작자의 권리를 보호해 AI 오용의 위험에 대응하고 있습니다. Scott Farrant와 함께 Audio Provenance Initiative를 공동으로 이끌며, 현대 오디오 작업 흐름 전반에 적용할 수 있는 실용적이고 확장 가능한 출처 표준을 추진하고 있습니다."
+   ]
+  },
+  {
+   "id": "ms-vandana-taxali",
+   "name": "Ms. Vandana Taxali",
+   "title": "IP & AI Lawyer, Entcounsel Law Firm; Tech Founder, Artcryption, Canada",
+   "session": "Industry Workflows Focus Group Update · Common Lexicon Focus Group Update",
+   "page": 4,
+   "bio": [
+    "Vandana Taxali is an intellectual property, entertainment and art lawyer and technology entrepreneur whose work bridges creativity, commerce and emerging technologies. She founded Entcounsel Law Firm, where she advises creators and creative businesses on protecting, licensing and commercializing their work, and Artcryption, an art-tech platform developing new approaches to ownership, provenance and rights management.",
+    "As artificial intelligence transforms how creative works are made, used and valued, Vandana focuses on the infrastructure needed to identify creators and their works, establish provenance and communicate rights across digital ecosystems. She is an expert member of WIPO's Artificial Intelligence Infrastructure Interchange (AIII) Technical Exchange Network and contributes to the Art Identification Standard (AIS), an international initiative developing a universal identification standard for artworks. Her work also includes blockchain standardization through the Standards Council of Canada.",
+    "Vandana designed and delivers Member Legal Services for CARFAC Ontario, a Canadian organization advocating for the rights and fair compensation of professional visual artists. She holds Canadian and American law degrees and a certificate in art law from Christie's, and is an arbitrator with the Court of Arbitration for Art in The Hague."
+   ],
+   "photo": "img/ms-vandana-taxali.jpg",
+   "event": "AIII 2026",
+   "title_ko": "Entcounsel Law Firm 지식재산·AI 변호사, Artcryption 기술 창업자, 캐나다",
+   "bio_ko": [
+    "Vandana Taxali는 창작, 상업, 신기술을 잇는 일을 하는 지식재산·엔터테인먼트·예술 분야 변호사이자 기술 창업가입니다. 창작자와 창작 기업에게 저작물의 보호, 라이선싱, 상업화를 자문하는 Entcounsel Law Firm과, 소유권, 출처, 권리 관리에 새로운 방식을 개발하는 예술 기술 플랫폼 Artcryption을 설립했습니다.",
+    "인공지능이 창작물을 만들고 이용하고 가치를 매기는 방식을 바꾸고 있는 가운데, 창작자와 저작물을 식별하고 출처를 확립하며 디지털 생태계 전반에서 권리 정보를 전달하는 데 필요한 인프라에 집중하고 있습니다. WIPO 인공지능 인프라 교류(AIII) 기술교류네트워크의 전문가 회원이며, 예술 작품을 위한 범용 식별 표준을 개발하는 국제 이니셔티브인 Art Identification Standard(AIS)에 참여하고 있습니다. 캐나다 표준위원회(Standards Council of Canada)를 통한 블록체인 표준화 작업에도 참여하고 있습니다.",
+    "전문 시각 예술가의 권리와 공정한 보상을 옹호하는 캐나다 단체 CARFAC Ontario의 회원 법률 서비스를 설계하고 제공하고 있습니다. 캐나다와 미국의 법학 학위, Christie's의 예술법 수료증을 보유하고 있으며, 헤이그 예술중재재판소(Court of Arbitration for Art)의 중재인입니다."
+   ]
+  },
+  {
+   "id": "mr-diamond-duggal-aka-dj-swami",
+   "name": "Mr. Diamond Duggal (aka DJ Swami)",
+   "title": "Music Producer and Songwriter, United Kingdom",
+   "session": "AI in the Creative Process - A Live Demonstration",
+   "page": 4,
+   "bio": [
+    "Diamond Duggal (aka DJ Swami) is an internationally acclaimed British music producer, songwriter and multi-instrumentalist with over three decades of experience in the global music industry. His credits include co-producing Shania Twain's multi-platinum, Grammy-nominated album Up! alongside Mutt Lange, as well as producing for internationally renowned artists including Nusrat Fateh Ali Khan, Al Green and Apache Indian.",
+    "An Ivor Novello-nominated songwriter and award-winning producer, Diamond's work spans records, film, television, advertising and gaming, including music and sync projects for Netflix, Warner Bros., Disney, Mattel and EA Games. As DJ Swami, he has toured across the",
+    "UK, USA and India, combining live Punjabi folk musicians, generative modular synthesis and immersive live-capture visuals.",
+    "Through SUPRODA, he works at the intersection of music, artificial intelligence and emerging creative technologies. A three-time AI Song Contest finalist (2023, 2024 and 2025), he champions human-led, ethically responsible AI workflows that preserve artistic authorship, originality and creative control.",
+    "Diamond is a member of WIPO's AI Infrastructure Interchange Technical Exchange Network, contributing a professional music creator's perspective to international discussions on AI, intellectual property and the future of the creative industries."
+   ],
+   "photo": "img/mr-diamond-duggal-aka-dj-swami.jpg",
+   "event": "AIII 2026",
+   "title_ko": "음악 프로듀서 겸 작곡가, 영국",
+   "bio_ko": [
+    "Diamond Duggal(DJ Swami)은 30년 넘게 세계 음악 산업에서 활동해 온, 국제적으로 호평받는 영국의 음악 프로듀서, 작곡가, 멀티 악기 연주자입니다. Mutt Lange와 함께 Shania Twain의 멀티 플래티넘, 그래미 후보작 앨범 Up!을 공동 프로듀싱했으며, Nusrat Fateh Ali Khan, Al Green, Apache Indian 등 세계적으로 알려진 아티스트의 음반을 프로듀싱했습니다.",
+    "아이버 노벨로상(Ivor Novello) 후보에 오른 작곡가이자 수상 경력의 프로듀서로서 음반, 영화, 텔레비전, 광고, 게임에 걸쳐 작업했으며, Netflix, Warner Bros., Disney, Mattel, EA Games의 음악과 싱크 프로젝트를 맡았습니다. DJ Swami로서",
+    "영국, 미국, 인도에서 투어를 했으며, 펀자브 민속 음악 연주자들의 라이브 연주, 생성형 모듈러 신시사이저, 몰입형 라이브 캡처 영상을 결합한 공연을 선보였습니다.",
+    "SUPRODA를 통해 음악, 인공지능, 새로운 창작 기술이 만나는 영역에서 일하고 있습니다. AI Song Contest에서 세 차례(2023, 2024, 2025년) 결선에 올랐으며, 예술적 저작자 지위, 독창성, 창작 통제권을 지키는 사람 주도의 윤리적으로 책임 있는 AI 작업 방식을 지지합니다.",
+    "WIPO AI 인프라 교류 기술교류네트워크(AI Infrastructure Interchange Technical Exchange Network)의 회원으로서, AI, 지식재산, 창작 산업의 미래에 관한 국제 논의에 전문 음악 창작자의 관점을 더하고 있습니다."
+   ]
+  },
+  {
+   "id": "mr-harry-boughton",
+   "name": "Mr. Harry Boughton",
+   "title": "Head of Operations, Copyright Licensing Agency, United Kingdom",
+   "session": "Metadata Framing Focus Group Update",
+   "page": 5,
+   "bio": [
+    "Harry is Head of Operations at the Copyright Licensing Agency (CLA, UK), the UK's collective rights licensing body for text and images from books, journals and magazines, that has generated more than £1.75 billion for more than 200,000 authors, publishers and visual artists. Harry oversees CLA's distributions; capturing and identifying the millions of pages of published works copied under its licences and distributing the resulting royalties, ensuring fair compensation for creators and support for the UK's creative economy. Harry is Vice Chair of the International Federation of Reprographic Rights Organisation's (IFRRO) Technical Standards Committee, and in this role represents IFRRO as a member of the AIII-TEN."
+   ],
+   "photo": "img/mr-harry-boughton.jpg",
+   "event": "AIII 2026",
+   "title_ko": "Copyright Licensing Agency 운영 책임자, 영국",
+   "bio_ko": [
+    "Harry는 영국 Copyright Licensing Agency(CLA)의 운영 책임자입니다. CLA는 도서, 학술지, 잡지의 글과 이미지를 대상으로 하는 영국의 집중 권리 라이선싱 기관으로, 20만 명이 넘는 저자, 출판사, 시각 예술가에게 17억 5천만 파운드 이상의 수익을 창출했습니다. Harry는 CLA의 분배 업무를 총괄합니다. CLA 라이선스에 따라 복제된 수백만 쪽의 출판 저작물을 수집하고 식별해 그 결과로 생긴 사용료를 분배하며, 창작자가 공정한 보상을 받고 영국의 창작 경제가 지원받도록 하고 있습니다. 국제복제권기구연맹(IFRRO) 기술표준위원회 부의장이며, 이 자격으로 AIII-TEN 회원으로서 IFRRO를 대표합니다."
+   ]
+  },
+  {
+   "id": "mr-andy-carne",
+   "name": "Mr. Andy Carne",
+   "title": "Special Projects Lead, Auracles, United Kingdom",
+   "session": "Metadata Framing Focus Group Update",
+   "page": 5,
+   "bio": [
+    "Special Projects Lead for Imogen Heap, Andy is a multi-disciplined creative, a technologist, software engineer and Grammy Nominated Art Director with over 25 years experience creating visual content for music. As a startup Founder, he has engineered multiple cutting- edge concepts to engage fans with music including Streemliner, Mupix and the AI supported player Playlist+. In 2015, Andy helped Imogen Heap launch the first music sale on the Ethereum Blockchain, now widely recognised as a key moment in the evolution of NFTs. Over the past 25 years he has also collaborated with many critically acclaimed recording artists to develop the visual language for themselves and their release campaigns, including the Foo Fighters, Imogen Heap, Lamb and Mike Oldfield. His fine art canvasses have hung in the offices of Universal Music Group and his photographic work has featured on the cover of multiple Top 10 releases as well as Sunday supplements and trade magazines."
+   ],
+   "photo": "img/mr-andy-carne.jpg",
+   "event": "AIII 2026",
+   "title_ko": "Auracles 특별 프로젝트 리드, 영국",
+   "bio_ko": [
+    "Imogen Heap의 특별 프로젝트 리드인 Andy는 여러 분야에 걸친 크리에이터이자 기술자, 소프트웨어 엔지니어이며, 음악을 위한 시각 콘텐츠를 25년 넘게 만들어 온 그래미 후보 아트 디렉터입니다. 스타트업 창업자로서 Streemliner, Mupix, AI 기반 플레이어 Playlist+ 등 팬이 음악에 참여하도록 하는 여러 첨단 콘셉트를 개발했습니다. 2015년에는 Imogen Heap이 이더리움 블록체인에서 첫 음악 판매를 시작하도록 도왔으며, 이는 현재 NFT 발전의 중요한 순간으로 널리 인정받고 있습니다. 지난 25년 동안 Foo Fighters, Imogen Heap, Lamb, Mike Oldfield 등 비평가의 호평을 받은 여러 음반 아티스트와 협업해 아티스트 자신과 발매 캠페인의 시각 언어를 만들었습니다. 그의 순수 미술 캔버스 작품은 Universal Music Group 사무실에 걸렸고, 사진 작품은 여러 Top 10 음반의 표지와 일요판 별지, 업계 잡지에 실렸습니다."
+   ]
+  },
+  {
+   "id": "mr-bill-rosenblatt",
+   "name": "Mr. Bill Rosenblatt",
+   "title": "President, GiantSteps Media Technology Strategies, United States of America",
+   "session": "Metadata Framing Focus Group Update",
+   "page": 6,
+   "bio": [
+    "Bill Rosenblatt is an internationally recognized independent expert on technology, strategy, and data issues related to copyright infrastructure in the digital age. He is a partner in the international music tech, rights, and strategy consulting firm Music Foundry, and an adjunct professor in the Music Business program at New York University. He is the author of the WIPO report The Global Digital Music Landscape: An Overview of Distribution, Copyright, and Rights Administration for Music in the Digital Age and coauthor of the book Key Changes: The Ten Times Technology Transformed the Music Industry. He runs the annual Copyright + Technology conference in partnership with the Copyright Society.",
+    "Bill's consulting clients have included music and other media companies as well as technology and service providers ranging from startups to Global 500. He has worked on public policy issues related to copyright infrastructure around the world, and he has served as an expert witness in litigations related to copyright, digital media technology, and the music industry.",
+    "Previously, Bill served as a technology executive in the publishing industry and in business development roles in the tech industry. Bill has degrees in computer science from Princeton University and the University of Massachusetts."
+   ],
+   "photo": "img/mr-bill-rosenblatt.jpg",
+   "event": "AIII 2026",
+   "title_ko": "GiantSteps Media Technology Strategies 대표, 미국",
+   "bio_ko": [
+    "Bill Rosenblatt는 디지털 시대 저작권 인프라와 관련된 기술, 전략, 데이터 문제에 관해 국제적으로 인정받는 독립 전문가입니다. 음악 기술, 권리, 전략을 다루는 국제 컨설팅 회사 Music Foundry의 파트너이자 뉴욕대학교(New York University) 음악 비즈니스 프로그램의 겸임교수입니다. WIPO 보고서 The Global Digital Music Landscape: An Overview of Distribution, Copyright, and Rights Administration for Music in the Digital Age의 저자이며, Key Changes: The Ten Times Technology Transformed the Music Industry의 공동 저자입니다. Copyright Society와 함께 연례 Copyright + Technology 콘퍼런스를 운영하고 있습니다.",
+    "컨설팅 고객으로는 음악 및 기타 미디어 기업과 스타트업부터 Global 500 기업에 이르는 기술·서비스 제공업체가 있습니다. 전 세계에서 저작권 인프라와 관련된 공공 정책 문제를 다루었으며, 저작권, 디지털 미디어 기술, 음악 산업과 관련된 소송에서 전문가 증인으로 활동했습니다.",
+    "이전에는 출판 업계에서 기술 임원으로, 기술 업계에서 사업 개발 직무를 맡았습니다. 프린스턴 대학교(Princeton University)와 매사추세츠 대학교(University of Massachusetts)에서 컴퓨터과학 학위를 받았습니다."
+   ]
+  },
+  {
+   "id": "ms-merida-sussex",
+   "name": "Ms. Merida Sussex",
+   "title": "Co-Founder and Chief Executive Officer, MetaGen, United Kingdom",
+   "session": "Metadata Framing Focus Group Update",
+   "page": 6,
+   "bio": [
+    "Merida Sussex is a musician, label founder, and co-founder and CEO of MetaGen, a music data system for creative people.",
+    "Signed to Mushroom Records and then to Infectious in the UK, she toured the UK, Europe and the US before co-founding the independent label Stolen Recordings in London in 2005. She served two terms each on the boards of the Association of Independent Music (AIM) and the Merlin Network",
+    "Through an 18-month research project funded by Innovate UK and the Australian Research Council, she interviewed more than 100 artists, managers, labels, publishers and distributors worldwide. That work shaped her people-first, song-first approach to metadata, provenance and AI disclosure.",
+    "She is a member of the WIPO AIII Technical Exchange Network (TEN), where she leads the focus group on the temporal nature of creative data, and of the UK IPO’s Metadata Education Working Group. She co-founded Music Technology Australia and works between Melbourne and London."
+   ],
+   "photo": "img/ms-merida-sussex.jpg",
+   "event": "AIII 2026",
+   "title_ko": "MetaGen 공동 창업자 겸 최고경영자, 영국",
+   "bio_ko": [
+    "Merida Sussex는 음악가이자 레이블 창업자이며, 창작자를 위한 음악 데이터 시스템인 MetaGen의 공동 창업자 겸 CEO입니다.",
+    "영국에서 Mushroom Records, 이어 Infectious와 계약해 영국, 유럽, 미국에서 투어를 했고, 2005년 런던에서 독립 레이블 Stolen Recordings를 공동 설립했습니다. 독립음악협회(Association of Independent Music, AIM)와 Merlin Network 이사회에서 각각 두 차례 임기를 지냈습니다.",
+    "Innovate UK와 호주연구위원회(Australian Research Council)의 지원을 받은 18개월간의 연구 프로젝트에서 전 세계의 아티스트, 매니저, 레이블, 퍼블리셔, 유통사 등 100곳 이상을 인터뷰했습니다. 이 작업을 바탕으로 메타데이터, 출처, AI 사용 공개에 대해 사람과 곡을 우선하는 접근 방식을 세웠습니다.",
+    "WIPO AIII 기술교류네트워크(TEN) 회원으로 창작 데이터의 시간적 특성을 다루는 포커스 그룹을 이끌고 있으며, 영국 지식재산청(UK IPO) 메타데이터 교육 워킹그룹 회원이기도 합니다. Music Technology Australia를 공동 설립했으며 멜버른과 런던을 오가며 일하고 있습니다."
+   ]
+  },
+  {
+   "id": "mr-fabian-thiele",
+   "name": "Mr. Fabian Thiele",
+   "title": "Founder, IPT Guard GmbH, Germany",
+   "session": "Metadata Framing Focus Group Update",
+   "page": 7,
+   "bio": [
+    "Fabian Thiele is a Berlin-based technology entrepreneur with more than 20 years in digital production, platform engineering, and company building.",
+    "Trained as an industrial engineer at Technische Universität Berlin and as an audio engineer at the SAE Institute, Fabian started his career in game development. As owner and CTO of lbxgames from 2006 to 2011, he led a studio that shipped titles for mobile, console, and social platforms, working with artists, composers, writers, and programmers across every production.",
+    "Fabian later worked as a product owner in mobile payments and as IT project delivery manager at BMW Group Financial Services, where he learned how large organisations handle compliance and audit trails. Since 2011, he has also run Urban Cosmetics Berlin, a natural cosmetics manufacturer in Berlin-Kreuzberg that grew out of his interest in aromatherapy and plant-based formulations.",
+    "In 2024 he founded IPT Guard GmbH with Florian Haslinger and Manfred Rürup. The company operates a registry that records digital works at the moment of creation, with a timestamp and a documented rights status, independent of any single platform or operator.",
+    "Fabian contributes to the WIPO AIII Technical Exchange Network. He lives in Berlin, plays the drums, and spends his free time travelling and diving."
+   ],
+   "photo": "img/mr-fabian-thiele.jpg",
+   "event": "AIII 2026",
+   "title_ko": "IPT Guard GmbH 창업자, 독일",
+   "bio_ko": [
+    "Fabian Thiele는 디지털 제작, 플랫폼 엔지니어링, 회사 설립 분야에서 20년 넘게 일해 온 베를린 기반의 기술 창업가입니다.",
+    "베를린 공과대학교(Technische Universität Berlin)에서 산업공학을, SAE Institute에서 오디오 엔지니어링을 공부했으며, 게임 개발로 경력을 시작했습니다. 2006년부터 2011년까지 lbxgames의 소유주 겸 CTO로서 모바일, 콘솔, 소셜 플랫폼용 게임을 출시한 스튜디오를 이끌었고, 모든 제작 과정에서 아티스트, 작곡가, 작가, 프로그래머와 함께 일했습니다.",
+    "이후 모바일 결제 분야의 프로덕트 오너와 BMW Group Financial Services의 IT 프로젝트 딜리버리 매니저로 일하며 대규모 조직이 컴플라이언스와 감사 추적을 어떻게 다루는지 익혔습니다. 2011년부터는 아로마테라피와 식물성 제형에 대한 관심에서 시작한 베를린 크로이츠베르크의 천연 화장품 제조사 Urban Cosmetics Berlin도 운영하고 있습니다.",
+    "2024년 Florian Haslinger, Manfred Rürup과 함께 IPT Guard GmbH를 설립했습니다. 이 회사는 디지털 저작물을 창작 시점에 타임스탬프와 문서화된 권리 상태와 함께 기록하는 등록 시스템을 운영하며, 이 시스템은 특정 플랫폼이나 운영자에 종속되지 않습니다.",
+    "WIPO AIII 기술교류네트워크에 참여하고 있습니다. 베를린에 살며 드럼을 연주하고, 여가 시간에는 여행과 다이빙을 즐깁니다."
+   ]
+  },
+  {
+   "id": "mr-yuki-mitsufuji",
+   "name": "Mr. Yuki Mitsufuji",
+   "title": "Vice President of AI Research, Sony Corporate Technology Center America, United States of America",
+   "session": "The Art of the Possible - Developments in Attribution Technology",
+   "page": 8,
+   "bio": [
+    "Mr. Yuki Mitsufuji is Vice President of AI Research at Sony Corporate Technology Center America, a Distinguished Engineer at Sony Group Corporation, and a Visiting Research Professor at New York University. He received his Ph.D. in Information Science and Technology from the University of Tokyo and has been recognized as a Stanford/Elsevier Top 2% Scientist. His research spans Creative AI and Protective AI, advancing generative AI while addressing fundamental challenges in training-data attribution and memorization in foundation models."
+   ],
+   "photo": "img/mr-yuki-mitsufuji.jpg",
+   "event": "AIII 2026",
+   "title_ko": "Sony Corporate Technology Center America AI 연구 부사장, 미국",
+   "bio_ko": [
+    "Yuki Mitsufuji는 Sony Corporate Technology Center America의 AI 연구 부사장이자 Sony Group Corporation의 Distinguished Engineer이며, 뉴욕대학교(New York University) 방문 연구 교수입니다. 도쿄대학교(University of Tokyo)에서 정보과학기술 박사 학위를 받았으며, Stanford/Elsevier 상위 2% 과학자로 선정되었습니다. 연구 분야는 Creative AI와 Protective AI에 걸쳐 있으며, 생성형 AI를 발전시키는 한편 파운데이션 모델의 학습 데이터 기여도 추적(attribution)과 기억(memorization) 문제라는 근본적인 과제를 다루고 있습니다."
+   ]
+  },
+  {
+   "id": "mr-bobby-bickley",
+   "name": "Mr. Bobby Bickley",
+   "title": "Researcher & Data Scientist, Beatdapp, United States of America",
+   "session": "AI-Generated Content Taxonomy Focus Group Update",
+   "page": 8,
+   "bio": [
+    "Bobby Bickley is a data scientist leading a multidisciplinary audio and machine learning research team at Beatdapp (Vancouver, B.C., Canada). In particular, the team is pioneering a holistic approach to distinguish between authentic (human-made) and AI-generated music, identifying the unique characteristics of human-made music, and projecting the long- run behaviour of AI-generated music in the age of digital streaming.",
+    "Prior to working at Beatdapp, Bobby completed their Ph.D. in Astrophysics at the University of Victoria, using a range of machine learning and statistical methods to study how galaxies and supermassive black holes in the Universe evolve and influence one another. The work is summarized in Bobby's 2024 dissertation, \"Deep learning-enabled studies of galaxy mergers and supermassive black hole evolution\".",
+    "Bobby's experience also extends to broadcast media, having served as the program director and a regular DJ / host at the University of Connecticut's campus radio station (WHUS) from 2017 to 2019 while completing a B.Sc. in Physics and Mechanical Engineering."
+   ],
+   "photo": "img/mr-bobby-bickley.jpg",
+   "event": "AIII 2026",
+   "title_ko": "Beatdapp 연구원 겸 데이터 과학자, 미국",
+   "bio_ko": [
+    "Bobby Bickley는 Beatdapp(캐나다 브리티시컬럼비아주 밴쿠버)에서 오디오와 머신러닝을 아우르는 다학제 연구팀을 이끄는 데이터 과학자입니다. 이 팀은 진짜(사람이 만든) 음악과 AI 생성 음악을 구별하는 종합적인 접근법을 앞장서 개발하고, 사람이 만든 음악의 고유한 특성을 밝히며, 디지털 스트리밍 시대에 AI 생성 음악이 장기적으로 어떻게 움직일지 전망하고 있습니다.",
+    "Beatdapp에 합류하기 전 빅토리아 대학교(University of Victoria)에서 천체물리학 박사 학위를 받았으며, 다양한 머신러닝과 통계 기법을 활용해 우주의 은하와 초대질량 블랙홀이 어떻게 진화하고 서로 영향을 주고받는지 연구했습니다. 이 연구는 2024년 박사 학위 논문 \"Deep learning-enabled studies of galaxy mergers and supermassive black hole evolution\"에 정리되어 있습니다.",
+    "방송 미디어 경력도 있어, 2017년부터 2019년까지 코네티컷 대학교(University of Connecticut)에서 물리학과 기계공학 학사 과정을 밟는 동안 교내 라디오 방송국(WHUS)의 프로그램 디렉터이자 정규 DJ 겸 진행자로 활동했습니다."
+   ]
+  },
+  {
+   "id": "mr-dante-cid",
+   "name": "Mr. Dante Cid",
+   "title": "President, Brazilian Publishers Association and Executive Committee Member, International Publishers Association, Brazil",
+   "session": "AI-Generated Content Taxonomy Focus Group Update",
+   "page": 9,
+   "bio": [
+    "Mr. Cid is Master of Sciences in Artificial Intelligence by the Pontifical Catholic University of Rio de Janeiro and graduated summa cum laude as Computers Engineer by IME, the Military Institute of Engineering, Brazil.",
+    "Dante works for Elsevier since 2002 and today, as Vice-President of Strategic Networks for Latin America, represents Elsevier as: President of the Brazilian Publishers Association, Member of the Executive Committee of the International Publishers Association, Vice- President of the Pro-Livro Institute for Literacy, and in several organizations such as: the Brazilian Association for Copyrights, the Innovation Workgroup of the National Confederation of Industries in Brazil, and the Americas Business Dialogue of the Inter- American Development Bank."
+   ],
+   "photo": "img/mr-dante-cid.jpg",
+   "event": "AIII 2026",
+   "title_ko": "브라질출판협회(Brazilian Publishers Association) 회장 겸 국제출판협회(International Publishers Association) 집행위원, 브라질",
+   "bio_ko": [
+    "Cid는 리우데자네이루 교황청 가톨릭 대학교(Pontifical Catholic University of Rio de Janeiro)에서 인공지능 석사 학위를 받았고, 브라질 군사공과대학(IME, Military Institute of Engineering)에서 컴퓨터공학을 최우등(summa cum laude)으로 졸업했습니다.",
+    "Dante는 2002년부터 Elsevier에서 일하고 있으며, 현재 라틴아메리카 전략 네트워크 부사장으로서 Elsevier를 대표해 브라질출판협회 회장, 국제출판협회 집행위원, Pro-Livro 문해력 연구소(Pro-Livro Institute for Literacy) 부회장을 맡고 있습니다. 또한 브라질 저작권협회(Brazilian Association for Copyrights), 브라질 전국산업연합(National Confederation of Industries) 혁신 워킹그룹, 미주개발은행(Inter-American Development Bank)의 Americas Business Dialogue 등 여러 단체에서 활동하고 있습니다."
+   ]
+  },
+  {
+   "id": "ms-delphine-dalquie-dickson",
+   "name": "Ms. Delphine Dalquié-Dickson",
+   "title": "Managing Director, 22D Music (North America), France, representing the IMPF",
+   "session": "AI-Generated Content Taxonomy Focus Group Update",
+   "page": 9,
+   "bio": [
+    "Born in France, raised in Spain, with a Masters Degree in Intellectual Property law, Delphine has worked as Legal Counsel in film & TV animation production for over 20 years, first at Les Amateurs, then at Folivari (film production), Fost (animation studio) and Folivari International (world sales of animation programs).",
+    "She holds the position of Managing Director at 22D Music North America, overseeing the development of the group’s activity in the territory since 2012. 22D Music is an independent music rights management group with a special focus on audiovisual industries, offering admin & sub-publishing, score production and financing, music supervision, soundtrack release, neighboring rights admin. Clients include Gaumont, Cartoon Saloon, Mediawan Kids & Family, Banijay, RTVE, ZAG and advertising companies.",
+    "In 2026, 22D partnered with Velvetica, an indie music publisher whose clients include Bucks Music, Beggars Music and an impressive pop artist roster with Jean-Benoît Dunckel, Yuksek, Phoenix.",
+    "Both companies are active members of industry organisations such as IMPF, AIMP, CSDEM, SEAM and partners of film festivals where 22D Velvet creates music labs, organises songwriting camps and promotes music awards."
+   ],
+   "photo": "img/ms-delphine-dalquie-dickson.jpg",
+   "event": "AIII 2026",
+   "title_ko": "22D Music(북미) 대표이사, 프랑스, IMPF 대표",
+   "bio_ko": [
+    "프랑스에서 태어나 스페인에서 자랐으며 지식재산법 석사 학위를 보유한 Delphine은 20년 넘게 영화·TV 애니메이션 제작 분야의 법률 고문으로 일했습니다. Les Amateurs를 시작으로 Folivari(영화 제작), Fost(애니메이션 스튜디오), Folivari International(애니메이션 프로그램 세계 판매)에서 근무했습니다.",
+    "2012년부터 22D Music North America의 대표이사로서 북미 지역에서 그룹의 사업 확장을 총괄하고 있습니다. 22D Music은 시청각 산업에 특히 중점을 둔 독립 음악 권리 관리 그룹으로, 관리 및 서브퍼블리싱, 영화 음악 제작과 투자, 음악 감독, 사운드트랙 발매, 저작인접권 관리 서비스를 제공합니다. 고객으로는 Gaumont, Cartoon Saloon, Mediawan Kids & Family, Banijay, RTVE, ZAG와 광고 회사들이 있습니다.",
+    "2026년 22D는 독립 음악 퍼블리셔 Velvetica와 제휴했습니다. Velvetica의 고객으로는 Bucks Music, Beggars Music과 Jean-Benoît Dunckel, Yuksek, Phoenix 등 인상적인 팝 아티스트 명단이 있습니다.",
+    "두 회사는 IMPF, AIMP, CSDEM, SEAM 등 업계 단체의 활발한 회원이며, 영화제의 파트너로서 22D Velvet이 음악 랩을 만들고 송라이팅 캠프를 열며 음악상을 홍보하고 있습니다."
+   ]
+  },
+  {
+   "id": "ms-lydia-gregory",
+   "name": "Ms. Lydia Gregory",
+   "title": "AI & Creative Industries Consultant, United Kingdom",
+   "session": "AI-Generated Content Taxonomy Focus Group Update",
+   "page": 10,
+   "bio": [
+    "Lydia Gregory is an independent consultant exploring the implications of artificial intelligence for the creative industries.",
+    "She leads a focus group within WIPO’s AIII Technology Exchange Network that is developing a cross-sector taxonomy to provide a shared framework for discussing different forms of AI involvement in content creation, helping decision-makers and other stakeholders to communicate with each other.",
+    "Lydia was previously Co-Founder and CEO of Figaro.ai, a music technology company developing AI-powered tools for audio analysis, search and discovery. Figaro.ai was acquired by Tuned Global in 2025. Prior to this, she was Head of Growth at Jukedeck, a pioneering startup in AI-generated music. She began her career at Accenture in financial services technology consulting and holds a degree in Music from the University of Oxford.",
+    "She is also Programme & Partnerships Lead for the AI Song Contest, an international not- for-profit competition exploring responsible human-AI co-creativity in music. The 2026 edition will bring together leading artists, technologists and researchers in Bangkok at the end of November.",
+    "Her current work focuses on the opportunities and challenges presented by generative AI for creative practice and the businesses built around creative content. She lives in Geneva and remains an active choral singer."
+   ],
+   "photo": "img/ms-lydia-gregory.jpg",
+   "event": "AIII 2026",
+   "title_ko": "AI·창작 산업 컨설턴트, 영국",
+   "bio_ko": [
+    "Lydia Gregory는 인공지능이 창작 산업에 미치는 영향을 탐구하는 독립 컨설턴트입니다.",
+    "WIPO AIII 기술교류네트워크에서 한 포커스 그룹을 이끌고 있습니다. 이 그룹은 콘텐츠 창작에 AI가 관여하는 여러 형태를 논의할 공통 틀을 제공하는 분야 횡단 분류 체계를 개발하고 있으며, 의사 결정자와 다른 이해관계자가 서로 소통하도록 돕고 있습니다.",
+    "이전에는 오디오 분석, 검색과 발견을 위한 AI 기반 도구를 개발한 음악 기술 기업 Figaro.ai의 공동 창업자 겸 CEO였습니다. Figaro.ai는 2025년 Tuned Global에 인수되었습니다. 그 전에는 AI 생성 음악 분야의 선구적인 스타트업 Jukedeck에서 성장 책임자(Head of Growth)를 지냈습니다. Accenture에서 금융 서비스 기술 컨설팅으로 경력을 시작했으며, 옥스퍼드 대학교(University of Oxford)에서 음악 학위를 받았습니다.",
+    "또한 음악에서 사람과 AI의 책임 있는 공동 창작을 탐구하는 국제 비영리 대회 AI Song Contest의 프로그램·파트너십 리드를 맡고 있습니다. 2026년 대회는 11월 말 방콕에서 주요 아티스트, 기술자, 연구자들이 함께하는 자리가 될 예정입니다.",
+    "현재는 생성형 AI가 창작 활동과 창작 콘텐츠 기반 사업에 가져오는 기회와 과제에 집중하고 있습니다. 제네바에 살며 지금도 합창단에서 노래하고 있습니다."
+   ]
+  },
+  {
+   "id": "mr-jongpil-lee",
+   "name": "Mr. Jongpil Lee",
+   "title": "Chief Executive Officer, Neutune, Republic of Korea",
+   "session": "AI-Generated Content Taxonomy Focus Group Update",
+   "page": 10,
+   "bio": [
+    "Jongpil Lee is the Co-Founder and CEO of Neutune, a South Korea- based AI music technology company developing attribution and rights infrastructure for AI-generated music. He holds a Ph.D. from KAIST and previously worked as a visiting researcher at New York University and as a research intern at Adobe Research and NAVER. His research focuses on music information retrieval, generative AI, and attribution. He has published papers and served as a reviewer at leading conferences, including NeurIPS, ICML, ICLR, ISMIR, and ICASSP, and has co-organized three ISMIR tutorials. Through Neutune's MixAudio and musicDNA platforms, he works to connect AI music creation with attribution, copyright protection, and licensing. He also serves as an Expert Committee Member of Korea's Presidential Council on Intellectual Property and participates in the DDEX AI Working Group."
+   ],
+   "photo": "img/mr-jongpil-lee.jpg",
+   "event": "AIII 2026",
+   "title_ko": "Neutune 최고경영자, 대한민국",
+   "bio_ko": [
+    "이종필(Jongpil Lee)은 AI 생성 음악을 위한 기여도 추적(attribution)과 권리 인프라를 개발하는 대한민국의 AI 음악 기술 기업 Neutune의 공동 창업자 겸 CEO입니다. KAIST에서 박사 학위를 받았으며, 뉴욕대학교(New York University) 방문 연구원과 Adobe Research, NAVER 연구 인턴으로 일했습니다. 음악 정보 검색, 생성형 AI, 기여도 추적을 연구하고 있습니다. NeurIPS, ICML, ICLR, ISMIR, ICASSP 등 주요 학회에서 논문을 발표하고 심사위원으로 활동했으며, ISMIR 튜토리얼 3건을 공동 기획했습니다. Neutune의 MixAudio와 musicDNA 플랫폼을 통해 AI 음악 창작을 기여도 추적, 저작권 보호, 라이선싱과 연결하는 일을 하고 있습니다. 대통령 직속 국가지식재산위원회 전문위원이며, DDEX AI 워킹그룹에도 참여하고 있습니다."
+   ]
+  },
+  {
+   "id": "ms-jayce-tham",
+   "name": "Ms. Jayce Tham",
+   "title": "Chief Businesswoman, CreativesAtWork, Singapore",
+   "session": "AI-Generated Content Taxonomy Focus Group Update",
+   "page": 11,
+   "bio": [
+    "Jayce Tham is the Co-Founder of CreativesAtWork and DEAR.AI, working at the intersection of creativity, media, and technology. CreativesAtWork is a freelancer-led creative agency focused on storytelling, connecting businesses with curated creative talent to deliver impactful media and content. Through DEAR.AI, Jayce explores human-led AI innovation, helping businesses and creative teams discover how generative AI can enhance content creation, communication, and creative workflows.",
+    "Passionate about the future of the creative economy, Jayce champions the use of AI to empower people, rather than replace human creativity. Her work spans creative production, AI capability-building, and supporting freelancers and organisations in developing future- ready skills and new opportunities. She believes the greatest potential lies in bringing human imagination and technology together to create meaningful stories, unlock new possibilities, and build a more inclusive and sustainable creative ecosystem."
+   ],
+   "photo": "img/ms-jayce-tham.jpg",
+   "event": "AIII 2026",
+   "title_ko": "CreativesAtWork 최고 비즈니스 책임자(Chief Businesswoman), 싱가포르",
+   "bio_ko": [
+    "Jayce Tham은 CreativesAtWork와 DEAR.AI의 공동 창업자로, 창작, 미디어, 기술이 만나는 영역에서 일하고 있습니다. CreativesAtWork는 스토리텔링에 중점을 둔 프리랜서 주도의 크리에이티브 에이전시로, 기업과 엄선된 창작 인재를 연결해 효과적인 미디어와 콘텐츠를 제공합니다. Jayce는 DEAR.AI를 통해 사람 주도의 AI 혁신을 탐구하며, 기업과 창작 팀이 생성형 AI로 콘텐츠 제작, 커뮤니케이션, 창작 작업 흐름을 어떻게 향상할 수 있는지 알아가도록 돕고 있습니다.",
+    "창작 경제의 미래에 열정을 가진 Jayce는 사람의 창의성을 대체하는 대신 사람에게 힘을 실어 주는 AI 활용을 지지합니다. 창작 제작, AI 역량 강화, 프리랜서와 조직이 미래에 필요한 역량과 새로운 기회를 키우도록 지원하는 일을 하고 있습니다. 사람의 상상력과 기술을 결합해 의미 있는 이야기를 만들고, 새로운 가능성을 열며, 더 포용적이고 지속 가능한 창작 생태계를 구축하는 데 가장 큰 잠재력이 있다고 믿습니다."
+   ]
+  },
+  {
+   "id": "mr-scott-farrant",
+   "name": "Mr. Scott Farrant",
+   "title": "Chief Executive Officer, Musaxia Consulting, United Kingdom",
+   "session": "Common Lexicon Focus Group Update",
+   "page": 11,
+   "bio": [
+    "Scott Farrant is a music industry veteran with 40 years of experience across major and independent music publishers, as well as CMOs. His background includes foundational roles at PRS, EMI, and BMG, followed by executive positions at Palan Music, STIM, KSTAR, AMRA, and Kobalt Music. His scope of expertise ranges from high-level strategy, licensing, and operations to sample clearance and sync. In addition to his corporate leadership, Scott has been deeply involved in global industry governance and technical standards. He served as vice-chair at ICMP—where he was also founder-chair of the Metadata Expert Group—and was a long-term board member of both IMPA and the MPA. He also founded and co-chaired the Steering Committee for the Technical Online Working Group for Europe. In 2025, Scott founded Musaxia, an independent consultancy offering strategic advisory services and deep domain expertise to music rights holders and music tech companies. Alongside running Musaxia, Scott currently chairs the UK Government IPO Metadata Technical Solutions Group (TSG) and contributes to key international initiatives, including the EU Copyright Infrastructure Task Force, CreditsDue, WIPO’s AI Infrastructure Interchange Technical Exchange Network (AIII TEN) and promoting new AI standards such as C2PA. Dedicated to building a fairer, future-focused music ecosystem, Scott remains an active songwriter and creates scrap metal sculptures in his spare time."
+   ],
+   "photo": "img/mr-scott-farrant.jpg",
+   "event": "AIII 2026",
+   "title_ko": "Musaxia Consulting 최고경영자, 영국",
+   "bio_ko": [
+    "Scott Farrant는 메이저 및 독립 음악 퍼블리셔와 집중관리단체(CMO)에서 40년간 일해 온 음악 업계의 베테랑입니다. PRS, EMI, BMG에서 경력의 기반을 다졌고, 이후 Palan Music, STIM, KSTAR, AMRA, Kobalt Music에서 임원직을 맡았습니다. 고위 전략, 라이선싱, 운영부터 샘플 클리어런스와 싱크까지 폭넓은 전문성을 갖추고 있습니다. 기업 경영 외에도 세계 업계 거버넌스와 기술 표준에 깊이 관여해 왔습니다. ICMP 부의장을 지냈고 그곳에서 메타데이터 전문가 그룹(Metadata Expert Group)의 창립 의장을 맡았으며, IMPA와 MPA의 이사회 이사로 오래 활동했습니다. 유럽 기술 온라인 워킹그룹(Technical Online Working Group for Europe) 운영위원회를 설립하고 공동 의장을 맡기도 했습니다. 2025년에는 음악 권리자와 음악 기술 기업에 전략 자문과 깊이 있는 분야 전문성을 제공하는 독립 컨설팅 회사 Musaxia를 설립했습니다. Musaxia를 운영하는 한편, 현재 영국 정부 지식재산청(IPO) 메타데이터 기술 솔루션 그룹(TSG) 의장을 맡고 있으며, EU 저작권 인프라 태스크포스(EU Copyright Infrastructure Task Force), CreditsDue, WIPO AI 인프라 교류 기술교류네트워크(AIII TEN) 등 주요 국제 이니셔티브에 참여하고 C2PA 같은 새로운 AI 표준을 알리고 있습니다. 더 공정하고 미래를 향한 음악 생태계를 만드는 데 힘쓰고 있으며, 지금도 작곡가로 활동하고 여가 시간에는 고철 조각 작품을 만듭니다."
+   ]
+  },
+  {
+   "id": "ms-barbara-ford-grant",
+   "name": "Ms. Barbara Ford Grant",
+   "title": "Founder, BFG Productions, United States of America",
+   "session": "Common Lexicon Focus Group Update",
+   "page": 12,
+   "bio": [
+    "Barbara Ford Grant is a filmmaker, industry advisor and inventor. Through BFG Productions, founded in 2024, she writes and directs original work, including the award-winning short Unhoused, a hybrid AI and live-action film, and develops original IP for film and animation. She holds a pending patent on feature extraction and modular conditioning of generative models for compositing, and previously advised Paramount Pictures and Disney/Marvel on AI production strategy.",
+    "Her industry work centers on alignment across existing bodies rather than new ones. She is a member of the WIPO AIII TEN Lexicon Focus Group, serves on the VES Technology Committee, contributed to the MovieLabs OMC production ontology and AI Communication Framework, and sits on the editorial advisory board of VFX Voice. She chaired the Academy’s Scientific and Technical Awards Committee from 2022 to 2024, the first woman to do so in its history, and is a member of the Academy of Motion Picture Arts and Sciences and the Television Academy. She is a Visual Effects Society Fellow."
+   ],
+   "photo": "img/ms-barbara-ford-grant.jpg",
+   "event": "AIII 2026",
+   "title_ko": "BFG Productions 창업자, 미국",
+   "bio_ko": [
+    "Barbara Ford Grant는 영화 제작자, 업계 자문가, 발명가입니다. 2024년 설립한 BFG Productions를 통해 AI와 실사를 결합한 수상작 단편 영화 Unhoused 등 오리지널 작품을 쓰고 연출하며, 영화와 애니메이션을 위한 오리지널 IP를 개발하고 있습니다. 합성(compositing)을 위한 생성형 모델의 특징 추출과 모듈식 조건화에 관한 특허를 출원 중이며, 이전에는 Paramount Pictures와 Disney/Marvel에 AI 제작 전략을 자문했습니다.",
+    "업계 활동은 새로운 기구를 만들기보다 기존 기구들 사이의 정렬에 중점을 둡니다. WIPO AIII TEN 용어집(Lexicon) 포커스 그룹 회원이고, VES 기술위원회 위원이며, MovieLabs OMC 제작 온톨로지와 AI Communication Framework에 기여했고, VFX Voice 편집 자문위원회에 참여하고 있습니다. 2022년부터 2024년까지 아카데미 과학기술상 위원회(Scientific and Technical Awards Committee) 의장을 역임했으며, 이 위원회 역사상 첫 여성 의장이었습니다. 미국 영화예술과학아카데미(Academy of Motion Picture Arts and Sciences)와 텔레비전 아카데미(Television Academy) 회원이며, 시각효과협회(Visual Effects Society) 펠로입니다."
+   ]
+  },
+  {
+   "id": "ms-jinman-li",
+   "name": "Ms. Jinman Li",
+   "title": "Staff, International Dept, China Copyright Protection Center, China",
+   "session": "Common Lexicon Focus Group Update",
+   "page": 12,
+   "bio": [],
+   "photo": "img/ms-jinman-li.jpg",
+   "event": "AIII 2026",
+   "title_ko": "중국판권보호중심(China Copyright Protection Center) 국제부 직원, 중국",
+   "bio_ko": []
+  },
+  {
+   "id": "ms-susan-otieno",
+   "name": "Ms. Susan Otieno",
+   "title": "Kenya",
+   "session": "Common Lexicon Focus Group Update",
+   "page": 12,
+   "bio": [
+    "Ms. Susan Otieno is a lawyer, based in Kenya, specializing in intellectual property and AI ethics. Ms. Otieno works as an operations manager at PICHA; a storytelling platform focusing on African narratives. She supports creatives across Africa, helping them understand the global digital economy so that they can protect their work, articulate their practice and make the most of economic opportunities."
+   ],
+   "photo": "img/ms-susan-otieno.jpg",
+   "event": "AIII 2026",
+   "title_ko": "케냐",
+   "bio_ko": [
+    "Susan Otieno는 케냐에서 활동하는 변호사로, 지식재산과 AI 윤리를 전문으로 합니다. 아프리카의 이야기에 초점을 맞춘 스토리텔링 플랫폼 PICHA에서 운영 매니저로 일하고 있습니다. 아프리카 전역의 창작자들이 세계 디지털 경제를 이해해 자신의 작품을 보호하고, 자신의 작업을 설명하며, 경제적 기회를 최대한 활용하도록 지원하고 있습니다."
+   ]
+  },
+  {
+   "id": "ms-nageela-yusuf",
+   "name": "Ms. Nageela Yusuf",
+   "title": "Chief Executive Officer, TikBox, Provenance and Licensing, United Kingdom",
+   "session": "Common Lexicon Focus Group Update",
+   "page": 13,
+   "bio": [
+    "Nageela is a founder and product leader working at the intersection of content provenance, intellectual property licensing, rights management and AI governance. She leads the development of technologies that help organisations understand where content comes from, establish its authenticity, manage rights and permissions, and support responsible use of AI.",
+    "Her work spans content provenance, digital licensing, rights management, AI training permissions and technologies that support transparency and accountability. She focuses on building practical solutions that help public and private sector organisations protect intellectual property, enable fair licensing and content reuse, navigate AI adoption, and strengthen trust in digital content."
+   ],
+   "photo": "img/ms-nageela-yusuf.jpg",
+   "event": "AIII 2026",
+   "title_ko": "TikBox(출처 및 라이선싱) 최고경영자, 영국",
+   "bio_ko": [
+    "Nageela는 콘텐츠 출처, 지식재산 라이선싱, 권리 관리, AI 거버넌스가 만나는 영역에서 일하는 창업자이자 제품 리더입니다. 조직이 콘텐츠의 출처를 파악하고, 진위를 확인하고, 권리와 허가를 관리하며, AI를 책임 있게 사용하도록 돕는 기술 개발을 이끌고 있습니다.",
+    "콘텐츠 출처, 디지털 라이선싱, 권리 관리, AI 학습 허가, 투명성과 책임성을 뒷받침하는 기술에 걸쳐 일하고 있습니다. 공공 및 민간 부문 조직이 지식재산을 보호하고, 공정한 라이선싱과 콘텐츠 재사용을 가능하게 하며, AI 도입에 대처하고, 디지털 콘텐츠에 대한 신뢰를 높이도록 돕는 실용적인 해법을 만드는 데 집중하고 있습니다."
+   ]
   }
  ]
 }

@@ -1,0 +1,34 @@
+# [d3-09] AI-Generated Content Taxonomy Focus Group Update
+# 발표자: Mr. Ryan Groves  (floor)
+# Day 3 · 2026-11-11 · 예정 15:20-16:10 (Geneva) · 발언 14회 · 17단락 · 456단어 · 구분 방식: official
+
+That was a fantastic talk. Excuse me. So as we have just seen, the attribution technologies can get quite complicated even when you are dealing with a single model with a single task. And I think what we have discovered through the 10 is that these models are being used in so many different ways, in so many different use cases, so many different purposes and goals, that when you consider that even one single use case or one single task also is difficult to determine the attribution for and then you compound that with these various uses, the question becomes quite complex. So I wanted to bring up the next group which is our AI generated content taxonomy group.
+So please join me on the stage.
+
+Great. So we will be joined, I think we have them online. Valid? Yes. We will be joined by Bobby Bickley who is a researcher and data scientist at BDAP and he will be walking us through some of the technologies behind these generative models.
+
+Okay. So let’s say we open up one of these systems. What would you say is actually going on inside?
+
+And after you fitted this line then, what do you actually have?
+
+Great. We are getting flagged. So I’m just going to let the AI catch up. They say these things are so smart. But, you know, just kidding.
+They are great. So when you have talked about fitting a line, but what people commonly know now are these language models. So when what’s being modeled is language, what happens when you roll the dice, so to speak?
+
+I see. So why are the suggestions in these two cases shown on the slide, why are they different?
+
+And does that hold when what’s being generated is a picture rather than a sentence, for example?
+
+Okay. So then does an image model work in the same way that a language one does?
+
+Okay. So taking images as an example, what kind of tasks can then be accomplished by this pattern recognition that happens?
+
+So then what does this mean for an audience interested in the differences between human made and AI generated creations?
+
+I see. So then how do we get from that to typing a description of an image and just receiving a picture?
+
+I see. So what are the limits then of the amount of connections or pairs of these media types that you can make?
+
+So ultimately when does a creation count as AI?
+
+Amazing. Well, thank you so much for joining us from Vancouver. I’m sure it’s a lot earlier over there than it is here. Not so bad. Thank you, Ryan.
+Thank you. Wanted to hand it back to Lydia.
