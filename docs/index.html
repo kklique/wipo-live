@@ -174,6 +174,9 @@
   .rp-prose p { margin: 0 0 10px; line-height: 1.75; }
   .rp-prose p:last-child { margin-bottom: 0; }
   .rp-kv { margin-top: 8px; }
+  .rp-kv ul { margin-top: 2px; }
+  .rp-intro { margin: 0 0 14px; line-height: 1.7; max-width: 1100px; }
+  .rp-tl .when { line-height: 1.5; }
   .rp-kv b { display: inline-block; font-size: 12px; color: var(--muted); font-weight: 600; margin-bottom: 2px; }
   .rp-kv.why { background: var(--open-bg); border-radius: 12px; padding: 10px 14px; margin-top: 10px; }
   .rp-kv.why b { color: var(--accent); }
@@ -1461,7 +1464,7 @@ async function refreshReport() {
     const hero = mk("div", "rp-hero");
     hero.append(mk("h2", "", rp.title), mk("p", "sub", rp.subtitle), mk("p", "note", rp.basis), mk("p", "note", rp.disclaimer));
     const nav = mk("div", "rp-nav");
-    const secs = [["rp-summary", "총평"], ["rp-overview", "핵심 메시지"], ...rp.days.map((d) => ["rp-day" + d.day, `Day ${d.day}`]), ["rp-timeline", "국제 일정·전망"], ["rp-roadmap", "대응 로드맵"]];
+    const secs = [["rp-summary", "총평"], ["rp-dg", "사무총장 3대 질문"], ["rp-overview", "핵심 메시지"], ...rp.days.map((d) => ["rp-day" + d.day, `Day ${d.day}`]), ["rp-timeline", "국제 일정·전망"], ["rp-roadmap", "대응 로드맵"]];
     for (const [id, label] of secs) {
       const a = mk("a", "", label); a.href = "#report";
       a.addEventListener("click", (ev) => { ev.preventDefault(); $(id).scrollIntoView({ block: "start", behavior: "smooth" }); });
@@ -1472,9 +1475,9 @@ async function refreshReport() {
 
     // 총평
     if (rp.summary) {
-      const s = section("rp-summary", "총평", "포럼 전체 평가와 한국의 위치");
+      const s = section("rp-summary", "총평", "포럼 전체 평가와 대한민국에 주는 의미");
       const g = mk("div", "rp-two");
-      for (const [k, label] of [["lead", "포럼 전체 평가"], ["korea", "한국의 위치와 과제"]]) {
+      for (const [k, label] of [["lead", "포럼 전체 평가"], ["korea", "대한민국에 주는 의미"]]) {
         const c = mk("div", "rp-card rp-prose"); c.appendChild(mk("h4", "", label));
         for (const t of rp.summary[k] || []) c.appendChild(mk("p", "", t));
         g.appendChild(c);
@@ -1482,8 +1485,38 @@ async function refreshReport() {
       s.appendChild(g); box.appendChild(s);
     }
 
+    // 사무총장 개회사의 3대 질문과 6대 원칙
+    if (rp.dg) {
+      const s = section("rp-dg", "사무총장 3대 질문", "Daren Tang 사무총장 개회사의 문제 제기와 포럼에서 다루어진 정도");
+      s.appendChild(mk("p", "rp-intro", rp.dg.intro));
+      const g = mk("div", "rp-grid wide");
+      rp.dg.questions.forEach((q, i) => {
+        const c = mk("div", "rp-card");
+        const tags = mk("div", "rp-tags"); tags.append(mk("span", "area", `질문 ${i + 1}`), mk("span", "area hz", q.status));
+        c.append(tags, mk("h4", "", q.q));
+        const a = mk("div", "rp-kv"); a.appendChild(mk("b", "", "사무총장 문제 제기"));
+        const ul = mk("ul"); for (const x of q.dg) ul.appendChild(mk("li", "", x)); a.appendChild(ul);
+        const f = mk("div", "rp-kv"); f.append(mk("b", "", "포럼에서 다루어진 정도"), mk("p", "", q.forum));
+        const w = mk("div", "rp-kv why"); w.append(mk("b", "", "시사점"), mk("p", "", q.implication));
+        c.append(a, f, w, refs(q.refs)); g.appendChild(c);
+      });
+      s.appendChild(g);
+      if (rp.dg.principles) {
+        s.appendChild(sub("합의 가능한 여섯 가지 원칙", "사무총장 제안과 이틀간 논의에 비춘 공감 정도"));
+        s.appendChild(mk("p", "rp-intro", rp.dg.principles_intro));
+        const l = mk("div", "rp-list rp-tl");
+        rp.dg.principles.forEach((x, i) => {
+          const row = mk("div", "rp-row"); const body = mk("div", "");
+          body.append(mk("p", "", x.eval), refs(x.refs));
+          row.append(mk("div", "when", `${i + 1}. ${x.p}`), body); l.appendChild(row);
+        });
+        s.appendChild(l);
+      }
+      box.appendChild(s);
+    }
+
     // 핵심 메시지
-    const ov = section("rp-overview", "핵심 메시지", "이틀간 논의에서 지식재산처가 주목할 다섯 가지 흐름");
+    const ov = section("rp-overview", "핵심 메시지", "이틀간 논의에서 지식재산처가 주목할 흐름");
     const og = mk("div", "rp-grid");
     rp.overview.forEach((o, i) => { const c = mk("div", "rp-card"); c.append(mk("span", "num", String(i + 1)), mk("h4", "", o.title), mk("p", "", o.body), refs(o.refs)); og.appendChild(c); });
     ov.appendChild(og); box.appendChild(ov);
