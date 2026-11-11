@@ -32,6 +32,38 @@
     "d1-15": 102,
     "d1-16": 99
    }
+  },
+  {
+   "key": "day2-am",
+   "label": "Day 2 오전 (11월 10일)",
+   "date": "2026-11-10",
+   "source": "WIPO_IP-AI_GEN_26_2026-11-10_am_en.verbatim.docx",
+   "paragraphs": 394,
+   "words": 28076,
+   "sessions": {
+    "d2-01": 6,
+    "d2-02": 33,
+    "d2-03": 122,
+    "d2-05": 61,
+    "d2-06": 98,
+    "d2-07": 20,
+    "d2-09": 54
+   }
+  },
+  {
+   "key": "day2-pm",
+   "label": "Day 2 오후 (11월 10일)",
+   "date": "2026-11-10",
+   "source": "WIPO_IP-AI_GEN_26_2026-11-10_pm_en.verbatim.docx",
+   "paragraphs": 311,
+   "words": 24371,
+   "sessions": {
+    "d2-10": 98,
+    "d2-11": 22,
+    "d2-12": 6,
+    "d2-13": 83,
+    "d2-14": 102
+   }
   }
  ]
 }

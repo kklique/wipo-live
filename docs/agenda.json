@@ -497,6 +497,9 @@
        "name": "Mr. Roger Zamora Matute",
        "affiliation": "Department for Economics and Data Analytics (DEDA), IP and Innovation Ecosystems Sector, WIPO"
       }
+     ],
+     "aliases": [
+      "Side Event : Global Innovation Index AI Assistant (beta)"
      ]
     },
     {
@@ -621,7 +624,7 @@
    "videos": [
     {
      "label": "오전",
-     "url": null
+     "url": "https://webcast.wipo.int/video/WIPO_IP-AI_GEN_26_2026-11-10_525c3d2e-1569-4a3d-04e5-08df3b1fc4ff"
     },
     {
      "label": "오후",

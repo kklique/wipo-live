@@ -114,10 +114,14 @@ def main():
     turns, cur_sec, cur_item = [], None, None
 
     def item_for(sec):
-        return next((i for i, it in enumerate(items) if sba.title_match(sec, it["title"])), None)
+        # 제목 또는 agenda 의 aliases(공식본이 다른 표기로 적은 안건명)와 맞는 항목
+        return next((i for i, it in enumerate(items)
+                     if any(sba.title_match(sec, t) for t in [it["title"]] + list(it.get("aliases", [])))), None)
 
+    sec_no = 0
     for ev in events:
         if ev[0] == "section":
+            sec_no += 1
             cur_sec = ev[1]
             cur_item = item_for(cur_sec)
             if cur_item is None:
@@ -128,11 +132,33 @@ def main():
                 nb = next((i for i in range((cur_item or 0) + 1, len(items)) if items[i]["type"] == "break"), None)
                 if nb is not None:
                     cur_item = nb
-            turns.append({"raw": name, "off": off, "item": cur_item if cur_item is not None else 0, "sec": cur_sec, "paras": []})
+            turns.append({"raw": name, "off": off, "item": cur_item if cur_item is not None else 0, "sec": cur_sec, "sec_no": sec_no, "paras": []})
         elif ev[0] == "text" and turns:
             turns[-1]["paras"].append(ev[1])
     for t in turns:
         t["paras"] = [p for p in t["paras"] if p.strip()]
+
+    # 1-b) 공식본의 안건 표지가 틀린 경우 바로잡기: 표지가 가리키는 항목의 발표자가 그 구간에 한 명도 없는데,
+    #      숫자만 다른 같은 제목의 다른 항목(예: Showcase 3 / 4)의 발표자가 있으면 그 항목으로 옮긴다
+    def named(it):
+        return [p for p in ([it.get("moderator")] if it.get("moderator") else []) + list(it.get("speakers", [])) if p and p["name"] != "TBC"]
+
+    def hits(it, group):
+        return sum(1 for p in named(it) if any(sba.person_hit(sba.person_tokens(p["name"]), sba.toks(t["raw"])) for t in group))
+
+    def stem(title):
+        return re.sub(r"\d+", "#", sba.norm(title.split(":")[0]))
+
+    for no in sorted({t["sec_no"] for t in turns}):
+        group = [t for t in turns if t["sec_no"] == no]
+        i = group[0]["item"]
+        if not named(items[i]) or hits(items[i], group):
+            continue
+        alt = [j for j, it in enumerate(items) if j != i and stem(it["title"]) == stem(items[i]["title"]) and hits(it, group)]
+        if alt:
+            print(f"안건 표지 보정: '{group[0]['sec']}' 구간 → {items[alt[0]]['id']} ({items[alt[0]]['title'][:40]})", file=sys.stderr)
+            for t in group:
+                t["item"] = alt[0]
 
     # 2) 표지 없는 후속 항목(예: 의장 발언): 구간 안에서 그 항목 발표자 이름과 같은 발언은 그 항목으로
     order = []                                     # 구간 순서 [(item, turn 인덱스 범위)]

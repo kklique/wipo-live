@@ -1,0 +1,12 @@
+# [d2-13] Horizon Scan: What's Next for IP and AI?
+# 발표자: Ms. Aishwarya Karnataki — Co-founder and Chief Executive Officer, Glovatrix, India  (panelist)
+# Day 2 · 2026-11-10 · 예정 16:25-17:15 (Geneva) · 발언 2회 · 7단락 · 399단어 · 구분 방식: official
+
+Sorry about that. Hi, I’m Aishwarya and let me tell you something very interesting. I’m sorry. Was that uncomfortable? Just five seconds of silence and you felt left out?
+Now imagine what 466 million deaf people feel like every day. Because for them, this is not a temporary glitch. It is their everyday reality. A constant feeling of exclusion from conversations, opportunities and dignity. And that’s exactly what my project aims to change.
+So we have two products. The first one is fifth sense. These are AI-based gloves that translate sign language to voice. So let me show you a small demo. Welcome to the first global forum on AI and IP.
+Right? So that’s thank you so much. So that’s how it works to translate sign language to voice so that deaf person can express their thoughts freely. Our second project, our second product is Mira, which is a virtual avatar that translates voices and text into sign language so that deaf people can understand. And together these two technologies help the deaf person live a more independent and dignified life.
+So to see this one line or to do this translation, it took us five years to build it. And the hardest part was not the hardware but training the AI model for which we had to create extensive datasets. Over the last five years, we met with hundreds and thousands of deaf people to understand the nuances and the variations in sign language continuously and recorded the data. We labelled it, found errors and corrected it. And that is how our AI model learned to distinguish between two particular gestures.
+So what needs to be protected, the answer to that is our technology, our trained model, and also the investment in building the dataset.
+
+So I’m not saying that for every country or for every region it has to be identical but there can be some shared principles or some clear guidelines which will help startups like us plan in advance and understand what resources we need in advance. And Quan, I want to ask you as well if it’s so difficult already to bring the technology as it is as you described to the communities that will be using it, is there even an element of bringing these kind of political and global trends to be reflected with the local communities that you work with?
