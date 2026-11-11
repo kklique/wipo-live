@@ -84,6 +84,10 @@
   #site-footer { margin-top: 56px; border-top: 1px solid var(--line); background: var(--bg); color: var(--muted); font-size: 12px; line-height: 1.7; padding: 26px 0 44px; }
   #site-footer .foot-in { max-width: var(--wrap); margin: 0 auto; padding: 0 24px; }
   #site-footer p { margin: 0 0 4px; }
+  #site-footer .foot-btn { display: inline-flex; align-items: center; gap: 6px; margin-top: 14px; padding: 8px 18px; border-radius: 980px; background: var(--accent); color: var(--on-accent); font-size: 14px; font-weight: 600; text-decoration: none; }
+  #site-footer .foot-btn:hover { background: var(--accent-focus); }
+  #site-footer .foot-btn:active { background: var(--accent-press); }
+  #site-footer .foot-btn:focus-visible { outline: 2px solid var(--accent-focus); outline-offset: 2px; }
   #site-footer .foot-org { color: var(--fg); font-weight: 600; font-size: 13px; margin-bottom: 8px; }
 
   /* 실시간 탭 */
@@ -419,6 +423,7 @@
     <p class="foot-org">지식재산처 IP-AX 추진단 / Designed by Buyong JEONG(2026-11-09)</p>
     <p>이 서비스는 지식재산처 공식 누리집은 아니며, 개인 프로젝트로 시범 운영 중입니다.</p>
     <p>WIPO(세계지식재산기구)에서 개최된 국제컨퍼런스(2026.11.09~11.11)의 실시간 스크립트를 수집하여 AI로 번역, 요약, 재구성한 사이트입니다. 상세내용은 WIPO 해당 웹사이트를 참조하시기 바랍니다.</p>
+    <a class="foot-btn" href="https://ipax.vercel.app/" target="_blank" rel="noopener noreferrer">IP-AX 포트폴리오 <span aria-hidden="true">↗</span></a>
   </div>
 </footer>
 <dialog id="sumdlg" class="pop" aria-label="한글 AI요약"></dialog>
