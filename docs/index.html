@@ -189,6 +189,7 @@
   .rp-tl .ext { display: block; width: fit-content; font-size: 11px; font-weight: 400; color: var(--muted); border: 1px dashed var(--line); border-radius: 980px; padding: 0 8px; margin-top: 4px; }
   .rp-tl .so { font-size: 14px; color: var(--muted); margin-top: 4px; }
   .rp-act { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; }
+  .rp-act .rp-d { color: var(--muted); }
   .rp-act ol { margin: 6px 0 0; padding-left: 20px; line-height: 1.7; }
   @media (max-width: 900px) { #report-wrap { padding-left: 16px; padding-right: 16px; } .rp-row, .rp-tl .rp-row { grid-template-columns: 1fr; } .rp-grid.wide, .rp-two { grid-template-columns: 1fr; } .rp-hero h2 { font-size: 24px; } }
   @media print {
@@ -344,8 +345,8 @@
       <button class="tab" role="tab" id="tab-program" aria-selected="true" aria-controls="program-wrap">프로그램</button>
       <button class="tab" role="tab" id="tab-report" aria-selected="false" aria-controls="report-wrap">리포트&amp;시사점</button>
       <button class="tab" role="tab" id="tab-full" aria-selected="false" aria-controls="full-wrap">전체 저장본</button>
-      <button class="tab" role="tab" id="tab-live" aria-selected="false" aria-controls="live-wrap">실시간</button>
-      <button class="tab" role="tab" id="tab-status" aria-selected="false" aria-controls="status-wrap">저장 상태</button>
+      <button class="tab" role="tab" id="tab-live" aria-selected="false" aria-controls="live-wrap" hidden style="display:none">실시간</button>
+      <button class="tab" role="tab" id="tab-status" aria-selected="false" aria-controls="status-wrap" hidden style="display:none">저장 상태</button>
     </div>
   </div>
   <div class="bar" id="ctlbar" hidden>
@@ -789,6 +790,7 @@ async function fetchWipo(cursor) {
 
 async function livePoll() {
   clearTimeout(liveTimer);
+  if (tab !== "live") return;                // 메뉴에서 숨긴 탭: #live 로 열었을 때만 폴링
   const gen = liveGen;
   let delay = LIVE_POLL_MS;
   if (!document.hidden) {
@@ -1464,7 +1466,7 @@ async function refreshReport() {
     const hero = mk("div", "rp-hero");
     hero.append(mk("h2", "", rp.title), mk("p", "sub", rp.subtitle), mk("p", "note", rp.basis), mk("p", "note", rp.disclaimer));
     const nav = mk("div", "rp-nav");
-    const secs = [["rp-summary", "총평"], ["rp-dg", "사무총장 3대 질문"], ["rp-overview", "핵심 메시지"], ...rp.days.map((d) => ["rp-day" + d.day, `Day ${d.day}`]), ["rp-timeline", "국제 일정·전망"], ["rp-roadmap", "대응 로드맵"]];
+    const secs = [["rp-summary", "총평"], ["rp-dg", "사무총장 3대 질문"], ...rp.days.map((d) => ["rp-day" + d.day, `Day ${d.day}`]), ["rp-trends", "국제동향"], ["rp-timeline", "국제 일정"], ["rp-roadmap", "정책 과제"]].filter(([id]) => id !== "rp-trends" || rp.trends);
     for (const [id, label] of secs) {
       const a = mk("a", "", label); a.href = "#report";
       a.addEventListener("click", (ev) => { ev.preventDefault(); $(id).scrollIntoView({ block: "start", behavior: "smooth" }); });
@@ -1487,7 +1489,7 @@ async function refreshReport() {
 
     // 사무총장 개회사의 3대 질문과 6대 원칙
     if (rp.dg) {
-      const s = section("rp-dg", "사무총장 3대 질문", "Daren Tang 사무총장 개회사의 문제 제기와 포럼에서 다루어진 정도");
+      const s = section("rp-dg", "사무총장 3대 질문", "개회사의 문제 제기와 포럼에서 다루어진 정도");
       s.appendChild(mk("p", "rp-intro", rp.dg.intro));
       const g = mk("div", "rp-grid wide");
       rp.dg.questions.forEach((q, i) => {
@@ -1502,7 +1504,7 @@ async function refreshReport() {
       });
       s.appendChild(g);
       if (rp.dg.principles) {
-        s.appendChild(sub("합의 가능한 여섯 가지 원칙", "사무총장 제안과 이틀간 논의에 비춘 공감 정도"));
+        s.appendChild(sub("합의 가능한 여섯 가지 원칙"));
         s.appendChild(mk("p", "rp-intro", rp.dg.principles_intro));
         const l = mk("div", "rp-list rp-tl");
         rp.dg.principles.forEach((x, i) => {
@@ -1515,11 +1517,13 @@ async function refreshReport() {
       box.appendChild(s);
     }
 
-    // 핵심 메시지
+    // 핵심 메시지 (선택)
+    if (rp.overview) {
     const ov = section("rp-overview", "핵심 메시지", "이틀간 논의에서 지식재산처가 주목할 흐름");
     const og = mk("div", "rp-grid");
     rp.overview.forEach((o, i) => { const c = mk("div", "rp-card"); c.append(mk("span", "num", String(i + 1)), mk("h4", "", o.title), mk("p", "", o.body), refs(o.refs)); og.appendChild(c); });
     ov.appendChild(og); box.appendChild(ov);
+    }
 
     // 일차별
     for (const d of rp.days) {
@@ -1537,7 +1541,7 @@ async function refreshReport() {
       sec.appendChild(list);
 
       if (d.watch && d.watch.length) {
-        sec.appendChild(sub("눈여겨볼 사항", "무엇이 논의되었고, 지식재산처에 왜 중요한가"));
+        sec.appendChild(sub("눈여겨볼 사항"));
         const g = mk("div", "rp-grid wide");
         d.watch.forEach((w, i) => {
           const c = mk("div", "rp-card");
@@ -1573,9 +1577,22 @@ async function refreshReport() {
       box.appendChild(sec);
     }
 
+    // 예상 국제동향 (종합)
+    if (rp.trends && rp.trends.length) {
+      const s = section("rp-trends", "예상되는 국제동향");
+      const g = mk("div", "rp-grid");
+      for (const t of rp.trends) {
+        const c = mk("div", "rp-card trend");
+        c.append(mk("h4", "", t.title), mk("p", "", t.body));
+        if (t.outlook) { const o = mk("p", "outlook"); o.append(mk("b", "", "전망 "), document.createTextNode(t.outlook)); c.appendChild(o); }
+        c.appendChild(refs(t.refs)); g.appendChild(c);
+      }
+      s.appendChild(g); box.appendChild(s);
+    }
+
     // 국제 일정·전망
     if (rp.timeline && rp.timeline.length) {
-      const s = section("rp-timeline", "국제 일정·동향 전망", "포럼에서 언급된 일정과 전망을 시간순으로 정리 ('포럼 외 배경'은 포럼 발언이 아닌 일반 정보)");
+      const s = section("rp-timeline", "국제 일정", "'포럼 외 배경'은 포럼 발언이 아닌 일반 정보");
       const tl = mk("div", "rp-list rp-tl");
       for (const t of rp.timeline) {
         const row = mk("div", "rp-row");
@@ -1591,11 +1608,18 @@ async function refreshReport() {
 
     // 로드맵
     if (rp.roadmap && rp.roadmap.length) {
-      const s = section("rp-roadmap", "대응 로드맵", "일차별 정책적 준비를 실행 시점별로 묶은 제안");
+      const s = section("rp-roadmap", "정책 과제", "지식재산처가 준비할 과제를 시점별로 정리");
       const g = mk("div", "rp-act");
       for (const a of rp.roadmap) {
         const c = mk("div", "rp-card"); c.appendChild(mk("h4", "", a.label));
-        const ol = mk("ol"); for (const x of a.items) ol.appendChild(mk("li", "", x)); c.appendChild(ol); g.appendChild(c);
+        const ol = mk("ol");
+        for (const x of a.items) {
+          const li = mk("li");
+          if (typeof x === "string") li.textContent = x;
+          else { li.appendChild(mk("b", "", x.t)); if (x.d) li.appendChild(mk("span", "rp-d", " · " + x.d)); }
+          ol.appendChild(li);
+        }
+        c.appendChild(ol); g.appendChild(c);
       }
       s.appendChild(g); box.appendChild(s);
     }
@@ -1769,7 +1793,7 @@ function selectTab(name) {
   setHdrVar();                       // 프로그램 탭에는 스트림 선택 등 조작 막대를 숨김 (단순화)
   history.replaceState(null, "", name === "program" ? location.pathname + location.search : "#" + name);
   showStatus();
-  if (name === "live") { el.liveBox.scrollTop = el.liveBox.scrollHeight; }
+  if (name === "live") { livePoll(); el.liveBox.scrollTop = el.liveBox.scrollHeight; }
   else if (name === "program") { refreshProgram(); }
   else if (name === "status") { refreshStatus(); }
   else if (name === "report") { refreshReport(); }
