@@ -1,0 +1,22 @@
+# [d2-05] Insight: Efficiency in Action - Deploying AI in IP Administration
+# 발표자: Mr. Ken-Ichiro Natsume — Assistant Director General, WIPO  (moderator)
+# Day 2 · 2026-11-10 · 예정 11:30-11:50 (Geneva) · 발언 7회 · 12단락 · 549단어 · 구분 방식: official
+
+And welcome back to colleagues. Welcome to efficiency in action, developing AI and IP administration session. Building on the super session which you have just talked about, the people, people, people, training, trust, but we need tools as well. So now we will move on from the discussion to the deployment. It’s my great pleasure to introduce our WIPO colleagues, Bruno, Pauline Ken and Mario from the advanced technology application center here at WIPO.
+They will be presenting something special. I’m tempted to tell you more, but no spoilers from me. Bruno, Mario, the floor is yours. Go ahead.
+
+Let us now turn to the experience of IP offices. I’m joined by colleagues Raul, AI coordinator at the European Union Intellectual Property Office who is joining remotely. You should be appearing on the screen. Okay. Hi, Raul.
+And also Kelly Swiss, acting Deputy Director General of IP Australia here with us in person. Samuel Anum, Intellectual Property consultant at the Ghana Industrial Property Office also joining remotely. Hi, Samuel. Good morning. Good morning.
+Again, Bruno Polinken from WIPO here with us. So first, Raul, you have been working on the development of AI tools for IP administration at EU IPO which is I would say the big IPO office. Considering the EU IPO substantive experience and scale, how do you ensure that those tools respond to the actual needs of their users?
+
+Thank you very much, Raul. I think this highlighted very important point, namely that good communication with users internally as well as externally which are people anyway and taking into account the feedback to move it forward. So Kelly, let me turn it over to you. If I understood correctly, IP Australia is emphasizing on human centered approach to AI adoption. So Kelly, how do you how have your office brought your staff along on this journey?
+Thanks, Ken.
+
+Again we have heard the importance of the people engagement. So people plus tech. This is one of the key elements which I have heard and I strongly resonate to. So Samuel, let me turn to you, your valuable experience in AI adoption. We understand that AI adoption is taking place at different levels in your office as well.
+How are you approaching this evolving reality and what are the main challenges in moving from individual experimentation to a more coordinated institutional approach? So over to you, Samuel.
+
+So let me go back to Bruno. So in addition to the presentation you just provided, how is WIPO translating the potential of AI into other practical tools and services for the IP community? Could you share some examples of what WIPO is already sharing or making available or what is currently being developed to become?
+
+Thank you very much. We have to wrap up. But before we close, I would like to take one more minute with your permission to ask all four speakers what one word or one phrase captures your vision for the future of AI in the IP administration. You each have ten seconds. So starting with Raul.
+
+Thank you very much. I think this captures the discussion and this is something we can take into account in our future for the IP, global IP community. With that, thank you very much. Thank you. Thank you.

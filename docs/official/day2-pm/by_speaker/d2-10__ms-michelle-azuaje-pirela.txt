@@ -1,0 +1,50 @@
+# [d2-10] Discussion: The IP in the Machine - Untangling IP Issues Behind the Models
+# 발표자: Ms. Michelle Azuaje-Pirela — Associate Professor of Law and New Technologies, Metropolitan University of Technology, Chile  (moderator)
+# Day 2 · 2026-11-10 · 예정 15:00-16:00 (Geneva) · 발언 22회 · 25단락 · 934단어 · 구분 방식: official
+
+Thank you, Garrett, for the introduction. Let’s get started, then, so we can talk about AI and Intellectual Property. That’s why we are here. So the conversation often narrows down to whether it is lawful to train models on protected works. But as Garrett said, behind every model there is data, code, weights, hardware, inventions, trademarks and trade secrets, each governed by its own rules.
+So if you had to point to the AI-related IP issue that in your view is receiving less attention than it deserves, what would it be and why? Let’s start with computer science, please. Thank you.
+
+Thank you very much, Ahmed. We have four different perspectives. So now I would like to hear Kim’s opinion. Kim, are you with usr She’s online.
+
+Thank you very much. Now I’m turning to Deju. Deju, please tell us what you think. Deju, that’s better.
+
+Thank you very much, Deju. Finally, Burcu, please tell us what is your opinion.
+
+Thank you. Thank you very much, Burcu. As we can see, there’s a lot to talk about. Let’s take three seconds because we are having the interpretation. But now I would like to ask Deju, I’m sorry about that.
+Since patent law cannot protect data as such, what exactly do developers want to protect? And what challenges do they face in doing so? What’s your view about that?
+
+Thank you, Dejo. Now I want to hear what the research department has to say. Kim, can you hear usr Yes.
+
+Thank you very much, Kim. In fact, these are recurring concerns for many researchers in Chile as well. So thank you very much for that approach. Now, dear panelists, we have heard many times but many times that the IP system needs to be updated. So I would like to ask you to the floor.
+I would like to ask you how do we do that? For example, I’m going to ask you, Borja, how can we balance the interests of copyright holders and AI developers when protected works are used to train AI models? Okay.
+
+Okay. I think this question is crucial. And the idea of balance is essential to this discussion as we said. So I wanted to know if you want to add something about this approach. I don’t know, Ahmed, would you like to add something?
+
+Amit, I don’t know if you want to add? Please. May I ask some question to like scientific side to Amit? Because I just agree with the idea that like in compensation, we have to compensate to the work created by humans.
+
+Thank you, Dejo and Ahmed. But I will stay with you, Ahmed, because the next question will be my privilege as moderator because if you allow me for us lawyers it is very important to understand the following. So what exactly is the object when copyrighted or proprietary information is informed into a learned representation? And how should we distinguish generalizable knowledge from protected proprietary information when both are in code in the same model? For lawyers, please.
+
+Thank you very much, Ahmed. That was my favorite question. So thank you. But now I would like to ask Virjo because we are so worried about this one. Can existing Intellectual Property laws adequately deal with that object Ahmed said or do we need a new legal approach?
+
+Thank you. Thank you very much. I don’t know if you want to add anything else about if do we need a new legal approach? Do you want to add anything? Yeah.
+
+Thank you very much for that approach. But now, please, let’s go back to Kim because academic research relies on data from many sources, often under research use restrictions. How should we distinguish the right to access and use data for research, the right to train AI models and rights in the resulting models and inventions? Should those restrictions follow the trained model, especially when existing agreements never contemplate AI training? Kim, please.
+
+Thank you, Kim. Now, I know, Ahmed, that you are not a lawyer, but we need your help, please. So I would like to hear your opinion. And how should IP law address the transfer of learned representations and capabilities across successive generations of AI models?
+
+But let’s change the subject just a bit and talking about lawyers, let’s talk about protection strategies. So should AI models be protected primarily by copyright or should patent law play a greater role in protecting AI-related innovations?
+
+What does this tell us about the adequacy of existing frameworks?
+
+Is the market already answering the copyright or patent question? And the core goes open or stays secret while patents protect the deployment layer? Yes, it is true that the lot of patent filings cover the lightweighting, also optimizing, also serving the model, AI model, but I don’t believe that the market, that proves that the market has chosen copyright protection over patents for protecting their core AI, rather, you know, clustering is the result of it is not a result of the choices but the consequences of the market structure.
+
+Kim, where are the tensions surrounding biomedical inventions?
+
+I think this is really important.
+
+I don’t know if we have time for just one last question. Yes, just one. So what is the one key message, just one, you would like policymakers to take away when they consider the IP in the machine? Please, Ahmed. All right.
+
+It is my hope and my thought that the fundamental principles of patent law, confidentiality, ownership and contractual rights remain applicable to AI.
+
+Thank you very much, Michelle.

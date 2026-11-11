@@ -1,0 +1,11 @@
+# [d2-05] Insight: Efficiency in Action - Deploying AI in IP Administration
+# 발표자: Mr. Mario Magued Mina — Machine Learning Developer, Advanced Technology Applications Center, WIPO  (speaker)
+# Day 2 · 2026-11-10 · 예정 11:30-11:50 (Geneva) · 발언 3회 · 5단락 · 150단어 · 구분 방식: official
+
+Over to you, Mario. Thank you very much, Bruno, for the introduction. Today, I would like to show you PatentScope. PatentScope is a massive database. It includes millions of patents.
+But it has a problem, a small one. The problem is that the researcher uses specific search language, not our language. Personally, I have a deep love for linguistic ambiguity. For example, if we take date extraction, there is ambiguity in the word "date." Date can mean a calendar date or a fruit.
+And this ambiguity disappears when we ask the researcher to add to the words, to narrow down the search. But that was not our intention. We could simply guide the smart researcher to include or prefer the fruit.
+
+It is translated into English. What can we do, Marion? Unfortunately, I don’t speak Chinese, but we can use another tool.
+
+You’re right. It’s much easier this way, Bruno.

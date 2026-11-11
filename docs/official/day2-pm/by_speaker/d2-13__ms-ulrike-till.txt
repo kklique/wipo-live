@@ -1,0 +1,16 @@
+# [d2-13] Horizon Scan: What's Next for IP and AI?
+# 발표자: Ms. Ulrike Till  (floor)
+# Day 2 · 2026-11-10 · 예정 16:25-17:15 (Geneva) · 발언 1회 · 12단락 · 558단어 · 구분 방식: official
+
+It’s one of my favorite Hello, everyone. And welcome back. I hope you’re all ready for the final sprint to the finish line today. But let me let’s do some gymnastics or at least mental gymnastics. Let me start you off with a question.
+When chat GPT burst into the scene in late 2020, AI suddenly seemed like it had come out of nowhere. For those of you who have followed the WIPO conversation on IP and AI, you will know that our discussions began in 2019. Well ahead of the curve, you might think. Let me put that to the test. We’re going to run a quick Menti poll.
+Please look at the question on your screen. Scan the code and give us your answer. So the question that you can’t see on the screen but if you go to the Menti is when did WIPO hold its first global discussion on AI and IP? The answers available to you are 1983, 1991, 2006 or 2015. So when do you think WIPO started talking about AI and IP for the first time?
+And we’re just waiting for some of you. Oh, correct answers get maximum points. I like that. So if you’re on the code, give us the answers now. When did WIPO hold its first global discussion on AI and IP?
+Are you scanning? Are you voting? I will maybe give it to a minute. Can we close it at a minute and then see the results? I see frantic movement in the tech team.
+Okay. I see hearts rising. 71 answers. Okay. One minute.
+Can we display results? Okay. So I have been told we have to wait until the timers run up. So 45 seconds. That is increasing the suspense even more.
+But maybe I’ll give you a glimpse. The answer is actually on this but I won’t have a rant quite yet. Okay. The final count on. If I could sing, I would but I won’t.
+9, 8, 7, 6, 5, 4, 3, 2, 1. Result. So 26 people got it right. The answer is 1991, 35 years ago. Now, this is the original proceedings from the original WIPO symposium on AI and IP in Stanford in 1991.
+I have a particular affection for that document. That hard copy of those proceedings has been sitting on my desk since I joined WIPO almost seven years ago. Long before CHET-GPT, generative AI and the technologies dominating today’s headlines, people were already asking what artificial intelligence might mean for creativity, innovation and the IP system. Some of those questions sound surprisingly familiar. Others have changed beyond recognition which raises an intriguing thought.
+If we had been sitting in that room 35 years ago in 1991, how much of today’s debate would we have anticipated? And if we now look ahead another 35 years to 2061, what will the next generations make of the questions we are asking today? For our final panel, Horizon Scan, What’s Next for IP and AI, we have brought together voices with decades of experience in the evolution of IP and AI alongside a new generation helping to shape what comes next. To moderate this forward-looking discussion, please welcome Ms. Inba Price of MLEX. Inba and our amazing panel, the floor is yours.
+Thank you very much and good afternoon, everyone.

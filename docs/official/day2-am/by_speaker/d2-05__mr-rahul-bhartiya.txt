@@ -1,0 +1,12 @@
+# [d2-05] Insight: Efficiency in Action - Deploying AI in IP Administration
+# 발표자: Mr. Rahul Bhartiya — AI coordinator, European Union Intellectual Property Office, Spain  (speaker)
+# Day 2 · 2026-11-10 · 예정 11:30-11:50 (Geneva) · 발언 2회 · 7단락 · 423단어 · 구분 방식: official
+
+Good morning and thank you for the question, Ken. I’m happy to be here and apologies for not being there in person. So regarding question, business focus is actually the key element of our AI governance. What does it mean? Before starting any AI solution or tool, the question we ask is what is the business problem we are trying to solve?
+So AI is just a tool, an enabler to achieve our business objective which is actually user needs. So that’s why we are developing AI. And that is why we involve users right from the beginning in the implementation of these AI tools. We have dedicated user sessions where we show them the tools, upcoming tools and users provide us their feedback, how they would like to use it and then only we develop, so we develop with them. One of the key outcome or the concrete outcome of this great collaboration has been our preassessment tool, early TM screening which help our users to detect any potential issue or concern deficiency in their e-filing, trademark e-filing before even they file.
+So this is a tool they can use already in the production environment. The way we developed it was again with the users. We invited them. They provided us the feedback. We started a pilot first.
+So the approach was we only opened it to few users first and based on their feedback, we improved it. We made it fit for the purpose which is the user needs again and then we rolled it out. And we don’t stop there at the full rollout. We have regular meetings with them where we discuss improvements and the future of these tools. We apply the same approach even for the tools we create to be used in IP examination at the office.
+We invite our users to use the sessions. We show them in a transparent manner that in what way we are trying to use these AI tools and we get their feedback. And it’s very important for us. And this is how we include them right from the beginning not only for the tools they will use but also the tools we will be using in the future. And in all these cases at least for the offices as we heard before in the panel as well, we are completely aligned.
+Examiners are and will remain the final decision-taker. AI just assist. So back to you, Ken.
+
+Human-centric approach with up-skilling and reskilling of staff. Fantastic. Thank you very much.
