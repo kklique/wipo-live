@@ -1,6 +1,6 @@
 {
  "event": "WIPO AI week, Geneva: Global Forum on IP and AI (Nov 9-10) and AIII Annual Meeting (Nov 11)",
- "source": "Final program WIPO/IP-AI/GEN/26/1 (Days 1-2); WIPO/IP/AIII/GE/26/1 PROV. (Day 3)",
+ "source": "Final program WIPO/IP-AI/GEN/26/1 (Days 1-2); WIPO/IP/AIII/GE/26/1 PROV.2 (Day 3)",
  "timezone": "Europe/Zurich",
  "note": "Times are Geneva local time (Europe/Zurich). Days 1-2 follow the final program PDF; edit this file and re-run split_by_agenda.py.",
  "days": [
@@ -639,48 +639,61 @@
     "name": "Artificial Intelligence Infrastructure Interchange (AIII): Annual Meeting 2026",
     "code": "WIPO/AIII/GE/26",
     "meeting_page": "https://www.wipo.int/meetings/en/details.jsp?meeting_id=93568",
-    "source": "WIPO/IP/AIII/GE/26/1 PROV. (2026-09-29)"
+    "source": "WIPO/IP/AIII/GE/26/1 PROV.2 (2026-11-06)"
    },
    "items": [
     {
      "id": "d3-01",
      "start": "10:00",
-     "end": "10:05",
+     "end": "10:10",
      "title": "Opening Remarks",
      "type": "remarks",
      "speakers": [
       {
-       "name": "Daren Tang",
-       "affiliation": "Director General, World Intellectual Property Organization (WIPO)"
+       "name": "Mr. Ken-Ichiro Natsume",
+       "affiliation": "Assistant Director General, World Intellectual Property Organization (WIPO)"
       }
      ]
     },
     {
      "id": "d3-02",
-     "start": "10:05",
-     "end": "10:15",
-     "title": "High-level Remarks",
-     "type": "remarks",
-     "speakers": []
-    },
-    {
-     "id": "d3-03",
-     "start": "10:15",
+     "start": "10:10",
      "end": "10:45",
      "title": "AI Infrastructure Interchange: Overview and Progress Updates from WIPO Secretariat",
      "type": "update",
      "speakers": []
     },
     {
-     "id": "d3-04",
+     "id": "d3-03",
      "start": "10:45",
      "end": "11:35",
      "title": "Industry Workflows Focus Group Update",
      "type": "focus_group",
-     "speakers": []
+     "speakers": [
+      {
+       "name": "Mr. Andrés Martín López",
+       "affiliation": "Vice President Engineering (Music Technology and Copyright Infrastructure), Spain"
+      },
+      {
+       "name": "Mr. Lucas Oliveira",
+       "affiliation": "Head of International Relations, SBACEM, Brazil"
+      },
+      {
+       "name": "Mr. Matteo Ripamonti",
+       "affiliation": "Head of Third Party Relationships, Elsevier, RELX Group, Italy"
+      },
+      {
+       "name": "Mr. Utkarsh Sharma",
+       "affiliation": "Founding Head, Tagmusic, India"
+      },
+      {
+       "name": "Ms. Vandana Taxali",
+       "affiliation": "IP & AI Lawyer, Entcounsel Law Firm; Tech Founder, Artcryption, Canada"
+      }
+     ]
     },
     {
-     "id": "d3-05",
+     "id": "d3-04",
      "start": "11:35",
      "end": "11:50",
      "title": "Coffee Break",
@@ -688,87 +701,168 @@
      "speakers": []
     },
     {
-     "id": "d3-06",
+     "id": "d3-05",
      "start": "11:50",
      "end": "12:10",
      "title": "AI in the Creative Process - A Live Demonstration",
      "type": "demo",
-     "speakers": []
+     "speakers": [
+      {
+       "name": "Mr. Diamond Duggal (aka DJ Swami)",
+       "affiliation": "Music Producer and Songwriter, United Kingdom"
+      }
+     ]
     },
     {
-     "id": "d3-07",
+     "id": "d3-06",
      "start": "12:10",
      "end": "13:00",
      "title": "Metadata Framing Focus Group Update",
      "type": "focus_group",
-     "speakers": []
+     "speakers": [
+      {
+       "name": "Mr. Harry Boughton",
+       "affiliation": "Head of Operations, Copyright Licensing Agency, United Kingdom"
+      },
+      {
+       "name": "Mr. Andy Carne",
+       "affiliation": "Special Projects Lead, Auracles, United Kingdom"
+      },
+      {
+       "name": "Mr. Bill Rosenblatt",
+       "affiliation": "President, GiantSteps Media Technology Strategies, United States of America"
+      },
+      {
+       "name": "Ms. Merida Sussex",
+       "affiliation": "Co-Founder and Chief Executive Officer, MetaGen, United Kingdom"
+      },
+      {
+       "name": "Mr. Fabian Thiele",
+       "affiliation": "Founder, IPT Guard GmbH, Germany"
+      }
+     ]
     },
     {
-     "id": "d3-08",
+     "id": "d3-07",
      "start": "13:00",
      "end": "15:00",
-     "title": "Lunch break",
+     "title": "Lunch Break",
      "type": "break",
      "speakers": []
     },
     {
-     "id": "d3-09",
+     "id": "d3-08",
      "start": "15:00",
-     "end": "15:15",
+     "end": "15:20",
      "title": "The Art of the Possible - Developments in Attribution Technology",
      "type": "talk",
-     "speakers": []
+     "speakers": [
+      {
+       "name": "Mr. Yuki Mitsufuji",
+       "affiliation": "Vice President of AI Research, Sony Corporate Technology Center America, United States of America"
+      }
+     ]
+    },
+    {
+     "id": "d3-09",
+     "start": "15:20",
+     "end": "16:10",
+     "title": "AI-Generated Content Taxonomy Focus Group Update",
+     "type": "focus_group",
+     "speakers": [
+      {
+       "name": "Mr. Bobby Bickley",
+       "affiliation": "Researcher & Data Scientist, Beatdapp, United States of America"
+      },
+      {
+       "name": "Mr. Dante Cid",
+       "affiliation": "President, Brazilian Publishers Association and Executive Committee Member, International Publishers Association, Brazil"
+      },
+      {
+       "name": "Ms. Delphine Dalquié-Dickson",
+       "affiliation": "Managing Director, 22D Music (North America), France, representing the IMPF"
+      },
+      {
+       "name": "Ms. Lydia Gregory",
+       "affiliation": "AI & Creative Industries Consultant, United Kingdom"
+      },
+      {
+       "name": "Mr. Jongpil Lee",
+       "affiliation": "Chief Executive Officer, Neutune, Republic of Korea"
+      },
+      {
+       "name": "Ms. Jayce Tham",
+       "affiliation": "Chief Businesswoman, CreativesAtWork, Singapore"
+      }
+     ]
     },
     {
      "id": "d3-10",
-     "start": "15:15",
-     "end": "16:05",
-     "title": "AI-Generated Content Taxonomy Focus Group Update",
-     "type": "focus_group",
-     "speakers": []
-    },
-    {
-     "id": "d3-11",
-     "start": "16:05",
-     "end": "16:20",
+     "start": "16:10",
+     "end": "16:25",
      "title": "Coffee Break",
      "type": "break",
      "speakers": []
     },
     {
-     "id": "d3-12",
-     "start": "16:20",
-     "end": "17:10",
+     "id": "d3-11",
+     "start": "16:25",
+     "end": "17:15",
      "title": "Common Lexicon Focus Group Update",
      "type": "focus_group",
-     "speakers": []
+     "speakers": [
+      {
+       "name": "Mr. Scott Farrant",
+       "affiliation": "Chief Executive Officer, Musaxia Consulting, United Kingdom"
+      },
+      {
+       "name": "Ms. Barbara Ford Grant",
+       "affiliation": "Founder, BFG Productions, United States of America"
+      },
+      {
+       "name": "Ms. Jinman Li",
+       "affiliation": "Staff, International Dept, China Copyright Protection Center, China"
+      },
+      {
+       "name": "Ms. Susan Otieno",
+       "affiliation": "Kenya"
+      },
+      {
+       "name": "Ms. Vandana Taxali",
+       "affiliation": "IP & AI Lawyer, Entcounsel Law Firm; Tech Founder, Artcryption, Canada"
+      },
+      {
+       "name": "Ms. Nageela Yusuf",
+       "affiliation": "Chief Executive Officer, TikBox, Provenance and Licensing, United Kingdom"
+      }
+     ]
     },
     {
-     "id": "d3-13",
-     "start": "17:10",
-     "end": "17:25",
+     "id": "d3-12",
+     "start": "17:15",
+     "end": "17:30",
      "title": "AI Infrastructure Interchange: What's Next for AIII and the Technical Exchange Network",
      "type": "update",
      "speakers": []
     },
     {
-     "id": "d3-14",
-     "start": "17:25",
+     "id": "d3-13",
+     "start": "17:30",
      "end": "17:55",
      "title": "Floor Interventions from Member States, Observers, and Members of the Technical Exchange Network",
      "type": "floor",
      "speakers": []
     },
     {
-     "id": "d3-15",
+     "id": "d3-14",
      "start": "17:55",
      "end": "18:00",
      "title": "Closing Remarks",
      "type": "remarks",
      "speakers": [
       {
-       "name": "Mr. Kenichiro Natsume",
-       "affiliation": "Assistant Director General, World Intellectual Property Organization (WIPO)"
+       "name": "Mr. Pascal Faure",
+       "affiliation": "Deputy Director General, World Intellectual Property Organization (WIPO)"
       }
      ]
     }
