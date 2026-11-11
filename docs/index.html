@@ -168,9 +168,26 @@
   .rp-row .t:hover { text-decoration: underline; }
   .rp-row .t small { display: block; color: var(--muted); font-weight: 400; font-size: 12px; }
   .rp-row p { margin: 0; line-height: 1.6; }
+  .rp-sec h3 small { font-size: 13px; font-weight: 400; color: var(--muted); margin-left: 10px; }
+  .rp-grid.wide { grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); }
+  .rp-two { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 12px; }
+  .rp-prose p { margin: 0 0 10px; line-height: 1.75; }
+  .rp-prose p:last-child { margin-bottom: 0; }
+  .rp-kv { margin-top: 8px; }
+  .rp-kv b { display: inline-block; font-size: 12px; color: var(--muted); font-weight: 600; margin-bottom: 2px; }
+  .rp-kv.why { background: var(--open-bg); border-radius: 12px; padding: 10px 14px; margin-top: 10px; }
+  .rp-kv.why b { color: var(--accent); }
+  .rp-card .outlook { margin-top: 10px; font-size: 14px; color: var(--muted); }
+  .rp-card .outlook b, .rp-tl .so b { color: var(--accent); font-weight: 600; }
+  .rp-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+  .rp-card .area.hz { color: var(--muted); border-color: var(--line); }
+  .rp-tl .rp-row { grid-template-columns: minmax(140px, 200px) minmax(0, 1fr); }
+  .rp-tl .when { font-weight: 600; font-size: 14px; }
+  .rp-tl .ext { display: block; width: fit-content; font-size: 11px; font-weight: 400; color: var(--muted); border: 1px dashed var(--line); border-radius: 980px; padding: 0 8px; margin-top: 4px; }
+  .rp-tl .so { font-size: 14px; color: var(--muted); margin-top: 4px; }
   .rp-act { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; }
   .rp-act ol { margin: 6px 0 0; padding-left: 20px; line-height: 1.7; }
-  @media (max-width: 900px) { #report-wrap { padding-left: 16px; padding-right: 16px; } .rp-row { grid-template-columns: 1fr; } .rp-hero h2 { font-size: 24px; } }
+  @media (max-width: 900px) { #report-wrap { padding-left: 16px; padding-right: 16px; } .rp-row, .rp-tl .rp-row { grid-template-columns: 1fr; } .rp-grid.wide, .rp-two { grid-template-columns: 1fr; } .rp-hero h2 { font-size: 24px; } }
   @media print {
     header, #status, #site-footer, .rp-nav { display: none !important; }
     #report-wrap { max-width: none; padding: 0; }
@@ -1415,7 +1432,7 @@ async function refreshProgram() {
   }
 }
 
-/* ---------- 리포트&시사점 (docs/report.json: 일차별 주요 발표내용 + 정책 시사점) ---------- */
+/* ---------- 리포트&시사점 (docs/report.json: 총평 · 일차별 눈여겨볼 사항/예상 국제동향/정책적 준비 · 일정 전망 · 로드맵) ---------- */
 let reportBuilt = false;
 async function refreshReport() {
   if (reportBuilt) return;
@@ -1434,12 +1451,17 @@ async function refreshReport() {
       const b = mk("button", "rp-ref", it.title); b.type = "button";
       b.title = `${it.title} (스크립트 열기)`; b.addEventListener("click", () => openScript(id)); return b;
     };
-    const refs = (ids) => { const w = mk("div", "rp-refs"); w.appendChild(mk("span", "", "근거 세션")); for (const id of ids || []) w.appendChild(refBtn(id)); return w; };
+    const refs = (ids) => { const w = mk("div", "rp-refs"); if (!ids || !ids.length) return w; w.appendChild(mk("span", "", "근거 세션")); for (const id of ids) w.appendChild(refBtn(id)); return w; };
+    const section = (id, title, theme) => { const s = mk("section", "rp-sec"); s.id = id; s.appendChild(mk("h2", "", title)); if (theme) s.appendChild(mk("p", "theme", theme)); return s; };
+    const sub = (title, note) => { const h = mk("h3", "", title); if (note) h.appendChild(mk("small", "", note)); return h; };
+    const wday = (iso) => { const dt = new Date(iso + "T12:00:00Z"); return `${dt.getUTCMonth() + 1}월 ${dt.getUTCDate()}일(${["일","월","화","수","목","금","토"][dt.getUTCDay()]})`; };
     box.innerHTML = "";
+
+    // 머리말 + 목차
     const hero = mk("div", "rp-hero");
     hero.append(mk("h2", "", rp.title), mk("p", "sub", rp.subtitle), mk("p", "note", rp.basis), mk("p", "note", rp.disclaimer));
     const nav = mk("div", "rp-nav");
-    const secs = [["rp-overview", "핵심 메시지"], ...rp.days.map((d) => ["rp-day" + d.day, `Day ${d.day} 시사점`]), ["rp-actions", "추진 과제"]];
+    const secs = [["rp-summary", "총평"], ["rp-overview", "핵심 메시지"], ...rp.days.map((d) => ["rp-day" + d.day, `Day ${d.day}`]), ["rp-timeline", "국제 일정·전망"], ["rp-roadmap", "대응 로드맵"]];
     for (const [id, label] of secs) {
       const a = mk("a", "", label); a.href = "#report";
       a.addEventListener("click", (ev) => { ev.preventDefault(); $(id).scrollIntoView({ block: "start", behavior: "smooth" }); });
@@ -1448,17 +1470,28 @@ async function refreshReport() {
     const pb = mk("button", "", "인쇄 / PDF"); pb.type = "button"; pb.addEventListener("click", () => window.print()); nav.appendChild(pb);
     hero.appendChild(nav); box.appendChild(hero);
 
-    const ov = mk("section", "rp-sec"); ov.id = "rp-overview";
-    ov.append(mk("h2", "", "핵심 메시지"), mk("p", "theme", "이틀간 논의에서 지식재산처가 주목할 흐름"));
+    // 총평
+    if (rp.summary) {
+      const s = section("rp-summary", "총평", "포럼 전체 평가와 한국의 위치");
+      const g = mk("div", "rp-two");
+      for (const [k, label] of [["lead", "포럼 전체 평가"], ["korea", "한국의 위치와 과제"]]) {
+        const c = mk("div", "rp-card rp-prose"); c.appendChild(mk("h4", "", label));
+        for (const t of rp.summary[k] || []) c.appendChild(mk("p", "", t));
+        g.appendChild(c);
+      }
+      s.appendChild(g); box.appendChild(s);
+    }
+
+    // 핵심 메시지
+    const ov = section("rp-overview", "핵심 메시지", "이틀간 논의에서 지식재산처가 주목할 다섯 가지 흐름");
     const og = mk("div", "rp-grid");
     rp.overview.forEach((o, i) => { const c = mk("div", "rp-card"); c.append(mk("span", "num", String(i + 1)), mk("h4", "", o.title), mk("p", "", o.body), refs(o.refs)); og.appendChild(c); });
     ov.appendChild(og); box.appendChild(ov);
 
+    // 일차별
     for (const d of rp.days) {
-      const sec = mk("section", "rp-sec"); sec.id = "rp-day" + d.day;
-      const dt = new Date(d.date + "T12:00:00Z");
-      sec.append(mk("h2", "", `Day ${d.day} · ${dt.getUTCMonth() + 1}월 ${dt.getUTCDate()}일(${["일","월","화","수","목","금","토"][dt.getUTCDay()]})`), mk("p", "theme", d.theme));
-      sec.appendChild(mk("h3", "", "주요 발표내용"));
+      const sec = section("rp-day" + d.day, `Day ${d.day} · ${wday(d.date)}`, d.theme);
+      sec.appendChild(sub("주요 발표내용", "제목을 누르면 스크립트가 열립니다"));
       const list = mk("div", "rp-list");
       for (const h of d.highlights) {
         const it = titles[h.id] || { title: h.id };
@@ -1469,27 +1502,72 @@ async function refreshReport() {
         row.append(t, mk("p", "", h.text)); list.appendChild(row);
       }
       sec.appendChild(list);
-      sec.appendChild(mk("h3", "", "정책 시사점 (지식재산처 관점)"));
-      const g = mk("div", "rp-grid");
-      d.implications.forEach((m, i) => {
-        const c = mk("div", "rp-card");
-        c.append(mk("span", "area", m.area), mk("h4", "", `${i + 1}. ${m.title}`));
-        const ul = mk("ul"); for (const p of m.points) ul.appendChild(mk("li", "", p)); c.append(ul, refs(m.refs)); g.appendChild(c);
-      });
-      sec.appendChild(g); box.appendChild(sec);
+
+      if (d.watch && d.watch.length) {
+        sec.appendChild(sub("눈여겨볼 사항", "무엇이 논의되었고, 지식재산처에 왜 중요한가"));
+        const g = mk("div", "rp-grid wide");
+        d.watch.forEach((w, i) => {
+          const c = mk("div", "rp-card");
+          c.appendChild(mk("h4", "", `${i + 1}. ${w.title}`));
+          const a = mk("div", "rp-kv"); a.append(mk("b", "", "논의"), mk("p", "", w.what));
+          const b = mk("div", "rp-kv why"); b.append(mk("b", "", "지식재산처 관점"), mk("p", "", w.why));
+          c.append(a, b, refs(w.refs)); g.appendChild(c);
+        });
+        sec.appendChild(g);
+      }
+      if (d.trends && d.trends.length) {
+        sec.appendChild(sub("예상되는 국제동향"));
+        const g = mk("div", "rp-grid");
+        d.trends.forEach((t) => {
+          const c = mk("div", "rp-card trend");
+          c.append(mk("h4", "", t.title), mk("p", "", t.body));
+          if (t.outlook) { const o = mk("p", "outlook"); o.append(mk("b", "", "전망 "), document.createTextNode(t.outlook)); c.appendChild(o); }
+          c.appendChild(refs(t.refs)); g.appendChild(c);
+        });
+        sec.appendChild(g);
+      }
+      if (d.prep && d.prep.length) {
+        sec.appendChild(sub("정책적 준비", "지식재산처가 미리 준비할 과제"));
+        const g = mk("div", "rp-grid");
+        d.prep.forEach((m, i) => {
+          const c = mk("div", "rp-card");
+          const tags = mk("div", "rp-tags"); tags.appendChild(mk("span", "area", m.area)); if (m.horizon) tags.appendChild(mk("span", "area hz", m.horizon));
+          c.append(tags, mk("h4", "", `${i + 1}. ${m.title}`));
+          const ul = mk("ul"); for (const p of m.points) ul.appendChild(mk("li", "", p)); c.append(ul, refs(m.refs)); g.appendChild(c);
+        });
+        sec.appendChild(g);
+      }
+      box.appendChild(sec);
     }
 
-    const ac = mk("section", "rp-sec"); ac.id = "rp-actions";
-    ac.append(mk("h2", "", "종합 추진 과제"), mk("p", "theme", "일차별 시사점을 실행 시점별로 묶은 제안"));
-    const ag = mk("div", "rp-act");
-    for (const k of ["short", "mid"]) {
-      const a = rp.actions[k]; if (!a) continue;
-      const c = mk("div", "rp-card"); c.appendChild(mk("h4", "", a.label));
-      const ol = mk("ol"); for (const x of a.items) ol.appendChild(mk("li", "", x)); c.appendChild(ol); ag.appendChild(c);
+    // 국제 일정·전망
+    if (rp.timeline && rp.timeline.length) {
+      const s = section("rp-timeline", "국제 일정·동향 전망", "포럼에서 언급된 일정과 전망을 시간순으로 정리 ('포럼 외 배경'은 포럼 발언이 아닌 일반 정보)");
+      const tl = mk("div", "rp-list rp-tl");
+      for (const t of rp.timeline) {
+        const row = mk("div", "rp-row");
+        const w = mk("div", "when", t.when); if (t.external) w.appendChild(mk("span", "ext", "포럼 외 배경"));
+        const body = mk("div", "");
+        body.append(mk("p", "", t.what));
+        const so = mk("p", "so"); so.append(mk("b", "", "의미 "), document.createTextNode(t.so)); body.appendChild(so);
+        if (t.refs) body.appendChild(refs(t.refs));
+        row.append(w, body); tl.appendChild(row);
+      }
+      s.appendChild(tl); box.appendChild(s);
     }
-    ac.appendChild(ag); box.appendChild(ac);
+
+    // 로드맵
+    if (rp.roadmap && rp.roadmap.length) {
+      const s = section("rp-roadmap", "대응 로드맵", "일차별 정책적 준비를 실행 시점별로 묶은 제안");
+      const g = mk("div", "rp-act");
+      for (const a of rp.roadmap) {
+        const c = mk("div", "rp-card"); c.appendChild(mk("h4", "", a.label));
+        const ol = mk("ol"); for (const x of a.items) ol.appendChild(mk("li", "", x)); c.appendChild(ol); g.appendChild(c);
+      }
+      s.appendChild(g); box.appendChild(s);
+    }
     reportBuilt = true;
-    setStatus("report", "", "리포트", `작성 기준일 ${rp.updated} · 1·2일차 공식 스크립트 기반`);
+    setStatus("report", "", "리포트", `작성 기준일 ${rp.updated} · 1·2일차 공식 스크립트 기반 분석`);
   } catch (e) {
     box.innerHTML = ""; box.appendChild(Object.assign(document.createElement("div"), { className: "live-empty", textContent: "리포트를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요." }));
     setStatus("report", "err", "리포트", `불러오기 실패 (${e.message})`);
