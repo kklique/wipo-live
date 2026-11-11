@@ -1,0 +1,50 @@
+# [d3-11] Common Lexicon Focus Group Update
+# 발표자: Ms. Susan Otieno — Kenya  (speaker)
+# Day 3 · 2026-11-11 · 예정 16:25-17:15 (Geneva) · 발언 20회 · 27단락 · 1,691단어 · 구분 방식: official
+
+And I’m really looking forward to this conversation. And I would like to start with just the comment that Garrett mentioned at the beginning about Scott’s sentiments on what was posted on the confluence site. And Scott, maybe you can kind of help us get into this conversation with the story around how the common lexicon focus group started or originated because I think it’s been mentioned quite a number of times why having a shared language is important, especially just for us to understand or for one to understand what is being said.
+
+And why do you think that misunderstanding matters between the definition of a publisher between book publishing and music publishing?
+
+Thank you for that, Scott. And so we’re in the common lexicon focus group. We’re not handing, we’re not giving out agreed definitions as it were. We’re mostly honing on something that is a bit more useful that our group can do. And I would like to ask this question to everyone, Barbara, Scott, Nagila and Vandana.
+What terminology work already exists in your sector and where does it stop? Thank you.
+
+In the preliminaries as we began the conversation in the common lexicon focus group I think a lot of what is coming up is some of the acknowledgments that we were making, the views that we were having in the group and I would like to reference the slides at this point. So Scott, maybe you can share those like the recognitions and also take us through what the common lexicon is and what it is not.
+
+Yes.
+
+And through the conversation and I would like to come to you, Vandana, through those conversations we seem to have kind of a leaning towards a concept-based approach and I would like to lean on some of the work that you have done, especially with the Getty Research Institute and maybe you can share with us how they have organized terminology in the art world and what can we learn from that?
+
+Thank you for that. I’m just going to ask this question around how, so why wouldn’t it be simpler to agree on one definition for each term and why do you think a concept-based approach works and then how does that look in practice? I think I answered some of that already but basically simply from the fact that people may around the world have used the same term but it has different meanings and so just being able to connect that or having, you know, related terms and when you think about AI, the terminology is evolving every day and new words are coming out because the technology is changing.
+
+I’m sure that I believe this work is work that we all have to contribute to and work on but as a starter point, when we were doing the exercise, we came up with, you know, several hundred terms and then it came down to mapping them to concepts.
+
+And I’d like to also kind of just maybe go to Barbara and kind of ask you about how has, can you touch on how this approach has been used in like your context, for example, with movie labs? Yeah, I mean, there’s, this is on, right? Okay. And I’ll try and talk slow and less loud but I am a New Yorker.
+
+There was, you know, works and content as an example but can you speak to some of the kind of differing perspectives, especially as we came across, came up with the categories?
+
+And in the previous focus group, I think Lydia mentioned the importance of having a shared way of describing what is happening and I think it’s interesting to look at, for example, you coming from music and Vandana and visual arts, because of the perspective, it varies and it might be different and so there is a lot of value in creating this shared language and by extension the lexicon of lexicons. Did you want to?
+
+There’s a poll that everyone hopefully was participating in when the day began. Great. Nagila, I will ask you to take us through and if we can maybe also get the results and Nagila can walk us through it.
+
+And there’s an interesting exercise that you had during our sessions. And can you speak to that? What was the purpose? Sure. But before we do that, I just want to go into how this example that we just did fits into a concept mapping example.
+
+Yeah, absolutely. I mean, being mindful of time, I’ll do this. Yes. And I brought a version here because I realize from everyone that that’s just too small to read. So the four boxes represent the AI assisted creation and obviously, you know, this is again, these are simplifications.
+So the AI composition or whether AI assisted composition, the AI instruments and the AI vocals and the mixing are all lumped together as an AI assisted creation.
+
+I’d like to move to Nagila and Barbara and ask what’s the difference between AI generated content and synthetic media? This was a conversation we had online during one of the group meetings. I can’t remember what it was, a poll came up, very similar to the poll that you saw earlier on today. Can’t remember what the question was but then I had to ask what’s the difference between AI generated content and synthetic content? Again it’s because the two terms are similar but in a sentence that is quite technical and dense, things could look, it would be very difficult to distinguish the two and actually Barbara provided the response because she had a lot of exposure to synthetic content.
+
+We are way, way, way behind. So I will move us swiftly into a mentimeter exercise and I am hoping that is on the screen. Yes. Please scan the QR code and let us know which term in the AI and IP space most needs mapping or this type of mapping and I think just to come back to what has been said by Barbara and Nagila, aside from surfacing the information, it is also important to establish this relationship, like how the yes, Barbara. That is exactly where it is going to go.
+Because it shouldn’t be just our sector dealing with this. We want building blocks because these become legally important binding things, particularly with talent. And the way that it is handled currently is a very bespoke methodology. This is what makes a common lexicon in those building blocks where we are sharing a language across industries would be really helpful.
+
+I see Bandana wants to. I was just going to add that while people are thinking about answering this question, what we also discovered when we were looking at AI terms is that they are scattered all over the place.
+
+So as I mentioned, we do have someone who is joining us remotely, but I would like to hand over to her and she will kind of share more about her experience in the corporate protection center of China and also our concept-based approach. So, Jinam, over to you. Hi, everyone. So the speakers have just introduced from different industries and technical fields the existing terminology resources. They also demonstrated how to use a concept-based approach to organize and link these resources together.
+Now, I would like to add to this discussion from another perspective. That is, when this work is extended from different industrial fields to different languages and different legal jurisdictions, what do we need to pay attention to? First, I would like to clarify one point. The following content is based on some observations from my own work. It is not a generalization of the overall practice in China.
+Through my observations, I have found that a term can be translated, but that does not mean it has the same meaning in different legal systems. In China’s regulations and technical standards related to artificial intelligence, some terms are centered around specific services. They are formed in the context of specific activities or scenarios. We can find corresponding English expressions for them, but these English expressions may not fully capture the concept of the original terms. They may also lack the institutional context.
+They are also easily misinterpreted as corresponding to concepts with similar names in another legal system. Let’s take an example. For instance, the technical support provider for deep synthesis services. This is a term used in China’s regulations on the management of deep synthesis services for Internet information.
+
+I think it is interesting to also consider when you look at languages and how that translates in terms of jurisdictions and each country’s terms, whether legal or commercial and how they can connect to others without being replaced while the differences between national laws are preserved. It is important to have those independent single resources that can be referenced. I think we have another Mentimeter that is going to reveal the responses. That’s great. I think we have so there is this essentially like a word cloud that I think will feed a lot of the ongoing work that is happening to help map some of the terminology and build, of course, on the lexicon of lexicons.
+I would like to as we look at these responses from the audience, I would like to ask one final question to everyone. Where does where do each of you hope this work can lead? I have the mic in my hand.
+
+I feel like that’s a very great way to round it out and wrap it up is to surface, as you have mentioned, to surface these things, the differences, the commonalities, the similarities and also what this could yield and inform. So thank you so much for that. I think for me, I agree with everything everyone has said and the tool I think in terms of Scott’s comment, the tool I think will be also quite helpful. So with that, I will hand over to Garrett and Ryan and thank everyone for their attention. Thank you to the common lexicon focus group.

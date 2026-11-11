@@ -1,0 +1,20 @@
+{
+ "source": "day3-pm.docx",
+ "title": "WIPO S2T: AIII 2026-11-11 4a0b1234-ddd2-4b88-8469-08df3bdeff52 en",
+ "date": "2026-11-11",
+ "generated": "2026-11-11T23:32:49+00:00",
+ "turns": 130,
+ "paragraphs": 351,
+ "words": 25913,
+ "base_utc": null,
+ "clock_note": "markers 없음: 시계 보정 불가 (실제 시각 표시 생략)",
+ "sessions": {
+  "d3-08": 32,
+  "d3-09": 119,
+  "d3-10": 1,
+  "d3-11": 107,
+  "d3-12": 23,
+  "d3-13": 59,
+  "d3-14": 10
+ }
+}
