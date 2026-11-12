@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>WIPO First Global Forum on IP and AI</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <style>
   /* 디자인: Apple 디자인 가이드(DESIGN-apple.md) 적용 — 단일 강조색(Action Blue), 필(pill) 버튼, 파치먼트 캔버스, 헤어라인, 그림자 없음 */
   :root {
@@ -195,11 +196,73 @@
   .rp-act { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; }
   .rp-act .rp-d { color: var(--muted); }
   .rp-act ol { margin: 6px 0 0; padding-left: 20px; line-height: 1.7; }
+  /* 리포트 가독성: 틀은 그대로, 색·글꼴·소제목만 조정 (본문은 짙은 회청색, 제목은 네이비, 일차별 색, '관점' 상자는 옅은 청색) */
+  #report-wrap {
+    --rp-ink: #262b33; --rp-head: #0f2747; --rp-sub: #556073; --rp-label: #6b7587; --rp-line: #e3e7ed;
+    --rp-kp-bg: #f0f5fc; --rp-kp-line: #d5e2f5; --rp-kp-ink: #164a99; --rp-tag: #0f2747; --rp-on-tag: #ffffff;
+    --rp-hl: var(--rp-head); --rp-d1: #2456c4; --rp-d2: #0d7a69; --rp-d3: #ad5b07;
+    font-family: "Pretendard Variable", Pretendard, var(--font); color: var(--rp-ink); letter-spacing: -0.005em;
+    word-break: keep-all; overflow-wrap: anywhere;
+  }
+  @media (prefers-color-scheme: dark) {
+    #report-wrap {
+      --rp-ink: #dfe3ea; --rp-head: #f2f5fa; --rp-sub: #a3adbd; --rp-label: #8f99aa; --rp-line: #2e333b;
+      --rp-kp-bg: #142235; --rp-kp-line: #22385a; --rp-kp-ink: #8db8ff; --rp-tag: #c9d9f5; --rp-on-tag: #0d1520;
+      --rp-d1: #82a8ff; --rp-d2: #5fd0bd; --rp-d3: #f0aa5c;
+    }
+  }
+  #rp-day1 { --rp-hl: var(--rp-d1); } #rp-day2 { --rp-hl: var(--rp-d2); } #rp-day3 { --rp-hl: var(--rp-d3); }
+  #report-wrap p, #report-wrap li { color: var(--rp-ink); }
+  #report-wrap .rp-hero { padding: 28px 30px; }
+  #report-wrap .rp-hero h2 { color: var(--rp-head); font-weight: 800; letter-spacing: -0.03em; font-size: 32px; }
+  #report-wrap .rp-hero .sub { color: var(--rp-ink); font-weight: 500; font-size: 16.5px; }
+  #report-wrap .rp-hero .note { color: var(--rp-label); }
+  #report-wrap .rp-nav a, #report-wrap .rp-nav button { color: var(--rp-head); font-weight: 600; border-color: var(--rp-line); background: var(--card); }
+  #report-wrap .rp-nav a:hover, #report-wrap .rp-nav button:hover { border-color: var(--rp-head); background: var(--rp-kp-bg); color: var(--rp-head); }
+  #report-wrap .rp-sec { padding-top: 34px; border-top: 1px solid var(--rp-line); margin-bottom: 44px; }
+  #report-wrap .rp-hero + .rp-sec { border-top: 0; padding-top: 0; }
+  #report-wrap .rp-sec > h2 { color: var(--rp-hl); font-size: 28px; font-weight: 800; letter-spacing: -0.03em; line-height: 1.25; }
+  #report-wrap .rp-sec > .theme { color: var(--rp-sub); font-size: 16.5px; font-weight: 500; margin-bottom: 20px; }
+  #report-wrap .rp-sec h3 { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; color: var(--rp-head); font-size: 18px; font-weight: 700; margin: 28px 0 12px; }
+  #report-wrap .rp-sec h3::before { content: ""; width: 4px; height: 18px; border-radius: 2px; background: var(--rp-hl); flex: none; }
+  #report-wrap .rp-sec h3 small { margin-left: 0; color: var(--rp-label); font-size: 13px; font-weight: 400; }
+  #report-wrap .rp-intro { color: var(--rp-ink); font-size: 16px; line-height: 1.8; max-width: 72em; }
+  #report-wrap .rp-card { padding: 20px 24px; border-color: var(--rp-line); }
+  #report-wrap .rp-card h4 { color: var(--rp-head); font-size: 17.5px; font-weight: 700; line-height: 1.45; letter-spacing: -0.02em; margin-bottom: 10px; }
+  #report-wrap .rp-card p, #report-wrap .rp-card li { font-size: 15.5px; line-height: 1.75; }
+  #report-wrap .rp-prose p { font-size: 16px; line-height: 1.85; margin-bottom: 12px; }
+  #report-wrap .rp-two .rp-card + .rp-card { background: var(--rp-kp-bg); border-color: var(--rp-kp-line); }
+  #report-wrap .rp-two .rp-card + .rp-card h4 { color: var(--rp-kp-ink); }
+  #report-wrap .rp-kv { margin-top: 12px; }
+  #report-wrap .rp-kv b { color: var(--rp-label); font-size: 12.5px; font-weight: 700; letter-spacing: 0.02em; margin-bottom: 4px; }
+  #report-wrap .rp-kv.why { background: var(--rp-kp-bg); border: 1px solid var(--rp-kp-line); padding: 12px 16px; margin-top: 14px; }
+  #report-wrap .rp-kv.why b { color: var(--rp-kp-ink); }
+  #report-wrap .rp-kv.why p { color: var(--rp-ink); font-weight: 500; }
+  #report-wrap .rp-card .area { color: var(--rp-on-tag); background: var(--rp-tag); border-color: var(--rp-tag); font-weight: 600; }
+  #report-wrap .rp-card .area.hz { color: var(--rp-kp-ink); background: var(--rp-kp-bg); border-color: var(--rp-kp-line); }
+  #report-wrap .rp-card .outlook { color: var(--rp-sub); font-size: 14.5px; border-top: 1px dashed var(--rp-line); padding-top: 10px; margin-top: 12px; }
+  #report-wrap .rp-card .outlook b, #report-wrap .rp-tl .so b { color: var(--rp-kp-ink); }
+  #report-wrap .rp-refs { margin-top: 14px; }
+  #report-wrap .rp-refs > span { color: var(--rp-label); font-weight: 600; }
+  #report-wrap .rp-ref { background: transparent; border-color: var(--rp-line); color: var(--rp-sub); }
+  #report-wrap .rp-ref:hover { border-color: var(--rp-kp-ink); color: var(--rp-kp-ink); }
+  #report-wrap .rp-list { border-color: var(--rp-line); }
+  #report-wrap .rp-row { padding: 16px 22px; border-bottom-color: var(--rp-line); }
+  #report-wrap .rp-row .t { color: var(--rp-hl); font-size: 15px; font-weight: 700; }
+  #report-wrap .rp-row .t small { color: var(--rp-label); }
+  #report-wrap .rp-row p { font-size: 15.5px; line-height: 1.75; }
+  #report-wrap .rp-tl .when { color: var(--rp-head); font-weight: 700; font-size: 15px; }
+  #report-wrap .rp-tl .so { color: var(--rp-sub); }
+  #report-wrap .rp-act .rp-card h4 { color: var(--rp-on-tag); background: var(--rp-tag); margin: -20px -24px 14px; padding: 12px 24px; border-radius: 17px 17px 0 0; font-size: 16px; }
+  #report-wrap .rp-act li { margin: 8px 0; }
+  #report-wrap .rp-act li b { color: var(--rp-head); }
+  #report-wrap .rp-act .rp-d { color: var(--rp-sub); }
   @media (max-width: 900px) { #report-wrap { padding-left: 16px; padding-right: 16px; } .rp-row, .rp-tl .rp-row { grid-template-columns: 1fr; } .rp-grid.wide, .rp-two { grid-template-columns: 1fr; } .rp-hero h2 { font-size: 24px; } }
   @media print {
     header, #status, #site-footer, .rp-nav { display: none !important; }
     #report-wrap { max-width: none; padding: 0; }
     .rp-card, .rp-list, .rp-hero { break-inside: avoid; border-color: #ccc; }
+    #report-wrap .rp-act .rp-card h4 { background: none; color: #000; margin: 0 0 8px; padding: 0; }
     .rp-sec { break-before: auto; }
   }
 
