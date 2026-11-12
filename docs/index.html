@@ -82,6 +82,16 @@
   .dayseg button[aria-pressed=true] { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
   .dayseg button[aria-pressed=true]:hover { color: var(--on-accent); }
   /* 푸터 (Apple 가이드: 파치먼트 바탕, 12px 작은 글씨, 헤어라인) */
+  /* 리포트 맨 위로 버튼 (스크롤을 내렸을 때만 표시) */
+  #to-top { position: fixed; right: calc(20px + env(safe-area-inset-right, 0px)); bottom: calc(24px + env(safe-area-inset-bottom, 0px)); z-index: 6;
+            display: inline-flex; align-items: center; gap: 6px; padding: 10px 18px; border: 0; border-radius: 9999px;
+            background: var(--accent); color: var(--on-accent); font-size: 14px; font-weight: 600; box-shadow: 0 4px 14px rgba(0,0,0,.18);
+            opacity: 0; transform: translateY(8px); pointer-events: none; transition: opacity .2s ease, transform .2s ease; }
+  #to-top.show { opacity: 1; transform: none; pointer-events: auto; }
+  #to-top:hover { background: var(--accent-focus); color: var(--on-accent); }
+  #to-top:active { background: var(--accent-press); transform: scale(.95); }
+  @media (prefers-reduced-motion: reduce) { #to-top { transition: none; } }
+  @media print { #to-top { display: none !important; } }
   #site-footer { margin-top: 56px; border-top: 1px solid var(--line); background: var(--bg); color: var(--muted); font-size: 12px; line-height: 1.7; padding: 26px 0 44px; }
   #site-footer .foot-in { max-width: var(--wrap); margin: 0 auto; padding: 0 24px; }
   #site-footer p { margin: 0 0 4px; }
@@ -481,6 +491,7 @@
   </aside>
 </main>
 
+<button id="to-top" type="button" aria-label="맨 위로" tabindex="-1"><span aria-hidden="true">↑</span> 맨 위로</button>
 <footer id="site-footer">
   <div class="foot-in">
     <p class="foot-org">지식재산처 IP-AX 추진단 / Designed by Buyong JEONG(2026-11-09)</p>
@@ -1865,13 +1876,17 @@ function selectTab(name) {
   $("ctlbar").hidden = name === "program" || name === "report";
   setHdrVar();                       // 프로그램 탭에는 스트림 선택 등 조작 막대를 숨김 (단순화)
   history.replaceState(null, "", name === "program" ? location.pathname + location.search : "#" + name);
-  showStatus();
+  showStatus(); updateToTop();
   if (name === "live") { livePoll(); el.liveBox.scrollTop = el.liveBox.scrollHeight; }
   else if (name === "program") { refreshProgram(); }
   else if (name === "status") { refreshStatus(); }
   else if (name === "report") { refreshReport(); }
   else { if (savedDay !== curDay) { lines = []; refreshSaved(); } if (follow) window.scrollTo({ top: document.body.scrollHeight }); }
 }
+/* 리포트 맨 위로 버튼 */
+function updateToTop() { const toTop = document.getElementById("to-top"); if (!toTop) return; const on = tab === "report" && window.scrollY > 600; toTop.classList.toggle("show", on); toTop.tabIndex = on ? 0 : -1; }
+document.getElementById("to-top").addEventListener("click", () => window.scrollTo({ top: 0, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" }));
+window.addEventListener("scroll", updateToTop, { passive: true });
 /* 행사정보 메뉴: 두 행사의 WIPO 페이지로 이동 (고정 위치라 탭 줄이 가로 스크롤이어도 잘리지 않음) */
 const infoBtn = $("tab-info"), infoMenu = $("info-menu");
 function closeInfo() { infoMenu.hidden = true; infoBtn.setAttribute("aria-expanded", "false"); }
