@@ -1,0 +1,66 @@
+# [d3-06] Metadata Framing Focus Group Update
+# 발표자: Mr. Garrett Levin  (floor)
+# Day 3 · 2026-11-11 · 예정 12:10-13:00 (Geneva) · 발언 25회 · 38단락 · 2,271단어 · 구분 방식: official
+
+So if I could ask our metadata panelists, focus group members to come on up and join me on the stage. You know, this morning both in the workflows and then in Diamond’s presentation saw the deep importance of please come up. I’m just going to talk and vamp while you’re making your way up. It’s fine. The deep importance of knowing who did what, what they did, how they did it and have that kind of information travel with the material through those very complicated and intricate workflows.
+You know, these questions that relate to who made it, what it’s made of, has it been changed? How was AI used? What can I or anyone else do with it? That’s what this group has been talking about for the last six months and is going to be talking about for the next 45 minutes and 28 seconds until we go to lunch. So I have the privilege of being able to moderate this panel and I’m not going to do deep introductions.
+Their names are up there. You have biographies in the profile. But instead we’re going to start with something maybe a bit unorthodox for a panel discussion at the UN which is a poem.
+
+So we’re going to circle back to these inadequacies towards the end of the panel. But we wanted to start with talking about why we need this kind of information and who needs this information. So the group put together this list of six different categories of metadata types with 20 different subcategories of specific things all around why we need it. Mariah, you have done research in this space and we’re a big driver of our work here. One thing that you have noted in the conversations is that we can’t think of these why questions as entirely unrelated.
+They are linked together among other ways through times, a big focus of yours. What does a creator actually get asked about these things and when do they get asked these questions?
+
+Thanks, Marietta. And I actually should note, I was remiss in not saying this up front, this focus group gets the prize for the most posts on Confluence. It was the most robust conversation amongst all of the focus groups which were all quite robust kind of leading, highlighting just how complicated this topic can be. And Fabian, one of the things that the group identified is that in addition in kind of thinking about these categories, some of them are about scope, like what needs to be described and some are about function, what needs to be enabled. You have really discussed a lot in the focus group that all of it needs to be anchored and that the anchor has to come first before we move forward from that.
+Okay. Tell everybody what is the anchor? What do you mean by that? And why does it need to come first?
+
+Thanks, Fabian. Harry, let’s make this kind of real and practical for a second. In a working licensing business, looking at that Venn diagram, what’s possible when there are answers provided in the rights section? And what literally can’t happen when there’s nothing there?
+
+Thanks. And kind of towards the late in the conversation amongst the group after we had spent a lot of time talking about why is metadata needed, one of the group members raised the point that there also needed to be focus on who needs metadata. So the group built another Venn diagram of eight categories. The Venn diagram, not an accident. All of this stuff is really, really overlapping.
+So these are the eight categories that the group kind of developed for answering the who question. Andy, I want to turn to you because this is something you focused on a lot in the discussions. Who does the work? Who gets the benefit? Who provides what data?
+Who carries that data forward? How do we think about the incentives and relationships and how all of those things contribute to the challenges in the AI space currently?
+
+Thanks, Andy. And for those who joined us at the global forum on IP and AI on Monday and Tuesday, Andy’s colleague Imogen Heap talked a lot about this during one of the panels on Monday. You can check it out on the webcast if you missed it. Bill, this group has put together two diagrams with 20 kinds of answers, eight different sets of actors relying on those answers for some reason or another. A lot of infrastructure has been built over the last few decades in response to kind of digital distribution to ensure that certain answers make it to certain parties reliably.
+From your perspective, are there areas where this is working better than in others? And are there particular answers that have never really arrived in all the years you have been working in this space?
+
+Thanks, Bill. So now that we have kind of grounded all of this stuff in the who and the what, the group actually came up with some use cases drawn from kind of real potential examples of how this works in the AI space. So we’re going to talk about these use cases across a time-based dimension, across different stages and also highlighting whether these are issues arising that are AI created, just newly arising because of AI, if they’re AI amplified issues or if they are unchanged by AI, things that have long vexed many industries around these data challenges. So we’re going to kind of go one by one, tell a little bit of a story of a use case and then we’re going to dig into them a little bit more. So Marietta, can you kick us off with a use case?
+And we don’t need the slide up for this. We can just be dramatic and hear the story.
+
+So we have built some little visualizations of these stories as well. So if we put the slides back up and then Marietta, if you can walk us through this from a foundational metadata, you’ll see it references back to the categories that we were referencing.
+
+Thanks, Marietta. So Fabian, this scenario, we have a recording that has an ID as Marietta mentioned. We have a voice that has no identification, that’s used to create an AI model, something that didn’t exist when these infrastructure systems were built. Does a voice now need its own anchor information to go back to your anchoring idea? And what has to be true at that moment of creation when Marietta is in the recording session for things downstream to work assuming everything else goes according to plan?
+
+Andy, going back to kind of what you were talking about before, this is a failure at kind of the person level, not really necessarily the work level. It’s the singer’s voice and identity. Almost all of the existing infrastructure has been built around works. This is something that keeps coming up. What changes if we shift our thinking towards human attributes rather than tracking only things like songs or recordings?
+Who would actually be motivated to build something like that?
+
+Thanks, Andy. Fabian, can we turn to you for another, for a little bit more story time, another use case.
+
+I think that’s pretty much the use case. I think that’s the story, yeah. So we can walk through it again with some just kind of walk through each steps if you want to.
+
+So Bill, this example I think going back to the earlier conversation, this touches on a decades long problem in digital distribution. Information does not make its way all the way through the supply chain. You have emphasized during all of the group’s deliberations that we cannot expect to solve all the world’s metadata problems and challenges but what did AI change here? How has it altered this set of problems?
+
+Thanks, Bill. Harry, in this example the photographer sent the information but it got lost along the way. Honestly from the technical level is there a difference between information that is just attached to a file and information that can survive being copied?
+
+Thanks. Andy, let’s hear another use case.
+
+So I guess we should look at the timeline. Yeah, let’s see the timeline for this one then and walk us through it.
+
+So Marietta, let’s pick up on this. You have a fully accurate record documented at the beginning of all the information one might want and music is still unfindable. So what does this tell us about the systems that have been built for one commercial purpose as the input into systems used for other purposes, in this case, this kind of hypothetical AI agent driven mood music search?
+
+Harry, let’s talk a little bit about some of the, I guess, technical aspects of this for one second. How do classification systems like the one that are being talked about here, how are they built? This is something your industry, the publishing industry has done. You categorize things. You classify things.
+Who has to agree and how does it get implemented?
+
+That’s great. So I’m keeping an eye on the clock and we are getting well, we’re four minutes past the lunch break. We have quite a bit left to cover. So I’m going to skip we have two more use cases. We’re going to skip them.
+We’re going to do them quickly anyway, but we’ll not do them. We will post the entire deck so people can see them, two more examples. What I actually want to jump to if my colleagues with the deck can help me is to jump to slide 79 and help us return to that starting poem. The group has kind of identified seven different types of data inadequacies, seven ways that the information, that the answer fails, information is lacking. Marietta, is there a reason on this list of seven that is most common or a reason that is most damaging?
+
+Bill, one of your consistent points in this work is that solving these problems by simply adding more and more data and more standards may not be the best solution and instead it would be wise to focus on specific tangible problems. Does framing the conversation around these types of points of failure give us a better chance of advancing that project? And is there a particular type of failure that strikes you as the most problematic?
+
+So let’s end with a little bit of a focus on kind of where this group’s work has been headed which is towards thinking about and articulating metadata principles for the AI environment and an almost checklist type approach of evaluating proposals and solutions and ideas. Fabian, one thing this group, I have been very struck by in the work is a real concerted effort to not assign blame, to not say it is this party’s fault, it is that party’s fault if only this group would get their act together. This checklist and the principles and I should note that you and Andy were kind of some of the lead drivers on that checklist. These are agnostic to the issue of blame and also honestly to the issue of responsibility. So can this really be a joint effort?
+
+Harry, I’ll give you the last question before a very last quickfire round. But a test that is too expensive or impossible to implement probably won’t be very useful in this moment. How can and should we think about things like accessibility, affordability, practicality when thinking about metadata, technical issues so that it’s accessible to potentially all the way from the individual creator to the largest companies in the world?
+
+So let’s end with a quick fire round because we are standing in the way of everybody and lunch. And I want each of you based on your own expertise and experience and perspective, what are two or if you have two, three of the most pressing issues in this metadata space at this moment and specifically to the ongoing work of this group, what are you hopeful that we can, that you all can kind of move towards going forward? So I’m actually going to go in reverse order.
+
+Thanks, Bill. And Marietta, as the inspiration for the focus group and the lead of the focus group, you get the last word.
+
+Lots of great stuff, lots of work ahead in this very rich topic. I thank all of you all and if we could put the full focus group slide oh, there they are. The other members of this focus group, thank you all very much. You have your work cut out for you starting tomorrow, moving forward. And with that, we have reached the lunch break.
+So we will break until that QR code is not going to work for the industry workflows just as a heads up. If you will try to access it on your mobile, you will get a suboptimal experience. But we will change it so it has the URL. You can still respond to the poll from early this morning. We will reconvene at 3:00 p.m. Geneva time for a keynote address from Yuki Mitsufuji about attribution technology.
+And just a quick note to those in the room, 10 members, there are some reserved tables for you all in the cafeteria at WIPO so you can talk and get to know each other. You guys can keep working. There’s a lot to do. And we will see you all shortly. Bon appetite.
